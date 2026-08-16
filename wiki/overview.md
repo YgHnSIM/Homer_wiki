@@ -30,10 +30,13 @@ status: active
 
 ## 고대 그리스 핵심 개념 및 가치관
 
+- **[[Menis]] (μῆνις — 신적 분노)**: 신성한 질서 침해에 대해 발동하는 우주적 파괴력과 초월적 분노.
+- **[[Hikesia]] (ἱκεσία — 탄원)**: 무릎을 잡고 턱을 만지는 신체 접촉을 통한 신성한 구명과 화해의 의례.
 - **[[Arete]] (ἀρετή — 탁월성/용맹)**: 전사의 무용, 지혜, 신분적 탁월함.
 - **[[Kleos]] (κλέος — 불멸의 명예)**: 영웅이 서사시나 노래를 통해 후세에 남기는 영원한 이름과 명성.
 - **[[Timê]] (τιμή — 명예/보상)**: 영웅이 공동체나 동료로부터 받는 물질적·사회적 대우.
 - **[[Aidos]] (αἰδώς — 수치심/경외)**: 사회적 비난(Nemesis)을 예견하고 스스로를 억제하는 도덕 감정.
+- **[[Nemesis]] (νέμεσις — 공적 의분)**: 각자의 마땅한 몫과 질서(Kosmos)를 침범한 자에 대한 정의로운 분노.
 - **[[Dike]] (δίκη — 정의/질서)**: 제우스의 우주적 정의와 각자의 정당한 몫.
 - **[[Xenia]] (ξενία — 손님 환대)**: 신의 뜻(제우스 크세니오스)에 따라 낯선 나그네를 대접하는 성스러운 의무.
 - **[[Nostos]] (νόστος — 귀환)**: 고난을 딛고 고향과 가정으로 돌아가는 과정.
@@ -45,7 +48,7 @@ status: active
 
 - **[전체 문서 카탈로그 (index.md)](file:///c:/Vault/Homer_wiki/wiki/index.md)**: 생성된 모든 위키 문서 카탈로그 및 요약.
 - **[위키 작업 이력 (log.md)](file:///c:/Vault/Homer_wiki/wiki/log.md)**: 수집, 분석, 문서 추가/수정 이력 타임라인.
-- **[호메로스 윤리학 종합 분석 (homeric-ethics-literature-review.md)](file:///c:/Vault/Homer_wiki/wiki/analyses/homeric-ethics-literature-review.md)**: 전 세계 주요 연구 및 13종 소스 종합 분석.
+- **[호메로스 윤리학 종합 분석 (homeric-ethics-literature-review.md)](file:///c:/Vault/Homer_wiki/wiki/analyses/homeric-ethics-literature-review.md)**: 전 세계 주요 연구 및 14종 소스 종합 분석.
 - **[LLM 위키 운영 지침 (AGENTS.md)](file:///c:/Vault/Homer_wiki/AGENTS.md)**: 지식 베이스 구축 규칙 및 워크플로 스키마.
 
 ---

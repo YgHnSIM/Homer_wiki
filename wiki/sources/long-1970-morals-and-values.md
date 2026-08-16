@@ -190,6 +190,7 @@ graph TD
 
 - [[homeric-ethics-literature-review]]
 - [[adkins-1960-merit-and-responsibility]]
+- [[scott-1980-aidos-and-nemesis]]
 - [[williams-1993-shame-and-necessity]]
 - [[cairns-1993-aidos]]
 - [[lloyd-jones-1971-justice-of-zeus]]
@@ -197,6 +198,7 @@ graph TD
 - [[Timê]]
 - [[Dike]]
 - [[Aidos]]
+- [[Nemesis]]
 - [[Themis]]
 - [[Moira]]
 - [[Xenia]]

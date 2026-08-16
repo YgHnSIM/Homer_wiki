@@ -103,7 +103,7 @@ graph TD
 
 ---
 
-## 6.️ 서사시 전편 정밀 에피소드 매핑 테이블
+## 6. 서사시 전편 정밀 에피소드 매핑 테이블
 
 | 서사시 권·행 번호 | 다루는 사건 및 인물 | 애드킨스의 언어분석적 해석 |
 |:---|:---|:---|
@@ -114,7 +114,7 @@ graph TD
 
 ---
 
-## 7.️ 학술 논쟁사 및 비판적 공방
+## 7. 학술 논쟁사 및 비판적 공방
 
 > [!WARNING] 반세기 동안 이어진 '애드킨스 논쟁'의 전개
 - **A. A. 롱의 반박 ([[long-1970-morals-and-values|A. A. Long, 1970, *JHS*]])**:
@@ -141,10 +141,12 @@ graph TD
 
 - [[homeric-ethics-literature-review]]
 - [[long-1970-morals-and-values]]
+- [[scott-1980-aidos-and-nemesis]]
 - [[Arete]]
 - [[Timê]]
 - [[Dike]]
 - [[Aidos]]
+- [[Nemesis]]
 - [[Themis]]
 - [[williams-1993-shame-and-necessity]]
 - [[cairns-1993-aidos]]

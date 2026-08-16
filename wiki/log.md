@@ -214,6 +214,29 @@ status: active
   - `wiki/index.md`: 카탈로그 동기화
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-16] feat(sources) | Mary Scott 1980 논문 소스 문서화 및 Aidos·Nemesis 개념 문서 생성
+
+- **작업 개요**: `raw/Mary Scott, “Aidos and Nemesis in the Works of Homer, and their Relevance to Social or Co-operative Values” (1980).pdf` 소스를 정밀 분석하여 `wiki/sources/scott-1980-aidos-and-nemesis.md` 심층 도시에(v3.0 8대 표준 모듈 체계)로 신규 작성하고, 연계 핵심 개념 문서인 `wiki/concepts/aidos.md`와 `wiki/concepts/nemesis.md`를 신규 구축함.
+- **반영된 핵심 학술 성과**:
+  - **아이도스([[Aidos]])의 단일 본질 규명**: 폰 에르파(1937)의 다의적 분절론을 비판하고, 모든 용례를 관통하는 단일한 심리적 공통 분모로서 **'외부 비판에 대한 두려움으로 인한 감정적 위축(Shrinking back / Pulling back / Non-moral inhibition)'** 정립.
+  - **비도덕적 성격과 칸트적 의무론 배제**: 호메로스 영웅의 튀모스(*thumos*) 기반 본능적 습속(*mathon*)과 세간의 평판(*phatis dēmou* / *Öffentlichkeit des Gewissens*)에 따른 작동 원리 규명. 궁핍자에게 아이도스는 해로운 것(*ouk agathē*, *Od.* 17.347)이라는 문헌학적 증거 제시.
+  - **네메시스([[Nemesis]])의 질서 수호 기능**: *nemein*(분배하다)에서 파생되어 각자의 마땅한 몫과 질서(*kosmos*)를 지키도록 요구하는 공적 의분의 메커니즘 규명. '네메시스가 되지 않는다(*ouk esti nemesis*)'를 통한 중용 및 배상 정당화.
+  - **신적 제재(Divine Sanction)의 인류학적 보완**: 결과 중심(Results-culture)의 아레테 규범에서 세속적 처벌력이 약한 탄원([[Hikesia]]), 손님 환대([[Xenia]]), 시신 매장 등의 협력적 가치가 제우스(Zeus Hikesios/Xenios)와 아폴론 등 **신들의 보호 영역으로 이관되어 누미노제적 경외를 획득**하는 과정 실증.
+  - **상호성의 황금률 맹아**: 아킬레우스의 마차 경주 중재 발언(_Il._ 23.492–494)을 통해 타인의 네메시스를 내면화하는 협력적 도덕 의식의 발전 확인.
+- **생성 및 업데이트된 문서**:
+  - `wiki/sources/scott-1980-aidos-and-nemesis.md`: 신규 심층 도시에 작성 (v3.0 8대 모듈)
+  - `wiki/concepts/aidos.md`: 아이도스 개념 문서 신규 작성
+  - `wiki/concepts/nemesis.md`: 네메시스 개념 문서 신규 작성
+  - `wiki/analyses/homeric-ethics-literature-review.md`: 14종 소스 및 제2기 패러다임에 Scott (1980) 반영
+  - `wiki/sources/cairns-1993-aidos.md`: Scott (1980) 및 Nemesis 교차 링크 보강
+  - `wiki/sources/adkins-1960-merit-and-responsibility.md`: 관련 항목 갱신
+  - `wiki/sources/long-1970-morals-and-values.md`: 관련 항목 갱신
+  - `wiki/index.md`: 카탈로그 동기화
+  - `wiki/overview.md`: 대시보드 갱신
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
 
 
 
