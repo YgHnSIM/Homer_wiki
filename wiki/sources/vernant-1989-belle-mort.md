@@ -16,7 +16,7 @@ status: active
 # 아름다운 죽음과 호메로스 영웅 윤리 (*La belle mort et le cadavre outragé*)
 
 > [!NOTE] 학술사적 의의 및 총평
-> 프랑스 역사심리학(Psychologie historique)과 파리 학파(École de Paris)의 거장 장-피에르 베르낭의 대표 논문 「아름다운 죽음과 훼손된 시신(La belle mort et le cadavre outragé)」은 고대 그리스 전사 문명에서 '죽음(Thanatos)'이 어떻게 영웅적 인격의 완성체이자 최고의 미학적·윤리적 승리로 변용되는지를 밝힌 불후의 명작입니다. 필멸의 인간이 노화에 따른 육체적 쇠락을 피하고 영원한 청춘과 불멸의 명예([[concept-kleos|Kleos]])를 획득하기 위해 선택하는 **'아름다운 죽음(la belle mort, kalos thanatos)'**의 형이상학을 정밀하게 해명했습니다.
+> 프랑스 역사심리학(Psychologie historique)과 파리 학파(École de Paris)의 거장 장-피에르 베르낭의 대표 논문 「아름다운 죽음과 훼손된 시신(La belle mort et le cadavre outragé)」은 고대 그리스 전사 문명에서 '죽음(Thanatos)'이 어떻게 영웅적 인격의 완성체이자 최고의 미학적·윤리적 승리로 변용되는지를 밝힌 불후의 명작입니다. 필멸의 인간이 노화에 따른 육체적 쇠락을 피하고 영원한 청춘과 불멸의 명예(Kleos)를 획득하기 위해 선택하는 **'아름다운 죽음(la belle mort, kalos thanatos)'**의 형이상학을 정밀하게 해명했습니다.
 
 ---
 

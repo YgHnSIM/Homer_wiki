@@ -633,3 +633,25 @@ status: active
   - `wiki/analyses/homeric-ethics-literature-review.md`: 개념망 및 인물 링크 갱신
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-17] refactor(all) | 콜아웃 및 인용 블록 내 위키링크 금지 규칙 제정 및 볼트 전수 정제
+
+- **작업 개요**: 콜아웃(`> [!NOTE]`, `> [!WARNING]` 등) 및 인용 블록(`> **요약**:`, `> ...`) 내 서식 복잡도 감소와 렌더링 무결성을 위해 **콜아웃/인용 블록 내 위키링크 금지** 규칙을 제정하고, 볼트 전체 문서 내 콜아웃 위키링크를 일반 텍스트로 일괄 정제함.
+- **주요 반영 내역**:
+  - **지침 및 스킬 규칙화**:
+    - `AGENTS.md`: 2.2절 내부 링크 규칙에 '콜아웃 및 인용 블록 내 링크 절대 금지' 조항 추가.
+    - `.agents/skills/homer-entity/SKILL.md` 및 `homer-word/SKILL.md`: 2절 필수 준수 규칙 제8조로 신설.
+  - **볼트 전수 링크 정제**:
+    - `words/word-achilles.md`: 요약 블록 내 아킬레우스 링크 일반 텍스트화.
+    - `wiki/sources/` 10개 문서: 상단 논문 요약 블록 및 인용구 내 위키링크 14건 일반 텍스트화.
+    - `wiki/concepts/` 3개 문서: 정의/인용 블록 내 위키링크 4건 일반 텍스트화.
+    - `wiki/entities/entity-achilles.md`: 후대 전승 콜아웃 내 위키링크 일반 텍스트화.
+    - `wiki/analyses/homeric-ethics-literature-review.md`: 서두 인용 블록 내 위키링크 2건 일반 텍스트화.
+- **갱신 파일**:
+  - `AGENTS.md`: 2.2절 규정 갱신
+  - `.agents/skills/homer-entity/SKILL.md` & `homer-word/SKILL.md`: 제8조 규칙 추가
+  - `words/word-achilles.md`, `wiki/entities/entity-achilles.md` 등 15개 위키/단어 문서: 콜아웃 링크 정제
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+

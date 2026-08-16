@@ -144,7 +144,7 @@ graph TD
 
 ### 인용 3: 상호적 티메(*timê*)와 타인 존중
 > *"The logic of timê requires attention to the rights of some others, though not of course equal rights... The preservation of one's timê is fundamental, but it depends on respecting the timai of others, strangers, kin, as well as on acts of prowess."* (pp. 138, 139)  
-> **[주석]**: 명예([[concept-time|Timê]])가 배타적 이기주의가 아니라, 타인의 권리와 몫을 존중할 때 비로소 유지되는 상호적 사회 제도임을 밝힘.
+> **[주석]**: 명예(Timê)가 배타적 이기주의가 아니라, 타인의 권리와 몫을 존중할 때 비로소 유지되는 상호적 사회 제도임을 밝힘.
 
 ---
 

@@ -16,7 +16,7 @@ status: active
 # 호메로스 저작에서의 아이도스와 네메시스 (*Aidos and Nemesis in the Works of Homer, and their Relevance to Social or Co-operative Values*)
 
 > [!NOTE] 학술사적 의의 및 총평
-> 메리 스콧(Mary Scott)의 1980년 논문 「호메로스 저작에서의 아이도스와 네메시스, 그리고 사회적·협력적 가치와의 연관성」(*Aidos and Nemesis in the Works of Homer, and their Relevance to Social or Co-operative Values*, *Acta Classica* 23)은 호메로스 도덕심리학의 양대 핵심 감정인 **아이도스([[concept-aidos|Aidos]])**와 **네메시스([[concept-nemesis|Nemesis]])**의 상호 연동 메커니즘을 문헌학적·사회심리학적으로 규명한 고전적 연구입니다. 스콧은 폰 에르파(C. E. von Erffa, 1937)의 파편화된 의미 분절론을 비판하고 베르데니우스(W. J. Verdenius, 1945)의 직관을 확장하여, 아이도스의 본질을 외부 비판에 대한 두려움에서 비롯된 단일한 **'감정적 위축(Shrinking back / Pulling back / Non-moral inhibition)'**으로 정의했습니다. 나아가 호메로스 사회가 결과 중심의 아레테([[concept-arete|Arete]]) 체계 속에서도 탄원([[concept-hikesia|Hikesia]]), 손님 환대([[concept-xenia|Xenia]]), 가족 질서와 같은 협력적·비경쟁적 가치를 보호하기 위해 이 감정들을 어떻게 **신적 제재(Divine Sanction)**의 영역으로 이관하여 보완했는지를 명쾌하게 밝혔습니다.
+> 메리 스콧(Mary Scott)의 1980년 논문 「호메로스 저작에서의 아이도스와 네메시스, 그리고 사회적·협력적 가치와의 연관성」(*Aidos and Nemesis in the Works of Homer, and their Relevance to Social or Co-operative Values*, *Acta Classica* 23)은 호메로스 도덕심리학의 양대 핵심 감정인 **아이도스(Aidos)**와 **네메시스(Nemesis)**의 상호 연동 메커니즘을 문헌학적·사회심리학적으로 규명한 고전적 연구입니다. 스콧은 폰 에르파(C. E. von Erffa, 1937)의 파편화된 의미 분절론을 비판하고 베르데니우스(W. J. Verdenius, 1945)의 직관을 확장하여, 아이도스의 본질을 외부 비판에 대한 두려움에서 비롯된 단일한 **'감정적 위축(Shrinking back / Pulling back / Non-moral inhibition)'**으로 정의했습니다. 나아가 호메로스 사회가 결과 중심의 아레테(Arete) 체계 속에서도 탄원(Hikesia), 손님 환대(Xenia), 가족 질서와 같은 협력적·비경쟁적 가치를 보호하기 위해 이 감정들을 어떻게 **신적 제재(Divine Sanction)**의 영역으로 이관하여 보완했는지를 명쾌하게 밝혔습니다.
 
 ---
 

@@ -36,7 +36,7 @@ status: active
 1권에서 [[entity-agamemnon|아가멤논]]이 사제 [[entity-chryses|크리세스]]나 예언자 [[entity-calchas|칼카스]], 아킬레우스에게 품은 분노는 *Cholos* 혹은 *Kotos*의 범주에 머뭅니다. 반면 아킬레우스의 분노는 신적 섭리(제우스의 뜻, *Dios Boulê*, Διὸς βουλή, _Il._ 1.5)와 직결되어 *Mênis*의 위상을 획득합니다.
 
 > [!WARNING] 모순/이설 발견: 메니스의 본질에 대한 두 가지 학술적 해석
-> - **우주론적·제도적 관점 (Muellner 1996, Nagy 1979, Watkins 1977)**: 메니스는 개인적 심리 상태가 아니라, 신적 주권과 사회적 규범([[concept-themis|Themis]])을 침해당한 주체가 질서 회복을 위해 발동하는 '초개인적 신성 제재(Sacral Sanction)'로 파악합니다.
+> - **우주론적·제도적 관점 (Muellner 1996, Nagy 1979, Watkins 1977)**: 메니스는 개인적 심리 상태가 아니라, 신적 주권과 사회적 규범(Themis)을 침해당한 주체가 질서 회복을 위해 발동하는 '초개인적 신성 제재(Sacral Sanction)'로 파악합니다.
 > - **도덕심리학적·실존적 관점 (Shay 1994, Zanker 1994)**: 메니스를 최고 지휘관의 배신으로 인한 '도덕적 상해(Moral Injury)'와 절망, 전우의 전사로 인한 트라우마가 빚어낸 '탈인간화(Dehumanization) 및 버서크(Berserk) 상태'로 해석합니다.
 
 ---
