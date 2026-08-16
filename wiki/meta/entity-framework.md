@@ -101,14 +101,14 @@ corpus: [iliad, odyssey]
 
 ```mermaid
 graph LR
-    subgraph Axis1["1. 자료 유형 (Source Type)"]
+    subgraph Axis1["[축 1] 자료 유형 (Source Type)"]
         S1["호메로스 본문 (Homeric Text)"]
         S2["물질/고고학 자료 (Material Evidence)"]
         S3["언어/비문 자료 (Linguistic/Epigraphic)"]
         S4["후대 전승/수용 (Post-Homeric Tradition)"]
         S5["현대 학술 연구 (Modern Scholarship)"]
     end
-    subgraph Axis2["2. 확실성 층위 (Certainty Level)"]
+    subgraph Axis2["[축 2] 확실성 층위 (Certainty Level)"]
         C1["원전 명시 (Textually Explicit)"]
         C2["강한 학술 추론 (Strong Inference)"]
         C3["논쟁적/대립 가설 (Scholarly Debated)"]

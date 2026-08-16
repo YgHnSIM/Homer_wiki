@@ -728,3 +728,17 @@ status: active
   - `custom.scss`: 커스텀 SCSS 스타일 생성
   - `.github/workflows/deploy.yml`: SCSS 복사 단계 추가
   - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-17] fix(analyses) | 머메이드 노드 라벨 리스트 구문 충돌 정정 및 렌더링 정상화
+
+- **작업 개요**: 머메이드(Mermaid) 플로우차트 노드 라벨 내부의 번호 매김 구문(`0. `, `1. `, `2. ` 등)이 마크다운 순서 리스트로 오인식되어 `Unsupported markdown: list` 에러가 발생하는 현상을 전수 정정함.
+- **주요 반영 내역**:
+  - `wiki/analyses/homeric-ethics-literature-review.md`, `concept-aidos.md`, `concept-epic-cycle.md`, `concept-nemesis.md`, `entity-framework.md`, `lee-junseok-2016-odyssey-humanity.md` 등 6개 문서 내 머메이드 노드 번호 서식을 `(0)`, `(1)` 및 `[제1편]` 형태로 일괄 치환하여 렌더링 무결성 확보.
+- **갱신 파일**:
+  - `wiki/analyses/homeric-ethics-literature-review.md`: 2.1절 서사 구조도 노드 번호 정정
+  - `wiki/concepts/concept-aidos.md`, `concept-epic-cycle.md`, `concept-nemesis.md`: 개념 다이어그램 정정
+  - `wiki/meta/entity-framework.md`: 증거 축 서브그래프 라벨 정정
+  - `wiki/sources/lee-junseok-2016-odyssey-humanity.md`: 논증 구조도 노드 번호 정정
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
