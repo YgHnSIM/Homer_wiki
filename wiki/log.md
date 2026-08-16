@@ -375,14 +375,14 @@ status: active
   - `wiki/sources/lee-junseok-2018-wrath-and-pity.md`: 메니스 희랍어 철자 교정
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
 
+## [2026-08-16] fix(analyses) | 호메로스 윤리학 연구 문헌 TOP 20 표 열 오류 및 위키링크 이스케이프 정정
 
-
-
-
-
-
-
-
-
-
+- **작업 개요**: `wiki/analyses/homeric-ethics-literature-review.md` 제1장 '호메로스 윤리학 연구 문헌 TOP 20' 표에서 16위(Gregory Nagy) 행의 위키링크 파이프 미이스케이프로 인해 발생한 열 어긋남 및 불필요한 7번째 빈 열을 정정함.
+- **주요 수정 사항**:
+  - **위키링크 파이프 이스케이프**: `[[Kleos | Kleos Aphthiton]]` → `[[Kleos\|Kleos Aphthiton]]`으로 마크다운 테이블 파이프 문자 탈출 처리.
+  - **표 열 구조 정상화**: 전체 6개 열(순위, 저자, 저작/논문명, 피인용수, 핵심 연구 내용, 위키 링크) 구조로 통일하고 불필요한 말미 공백 열 제거.
+- **업데이트된 연관 문서**:
+  - `wiki/analyses/homeric-ethics-literature-review.md`: TOP 20 표 구조 정규화
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
