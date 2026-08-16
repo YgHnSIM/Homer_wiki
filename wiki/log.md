@@ -560,6 +560,21 @@ status: active
   - `wiki/entities/achilles.md`: 관련 항목 링크 추가
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-17] fix(words) | 단어 사전 템플릿 YAML 프론트매터 및 Mermaid 다이어그램 서식 오류 정정
+
+- **작업 개요**: `words/_template.md`의 상단 프론트매터 파싱 구문 오류(Syntax Error)와 Mermaid 어원 전파 계통도 블록 내 후행 공백 및 서식을 일괄 정정함.
+- **수정 내역**:
+  - `pie_root`, `word_type`, `status` 항목의 유효한 기본 플레이스홀더를 지정하고 선택 옵션들을 YAML 주석(`#`)으로 분리 명시하여 옵시디언 및 파서 호환성 확보.
+  - Mermaid 블록 내 30번 라인의 불필요한 후행 공백(`    `, 4-space whitespace)을 제거하고 표준 주석(`%%`)을 적용하여 다이어그램 렌더링 안정성 확보.
+- **갱신 파일**:
+  - `words/_template.md`: 프론트매터 및 Mermaid 코드 블록 서식 정정
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
+
+
 
 
 

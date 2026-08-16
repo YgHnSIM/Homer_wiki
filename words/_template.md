@@ -1,15 +1,15 @@
 ---
-word: 표제어 (Modern English Word / Eponym)
-greek_root: 원어 철자 (라틴 전사, 품사/원형)
-pie_root: "*인구어조어 어근" | "Pre-Greek substrate" | "Uncertain / Pending"
-word_type: concept | eponym | root | borrowing
+word: word_name # 현대 영어 표제어 (Modern English Word / Eponym)
+greek_root: ῥίζα (rhiza, 명사) # 원어 철자 (라틴 전사, 품사/원형)
+pie_root: "*root-" # "*PIE 조어 어근" | "Pre-Greek substrate" | "Uncertain / Pending"
+word_type: concept # concept | eponym | root | borrowing
 transmissions: [greek, latin, old_french, middle_english, modern_english]
 aliases: [원어 표기, 다른 철자, 파생 표제어]
-tags: [type/word, domain/etymology, status/active]
+tags: [type/word, domain/etymology, status/draft]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-sources: [관련 사전 및 문헌 출처 (예: Beekes 2010, LSJ, OED)]
-status: active | review
+sources: [] # 관련 사전 및 문헌 출처 (예: Beekes 2010, LSJ, OED)
+status: draft # draft | active | review | archived
 ---
 
 # 표제어 (영단어/인명/개념)
@@ -22,12 +22,14 @@ status: active | review
 
 ```mermaid
 graph TD
+    %% 기본 어원 전파 경로
     PIE["PIE: *root (의미) / 또는 선희랍 기층어"] --> GRK["고대 희랍어: 원어 (라틴전사, 의미)"]
     GRK --> LAT["고전/후기 라틴어: 차용어"]
     LAT --> OFR["고대/중세 프랑스어: 변형어"]
     OFR --> ME["중세 영어: 차용어 (시대)"]
     ME --> MOD["현대 영어: 표제어"]
-    
+
+    %% 현대 파생어 및 학술 차용 분기
     MOD --> DERIV1["파생어 1"]
     MOD --> DERIV2["파생어 2 / 숙어"]
     GRK -.->|직접 학술 차용| MOD2["현대 학술 파생어"]
