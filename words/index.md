@@ -12,6 +12,55 @@ updated: 2026-08-17
 
 ---
 
+## 0. 호메로스 어원 및 어휘 수용사 계통도 (Etymology Graph)
+
+```mermaid
+graph TD
+    classDef greek fill:#f5eee6,stroke:#8f3f2d,stroke-width:2px,color:#1d2021;
+    classDef latin fill:#edf2f7,stroke:#2c5770,stroke-width:1.5px,color:#1d2021;
+    classDef english fill:#eef2ee,stroke:#5c7065,stroke-width:2px,color:#1d2021;
+
+    subgraph Homeric_Epic["호메로스 서사시 원전"]
+        G_Achilles["Ἀχιλλεύ스 (Achilles)"]:::greek
+        G_Mentor["Μέντωρ (Mentor)"]:::greek
+        G_Odysseus["Ὀδυσσεύς (Odysseus)"]:::greek
+        G_Hektor["Ἕκτωρ (Hector)"]:::greek
+        G_Siren["Σειρήν (Seiren)"]:::greek
+        G_Kleos["κλέος (Kleos: 명성/소문)"]:::greek
+        G_Nemesis["Νέμεσις (Nemesis: 응징)"]:::greek
+    end
+
+    subgraph Classical_Transmission["고전 라틴어 / 불어 수용"]
+        L_Achilles["Latin: Achilles"]:::latin
+        L_Mentor["French: Télémaque (1699)"]:::latin
+        L_Odyssea["Latin: Odyssea"]:::latin
+        L_Hector["Middle French: Hector"]:::latin
+        L_Sirena["Latin: Sirena"]:::latin
+        L_Clew["Proto-Germanic: *kliwją"]:::latin
+        L_Nemesis["Latin: Nemesis"]:::latin
+    end
+
+    subgraph Modern_English["현대 영어 어휘 및 용법"]
+        E_Achilles["[[word-achilles|Achilles]]<br/>(Achilles' heel / Achilles tendon)"]:::english
+        E_Mentor["[[word-mentor|Mentor]]<br/>(Wise Counselor / Mentorship)"]:::english
+        E_Odyssey["[[word-odyssey|Odyssey]]<br/>(Epic Journey / Spiritual Quest)"]:::english
+        E_Hector["[[word-hector|Hector]]<br/>(Bully / Intimidate)"]:::english
+        E_Siren["[[word-siren|Siren]]<br/>(Alarm device / Femme fatale)"]:::english
+        E_Clue["[[word-clue|Clue]]<br/>(Ball of thread -> Key evidence)"]:::english
+        E_Nemesis["[[word-nemesis|Nemesis]]<br/>(Archenemy / Inevitable downfall)"]:::english
+    end
+
+    G_Achilles --> L_Achilles --> E_Achilles
+    G_Mentor --> L_Mentor --> E_Mentor
+    G_Odysseus --> L_Odyssea --> E_Odyssey
+    G_Hektor --> L_Hector --> E_Hector
+    G_Siren --> L_Sirena --> E_Siren
+    G_Kleos --> L_Clew --> E_Clue
+    G_Nemesis --> L_Nemesis --> E_Nemesis
+```
+
+---
+
 ## 1. 사전 통계 및 현황
 
 | 분류                                              | 문서 수 | 대표 예시                                 |

@@ -700,3 +700,18 @@ status: active
   - `.gitignore`: 빌드 및 임시 파일 제외 규칙 갱신
   - `wiki/sources/` 7개 문서: YAML 프론트매터 정제
   - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-17] feat(graph) | 메인 지식 그래프 concepts/entities 분리 및 words 독립 어원 계통도 구축
+
+- **작업 개요**: 메인 웹페이지의 2D 인터랙티브 지식 그래프(Global Graph)에 영웅·신격(`entities`)과 사상·윤리 개념(`concepts`)만 집중적으로 노출되도록 단어(`words`) 노드를 필터링하고, 어원 사전 인덱스에 독립된 Mermaid 어원 계통도를 구축함.
+- **주요 반영 내역**:
+  - **Quartz 그래프 필터링 설정**:
+    - `quartz.config.yaml`: `@quartz-community/graph`의 `removeTags`에 `type/word`, `domain/etymology`를 등록하여 메인 그래프에서 현대 수용사 단어 노드 분리.
+  - **어원 사전 전용 계통도 시각화**:
+    - `words/index.md`: 호메로스 원전 어원 -> 라틴어/불어 수용 -> 현대 영어 어휘로 연결되는 3단 Mermaid 어원 계통도 다이어그램 신설.
+- **갱신 파일**:
+  - `quartz.config.yaml`: 그래프 플러그인 태그 필터 옵션 추가
+  - `words/index.md`: 0절 호메로스 어원 계통도 다이어그램 추가
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
