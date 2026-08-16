@@ -1,0 +1,52 @@
+// Custom SCSS overrides for Homer Wiki
+// Compact top layout & optimized vertical whitespace
+
+:root {
+  --top-spacing: 1rem;
+}
+
+#quartz-root {
+  padding-top: var(--top-spacing) !important;
+  margin-top: 0 !important;
+}
+
+.page {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+#quartz-body {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+header {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  min-height: 0 !important;
+  
+  &:empty {
+    display: none !important;
+  }
+}
+
+.page-header {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.left.sidebar,
+.right.sidebar,
+.center {
+  margin-top: 0 !important;
+  padding-top: 0.25rem !important;
+}
+
+// Ensure smooth aesthetic transitions for sidebars
+.left.sidebar {
+  gap: 0.75rem;
+}
+
+.right.sidebar {
+  gap: 0.75rem;
+}

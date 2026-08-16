@@ -48,6 +48,11 @@ jobs:
           # Copy custom quartz configuration
           cp quartz.config.yaml .quartz/quartz.config.yaml
 
+          # Copy custom styles override
+          if [ -f custom.scss ]; then
+            cp custom.scss .quartz/quartz/styles/custom.scss
+          fi
+
       - name: Build Static Site with Quartz
         run: |
           cd .quartz

@@ -715,3 +715,16 @@ status: active
   - `quartz.config.yaml`: 그래프 플러그인 태그 필터 옵션 추가
   - `words/index.md`: 0절 호메로스 어원 계통도 다이어그램 추가
   - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-17] style(layout) | 웹페이지 상단 불필요 여백 제거 및 컴팩트 3열 레이아웃 최적화
+
+- **작업 개요**: Quartz 기본 테마의 상단 예약 공백(헤더 여백)을 제거하고, 좌측 탐색기·중앙 본문·우측 그래프 뷰가 화면 상단에 알맞게 밀착되도록 커스텀 스타일을 적용함.
+- **주요 반영 내역**:
+  - `custom.scss`: `#quartz-root`, `.page`, `#quartz-body`, `header`, `.sidebar`의 과도한 상단 마진/패딩 제거 및 1rem 컴팩트 간격 지정.
+  - `.github/workflows/deploy.yml`: Quartz 빌드 단계에서 `custom.scss` 주입 파이프라인 추가.
+- **생성 및 갱신 파일**:
+  - `custom.scss`: 커스텀 SCSS 스타일 생성
+  - `.github/workflows/deploy.yml`: SCSS 복사 단계 추가
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
