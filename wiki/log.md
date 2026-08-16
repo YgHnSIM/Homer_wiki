@@ -150,3 +150,39 @@ status: active
   - `.agents/skills/homer-review/SKILL.md`: homer-review 스킬 정의 및 실행 지침 문서
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+---
+
+## [2026-08-16] feat(concepts) | 이준석 교수 8강 전편 기반 일리아스 5대 윤리학적 궤적 통합 및 Menis·Hikesia 개념 문서 생성
+
+- **작업 개요**: 정암학당 2024 이준석 교수의 『일리아스』 4회차 연속 집중강좌(8개 영상 전편)의 문헌학적·역사인류학적 분석 성과를 반영하여, `wiki/analyses/homeric-ethics-literature-review.md`의 일리아스 윤리학 구조를 5대 국면으로 심화 개편하고, 관련 핵심 개념 문서(`Menis.md`, `Hikesia.md`)를 신규 작성함.
+- **반영된 주요 개편 사항**:
+  - **제0국면: 전쟁의 도덕적 기원**: 파리스의 크세니아([[Xenia]]) 배신과 트로이 진영의 도덕적 부채(Zeus Xenios)
+  - **제1국면: 1권 메니스([[Menis]])와 존재론적 명예**: 신적 분노와 인간적 화(Cholos)의 준별, 게라스(Geras)와 티메([[Timê]])의 존재론적 등가성, 제우스의 계획(Dios Boulê)
+  - **제2국면: 6권 헥토르의 투구 벗기**: 전사의 가면 탈피와 가족으로의 회귀, 시민적 영웅(Aner Politikos)과 아이도스([[Aidos]])의 비극적 딜레마
+  - **제3국면: 9권 사절단 거부**: 실존주의, 권력투쟁, 아테, 클레오스 극대화 4대 학술 쟁점
+  - **제4국면: 18~22권 탈인간화(Dehumanization)**: 테미스 배신, 식사(Sitos)·수면(Hypnos) 거부 및 신/야수로의 이탈
+  - **제5국면: 24권 탄원([[Hikesia]])과 인간성의 회복**: 손키스 의례, 제우스의 두 항아리(Pithoi) 우화와 고통의 보편성, 니오베 신화와 식사 복원, 12일 한시적 휴전(Spondai)의 실존적 존엄
+- **생성 및 업데이트된 문서**:
+  - `wiki/analyses/homeric-ethics-literature-review.md`: 제2장 5대 국면 심화 개편
+  - `wiki/concepts/menis.md`: 메니스 개념 문서 신규 작성
+---
+
+## [2026-08-16] docs(analyses) | homer-review 적대적 5인 검토 결과 반영 및 서사시 윤리학 분석 문서 정제
+
+- **작업 개요**: `homer-review` 스킬을 실행하여 문헌검증관(`philologist`), 논리/학설비판관(`logician`), 위키규격감독관(`architect`), 지식망연결관(`weaver`), 간결성편집관(`editor`) 5인의 3라운드 적대적 공방전을 수행하고, 생존한 핵심 개선안을 `wiki/analyses/homeric-ethics-literature-review.md`에 반영 완료함.
+- **반영된 주요 정제 사항**:
+  - **문헌학적 원전 보강**: 19권 식사 논쟁 인용(_Il._ 19.155–237) 추가, 돌로스(δόλος), 메티스(μῆτις), 텔레모시네(τλημοσύνη), 호모프로시네(ὁμοφροσύνη), 엘레오스(ἔλεος) 희랍어 원어 병기
+  - **논리 및 학설 충돌 경고**: 2.2절 제1항에 제우스의 정의(Dike) 해석을 둘러싼 Lloyd-Jones vs Adkins/Dodds 학설 대립 `> [!WARNING] 모순/이설 발견` 콜아웃 추가, 4장 제1기에 Dodds 수치문화론의 인류학적 기능주의 맥락 명시
+  - **14대 핵심 개념 매트릭스 확장**: 제3장 다이어그램 및 표에 `[[Hikesia]]`(탄원), `[[Eleos]]`(연민) 노드 및 행 정식 편입
+  - **지식망 및 관련 항목 확충**: 하단 관련 항목에 `[[Hikesia]]`, `[[Eleos]]` 링크 보강 및 `wiki/index.md` 카탈로그 동기화
+  - **문체 압축**: 2.1절 제4국면 및 2.3절 매트릭스의 중복 형용사 수식어구를 간결한 백과사전 문체로 압축
+- **업데이트된 연관 문서**:
+  - `wiki/analyses/homeric-ethics-literature-review.md`: 전면 정제 완료
+  - `wiki/index.md`: 카탈로그 동기화
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
+
+
