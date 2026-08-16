@@ -768,3 +768,19 @@ status: active
   - `wiki/analyses/homeric-ethics-literature-review.md`: 연구 문헌 TOP 20 표 정렬
   - `wiki/concepts/` 5개 개념 문서: 개념 관계 및 속성 표 정렬
   - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-17] style(mobile) | 모바일 뷰포트 반응형 레이아웃 및 터치 UX 최적화
+
+- **작업 개요**: 스마트폰 및 태블릿 모바일 환경에서 위키 본문 가독성, 표/수식/머메이드 차트의 가로 스크롤, 터치 타깃 접근성을 종합 최적화함.
+- **주요 반영 내역**:
+  - `custom.scss`:
+    - 모바일 미디어 쿼리(`max-width: 800px`) 적용.
+    - 검색/다크모드/리더모드 버튼 최소 터치 영역(40px+) 확보 및 모바일 헤더 가로 정렬.
+    - 마크다운 표 및 머메이드 다이어그램 모바일 가로 터치 스크롤(`-webkit-overflow-scrolling: touch`) 활성화로 뷰포트 넘침 방지.
+    - 한국어 타이포그래피 줄바꿈 최적화(`word-break: keep-all; overflow-wrap: break-word`).
+    - KaTeX 수식 블록 가로 스크롤 및 브레드크럼 스크롤 최적화.
+- **갱신 파일**:
+  - `custom.scss`: 모바일 반응형 스타일 규칙 추가
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
