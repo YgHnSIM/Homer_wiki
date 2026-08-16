@@ -12,15 +12,19 @@ c:/Vault/Homer_wiki/
 ├── raw/                   # 원본 소스 (불변, 원문, 번역본, 논문 등)
 │   ├── assets/            # 지도, 계보도, 이미지 등 첨부파일
 │   └── README.md          # 소스 문서 추가 안내
-└── wiki/                  # LLM이 생성·관리하는 마크다운 위키 페이지
-    ├── index.md           # 전체 페이지 카탈로그 및 인덱스
-    ├── log.md             # 작업 시간순 기록 타임라인
-    ├── overview.md        # 위키 대시보드 / 호메로스 서사시 개요
-    ├── sources/           # 텍스트 및 서적 요약 문서
-    ├── entities/          # 영웅, 신, 국가, 장소 등 개체 문서
-    ├── concepts/          # Kleos, Xenia, Nostos 등 핵심 개념 문서
-    ├── analyses/          # 서사 구조, 에피소드 비교, 비평 문서
-    └── meta/              # 용어집, 구조 안내 등 메타 문서
+├── wiki/                  # LLM이 생성·관리하는 마크다운 위키 페이지
+│   ├── index.md           # 전체 페이지 카탈로그 및 인덱스
+│   ├── log.md             # 작업 시간순 기록 타임라인
+│   ├── overview.md        # 위키 대시보드 / 호메로스 서사시 개요
+│   ├── sources/           # 텍스트 및 서적 요약 문서
+│   ├── entities/          # 영웅, 신, 국가, 장소 등 개체 문서
+│   ├── concepts/          # Kleos, Xenia, Nostos 등 핵심 개념 문서
+│   ├── analyses/          # 서사 구조, 에피소드 비교, 비평 문서
+│   └── meta/              # 용어집, 구조 안내 등 메타 문서
+└── words/                 # 호메로스 어원·영단어 수용사 사전 (독립 지식베이스)
+    ├── _template.md       # 표준 단어 어원 분석 문서 템플릿
+    ├── index.md           # 단어 사전 카탈로그 및 색인
+    └── <word>.md          # 개별 단어 어원·수용사 분석 문서
 ```
 
 ---
@@ -54,8 +58,8 @@ status: draft | active | review | archived
 
 | 접두사    | 용도              | 예시                                                                       |
 | --------- | ----------------- | -------------------------------------------------------------------------- |
-| `type/`   | 페이지 유형 분류  | `type/source`, `type/entity`, `type/concept`, `type/analysis`, `type/meta` |
-| `domain/` | 주제 및 작품 분야 | `domain/iliad`, `domain/odyssey`, `domain/mythology`, `domain/culture`     |
+| `type/`   | 페이지 유형 분류  | `type/source`, `type/entity`, `type/concept`, `type/analysis`, `type/meta`, `type/word` |
+| `domain/` | 주제 및 작품 분야 | `domain/iliad`, `domain/odyssey`, `domain/mythology`, `domain/culture`, `domain/etymology` |
 | `status/` | 문서 완성도 상태  | `status/draft`, `status/active`, `status/review`, `status/archived`        |
 
 ### 2.4 작성 및 서술 원칙
@@ -76,14 +80,14 @@ status: draft | active | review | archived
 1. **소스 읽기**: `raw/`에 새로 추가된 원문/번역본/논문을 정독합니다.
 2. **핵심 요약 공유**: 사용자에게 핵심 인사이트 3-5개를 공유하고 논의합니다.
 3. **소스 문서 생성**: `wiki/sources/` 하위에 서지 정보, 핵심 요약, 인용 구절, 관련 위키 링크를 포함한 소스 문서를 작성합니다.
-4. **연관 위키 갱신**: 해당 소스와 관련된 `entities/`, `concepts/`, `analyses/` 페이지를 업데이트하고 교차 참조를 형성합니다.
-5. **인덱스 및 로그 업데이트**: `wiki/index.md` 카탈로그와 `wiki/log.md` 타임라인을 최신화합니다.
+4. **연관 위키 갱신**: 해당 소스와 관련된 `entities/`, `concepts/`, `analyses/`, `words/` 페이지를 업데이트하고 교차 참조를 형성합니다.
+5. **인덱스 및 로그 업데이트**: `wiki/index.md` 카탈로그, `words/index.md` 및 `wiki/log.md` 타임라인을 최신화합니다.
 
 ### 3.2 질의 및 합성 (Query Workflow)
 
-1. **인덱스 탐색**: `wiki/index.md` 및 관련 페이지를 탐색하여 지식을 합성합니다.
+1. **인덱스 탐색**: `wiki/index.md`, `words/index.md` 및 관련 페이지를 탐색하여 지식을 합성합니다.
 2. **답변 제공**: 출처와 `[[페이지링크]]`를 포함하여 응답합니다.
-3. **지식 보존**: 가치 있는 분석적 답변은 `wiki/analyses/` 하위에 독립된 위키 문서로 저장합니다.
+3. **지식 보존**: 가치 있는 분석적 답변은 `wiki/analyses/` 또는 `words/` 하위에 독립된 문서로 저장합니다.
 
 ### 3.3 검수 및 정제 (Lint Workflow)
 
@@ -94,7 +98,8 @@ status: draft | active | review | archived
 ## 4.핵심 관리 파일
 
 - `wiki/overview.md`: 위키 대시보드. 서사시 전체 구조 및 메인 주제 지도.
-- `wiki/index.md`: 카테고리별 전체 문서 목록 및 요약.
+- `wiki/index.md`: 카테고리별 전체 위키 문서 목록 및 요약.
+- `words/index.md`: 어원·영단어 사전 전체 카탈로그 및 색인.
 - `wiki/log.md`: 시계열 작업 이력 (`## [YYYY-MM-DD] 작업유형 | 제목`).
 
 ---
@@ -102,8 +107,8 @@ status: draft | active | review | archived
 ## 5. LLM 행동 수칙
 
 1. `raw/` 폴더 내 원본 파일은 **절대로 직접 수정하지 않는다**.
-2. `wiki/` 폴더 내 위키 파일은 지식 축적을 위해 자유롭게 생성·수정·보완한다.
-3. 작업 수행 내역은 항상 `wiki/log.md`에 기록하고 `wiki/index.md` 상태를 최신으로 유지한다.
+2. `wiki/` 및 `words/` 폴더 내 위키/단어 파일은 지식 축적을 위해 자유롭게 생성·수정·보완한다.
+3. 작업 수행 내역은 항상 `wiki/log.md`에 기록하고 `wiki/index.md` 및 `words/index.md` 상태를 최신으로 유지한다.
 
 ---
 
@@ -121,7 +126,7 @@ status: draft | active | review | archived
 
 | 타입       | 용도 및 적용 대상                                        |
 | :--------- | :------------------------------------------------------- |
-| `feat`     | 새로운 위키 문서(소스, 개념, 분석, 인물 등) 생성         |
+| `feat`     | 새로운 위키 문서(소스, 개념, 분석, 인물, 단어 등) 생성   |
 | `docs`     | 기존 문서 내용 보완, 상세화, 주석 추가, 분석 심화        |
 | `fix`      | 오타, 잘못된 인용 행 번호, 깨진 위키링크, 표기 오류 정정 |
 | `refactor` | 지식베이스 템플릿 개편, 구조 재배치, 서식 정리           |
@@ -133,7 +138,8 @@ status: draft | active | review | archived
 - `entities` : `wiki/entities/` 영웅, 신, 인물, 장소 문서
 - `concepts` : `wiki/concepts/` Arete, Aidos, Dike 등 핵심 개념 문서
 - `analyses` : `wiki/analyses/` 서사 비교, 윤리학 종합 분석 문서
-- `meta` : `wiki/index.md`, `wiki/overview.md`, `wiki/log.md`, `AGENTS.md`
+- `words` : `words/` 단어 어원 및 영단어 수용사 분석 문서
+- `meta` : `wiki/index.md`, `words/index.md`, `wiki/overview.md`, `wiki/log.md`, `AGENTS.md`
 - `all` : 전체 문서 대상 일괄 작업 시
 
 ### 6.4 4대 작성 원칙

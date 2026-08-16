@@ -506,4 +506,30 @@ status: active
   - `wiki/concepts/epic-cycle.md`: 문헌/지식망 정제 완료
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-17] feat | homer-word 영단어 어원·수용사 분석 스킬 개발 및 words/ 사전 지식베이스 구축
+
+- **작업 개요**: Hyperplan 및 Homer-Entity의 적대적 다중 관점 심화 프레임워크를 응용·전용하여, 호메로스 서사시의 개념어·어휘·인명(Eponym)의 어원 계보와 현대 영단어 수용사(Greek -> Latin -> Old French -> English) 및 역사적 의미 변천(Semantic Shifts)을 학술적으로 분석하는 `homer-word` v2.0 스킬과 `words/` 사전 지식베이스 구축 완료.
+- **주요 반영 내역**:
+  - **7인 적대적 학술 평의회**: `etymologist`(비교/PIE어원학, 선희랍기층어 판별), `classicist`(고전문헌/인명학, 호메로스 원전 권·행 검증), `receptionist`(라틴/불어수용사, 문헌기록 어형 검증), `semanticist`(역사의미론), `lexicographer`(사전편찬/코퍼스실증), `skeptic`(민간어원/가짜어근 분쇄, 근거부족 시 강제격하), `validator`(정합성/증거감사, 이모지 배제, 출처 1:1 매칭).
+  - **할루시네이션 방지 및 근거 통제 하드 룰**:
+    - 공인 어원 사전(Beekes EDG, Chantraine DELG, Pokorny IEW, LSJ, OED) 근거 없는 가짜 PIE 어근 날조 전면 차단.
+    - 호메로스 서사시 권·행 번호 환각 인용 차단.
+    - 선희랍 기층어(Pre-Greek substrate / 비-PIE) 정직 인정 및 비-PIE 분류.
+    - 근거 부재 또는 학설 미해결 시 **"근거 부족 / 추가 조사 필요(Pending Research)"** 강제 격하 및 `status: review` 유지.
+    - 민간 어원설(Folk Etymology)에 대한 `> [!WARNING]` 경고 분리 처리.
+  - **3단계 작업 모드**: `concept`(일반 개념어), `eponym`(인명·신명 유래어), `deep`(거대 다중 파생 어족).
+  - **5단계 워크플로**: Phase 0(식별/모드) -> Phase 1(어원 증거 원장/환각차단) -> Phase 2(3라운드 공방) -> Phase 3(승인 게이트) -> Phase 4(본문/Mermaid 계통도) -> Phase 5(동기화/커밋).
+  - **사전 템플릿 및 인덱스**: `words/_template.md` 풀스펙 표준 템플릿(확실성 6대 등급 가이드 포함) 및 `words/index.md` 전용 카탈로그 신설.
+  - **운영 지침 연동**: `AGENTS.md` 디렉토리 구조, 태그 체계(`type/word`, `domain/etymology`), Git 커밋 스코프(`words`) 확장.
+- **생성 및 갱신 파일**:
+  - `.agents/skills/homer-word/SKILL.md`: homer-word 스킬 정의 파일 (v2.0 환각 방지 강화)
+  - `words/_template.md`: 표준 단어 어원 분석 문서 템플릿 (기층어 및 6대 확실성 등급 반영)
+  - `words/index.md`: 단어 사전 인덱스 및 카탈로그 (기층어 분류 신설)
+  - `AGENTS.md`: words 디렉토리 및 스키마 반영 갱신
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
+
 
