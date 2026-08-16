@@ -122,8 +122,8 @@ graph LR
 
 | 주장 및 테제 | 자료 유형 | 근거 및 출전 | 확실성 | 관련 위키 문서 |
 |:---|:---|:---|:---|:---|
-| 아킬레우스의 두 가지 운명 선택 | 호메로스 본문 | _Il._ 9.410–416 | 원전 명시 | [[lee-junseok-2018-wrath-and-pity|이준석 2018]] |
-| 묘역 숭배(Hero Cult)의 형성기 | 물질자료/비문 | 흑해 레우케섬 발굴, BC 7세기 | 강한 학술 추론 | [[vernant-1989-belle-mort|Vernant 1989]] |
+| 아킬레우스의 두 가지 운명 선택 | 호메로스 본문 | _Il._ 9.410–416 | 원전 명시 | [[lee-junseok-2018-wrath-and-pity\|이준석 2018]] |
+| 묘역 숭배(Hero Cult)의 형성기 | 물질자료/비문 | 흑해 레우케섬 발굴, BC 7세기 | 강한 학술 추론 | [[vernant-1989-belle-mort\|Vernant 1989]] |
 | 9권 사절단 거부의 윤리학적 성격 | 현대 학술 연구 | Adkins(1960) vs Williams(1993) | 논쟁적 | [[homeric-ethics-literature-review]] |
 ```
 

@@ -739,6 +739,22 @@ status: active
 - **갱신 파일**:
   - `wiki/analyses/homeric-ethics-literature-review.md`: 2.1절 서사 구조도 노드 번호 정정
   - `wiki/concepts/concept-aidos.md`, `concept-epic-cycle.md`, `concept-nemesis.md`: 개념 다이어그램 정정
-  - `wiki/meta/entity-framework.md`: 증거 축 서브그래프 라벨 정정
   - `wiki/sources/lee-junseok-2016-odyssey-humanity.md`: 논증 구조도 노드 번호 정정
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-17] fix(all) | 마크다운 표(Table) 내부 위키링크 파이프(|) 전수 이스케이프 정제
+
+- **작업 개요**: 마크다운 표 내부의 위키링크 표기(`[[문서명|별칭]]`)에서 파이프 기호(`|`)가 표 열 구분자로 오인식되어 표 구조 깨짐 및 링크 파손이 발생하는 현상을 볼트 전수 조사하여 일괄 정제함.
+- **주요 반영 내역**:
+  - 볼트 내 전체 36개 마크다운 문서를 전수 스캔하여 15개 파일 내 표(Table) 내부의 80개 위키링크 파이프 기호를 표준 이스케이프 서식(`[[문서명\|별칭]]`)으로 정정.
+  - 표 열 정렬 유지 및 웹 렌더링 무결성 복원.
+- **갱신 파일**:
+  - `wiki/analyses/homeric-ethics-literature-review.md`
+  - `wiki/entities/entity-achilles.md`
+  - `wiki/concepts/concept-menis.md`
+  - `wiki/meta/entity-framework.md`
+  - `wiki/sources/` 10개 소스 문서
+  - `words/index.md`
   - `wiki/log.md`: 작업 이력 타임라인 갱신

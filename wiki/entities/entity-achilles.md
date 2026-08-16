@@ -216,19 +216,19 @@ graph TD
 
 | 주장 및 테제 | 자료 유형 | 근거 및 출전 | 확실성 | 관련 위키 문서 |
 |:---|:---|:---|:---|:---|
-| 아킬레우스 이름의 어원 (*Achi-lāwos*) | 현대 문헌학 | Nagy (1979) *Best of the Achaeans* | 강한 학술 추론 | [[lee-junseok-2024-iliad-jeongam|이준석 2024]] |
-| 아이아키데스 등 주요 부칭 및 정형구 | 호메로스 본문 | _Il._ 1.1, 16.15, 21.189 | 원전 명시 | [[lee-junseok-2024-iliad-jeongam|이준석 2024]] |
-| 아테나 개입과 이중 동기화 모델 | 호메로스 본문 | _Il._ 1.188–222, Dodds (1951) | 원전 명시 | [[dodds-1951-greeks-and-irrational|Dodds 1951]] |
-| 아킬레우스의 두 가지 운명 선택 | 호메로스 본문 | _Il._ 9.410–416 | 원전 명시 | [[lee-junseok-2018-wrath-and-pity|이준석 2018]] |
-| 24권 프리아모스 탄원 수용과 연민 | 호메로스 본문 | _Il._ 24.507–551 | 원전 명시 | [[zanker-1994-heart-of-achilles|Zanker 1994]] |
-| 저승에서의 명예주의 비판 명언 | 호메로스 본문 | _Od._ 11.488–491 | 원전 명시 | [[lee-junseok-2016-odyssey-humanity|이준석 2016]] |
-| 트로아스 베식-테페 및 시게이온 묘역 | 물질자료/발굴 | Korfmann 트로이 발굴 보고서 | 강한 학술 추론 | [[lee-junseok-2024-iliad-jeongam|이준석 2024]] |
-| 5중 방패와 미케네 니엘로 상감 대조 | 원전/물질자료 | _Il._ 18.478–608, Shaft Grave IV 단검 | 강한 학술 추론 | [[lee-junseok-2024-iliad-jeongam|이준석 2024]] |
-| 흑해 레우케섬 폰타르케스 영웅 숭배 | 물질자료/비문 | 올비아 비문 및 레우케 신전 터 | 강한 학술 추론 | [[vernant-1989-belle-mort|Vernant 1989]] |
+| 아킬레우스 이름의 어원 (*Achi-lāwos*) | 현대 문헌학 | Nagy (1979) *Best of the Achaeans* | 강한 학술 추론 | [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] |
+| 아이아키데스 등 주요 부칭 및 정형구 | 호메로스 본문 | _Il._ 1.1, 16.15, 21.189 | 원전 명시 | [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] |
+| 아테나 개입과 이중 동기화 모델 | 호메로스 본문 | _Il._ 1.188–222, Dodds (1951) | 원전 명시 | [[dodds-1951-greeks-and-irrational\|Dodds 1951]] |
+| 아킬레우스의 두 가지 운명 선택 | 호메로스 본문 | _Il._ 9.410–416 | 원전 명시 | [[lee-junseok-2018-wrath-and-pity\|이준석 2018]] |
+| 24권 프리아모스 탄원 수용과 연민 | 호메로스 본문 | _Il._ 24.507–551 | 원전 명시 | [[zanker-1994-heart-of-achilles\|Zanker 1994]] |
+| 저승에서의 명예주의 비판 명언 | 호메로스 본문 | _Od._ 11.488–491 | 원전 명시 | [[lee-junseok-2016-odyssey-humanity\|이준석 2016]] |
+| 트로아스 베식-테페 및 시게이온 묘역 | 물질자료/발굴 | Korfmann 트로이 발굴 보고서 | 강한 학술 추론 | [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] |
+| 5중 방패와 미케네 니엘로 상감 대조 | 원전/물질자료 | _Il._ 18.478–608, Shaft Grave IV 단검 | 강한 학술 추론 | [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] |
+| 흑해 레우케섬 폰타르케스 영웅 숭배 | 물질자료/비문 | 올비아 비문 및 레우케 신전 터 | 강한 학술 추론 | [[vernant-1989-belle-mort\|Vernant 1989]] |
 | 서사시환(퀴프리아/아이티오피스) 전승 | 후대 문헌 | Proclus, *Chrestomathia* | 후대 수용 (고대 전승) | [[homeric-ethics-literature-review]] |
 | 스틱스강 침수 및 아킬레스건 전승 | 후대 문헌 | Statius, _Achilleid_ 1.133 | 후대 수용 (호메로스 부재) | [[homeric-ethics-literature-review]] |
 | 9권 배상 거부의 도덕 철학적 의의 | 현대 학술 연구 | Adkins vs Williams/Zanker vs 이준석 | 논쟁적 | [[homeric-ethics-literature-review]] |
-| 도덕적 상해(Moral Injury) 분석 | 현대 학술 연구 | Jonathan Shay (1994) | 강한 학술 추론 | [[shay-1994-achilles-in-vietnam|Shay 1994]] |
+| 도덕적 상해(Moral Injury) 분석 | 현대 학술 연구 | Jonathan Shay (1994) | 강한 학술 추론 | [[shay-1994-achilles-in-vietnam\|Shay 1994]] |
 
 ---
 

@@ -66,7 +66,7 @@ graph TD
 | 분류                                              | 문서 수 | 대표 예시                                 |
 | :------------------------------------------------ | :-----: | :---------------------------------------- |
 | **개념·추상어 (Concept Words)**                   |    0    | _chaos, harmony, psyche, nemesis, pathos_ |
-| **인명·신명 유래어 (Eponyms)**                    |    1    | [[word-achilles|achilles]], _mentor, odyssey, hector, tantalus_ |
+| **인명·신명 유래어 (Eponyms)**                    |    1    | [[word-achilles\|achilles]], _mentor, odyssey, hector, tantalus_ |
 | **핵심 다중 어근 (Core Roots)**                   |    0    | _logos/logic, kleos/clue, physis/physics_ |
 | **선희랍 기층어/어원 불명 (Pre-Greek Substrate)** |    0    | _labyrinth, hyacinth, narcissus, ocean_   |
 | **총 단어 문서 수**                               |  **1**  | -                                         |
