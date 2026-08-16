@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: ko-KR
-  baseUrl: username.github.io/Homer_wiki
+  baseUrl: YgHnSIM.github.io/Homer_wiki
   ignorePatterns:
     - private
     - templates
@@ -173,7 +173,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com
+        GitHub: https://github.com/YgHnSIM/Homer_wiki
     layout:
       position: footer
       priority: 50
