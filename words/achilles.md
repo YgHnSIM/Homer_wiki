@@ -22,21 +22,25 @@ status: active
 
 ```mermaid
 graph TD
+    %% 고대 어원 및 그리스어 성립
     PIE["PIE: *h₂egʰ- (비탄, 고통) + *lāwos (군대)"] --> PGRK["Proto-Greek: *Achi-lāwos ('군대의 고통')"]
     PGRK --> MYC["미케네 그리스어: a-ki-re-u (/Akʰilleus/, BC 13세기)"]
     MYC --> GRK["고대 희랍어: Ἀχιλλεύς (Achilleus / 호메로스)"]
-    
+
+    %% 서구어 및 영어 전파 경로
     GRK --> LAT["고전 라틴어: Achillēs (속격 Achillis)"]
     LAT --> OFR["고대 프랑스어: Achille / Achilles (12세기)"]
     OFR --> ME["중세 영어: Achilles (14세기 초서)"]
     ME --> MOD["현대 영어: Achilles (16세기~)"]
-    
+
+    %% 현대 파생어 및 문화적 관용표현
     MOD --> IDIOM["관용구: Achilles' heel (치명적 약점, 1810/1821)"]
     MOD --> ADJ["형용사: Achillean (무적의/격렬한, 1598)"]
-    
+    MOD --> PSYCH["심리학: Achilles syndrome (유능자의 내적 실패 공포)"]
+
+    %% 전문 학술 명명 (라틴어 직수용)
     LAT -.->|1693년 해부학 명명| ANAT["해부학: tendo Achillis -> Achilles tendon (1705)"]
     LAT -.->|1753년 린네 식물학 명명| BOT["식물학: Achillea (서양톱풀속)"]
-    MOD --> PSYCH["심리학: Achilles syndrome (유능자의 내적 실패 공포)"]
 ```
 
 ---
