@@ -17,17 +17,17 @@ updated: 2026-08-17
 | 분류 | 문서 수 | 대표 예시 |
 |:---|:---:|:---|
 | **개념·추상어 (Concept Words)** | 0 | *chaos, harmony, psyche, nemesis, pathos* |
-| **인명·신명 유래어 (Eponyms)** | 0 | *achilles heel, mentor, odyssey, hector, tantalus* |
+| **인명·신명 유래어 (Eponyms)** | 1 | `[[words/achilles|achilles]]`, *mentor, odyssey, hector, tantalus* |
 | **핵심 다중 어근 (Core Roots)** | 0 | *logos/logic, kleos/clue, physis/physics* |
 | **선희랍 기층어/어원 불명 (Pre-Greek Substrate)** | 0 | *labyrinth, hyacinth, narcissus, ocean* |
-| **총 단어 문서 수** | **0** | - |
+| **총 단어 문서 수** | **1** | - |
 
 ---
 
 ## 2. 알파벳순 전체 색인 (Alphabetical Index)
 
 ### A
-- *(작성 대기)*
+- `[[words/achilles|achilles]]` — 아킬레우스(Ἀχιλλεύς) 유래, *Achilles' heel*, *Achilles tendon*, *Achillean* (인명 유래어)
 
 ### C
 - *(작성 대기)*
@@ -58,7 +58,7 @@ updated: 2026-08-17
 ## 3. 어원 계통별 분류 (By Etymological Roots)
 
 ### 3.1 영웅 및 신명 파생 어휘 (Eponymous Vocabulary)
-- `[[words/achilles-heel|achilles-heel]]` *(예정: 아킬레우스 유래, 치명적 약점)*
+- `[[words/achilles|achilles]]` *(아킬레우스 유래: Achilles' heel, Achilles tendon, Achillean)*
 - `[[words/mentor|mentor]]` *(예정: 멘토르 유래, 조언자/스승)*
 - `[[words/odyssey|odyssey]]` *(예정: 오디세우스 유래, 장기간의 파란만장한 여정)*
 - `[[words/hector|hector]]` *(예정: 헥토르 유래, 괴롭히다/위협하다)*

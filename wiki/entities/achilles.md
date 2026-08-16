@@ -234,6 +234,7 @@ graph TD
 
 ## 13. 관련 항목 (See Also)
 
+- [[words/achilles|Achilles (영단어 어원 및 수용사)]] — 아킬레우스 이름의 어원 계보 및 현대 영어 파생어 사전
 - [[_template]] — 엔티티 표준 마크다운 템플릿
 - [[entity-framework]] — 엔티티 프레임워크 작성 지침
 - [[Menis]] — 신적 분노와 우주적 파괴력
