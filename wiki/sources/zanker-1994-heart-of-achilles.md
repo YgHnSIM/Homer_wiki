@@ -7,7 +7,7 @@ updated: 2026-08-16
 sources: []
 author: 그레이엄 잰커 (Graham Zanker)
 publication_year: 1994
-publisher_or_journal: University of Michigan Press: Ann Arbor
+publisher_or_journal: "University of Michigan Press: Ann Arbor"
 citations_count: 260+
 key_concepts: ["[[concept-arete|Arete]]", "[[concept-aidos|Aidos]]", "[[concept-xenia|Xenia]]", "[[concept-time|Timê]]", "[[Philotes]]"]
 status: active

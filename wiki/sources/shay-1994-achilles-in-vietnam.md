@@ -7,7 +7,7 @@ updated: 2026-08-16
 sources: []
 author: 조너선 셰이 (Jonathan Shay, M.D., Ph.D., 1941– )
 publication_year: 1994
-publisher_or_journal: Scribner: New York (Simon & Schuster)
+publisher_or_journal: "Scribner: New York (Simon & Schuster)"
 citations_count: 2500+
 key_concepts: ["[[concept-menis|Menis]]", "[[concept-ate|Ate]]", "[[concept-xenia|Xenia]]", "[[concept-themis|Themis]]", "[[concept-aidos|Aidos]]"]
 status: active

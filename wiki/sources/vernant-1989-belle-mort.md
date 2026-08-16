@@ -7,7 +7,7 @@ updated: 2026-08-16
 sources: []
 author: 장-피에르 베르낭 (Jean-Pierre Vernant, 1914–2007)
 publication_year: 1989
-publisher_or_journal: Gallimard: Paris (『L'individu, la mort, l'amour: Soi-même et l'autre en Grèce ancienne』 수록)
+publisher_or_journal: "Gallimard: Paris (『L'individu, la mort, l'amour: Soi-même et l'autre en Grèce ancienne』 수록)"
 citations_count: 4150+ (호메로스 분야 1850+)
 key_concepts: ["[[concept-kleos|Kleos]]", "[[concept-time|Timê]]", "[[concept-moira|Moira]]", "[[concept-arete|Arete]]"]
 status: active

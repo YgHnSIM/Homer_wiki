@@ -1,5 +1,5 @@
 ---
-title: 아이도스 (Aidos: The Psychology and Ethics of Honour and Shame in Ancient Greek Literature, 1993)
+title: "아이도스 (Aidos: The Psychology and Ethics of Honour and Shame in Ancient Greek Literature, 1993)"
 aliases: [Douglas Cairns 1993, Aidos, 케언스 1993]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-16
@@ -7,7 +7,7 @@ updated: 2026-08-16
 sources: []
 author: 더글러스 L. 케언스 (Douglas L. Cairns)
 publication_year: 1993
-publisher_or_journal: Clarendon Press: Oxford
+publisher_or_journal: "Clarendon Press: Oxford"
 citations_count: 1150+
 key_concepts: ["[[concept-aidos|Aidos]]", "[[concept-time|Timê]]", "[[concept-arete|Arete]]", "[[concept-xenia|Xenia]]", "[[concept-themis|Themis]]"]
 status: active

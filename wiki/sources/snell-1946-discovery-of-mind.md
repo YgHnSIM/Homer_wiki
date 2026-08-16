@@ -7,7 +7,7 @@ updated: 2026-08-16
 sources: []
 author: 브루노 스넬 (Bruno Snell, 1896–1986)
 publication_year: 1946
-publisher_or_journal: Claassen & Goverts: Hamburg (영어 번역본: Blackwell, 1953)
+publisher_or_journal: "Claassen & Goverts: Hamburg (영어 번역본: Blackwell, 1953)"
 citations_count: 3280+ (호메로스 분야 1950+)
 key_concepts: ["[[concept-ate|Ate]]", "[[concept-arete|Arete]]", "[[concept-moira|Moira]]"]
 status: active

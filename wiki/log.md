@@ -673,6 +673,30 @@ status: active
   - `.agents/skills/homer-entity/SKILL.md` & `homer-word/SKILL.md`: 제9조 규칙 추가
   - `wiki/sources/` 13개 문서, `wiki/concepts/` 4개 문서, `wiki/entities/entity-achilles.md`, `words/word-achilles.md`: 인용 서식 정제
   - `wiki/log.md`: 작업 이력 타임라인 갱신
+---
 
+## [2026-08-17] feat(meta) | Quartz v4 기반 GitHub Pages 웹 배포 파이프라인 구축 및 도메인 모델링
 
-
+- **작업 개요**: 호메로스 위키 옵시디언 볼트를 깃허브 기반 공개 웹페이지(디지털 가든)로 자동 빌드 및 배포하기 위해 Quartz 정적 사이트 생성 엔진과 GitHub Actions CI/CD 워크플로를 구축함.
+- **주요 반영 내역**:
+  - **도메인 모델링 및 아키텍처 결정**:
+    - `CONTEXT.md`: 웹 배포 도메인 용어집(Wiki Vault, Digital Garden, Quartz Engine, Public Scope, Exclusion Scope) 제정.
+    - `docs/adr/0001-quartz-and-github-pages.md`: Quartz 및 GitHub Pages 채택 ADR 작성.
+    - `docs/adr/0002-smart-cicd-pipeline.md`: 경량 GitHub Actions 자동 빌드 및 콘텐츠 격리 파이프라인 채택 ADR 작성.
+  - **첫 화면 및 메인 포털 신설**:
+    - `index.md`: 서사시 대시보드, 위키 백과, 어원 사전, 주요 영웅/개념을 종합 안내하는 루트 포털 페이지 생성.
+  - **Quartz 설정 및 고전학 테마 브랜딩**:
+    - `quartz.config.yaml`: 한글/희랍어 검색, 양방향 역링크, 2D 지식 그래프 뷰, Playfair Display/Spectral 서체 및 지중해 테라코타 팔레트 설정.
+  - **GitHub Actions 자동 배포 파이프라인**:
+    - `.github/workflows/deploy.yml`: `main` 브랜치 푸시 시 `wiki/`, `words/`, `index.md`만 안전하게 취합하여 Quartz 빌드 및 GitHub Pages 배포 자동화 (`raw/` 및 내부 설정 격리).
+  - **문서 YAML 구문 무결성 정제**:
+    - `wiki/sources/` 7개 소스 문서 내 콜론 포함 표제어 및 출판사 정보 따옴표 정제 완료.
+- **생성 및 갱신 파일**:
+  - `CONTEXT.md`: 도메인 용어집 생성
+  - `docs/adr/0001-quartz-and-github-pages.md`, `0002-smart-cicd-pipeline.md`: 아키텍처 결정 기록 생성
+  - `index.md`: 통합 포털 첫 화면 생성
+  - `quartz.config.yaml`: Quartz 설정 파일 생성
+  - `.github/workflows/deploy.yml`: GitHub Actions 워크플로 생성
+  - `.gitignore`: 빌드 및 임시 파일 제외 규칙 갱신
+  - `wiki/sources/` 7개 문서: YAML 프론트매터 정제
+  - `wiki/log.md`: 작업 이력 타임라인 갱신

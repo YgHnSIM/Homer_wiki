@@ -1,0 +1,70 @@
+name: Deploy Homer Wiki to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Vault Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup Quartz Engine
+        run: |
+          git clone --depth 1 https://github.com/jackyzha0/quartz.git .quartz
+          cd .quartz
+          npm ci
+
+      - name: Stage Public Wiki Content
+        run: |
+          # Clear default quartz content
+          rm -rf .quartz/content/*
+          
+          # Copy root index, wiki, and words directories
+          cp index.md .quartz/content/
+          cp -r wiki .quartz/content/
+          cp -r words .quartz/content/
+          
+          # Copy custom quartz configuration
+          cp quartz.config.yaml .quartz/quartz.config.yaml
+
+      - name: Build Static Site with Quartz
+        run: |
+          cd .quartz
+          npx quartz build
+
+      - name: Upload GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .quartz/public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -7,7 +7,7 @@ updated: 2026-08-16
 sources: []
 author: 제임스 M. 레드필드 (James M. Redfield, 1935– )
 publication_year: 1975
-publisher_or_journal: University of Chicago Press (확장판: Duke Univ. Press, 1994)
+publisher_or_journal: "University of Chicago Press (확장판: Duke Univ. Press, 1994)"
 citations_count: 1650+
 key_concepts: ["[[concept-arete|Arete]]", "[[concept-time|Timê]]", "[[concept-aidos|Aidos]]", "[[concept-moira|Moira]]", "[[concept-themis|Themis]]"]
 status: active

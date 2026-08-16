@@ -1,2 +1,16 @@
+# Obsidian & Workspace
 .obsidian/
 .omo/
+.agents/
+.codegraph/
+
+# Build & Temporary Files
+node_modules/
+test-quartz/
+.quartz/
+public/
+scratch/
+
+# OS specific
+.DS_Store
+Thumbs.db

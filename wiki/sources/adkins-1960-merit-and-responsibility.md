@@ -1,5 +1,5 @@
 ---
-title: 공적과 책임 (Merit and Responsibility: A Study in Greek Values, 1960)
+title: "공적과 책임 (Merit and Responsibility: A Study in Greek Values, 1960)"
 aliases: [A. W. H. Adkins 1960, Merit and Responsibility, 애드킨스 1960]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-16
@@ -7,7 +7,7 @@ updated: 2026-08-16
 sources: []
 author: 아서 W. H. 애드킨스 (Arthur W. H. Adkins, 1929–1996)
 publication_year: 1960
-publisher_or_journal: Clarendon Press: Oxford
+publisher_or_journal: "Clarendon Press: Oxford"
 citations_count: 1820+
 key_concepts: ["[[concept-arete|Arete]]", "[[concept-time|Timê]]", "[[concept-dike|Dike]]", "[[concept-aidos|Aidos]]", "[[concept-themis|Themis]]"]
 status: active
