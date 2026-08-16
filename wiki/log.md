@@ -758,3 +758,13 @@ status: active
   - `wiki/sources/` 10개 소스 문서
   - `words/index.md`
   - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-17] docs(analyses,concepts) | 마크다운 표 서식 정렬 및 위키링크 렌더링 무결성 동기화
+
+- **작업 개요**: 표 내부 위키링크 이스케이프 정제 이후 발생한 표 열 간격 및 여백을 표준 마크다운 서식으로 재정렬하고 웹 배포 동기화를 수행함.
+- **갱신 파일**:
+  - `wiki/analyses/homeric-ethics-literature-review.md`: 연구 문헌 TOP 20 표 정렬
+  - `wiki/concepts/` 5개 개념 문서: 개념 관계 및 속성 표 정렬
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
