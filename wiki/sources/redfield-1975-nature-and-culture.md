@@ -81,12 +81,12 @@ graph TD
 ## 4. 핵심 원문 인용 및 심층 주석
 
 ### 인용 1: 문화의 비극으로서의 일리아스
-> *"The Iliad is a poem of culture in tragedy. The heroic code, which is meant to secure order and honour for the community, ultimately isolates the hero and brings about the destruction of the very society he fights to protect."* (Chapter 3, p. 99)  
-> **[주석]**: 레드필드의 중심 테제. 영웅 규범의 본질적 자기모순을 명쾌하게 압축함.
+- *"The Iliad is a poem of culture in tragedy. The heroic code, which is meant to secure order and honour for the community, ultimately isolates the hero and brings about the destruction of the very society he fights to protect."* (Chapter 3, p. 99)
+- **[주석]**: 레드필드의 중심 테제. 영웅 규범의 본질적 자기모순을 명쾌하게 압축함.
 
 ### 인용 2: 헥토르의 이중적 지위에 대하여
-> *"Hector is the tragic hero because he is fully embedded in human culture. He fights not for abstract personal glory, but for his city, his parents, his wife, and his child; yet it is precisely his commitment to the warrior code that destroys them all."* (Chapter 3, p. 128)  
-> **[주석]**: 헥토르가 아킬레우스보다 훨씬 더 깊은 인간적 비극성을 획득하는 이유를 해명함.
+- *"Hector is the tragic hero because he is fully embedded in human culture. He fights not for abstract personal glory, but for his city, his parents, his wife, and his child; yet it is precisely his commitment to the warrior code that destroys them all."* (Chapter 3, p. 128)
+- **[주석]**: 헥토르가 아킬레우스보다 훨씬 더 깊은 인간적 비극성을 획득하는 이유를 해명함.
 
 ---
 

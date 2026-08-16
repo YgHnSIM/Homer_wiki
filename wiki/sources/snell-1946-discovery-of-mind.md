@@ -71,8 +71,8 @@ graph TD
 
 ## 4. 핵심 원문 인용 및 심층 주석
 
-> *"Homeric man does not yet regard himself as the source of his own decisions; when he acts with sudden resolve, it is a god who has put the idea into his mind. He has no awareness of a soul as an integrated inner self."* (Chapter 1, p. 20)  
-> **[주석]**: 스넬 발전론의 핵심. 호메로스 인간에게는 근대적 자아의식이 결여되어 있었으며, 내적 의지가 아닌 신적 개입에 의해 행동이 동기화되었다는 테제.
+- *"Homeric man does not yet regard himself as the source of his own decisions; when he acts with sudden resolve, it is a god who has put the idea into his mind. He has no awareness of a soul as an integrated inner self."* (Chapter 1, p. 20)
+- **[주석]**: 스넬 발전론의 핵심. 호메로스 인간에게는 근대적 자아의식이 결여되어 있었으며, 내적 의지가 아닌 신적 개입에 의해 행동이 동기화되었다는 테제.
 
 ---
 

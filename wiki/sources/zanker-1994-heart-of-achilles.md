@@ -66,8 +66,8 @@ graph TD
 
 ## 4. 핵심 원문 인용 및 심층 주석
 
-> *"Achilles moves beyond the traditional heroic code. In Book 24, his acceptance of Priam is not an act of mere resignation to the gods, but a triumph of personal magnanimity (megalopsychia) and pity (eleos), creating an ethical space grounded in shared human mortality."* (Chapter 5, p. 142)  
-> **[주석]**: 아킬레우스의 마지막 행동이 외적 사회 규범의 산물이 아니라, 고통을 통해 획득한 고결한 인격의 자율적 성취임을 규명함.
+- *"Achilles moves beyond the traditional heroic code. In Book 24, his acceptance of Priam is not an act of mere resignation to the gods, but a triumph of personal magnanimity (megalopsychia) and pity (eleos), creating an ethical space grounded in shared human mortality."* (Chapter 5, p. 142)
+- **[주석]**: 아킬레우스의 마지막 행동이 외적 사회 규범의 산물이 아니라, 고통을 통해 획득한 고결한 인격의 자율적 성취임을 규명함.
 
 ---
 

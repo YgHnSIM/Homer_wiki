@@ -59,7 +59,7 @@ graph TD
 
 ### 1.텍스트 분석 대상: 『일리아스』 19권 86~138행
 - 트로이 전쟁 최고의 지휘관 아가멤논이 아킬레우스에게 공식 사과하면서 다음과 같이 외치는 장면:
-  > *"나는 책임이 없다! 원인은 제우스와 모이라, 그리고 어둠 속을 걷는 에리뉘스이다. 그들이 민회에서 내 마음에 사나운 아테(Ate)를 던졌다!"* (*Il.* 19.86–89)
+  - *"나는 책임이 없다! 원인은 제우스와 모이라, 그리고 어둠 속을 걷는 에리뉘스이다. 그들이 민회에서 내 마음에 사나운 아테(Ate)를 던졌다!"* (*Il.* 19.86–89)
 
 ### 2.도즈의 심리학적·인류학적 해제
 - **단순한 거짓말이 아닌 진정한 신앙의 고백**:
@@ -88,12 +88,12 @@ graph TD
 ## 5. 핵심 원문 인용 및 심층 주석
 
 ### 인용 1: 아테와 호메로스 인간의 심리에 대하여
-> *"Homeric man has no unified concept of personality; his unexplained impulses and sudden disasters of judgement are attributed to a mysterious daemon, to Atē sent by the gods."* (Chapter 1, p. 17)  
-> **[주석]**: 호메로스 인간이 자신의 이해할 수 없는 행동의 원인을 신적 개입으로 외부화하는 심리적 기제를 명쾌하게 요약함.
+- *"Homeric man has no unified concept of personality; his unexplained impulses and sudden disasters of judgement are attributed to a mysterious daemon, to Atē sent by the gods."* (Chapter 1, p. 17)
+- **[주석]**: 호메로스 인간이 자신의 이해할 수 없는 행동의 원인을 신적 개입으로 외부화하는 심리적 기제를 명쾌하게 요약함.
 
 ### 인용 2: 수치 문화의 도덕적 압력에 대하여
-> *"In a shame culture, the highest moral value is not the enjoyment of a quiet conscience, but the possession of timē, public esteem. The greatest good is to be praised, and the ultimate horror is public contempt (nemesis)."* (Chapter 2, p. 28)  
-> **[주석]**: 호메로스 영웅들이 왜 내면적 죄책감보다 동료 전사들과 사회의 공개적 비난(Nemesis)에 목숨을 걸고 반응했는지를 인류학적으로 규명함.
+- *"In a shame culture, the highest moral value is not the enjoyment of a quiet conscience, but the possession of timē, public esteem. The greatest good is to be praised, and the ultimate horror is public contempt (nemesis)."* (Chapter 2, p. 28)
+- **[주석]**: 호메로스 영웅들이 왜 내면적 죄책감보다 동료 전사들과 사회의 공개적 비난(Nemesis)에 목숨을 걸고 반응했는지를 인류학적으로 규명함.
 
 ---
 

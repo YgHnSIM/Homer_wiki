@@ -70,8 +70,8 @@ graph TD
 
 ## 4. 핵심 원문 인용 및 심층 주석
 
-> *"In heroic society, a man is what he does. A man who does what is required of him is agathos; there is no gap between 'is' and 'ought', between what a man is and what he ought to do. Morality and social structure are in fact one and the same in heroic society."* (Chapter 10, p. 122)  
-> **[주석]**: 매킨타이어 도덕철학의 핵심 명제. 영웅 사회에서 도덕성은 추상적 이론이 아니라 사회적 역할 구조 그 자체임을 명쾌하게 규명함.
+- *"In heroic society, a man is what he does. A man who does what is required of him is agathos; there is no gap between 'is' and 'ought', between what a man is and what he ought to do. Morality and social structure are in fact one and the same in heroic society."* (Chapter 10, p. 122)
+- **[주석]**: 매킨타이어 도덕철학의 핵심 명제. 영웅 사회에서 도덕성은 추상적 이론이 아니라 사회적 역할 구조 그 자체임을 명쾌하게 규명함.
 
 ---
 

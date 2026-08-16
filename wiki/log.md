@@ -654,4 +654,25 @@ status: active
   - `words/word-achilles.md`, `wiki/entities/entity-achilles.md` 등 15개 위키/단어 문서: 콜아웃 링크 정제
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-17] refactor(all) | 원문 인용구 콜아웃 적용 금지 규칙 제정 및 볼트 전수 정제
+
+- **작업 개요**: 호메로스 서사시 원문 및 학술 연구 문헌의 직접 인용구에 콜아웃/블록인용(`>`) 적용을 금지하고, 표준 목록 항목(`- "..."`, `- *"..."*` 및 하위 주석 `  - **[주석]**: ...`)과 일반 따옴표/기울임꼴 서식으로 전환하는 규칙을 제정하고 볼트 전체에 전수 적용함.
+- **주요 반영 내역**:
+  - **지침 및 스킬 규칙화**:
+    - `AGENTS.md`: 2.4절 작성 및 서술 원칙에 '원문 인용구(Quotes) 서식 규정' 조항 추가.
+    - `.agents/skills/homer-entity/SKILL.md` 및 `homer-word/SKILL.md`: 2절 필수 준수 규칙 제9조로 신설.
+  - **볼트 전수 서식 정제**:
+    - `wiki/sources/` 13개 소스 문서: 제4/5절 핵심 원문 인용구 및 심층 주석 블록을 목록/서브불릿(`- *"..."*`, `  - **[주석]**:`) 구조로 전환.
+    - `wiki/concepts/` 4개 개념 문서: `concept-menis.md`, `concept-aidos.md`, `concept-nemesis.md`, `concept-hikesia.md` 내 원문/번역/주석 블록을 목록 서식으로 전환.
+    - `wiki/entities/entity-achilles.md`: 3.2절 『오뒷세이아』 저승 명언 및 5.2절 직언 인용구 목록화.
+    - `words/word-achilles.md`: 3.1절 서사시 텍스트 인용구 및 7.1절 Byron 인용구 목록화.
+- **갱신 파일**:
+  - `AGENTS.md`: 2.4절 원문 인용구 규정 추가
+  - `.agents/skills/homer-entity/SKILL.md` & `homer-word/SKILL.md`: 제9조 규칙 추가
+  - `wiki/sources/` 13개 문서, `wiki/concepts/` 4개 문서, `wiki/entities/entity-achilles.md`, `words/word-achilles.md`: 인용 서식 정제
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
 

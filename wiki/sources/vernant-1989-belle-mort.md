@@ -68,8 +68,8 @@ graph TD
 
 ## 4. 핵심 원문 인용 및 심층 주석
 
-> *"For the Homeric hero, the 'beautiful death' (la belle mort) is not merely a military end; it is the supreme moment of existence where youth and excellence are eternally crystallized in the collective memory of the song (kleos)."* (p. 45)  
-> **[주석]**: 전사의 죽음이 단순한 종말이 아니라 시적 찬미를 통해 영구화되는 최고의 미학적 순간임을 밝힘.
+- *"For the Homeric hero, the 'beautiful death' (la belle mort) is not merely a military end; it is the supreme moment of existence where youth and excellence are eternally crystallized in the collective memory of the song (kleos)."* (p. 45)
+- **[주석]**: 전사의 죽음이 단순한 종말이 아니라 시적 찬미를 통해 영구화되는 최고의 미학적 순간임을 밝힘.
 
 ---
 

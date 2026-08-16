@@ -94,12 +94,12 @@ graph TD
 ## 5. 핵심 원문 인용 및 심층 주석
 
 ### 인용 1: 아레테의 비도덕적·결과주의적 성격
-> *"In Homer, arete is the excellence of a warrior. A man who fails in war cannot plead that he did his best; he has failed, and he is kakos. Intentions are irrelevant to arete."* (Chapter 2, p. 35)  
-> **[주석]**: 애드킨스 테제의 핵심. 호메로스 사회에서 도덕적 평가는 행위자의 내면적 동기가 아니라 오직 외부로 드러난 성공과 실패라는 결과에 의해서만 결정됨을 단언함.
+- *"In Homer, arete is the excellence of a warrior. A man who fails in war cannot plead that he did his best; he has failed, and he is kakos. Intentions are irrelevant to arete."* (Chapter 2, p. 35)
+- **[주석]**: 애드킨스 테제의 핵심. 호메로스 사회에서 도덕적 평가는 행위자의 내면적 동기가 아니라 오직 외부로 드러난 성공과 실패라는 결과에 의해서만 결정됨을 단언함.
 
 ### 인용 2: 경쟁적 가치의 절대적 우위
-> *"The competitive values are the most powerful in Homeric society. The quiet virtues of justice and moderation are recognized, but they must always give way when a man's arete and timē are at stake."* (Chapter 3, p. 54)  
-> **[주석]**: 정의나 절제 같은 협력적 가치가 존재하지 않은 것은 아니지만, 명예와 무용이라는 경쟁적 가치 앞에서는 언제나 무력하게 굴복할 수밖에 없었던 아르카익 사회의 가치 위계를 지적함.
+- *"The competitive values are the most powerful in Homeric society. The quiet virtues of justice and moderation are recognized, but they must always give way when a man's arete and timē are at stake."* (Chapter 3, p. 54)
+- **[주석]**: 정의나 절제 같은 협력적 가치가 존재하지 않은 것은 아니지만, 명예와 무용이라는 경쟁적 가치 앞에서는 언제나 무력하게 굴복할 수밖에 없었던 아르카익 사회의 가치 위계를 지적함.
 
 ---
 

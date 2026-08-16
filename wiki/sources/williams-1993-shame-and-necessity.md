@@ -112,16 +112,16 @@ graph TD
 ## 5. 핵심 원문 인용 및 심층 주석
 
 ### 인용 1: 고대인의 행위 주체성에 대하여
-> *"The Greeks were not primitive beings waiting for Kant to give them a moral compass. They had a rich, coherent, and profound understanding of human agency, necessity, and character."* (Chapter 1, p. 15)  
-> **[주석]**: 계몽주의적 목적론을 비판하는 윌리엄스의 가장 유명한 구절. 그리스인들이 현대 칸트주의 도덕론보다 인간 행위의 인과성과 한계를 훨씬 더 정직하게 통찰했음을 선언함.
+- *"The Greeks were not primitive beings waiting for Kant to give them a moral compass. They had a rich, coherent, and profound understanding of human agency, necessity, and character."* (Chapter 1, p. 15)
+- **[주석]**: 계몽주의적 목적론을 비판하는 윌리엄스의 가장 유명한 구절. 그리스인들이 현대 칸트주의 도덕론보다 인간 행위의 인과성과 한계를 훨씬 더 정직하게 통찰했음을 선언함.
 
 ### 인용 2: 내면화된 타자와 수치심에 대하여
-> *"Shame requires an internalized other. The internalized other is not just any observer, but someone whose respect the agent values, someone who embodies the standards of character that the agent aspires to uphold."* (Chapter 4, p. 84)  
-> **[주석]**: 도즈의 수치 문화론을 해체하는 결정적 논증. 수치심은 군중심리가 아니라, 자아 내부에 구축된 이상적 도덕 기준과의 대화임을 규명함.
+- *"Shame requires an internalized other. The internalized other is not just any observer, but someone whose respect the agent values, someone who embodies the standards of character that the agent aspires to uphold."* (Chapter 4, p. 84)
+- **[주석]**: 도즈의 수치 문화론을 해체하는 결정적 논증. 수치심은 군중심리가 아니라, 자아 내부에 구축된 이상적 도덕 기준과의 대화임을 규명함.
 
 ### 인용 3: 필연성과 책임에 대하여
-> *"To accept necessity is not to succumb to fatalism. It is to recognize the limits of human power, and within those limits, to bear the weight of what one has done."* (Chapter 5, p. 132)  
-> **[주석]**: 호메로스 서사시와 그리스 비극에서 인물들이 운명 앞에서도 비겁하게 도망치지 않고 자신의 행위 결과를 자신의 몫으로 짊어지는 고귀함의 원천을 설명함.
+- *"To accept necessity is not to succumb to fatalism. It is to recognize the limits of human power, and within those limits, to bear the weight of what one has done."* (Chapter 5, p. 132)
+- **[주석]**: 호메로스 서사시와 그리스 비극에서 인물들이 운명 앞에서도 비겁하게 도망치지 않고 자신의 행위 결과를 자신의 몫으로 짊어지는 고귀함의 원천을 설명함.
 
 ---
 

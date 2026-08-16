@@ -92,12 +92,12 @@ graph TD
 ## 5. 핵심 원문 인용 및 심층 주석
 
 ### 인용 1: 아이도스의 사전적 억제 기능에 대하여
-> *"Aidōs is predominantly a prospective and inhibitory emotion; it looks forward to the consequences of an action and inhibits the agent from crossing the boundaries of acceptable behaviour."* (Chapter 1, p. 44)  
-> **[주석]**: 아이도스가 과거의 과오에 대한 후회에 그치는 것이 아니라, 미래의 비도덕적 행위를 사전에 가로막는 능동적 도덕 나침반임을 증명함.
+- *"Aidōs is predominantly a prospective and inhibitory emotion; it looks forward to the consequences of an action and inhibits the agent from crossing the boundaries of acceptable behaviour."* (Chapter 1, p. 44)
+- **[주석]**: 아이도스가 과거의 과오에 대한 후회에 그치는 것이 아니라, 미래의 비도덕적 행위를 사전에 가로막는 능동적 도덕 나침반임을 증명함.
 
 ### 인용 2: 타인에 대한 공감과 약자 보호에 대하여
-> *"Aidōs is not merely self-regarding; it is profoundly other-regarding. It involves recognizing the status, claims, and vulnerability of others, especially suppliants, strangers, and the helpless."* (Chapter 2, p. 81)  
-> **[주석]**: 호메로스 윤리가 이기적인 귀족 전사의 명예욕에 갇혀 있지 않고, 약자에 대한 종교적 연민과 도덕적 보호 의무로 확장되어 있음을 밝힘.
+- *"Aidōs is not merely self-regarding; it is profoundly other-regarding. It involves recognizing the status, claims, and vulnerability of others, especially suppliants, strangers, and the helpless."* (Chapter 2, p. 81)
+- **[주석]**: 호메로스 윤리가 이기적인 귀족 전사의 명예욕에 갇혀 있지 않고, 약자에 대한 종교적 연민과 도덕적 보호 의무로 확장되어 있음을 밝힘.
 
 ---
 

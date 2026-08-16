@@ -135,16 +135,16 @@ graph TD
 ## 5. 핵심 원문 인용 및 심층 주석
 
 ### 인용 1: 칸트주의적 편견에 대한 비판
-> *"The notion that modern western man's moral values may be properly distinguished from those of an ancient Greek by reference to Kantian ethics is a highly debatable proposition... Professor Adkins has pointed out some central concepts which Homer lacks; he has not described certain others which Homer knows and uses."* (pp. 121, 138)  
-> **[주석]**: 애드킨스가 고대 그리스에 '칸트적 의무'가 없다는 점에만 집착하여, 호메로스 세계가 실제로 풍부하게 활용했던 고유한 도덕적 평가 체계(적절성, 공정함, 상호적 명예)를 보지 못했음을 날카롭게 비판함.
+- *"The notion that modern western man's moral values may be properly distinguished from those of an ancient Greek by reference to Kantian ethics is a highly debatable proposition... Professor Adkins has pointed out some central concepts which Homer lacks; he has not described certain others which Homer knows and uses."* (pp. 121, 138)
+- **[주석]**: 애드킨스가 고대 그리스에 '칸트적 의무'가 없다는 점에만 집착하여, 호메로스 세계가 실제로 풍부하게 활용했던 고유한 도덕적 평가 체계(적절성, 공정함, 상호적 명예)를 보지 못했음을 날카롭게 비판함.
 
 ### 인용 2: '적절성의 기준' 테제
-> *"I believe that we see in Homer the application of a standard of 'appropriateness'... what Finley calls 'strongly entrenched notions regarding the proper ways for a man to behave, with respect to property, toward other men'... To do what is aisimos or enaisimos is to avoid both excess and deficiency."* (pp. 135, 136)  
-> **[주석]**: 호메로스 윤리의 핵심을 관통하는 통일 원리로서 '적절성'을 정식화함. 이는 과도함(*hybris*)과 결핍(*cowardice*)을 동시에 제어하는 그리스 고유의 균형 감각임.
+- *"I believe that we see in Homer the application of a standard of 'appropriateness'... what Finley calls 'strongly entrenched notions regarding the proper ways for a man to behave, with respect to property, toward other men'... To do what is aisimos or enaisimos is to avoid both excess and deficiency."* (pp. 135, 136)
+- **[주석]**: 호메로스 윤리의 핵심을 관통하는 통일 원리로서 '적절성'을 정식화함. 이는 과도함(*hybris*)과 결핍(*cowardice*)을 동시에 제어하는 그리스 고유의 균형 감각임.
 
 ### 인용 3: 상호적 티메(*timê*)와 타인 존중
-> *"The logic of timê requires attention to the rights of some others, though not of course equal rights... The preservation of one's timê is fundamental, but it depends on respecting the timai of others, strangers, kin, as well as on acts of prowess."* (pp. 138, 139)  
-> **[주석]**: 명예(Timê)가 배타적 이기주의가 아니라, 타인의 권리와 몫을 존중할 때 비로소 유지되는 상호적 사회 제도임을 밝힘.
+- *"The logic of timê requires attention to the rights of some others, though not of course equal rights... The preservation of one's timê is fundamental, but it depends on respecting the timai of others, strangers, kin, as well as on acts of prowess."* (pp. 138, 139)
+- **[주석]**: 명예(Timê)가 배타적 이기주의가 아니라, 타인의 권리와 몫을 존중할 때 비로소 유지되는 상호적 사회 제도임을 밝힘.
 
 ---
 

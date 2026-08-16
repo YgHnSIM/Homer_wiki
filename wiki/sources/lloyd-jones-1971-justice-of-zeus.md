@@ -71,12 +71,12 @@ graph TD
 ## 4. 핵심 원문 인용 및 심층 주석
 
 ### 인용 1: 제우스의 정의의 일관성에 대하여
-> *"From the very beginning of Greek literature, in the Iliad as well as the Odyssey, Zeus is the guardian of justice. The fall of Troy is not a triumph of blind force; it is the execution of Zeus's decree against the transgressors of the laws of hospitality."* (Chapter 1, p. 5)  
-> **[주석]**: 서양고전학계의 100년 묵은 진보주의적 편견을 단번에 뒤엎은 핵심 선언.
+- *"From the very beginning of Greek literature, in the Iliad as well as the Odyssey, Zeus is the guardian of justice. The fall of Troy is not a triumph of blind force; it is the execution of Zeus's decree against the transgressors of the laws of hospitality."* (Chapter 1, p. 5)
+- **[주석]**: 서양고전학계의 100년 묵은 진보주의적 편견을 단번에 뒤엎은 핵심 선언.
 
 ### 인용 2: 디케의 우주적 성격에 대하여
-> *"Dikē in Homer is the established order of the universe, the allotted share (moira) of gods and men. Whoever transgresses this boundary commits hybris and inevitably invites the retributive wrath of Zeus."* (Chapter 1, p. 27)  
-> **[주석]**: 디케가 근대적 의미의 협소한 법률 규칙을 넘어 우주적 질서와 균형의 원리임을 명시함.
+- *"Dikē in Homer is the established order of the universe, the allotted share (moira) of gods and men. Whoever transgresses this boundary commits hybris and inevitably invites the retributive wrath of Zeus."* (Chapter 1, p. 27)
+- **[주석]**: 디케가 근대적 의미의 협소한 법률 규칙을 넘어 우주적 질서와 균형의 원리임을 명시함.
 
 ---
 

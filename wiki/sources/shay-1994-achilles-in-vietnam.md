@@ -79,12 +79,12 @@ graph TD
 ## 4. 핵심 원문 인용 및 심층 주석
 
 ### 인용 1: 도덕적 상해의 본질
-> *"Moral injury is an essential part of combat trauma. It begins with the betrayal of what's right (themis) by someone who holds legitimate authority in a high-stakes situation. When themis is betrayed, the social and moral world of the soldier collapses."* (Chapter 1, p. 6)  
-> **[주석]**: 현대 군사 윤리학과 PTSD 치료의 패러다임을 바꾼 역사적 정의.
+- *"Moral injury is an essential part of combat trauma. It begins with the betrayal of what's right (themis) by someone who holds legitimate authority in a high-stakes situation. When themis is betrayed, the social and moral world of the soldier collapses."* (Chapter 1, p. 6)
+- **[주석]**: 현대 군사 윤리학과 PTSD 치료의 패러다임을 바꾼 역사적 정의.
 
 ### 인용 2: 버서크 상태의 파괴성
-> *"In the berserk state, the warrior loses all fear, all restraint, and all connection to human culture. He feels like a god or a beast, and his capacity for social life is destroyed."* (Chapter 5, p. 98)  
-> **[주석]**: 아킬레우스가 파트로클로스 사후 보여준 비인간적 폭력의 임상적 실체를 규명함.
+- *"In the berserk state, the warrior loses all fear, all restraint, and all connection to human culture. He feels like a god or a beast, and his capacity for social life is destroyed."* (Chapter 5, p. 98)
+- **[주석]**: 아킬레우스가 파트로클로스 사후 보여준 비인간적 폭력의 임상적 실체를 규명함.
 
 ---
 
