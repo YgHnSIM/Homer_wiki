@@ -134,3 +134,19 @@ status: active
   - `wiki/index.md`: 소스 목록 및 카탈로그 갱신
   - `wiki/overview.md`: 대시보드 메타데이터 및 링크 갱신
   - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-16] feat(meta) | homer-review 적대적 위키 검토 및 정제 스킬 구축
+
+- **작업 개요**: Hyperplan의 적대적 5인 공방전 아키텍처를 호메로스 위키 지식베이스 운영 지침(`AGENTS.md`)에 맞추어 변형한 `homer-review` 스킬 신규 구축.
+- **5대 비판적 검토자 구성**:
+  - `philologist` (문헌/원전 검증관): 희랍어 철자/표기, 호메로스 서사시 권·행 번호 인용, 번역 엄밀성 검증
+  - `logician` (논리/학설 비판관): 논리적 비약 탐지, 학설 왜곡 방지, 이설/논쟁점 `> [!WARNING]` 콜아웃 표기
+  - `architect` (위키 규격 감독관): `AGENTS.md` 규격, YAML 프론트매터 무결성, 이모지(Emoji) 전면 배제 검증
+  - `weaver` (지식망 연결관): 고립 문서 방지, `[[위키링크]]` 유효성, `## 관련 항목` 및 미래 링크 보강
+  - `editor` (간결성 편집관): 사족 및 미사여구 제거, 백과사전적 객관성, 중복 문장 압축
+- **생성된 파일**:
+  - `.agents/skills/homer-review/SKILL.md`: homer-review 스킬 정의 및 실행 지침 문서
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
