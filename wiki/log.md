@@ -386,3 +386,20 @@ status: active
 - **업데이트된 연관 문서**:
   - `wiki/analyses/homeric-ethics-literature-review.md`: TOP 20 표 구조 정규화
   - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-16] docs(analyses) | 호메로스 윤리학 종합 분석 제5섹션(운명·신적개입·자율적결단) 전면 확충 및 고도화
+
+- **작업 개요**: `wiki/analyses/homeric-ethics-literature-review.md`의 제5섹션 「운명(Moira), 신적 개입(Ate), 그리고 인간의 자율적 결단」이 지나치게 간략했던 문제를 해결하기 위해, 5개 세부 소섹션, Mermaid 행위·운명 역동 구조도, 학파별 해석 대조 매트릭스, 서사시 정밀 에피소드 매핑 테이블로 대폭 확장 개편함.
+- **주요 반영 내용**:
+  - **5.1 문제의 설정**: 기계론적 운명론(Fatalism) 오류 비판 및 필연성(Ananke)의 존재론적 테두리와 행위 주체성(Moral Agency)의 양립 논증.
+  - **5.2 운명(Moira/Aisa)과 적절성의 기준**: A. A. Long(1970)의 공식구 체계(*kata moiran, themis, kata kosmon, eoike*) 분석을 통한 과도와 결핍의 중용적 규범 통제 모델 규명.
+  - **5.3 신적 개입(Atē)과 인과적 책임**: E. R. Dodds(1951)의 심리적 외주화 이론, 『일리아스』 19권 아가멤논의 변명 정밀 독해, 그리고 원인을 신에게 돌리면서도 실질적 배상(Apoina)을 이행하는 고대 특유의 성숙한 인과적 책임론 해제. 포이닉스의 리타이(Litai) 우화 분석.
+  - **5.4 이중 동기화와 내적 숙고**: Albin Lesky(1961)의 이중 동기화(Doppelte Motivation) 이론(*Il.* 1권 아킬레우스 자제), Bruno Snell의 자아 결여론에 대한 Bernard Williams(1993) 및 Christopher Gill(1996)의 결정적 반박(*Il.* 11권 오디세우스의 가슴 대화 등 내적 숙고).
+  - **5.5 호메로스적 책임론**: 칸트적 순수 의지 책임관과 호메로스적 인과적 결과 책임관(Causal Responsibility) 대비, 헥토르의 사지 출정 및 아킬레우스의 두 항아리(Pithoi) 성찰의 실존적 수용 분석.
+  - **5.6 시각 다이어그램 및 매트릭스**: Mermaid 역동 구조도, 5개 분석 범주별 학파 대조표, 서사시 6대 핵심 에피소드 정밀 매핑 테이블 구축.
+- **업데이트된 연관 문서**:
+  - `wiki/analyses/homeric-ethics-literature-review.md`: 제5섹션 전면 확충 및 고도화
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
