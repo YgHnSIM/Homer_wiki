@@ -117,9 +117,9 @@ graph TD
 ## 7.️ 학술 논쟁사 및 비판적 공방
 
 > [!WARNING] 반세기 동안 이어진 '애드킨스 논쟁'의 전개
-- **A. A. 롱의 반박 (A. A. Long, 1970, *JHS*)**:
-  - 롱 교수는 논문 「Morals and Values in Homer」에서 애드킨스의 '경쟁적 vs 협력적' 2분법이 지나치게 도식적이라고 비판함.
-  - 호메로스 텍스트에서 'agathos'는 단순한 싸움꾼이 아니라, **신중함(Boule), 충성심, 손님 환대([[Xenia]])를 갖춘 인물에게 부여되는 총체적 찬사**임을 증명함.
+- **A. A. 롱의 반박 ([[long-1970-morals-and-values|A. A. Long, 1970, *JHS*]])**:
+  - 롱 교수는 논문 「호메로스의 도덕과 가치」(*Morals and Values in Homer*)에서 애드킨스의 '경쟁적 vs 협력적' 2분법이 칸트주의적 편견에 기반한 도식적 왜곡이라고 비판함.
+  - 호메로스 윤리의 본질을 2분법이 아닌 **'적절성의 기준(Standard of Appropriateness)'**과 과도/결핍의 통제로 재정립함.
 - **휴 로이드-존스의 비판 ([[lloyd-jones-1971-justice-of-zeus|Hugh Lloyd-Jones, 1971]])**:
   - 『제우스의 정의』에서 애드킨스가 칸트주의적 편견에 사로잡혀, 서사시 전편에 흐르는 제우스의 도덕적 질서와 종교적 정의([[Dike]])의 강제력을 완전히 무시했다고 맹비판함.
 - **C. J. 로우의 비판 (C. J. Rowe, 1973)**:
@@ -137,9 +137,10 @@ graph TD
 
 ---
 
-## ## 관련 항목
+## 관련 항목
 
 - [[homeric-ethics-literature-review]]
+- [[long-1970-morals-and-values]]
 - [[Arete]]
 - [[Timê]]
 - [[Dike]]

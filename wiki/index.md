@@ -3,7 +3,7 @@ title: 호메로스 위키 전체 카탈로그 (Index)
 aliases: [전체 목록, 인덱스, 파일 목차]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-16
 sources: []
 status: active
 ---
@@ -14,7 +14,7 @@ status: active
 
 ---
 
-## ️ 메인 & 메타 (Meta & Main)
+## 메인 & 메타 (Meta & Main)
 
 - [[overview]] — 호메로스 위키 홈페이지 / 메인 대시보드
 - [[index]] — 전체 문서 카탈로그 (현재 문서)
@@ -26,6 +26,7 @@ status: active
 
 - [[williams-1993-shame-and-necessity]] — 버나드 윌리엄스: 수치심과 필연성 (고대 도덕심리학 및 행위주체성 복원)
 - [[adkins-1960-merit-and-responsibility]] — A. W. H. 애드킨스: 공적과 책임 (경쟁적 가치와 협력적 가치의 2분법)
+- [[long-1970-morals-and-values]] — A. A. 롱: 호메로스의 도덕과 가치 (적절성의 기준과 과도/결핍 통제 모델)
 - [[cairns-1993-aidos]] — 더글러스 케언스: 아이도스 (명예와 수치심의 심리학과 윤리학 표준 연구)
 - [[dodds-1951-greeks-and-irrational]] — E. R. 도즈: 그리스인들과 비합리적인 것 (수치 문화와 아테 분석)
 - [[snell-1946-discovery-of-mind]] — 브루노 스넬: 정신의 발견 (호메로스 인체관 및 영혼 개념)
@@ -70,7 +71,7 @@ status: active
 
 ---
 
-## ## 관련 항목
+## 관련 항목
 
 - [[overview]]
 - [[log]]

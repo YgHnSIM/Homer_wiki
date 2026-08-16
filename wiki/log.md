@@ -116,3 +116,21 @@ status: active
 
 - **작업 개요**: Conventional Commits 기반의 위키 전용 커밋 메시지 규약 v1.0 제정 및 `AGENTS.md` 제6절에 명문화.
 - **히스토리 소급 적용**: 저장소 첫 번째 루트 커밋 메시지를 규칙에 맞게 `feat(meta): 호메로스 위키 저장소 구조 및 운영 지침 초기화`로 정비 완료.
+
+---
+
+## [2026-08-16] feat(sources) | A. A. Long 1970 논문 소스 문서화 및 적절성의 기준 체계 편입
+
+- **작업 개요**: `raw/A. A. Long, “Morals and Values in Homer” (1970).pdf` 소스를 정밀 분석하여 `wiki/sources/long-1970-morals-and-values.md` 심층 도시에(8대 표준 모듈 체계)로 신규 작성하고, 지식베이스 전반에 상호 교차 참조를 반영함.
+- **반영된 핵심 학술 성과**:
+  - 애드킨스(1960)의 '경쟁적 가치 vs 협력적 가치' 2분법에 대한 문헌학적·철학적 반박
+  - 단일한 **'적절성의 기준(Standard of Appropriateness)'** (*kata moiran, themis, kata kosmon, eoike, chré, aisimos*)을 통한 과도(Excess)와 결핍(Deficiency) 통제 모델 확립
+  - 아가토스(*agathos*)의 경칭적 성격, 아에이케스(*aeikês*) 및 아이스코스(*aischos*)의 광범위한 불의 규탄 용례 실증
+  - 상호적 명예([[Timê]])와 배상(Gifts), 고귀한 자의 유연한 마음(*streptai phrenes esthlôn*) 분석
+- **업데이트된 연관 문서**:
+  - `wiki/sources/long-1970-morals-and-values.md`: 신규 심층 도시에 생성 (8대 모듈 체계)
+  - `wiki/sources/adkins-1960-merit-and-responsibility.md`: A. A. 롱 반박 항목 위키링크 연결 및 서식 정비
+  - `wiki/analyses/homeric-ethics-literature-review.md`: TOP 20 테이블 및 3단계 패러다임 변천사에 Long (1970) 통합 반영
+  - `wiki/index.md`: 소스 목록 및 카탈로그 갱신
+  - `wiki/overview.md`: 대시보드 메타데이터 및 링크 갱신
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
