@@ -9,14 +9,14 @@ author: 장-피에르 베르낭 (Jean-Pierre Vernant, 1914–2007)
 publication_year: 1989
 publisher_or_journal: Gallimard: Paris (『L'individu, la mort, l'amour: Soi-même et l'autre en Grèce ancienne』 수록)
 citations_count: 4150+ (호메로스 분야 1850+)
-key_concepts: ["[[Kleos]]", "[[Timê]]", "[[Moira]]", "[[Arete]]"]
+key_concepts: ["[[concept-kleos|Kleos]]", "[[concept-time|Timê]]", "[[concept-moira|Moira]]", "[[concept-arete|Arete]]"]
 status: active
 ---
 
 # 아름다운 죽음과 호메로스 영웅 윤리 (*La belle mort et le cadavre outragé*)
 
 > [!NOTE] 학술사적 의의 및 총평
-> 프랑스 역사심리학(Psychologie historique)과 파리 학파(École de Paris)의 거장 장-피에르 베르낭의 대표 논문 「아름다운 죽음과 훼손된 시신(La belle mort et le cadavre outragé)」은 고대 그리스 전사 문명에서 '죽음(Thanatos)'이 어떻게 영웅적 인격의 완성체이자 최고의 미학적·윤리적 승리로 변용되는지를 밝힌 불후의 명작입니다. 필멸의 인간이 노화에 따른 육체적 쇠락을 피하고 영원한 청춘과 불멸의 명예([[Kleos]])를 획득하기 위해 선택하는 **'아름다운 죽음(la belle mort, kalos thanatos)'**의 형이상학을 정밀하게 해명했습니다.
+> 프랑스 역사심리학(Psychologie historique)과 파리 학파(École de Paris)의 거장 장-피에르 베르낭의 대표 논문 「아름다운 죽음과 훼손된 시신(La belle mort et le cadavre outragé)」은 고대 그리스 전사 문명에서 '죽음(Thanatos)'이 어떻게 영웅적 인격의 완성체이자 최고의 미학적·윤리적 승리로 변용되는지를 밝힌 불후의 명작입니다. 필멸의 인간이 노화에 따른 육체적 쇠락을 피하고 영원한 청춘과 불멸의 명예([[concept-kleos|Kleos]])를 획득하기 위해 선택하는 **'아름다운 죽음(la belle mort, kalos thanatos)'**의 형이상학을 정밀하게 해명했습니다.
 
 ---
 
@@ -37,7 +37,7 @@ status: active
 | 죽음의 유형 | 자연적 죽음 (노화, 질병) | 아름다운 죽음 (Kalos Thanatos / La belle mort) |
 |:---|:---|:---|
 | **육체적 상태** | 주름, 무력함, 쇠락, 추함(Aischron) | **가장 빛나는 젊음과 육체적 완벽성의 영구적 고정** |
-| **사회적 기억** | 시간의 흐름 속에 잊힘 (망각, Lethe) | 시인의 찬미를 통한 **불멸의 명예([[Kleos Aphthiton]])** |
+| **사회적 기억** | 시간의 흐름 속에 잊힘 (망각, Lethe) | 시인의 찬미를 통한 **불멸의 명예([[concept-kleos|Kleos Aphthiton]])** |
 | **최대의 공포** | 죽음 그 자체가 아니라 늙어서 비참해지는 것 | **시신 훼손(Outrage)으로 인한 영웅적 기억의 말살** |
 | **완성의 의례** | 평범한 매장 | **무덤(Sema) 건립과 공동체의 성대한 장례 의식** |
 
@@ -86,9 +86,9 @@ graph TD
 ## ## 관련 항목
 
 - [[homeric-ethics-literature-review]]
-- [[Kleos]]
-- [[Timê]]
-- [[Moira]]
-- [[Arete]]
+- [[concept-kleos|Kleos]]
+- [[concept-time|Timê]]
+- [[concept-moira|Moira]]
+- [[concept-arete|Arete]]
 - [[일리아스]]
 - [[redfield-1975-nature-and-culture]]

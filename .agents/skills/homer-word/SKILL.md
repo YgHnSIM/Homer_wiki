@@ -149,7 +149,7 @@ flowchart TD
     P0["Phase 0: 표제어 식별 및 모드 결정<br>(concept / eponym / deep)"] --> P1["Phase 1: 어원 증거 원장(Etymology Ledger) 추출<br>(PIE/기층어, 희랍어, 라틴어, 불어, 영어 층위 추출 & 환각/민간어원 차단)"]
     P1 --> P2["Phase 2: 적대적 3라운드 공방전<br>(독립 분석 -> 상호 난타 -> 방어/정제/항복)"]
     P2 --> P3["Phase 3: 1단계 승인 게이트 (단어 분석 설계안)<br>(생존 통찰 & 근거부족/기층어 판정 보고)"]
-    P3 --> P4["Phase 4: 본문 작성 (words/&lt;word&gt;.md)<br>(Mermaid 계통도 + 8대 섹션 + 증거 매트릭스)"]
+    P3 --> P4["Phase 4: 본문 작성 (words/word-&lt;word&gt;.md)<br>(Mermaid 계통도 + 8대 섹션 + 증거 매트릭스)"]
     P4 --> P5["Phase 5: 지식베이스 동기화 & 커밋 제안<br>(words/index.md, wiki/log.md 갱신 + Git 커밋 제안)"]
 ```
 
@@ -162,7 +162,7 @@ flowchart TD
    - `concept`: 일반 개념/추상어
    - `eponym`: 인명/신명/지명 유래 고유명사 및 관용어
    - `deep`: 거대 다중 파생 어족/복합 어근
-4. 대상 파일 경로 지정: `words/<word_lowercase>.md` (예: `words/mentor.md`, `words/chaos.md`).
+4. 대상 파일 경로 지정: `words/word-<word_lowercase>.md` (예: `words/word-mentor.md`, `words/word-chaos.md`, `words/word-achilles.md`).
 
 ---
 
@@ -221,20 +221,20 @@ flowchart TD
    - 정제(Refined): N개
    - 기각/격하(Conceded): N개 (예: "skeptic 지적으로 가짜 PIE 어근 철회 후 기층어로 격하")
 
-이 설계안을 바탕으로 words/<word>.md 문서를 작성할까요?
+이 설계안을 바탕으로 words/word-<word>.md 문서를 작성할까요?
 ```
 
 ---
 
 ### Phase 4: 본문 작성 및 상태 관리
-사용자 승인 후 `words/<word>.md` 파일을 작성합니다:
+사용자 승인 후 `words/word-<word>.md` 파일을 작성합니다:
 1. 표준 8대 섹션 및 프론트매터 작성.
 2. Mermaid 어원 계통도(Transmission Tree) 구현.
 3. 8절 어원 증거 매트릭스 표 완성.
 4. **문서 상태 관리**:
    - 모든 핵심 어원 근거가 공인 문헌으로 입증된 경우: `status: active`
    - 핵심 어원이 불명이거나 `근거 부족(추가 조사 필요)` 항목이 남아있는 경우: `status: review` 유지
-5. 호메로스 위키 내부 `wiki/entities/`, `wiki/concepts/`와 `[[위키링크]]` 상호 연결.
+5. 호메로스 위키 내부 `wiki/entities/`, `wiki/concepts/`와 `[[위키링크]]` 상호 연결 (`[[entity-<name>|...]]`, `[[concept-<name>|...]]`).
 
 ---
 
@@ -245,9 +245,10 @@ flowchart TD
 2. **표준 Git 커밋 제안**:
    - `AGENTS.md` 규정을 준수한 명령어 안내:
      ```bash
-     git add words/<word>.md words/index.md wiki/log.md
+     git add words/word-<word>.md words/index.md wiki/log.md
      git commit -m "feat(words): <표제어> 영단어 어원 및 수용사 분석 문서 생성"
      ```
+
 
 ---
 

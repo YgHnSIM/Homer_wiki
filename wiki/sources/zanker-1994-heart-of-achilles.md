@@ -9,7 +9,7 @@ author: 그레이엄 잰커 (Graham Zanker)
 publication_year: 1994
 publisher_or_journal: University of Michigan Press: Ann Arbor
 citations_count: 260+
-key_concepts: ["[[Arete]]", "[[Aidos]]", "[[Xenia]]", "[[Timê]]", "[[Philotes]]"]
+key_concepts: ["[[concept-arete|Arete]]", "[[concept-aidos|Aidos]]", "[[concept-xenia|Xenia]]", "[[concept-time|Timê]]", "[[Philotes]]"]
 status: active
 ---
 
@@ -84,13 +84,13 @@ graph TD
 ## ## 관련 항목
 
 - [[homeric-ethics-literature-review]]
-- [[Arete]]
-- [[Aidos]]
-- [[Xenia]]
-- [[Timê]]
+- [[concept-arete|Arete]]
+- [[concept-aidos|Aidos]]
+- [[concept-xenia|Xenia]]
+- [[concept-time|Timê]]
 - [[Philotes]]
 - [[일리아스]]
-- [[아킬레우스]]
+- [[entity-achilles|아킬레우스]]
 - [[williams-1993-shame-and-necessity]]
 - [[shay-1994-achilles-in-vietnam]]
 - [[redfield-1975-nature-and-culture]]

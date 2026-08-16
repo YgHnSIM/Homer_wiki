@@ -115,13 +115,13 @@ graph TD
 
 ## 8. 종교학·인류학적 해석 (Religion, Cult & Anthropology)
 - **제의 및 숭배**: 아르카익·고전기 그리스의 영웅 숭배(*hero cult*), 신전 의례, 희생제.
-- **인류학적 구조**: 탄원([[Hikesia]]), 손님 환대([[Xenia]]), 장례 의례, 수치 문화와 공적 평판.
+- **인류학적 구조**: 탄원([[concept-hikesia|Hikesia]]), 손님 환대([[concept-xenia|Xenia]]), 장례 의례, 수치 문화와 공적 평판.
 
 ---
 
 ## 9. 철학·윤리학적 해석 (Philosophical & Ethical Dimensions)
 - **행위 주체성과 도덕 심리학**: 감정의 좌소(*thumos*, *phren*), 신적 개입(*Ate*)과 인간 책임의 공존.
-- **핵심 가치 갈등**: 명예([[Timê]]), 불멸의 명성([[Kleos]]), 수치심([[Aidos]]), 공적 의분([[Nemesis]]), 연민([[Eleos]]).
+- **핵심 가치 갈등**: 명예([[concept-time|Timê]]), 불멸의 명성([[concept-kleos|Kleos]]), 수치심([[concept-aidos|Aidos]]), 공적 의분([[concept-nemesis|Nemesis]]), 연민([[concept-eleos|Eleos]]).
 
 ---
 

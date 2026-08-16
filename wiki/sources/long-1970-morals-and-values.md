@@ -9,7 +9,7 @@ author: 앤서니 A. 롱 (Anthony Arthur Long, 1940– )
 publication_year: 1970
 publisher_or_journal: The Journal of Hellenic Studies (JHS), Vol. 90, pp. 121–139
 citations_count: 320+
-key_concepts: ["[[Arete]]", "[[Timê]]", "[[Dike]]", "[[Aidos]]", "[[Themis]]", "[[Moira]]"]
+key_concepts: ["[[concept-arete|Arete]]", "[[concept-time|Timê]]", "[[concept-dike|Dike]]", "[[concept-aidos|Aidos]]", "[[concept-themis|Themis]]", "[[concept-moira|Moira]]"]
 status: active
 ---
 
@@ -66,7 +66,7 @@ graph TD
 ### 제1절: 호메로스 '사회', 평가 언어 및 애드킨스 비판 (pp. 121–123)
 - **칸트주의적 잣대 비판**: 애드킨스는 "우리 모두는 칸트주의자다"라며 의무와 순수한 도덕적 책임을 중심에 두지만, 고대 그리스 문헌을 칸트적 범주로 재단하는 것은 부당함.
 - **오이코스 환원주의 비판**: 호메로스 서사시는 실제 아르카익 사회의 오이코스(Oikos) 필요를 그대로 복사한 사회학적 보고서가 아니라, 영웅적 아레테를 이상화한 문학적 텍스트임. 따라서 서사시 내적 논리(Internal logic of the poems)를 통해 윤리를 해석해야 함.
-- **경쟁적/협력적 2분법의 허구성**: 호메로스 텍스트에서 크세니아([[Xenia]]), 신들에 대한 제사, 전우 구원, 향연 등은 협력적 행동이면서 동시에 영웅의 지위와 경쟁적 명예([[Timê]])가 걸린 행위임.
+- **경쟁적/협력적 2분법의 허구성**: 호메로스 텍스트에서 크세니아([[concept-xenia|Xenia]]), 신들에 대한 제사, 전우 구원, 향연 등은 협력적 행동이면서 동시에 영웅의 지위와 경쟁적 명예([[concept-time|Timê]])가 걸린 행위임.
 
 ### 제2절: 경쟁과 협력의 상호 침투 (pp. 123–126)
 - **글라우코스의 헥토르 비난 (*Il.* 17.142ff.)**:
@@ -122,7 +122,7 @@ graph TD
 1. **아에이케스 (Aeikês, ἀεικής / Aeikea erga, ἀεικέα ἔργα)**:
    - 본래 '어울리지 않는, 분수에 맞지 않는, 흉측한'을 뜻하며(*oukeoike*에서 유래), 패배의 비참함뿐만 아니라 영웅 규범과 신적 도리를 벗어난 과도한 잔혹 행위(시신 훼손, 살인, 오만)를 규탄하는 핵심 비난어.
 2. **카타 모이란 (Kata moiran, κατὰ μοῖραν)**:
-   - 각자의 사회적 신분, 몫([[Moira]]), 그리고 구체적 상황에 정확히 부합하게 말하고 행동함을 뜻하는 최고 승인어.
+   - 각자의 사회적 신분, 몫([[concept-moira|Moira]]), 그리고 구체적 상황에 정확히 부합하게 말하고 행동함을 뜻하는 최고 승인어.
 3. **카타 코스몬 (Kata kosmon, κατὰ κόσμον)**:
    - 우주와 공동체의 조화로운 질서(Kosmos)에 맞추어 적절하게 처신함을 의미함.
 4. **아이시모스 / 에나이시모스 (Aisimos, αἴσιμος / Enaisimos, ἐναίσιμος)**:
@@ -144,7 +144,7 @@ graph TD
 
 ### 인용 3: 상호적 티메(*timê*)와 타인 존중
 > *"The logic of timê requires attention to the rights of some others, though not of course equal rights... The preservation of one's timê is fundamental, but it depends on respecting the timai of others, strangers, kin, as well as on acts of prowess."* (pp. 138, 139)  
-> **[주석]**: 명예([[Timê]])가 배타적 이기주의가 아니라, 타인의 권리와 몫을 존중할 때 비로소 유지되는 상호적 사회 제도임을 밝힘.
+> **[주석]**: 명예([[concept-time|Timê]])가 배타적 이기주의가 아니라, 타인의 권리와 몫을 존중할 때 비로소 유지되는 상호적 사회 제도임을 밝힘.
 
 ---
 
@@ -158,7 +158,7 @@ graph TD
 | ***Il.* 17.142–175** | **글라우코스의 헥토르 질책** | 동맹 사르페돈의 시신을 방치한 헥토르를 비난함. 헥토르는 비겁한 의도가 없었으며 최선을 다했음을 해명함으로써 '노력'의 가치를 환기함. |
 | ***Il.* 24.33–54** | **아폴론의 아킬레우스 단죄** | 아킬레우스의 시신 능욕을 "합당하지도 낫지도 않은 일(*ou kallion oude ameinon*)"로 규정하며 신들의 공분(*nemesis*)을 경고함. |
 | ***Od.* 1.221–231** | **아테나의 구혼자 행태 평가** | 구혼자들의 방자한 잔치를 신중한 자(*pinutos*)라면 마땅히 분노할 **수치스러운 행태(*aischea polla*)**로 객관적 단죄함. |
-| ***Od.* 14.37–84** | **에우마이오스의 환대와 신앙** | 낯선 거지를 구하고 대접하는 에우마이오스는 신들이 불의한 짓을 싫어하고 정의([[Dike]])와 분수에 맞는 일(*aisima erga*)을 존중함을 선언함. |
+| ***Od.* 14.37–84** | **에우마이오스의 환대와 신앙** | 낯선 거지를 구하고 대접하는 에우마이오스는 신들이 불의한 짓을 싫어하고 정의([[concept-dike|Dike]])와 분수에 맞는 일(*aisima erga*)을 존중함을 선언함. |
 | ***Od.* 15.68–74** | **메넬라오스의 환대 중용론** | 손님을 지나치게 붙잡는 것도 매정하게 쫓아내는 것도 모두 나쁘며, 모든 일에서 **적절함(*aisima panta*)**이 최선임을 천명함 (중용의 원리). |
 | ***Od.* 22.413–418** | **오디세우스의 구혼자 처단 판결** | 구혼자들의 죄는 귀족이든 평민이든 인간 누구에게도 마땅한 존중(*tinein*)을 표하지 않은 방자함(*atasthalia*)에 있었음을 선고함. |
 
@@ -170,7 +170,7 @@ graph TD
 - **애드킨스(1960) 2분법의 해체**:
   - 롱의 정밀한 어휘 분석은 애드킨스의 도식적 구도가 텍스트의 풍부한 실재를 포착하지 못했음을 폭로함.
 - **휴 로이드-존스([[lloyd-jones-1971-justice-of-zeus|Hugh Lloyd-Jones, 1971]])로의 발전**:
-  - 로이드-존스는 롱의 분석을 계승하여 제우스의 정의([[Dike]])가 서사시 전편에 걸쳐 확고한 도덕적 응징력으로 작동함을 증명함.
+  - 로이드-존스는 롱의 분석을 계승하여 제우스의 정의([[concept-dike|Dike]])가 서사시 전편에 걸쳐 확고한 도덕적 응징력으로 작동함을 증명함.
 - **더글러스 케언스([[cairns-1993-aidos|Douglas Cairns, 1993]])의 심화**:
   - 케언스는 롱이 강조한 *nemesis*와 *aidos*의 상호작용을 계승하여, 수치심이 단순한 외부 평판에의 맹종이 아니라 내면화된 도덕 억제력임을 완벽히 실증함.
 - **버나드 윌리엄스([[williams-1993-shame-and-necessity|Bernard Williams, 1993]])의 철학적 완성**:
@@ -194,11 +194,11 @@ graph TD
 - [[williams-1993-shame-and-necessity]]
 - [[cairns-1993-aidos]]
 - [[lloyd-jones-1971-justice-of-zeus]]
-- [[Arete]]
-- [[Timê]]
-- [[Dike]]
-- [[Aidos]]
-- [[Nemesis]]
-- [[Themis]]
-- [[Moira]]
-- [[Xenia]]
+- [[concept-arete|Arete]]
+- [[concept-time|Timê]]
+- [[concept-dike|Dike]]
+- [[concept-aidos|Aidos]]
+- [[concept-nemesis|Nemesis]]
+- [[concept-themis|Themis]]
+- [[concept-moira|Moira]]
+- [[concept-xenia|Xenia]]

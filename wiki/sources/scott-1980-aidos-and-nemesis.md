@@ -9,14 +9,14 @@ author: 메리 스콧 (Mary Scott)
 publication_year: 1980
 publisher_or_journal: Acta Classica, Vol. 23, pp. 13–35
 citations_count: 150+
-key_concepts: ["[[Aidos]]", "[[Nemesis]]", "[[Arete]]", "[[Timê]]", "[[Hikesia]]", "[[Xenia]]", "[[Moira]]"]
+key_concepts: ["[[concept-aidos|Aidos]]", "[[concept-nemesis|Nemesis]]", "[[concept-arete|Arete]]", "[[concept-time|Timê]]", "[[concept-hikesia|Hikesia]]", "[[concept-xenia|Xenia]]", "[[concept-moira|Moira]]"]
 status: active
 ---
 
 # 호메로스 저작에서의 아이도스와 네메시스 (*Aidos and Nemesis in the Works of Homer, and their Relevance to Social or Co-operative Values*)
 
 > [!NOTE] 학술사적 의의 및 총평
-> 메리 스콧(Mary Scott)의 1980년 논문 「호메로스 저작에서의 아이도스와 네메시스, 그리고 사회적·협력적 가치와의 연관성」(*Aidos and Nemesis in the Works of Homer, and their Relevance to Social or Co-operative Values*, *Acta Classica* 23)은 호메로스 도덕심리학의 양대 핵심 감정인 **아이도스([[Aidos]])**와 **네메시스([[Nemesis]])**의 상호 연동 메커니즘을 문헌학적·사회심리학적으로 규명한 고전적 연구입니다. 스콧은 폰 에르파(C. E. von Erffa, 1937)의 파편화된 의미 분절론을 비판하고 베르데니우스(W. J. Verdenius, 1945)의 직관을 확장하여, 아이도스의 본질을 외부 비판에 대한 두려움에서 비롯된 단일한 **'감정적 위축(Shrinking back / Pulling back / Non-moral inhibition)'**으로 정의했습니다. 나아가 호메로스 사회가 결과 중심의 아레테([[Arete]]) 체계 속에서도 탄원([[Hikesia]]), 손님 환대([[Xenia]]), 가족 질서와 같은 협력적·비경쟁적 가치를 보호하기 위해 이 감정들을 어떻게 **신적 제재(Divine Sanction)**의 영역으로 이관하여 보완했는지를 명쾌하게 밝혔습니다.
+> 메리 스콧(Mary Scott)의 1980년 논문 「호메로스 저작에서의 아이도스와 네메시스, 그리고 사회적·협력적 가치와의 연관성」(*Aidos and Nemesis in the Works of Homer, and their Relevance to Social or Co-operative Values*, *Acta Classica* 23)은 호메로스 도덕심리학의 양대 핵심 감정인 **아이도스([[concept-aidos|Aidos]])**와 **네메시스([[concept-nemesis|Nemesis]])**의 상호 연동 메커니즘을 문헌학적·사회심리학적으로 규명한 고전적 연구입니다. 스콧은 폰 에르파(C. E. von Erffa, 1937)의 파편화된 의미 분절론을 비판하고 베르데니우스(W. J. Verdenius, 1945)의 직관을 확장하여, 아이도스의 본질을 외부 비판에 대한 두려움에서 비롯된 단일한 **'감정적 위축(Shrinking back / Pulling back / Non-moral inhibition)'**으로 정의했습니다. 나아가 호메로스 사회가 결과 중심의 아레테([[concept-arete|Arete]]) 체계 속에서도 탄원([[concept-hikesia|Hikesia]]), 손님 환대([[concept-xenia|Xenia]]), 가족 질서와 같은 협력적·비경쟁적 가치를 보호하기 위해 이 감정들을 어떻게 **신적 제재(Divine Sanction)**의 영역으로 이관하여 보완했는지를 명쾌하게 밝혔습니다.
 
 ---
 
@@ -159,14 +159,14 @@ graph TD
 | **_Il._ 3.410–412** | 파리스 동침을 거부하는 헬레네 | 파리스에게 가면 트로이 여성들의 비난(*nemesis*)이 두려움 | 무능한 남편과의 동침으로 인한 명예 훼손 및 세간 평판 회피 |
 | **_Il._ 4.401–402** | 아가멤논의 질책과 디오메데스 | 왕의 질책에 맞서지 않고 침묵하는 디오메데스의 *aidos* | 군주에 대한 존경과 위계 질서 복종의 도덕적 자제력 |
 | **_Il._ 6.441–446** | 안드로마케와 헥토르 | 트로이 남녀들의 비난이 두려워 출전을 결심하는 헥토르 | 수치 문화(*phatis dēmou*)와 영웅적 아레테 습속(*mathon*)의 결합 |
-| **_Il._ 9.639–640** | 사절단의 아킬레우스 설득 | 사절들이 머무는 '지붕(*melathron*)'에 대해 *aidos* 호소 | 손님 환대([[Xenia]])의 물리적 상징물에 대한 원초적 누미노제 투사 |
+| **_Il._ 9.639–640** | 사절단의 아킬레우스 설득 | 사절들이 머무는 '지붕(*melathron*)'에 대해 *aidos* 호소 | 손님 환대([[concept-xenia|Xenia]])의 물리적 상징물에 대한 원초적 누미노제 투사 |
 | **_Il._ 15.561–564** | 아르고스 군대의 전열 독려 | "가슴속에 아이도스를 품고 서로를 보며 아이도스를 느끼라" | 전열 붕괴 방지를 위한 집단 상호 감시와 공적 수치심 가동 |
 | **_Il._ 19.182–183** | 아가멤논의 배상 권고 | 왕이 먼저 화해를 위해 보상하는 것은 *nemesis*가 아님 | 공동체 통합을 위해 왕의 위엄 손상보다 배상이 우선됨을 인정 |
 | **_Il._ 21.74–114** | 뤼카온의 구명 탄원 | 빵을 나누어 먹은 인연을 내세우며 *aidos*를 요구 | 전장이라는 비상 상황에서 약자의 탄원이 지닌 세속적 무력함 실증 |
 | **_Il._ 22.82** | 헤카베의 헥토르 만류 | 젖가슴을 드러내며 어머니의 양육에 대해 *aidos* 호소 | 모자 관계의 생물학적·정서적 신성함에 기초한 억제 요구 |
 | **_Il._ 23.492–494** | 마차 경주 말다툼 중재 | "남이 하면 네메시스를 느낄 짓을 스스로 하지 말라" | 상호성의 원칙과 관찰자 시선의 내면화를 통한 갈등 억제 |
 | **_Il._ 24.44–54** | 아폴론의 아킬레우스 규탄 | 시신을 능욕하여 신들의 *nemesis*를 사고 대지를 욕보임 | 사체 매장의 신성한 권리와 신적 제재의 궁극적 개입 |
-| **_Il._ 24.503–504** | 프리아모스의 헥토르 시신 탄원 | "신들을 두려워하고(*aideio theous*) 나를 불쌍히 여기시오" | 신에 대한 경외와 부친 연상에 기초한 탄원([[Hikesia]])의 완성 |
+| **_Il._ 24.503–504** | 프리아모스의 헥토르 시신 탄원 | "신들을 두려워하고(*aideio theous*) 나를 불쌍히 여기시오" | 신에 대한 경외와 부친 연상에 기초한 탄원([[concept-hikesia|Hikesia]])의 완성 |
 | **_Od._ 2.63–67** | 텔레마코스의 민회 연설 | 구혼자들의 만행에 대해 주민들의 *nemesis*와 *aidos* 촉구 | 공권력 부재 시 이웃의 도덕 감정에 호소하는 세속적 제재 시도 |
 | **_Od._ 6.66–67** | 나우시카아의 빨래 청원 | 아버지 알키노오스에게 결혼 이야기를 꺼리는 *aidos* | 처녀의 성적 성숙과 혼담에 대한 사회적 수줍음(*shyness*) |
 | **_Od._ 6.220–222** | 오디세우스의 나체 목욕 거부 | 나우시카아의 시녀들 앞에서 발가벗기를 꺼리는 *aidos* | 불결한 모습으로 이성 앞에 서는 것에 대한 신체적 부끄러움 |
@@ -209,11 +209,11 @@ graph TD
   - [[cairns-1993-aidos]] (케언스의 아이도스 표준 연구)
   - [[dodds-1951-greeks-and-irrational]] (도즈의 수치 문화론)
 - **개념 문서**:
-  - [[Aidos]] (아이도스: 수치심과 경외의 도덕 감정)
-  - [[Nemesis]] (네메시스: 응당한 분배와 공적 의분)
-  - [[Hikesia]] (탄원 의례와 경외)
-  - [[Xenia]] (손님 환대의 규범)
-  - [[Arete]] (탁월성과 용맹)
-  - [[Timê]] (명예와 배상)
+  - [[concept-aidos|Aidos]] (아이도스: 수치심과 경외의 도덕 감정)
+  - [[concept-nemesis|Nemesis]] (네메시스: 응당한 분배와 공적 의분)
+  - [[concept-hikesia|Hikesia]] (탄원 의례와 경외)
+  - [[concept-xenia|Xenia]] (손님 환대의 규범)
+  - [[concept-arete|Arete]] (탁월성과 용맹)
+  - [[concept-time|Timê]] (명예와 배상)
 - **분석 문서**:
   - [[homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)

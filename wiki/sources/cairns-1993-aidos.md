@@ -9,14 +9,14 @@ author: 더글러스 L. 케언스 (Douglas L. Cairns)
 publication_year: 1993
 publisher_or_journal: Clarendon Press: Oxford
 citations_count: 1150+
-key_concepts: ["[[Aidos]]", "[[Timê]]", "[[Arete]]", "[[Xenia]]", "[[Themis]]"]
+key_concepts: ["[[concept-aidos|Aidos]]", "[[concept-time|Timê]]", "[[concept-arete|Arete]]", "[[concept-xenia|Xenia]]", "[[concept-themis|Themis]]"]
 status: active
 ---
 
 # 아이도스 (*Aidos: The Psychology and Ethics of Honour and Shame in Ancient Greek Literature*)
 
 > [!NOTE] 학술사적 의의 및 총평
-> 더글러스 케언스의 『아이도스』(1993)는 고대 그리스 문학 및 사상사에서 '도덕 감정(Moral Emotion)' 연구의 최고봉을 이루는 기념비적 정전입니다. 호메로스 서사시 전편에 등장하는 모든 **아이도스([[Aidos]]) 및 관련 어휘들의 용례를 엄밀한 문헌학적 기법으로 전수 조사**하고 이를 현대 정서 심리학과 결합함으로써, **아이도스가 단순한 외적 체면이나 사후적 수치심이 아니라, 행위자의 내적 양심, 사전적 자기 억제(Inhibition), 그리고 약자와 타인에 대한 숭고한 경외와 공감(Empathy)을 포괄하는 고차원적 도덕 감정**임을 완벽히 실증했습니다.
+> 더글러스 케언스의 『아이도스』(1993)는 고대 그리스 문학 및 사상사에서 '도덕 감정(Moral Emotion)' 연구의 최고봉을 이루는 기념비적 정전입니다. 호메로스 서사시 전편에 등장하는 모든 **아이도스([[concept-aidos|Aidos]]) 및 관련 어휘들의 용례를 엄밀한 문헌학적 기법으로 전수 조사**하고 이를 현대 정서 심리학과 결합함으로써, **아이도스가 단순한 외적 체면이나 사후적 수치심이 아니라, 행위자의 내적 양심, 사전적 자기 억제(Inhibition), 그리고 약자와 타인에 대한 숭고한 경외와 공감(Empathy)을 포괄하는 고차원적 도덕 감정**임을 완벽히 실증했습니다.
 
 ---
 
@@ -61,12 +61,12 @@ graph TD
 ### 제1장: 호메로스 서사시의 아이도스와 명예 (*Aidôs and Honour in Homer*)
 - **개념의 다층성 규명**:
   - 'aidōs'는 한 가지 고정된 의미가 아니라, **'수치(Shame), 두려움(Fear), 존경(Respect), 경외(Reverence), 절제(Modesty)'**를 아우르는 복합 감정 체계입니다.
-  - 전사는 단순히 남들에게 비난받을까 봐 두려워하는 것이 아니라, 자신이 지켜온 명예([[Timê]])와 품위를 스스로 더럽히지 않기 위해 아이도스를 발휘합니다 (자기 존중, Self-respect).
+  - 전사는 단순히 남들에게 비난받을까 봐 두려워하는 것이 아니라, 자신이 지켜온 명예([[concept-time|Timê]])와 품위를 스스로 더럽히지 않기 위해 아이도스를 발휘합니다 (자기 존중, Self-respect).
 
 ### 제2장: 사회적 관계 속의 아이도스 (*Aidôs in Social Relations*)
 1. **전우애와 군사적 규범**:
    - 전선이 무너질 때 장수들이 "아이도스를 가슴에 품어라!"라고 외치는 것은, 전우를 배신하고 도망치는 비겁함을 막는 **군사 윤리의 도덕적 억제력**입니다.
-2. **탄원(Hikesia)과 크세니아([[Xenia]])**:
+2. **탄원(Hikesia)과 크세니아([[concept-xenia|Xenia]])**:
    - 나보다 무력한 처지에 놓인 이방인이나 탄원자가 무릎을 꿇고 애원할 때, 그를 해치지 않고 환대하도록 강제하는 심리적 힘이 바로 아이도스입니다.
    - 아이도스를 무시하는 자는 제우스 크세니오스(Zeus Xenios)와 제우스 히케시오스(Zeus Hikesios)의 신벌(Nemesis)을 받습니다.
 3. **가족과 공동체**:
@@ -139,12 +139,12 @@ graph TD
 ## 관련 항목
 
 - [[homeric-ethics-literature-review]]
-- [[Aidos]]
-- [[Nemesis]]
-- [[Timê]]
-- [[Arete]]
-- [[Xenia]]
-- [[Themis]]
+- [[concept-aidos|Aidos]]
+- [[concept-nemesis|Nemesis]]
+- [[concept-time|Timê]]
+- [[concept-arete|Arete]]
+- [[concept-xenia|Xenia]]
+- [[concept-themis|Themis]]
 - [[scott-1980-aidos-and-nemesis]]
 - [[williams-1993-shame-and-necessity]]
 - [[long-1970-morals-and-values]]

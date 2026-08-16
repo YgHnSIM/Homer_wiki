@@ -9,7 +9,7 @@ author: 이준석 (한국방송통신대학교 문화교양학과 교수 / 사�
 publication_year: 2024
 publisher_or_journal: 사단법인 정암학당 서양고전강좌 (YouTube 8강 연속 기획)
 citations_count: 8강 전편 18만 자 스크립트 해제
-key_concepts: ["[[Menis]]", "[[Timê]]", "[[Aidos]]", "[[Xenia]]", "[[Arete]]", "[[Moira]]", "[[Themis]]"]
+key_concepts: ["[[concept-menis|Menis]]", "[[concept-time|Timê]]", "[[concept-aidos|Aidos]]", "[[concept-xenia|Xenia]]", "[[concept-arete|Arete]]", "[[concept-moira|Moira]]", "[[concept-themis|Themis]]"]
 status: active
 ---
 
@@ -51,20 +51,20 @@ graph TD
    - 밀먼 패리(Milman Parry)와 앨버트 로드(Albert Lord)의 정형구(Formula) 이론을 바탕으로 호메로스 언어의 시적 메커니즘 해설.
 2. **51일간의 압축된 서사 구조**:
    - 10년 트로이아 전쟁 중 마지막 해의 단 **51일간의 사건**만을 다루며, 그중에서도 **실제 주된 전투는 단 '4일간'에 집중**되어 있음. 이는 역사적 연대기 기술이 아니라 인간 실존의 갈등과 비극성을 극도로 응축하기 위한 고도의 예술적 구성임.
-3. **파리스의 크세니아([[Xenia]]) 배신**:
+3. **파리스의 크세니아([[concept-xenia|Xenia]]) 배신**:
    - 트로이 전쟁의 근본 원인은 메넬라오스의 손님으로 환대받았던 파리스가 안주인 헬레네와 보물을 훔쳐 달아남으로써 고대 문명의 신성한 국제 규범인 '환대(Xenia)'를 유린한 도덕적 범죄였음을 강조.
 
 ### 제2강: 1권 분석 — 아킬레우스의 분노(Mênis)와 영웅 윤리의 작동 원리 (1부 & 2부)
-1. **신적 분노인 메니스([[Menis]])의 성격**:
+1. **신적 분노인 메니스([[concept-menis|Menis]])의 성격**:
    - 『일리아스』의 첫 단어인 *Mênis*(μῆνις)는 인간의 사적 화풀이(Cholos)가 아니라, 우주적 파괴력을 지니며 오직 신들에게만 귀속되는 절대적 분노임.
-2. **티메([[Timê]])와 게라스(Geras)의 존재론적 등가성**:
+2. **티메([[concept-time|Timê]])와 게라스(Geras)의 존재론적 등가성**:
    - 영웅 사회에서 전리품(Geras)은 물질적 탐욕의 대상이 아니라, 전사가 목숨을 걸고 싸운 대가로 공동체로부터 공인받은 사회적 명예(Timê)이자 전사로서의 존재 이유 그 자체임.
    - 아가멤논이 최고 지휘관의 권력으로 브리세이스를 강탈한 것은 아킬레우스의 전사적 존재 가치를 전면 부정한 행위였음.
 3. **제우스의 계획(Dios Boule)**:
    - 아킬레우스의 전선 이탈은 단순한 불복종이 아니라, 그리스 군단 전체가 자신의 부재를 통해 아킬레우스라는 영웅의 대체 불가능한 가치를 뼈저리게 깨닫도록 만드는 윤리적 복수극의 시작임.
 
 ### 제3강: 6권 헥토르의 고뇌와 9권 사절단의 파탄 (1부 & 2부)
-1. **6권 헥토르의 시민적 영웅성(Aner Politikos)과 아이도스([[Aidos]])**:
+1. **6권 헥토르의 시민적 영웅성(Aner Politikos)과 아이도스([[concept-aidos|Aidos]])**:
    - 헥토르는 아킬레우스와 달리 가족(안드로마케, 아스티아낙스)과 트로이 시민을 수호하는 '공동체의 영웅'임.
    - 트로이아의 필연적 멸망을 예감하면서도 시민들에 대한 부끄러움(Aidos) 때문에 성벽 안으로 피신하지 못하고 전장으로 향하는 헥토르를 통해, **영웅적 명예 추구가 공동체를 파멸로 이끄는 비극적 모순**을 조명.
 2. **9권 사절단의 실패와 영웅주의의 거부**:
@@ -78,7 +78,7 @@ graph TD
 2. **24권 프리아모스와의 대면**:
    - 늙은 왕 프리아모스가 적진으로 찾아와 아들을 죽인 원수 아킬레우스의 손에 입을 맞추는 숭고한 탄원(Hikesia).
    - **필멸성(Mortality)의 보편적 연대감**: 아킬레우스가 자신의 늙은 아버지를 떠올리며 프리아모스와 함께 통곡함.
-   - **윤리적 승화**: 신들이 인간에게 내린 피할 수 없는 고통과 죽음 앞에서 적대감을 초월한 깊은 연민(Eleos)과 환대([[Xenia]])를 회복하고 헥토르의 시신을 정중히 인도함.
+   - **윤리적 승화**: 신들이 인간에게 내린 피할 수 없는 고통과 죽음 앞에서 적대감을 초월한 깊은 연민(Eleos)과 환대([[concept-xenia|Xenia]])를 회복하고 헥토르의 시신을 정중히 인도함.
 
 ---
 
@@ -104,15 +104,15 @@ graph TD
 
 - [[homeric-ethics-literature-review]]
 - [[일리아스]]
-- [[아킬레우스]]
-- [[헥토르]]
-- [[Menis]]
-- [[Timê]]
-- [[Aidos]]
-- [[Xenia]]
-- [[Arete]]
-- [[Moira]]
-- [[Themis]]
+- [[entity-achilles|아킬레우스]]
+- [[entity-hector|헥토르]]
+- [[concept-menis|Menis]]
+- [[concept-time|Timê]]
+- [[concept-aidos|Aidos]]
+- [[concept-xenia|Xenia]]
+- [[concept-arete|Arete]]
+- [[concept-moira|Moira]]
+- [[concept-themis|Themis]]
 - [[shay-1994-achilles-in-vietnam]]
 - [[redfield-1975-nature-and-culture]]
 - [[zanker-1994-heart-of-achilles]]

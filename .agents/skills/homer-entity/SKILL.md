@@ -181,7 +181,7 @@ flowchart TD
 
 ### Phase 0: 대상 파일 경로 확인 및 모드 결정
 1. **"HOMER-ENTITY MODE ENABLED!"** 출력.
-2. 사용자가 지정한 대상 마크다운 파일 경로(예: `wiki/entities/achilles.md`)를 확인합니다. (명시적 경로 필수)
+2. 사용자가 지정한 대상 마크다운 파일 경로(예: `wiki/entities/entity-achilles.md`)를 확인합니다. (명시적 경로 필수, `entity-<name>.md` 명명 규칙 준수)
 3. 대상 파일 내용 및 `wiki/meta/entity-framework.md`, `wiki/entities/_template.md`를 로드합니다.
 4. 엔티티 규모와 작업 지시에 따라 모드를 결정합니다:
    - `focused` (부분 집중): 특정 섹션만 보강 요청 시

@@ -26,7 +26,7 @@ status: active
   - **사물 및 유물(Object/Artifact)**: 아킬레우스의 방패, 아가멤논의 홀, 오디세우스의 활, 팔라디온 등
   - **생물 및 괴물(Creature/Monster)**: 퀴클롭스(폴뤼페모스), 스킬라, 카리브디스, 케이론 등
 - **배제 대상**:
-  - 추상적 윤리 규범 및 가치 체계는 `wiki/concepts/` (예: [[Aidos]], [[Menis]], [[Nemesis]], [[Hikesia]])에 수록합니다.
+  - 추상적 윤리 규범 및 가치 체계는 `wiki/concepts/` (예: [[concept-aidos|Aidos]], [[concept-menis|Menis]], [[concept-nemesis|Nemesis]], [[concept-hikesia|Hikesia]])에 수록합니다.
   - 서사적 사건, 비교 비평, 학술 논쟁 총괄은 `wiki/analyses/` (예: [[homeric-ethics-literature-review]])에 수록합니다.
 
 ### 1.2 단일 지칭 대상 원칙 (Single Referent Principle)
@@ -122,8 +122,8 @@ graph LR
 
 | 주장 및 테제 | 자료 유형 | 근거 및 출전 | 확실성 | 관련 위키 문서 |
 |:---|:---|:---|:---|:---|
-| 아킬레우스의 두 가지 운명 선택 | 호메로스 본문 | _Il._ 9.410–416 | 원전 명시 | [[lee-junseok-2018-wrath-and-pity\|이준석 2018]] |
-| 묘역 숭배(Hero Cult)의 형성기 | 물질자료/비문 | 흑해 레우케섬 발굴, BC 7세기 | 강한 학술 추론 | [[vernant-1989-belle-mort\|Vernant 1989]] |
+| 아킬레우스의 두 가지 운명 선택 | 호메로스 본문 | _Il._ 9.410–416 | 원전 명시 | [[lee-junseok-2018-wrath-and-pity|이준석 2018]] |
+| 묘역 숭배(Hero Cult)의 형성기 | 물질자료/비문 | 흑해 레우케섬 발굴, BC 7세기 | 강한 학술 추론 | [[vernant-1989-belle-mort|Vernant 1989]] |
 | 9권 사절단 거부의 윤리학적 성격 | 현대 학술 연구 | Adkins(1960) vs Williams(1993) | 논쟁적 | [[homeric-ethics-literature-review]] |
 ```
 
@@ -146,7 +146,7 @@ graph LR
 ## 7. 관련 항목
 
 - [[_template]] — 엔티티 표준 마크다운 템플릿
-- [[achilles]] — 아킬레우스 표준 엔티티 문서 (기준 예시)
+- [[entity-achilles|achilles]] — 아킬레우스 표준 엔티티 문서 (기준 예시)
 - [[overview]] — 호메로스 위키 메인 대시보드
 - [[index]] — 전체 문서 카탈로그
 - [[homeric-ethics-literature-review]] — 호메로스 윤리학 종합 분석

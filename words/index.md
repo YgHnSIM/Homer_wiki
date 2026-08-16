@@ -14,68 +14,81 @@ updated: 2026-08-17
 
 ## 1. 사전 통계 및 현황
 
-| 분류 | 문서 수 | 대표 예시 |
-|:---|:---:|:---|
-| **개념·추상어 (Concept Words)** | 0 | *chaos, harmony, psyche, nemesis, pathos* |
-| **인명·신명 유래어 (Eponyms)** | 1 | `[[words/achilles|achilles]]`, *mentor, odyssey, hector, tantalus* |
-| **핵심 다중 어근 (Core Roots)** | 0 | *logos/logic, kleos/clue, physis/physics* |
-| **선희랍 기층어/어원 불명 (Pre-Greek Substrate)** | 0 | *labyrinth, hyacinth, narcissus, ocean* |
-| **총 단어 문서 수** | **1** | - |
+| 분류                                              | 문서 수 | 대표 예시                                 |
+| :------------------------------------------------ | :-----: | :---------------------------------------- |
+| **개념·추상어 (Concept Words)**                   |    0    | _chaos, harmony, psyche, nemesis, pathos_ |
+| **인명·신명 유래어 (Eponyms)**                    |    1    | [[word-achilles|achilles]], _mentor, odyssey, hector, tantalus_ |
+| **핵심 다중 어근 (Core Roots)**                   |    0    | _logos/logic, kleos/clue, physis/physics_ |
+| **선희랍 기층어/어원 불명 (Pre-Greek Substrate)** |    0    | _labyrinth, hyacinth, narcissus, ocean_   |
+| **총 단어 문서 수**                               |  **1**  | -                                         |
 
 ---
 
 ## 2. 알파벳순 전체 색인 (Alphabetical Index)
 
 ### A
-- `[[words/achilles|achilles]]` — 아킬레우스(Ἀχιλλεύς) 유래, *Achilles' heel*, *Achilles tendon*, *Achillean* (인명 유래어)
+
+- [[word-achilles|achilles]] — 아킬레우스(Ἀχιλλεύς) 유래, _Achilles' heel_, _Achilles tendon_, _Achillean_ (인명 유래어)
 
 ### C
-- *(작성 대기)*
+
+- _(작성 대기)_
 
 ### H
-- *(작성 대기)*
+
+- _(작성 대기)_
 
 ### L
-- *(작성 대기)*
+
+- _(작성 대기)_
 
 ### M
-- *(작성 대기)*
+
+- _(작성 대기)_
 
 ### N
-- *(작성 대기)*
+
+- _(작성 대기)_
 
 ### O
-- *(작성 대기)*
+
+- _(작성 대기)_
 
 ### P
-- *(작성 대기)*
+
+- _(작성 대기)_
 
 ### T
-- *(작성 대기)*
+
+- _(작성 대기)_
 
 ---
 
 ## 3. 어원 계통별 분류 (By Etymological Roots)
 
 ### 3.1 영웅 및 신명 파생 어휘 (Eponymous Vocabulary)
-- `[[words/achilles|achilles]]` *(아킬레우스 유래: Achilles' heel, Achilles tendon, Achillean)*
-- `[[words/mentor|mentor]]` *(예정: 멘토르 유래, 조언자/스승)*
-- `[[words/odyssey|odyssey]]` *(예정: 오디세우스 유래, 장기간의 파란만장한 여정)*
-- `[[words/hector|hector]]` *(예정: 헥토르 유래, 괴롭히다/위협하다)*
-- `[[words/tantalize|tantalize]]` *(예정: 탄탈로스 유래, 감질나게 하다)*
-- `[[words/siren|siren]]` *(예정: 세이렌 유래, 매혹적인 유혹자/경보장치)*
+
+- [[word-achilles|achilles]] _(아킬레우스 유래: Achilles' heel, Achilles tendon, Achillean)_
+- [[word-mentor|mentor]] _(예정: 멘토르 유래, 조언자/스승)_
+- [[word-odyssey|odyssey]] _(예정: 오디세우스 유래, 장기간의 파란만장한 여정)_
+- [[word-hector|hector]] _(예정: 헥토르 유래, 괴롭히다/위협하다)_
+- [[word-tantalize|tantalize]] _(예정: 탄탈로스 유래, 감질나게 하다)_
+- [[word-siren|siren]] _(예정: 세이렌 유래, 매혹적인 유혹자/경보장치)_
 
 ### 3.2 호메로스 핵심 윤리·철학 개념어 파생 (Ethical & Philosophical Concepts)
-- `[[words/chaos|chaos]]` *(예정: 카오스 유래, 혼돈/무질서)*
-- `[[words/harmony|harmony]]` *(예정: 하르모니아 유래, 조화/화음)*
-- `[[words/psyche|psyche]]` *(예정: 프쉬케 유래, 정신/심리)*
-- `[[words/nemesis|nemesis]]` *(예정: 네메시스 유래, 천벌/강적)*
-- `[[words/clue|clue]]` *(예정: 클레오스(kleos) 및 clew 유래, 실마리/단서)*
+
+- [[word-chaos|chaos]] _(예정: 카오스 유래, 혼돈/무질서)_
+- [[word-harmony|harmony]] _(예정: 하르모니아 유래, 조화/화음)_
+- [[word-psyche|psyche]] _(예정: 프쉬케 유래, 정신/심리)_
+- [[word-nemesis|nemesis]] _(예정: 네메시스 유래, 천벌/강적)_
+- [[word-clue|clue]] _(예정: 클레오스(kleos) 및 clew 유래, 실마리/단서)_
 
 ### 3.3 선희랍 기층어 및 비-PIE 어원 어휘 (Pre-Greek Substrate & Non-IE Roots)
-- `[[words/labyrinth|labyrinth]]` *(예정: 미노아/선희랍 기층어, 미궁)*
-- `[[words/ocean|ocean]]` *(예정: 오케아노스(Ὠκεανός) 기층어 유래, 대양)*
-- `[[words/hyacinth|hyacinth]]` *(예정: 히아킨토스(Ὑάκινθος) 기층어 접미사 -nth- 유래)*
+
+- [[word-labyrinth|labyrinth]] _(예정: 미노아/선희랍 기층어, 미궁)_
+- [[word-ocean|ocean]] _(예정: 오케아노스(Ὠκεανός) 기층어 유래, 대양)_
+- [[word-hyacinth|hyacinth]] _(예정: 히아킨토스(Ὑάκινθος) 기층어 접미사 -nth- 유래)_
+
 
 ---
 

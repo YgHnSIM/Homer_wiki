@@ -9,14 +9,14 @@ author: 이준석 (Lee, Joon Seok)
 publication_year: 2018
 publisher_or_journal: 가톨릭철학, 제31호, pp. 35–57
 citations_count: KCI 등재
-key_concepts: ["[[Menis]]", "[[Eleos]]", "[[Hikesia]]", "[[Aidos]]", "[[Moira]]", "[[Timê]]", "[[Kleos]]"]
+key_concepts: ["[[concept-menis|Menis]]", "[[concept-eleos|Eleos]]", "[[concept-hikesia|Hikesia]]", "[[concept-aidos|Aidos]]", "[[concept-moira|Moira]]", "[[concept-time|Timê]]", "[[concept-kleos|Kleos]]"]
 status: active
 ---
 
 # 분노의 서사시, 연민의 서사시 『일리아스』 (*The Iliad, the Poem of Wrath and Pity*)
 
 > [!NOTE] 학술사적 의의 및 총평
-> 이준석 교수의 2018년 논문 「분노의 서사시, 연민의 서사시 『일리아스』」(『가톨릭철학』 제31호)는 『일리아스』의 서사적 통일성과 시학의 핵심이 **분노([[Menis]])**에서 **동정심/연민([[Eleos]])**으로의 질적 전이에 있음을 논증한 한국 고전문헌학계의 대표적 연구입니다. 저자는 아킬레우스의 정서 전환이 우연하거나 급작스러운 단절이 아니라, **아킬레우스-헥토르**, **헥토르-파트로클로스**, **아킬레우스-프리아모스** 사이에 치밀하게 배치된 **'피아(彼我)를 허무는 3단계 상호 동일화(Identification)'** 구조를 통해 준비되었음을 텍스트 실증으로 입증합니다. 이를 통해 19세기 분석론(Wolf, Lachmann, Wilamowitz)의 다중저자설(24권 편집자 첨가론)과 현대 구송시학(Lord, Foley)의 기계적 유형 장면론을 넘어서는 단일 시인의 일관된 '인간성(휴머니티)의 시학'을 정립합니다.
+> 이준석 교수의 2018년 논문 「분노의 서사시, 연민의 서사시 『일리아스』」(『가톨릭철학』 제31호)는 『일리아스』의 서사적 통일성과 시학의 핵심이 **분노([[concept-menis|Menis]])**에서 **동정심/연민([[concept-eleos|Eleos]])**으로의 질적 전이에 있음을 논증한 한국 고전문헌학계의 대표적 연구입니다. 저자는 아킬레우스의 정서 전환이 우연하거나 급작스러운 단절이 아니라, **아킬레우스-헥토르**, **헥토르-파트로클로스**, **아킬레우스-프리아모스** 사이에 치밀하게 배치된 **'피아(彼我)를 허무는 3단계 상호 동일화(Identification)'** 구조를 통해 준비되었음을 텍스트 실증으로 입증합니다. 이를 통해 19세기 분석론(Wolf, Lachmann, Wilamowitz)의 다중저자설(24권 편집자 첨가론)과 현대 구송시학(Lord, Foley)의 기계적 유형 장면론을 넘어서는 단일 시인의 일관된 '인간성(휴머니티)의 시학'을 정립합니다.
 
 ---
 
@@ -189,10 +189,10 @@ A. B. Lord (1995) / J. M. Foley (1999, 2002)
 - [[vernant-1989-belle-mort]]
 - [[shay-1994-achilles-in-vietnam]]
 - [[homeric-ethics-literature-review]]
-- [[Menis]]
-- [[Hikesia]]
-- [[Eleos]]
-- [[Aidos]]
-- [[Moira]]
-- [[아킬레우스]]
-- [[헥토르]]
+- [[concept-menis|Menis]]
+- [[concept-hikesia|Hikesia]]
+- [[concept-eleos|Eleos]]
+- [[concept-aidos|Aidos]]
+- [[concept-moira|Moira]]
+- [[entity-achilles|아킬레우스]]
+- [[entity-hector|헥토르]]

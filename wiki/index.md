@@ -47,33 +47,33 @@ status: active
 ## 인물 및 개체 (Entities)
 
 - [[_template]] — 엔티티 표준 마크다운 템플릿
-- [[achilles|아킬레우스]] (Achilles) — 『일리아스』의 주인공, 펠레우스와 테티스의 아들, 신적 분노(Mênis)와 비극적 연민(Eleos)의 영웅
-- [[오디세우스]] *(작성 예정)* — 꾀 많은 지략가, 『오뒷세이아』의 주인공
-- [[헥토르]] *(작성 예정)* — 트로이의 수호 영웅, 프리아모스의 장남
-- [[제우스]] *(작성 예정)* — 올림포스 최고의 신
+- [[entity-achilles|아킬레우스]] (Achilles) — 『일리아스』의 주인공, 펠레우스와 테티스의 아들, 신적 분노(Mênis)와 비극적 연민(Eleos)의 영웅
+- [[entity-odysseus|오디세우스]] *(작성 예정)* — 꾀 많은 지략가, 『오뒷세이아』의 주인공
+- [[entity-hector|헥토르]] *(작성 예정)* — 트로이의 수호 영웅, 프리아모스의 장남
+- [[entity-zeus|제우스]] *(작성 예정)* — 올림포스 최고의 신
 
 ---
 
 ## 개념 및 사상 (Concepts)
 
-- [[epic-cycle|서사시환 (Epic Cycle)]] — 트로이 전쟁 전말을 아우르는 8편의 고대 그리스 서사시 연작 체계 (퀴프리아부터 텔레고네이아까지)
-- [[Menis]] — 신적 분노와 우주적 파괴력, 탈인간화와 필멸성의 연대
-- [[Hikesia]] — 신성한 탄원의 의례, 신체 접촉 현상학 및 경외(Aidos)
-- [[Aidos]] — 수치심, 경외, 자기억제, 내면화된 타자의 시선 및 도덕심리학적 억제 메커니즘
-- [[Nemesis]] — 응당한 몫의 분배(Nemein)와 질서(Kosmos)를 수호하는 공적 의분, '네메시스가 되지 않는다(Ouk esti nemesis)'의 적절성 윤리학
-- [[Themis]] *(작성 예정)* — 신성한 관습과 공동체의 공정한 규칙
-- [[Eleos]] *(작성 예정)* — 연민과 필멸성의 비극적 공감
-- [[Arete]] *(작성 예정)* — 탁월성과 용맹
-- [[Timê]] *(작성 예정)* — 명예와 사회적 보상
-- [[Kleos]] *(작성 예정)* — 불멸의 명성과 영웅적 영예
-- [[Dike]] *(작성 예정)* — 정의와 우주적 질서
-- [[Xenia]] *(작성 예정)* — 손님 환대의 의무와 규범
-- [[Nostos]] *(작성 예정)* — 귀환과 고향으로의 이행
-- [[Moira]] *(작성 예정)* — 운명의 몫
-- [[Ate]] *(작성 예정)* — 정신적 눈멂, 미망
-- [[Parrhesia]] *(작성 예정)* — 직언과 영웅적 진실성
-- [[Tlemosyne]] *(작성 예정)* — 인내와 고난의 극복
-- [[Homophrosyne]] *(작성 예정)* — 동반자적 지혜, 부부의 일치된 지혜
+- [[concept-epic-cycle|서사시환 (Epic Cycle)]] — 트로이 전쟁 전말을 아우르는 8편의 고대 그리스 서사시 연작 체계 (퀴프리아부터 텔레고네이아까지)
+- [[concept-menis|Menis]] — 신적 분노와 우주적 파괴력, 탈인간화와 필멸성의 연대
+- [[concept-hikesia|Hikesia]] — 신성한 탄원의 의례, 신체 접촉 현상학 및 경외(Aidos)
+- [[concept-aidos|Aidos]] — 수치심, 경외, 자기억제, 내면화된 타자의 시선 및 도덕심리학적 억제 메커니즘
+- [[concept-nemesis|Nemesis]] — 응당한 몫의 분배(Nemein)와 질서(Kosmos)를 수호하는 공적 의분, '네메시스가 되지 않는다(Ouk esti nemesis)'의 적절성 윤리학
+- [[concept-themis|Themis]] *(작성 예정)* — 신성한 관습과 공동체의 공정한 규칙
+- [[concept-eleos|Eleos]] *(작성 예정)* — 연민과 필멸성의 비극적 공감
+- [[concept-arete|Arete]] *(작성 예정)* — 탁월성과 용맹
+- [[concept-time|Timê]] *(작성 예정)* — 명예와 사회적 보상
+- [[concept-kleos|Kleos]] *(작성 예정)* — 불멸의 명성과 영웅적 영예
+- [[concept-dike|Dike]] *(작성 예정)* — 정의와 우주적 질서
+- [[concept-xenia|Xenia]] *(작성 예정)* — 손님 환대의 의무와 규범
+- [[concept-nostos|Nostos]] *(작성 예정)* — 귀환과 고향으로의 이행
+- [[concept-moira|Moira]] *(작성 예정)* — 운명의 몫
+- [[concept-ate|Ate]] *(작성 예정)* — 정신적 눈멂, 미망
+- [[concept-parrhesia|Parrhesia]] *(작성 예정)* — 직언과 영웅적 진실성
+- [[concept-tlemosyne|Tlemosyne]] *(작성 예정)* — 인내와 고난의 극복
+- [[concept-homophrosyne|Homophrosyne]] *(작성 예정)* — 동반자적 지혜, 부부의 일치된 지혜
 
 ---
 

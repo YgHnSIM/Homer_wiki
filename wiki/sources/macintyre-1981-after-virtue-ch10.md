@@ -9,7 +9,7 @@ author: 알래스데어 매킨타이어 (Alasdair MacIntyre, 1929–2024)
 publication_year: 1981
 publisher_or_journal: University of Notre Dame Press (2nd ed. 1984; 3rd ed. 2007)
 citations_count: 25400+ (호메로스 분야 2400+)
-key_concepts: ["[[Arete]]", "[[Timê]]", "[[Kleos]]", "[[Moira]]"]
+key_concepts: ["[[concept-arete|Arete]]", "[[concept-time|Timê]]", "[[concept-kleos|Kleos]]", "[[concept-moira|Moira]]"]
 status: active
 ---
 
@@ -36,7 +36,7 @@ status: active
 | 비교 범주 | 근대 자유주의 도덕관 (Kant, Mill, Emotivism) | 매킨타이어의 고대 덕 윤리 모델 (*After Virtue*) |
 |:---|:---|:---|
 | **인간관** | 사회적 맥락과 무관한 '자율적이고 추상적인 개인' | 특정한 가문, 도시, **사회적 역할(Role)에 내장된 존재** |
-| **덕([[Arete]])의 정의** | 보편적인 도덕 법칙에 대한 내면적 의무 준수 | **주어진 역할(왕, 전사, 아내, 친구)을 탁월하게 수행하는 능력** |
+| **덕([[concept-arete|Arete]])의 정의** | 보편적인 도덕 법칙에 대한 내면적 의무 준수 | **주어진 역할(왕, 전사, 아내, 친구)을 탁월하게 수행하는 능력** |
 | **존재와 당위 (Is vs Ought)** | 사실(Is)과 가치(Ought)는 논리적으로 완전히 단절됨 | **역할 개념 안에서 존재와 당위가 완벽히 일치함 (No gap)** |
 | **삶의 구조** | 개별적이고 원자화된 행위들의 무작위적 나열 | 시작, 중간, 끝이 있는 **'삶의 서사적 통일성(Narrative Unity)'** |
 
@@ -64,7 +64,7 @@ graph TD
 
 ### 3.삶의 서사적 통일성과 죽음의 의미:
 - 영웅의 삶은 고립된 순간의 연속이 아니라, 탄생부터 전사(Death)에 이르는 하나의 완결된 드라마틱한 서사입니다.
-- 영웅이 불멸의 명예([[Kleos]])를 추구하는 것은 허영심 때문이 아니라, 자신의 삶이라는 이야기가 후대 시인들의 입을 통해 '하나의 완결된 영웅적 서사'로 기억되기를 열망하기 때문입니다.
+- 영웅이 불멸의 명예([[concept-kleos|Kleos]])를 추구하는 것은 허영심 때문이 아니라, 자신의 삶이라는 이야기가 후대 시인들의 입을 통해 '하나의 완결된 영웅적 서사'로 기억되기를 열망하기 때문입니다.
 
 ---
 
@@ -88,9 +88,9 @@ graph TD
 ## ## 관련 항목
 
 - [[homeric-ethics-literature-review]]
-- [[Arete]]
-- [[Timê]]
-- [[Kleos]]
-- [[Moira]]
+- [[concept-arete|Arete]]
+- [[concept-time|Timê]]
+- [[concept-kleos|Kleos]]
+- [[concept-moira|Moira]]
 - [[williams-1993-shame-and-necessity]]
 - [[adkins-1960-merit-and-responsibility]]

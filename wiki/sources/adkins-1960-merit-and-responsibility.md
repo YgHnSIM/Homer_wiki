@@ -9,7 +9,7 @@ author: 아서 W. H. 애드킨스 (Arthur W. H. Adkins, 1929–1996)
 publication_year: 1960
 publisher_or_journal: Clarendon Press: Oxford
 citations_count: 1820+
-key_concepts: ["[[Arete]]", "[[Timê]]", "[[Dike]]", "[[Aidos]]", "[[Themis]]"]
+key_concepts: ["[[concept-arete|Arete]]", "[[concept-time|Timê]]", "[[concept-dike|Dike]]", "[[concept-aidos|Aidos]]", "[[concept-themis|Themis]]"]
 status: active
 ---
 
@@ -68,10 +68,10 @@ graph TD
   - 가장 수치스러운 것(Aischron)은 도덕적 악행이 아니라, 전쟁에서의 패배, 전리품의 상실, 신체적 무력함입니다.
 
 ### 제3장: 호메로스 사회에서의 책임과 불의 (*Responsibility and Injustice in Homer*)
-- **디케([[Dike]])와 테미스([[Themis]])의 한계**:
+- **디케([[concept-dike|Dike]])와 테미스([[concept-themis|Themis]])의 한계**:
   - 협력적 덕인 정의(Dike)는 경쟁적 덕인 아레테와 충돌할 때 힘을 잃습니다.
   - 『일리아스』 1권에서 아가멤논이 아킬레우스의 전리품을 빼앗은 것은 불의하지만, 아가멤논이 그리스 군단 전체의 최고 지휘관으로서 더 높은 아가토스(지위와 권력)를 지녔기 때문에 군사들은 이를 제지하지 못합니다.
-  - 따라서 호메로스 영웅들의 갈등은 '정의와 불의의 싸움'이 아니라, **'서로 양보할 수 없는 두 아가토스의 경쟁적 티메([[Timê]]) 충돌'**로 해석됩니다.
+  - 따라서 호메로스 영웅들의 갈등은 '정의와 불의의 싸움'이 아니라, **'서로 양보할 수 없는 두 아가토스의 경쟁적 티메([[concept-time|Timê]]) 충돌'**로 해석됩니다.
 
 ### 제4장~제14장: 서사시 이후 그리스 도덕관의 진화 (*From Hesiod to Aristotle*)
 - 헤시오도스, 서정시, 비극(아이스퀼로스, 소포클레스, 에우리피데스), 소피스트, 그리고 플라톤과 아리스토텔레스에 이르기까지, 협력적 가치인 '정의'가 어떻게 점진적으로 최고의 덕(Arete)의 지위를 획득해 가는지를 추적합니다.
@@ -121,7 +121,7 @@ graph TD
   - 롱 교수는 논문 「호메로스의 도덕과 가치」(*Morals and Values in Homer*)에서 애드킨스의 '경쟁적 vs 협력적' 2분법이 칸트주의적 편견에 기반한 도식적 왜곡이라고 비판함.
   - 호메로스 윤리의 본질을 2분법이 아닌 **'적절성의 기준(Standard of Appropriateness)'**과 과도/결핍의 통제로 재정립함.
 - **휴 로이드-존스의 비판 ([[lloyd-jones-1971-justice-of-zeus|Hugh Lloyd-Jones, 1971]])**:
-  - 『제우스의 정의』에서 애드킨스가 칸트주의적 편견에 사로잡혀, 서사시 전편에 흐르는 제우스의 도덕적 질서와 종교적 정의([[Dike]])의 강제력을 완전히 무시했다고 맹비판함.
+  - 『제우스의 정의』에서 애드킨스가 칸트주의적 편견에 사로잡혀, 서사시 전편에 흐르는 제우스의 도덕적 질서와 종교적 정의([[concept-dike|Dike]])의 강제력을 완전히 무시했다고 맹비판함.
 - **C. J. 로우의 비판 (C. J. Rowe, 1973)**:
   - 『The Cambridge History of Classical Literature』 등에서 애드킨스가 고대 텍스트의 다채로운 도덕적 뉘앙스를 현대 법률적 책임 개념의 틀에 억지로 끼워 맞췄음을 지적함.
 - **버나드 윌리엄스의 극복 ([[williams-1993-shame-and-necessity|Bernard Williams, 1993]])**:
@@ -142,12 +142,12 @@ graph TD
 - [[homeric-ethics-literature-review]]
 - [[long-1970-morals-and-values]]
 - [[scott-1980-aidos-and-nemesis]]
-- [[Arete]]
-- [[Timê]]
-- [[Dike]]
-- [[Aidos]]
-- [[Nemesis]]
-- [[Themis]]
+- [[concept-arete|Arete]]
+- [[concept-time|Timê]]
+- [[concept-dike|Dike]]
+- [[concept-aidos|Aidos]]
+- [[concept-nemesis|Nemesis]]
+- [[concept-themis|Themis]]
 - [[williams-1993-shame-and-necessity]]
 - [[cairns-1993-aidos]]
 - [[lloyd-jones-1971-justice-of-zeus]]

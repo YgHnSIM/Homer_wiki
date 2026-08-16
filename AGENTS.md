@@ -16,15 +16,15 @@ c:/Vault/Homer_wiki/
 │   ├── index.md           # 전체 페이지 카탈로그 및 인덱스
 │   ├── log.md             # 작업 시간순 기록 타임라인
 │   ├── overview.md        # 위키 대시보드 / 호메로스 서사시 개요
-│   ├── sources/           # 텍스트 및 서적 요약 문서
-│   ├── entities/          # 영웅, 신, 국가, 장소 등 개체 문서
-│   ├── concepts/          # Kleos, Xenia, Nostos 등 핵심 개념 문서
-│   ├── analyses/          # 서사 구조, 에피소드 비교, 비평 문서
+│   ├── sources/           # 텍스트 및 서적 요약 문서 (<author>-<year>-<title>.md)
+│   ├── entities/          # 영웅, 신, 국가, 장소 등 개체 문서 (entity-<name>.md)
+│   ├── concepts/          # Kleos, Xenia, Nostos 등 핵심 개념 문서 (concept-<name>.md)
+│   ├── analyses/          # 서사 구조, 에피소드 비교, 비평 문서 (analysis-<title>.md)
 │   └── meta/              # 용어집, 구조 안내 등 메타 문서
 └── words/                 # 호메로스 어원·영단어 수용사 사전 (독립 지식베이스)
     ├── _template.md       # 표준 단어 어원 분석 문서 템플릿
     ├── index.md           # 단어 사전 카탈로그 및 색인
-    └── <word>.md          # 개별 단어 어원·수용사 분석 문서
+    └── word-<name>.md     # 개별 단어 어원·수용사 분석 문서 (word-<name>.md)
 ```
 
 ---
@@ -70,6 +70,22 @@ status: draft | active | review | archived
 - 텍스트 분석 및 주장의 근거는 `[[소스 페이지]]` 또는 원문 서/행 번호(예: _일리아스_ 1권 1-9행)를 명시합니다.
 - 학설이나 서사 해석 간 모순이 존재할 경우 경고 콜아웃을 명시적으로 남깁니다: `> [!WARNING] 모순/이설 발견`
 - 모든 페이지 하단에는 `## 관련 항목` 섹션을 포함하여 관련 페이지 링크를 묶어 배치합니다.
+
+### 2.5 파일 명명 규칙 (File Naming Conventions)
+
+볼트 전역 고유성(Global Uniqueness)을 확보하고 동명 표제어(예: Achilles 인물 vs 단어) 간 링크 충돌 및 상대 경로 오작동을 방지하기 위해 **유형별 전치 접두사(Kebab-case Prefix)**를 의무 적용합니다:
+
+| 디렉토리 | 유형 (Type) | 파일명 명명 규칙 | 작성 예시 | 위키링크 호출 형식 |
+|:---|:---|:---|:---|:---|
+| `wiki/entities/` | 인물, 신, 장소, 사물 | `entity-<name>.md` | `entity-achilles.md`, `entity-hector.md` | `[[entity-achilles\|아킬레우스]]` |
+| `wiki/concepts/` | 호메로스 핵심 개념·사상 | `concept-<name>.md` | `concept-menis.md`, `concept-aidos.md` | `[[concept-menis\|메니스]]` |
+| `words/` | 어원·영단어 수용사 | `word-<name>.md` | `word-achilles.md`, `word-mentor.md` | `[[word-achilles\|Achilles]]` |
+| `wiki/sources/` | 원전 및 학술 소스 | `<author>-<year>-<title>.md` | `lee-junseok-2024-iliad-jeongam.md` | `[[lee-junseok-2024-iliad-jeongam]]` |
+| `wiki/analyses/` | 종합 비평 및 서사 분석 | `analysis-<title>.md` | `homeric-ethics-literature-review.md` | `[[homeric-ethics-literature-review]]` |
+| `wiki/meta/` | 메타 가이드라인 | `<name>.md` | `entity-framework.md` | `[[entity-framework]]` |
+
+- **위키링크 작성 원칙**: 파일명이 볼트 전역에서 고유하므로, 어느 폴더에 위치한 문서에서 링크하든 상대경로(`../`)나 폴더 경로 없이 `[[entity-achilles|아킬레우스]]`, `[[concept-menis|메니스]]`, `[[word-achilles|Achilles]]`와 같이 간결하고 안전하게 표기합니다.
+
 
 ---
 

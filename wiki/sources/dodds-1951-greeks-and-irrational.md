@@ -9,14 +9,14 @@ author: E. R. 도즈 (Eric Robertson Dodds, 1893–1979)
 publication_year: 1951
 publisher_or_journal: University of California Press (Sather Classical Lectures, Vol. 25)
 citations_count: 5600+ (호메로스 분야 2100+)
-key_concepts: ["[[Ate]]", "[[Aidos]]", "[[Moira]]", "[[Menis]]", "[[Themis]]"]
+key_concepts: ["[[concept-ate|Ate]]", "[[concept-aidos|Aidos]]", "[[concept-moira|Moira]]", "[[concept-menis|Menis]]", "[[concept-themis|Themis]]"]
 status: active
 ---
 
 # 그리스인들과 비합리적인 것 (*The Greeks and the Irrational*)
 
 > [!NOTE] 학술사적 의의 및 총평
-> E. R. 도즈의 『그리스인들과 비합리적인 것』(1951)은 20세기 서양고전학계의 패러다임을 바꾼 혁명적 저작입니다. 18세기 빙켈만(Winckelmann) 이래 서구 지성사를 지배하던 "고대 그리스는 티 없는 순수 이성과 고요한 위대함의 합리적 문명이었다"는 계몽주의적 이상화를 깨뜨리고, 사회인류학(루스 베네딕트의 문화 패턴)과 프로이트 정신분석학을 도입하여 그리스 문화 저변에 흐르는 비합리적 충동, 주술, 집단적 불안, 신적 개입, 그리고 **아테([[Ate]], 정신적 눈멂)**의 심리학을 최초로 엄밀하게 해명했습니다.
+> E. R. 도즈의 『그리스인들과 비합리적인 것』(1951)은 20세기 서양고전학계의 패러다임을 바꾼 혁명적 저작입니다. 18세기 빙켈만(Winckelmann) 이래 서구 지성사를 지배하던 "고대 그리스는 티 없는 순수 이성과 고요한 위대함의 합리적 문명이었다"는 계몽주의적 이상화를 깨뜨리고, 사회인류학(루스 베네딕트의 문화 패턴)과 프로이트 정신분석학을 도입하여 그리스 문화 저변에 흐르는 비합리적 충동, 주술, 집단적 불안, 신적 개입, 그리고 **아테([[concept-ate|Ate]], 정신적 눈멂)**의 심리학을 최초로 엄밀하게 해명했습니다.
 
 ---
 
@@ -41,7 +41,7 @@ status: active
 | **그리스 정신관** | 순수한 이성(Logos)과 조화, 균형의 합리주의 | 비합리적 공포, 무의식적 충동, 신적 광기가 교차하는 긴장의 장 |
 | **사회적 윤리 유형** | 보편적 도덕법칙과 내면적 죄책감 | 타인의 비난과 사회적 평판에 종속된 **'수치 문화(Shame Culture)'** |
 | **신적 개입의 성격** | 단순한 문학적 장식이나 시적 수사 | 설명할 수 없는 심리적 충동을 외부 투사하는 **'심리적 외주화'** |
-| **인간의 실수와 과오** | 의지박약이나 지적 판단 미숙 | 신들이 인간의 마음에 직접 불어넣는 치명적 눈멂, **'아테([[Ate]])'** |
+| **인간의 실수와 과오** | 의지박약이나 지적 판단 미숙 | 신들이 인간의 마음에 직접 불어넣는 치명적 눈멂, **'아테([[concept-ate|Ate]])'** |
 
 ### [Mermaid 논증 구조도]
 
@@ -59,7 +59,7 @@ graph TD
 
 ### 1.텍스트 분석 대상: 『일리아스』 19권 86~138행
 - 트로이 전쟁 최고의 지휘관 아가멤논이 아킬레우스에게 공식 사과하면서 다음과 같이 외치는 장면:
-  > *"나는 책임이 없다! 원인은 제우스와 모이라, 그리고 어둠 속을 걷는 에리뉘스이다. 그들이 민회에서 내 마음에 사나운 아테([[Ate]])를 던졌다!"* (*Il.* 19.86–89)
+  > *"나는 책임이 없다! 원인은 제우스와 모이라, 그리고 어둠 속을 걷는 에리뉘스이다. 그들이 민회에서 내 마음에 사나운 아테([[concept-ate|Ate]])를 던졌다!"* (*Il.* 19.86–89)
 
 ### 2.도즈의 심리학적·인류학적 해제
 - **단순한 거짓말이 아닌 진정한 신앙의 고백**:
@@ -130,11 +130,11 @@ graph TD
 ## ## 관련 항목
 
 - [[homeric-ethics-literature-review]]
-- [[Ate]]
-- [[Aidos]]
-- [[Moira]]
-- [[Menis]]
-- [[Themis]]
+- [[concept-ate|Ate]]
+- [[concept-aidos|Aidos]]
+- [[concept-moira|Moira]]
+- [[concept-menis|Menis]]
+- [[concept-themis|Themis]]
 - [[williams-1993-shame-and-necessity]]
 - [[cairns-1993-aidos]]
 - [[snell-1946-discovery-of-mind]]
