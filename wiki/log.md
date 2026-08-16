@@ -237,6 +237,25 @@ status: active
   - `wiki/overview.md`: 대시보드 갱신
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-16] docs(concepts) | homer-review 적대적 5인 검토 결과 반영 및 Aidos(아이도스) 개념 문서 정제
+
+- **작업 개요**: `homer-review` 스킬을 실행하여 문헌검증관(`philologist`), 논리/학설비판관(`logician`), 위키규격감독관(`architect`), 지식망연결관(`weaver`), 간결성편집관(`editor`) 5인의 3라운드 적대적 공방전을 수행하고, 생존한 핵심 개선안을 `wiki/concepts/aidos.md`에 반영 완료함.
+- **반영된 주요 정제 사항**:
+  - **문헌학적 어휘군 및 원전 행 번호 보강**: 결핍 악덕인 아나이데이아(*anaideia*, ἀναίδεια, 뻔뻔함/파렴치) 및 아나이데스(*anaidês*, ἀναιδής)(_Il._ 1.149, _Od._ 22.39–40) 수록, 전장 공식구 "가슴속에 아이도스를 품으라(*aidô thesth' eni thumôi*)"(_Il._ 15.561) 및 상호 아이도스(*allēlous t' aideisthe*)(_Il._ 5.530, 15.562) 명시, 디오메데스 침묵(_Il._ 4.401–402), 전령들의 경외(_Il._ 1.331–332), 텔레마코스의 주저(_Od._ 3.22–24), 헤카베의 젖가슴 탄원(_Il._ 22.82–83), 아폴론의 아이도스 양면성 규탄(_Il._ 24.44–45: *hê t' andras mega sinetai êd' oninêsi*) 및 헤시오도스 병행구 수록.
+  - **논리 및 학설 충돌 경고 콜아웃 추가**:
+    1. `> [!WARNING] 모순/이설 발견: 수치 문화(Dodds) 대 내면화된 자아 이상(Williams/Cairns)`
+    2. `> [!WARNING] 모순/이설 발견: 다의적 분절론(Von Erpha) 대 단일 감정 위축론(Scott/Cairns)`
+  - **24권 연민([[Eleos]])과의 연동**: 아킬레우스가 신적 경외(*aideio theous*)와 연민(*eleos*)을 결합하여 인간성을 회복하는 영적 도약 구조 해명.
+  - **지식망 및 관련 항목 확충**: 본문 내 `[[디오메데스]]`, `[[헤카베]]`, `[[나우시카아]]`, `[[Zeus Xenios]]`, `[[Zeus Hikesios]]`, `[[Eleos]]`, `[[Anaideia]]`, `[[Moira]]`, `[[Hybris]]`, `[[Cholos]]` 링크 보강 및 YAML 소스 메타데이터(`redfield-1975-nature-and-culture.md`, `lee-junseok-2024-iliad-jeongam.md`) 동기화.
+  - **문체 압축**: 4대 작동 영역과 네메시스 상호 연동 메커니즘을 고밀도 백과사전식 서술로 정돈.
+- **업데이트된 연관 문서**:
+  - `wiki/concepts/aidos.md`: 전면 정제 완료
+  - `wiki/index.md`: 카탈로그 동기화
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
 
 
 
