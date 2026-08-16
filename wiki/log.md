@@ -361,6 +361,21 @@ status: active
   - `wiki/analyses/homeric-ethics-literature-review.md`: 전 문장 고전 학술 문체 전면 윤문 완료
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-16] fix(analyses) | 희랍어 원어 표기 오타 정정
+
+- **작업 개요**: `wiki/analyses/homeric-ethics-literature-review.md` 및 연관 소스 문서 내 희랍어 원어 표기에 한글 음절이 혼입된 오타를 전수 점검하여 정정함.
+- **주요 수정 사항**:
+  - **호모프로시네 표기 정정**: `wiki/analyses/homeric-ethics-literature-review.md` 제2장 2.2절 제5항 소제목 및 본문 내 `ὁ모φροσύνη` → `ὁμοφροσύνη` ('모' → 'μο') 교정.
+  - **네메시스 표기 정정**: `wiki/analyses/homeric-ethics-literature-review.md` 제3장 매트릭스 표 내 `νέ메σις` → `νέμεσις` ('메' → 'με') 교정.
+  - **메니스 표기 정정**: `wiki/sources/lee-junseok-2018-wrath-and-pity.md` 제4장 사전 항목 내 `μῆ니스` → `μῆνις` ('니스' → 'νις') 교정.
+- **업데이트된 연관 문서**:
+  - `wiki/analyses/homeric-ethics-literature-review.md`: 희랍어 표기 오타 교정
+  - `wiki/sources/lee-junseok-2018-wrath-and-pity.md`: 메니스 희랍어 철자 교정
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
 
 
 
