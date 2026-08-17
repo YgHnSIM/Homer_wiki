@@ -39,6 +39,7 @@ status: active
 - [[zanker-1994-heart-of-achilles]] — 그레이엄 잰커: 아킬레우스의 마음 (개인적 윤리와 대도량, 연민)
 - [[lee-junseok-2024-iliad-jeongam]] — 이준석: 정암학당 2024 호메로스 『일리아스』 4강 연속 집중강좌 해제
 - [[scott-1980-aidos-and-nemesis]] — 메리 스콧: 호메로스 저작에서의 아이도스와 네메시스 (감정적 위축과 공적 의분의 상호 제재)
+- [[scott-1982-philos-philotes-xenia]] — 메리 스콧: 호메로스 저작에서의 필로스, 필로테스, 크세니아 (긴장 완화로서의 필로스와 크세니아 상호부조망)
 - [[lee-junseok-2018-wrath-and-pity]] — 이준석: 분노의 서사시, 연민의 서사시 『일리아스』 (피아를 초월하는 3단계 동일화와 일관된 시학)
 - [[lee-junseok-2016-odyssey-humanity]] — 이준석: 호메로스의 휴머니티 (구혼자 살육과 폴뤼페모스 대비, 인간조건과 테미스의 수호)
 
@@ -61,13 +62,13 @@ status: active
 - [[concept-hikesia|Hikesia]] — 신성한 탄원의 의례, 신체 접촉 현상학 및 경외(Aidos)
 - [[concept-aidos|Aidos]] — 수치심, 경외, 자기억제, 내면화된 타자의 시선 및 도덕심리학적 억제 메커니즘
 - [[concept-nemesis|Nemesis]] — 응당한 몫의 분배(Nemein)와 질서(Kosmos)를 수호하는 공적 의분, '네메시스가 되지 않는다(Ouk esti nemesis)'의 적절성 윤리학
+- [[concept-xenia|Xenia]] — 손님 환대와 상호부조의 신성한 규범, 긴장 완화(Philos)와 문명적 법질서(Eunomia)의 초석
 - [[concept-themis|Themis]] *(작성 예정)* — 신성한 관습과 공동체의 공정한 규칙
 - [[concept-eleos|Eleos]] *(작성 예정)* — 연민과 필멸성의 비극적 공감
 - [[concept-arete|Arete]] *(작성 예정)* — 탁월성과 용맹
 - [[concept-time|Timê]] *(작성 예정)* — 명예와 사회적 보상
 - [[concept-kleos|Kleos]] *(작성 예정)* — 불멸의 명성과 영웅적 영예
 - [[concept-dike|Dike]] *(작성 예정)* — 정의와 우주적 질서
-- [[concept-xenia|Xenia]] *(작성 예정)* — 손님 환대의 의무와 규범
 - [[concept-nostos|Nostos]] *(작성 예정)* — 귀환과 고향으로의 이행
 - [[concept-moira|Moira]] *(작성 예정)* — 운명의 몫
 - [[concept-ate|Ate]] *(작성 예정)* — 정신적 눈멂, 미망

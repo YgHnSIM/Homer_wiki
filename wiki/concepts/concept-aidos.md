@@ -117,6 +117,7 @@ $$\text{행위자의 아이도스(Aidôs)} \iff \text{관찰자의 네메시스(
 - [[concept-eleos|Eleos]] — 고통받는 타자에 대한 연민과 공감
 - [[concept-time|Timê]] — 사회적 인정과 명예
 - [[concept-arete|Arete]] — 영웅적 탁월성과 그에 따르는 도덕적 책무
+- [[concept-xenia|Xenia]] — 손님 환대와 이방인 보호 규범
 - [[concept-themis|Themis]] — 신성한 관습 규범
 - [[concept-moira|Moira]] — 인간에게 할당된 응당한 몫과 운명적 한계
 - [[concept-hybris|Hybris]] — 몫을 넘어선 오만과 불의
@@ -125,6 +126,7 @@ $$\text{행위자의 아이도스(Aidôs)} \iff \text{관찰자의 네메시스(
 
 ### 주요 연구 문헌
 - [[scott-1980-aidos-and-nemesis]] — 호메로스 저작에서의 아이도스와 네메시스 (감정적 위축론 및 신적 제재 분석)
+- [[scott-1982-philos-philotes-xenia]] — 호메로스 저작에서의 필로스, 필로테스, 크세니아 (긴장 완화와 크세니아 상호부조망)
 - [[cairns-1993-aidos]] — 아이도스: 고대 그리스 문학의 도덕심리학과 명예 체계
 - [[williams-1993-shame-and-necessity]] — 수치심과 필연성 (내면화된 타자 시선 및 자아 이상 복원)
 - [[long-1970-morals-and-values]] — 호메로스의 도덕과 가치 (적절성의 기준 모델)

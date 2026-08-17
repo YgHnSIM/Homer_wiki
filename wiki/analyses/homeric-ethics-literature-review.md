@@ -277,7 +277,7 @@ graph TD
     end
 
     subgraph "제2기: 1970~1990년대 (내면성·적절성·행위주체성 복원)"
-        P2["Long (1970): 적절성의 기준과 2분법 해체<br/>Lloyd-Jones (1971): 제우스 정의의 일관성<br/>Redfield (1975): 영웅 규범의 내적 비극성<br/>Scott (1980): Aidôs-Nemesis 상호 제재 및 신적 보완<br/>MacIntyre (1981): 역할에 정초된 덕 윤리<br/>Williams (1993): 행위 주체성과 내면적 Aidôs<br/>Cairns (1993): Aidôs의 도덕 감정성 실증<br/>Zanker (1994): 개인적 윤리와 연민(Eleos)"]
+        P2["Long (1970): 적절성의 기준과 2분법 해체<br/>Lloyd-Jones (1971): 제우스 정의의 일관성<br/>Redfield (1975): 영웅 규범의 내적 비극성<br/>Scott (1980/1982): Aidôs-Nemesis 상호 제재 및 Philos-Xenia 협력 규범<br/>MacIntyre (1981): 역할에 정초된 덕 윤리<br/>Williams (1993): 행위 주체성과 내면적 Aidôs<br/>Cairns (1993): Aidôs의 도덕 감정성 실증<br/>Zanker (1994): 개인적 윤리와 연민(Eleos)"]
     end
 
     subgraph "제3기: 2000년대~현재 (정서사·트라우마·타자 윤리)"
@@ -460,6 +460,7 @@ graph TD
 - [[adkins-1960-merit-and-responsibility]] — A. W. H. 애드킨스: 공적과 책임 (경쟁적 가치 vs 협력적 가치)
 - [[long-1970-morals-and-values]] — A. A. 롱: 호메로스의 도덕과 가치 (적절성의 기준과 과도/결핍 통제 모델)
 - [[scott-1980-aidos-and-nemesis]] — 메리 스콧: 호메로스 저작에서의 아이도스와 네메시스 (감정적 위축과 공적 의분의 상호 제재)
+- [[scott-1982-philos-philotes-xenia]] — 메리 스콧: 호메로스 저작에서의 필로스, 필로테스, 크세니아 (긴장 완화로서의 필로스와 크세니아 상호부조망)
 - [[cairns-1993-aidos]] — 더글러스 케언스: 아이도스 (도덕 정서로서의 Aidos 텍스트 전수 분석)
 - [[dodds-1951-greeks-and-irrational]] — E. R. 도즈: 그리스인들과 비합리적인 것 (수치 문화와 Atē 분석)
 - [[snell-1946-discovery-of-mind]] — 브루노 스넬: 정신의 발견 (호메로스 인체관 및 영혼 개념사)

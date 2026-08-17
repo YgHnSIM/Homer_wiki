@@ -49,7 +49,7 @@ status: active
 - **[전체 문서 카탈로그 (index.md)](file:///c:/Vault/Homer_wiki/wiki/index.md)**: 생성된 모든 위키 문서 카탈로그 및 요약.
 - **[위키 작업 이력 (log.md)](file:///c:/Vault/Homer_wiki/wiki/log.md)**: 수집, 분석, 문서 추가/수정 이력 타임라인.
 - **[엔티티 프레임워크 지침 (entity-framework.md)](file:///c:/Vault/Homer_wiki/wiki/meta/entity-framework.md)**: 엔티티 문서 작성 지침 및 표준 스키마.
-- **[호메로스 윤리학 종합 분석 (homeric-ethics-literature-review.md)](file:///c:/Vault/Homer_wiki/wiki/analyses/homeric-ethics-literature-review.md)**: 전 세계 주요 연구 및 16종 소스 종합 분석.
+- **[호메로스 윤리학 종합 분석 (homeric-ethics-literature-review.md)](file:///c:/Vault/Homer_wiki/wiki/analyses/homeric-ethics-literature-review.md)**: 전 세계 주요 연구 및 17종 소스 종합 분석.
 - **[LLM 위키 운영 지침 (AGENTS.md)](file:///c:/Vault/Homer_wiki/AGENTS.md)**: 지식 베이스 구축 규칙 및 워크플로 스키마.
 
 ---

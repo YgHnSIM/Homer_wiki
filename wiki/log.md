@@ -798,3 +798,52 @@ status: active
   - `words/word-achilles.md`: 137a19c 상태 복원
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-17] feat(sources,concepts) | 메리 스콧 1982 논문 수집 및 크세니아(Xenia) 지식베이스 구축
+
+- **작업 개요**: `raw/`에 새로 추가된 고전학 연구 문헌인 메리 스콧(Mary Scott, 1982)의 「필로스, 필로테스, 크세니아(*Philos, Philotes and Xenia*)」(*Acta Classica* 25, pp. 1–19)를 정독 및 정밀 분석하여 신규 소스 문서를 구축하고, 손님 환대 핵심 개념인 `concept-xenia.md`를 신설하며, 관련 개념 및 종합 분석 문서를 상호 연동 최신화함.
+- **주요 반영 내역**:
+  - **신규 소스 문서 생성 (`wiki/sources/scott-1982-philos-philotes-xenia.md`)**:
+    - Adkins(1960/1963), Snell(1946), Long(1970), Gould(1973)와의 지성사적 대화 구도 정립.
+    - *Philos*의 본질을 '경쟁적 긴장으로부터의 이완(Relaxation from tension)'으로 규정하고, *Philoi*의 객관적 2분법, 크세니아의 계발된 자기이익과 의례적 보편성(신원 확인 전 식사 제공, 연쇄 상호성), *Philein*=*Tiemen* 등가성, 필록세니아와 문명 질서(*Eunomia*)의 태동 분석.
+    - 핵심 원문 인용구 4선 및 27개 서사시 에피소드 정밀 매핑 테이블 수록.
+  - **핵심 개념 문서 신설 (`wiki/concepts/concept-xenia.md`)**:
+    - 크세니아(Xenia)와 크세노스(Xenos), 필록세니아(Philoxenia)의 종교적·사회적 규범 종합 정립.
+    - 제우스 크세니오스 수호, 4단계 환대 의례 프로토콜(영접-세정-식사-문답/선물), 디오메데스-글라우코스 무구 교환, 네스토르·메넬라오스·에우마이오스의 모범적 환대, 폴리페모스 및 구혼자들의 반(反)크세니아와 신벌 분석.
+  - **기존 개념 및 종합 분석 문서 연동**:
+    - `wiki/analyses/homeric-ethics-literature-review.md`: 제2기 패러다임 다이어그램 및 연구 소스 목록에 Scott 1982 반영.
+    - `wiki/concepts/concept-aidos.md`, `concept-nemesis.md`: 관련 개념에 `concept-xenia` 및 연구문헌에 `scott-1982-philos-philotes-xenia` 상호 교차 참조 추가.
+    - `wiki/index.md`: 소스 목록에 `scott-1982-philos-philotes-xenia` 추가 및 `concept-xenia` 활성화.
+    - `wiki/overview.md`: 분석 소스 개수 최신화 (16종 -> 17종).
+- **생성 및 갱신 파일**:
+  - `wiki/sources/scott-1982-philos-philotes-xenia.md`: 신규 소스 문서 생성
+  - `wiki/concepts/concept-xenia.md`: 신규 개념 문서 생성
+  - `wiki/analyses/homeric-ethics-literature-review.md`: 다이어그램 및 소스 목록 갱신
+  - `wiki/concepts/concept-aidos.md`, `concept-nemesis.md`: 상호 참조 갱신
+  - `wiki/index.md`, `wiki/overview.md`: 카탈로그 및 대시보드 갱신
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-17] docs(concepts) | concept-xenia.md 문헌 검증 및 homer-review 5인 정제 완료
+
+- **작업 개요**: `homer-review` 스킬의 적대적 5인(Philologist, Logician, Architect, Weaver, Editor) 검토를 거쳐 `wiki/concepts/concept-xenia.md` 문서의 문헌학적 정확성, 의례 프로토콜 논리 정합성, 서사시 에피소드 균형 및 지식망 연결성을 대폭 심화·정제함.
+- **주요 반영 내역**:
+  - **문헌학 및 원전 인용 보강 (`philologist`)**:
+    - 자기참조 링크 오류(`[[concept-xenia|Philos]]`)를 정정하고 희랍어 원어 `필로스(Philos, φίλος)` 병기.
+    - 『일리아스』 3권(3.351–354) 및 13권(13.620–627)의 **파리스의 크세니아 배신과 트로이 전쟁의 도덕적 발단** 분석 섹션 신설.
+    - 환대 의례 희랍어 전문 어휘(*cheirnips kai lebes*, *sitos, krea, oinos*, *xeneia dōra*) 정밀 명기.
+  - **구조 및 논리 일치 (`logician`, `editor`)**:
+    - 제2절 의례 프로토콜 표와 머메이드 다이어그램을 동일한 **4단계 체계**로 일치 동기화.
+    - *xenos*의 손님/주인 양방향 호혜성 개념 서술 강화.
+  - **지식망 및 위키 규격 정비 (`architect`, `weaver`)**:
+    - 엔티티 위키링크를 볼트 표준 그리스어 음차(`entity-telemachos`, `entity-menelaos`, `entity-polyphemos`, `entity-antinoos`, `entity-paris`)로 전수 통일.
+    - `concept-eunomia`, `concept-hybris`, `lee-junseok-2024-iliad-jeongam` 교차 링크 확충.
+    - 이모지 0건 및 콜아웃 규정 100% 준수 확인.
+- **갱신 파일**:
+  - `wiki/concepts/concept-xenia.md`: 전면 개정 및 심화
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
+
