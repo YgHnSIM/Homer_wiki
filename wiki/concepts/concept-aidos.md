@@ -4,7 +4,7 @@ aliases: [Aidos, Aidôs, αἰδώς, 수치심, 경외, 염치, 조심성]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-16
 updated: 2026-08-16
-sources: [scott-1980-aidos-and-nemesis.md, cairns-1993-aidos.md, williams-1993-shame-and-necessity.md, long-1970-morals-and-values.md, dodds-1951-greeks-and-irrational.md, redfield-1975-nature-and-culture.md, lee-junseok-2024-iliad-jeongam.md]
+sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, cairns-1993-aidos.md, williams-1993-shame-and-necessity.md, long-1970-morals-and-values.md, dodds-1951-greeks-and-irrational.md, redfield-1975-nature-and-culture.md, lee-junseok-2024-iliad-jeongam.md]
 status: active
 ---
 
@@ -125,6 +125,7 @@ $$\text{행위자의 아이도스(Aidôs)} \iff \text{관찰자의 네메시스(
 - [[concept-cholos|Cholos]] — 인간적 분노와 격정
 
 ### 주요 연구 문헌
+- [[scott-1979-pity-and-pathos]] — 호메로스에서의 연민과 파토스 (결과주의적 파토스와 오익토스의 감정적 억제 분석)
 - [[scott-1980-aidos-and-nemesis]] — 호메로스 저작에서의 아이도스와 네메시스 (감정적 위축론 및 신적 제재 분석)
 - [[scott-1982-philos-philotes-xenia]] — 호메로스 저작에서의 필로스, 필로테스, 크세니아 (긴장 완화와 크세니아 상호부조망)
 - [[cairns-1993-aidos]] — 아이도스: 고대 그리스 문학의 도덕심리학과 명예 체계

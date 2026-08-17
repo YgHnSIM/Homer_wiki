@@ -4,7 +4,7 @@ aliases: [Xenia, ξενία, 크세니아, 손님 환대, 필록세니아, Philo
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
 updated: 2026-08-17
-sources: [scott-1982-philos-philotes-xenia.md, scott-1980-aidos-and-nemesis.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, cairns-1993-aidos.md]
+sources: [scott-1979-pity-and-pathos.md, scott-1982-philos-philotes-xenia.md, scott-1980-aidos-and-nemesis.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, cairns-1993-aidos.md]
 status: active
 ---
 
@@ -129,6 +129,7 @@ graph TD
 - [[concept-eunomia|Eunomia]] (문명적 좋은 법질서)
 
 ### 관련 연구 소스 및 종합 분석
+- [[scott-1979-pity-and-pathos]] (메리 스콧: 호메로스에서의 연민과 파토스 — 환대에서의 엘레오스 분석)
 - [[scott-1982-philos-philotes-xenia]] (메리 스콧: 필로스, 필로테스, 크세니아 표준 연구)
 - [[scott-1980-aidos-and-nemesis]] (메리 스콧: 아이도스와 네메시스)
 - [[adkins-1960-merit-and-responsibility]] (A. W. H. 애드킨스: 공적과 책임)

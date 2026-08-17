@@ -4,7 +4,7 @@ aliases: [Hikesia, ἱκεσία, 탄원, 탄원 의례, 히케테스]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/culture, status/active]
 created: 2026-08-16
 updated: 2026-08-16
-sources: [lee-junseok-2024-iliad-jeongam.md, cairns-1993-aidos.md, zanker-1994-heart-of-achilles.md]
+sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md, lee-junseok-2024-iliad-jeongam.md, cairns-1993-aidos.md, zanker-1994-heart-of-achilles.md]
 status: active
 ---
 
@@ -102,6 +102,9 @@ status: active
 - [[concept-moira|Moira]] (필멸의 한계와 운명)
 
 ### 연구 문헌 및 종합 분석
+- [[scott-1979-pity-and-pathos]] (메리 스콧: 호메로스에서의 연민과 파토스 — 탄원과 비경쟁적 지반 분석)
+- [[scott-1980-aidos-and-nemesis]] (메리 스콧: 호메로스 저작에서의 아이도스와 네메시스 — 탄원자의 신적 제재 보호)
+- [[scott-1982-philos-philotes-xenia]] (메리 스콧: 필로스, 필로테스, 크세니아 — 탄원과 상호부조)
 - [[lee-junseok-2024-iliad-jeongam]]
 - [[cairns-1993-aidos]]
 - [[zanker-1994-heart-of-achilles]]

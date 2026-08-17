@@ -903,6 +903,58 @@ status: active
   - `words/index.md`: 어원 사전 카탈로그 및 계통도 갱신
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-17] feat(sources,concepts) | 메리 스콧 1979 논문 수집 및 엘레오스(Eleos)·오익토스(Oiktos) 지식베이스 구축
+
+- **작업 개요**: `raw/`에 보관된 미처리 핵심 연구 문헌인 메리 스콧(Mary Scott, 1979)의 「호메로스에서의 연민과 파토스(*Pity and Pathos in Homer*)」(*Acta Classica* 22, pp. 1–14)를 정독 및 정밀 분석하여 신규 소스 문서를 구축하고, 연민과 비경쟁적 연대의 핵심 개념인 `concept-eleos.md`를 신설하며, 관련 개념 및 종합 분석 문서를 상호 연동 최신화함.
+- **주요 반영 내역**:
+  - **신규 소스 문서 생성 (`wiki/sources/scott-1979-pity-and-pathos.md`)**:
+    - 스콧의 호메로스 도덕 감정 3부작(1979 연민과 파토스 -> 1980 아이도스와 네메시스 -> 1982 필로스와 크세니아)의 제1부 기초 정립.
+    - 결과 중심 문화(Results-culture) 속에서 '성공의 급작스런 붕괴(Collapse of success)'와 굴욕에 대한 공포로서의 호메로스 파토스(Pathos) 재정의.
+    - 오익토스(Oiktos: 조롱·가해를 멈추는 소극적 감정 억제/위축) 대 엘레오스(Eleos: 불행을 바로잡으려는 적극적 구호 추진력)의 문헌학적·심리학적 2대 축 규명.
+    - 엘레오스 발동의 필수 전제 조건인 '비경쟁적 관계(Non-competitive/Philos relationship)' 메커니즘 분석 및 핵심 원문 인용구 4선, 23개 서사시 에피소드 정밀 매핑 테이블 수록.
+  - **핵심 개념 문서 신설 (`wiki/concepts/concept-eleos.md`)**:
+    - 엘레오스와 오익토스의 정의, 비교 매트릭스 및 머메이드 다이어그램 구축.
+    - 전장에서의 엘레오스 거부(뤼카온, 트로스 처형)와 24권 아킬레우스-프리아모스 간 공통의 필멸자 비극에 기초한 비경쟁적 화해 분석.
+    - 손님 환대(Xenia)에서의 무조건적 자비(구혼자들의 거지 적선) 및 아리스토텔레스 비극론(시학 카타르시스)과의 연계 고찰.
+  - **기존 개념 및 종합 분석 문서 연동**:
+    - `wiki/analyses/homeric-ethics-literature-review.md`: YAML 소스 목록에 Scott 1979/1982 반영 및 제2기 패러다임 다이어그램 갱신.
+    - `wiki/concepts/concept-aidos.md`, `concept-nemesis.md`, `concept-xenia.md`, `concept-agathos.md`, `concept-hikesia.md`: 소스 메타데이터 및 연구문헌 교차 참조 갱신.
+    - `wiki/index.md`, `wiki/overview.md`: 전체 소스 18종 최신화 및 `concept-eleos` 활성화 반영.
+- **생성 및 갱신 파일**:
+  - `wiki/sources/scott-1979-pity-and-pathos.md`: 신규 소스 문서 생성
+  - `wiki/concepts/concept-eleos.md`: 신규 개념 문서 생성
+  - `wiki/analyses/homeric-ethics-literature-review.md`: 소스 목록 및 다이어그램 갱신
+  - `wiki/concepts/concept-aidos.md`, `concept-nemesis.md`, `concept-xenia.md`, `concept-agathos.md`, `concept-hikesia.md`: 상호 참조 갱신
+  - `wiki/index.md`, `wiki/overview.md`: 카탈로그 및 대시보드 갱신
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-17] docs(concepts) | concept-eleos.md 문헌 검증 및 homer-review 5인 정제 완료
+
+- **작업 개요**: `homer-review` 스킬의 5대 독립 서브에이전트(Philologist, Logician, Architect, Weaver, Editor) 적대적 3라운드 공방을 거쳐 `wiki/concepts/concept-eleos.md` 문서의 문헌학적 정확성, 도덕심리학적 논리 정합성, 위키 규격 무결성 및 지식망 연결성을 대폭 심화·정제함.
+- **주요 반영 내역**:
+  - **문헌학 및 원전 인용 정밀화 (`philologist`)**:
+    - 서사시 권·행 번호 정밀화(_Il._ 23.534–538, 20.463–472, 24.515–516) 및 폴리토닉 다이어크리틱(μένεαίνειν, οἴκτιστον, ἐλεεινότερος, ἐλέησον, αἴδεο) 완비.
+    - 『일리아스』 21.106행 'φίλος'를 제도적 밥상 공동체가 아닌 '죽음의 보편성 앞에 선 실존적 호격'으로 정밀 해제.
+    - 『일리아스』 22.75–76행에서 *aidōs*(성기/치부) 훼손과 *oiktiston*(가장 비참함) 간의 어휘 호응 분석 수록.
+  - **논리 및 학설 심화 (`logician`)**:
+    - 아킬레우스의 감정 전환(Menis → 신들의 중재/공동 애도 → Oiktos/Eleos) 도덕심리학적 매개 고리 명시.
+    - 오익토스(타인의 몰락 목격 시 억제)와 아이도스(자신에 대한 비난 두려움)의 주체·대상 차이 명확화 및 오익토스의 존엄 일부 복원 성격 보완.
+    - 아리스토텔레스 비극론 연결 시 결과주의(성공 붕괴)에서 도덕적 자격(무과실성)으로의 패러다임 전환 징검다리 보완.
+  - **위키 규격 및 지식망 연결 (`architect`, `weaver`, `editor`)**:
+    - YAML `sources:`에 `lee-junseok-2024-iliad-jeongam.md` 반영.
+    - 본문 첫 등장 시 핵심 엔티티(`entity-achilles`, `entity-priam`, `entity-peleus`, `entity-patroklos`, `entity-lykaon`, `entity-zeus` 등) 표준 링크 삽입.
+    - 도덕 어휘망(`word-agathos`, `concept-kakos`, `concept-menos`, `concept-cholos`) 교차 연동 및 하단 `## 관련 항목` 3대 범주 재구조화.
+    - 이모지 0건 및 콜아웃 링크 배제 원칙 100% 준수 확인.
+- **갱신 파일**:
+  - `wiki/concepts/concept-eleos.md`: 전면 개정 및 정제
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
+
 
 
 

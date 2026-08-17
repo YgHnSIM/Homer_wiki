@@ -38,6 +38,7 @@ status: active
 - [[shay-1994-achilles-in-vietnam]] — 조너선 셰이: 베트남의 아킬레우스 (테미스의 배신, 도덕적 상해, 치유)
 - [[zanker-1994-heart-of-achilles]] — 그레이엄 잰커: 아킬레우스의 마음 (개인적 윤리와 대도량, 연민)
 - [[lee-junseok-2024-iliad-jeongam]] — 이준석: 정암학당 2024 호메로스 『일리아스』 4강 연속 집중강좌 해제
+- [[scott-1979-pity-and-pathos]] — 메리 스콧: 호메로스에서의 연민과 파토스 (결과주의적 파토스와 오익토스/엘레오스의 도덕심리학)
 - [[scott-1980-aidos-and-nemesis]] — 메리 스콧: 호메로스 저작에서의 아이도스와 네메시스 (감정적 위축과 공적 의분의 상호 제재)
 - [[scott-1982-philos-philotes-xenia]] — 메리 스콧: 호메로스 저작에서의 필로스, 필로테스, 크세니아 (긴장 완화로서의 필로스와 크세니아 상호부조망)
 - [[lee-junseok-2018-wrath-and-pity]] — 이준석: 분노의 서사시, 연민의 서사시 『일리아스』 (피아를 초월하는 3단계 동일화와 일관된 시학)
@@ -64,8 +65,8 @@ status: active
 - [[concept-nemesis|Nemesis]] — 응당한 몫의 분배(Nemein)와 질서(Kosmos)를 수호하는 공적 의분, '네메시스가 되지 않는다(Ouk esti nemesis)'의 적절성 윤리학
 - [[concept-xenia|Xenia]] — 손님 환대와 상호부조의 신성한 규범, 긴장 완화(Philos)와 문명적 법질서(Eunomia)의 초석
 - [[concept-agathos|Agathos]] — 영웅적 탁월성과 결과주의적 성공의 귀족 규범 (군사적 무용·혈통·부의 결합체)
+- [[concept-eleos|Eleos]] — 연민(Eleos)과 오익토스(Oiktos), 성공의 급작스런 붕괴(Pathos) 및 비경쟁적 연대 규범
 - [[concept-themis|Themis]] *(작성 예정)* — 신성한 관습과 공동체의 공정한 규칙
-- [[concept-eleos|Eleos]] *(작성 예정)* — 연민과 필멸성의 비극적 공감
 - [[concept-arete|Arete]] *(작성 예정)* — 탁월성과 용맹
 - [[concept-time|Timê]] *(작성 예정)* — 명예와 사회적 보상
 - [[concept-kleos|Kleos]] *(작성 예정)* — 불멸의 명성과 영웅적 영예

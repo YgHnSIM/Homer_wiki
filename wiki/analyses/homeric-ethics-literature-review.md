@@ -25,7 +25,9 @@ sources:
   - zanker-1994-heart-of-achilles.md
   - lee-junseok-2024-iliad-jeongam.md
   - long-1970-morals-and-values.md
+  - scott-1979-pity-and-pathos.md
   - scott-1980-aidos-and-nemesis.md
+  - scott-1982-philos-philotes-xenia.md
   - lee-junseok-2018-wrath-and-pity.md
   - lee-junseok-2016-odyssey-humanity.md
 status: active
@@ -36,7 +38,7 @@ status: active
 > [!NOTE] 지식베이스 총괄 개요
 > 호메로스(Homer, Ὅμηρος)의 양대 서사시 **일리아스**(Iliad)와 **오뒷세이아**(Odyssey)는 고대 지중해 문명의 세계관을 집대성한 원천이자, 서구 도덕철학과 인간학의 지평을 정초한 원형 텍스트입니다. 20세기 중반 이후 고전문헌학·도덕철학·역사심리학·정신의학의 교차로에서 전개된 호메로스 윤리학 연구는 단순한 문학적 해석을 넘어, **'인간의 행위 주체성(Moral Agency), 도덕적 책임의 발생 근거, 내면 정서의 구조, 그리고 필멸적 실존의 비극적 한계'**를 해명하는 현대 사상계의 중대한 지적 각축장이었습니다.
 >
-> 본 종합 분석 문서는 `wiki/sources/`에 구축된 16종의 핵심 연구 도시에와 전 세계 학술 정전을 유기적으로 결집하여, 호메로스 윤리 체계의 심층 다이얼렉틱과 지난 80년간 축적된 패러다임 전환사를 체계적으로 해제합니다.
+> 본 종합 분석 문서는 `wiki/sources/`에 구축된 17종의 핵심 연구 도시에와 전 세계 학술 정전을 유기적으로 결집하여, 호메로스 윤리 체계의 심층 다이얼렉틱과 지난 80년간 축적된 패러다임 전환사를 체계적으로 해제합니다.
 
 ---
 
@@ -277,7 +279,7 @@ graph TD
     end
 
     subgraph "제2기: 1970~1990년대 (내면성·적절성·행위주체성 복원)"
-        P2["Long (1970): 적절성의 기준과 2분법 해체<br/>Lloyd-Jones (1971): 제우스 정의의 일관성<br/>Redfield (1975): 영웅 규범의 내적 비극성<br/>Scott (1980/1982): Aidôs-Nemesis 상호 제재 및 Philos-Xenia 협력 규범<br/>MacIntyre (1981): 역할에 정초된 덕 윤리<br/>Williams (1993): 행위 주체성과 내면적 Aidôs<br/>Cairns (1993): Aidôs의 도덕 감정성 실증<br/>Zanker (1994): 개인적 윤리와 연민(Eleos)"]
+        P2["Long (1970): 적절성의 기준과 2분법 해체<br/>Lloyd-Jones (1971): 제우스 정의의 일관성<br/>Redfield (1975): 영웅 규범의 내적 비극성<br/>Scott (1979/1980/1982): Pity/Pathos 결과주의 분석, Aidôs-Nemesis 상호 제재 및 Philos-Xenia 협력 규범<br/>MacIntyre (1981): 역할에 정초된 덕 윤리<br/>Williams (1993): 행위 주체성과 내면적 Aidôs<br/>Cairns (1993): Aidôs의 도덕 감정성 실증<br/>Zanker (1994): 개인적 윤리와 연민(Eleos)"]
     end
 
     subgraph "제3기: 2000년대~현재 (정서사·트라우마·타자 윤리)"

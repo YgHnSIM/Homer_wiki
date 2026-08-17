@@ -37,6 +37,8 @@ status: active
 - **[[concept-time|Timê]] (τιμή — 명예/보상)**: 영웅이 공동체나 동료로부터 받는 물질적·사회적 대우.
 - **[[concept-aidos|Aidos]] (αἰδώς — 수치심/경외)**: 사회적 비난(Nemesis)을 예견하고 스스로를 억제하는 도덕 감정.
 - **[[concept-nemesis|Nemesis]] (νέμεσις — 공적 의분)**: 각자의 마땅한 몫과 질서(Kosmos)를 침범한 자에 대한 정의로운 분노.
+- **[[concept-eleos|Eleos]] (ἔλεος — 연민/자비)**: 고통받는 필멸자에 대한 공감과 구호 추진력, 그리고 조롱·가해를 멈추는 오익토스(Oiktos)의 억제.
+- **[[concept-agathos|Agathos]] (ἀγαθός — 영웅적 탁월자)**: 군사적 무용과 혈통, 부와 성공을 체화한 귀족 전사 규범.
 - **[[concept-dike|Dike]] (δίκη — 정의/질서)**: 제우스의 우주적 정의와 각자의 정당한 몫.
 - **[[concept-xenia|Xenia]] (ξενία — 손님 환대)**: 신의 뜻(제우스 크세니오스)에 따라 낯선 나그네를 대접하는 성스러운 의무.
 - **[[concept-nostos|Nostos]] (νόστος — 귀환)**: 고난을 딛고 고향과 가정으로 돌아가는 과정.
@@ -49,7 +51,7 @@ status: active
 - **[전체 문서 카탈로그 (index.md)](file:///c:/Vault/Homer_wiki/wiki/index.md)**: 생성된 모든 위키 문서 카탈로그 및 요약.
 - **[위키 작업 이력 (log.md)](file:///c:/Vault/Homer_wiki/wiki/log.md)**: 수집, 분석, 문서 추가/수정 이력 타임라인.
 - **[엔티티 프레임워크 지침 (entity-framework.md)](file:///c:/Vault/Homer_wiki/wiki/meta/entity-framework.md)**: 엔티티 문서 작성 지침 및 표준 스키마.
-- **[호메로스 윤리학 종합 분석 (homeric-ethics-literature-review.md)](file:///c:/Vault/Homer_wiki/wiki/analyses/homeric-ethics-literature-review.md)**: 전 세계 주요 연구 및 17종 소스 종합 분석.
+- **[호메로스 윤리학 종합 분석 (homeric-ethics-literature-review.md)](file:///c:/Vault/Homer_wiki/wiki/analyses/homeric-ethics-literature-review.md)**: 전 세계 주요 연구 및 18종 소스 종합 분석.
 - **[LLM 위키 운영 지침 (AGENTS.md)](file:///c:/Vault/Homer_wiki/AGENTS.md)**: 지식 베이스 구축 규칙 및 워크플로 스키마.
 
 ---

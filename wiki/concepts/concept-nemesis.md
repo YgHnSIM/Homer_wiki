@@ -4,7 +4,7 @@ aliases: [Nemesis, νέμεσις, 네메시스, 의분, 공적 분노, 질서 �
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-16
 updated: 2026-08-16
-sources: [scott-1980-aidos-and-nemesis.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, lloyd-jones-1971-justice-of-zeus.md, adkins-1960-merit-and-responsibility.md]
+sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, lloyd-jones-1971-justice-of-zeus.md, adkins-1960-merit-and-responsibility.md]
 status: active
 ---
 
@@ -162,6 +162,7 @@ $$\text{행위자의 아이도스(Aidôs, 내적 억제)} \iff \text{관찰자�
 - [[concept-thumos|Thumos]] — 네메시스의 의분이 생생하게 일어나는 가슴속 정서 기관
 
 ### 주요 연구 문헌
+- [[scott-1979-pity-and-pathos]] — 메리 스콧: 호메로스에서의 연민과 파토스 (오익토스의 억제와 신들의 엘레오스 분석)
 - [[scott-1980-aidos-and-nemesis]] — 메리 스콧: 호메로스 저작에서의 아이도스와 네메시스 (네메시스의 질서 수호 기능 규명)
 - [[scott-1982-philos-philotes-xenia]] — 메리 스콧: 호메로스 저작에서의 필로스, 필로테스, 크세니아 (구혼자들의 신적 네메시스 및 질서 수호)
 - [[long-1970-morals-and-values]] — A. A. 롱: 호메로스의 도덕과 가치 (적절성의 기준과 네메시스 부재 분석)
