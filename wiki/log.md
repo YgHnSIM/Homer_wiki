@@ -806,3 +806,17 @@ status: active
   - `words/word-achilles.md`: 선문자 B 글리프 보강
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-17] fix(web) | Quartz Sass 빌드 오류 수정 및 순수 font-face 전환
+
+- **작업 개요**: GitHub Actions 배포 시 Quartz의 PostCSS/ComponentResources 플러그인에서 발생한 `@import rules must precede all rules` 빌드 오류를 분석하고, `@import` 문을 순수 `@font-face` WOFF2 선언문으로 전면 전환하여 빌드 및 배포 파이프라인을 정상화함.
+- **주요 반영 내역**:
+  - `custom.scss`:
+    - `@import url(...)` 제거 후 8대 고대문자 스크립트별 `@font-face` WOFF2 직접 로드 및 `unicode-range` 매핑 선언문으로 교체.
+    - PostCSS 컴파일러 충돌 완전 해결.
+- **갱신 파일**:
+  - `custom.scss`: SCSS `@font-face` 규칙으로 수정
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+

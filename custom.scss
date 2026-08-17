@@ -4,9 +4,81 @@
 // 3. Mobile Responsive & Touch Optimization
 
 // -------------------------------------------------------------
-// Google Fonts Noto Ancient Scripts & Polytonic Greek Import
+// Google Fonts Noto Ancient Scripts @font-face Definitions
+// (Pure @font-face to prevent Quartz PostCSS @import build errors)
 // -------------------------------------------------------------
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&family=Noto+Sans+Cuneiform&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Linear+A&family=Noto+Sans+Linear+B&family=Noto+Sans+Old+Persian&family=Noto+Sans+Phoenician&family=Noto+Sans+Ugaritic&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: 'Noto Sans Anatolian Hieroglyphs';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notosansanatolianhieroglyphs/v18/1qUrnp2Uu-dZ4mUf4v51E1r3v_G843i3_3j3_X0.woff2) format('woff2');
+  unicode-range: U+14400-1467F;
+}
+
+@font-face {
+  font-family: 'Noto Sans Cuneiform';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notosanscuneiform/v18/bMrrmTWK7YY-MF22aHGGd7H8PhJtvBDWvbhDnA.woff2) format('woff2');
+  unicode-range: U+12000-123FF, U+12400-1247F, U+12480-1254F;
+}
+
+@font-face {
+  font-family: 'Noto Sans Egyptian Hieroglyphs';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notosansegyptianhieroglyphs/v30/vEF42-tODB8RrNDvZSUmRhcQHzx1s7y_F9-j3qSzEcbEYintdVi99Rg.woff2) format('woff2');
+  unicode-range: U+13000-13455, U+13460-143FA;
+}
+
+@font-face {
+  font-family: 'Noto Sans Linear A';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notosanslineara/v19/oPWS_l16kP4jCuhpgEGmwJOiA18FZj2GV0r0DV07.woff2) format('woff2');
+  unicode-range: U+10107-10133, U+10600-1077F;
+}
+
+@font-face {
+  font-family: 'Noto Sans Linear B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notosanslinearb/v18/HhyJU4wt9vSgfHoORYOiXOckKNB737IlnBMEfq4.woff2) format('woff2');
+  unicode-range: U+10000-100FF, U+10100-10102, U+10107-10133, U+10137-1013F;
+}
+
+@font-face {
+  font-family: 'Noto Sans Old Persian';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notosansoldpersian/v17/wEOjEAbNnc5caQTFG18FHrZr9Bp6-8CmIJ_d7uNRTx8.woff2) format('woff2');
+  unicode-range: U+103A0-103DF;
+}
+
+@font-face {
+  font-family: 'Noto Sans Phoenician';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notosansphoenician/v18/jizFRF9Ksm4Bt9PvcTaEkIHiTVtxmFtS5U6OqN6Z5w.woff2) format('woff2');
+  unicode-range: U+10900-1091B, U+1091F;
+}
+
+@font-face {
+  font-family: 'Noto Sans Ugaritic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notosansugaritic/v17/3qTwoiqhnSyU8TNFIdhZVCwbjCpkAXXUfBAJoiY.woff2) format('woff2');
+  unicode-range: U+10380-1039F;
+}
 
 :root {
   --top-spacing: 1rem;
