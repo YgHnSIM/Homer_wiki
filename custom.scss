@@ -1,104 +1,9 @@
 // Custom SCSS overrides for Homer Wiki
-// 1. Ancient Scripts & Multilingual Typography (Zero-Tofu Font Stack)
-// 2. Desktop & Global Layout
-// 3. Mobile Responsive & Touch Optimization
-
-// -------------------------------------------------------------
-// Google Fonts Noto Ancient Scripts @font-face Definitions
-// (Pure @font-face to prevent Quartz PostCSS @import build errors)
-// -------------------------------------------------------------
-
-@font-face {
-  font-family: 'Noto Sans Anatolian Hieroglyphs';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/notosansanatolianhieroglyphs/v18/1qUrnp2Uu-dZ4mUf4v51E1r3v_G843i3_3j3_X0.woff2) format('woff2');
-  unicode-range: U+14400-1467F;
-}
-
-@font-face {
-  font-family: 'Noto Sans Cuneiform';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/notosanscuneiform/v18/bMrrmTWK7YY-MF22aHGGd7H8PhJtvBDWvbhDnA.woff2) format('woff2');
-  unicode-range: U+12000-123FF, U+12400-1247F, U+12480-1254F;
-}
-
-@font-face {
-  font-family: 'Noto Sans Egyptian Hieroglyphs';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/notosansegyptianhieroglyphs/v30/vEF42-tODB8RrNDvZSUmRhcQHzx1s7y_F9-j3qSzEcbEYintdVi99Rg.woff2) format('woff2');
-  unicode-range: U+13000-13455, U+13460-143FA;
-}
-
-@font-face {
-  font-family: 'Noto Sans Linear A';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/notosanslineara/v19/oPWS_l16kP4jCuhpgEGmwJOiA18FZj2GV0r0DV07.woff2) format('woff2');
-  unicode-range: U+10107-10133, U+10600-1077F;
-}
-
-@font-face {
-  font-family: 'Noto Sans Linear B';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/notosanslinearb/v18/HhyJU4wt9vSgfHoORYOiXOckKNB737IlnBMEfq4.woff2) format('woff2');
-  unicode-range: U+10000-100FF, U+10100-10102, U+10107-10133, U+10137-1013F;
-}
-
-@font-face {
-  font-family: 'Noto Sans Old Persian';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/notosansoldpersian/v17/wEOjEAbNnc5caQTFG18FHrZr9Bp6-8CmIJ_d7uNRTx8.woff2) format('woff2');
-  unicode-range: U+103A0-103DF;
-}
-
-@font-face {
-  font-family: 'Noto Sans Phoenician';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/notosansphoenician/v18/jizFRF9Ksm4Bt9PvcTaEkIHiTVtxmFtS5U6OqN6Z5w.woff2) format('woff2');
-  unicode-range: U+10900-1091B, U+1091F;
-}
-
-@font-face {
-  font-family: 'Noto Sans Ugaritic';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/notosansugaritic/v17/3qTwoiqhnSyU8TNFIdhZVCwbjCpkAXXUfBAJoiY.woff2) format('woff2');
-  unicode-range: U+10380-1039F;
-}
+// 1. Desktop & Global Layout
+// 2. Mobile Responsive & Touch Optimization
 
 :root {
   --top-spacing: 1rem;
-  --font-ancient-stack: 
-    "Noto Sans Cuneiform",
-    "Noto Sans Egyptian Hieroglyphs",
-    "Noto Sans Linear B",
-    "Noto Sans Linear A",
-    "Noto Sans Phoenician",
-    "Noto Sans Ugaritic",
-    "Noto Sans Old Persian",
-    "Noto Sans Anatolian Hieroglyphs",
-    "Segoe UI Historic",
-    "HANBatangExt",
-    "HANDotumExt",
-    "SansSerifCollection",
-    "New Athena Unicode",
-    "Gentium Plus",
-    "Aegean",
-    sans-serif;
 }
 
 #quartz-root {
@@ -147,33 +52,16 @@ header {
 }
 
 // -------------------------------------------------------------
-// Korean Typography, Ancient Scripts & Reading Optimization
+// Korean Typography & Reading Optimization
 // -------------------------------------------------------------
 article {
   word-break: keep-all;
   overflow-wrap: break-word;
   line-height: 1.75;
-  font-family: var(--bodyFont), var(--font-ancient-stack);
 
-  p, li, td, th {
+  p, li {
     letter-spacing: -0.01em;
-    font-family: inherit;
   }
-}
-
-// RTL utility for Phoenician, Imperial Aramaic, etc.
-.ancient-rtl,
-[dir="rtl"] {
-  direction: rtl;
-  unicode-bidi: isolate;
-  display: inline-block;
-}
-
-// Glyph display helper class
-.ancient-glyph {
-  font-family: var(--font-ancient-stack) !important;
-  font-style: normal;
-  font-weight: 400;
 }
 
 // -------------------------------------------------------------
