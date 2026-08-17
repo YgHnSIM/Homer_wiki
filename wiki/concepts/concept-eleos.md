@@ -126,6 +126,10 @@ graph TD
 - [[concept-menis|메니스 (Menis)]] — 신적 분노와 우주적 파괴력
 - [[concept-arete|아레테 (Arete)]] — 영웅적 탁월성과 무용
 
+### 호메로스 어원 및 영단어 사전
+- [[word-eleos|Eleos (ἔλεος) — 현대 영단어 어원 및 수용사 (Alms / Eleemosynary / Almoner)]]
+- [[word-agathos|Agathos (ἀγαθός) — 현대 영단어 어원 및 수용사]]
+
 ### 주요 연구 문헌 및 종합 분석
 - [[scott-1979-pity-and-pathos|메리 스콧 (1979) 호메로스에서의 연민과 파토스]] — 오익토스/엘레오스 도덕심리학 표준 연구
 - [[scott-1980-aidos-and-nemesis|메리 스콧 (1980) 아이도스와 네메시스]] — 감정적 위축과 신적 제재

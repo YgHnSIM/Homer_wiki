@@ -953,6 +953,35 @@ status: active
   - `wiki/concepts/concept-eleos.md`: 전면 개정 및 정제
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-17] feat(words) | word-eleos.md 신규 단어 어원 사전 구축 및 7인 평의회 정제
+
+- **작업 개요**: `homer-word` 스킬의 7대 독립 서브에이전트(Etymologist, Classicist, Receptionist, Semanticist, Lexicographer, Skeptic, Validator) 적대적 공방을 거쳐 고대 그리스어 `ἔλεος`(eleos, 연민) 및 `ἐλεημοσύνη`(eleēmosynē, 자비·자선)의 현대 영어 수용사 사전인 `words/word-eleos.md`를 신규 구축하고 지식베이스를 동기화함.
+- **주요 반영 내역**:
+  - **선희랍 기층어 판정 및 형태론 (`etymologist`)**:
+    - Beekes(2010), Chantraine(DELG), Frisk(GEW)에 입각하여 가짜 PIE 어근 날조를 배제하고 '선희랍 기층어(Pre-Greek substrate) 또는 그리스어 고유 의성어'로 판정.
+    - 명사 `ἔλεος` -> 1차 파생 동사 `ἐλεέω` / `ἐλεαίρω` -> 2차 파생 추상명사 `ἐλεημοσύνη` 계보 정립.
+  - **호메로스 원전 출전 및 문헌학 (`classicist`)**:
+    - 『일리아스』 24.503행(αὐτόν τ' ἐλέησον, 부정과거 자비 명령) 및 516행(οἰκτείρων, 현재분사 감정 억제 및 부축) 상호 조응 분석.
+    - 『일리아스』 20.465행(트로스 탄원 파탄) 및 23.534행(에우멜로스 위로 ᾤκτιρε), 『오뒷세이아』 17.367행(구혼자 적선 ἐλεαίροντες) 원전 권·행 번호 정밀 매핑.
+  - **4대 역사적 수용사 층위 규명 (`receptionist`)**:
+    - 6세기 게르만 고층 구어 차용: `*alemosyna` -> 고대 영어 `ælmesse` -> 중세 영어 `almes` -> 현대 영어 `alms` (6음절에서 1음절로 축약, 묵음 l).
+    - 13세기 앵글로-노르만 불어 경유 제도어: `eleēmosynārius` -> 고대 프랑스어 `almosnier` -> 현대 영어 `almoner` / `almonry`.
+    - 17세기 르네상스 직접 학술 차용: 후기 라틴어 직수입 -> 현대 영어 `eleemosynary` (1612, 영미 보통법상 자선법인).
+    - 전례 희랍어 고정구 직수입: `Κύριε, ἐλέησον` -> `Kyrie eleison` (c. 1380).
+  - **역사의미론 및 어휘 패밀리 완비 (`semanticist`, `lexicographer`)**:
+    - 신체적 비애감 -> 도덕적 공감(카타르시스) -> 종교적 자선(환유) -> 법학적 전문화/물질화 4단계 의미 전이 체계화.
+    - `alms`, `almsgiving`, `almsgiver`, `almshouse`, `almsbox`, `almoner`, `almonry`, `eleemosynary`, `eleemosynarily`, `Kyrie eleison` 10대 어휘 패밀리 매트릭스 수록.
+  - **가짜 동계어 차단 및 규격 감사 (`skeptic`, `validator`)**:
+    - 영어 `pity`/`piety`(라틴어 pietas 유래) 및 라틴어 `misericordia`와의 가짜 동계어 혼동 차단 경고 콜아웃 수록.
+    - 이모지 0건 및 Mermaid 어원 계통도, 8절 증거 매트릭스 1:1 매핑 무결성 검증.
+- **생성 및 갱신 파일**:
+  - `words/word-eleos.md`: 신규 단어 어원 사전 생성
+  - `words/index.md`: 인덱스 카탈로그 및 Mermaid 그래프, 통계 갱신
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
 
 
 

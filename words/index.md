@@ -21,14 +21,15 @@ graph TD
     classDef english fill:#eef2ee,stroke:#5c7065,stroke-width:2px,color:#1d2021;
 
     subgraph Homeric_Epic["호메로스 서사시 원전"]
-        G_Achilles["Ἀχιλλεύ스 (Achilles)"]:::greek
+        G_Achilles["Ἀχιλλεύς (Achilles)"]:::greek
         G_Mentor["Μέντωρ (Mentor)"]:::greek
         G_Odysseus["Ὀδυσσεύς (Odysseus)"]:::greek
         G_Hektor["Ἕκτωρ (Hector)"]:::greek
         G_Siren["Σειρήν (Seiren)"]:::greek
         G_Kleos["κλέος (Kleos: 명성/소문)"]:::greek
-        G_Nemesis["Νέμεσις (Nemesis: 응징)"]:::greek
+        G_Nemesis["Νέ메σις (Nemesis: 응징)"]:::greek
         G_Agathos["ἀγαθός (Agathos: 탁월함)"]:::greek
+        G_Eleos["ἔλεος / ἐλεημοσύνη (Eleos: 연민·자비)"]:::greek
     end
 
     subgraph Classical_Transmission["고전 라틴어 / 불어 수용"]
@@ -40,6 +41,7 @@ graph TD
         L_Clew["Proto-Germanic: *kliwją"]:::latin
         L_Nemesis["Latin: Nemesis"]:::latin
         L_Agatha["Latin/French: Agatha"]:::latin
+        L_Eleos["Late Latin: eleēmosyna / *alemosyna"]:::latin
     end
 
     subgraph Modern_English["현대 영어 어휘 및 용법"]
@@ -51,6 +53,7 @@ graph TD
         E_Clue["[[word-clue|Clue]]<br/>(Ball of thread -> Key evidence)"]:::english
         E_Nemesis["[[word-nemesis|Nemesis]]<br/>(Archenemy / Inevitable downfall)"]:::english
         E_Agathos["[[word-agathos|Agathos]]<br/>(Agathism / Agatha / Kalokagathia)"]:::english
+        E_Eleos["[[word-eleos|Eleos]]<br/>(Alms / Eleemosynary / Almoner)"]:::english
     end
 
     G_Achilles --> L_Achilles --> E_Achilles
@@ -61,6 +64,7 @@ graph TD
     G_Kleos --> L_Clew --> E_Clue
     G_Nemesis --> L_Nemesis --> E_Nemesis
     G_Agathos --> L_Agatha --> E_Agathos
+    G_Eleos --> L_Eleos --> E_Eleos
 ```
 
 ---
@@ -69,11 +73,11 @@ graph TD
 
 | 분류 | 문서 수 | 대표 예시 |
 |:---|:---:|:---|
-| **개념·추상어 (Concept Words)** | **1** | [[word-agathos\|agathos]], _chaos, harmony, psyche, nemesis_ |
+| **개념·추상어 (Concept Words)** | **2** | [[word-agathos\|agathos]], [[word-eleos\|eleos]], _chaos, harmony, psyche, nemesis_ |
 | **인명·신명 유래어 (Eponyms)** | **1** | [[word-achilles\|achilles]], _mentor, odyssey, hector, tantalus_ |
 | **핵심 다중 어근 (Core Roots)** | 0 | _logos/logic, kleos/clue, physis/physics_ |
-| **선희랍 기층어/어원 불명 (Pre-Greek Substrate)** | **1** | [[word-agathos\|agathos]], _labyrinth, hyacinth, narcissus_ |
-| **총 단어 문서 수** | **2** | - |
+| **선희랍 기층어/어원 불명 (Pre-Greek Substrate)** | **2** | [[word-agathos\|agathos]], [[word-eleos\|eleos]], _labyrinth, hyacinth, narcissus_ |
+| **총 단어 문서 수** | **3** | - |
 
 ---
 
@@ -87,6 +91,10 @@ graph TD
 ### C
 
 - _(작성 대기)_
+
+### E
+
+- [[word-eleos|eleos]] — 엘레오스(ἔλεος) 및 에레에모쉬네(ἐλεημοσύνη) 유래, 선희랍 기층어, _Alms_, _Eleemosynary_, _Almoner_, _Kyrie eleison_ (개념·추상어)
 
 ### H
 
@@ -131,6 +139,8 @@ graph TD
 
 ### 3.2 호메로스 핵심 윤리·철학 개념어 파생 (Ethical & Philosophical Concepts)
 
+- [[word-agathos|agathos]] _(아가토스 유래: Agathism, Agatha, Kalokagathia)_
+- [[word-eleos|eleos]] _(엘레오스 및 에레에모쉬네 유래: Alms, Eleemosynary, Almoner, Kyrie eleison)_
 - [[word-chaos|chaos]] _(예정: 카오스 유래, 혼돈/무질서)_
 - [[word-harmony|harmony]] _(예정: 하르모니아 유래, 조화/화음)_
 - [[word-psyche|psyche]] _(예정: 프쉬케 유래, 정신/심리)_
@@ -139,10 +149,11 @@ graph TD
 
 ### 3.3 선희랍 기층어 및 비-PIE 어원 어휘 (Pre-Greek Substrate & Non-IE Roots)
 
+- [[word-agathos|agathos]] _(선희랍 기층어 또는 어원 불명)_
+- [[word-eleos|eleos]] _(선희랍 기층어 또는 그리스어 고유 의성어)_
 - [[word-labyrinth|labyrinth]] _(예정: 미노아/선희랍 기층어, 미궁)_
 - [[word-ocean|ocean]] _(예정: 오케아노스(Ὠκεανός) 기층어 유래, 대양)_
 - [[word-hyacinth|hyacinth]] _(예정: 히아킨토스(Ὑάκινθος) 기층어 접미사 -nth- 유래)_
-
 
 ---
 
