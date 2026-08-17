@@ -784,3 +784,25 @@ status: active
 - **갱신 파일**:
   - `custom.scss`: 모바일 반응형 스타일 규칙 추가
   - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-17] feat(web,fonts) | 고대문자 웹 렌더링 전수조사 및 제로-토푸(Zero-Tofu) 웹폰트 스택 구축
+
+- **작업 개요**: 쐐기문자, 이집트 성각문자, 미케네 선문자 B, 페니키아 문자, 우가리트 문자, 고대 페르시아 문자 등 고대 문자군의 웹/로컬 렌더링 지원 실태를 전수조사하고, 웹 브라우저(macOS/iOS/Android)에서의 문자 깨짐(Tofu)을 원천 방지하는 웹폰트 스택 및 BiDi(RTL) 스타일을 구축함.
+- **주요 반영 내역**:
+  - **웹 스타일시트(`custom.scss`) 개편**:
+    - Google Fonts Noto 고대문자 시리즈(`Noto Sans Cuneiform`, `Noto Sans Egyptian Hieroglyphs`, `Noto Sans Linear B`, `Noto Sans Linear A`, `Noto Sans Phoenician`, `Noto Sans Ugaritic`, `Noto Sans Old Persian`, `Noto Sans Anatolian Hieroglyphs`) 웹폰트 및 다기호 희랍어 폰트 `@import` 연동.
+    - 전역 `--font-ancient-stack` 정의 및 `article`, `p`, `li`, `td`, `th` 상속 적용.
+    - 페니키아어 등 우횡서 문자 지원을 위한 `.ancient-rtl`, `[dir="rtl"]` BiDi 격리 스타일 및 `.ancient-glyph` 클래스 추가.
+  - **옵시디언 로컬 스니펫 구축**:
+    - `.obsidian/snippets/ancient-fonts.css` 생성 및 `.obsidian/appearance.json`에 스니펫 활성화 등록.
+  - **어원 사전 텍스트 정밀화**:
+    - `words/word-achilles.md`: 미케네 그리스어 계통도 및 본문에 실증 선문자 B 유니코드 글리프(`𐀀-𐀑-𐀩-𐀄` *a-ki-re-u*, `𐀨-𐀺` *ra-wo*) 표준 병기.
+- **갱신 파일**:
+  - `custom.scss`: 고대문자 웹폰트 및 타이포그래피 스택 보강
+  - `.obsidian/snippets/ancient-fonts.css`: 신규 생성
+  - `.obsidian/appearance.json`: 스니펫 활성화
+  - `words/word-achilles.md`: 선문자 B 글리프 보강
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+

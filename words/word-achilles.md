@@ -33,7 +33,7 @@ status: active
 graph TD
     %% 고대 어원 및 그리스어 성립
     PIE["PIE: *h₂egʰ- (비탄, 고통) + *lāwos (군대)"] --> PGRK["Proto-Greek: *Achi-lāwos ('군대의 고통')"]
-    PGRK --> MYC["미케네 그리스어: a-ki-re-u (/Akʰilleus/, BC 13세기)"]
+    PGRK --> MYC["미케네 그리스어: 𐀀-𐀑-𐀩-𐀄 (a-ki-re-u, /Akʰilleus/, BC 13세기)"]
     MYC --> GRK["고대 희랍어: Ἀχιλλεύς (Achilleus / 호메로스)"]
 
     %% 서구어 및 영어 전파 경로
@@ -62,13 +62,13 @@ graph TD
   - 고대 희랍어 중성 s-어간 명사 **ἄχος** (_achos_, 고통, 물리적·정신적 비탄)로 발전 (Pokorny IEW 7–8, Beekes EDG 183).
   - 게르만어군 동계어: 고대 영어 _ege_ (공포, 경외) → 현대 영어 **awe**, **awful**, **awesome**, 고대 노르드어 _uggr_ (두려움) → 현대 영어 **ugly**.
 - **후반부 어근**: 원시 그리스어 **`*lāwos`** (전사 집단, 군대, 무장한 백성)
-  - 고대 희랍어 **λαός** (_laos_, 군대, 백성; 아티카 방언 λεώς, 미케네 선형문자 B _ra-wo_). 히타이트어 _lahha-_ (원정, 군사 행동)와 비교됨.
+  - 고대 희랍어 **λαός** (_laos_, 군대, 백성; 아티카 방언 λεώς, 미케네 선형문자 B **𐀨-𐀺** _ra-wo_). 히타이트어 _lahha-_ (원정, 군사 행동)와 비교됨.
 - **합성어 원형 재구**: **_Achi-lāwos_ ("자신의 군대에게 비탄을 가져오는 자" 또는 "군대의 고통을 구현하는 자")**
   - 고전문헌학자 그레고리 나지(Gregory Nagy 1979) 및 레너드 파머(L. R. Palmer 1963)의 분석에 따르면, *Achi-lāwos*에서 반모음 _w_(디감마 ϝ)가 탈락하고 친애적/단축형 자음 중복(hypocoristic doubling)을 거쳐 호메로스 서사시의 **Ἀχιλλεύς** (_Achilleus_) 및 운율적 단축형 **Ἀχιλεύς** (_Achileus_)가 성립되었습니다.
 
 ### 2.2 미케네 그리스어(Linear B) 선행 증거
 
-- 기원전 13세기 크노소스(Knossos, KN V 151) 및 필로스(Pylos, PY Fn 79, PY Aq 64) 점토판에서 인명 **`a-ki-re-u`** (/Akʰilleus/ 또는 /Akʰileus/)가 실증됩니다.
+- 기원전 13세기 크노소스(Knossos, KN V 151) 및 필로스(Pylos, PY Fn 79, PY Aq 64) 점토판에서 선형문자 B 인명 **𐀀-𐀑-𐀩-𐀄** (`a-ki-re-u`, /Akʰilleus/ 또는 /Akʰileus/)가 실증됩니다.
 - 이는 아킬레우스라는 명칭이 호메로스 서사시 창작 이전 청동기 미케네 문명기부터 실존 인명으로 널리 사용되었음을 입증합니다.
 
 > [!NOTE] 선희랍 기층어(Pre-Greek Substrate) 및 형태론적 논쟁

@@ -1,9 +1,32 @@
 // Custom SCSS overrides for Homer Wiki
-// 1. Desktop & Global Layout
-// 2. Mobile Responsive & Touch Optimization
+// 1. Ancient Scripts & Multilingual Typography (Zero-Tofu Font Stack)
+// 2. Desktop & Global Layout
+// 3. Mobile Responsive & Touch Optimization
+
+// -------------------------------------------------------------
+// Google Fonts Noto Ancient Scripts & Polytonic Greek Import
+// -------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs&family=Noto+Sans+Cuneiform&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Linear+A&family=Noto+Sans+Linear+B&family=Noto+Sans+Old+Persian&family=Noto+Sans+Phoenician&family=Noto+Sans+Ugaritic&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   --top-spacing: 1rem;
+  --font-ancient-stack: 
+    "Noto Sans Cuneiform",
+    "Noto Sans Egyptian Hieroglyphs",
+    "Noto Sans Linear B",
+    "Noto Sans Linear A",
+    "Noto Sans Phoenician",
+    "Noto Sans Ugaritic",
+    "Noto Sans Old Persian",
+    "Noto Sans Anatolian Hieroglyphs",
+    "Segoe UI Historic",
+    "HANBatangExt",
+    "HANDotumExt",
+    "SansSerifCollection",
+    "New Athena Unicode",
+    "Gentium Plus",
+    "Aegean",
+    sans-serif;
 }
 
 #quartz-root {
@@ -52,16 +75,33 @@ header {
 }
 
 // -------------------------------------------------------------
-// Korean Typography & Reading Optimization
+// Korean Typography, Ancient Scripts & Reading Optimization
 // -------------------------------------------------------------
 article {
   word-break: keep-all;
   overflow-wrap: break-word;
   line-height: 1.75;
+  font-family: var(--bodyFont), var(--font-ancient-stack);
 
-  p, li {
+  p, li, td, th {
     letter-spacing: -0.01em;
+    font-family: inherit;
   }
+}
+
+// RTL utility for Phoenician, Imperial Aramaic, etc.
+.ancient-rtl,
+[dir="rtl"] {
+  direction: rtl;
+  unicode-bidi: isolate;
+  display: inline-block;
+}
+
+// Glyph display helper class
+.ancient-glyph {
+  font-family: var(--font-ancient-stack) !important;
+  font-style: normal;
+  font-weight: 400;
 }
 
 // -------------------------------------------------------------
