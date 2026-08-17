@@ -63,6 +63,7 @@ status: active
 - [[concept-aidos|Aidos]] — 수치심, 경외, 자기억제, 내면화된 타자의 시선 및 도덕심리학적 억제 메커니즘
 - [[concept-nemesis|Nemesis]] — 응당한 몫의 분배(Nemein)와 질서(Kosmos)를 수호하는 공적 의분, '네메시스가 되지 않는다(Ouk esti nemesis)'의 적절성 윤리학
 - [[concept-xenia|Xenia]] — 손님 환대와 상호부조의 신성한 규범, 긴장 완화(Philos)와 문명적 법질서(Eunomia)의 초석
+- [[concept-agathos|Agathos]] — 영웅적 탁월성과 결과주의적 성공의 귀족 규범 (군사적 무용·혈통·부의 결합체)
 - [[concept-themis|Themis]] *(작성 예정)* — 신성한 관습과 공동체의 공정한 규칙
 - [[concept-eleos|Eleos]] *(작성 예정)* — 연민과 필멸성의 비극적 공감
 - [[concept-arete|Arete]] *(작성 예정)* — 탁월성과 용맹

@@ -845,5 +845,46 @@ status: active
   - `wiki/concepts/concept-xenia.md`: 전면 개정 및 심화
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-17] feat(concepts) | concept-agathos.md 개념 문서 신규 작성
+
+- **작업 개요**: 호메로스 영웅 윤리의 핵심 칭찬어이자 귀족 규범인 **아가토스(Agathos, ἀγαθός)**의 개념 문서를 신규 작성하고, 지식베이스 인덱스에 연동함.
+- **주요 반영 내역**:
+  - **개념 정의 및 가치 2분법 분석**:
+    - 현대의 '착한 사람'과의 단절 및 '탁월한 귀족 전사(Noble warrior-chieftain)'로서의 원의 정립.
+    - 4대 핵심 구성 요건(군사적 무용 Arete, 고귀한 혈통 Eugenes, 물질적 부와 명예 Time/Geras, 결과주의적 성공 Ergon) 매트릭스 및 머메이드 다이어그램 구축.
+    - 반의어 카코스(Kakos, 무능하고 비천한 자) 및 아이스크론(Aischron, 최고의 수치) 대조 분석.
+  - **도덕심리학 및 서사시 유형학**:
+    - 상시적 긴장 속의 자기보존, 필로스(Philos)와 크세니아(Xenia)의 상호부조 필요성 규명.
+    - 4대 영웅(아킬레우스, 아가멤논, 헥토르, 오디세우스)의 아가토스 체현 양상, 테르시테스 구타 사건(_Il._ 2), 에우멜로스 전차경주 상 배분 논쟁(_Il._ 23) 분석.
+    - 학술사적 변천(Adkins 1960 vs Long 1970/MacIntyre 1981, 고전기 칼로카가티아로의 진화) 정리.
+- **생성 및 갱신 파일**:
+  - `wiki/concepts/concept-agathos.md`: 신규 개념 문서 생성
+  - `wiki/index.md`: 개념 목록에 `concept-agathos` 추가
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-17] docs(concepts) | concept-agathos.md 문헌 검증 및 homer-review 5인 정제 완료
+
+- **작업 개요**: `homer-review` 스킬의 5대 독립 서브에이전트(Philologist, Logician, Architect, Weaver, Editor) 적대적 검토를 거쳐 `wiki/concepts/concept-agathos.md` 문서의 어원학적 완결성, 역할 윤리 논증, 원전 인용 및 지식망 연결성을 대폭 심화·정제함.
+- **주요 반영 내역**:
+  - **문헌학 및 어원 계통 보강 (`philologist`)**:
+    - *agathos*의 비교급·최상급 어원 계통군(*aristos*, *kratistos*, *beltistos*, *ameinōn*, *kreissōn*) 및 귀족정(*aristocracy*), 영웅적 무용담(*aristeia*)과의 어원학적 연결표 신설.
+    - 제2절 표 내 *atimazein* 링크를 `[[concept-time|티메 박탈]]`로 정정.
+    - 헥토르의 출전 결의(_Il._ 6.444–446) 및 에우멜로스 전차경주(_Il._ 23.536–538) 핵심 원문 인용 및 주석 수록.
+  - **논리 및 학설 심화 (`logician`)**:
+    - 매킨타이어(MacIntyre 1981)의 **'사회적 역할에 정초된 덕(Virtues embodied in roles)'** 테제 정밀화.
+    - 호메로스 사회의 공적 중재 기구 부재와 아가토스 간의 파국적 티메 충돌 메커니즘 명시.
+  - **지식망 확장 및 위키 규격 완결 (`architect`, `weaver`, `editor`)**:
+    - `concept-kakos`, `concept-kalokagathia`, `concept-metis`, `concept-tlemosyne`, `williams-1993-shame-and-necessity` 교차 링크 확충.
+    - 이모지 0건, 콜아웃 링크 배제, 표 파이프 이스케이프(`\|`) 100% 무결성 유지.
+- **갱신 파일**:
+  - `wiki/concepts/concept-agathos.md`: 전면 개정 및 심화
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
+
 
 
