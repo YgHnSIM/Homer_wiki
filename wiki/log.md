@@ -981,6 +981,33 @@ status: active
   - `words/index.md`: 인덱스 카탈로그 및 Mermaid 그래프, 통계 갱신
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-17] feat(sources) | 메리 스콧 1981 논문 수집 및 비경쟁적 어휘군(Aganos·Meilichos·Kedos·Pistos) 지식베이스 구축
+
+- **작업 개요**: `raw/`에 보관된 미처리 신규 연구 문헌인 메리 스콧(Mary Scott, 1981)의 「호메로스 저작에서의 비경쟁적 태도를 나타내는 일부 희랍어 어휘들(*Some Greek Terms in Homer Suggesting Non-Competitive Attitudes*)」(*Acta Classica* 24, pp. 1–16)을 정독 및 전수 분석하여 신규 소스 문서를 구축하고, 메리 스콧 4부작 체계를 완결하며, 관련 개념 및 종합 분석 문서를 상호 연동 최신화함.
+- **주요 반영 내역**:
+  - **신규 소스 문서 생성 (`wiki/sources/scott-1981-some-greek-terms.md`)**:
+    - 스콧의 호메로스 도덕 감정 4부작(1979 연민과 파토스 -> 1980 아이도스와 네메시스 -> 1981 비경쟁적 어휘 연구 -> 1982 필로스와 크세니아)의 제3부 완결.
+    - 초기 고대 그리스어의 방법론적 본질 규명: 주관적 내면 의도를 분석(Analytic)하기보다 외적·물리적 효과와 결과를 기술(Descriptive)하는 원리 체계화.
+    - 4대 비경쟁적 어휘군 전수 분석:
+      1. 아가노스(Aganos): 기쁨을 주는 말·선물 및 고통 없는 평화로운 신적 급사의 화살.
+      2. 메일리코스(Meilichos): 적대·위협을 해제하고 긴장을 이완시키는 부드러운 언행 (파트로클로스의 성품).
+      3. 케도스(Kedos): 신체적 부상과 재난에 따른 자원 고갈, 그리고 친족·동료를 위해 자원 소모의 부담을 떠맡는 돌봄(Kedesthai).
+      4. 피스토스(Pistos): 불확실한 세계 속에서 물리적으로 흔들림 없는 고정성(Fixity)과 맹약(Horkia pista).
+    - 22개 서사시 에피소드 정밀 매핑 테이블 수록 및 애드킨스(1960) 경쟁적 가치 모델에 대한 비판적 보완.
+  - **기존 개념 및 종합 분석 문서 연동**:
+    - `wiki/analyses/homeric-ethics-literature-review.md`: YAML sources에 `scott-1981-some-greek-terms.md` 반영, 4부작 완결 다이어그램 및 관련 항목 최신화.
+    - `wiki/concepts/concept-agathos.md`, `concept-eleos.md`: YAML sources 및 관련 연구 문헌에 스콧 1981 논문 교차 연동.
+    - `wiki/index.md`, `wiki/overview.md`: 전체 소스 19종 최신화 및 카탈로그 동기화.
+- **생성 및 갱신 파일**:
+  - `wiki/sources/scott-1981-some-greek-terms.md`: 신규 소스 문서 생성
+  - `wiki/analyses/homeric-ethics-literature-review.md`: 소스 목록 및 다이어그램 갱신
+  - `wiki/concepts/concept-agathos.md`, `concept-eleos.md`: 상호 참조 갱신
+  - `wiki/index.md`, `wiki/overview.md`: 카탈로그 및 대시보드 갱신
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
 
 
 

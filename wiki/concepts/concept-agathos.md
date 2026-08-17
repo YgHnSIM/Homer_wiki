@@ -4,7 +4,7 @@ aliases: [Agathos, ἀγαθός, 아가토스, 아가토이, Agathoi, 아리스
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
 updated: 2026-08-17
-sources: [scott-1979-pity-and-pathos.md, adkins-1960-merit-and-responsibility.md, scott-1982-philos-philotes-xenia.md, long-1970-morals-and-values.md, macintyre-1981-after-virtue-ch10.md, williams-1993-shame-and-necessity.md, lee-junseok-2024-iliad-jeongam.md]
+sources: [scott-1979-pity-and-pathos.md, scott-1981-some-greek-terms.md, adkins-1960-merit-and-responsibility.md, scott-1982-philos-philotes-xenia.md, long-1970-morals-and-values.md, macintyre-1981-after-virtue-ch10.md, williams-1993-shame-and-necessity.md, lee-junseok-2024-iliad-jeongam.md]
 status: active
 ---
 
@@ -148,6 +148,7 @@ graph TD
 ### 주요 연구 소스 및 종합 분석
 - [[scott-1979-pity-and-pathos]] (메리 스콧: 호메로스에서의 연민과 파토스 — 아가토스의 몰락과 결과주의적 파토스)
 - [[adkins-1960-merit-and-responsibility]] (A. W. H. 애드킨스: 공적과 책임 — 경쟁적 가치로서의 Agathos 분석)
+- [[scott-1981-some-greek-terms]] (메리 스콧: 비경쟁적 어휘 연구 — 아가토스의 긴장 완화와 Aganos, Meilichos, Kedos, Pistos)
 - [[scott-1982-philos-philotes-xenia]] (메리 스콧: 필로스, 필로테스, 크세니아 — 아가토스의 긴장과 자기보존망)
 - [[long-1970-morals-and-values]] (A. A. 롱: 호메로스의 도덕과 가치 — 적절성의 기준과 애드킨스 비판)
 - [[macintyre-1981-after-virtue-ch10]] (알래스데어 매킨타이어: 덕의 상실 10장 — 영웅 사회에서의 역할과 덕)

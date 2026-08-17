@@ -40,6 +40,7 @@ status: active
 - [[lee-junseok-2024-iliad-jeongam]] — 이준석: 정암학당 2024 호메로스 『일리아스』 4강 연속 집중강좌 해제
 - [[scott-1979-pity-and-pathos]] — 메리 스콧: 호메로스에서의 연민과 파토스 (결과주의적 파토스와 오익토스/엘레오스의 도덕심리학)
 - [[scott-1980-aidos-and-nemesis]] — 메리 스콧: 호메로스 저작에서의 아이도스와 네메시스 (감정적 위축과 공적 의분의 상호 제재)
+- [[scott-1981-some-greek-terms]] — 메리 스콧: 호메로스 저작에서의 비경쟁적 태도를 나타내는 희랍어 어휘 연구 (Aganos, Meilichos, Kedos, Pistos)
 - [[scott-1982-philos-philotes-xenia]] — 메리 스콧: 호메로스 저작에서의 필로스, 필로테스, 크세니아 (긴장 완화로서의 필로스와 크세니아 상호부조망)
 - [[lee-junseok-2018-wrath-and-pity]] — 이준석: 분노의 서사시, 연민의 서사시 『일리아스』 (피아를 초월하는 3단계 동일화와 일관된 시학)
 - [[lee-junseok-2016-odyssey-humanity]] — 이준석: 호메로스의 휴머니티 (구혼자 살육과 폴뤼페모스 대비, 인간조건과 테미스의 수호)

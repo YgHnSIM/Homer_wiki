@@ -4,7 +4,7 @@ aliases: [Eleos, ἔλεος, Oiktos, οἶκτος, 엘레오스, 오익토스,
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
 updated: 2026-08-17
-sources: [scott-1979-pity-and-pathos.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, zanker-1994-heart-of-achilles.md, cairns-1993-aidos.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md]
+sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1981-some-greek-terms.md, scott-1982-philos-philotes-xenia.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, zanker-1994-heart-of-achilles.md, cairns-1993-aidos.md]
 status: active
 ---
 
@@ -133,6 +133,7 @@ graph TD
 ### 주요 연구 문헌 및 종합 분석
 - [[scott-1979-pity-and-pathos|메리 스콧 (1979) 호메로스에서의 연민과 파토스]] — 오익토스/엘레오스 도덕심리학 표준 연구
 - [[scott-1980-aidos-and-nemesis|메리 스콧 (1980) 아이도스와 네메시스]] — 감정적 위축과 신적 제재
+- [[scott-1981-some-greek-terms|메리 스콧 (1981) 비경쟁적 어휘 연구]] — 아가노스·메일리코스·케도스·피스토스 분석
 - [[scott-1982-philos-philotes-xenia|메리 스콧 (1982) 필로스, 필로테스, 크세니아]] — 긴장 완화와 상호부조망
 - [[adkins-1960-merit-and-responsibility|애드킨스 (1960) 공적과 책임]] — 결과 중심 문화와 경쟁적 가치
 - [[lee-junseok-2024-iliad-jeongam|이준석 (2024) 정암학당 일리아스 강좌]] — 24권 화해와 프리아모스 탄원 해제
