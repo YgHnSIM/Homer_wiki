@@ -884,6 +884,26 @@ status: active
   - `wiki/concepts/concept-agathos.md`: 전면 개정 및 심화
   - `wiki/log.md`: 작업 이력 타임라인 갱신
 
+---
+
+## [2026-08-17] feat(words) | word-agathos.md 어원 및 수용사 사전 신규 생성
+
+- **작업 개요**: `homer-word` 스킬의 7인 적대적 학술 평의회(비교어원학, 고전문헌학, 수용사, 역사의미론, 사전편찬학, 실용회의론, 정합성검증관) 검증을 거쳐 **Agathos (ἀγαθός)**의 어원 계보 및 현대 영단어 수용사 사전 문서를 신규 작성함.
+- **주요 반영 내역**:
+  - **어원 증거 원장 및 선희랍 기층어(Pre-Greek Substrate) 판정**:
+    - Beekes(2010), Chantraine(1968) 사전 근거에 기반하여 비-PIE 선희랍 기층어 기원 정립.
+    - 영어 *good*(PIE `*gʰedʰ-`) 및 보석 *agate*(시칠리아 Ἀχάτης 강)와의 민간어원/가짜 동계어 주의 경고 콜아웃 수록.
+  - **호메로스 원전 용례 및 전파 경로**:
+    - 헥토르의 영웅적 아가토스 책무(_Il._ 6.444–446) 및 에우멜로스 전차경주 아리스토스 논쟁(_Il._ 23.536–538) 원문 분석.
+    - 12세기 앵글로-노르만 프랑스어를 거친 인명 *Agatha* 유입, 19세기 로버트 사우디(1817)의 철학 조어 *Agathism*(궁극적 선재론) 및 19세기 고전 차용 *Kalokagathia*(1860) 전파 경로 규명.
+  - **Mermaid 계통도 및 증거 매트릭스**:
+    - 8개 표준 섹션 완비, 현대 영어 어휘 패밀리(Agathism, Agathist, Agathology, Agatha, Kalokagathia, Aristocracy) 정리, 증거 매트릭스 표 1:1 매핑.
+- **생성 및 갱신 파일**:
+  - `words/word-agathos.md`: 신규 어원 사전 생성
+  - `words/index.md`: 어원 사전 카탈로그 및 계통도 갱신
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+
 
 
 

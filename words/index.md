@@ -28,6 +28,7 @@ graph TD
         G_Siren["Σειρήν (Seiren)"]:::greek
         G_Kleos["κλέος (Kleos: 명성/소문)"]:::greek
         G_Nemesis["Νέμεσις (Nemesis: 응징)"]:::greek
+        G_Agathos["ἀγαθός (Agathos: 탁월함)"]:::greek
     end
 
     subgraph Classical_Transmission["고전 라틴어 / 불어 수용"]
@@ -38,6 +39,7 @@ graph TD
         L_Sirena["Latin: Sirena"]:::latin
         L_Clew["Proto-Germanic: *kliwją"]:::latin
         L_Nemesis["Latin: Nemesis"]:::latin
+        L_Agatha["Latin/French: Agatha"]:::latin
     end
 
     subgraph Modern_English["현대 영어 어휘 및 용법"]
@@ -48,6 +50,7 @@ graph TD
         E_Siren["[[word-siren|Siren]]<br/>(Alarm device / Femme fatale)"]:::english
         E_Clue["[[word-clue|Clue]]<br/>(Ball of thread -> Key evidence)"]:::english
         E_Nemesis["[[word-nemesis|Nemesis]]<br/>(Archenemy / Inevitable downfall)"]:::english
+        E_Agathos["[[word-agathos|Agathos]]<br/>(Agathism / Agatha / Kalokagathia)"]:::english
     end
 
     G_Achilles --> L_Achilles --> E_Achilles
@@ -57,19 +60,20 @@ graph TD
     G_Siren --> L_Sirena --> E_Siren
     G_Kleos --> L_Clew --> E_Clue
     G_Nemesis --> L_Nemesis --> E_Nemesis
+    G_Agathos --> L_Agatha --> E_Agathos
 ```
 
 ---
 
 ## 1. 사전 통계 및 현황
 
-| 분류                                              | 문서 수 | 대표 예시                                 |
-| :------------------------------------------------ | :-----: | :---------------------------------------- |
-| **개념·추상어 (Concept Words)**                   |    0    | _chaos, harmony, psyche, nemesis, pathos_ |
-| **인명·신명 유래어 (Eponyms)**                    |    1    | [[word-achilles\|achilles]], _mentor, odyssey, hector, tantalus_ |
-| **핵심 다중 어근 (Core Roots)**                   |    0    | _logos/logic, kleos/clue, physis/physics_ |
-| **선희랍 기층어/어원 불명 (Pre-Greek Substrate)** |    0    | _labyrinth, hyacinth, narcissus, ocean_   |
-| **총 단어 문서 수**                               |  **1**  | -                                         |
+| 분류 | 문서 수 | 대표 예시 |
+|:---|:---:|:---|
+| **개념·추상어 (Concept Words)** | **1** | [[word-agathos\|agathos]], _chaos, harmony, psyche, nemesis_ |
+| **인명·신명 유래어 (Eponyms)** | **1** | [[word-achilles\|achilles]], _mentor, odyssey, hector, tantalus_ |
+| **핵심 다중 어근 (Core Roots)** | 0 | _logos/logic, kleos/clue, physis/physics_ |
+| **선희랍 기층어/어원 불명 (Pre-Greek Substrate)** | **1** | [[word-agathos\|agathos]], _labyrinth, hyacinth, narcissus_ |
+| **총 단어 문서 수** | **2** | - |
 
 ---
 
@@ -78,6 +82,7 @@ graph TD
 ### A
 
 - [[word-achilles|achilles]] — 아킬레우스(Ἀχιλλεύς) 유래, _Achilles' heel_, _Achilles tendon_, _Achillean_ (인명 유래어)
+- [[word-agathos|agathos]] — 아가토스(ἀγαθός) 유래, 선희랍 기층어, _Agathism_, _Agatha_, _Kalokagathia_, _Aristocracy_ (개념·추상어)
 
 ### C
 
