@@ -1088,6 +1088,20 @@ status: active
   - `custom.scss`, `DESIGN.md`
   - `index.md`, `wiki/index.md`, `wiki/analyses/homeric-ethics-literature-review.md`, `wiki/log.md`
 
+---
+
+## [2026-08-24] refactor(meta) | 인터랙티브 지식 그래프 뷰 기능 제거
+
+- **작업 개요**: 캔버스 기반 로컬/글로벌 인터랙티브 그래프 뷰 및 관련 패치 스크립트를 제거하고, 우측 사이드바 구조를 목차(TOC)와 역링크(Backlinks) 중심으로 단순화함.
+- **주요 변경 사항**:
+  - `quartz.config.yaml`: `@quartz-community/graph` 플러그인 제거.
+  - `.github/workflows/deploy.yml`: 빌드 파이프라인에서 그래프 번들 패치 스크립트 실행 단계 제거.
+  - `custom.scss`: 그래프 패널, 글로벌 그래프 오버레이, 그래프 타입 필터 칩 CSS 스타일 정리.
+  - `scripts/`: `patch-quartz-graph.mjs`, `graph-type-filter.js`, `typed-neighbors.js` 제거.
+  - `DESIGN.md`: 디자인 시스템 문서에서 그래프 컴포넌트 규격 정리.
+- **갱신 파일**:
+  - `quartz.config.yaml`, `.github/workflows/deploy.yml`, `custom.scss`, `DESIGN.md`, `wiki/log.md`
+
 
 
 

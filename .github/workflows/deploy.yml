@@ -34,8 +34,6 @@ jobs:
           git clone --depth 1 https://github.com/jackyzha0/quartz.git .quartz
           cd .quartz
           npm ci
-          cd ..
-          node scripts/patch-quartz-graph.mjs .quartz
 
       - name: Stage Public Wiki Content
         run: |
