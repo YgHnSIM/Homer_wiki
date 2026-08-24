@@ -1,6 +1,6 @@
 ---
-title: 크세니아 (Xenia / ξενία) — 손님 환대와 상호부조의 신성한 규범
-aliases: [Xenia, ξενία, 크세니아, 손님 환대, 필록세니아, Philoxenia, 크세노스, Xenos]
+title: 크세니아 (Xenia)
+aliases: [Xenia, ξενία, 크세니아, 손님 환대, 필록세니아, Philoxenia, 크세노스, Xenos, 크세니아 (Xenia / ξενία) — 손님 환대와 상호부조의 신성한 규범]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
 updated: 2026-08-24

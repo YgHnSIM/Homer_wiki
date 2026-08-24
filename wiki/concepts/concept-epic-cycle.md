@@ -1,6 +1,6 @@
 ---
-title: 서사시환 (Epic Cycle / ἐπικὸς κύκλος)
-aliases: [Epic Cycle, 서사시환, 트로이 서사시환, Trojan Cycle, 에피코스 퀴클로스, ἐπικὸς κύκλος]
+title: 서사시환 (Epic Cycle)
+aliases: [Epic Cycle, 서사시환, 트로이 서사시환, Trojan Cycle, 에피코스 퀴클로스, ἐπικὸς κύκλος, 서사시환 (Epic Cycle / ἐπικὸς κύκλος)]
 tags: [type/concept, domain/mythology, domain/iliad, domain/odyssey, domain/culture, status/active]
 created: 2026-08-17
 updated: 2026-08-24

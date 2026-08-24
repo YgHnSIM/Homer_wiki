@@ -1,6 +1,6 @@
 ---
-title: 메니스 (Mênis / μῆνις) — 신적 분노와 우주적 파괴력
-aliases: [Menis, Mênis, μῆνις, 신적 분노, 아킬레우스의 분노]
+title: 메니스 (Menis)
+aliases: [Menis, Mênis, μῆνις, 신적 분노, 아킬레우스의 분노, 메니스 (Mênis / μῆνις) — 신적 분노와 우주적 파괴력]
 tags: [type/concept, domain/iliad, domain/mythology, status/active]
 created: 2026-08-16
 updated: 2026-08-24

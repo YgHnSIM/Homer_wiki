@@ -1,6 +1,6 @@
 ---
-title: 네메시스 (Nemesis / νέμεσις) — 응당한 분배와 공적 의분
-aliases: [Nemesis, νέμεσις, 네메시스, 의분, 공적 분노, 질서 수호, nemesan, ouk esti nemesis]
+title: 네메시스 (Nemesis)
+aliases: [Nemesis, νέμεσις, 네메시스, 의분, 공적 분노, 질서 수호, nemesan, ouk esti nemesis, 네메시스 (Nemesis / νέμεσις) — 응당한 분배와 공적 의분]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-16
 updated: 2026-08-24

@@ -1,5 +1,5 @@
 ---
-title: 호메로스 서사시의 윤리학적 특징 및 전 세계 최고 영향력 연구 문헌 분석
+title: 호메로스 윤리학 문헌 고찰
 aliases:
   [
     homeric-ethics-literature-review,
@@ -8,6 +8,7 @@ aliases:
     호메로스 윤리학 연구사,
     호메로스 도덕관,
     호메로스 윤리 종합,
+    호메로스 서사시의 윤리학적 특징 및 전 세계 최고 영향력 연구 문헌 분석,
   ]
 tags:
   [type/analysis, domain/culture, domain/iliad, domain/odyssey, status/active]

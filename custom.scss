@@ -4,9 +4,9 @@
 // so @import is a build error.
 
 :root {
-  --top-spacing: 1rem;
-  --headerFont: "Noto Serif KR", "Noto Serif", serif !important;
-  --bodyFont: "Noto Serif KR", "Noto Serif", serif !important;
+  --top-spacing: 1.25rem;
+  --headerFont: "Noto Serif KR", "Noto Serif", "Noto Serif Greek", "Times New Roman", serif !important;
+  --bodyFont: "Noto Serif KR", "Noto Serif", "Noto Serif Greek", "Times New Roman", serif !important;
   --codeFont: "IBM Plex Mono", ui-monospace, monospace !important;
 }
 
@@ -18,7 +18,7 @@ h3,
 h4,
 .article-title,
 .page-title {
-  font-family: "Noto Serif KR", "Noto Serif", serif;
+  font-family: "Noto Serif KR", "Noto Serif", "Noto Serif Greek", "Times New Roman", serif;
 }
 
 .left.sidebar,
@@ -29,7 +29,7 @@ h4,
 .content-meta,
 .toc,
 .backlinks {
-  font-family: "Noto Sans KR", "Noto Serif KR", sans-serif;
+  font-family: "Noto Sans KR", "Noto Sans", "Noto Sans Greek", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 #quartz-root {
@@ -157,6 +157,40 @@ a.tag,
   }
 }
 
+.explorer {
+  .folder-container {
+    margin: 0.2rem 0;
+  }
+
+  .folder-title {
+    font-weight: 600;
+    color: var(--secondary);
+    letter-spacing: -0.01em;
+  }
+
+  ul.content {
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+    padding-left: 0.8rem;
+    border-left: 1px solid var(--lightgray);
+
+    li {
+      margin: 0.25rem 0;
+      line-height: 1.45;
+
+      a {
+        color: var(--darkgray);
+        font-size: 0.9rem;
+        transition: color 0.15s ease;
+
+        &:hover {
+          color: var(--secondary);
+        }
+      }
+    }
+  }
+}
+
 .table-container,
 table {
   display: block;
@@ -255,11 +289,11 @@ body[data-slug="wiki/analyses/analysis-concept-source-matrix"] {
 
 @media all and (max-width: 800px) {
   :root {
-    --top-spacing: 0.5rem;
+    --top-spacing: 0.75rem;
   }
 
   #quartz-root {
-    padding: 0.5rem 0.75rem 2rem 0.75rem !important;
+    padding: 0.75rem 0.85rem 2rem 0.85rem !important;
   }
 
   .left.sidebar {

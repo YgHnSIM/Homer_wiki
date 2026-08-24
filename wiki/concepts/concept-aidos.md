@@ -1,6 +1,6 @@
 ---
-title: 아이도스 (Aidôs / αἰδώς) — 수치심, 경외 및 자기억제의 도덕 감정
-aliases: [Aidos, Aidôs, αἰδώς, 수치심, 경외, 염치, 조심성]
+title: 아이도스 (Aidos)
+aliases: [Aidos, Aidôs, αἰδώς, 수치심, 경외, 염치, 조심성, 아이도스 (Aidôs / αἰδώς) — 수치심, 경외 및 자기억제의 도덕 감정]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-16
 updated: 2026-08-24

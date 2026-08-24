@@ -1,6 +1,6 @@
 ---
-title: 아가토스 (Agathos / ἀγαθός) — 영웅적 탁월성과 결과주의적 성공의 귀족 규범
-aliases: [Agathos, ἀγαθός, 아가토스, 아가토이, Agathoi, 아리스토스, Aristos, 탁월한 자]
+title: 아가토스 (Agathos)
+aliases: [Agathos, ἀγαθός, 아가토스, 아가토이, Agathoi, 아리스토스, Aristos, 탁월한 자, 아가토스 (Agathos / ἀγαθός) — 영웅적 탁월성과 결과주의적 성공의 귀족 규범]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
 updated: 2026-08-24

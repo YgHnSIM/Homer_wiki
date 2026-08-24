@@ -1,6 +1,6 @@
 ---
-title: 아킬레우스 (Achilles / Ἀχιλλεύς)
-aliases: [Achilles, Ἀχιλλεύς, 아킬레우스, 펠레우스의 아들, 펠레이데스, Pelides, 아이아키데스, Aiakides]
+title: 아킬레우스 (Achilles)
+aliases: [Achilles, Ἀχιλλεύς, 아킬레우스, 펠레우스의 아들, 펠레이데스, Pelides, 아이아키데스, Aiakides, 아킬레우스 (Achilles / Ἀχιλλεύς)]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
 updated: 2026-08-24

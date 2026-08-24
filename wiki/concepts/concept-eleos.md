@@ -1,6 +1,6 @@
 ---
-title: 엘레오스와 오익토스 (Eleos & Oiktos / ἔλεος & οἶκτος) — 호메로스 영웅 윤리의 연민, 비애감 및 비경쟁적 연대
-aliases: [Eleos, ἔλεος, Oiktos, οἶκτος, 엘레오스, 오익토스, 연민, 동정, Pity, Pathos, 파토스, Oiktros, 오익트로스]
+title: 엘레오스와 오익토스 (Eleos & Oiktos)
+aliases: [Eleos, ἔλεος, Oiktos, οἶκτος, 엘레오스, 오익토스, 연민, 동정, Pity, Pathos, 파토스, Oiktros, 오익트로스, 엘레오스와 오익토스 (Eleos & Oiktos / ἔλεος & οἶκτος) — 호메로스 영웅 윤리의 연민, 비애감 및 비경쟁적 연대]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
 updated: 2026-08-24

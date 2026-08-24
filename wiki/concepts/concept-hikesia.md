@@ -1,6 +1,6 @@
 ---
-title: 히케시아 (Hikesia / ἱκεσία) — 탄원의 의례와 경외
-aliases: [Hikesia, ἱκεσία, 탄원, 탄원 의례, 히케테스]
+title: 히케시아 (Hikesia)
+aliases: [Hikesia, ἱκεσία, 탄원, 탄원 의례, 히케테스, 히케시아 (Hikesia / ἱκεσία) — 탄원의 의례와 경외]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/culture, status/active]
 created: 2026-08-16
 updated: 2026-08-24
