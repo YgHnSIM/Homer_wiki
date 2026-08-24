@@ -1,63 +1,57 @@
 ---
-title: 호메로스 위키 홈 (Overview)
-aliases: [홈페이지, 메인 대시보드]
+title: 서사시 개요
+aliases: [홈페이지, 메인 대시보드, 호메로스 위키 홈, Overview]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-08-17
+updated: 2026-08-24
 sources: []
 status: active
 ---
 
-# 호메로스 위키 (Homer Wiki)
+# 서사시 개요
 
-호메로스(Homer, Ὅμηρος)의 두 대서사시인 **[[일리아스]]**(Iliad)와 **[[오뒷세이아]]**(Odyssey), 그리고 고대 그리스 영웅 신화 및 가치관에 대한 체계적인 지식베이스입니다.
-
----
-
-## 서사시 안내
-
-### [[일리아스]] (Iliad)
-- **주제**: 트로이 전쟁 10년 차, 아킬레우스의 분노(Mênis, μῆνις)와 51일간의 사건.
-- **핵심 인물**: [[entity-achilles|아킬레우스]], [[entity-hector|헥토르]], [[entity-agamemnon|아가멤논]], [[entity-odysseus|오디세우스]], [[entity-patroklos|파트로클로스]], [[entity-priam|프리아모스]]
-- **관련 신**: [[entity-zeus|제우스]], [[entity-athena|아테나]], [[entity-apollo|아폴론]], [[entity-hera|헤라]], [[entity-aphrodite|아프로디테]]
-
-### [[오뒷세이아]] (Odyssey)
-- **주제**: 트로이 함락 후 오디세우스의 10년간의 귀향(Nostos, νόστος)과 이타카 복수극.
-- **핵심 인물**: [[entity-odysseus|오디세우스]], [[entity-penelope|페넬로페]], [[entity-telemachos|텔레마코스]], [[entity-circe|키르케]], [[entity-calypso|칼립소]], [[entity-alkinoos|알키노오스]]
-- **핵심 개념**: [[concept-nostos|Nostos]] (귀향), [[concept-xenia|Xenia]] (손님 대접/환대)
+호메로스(Homer, Ὅμηρος)의 두 서사시 *일리아스*와 *오뒷세이아*, 그리고 그 세계를 묶는 영웅 윤리 개념의 지도입니다. 링크는 작성된 문서에만 걸었습니다.
 
 ---
 
-## 고대 그리스 핵심 개념 및 가치관
+## 일리아스 (Iliad)
 
-- **[[concept-menis|Menis]] (μῆνις — 신적 분노)**: 신성한 질서 침해에 대해 발동하는 우주적 파괴력과 초월적 분노.
-- **[[concept-hikesia|Hikesia]] (ἱκεσία — 탄원)**: 무릎을 잡고 턱을 만지는 신체 접촉을 통한 신성한 구명과 화해의 의례.
-- **[[concept-arete|Arete]] (ἀρετή — 탁월성/용맹)**: 전사의 무용, 지혜, 신분적 탁월함.
-- **[[concept-kleos|Kleos]] (κλέος — 불멸의 명예)**: 영웅이 서사시나 노래를 통해 후세에 남기는 영원한 이름과 명성.
-- **[[concept-time|Timê]] (τιμή — 명예/보상)**: 영웅이 공동체나 동료로부터 받는 물질적·사회적 대우.
-- **[[concept-aidos|Aidos]] (αἰδώς — 수치심/경외)**: 사회적 비난(Nemesis)을 예견하고 스스로를 억제하는 도덕 감정.
-- **[[concept-nemesis|Nemesis]] (νέμεσις — 공적 의분)**: 각자의 마땅한 몫과 질서(Kosmos)를 침범한 자에 대한 정의로운 분노.
-- **[[concept-eleos|Eleos]] (ἔλεος — 연민/자비)**: 고통받는 필멸자에 대한 공감과 구호 추진력, 그리고 조롱·가해를 멈추는 오익토스(Oiktos)의 억제.
-- **[[concept-agathos|Agathos]] (ἀγαθός — 영웅적 탁월자)**: 군사적 무용과 혈통, 부와 성공을 체화한 귀족 전사 규범.
-- **[[concept-dike|Dike]] (δίκη — 정의/질서)**: 제우스의 우주적 정의와 각자의 정당한 몫.
-- **[[concept-xenia|Xenia]] (ξενία — 손님 환대)**: 신의 뜻(제우스 크세니오스)에 따라 낯선 나그네를 대접하는 성스러운 의무.
-- **[[concept-nostos|Nostos]] (νόστος — 귀환)**: 고난을 딛고 고향과 가정으로 돌아가는 과정.
-- **[[concept-moira|Moira]] (μοῖρα — 운명)**: 인간과 신조차 넘을 수 없는 필연적 운명의 배정.
+트로이 전쟁 10년 차, 아킬레우스의 분노(Mênis, μῆνις)와 약 51일간의 사건.
+
+- 중심 인물: [[entity-achilles|아킬레우스]]. 헥토르, 아가멤논, 오디세우스, 파트로클로스, 프리아모스는 아직 독립 항목이 없습니다.
+- 서사를 밀어 가는 개념: [[concept-menis|메니스]], [[concept-hikesia|히케시아]], [[concept-eleos|엘레오스]], [[concept-aidos|아이도스]]
+
+## 오뒷세이아 (Odyssey)
+
+트로이 함락 뒤 오디세우스의 귀향(Nostos, νόστος)과 이타카의 복수.
+
+- 오디세우스, 페넬로페, 텔레마코스 항목은 아직 없습니다.
+- 관련 개념: [[concept-xenia|크세니아]], [[concept-hikesia|히케시아]], [[concept-aidos|아이도스]]
 
 ---
 
-## 위키 탐색 및 도구
+## 작성된 핵심 개념
 
-- **[전체 문서 카탈로그 (index.md)](file:///c:/Vault/Homer_wiki/wiki/index.md)**: 생성된 모든 위키 문서 카탈로그 및 요약.
-- **[위키 작업 이력 (log.md)](file:///c:/Vault/Homer_wiki/wiki/log.md)**: 수집, 분석, 문서 추가/수정 이력 타임라인.
-- **[엔티티 프레임워크 지침 (entity-framework.md)](file:///c:/Vault/Homer_wiki/wiki/meta/entity-framework.md)**: 엔티티 문서 작성 지침 및 표준 스키마.
-- **[호메로스 윤리학 종합 분석 (homeric-ethics-literature-review.md)](file:///c:/Vault/Homer_wiki/wiki/analyses/homeric-ethics-literature-review.md)**: 전 세계 주요 연구 및 19종 소스 종합 분석.
-- **[LLM 위키 운영 지침 (AGENTS.md)](file:///c:/Vault/Homer_wiki/AGENTS.md)**: 지식 베이스 구축 규칙 및 워크플로 스키마.
+- [[concept-menis|Menis]] (μῆνις) — 신적 분노
+- [[concept-hikesia|Hikesia]] (ἱκεσία) — 탄원
+- [[concept-aidos|Aidos]] (αἰδώς) — 수치심과 경외
+- [[concept-nemesis|Nemesis]] (νέμεσις) — 공적 의분
+- [[concept-eleos|Eleos]] (ἔλεος) — 연민
+- [[concept-agathos|Agathos]] (ἀγαθός) — 영웅적 탁월자
+- [[concept-xenia|Xenia]] (ξενία) — 손님 환대
+- [[concept-epic-cycle|서사시환]] (ἐπικὸς κύκλος) — 트로이 전쟁 연작
+
+아직 없는 표제어(아레테, 클레오스, 티메, 디케, 노스토스, 모이라 등)는 문서가 생긴 뒤에 색인에 올립니다.
 
 ---
+
+## 이어서 읽기
+
+- [[wiki/index|위키 색인]]
+- [[words/index|어원 사전]]
+- [[wiki/analyses/homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]
 
 ## 관련 항목
 
-- [[index]]
-- [[log]]
-- [[homeric-ethics-literature-review]]
+- [[wiki/index|위키 색인]]
+- [[wiki/analyses/homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]

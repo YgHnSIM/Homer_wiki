@@ -1,4 +1,5 @@
 ---
+title: Eleos (ἔλεος)
 word: eleos
 greek_root: ἔλεος (eleos, 명사)
 pie_root: "Pre-Greek substrate / Uncertain (선희랍 기층어 또는 고유 의성어)"
@@ -7,7 +8,7 @@ transmissions: [greek, latin, old_french, old_english, middle_english, modern_en
 aliases: [ἔλεος, Eleos, Eleemosynary, Alms, Almoner, Kyrie eleison, ἐλεημοσύνη]
 tags: [type/word, domain/etymology, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-24
 sources: [Beekes 2010 EDG, Chantraine 1968 DELG, Frisk GEW, OED, LSJ, Lewis & Short]
 status: active
 ---

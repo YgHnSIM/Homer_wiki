@@ -3,7 +3,7 @@ title: 아가토스 (Agathos / ἀγαθός) — 영웅적 탁월성과 결과�
 aliases: [Agathos, ἀγαθός, 아가토스, 아가토이, Agathoi, 아리스토스, Aristos, 탁월한 자]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-24
 sources: [scott-1979-pity-and-pathos.md, scott-1981-some-greek-terms.md, adkins-1960-merit-and-responsibility.md, scott-1982-philos-philotes-xenia.md, long-1970-morals-and-values.md, macintyre-1981-after-virtue-ch10.md, williams-1993-shame-and-necessity.md, lee-junseok-2024-iliad-jeongam.md]
 status: active
 ---
@@ -51,10 +51,10 @@ status: active
 
 ```mermaid
 graph TD
-    A["아가토스 (Agathos / Aristos)<br/>탁월한 영웅적 귀족 전사"] --> B["1. 군사적 무용 (Arete)<br/>전열 앞장서기 / 승리"]
-    A --> C["2. 고귀한 혈통 (Eugenes/Esthlos)<br/>신들의 혈통 / 신분 정통성"]
-    A --> D["3. 물질적 자산 (Time/Geras)<br/>토지 / 가축 / 전리품 / 식솔 부양"]
-    A --> E["4. 결과적 성공 (Ergon)<br/>공동체 방어 / 현실적 승리"]
+    A["아가토스 (Agathos / Aristos)<br/>탁월한 영웅적 귀족 전사"] --> B["(1) 군사적 무용 (Arete)<br/>전열 앞장서기 / 승리"]
+    A --> C["(2) 고귀한 혈통 (Eugenes/Esthlos)<br/>신들의 혈통 / 신분 정통성"]
+    A --> D["(3) 물질적 자산 (Time/Geras)<br/>토지 / 가축 / 전리품 / 식솔 부양"]
+    A --> E["(4) 결과적 성공 (Ergon)<br/>공동체 방어 / 현실적 승리"]
     
     B & C & D & E --> F["사회적 찬사 및 불멸의 명예<br/>(Kleos Aphthiton)"]
     

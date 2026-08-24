@@ -1,4 +1,5 @@
 ---
+title: Achilles (아킬레우스 / Ἀχιλλεύς)
 word: achilles
 greek_root: Ἀχιλλεύς (Achilleus, 명사)
 pie_root: "*h₂egʰ- (비탄, 고통) + Proto-Greek *lāwos (군대/전사 집단)"
@@ -16,7 +17,7 @@ aliases:
   ]
 tags: [type/word, domain/etymology, domain/iliad, status/active]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-24
 sources: [Beekes 2010, Chantraine DELG, Pokorny IEW, OED, Nagy 1979, LSJ]
 status: active
 ---

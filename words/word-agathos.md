@@ -1,4 +1,5 @@
 ---
+title: Agathos (ἀγαθός)
 word: agathos
 greek_root: ἀγαθός (agathos, 형용사/명사)
 pie_root: "Pre-Greek substrate"
@@ -7,7 +8,7 @@ transmissions: [pre_greek, greek, latin, old_french, middle_english, modern_engl
 aliases: [ἀγαθός, agathos, agathism, Agatha, kalokagathia, 아가토스, 아가티즘]
 tags: [type/word, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-24
 sources: [Beekes 2010 Etymological Dictionary of Greek, Chantraine 1968 DELG, Oxford English Dictionary, LSJ]
 status: active
 ---
@@ -111,9 +112,9 @@ graph TD
 
 ```mermaid
 graph LR
-    M1["1. 아르카익 호메로스<br/>전사적 무용과 부, 결과적 성공<br/>(Functional Excellence)"] -->|철학적 내면화| M2["2. 고전기 플라톤·아리스토텔레스<br/>영혼의 덕과 최고선<br/>(Moral & Metaphysical Good)"]
-    M2 -->|기독교 성인 전승| M3["3. 중세 기독교<br/>순결과 신앙의 고결함<br/>(Saintly Virtue / Agatha)"]
-    M2 -->|19세기 낭만주의 조어| M4["4. 근현대 철학<br/>궁극적 선재론 및 전인적 이상<br/>(Agathism / Kalokagathia)"]
+    M1["(1) 아르카익 호메로스<br/>전사적 무용과 부, 결과적 성공<br/>(Functional Excellence)"] -->|철학적 내면화| M2["(2) 고전기 플라톤·아리스토텔레스<br/>영혼의 덕과 최고선<br/>(Moral & Metaphysical Good)"]
+    M2 -->|기독교 성인 전승| M3["(3) 중세 기독교<br/>순결과 신앙의 고결함<br/>(Saintly Virtue / Agatha)"]
+    M2 -->|19세기 낭만주의 조어| M4["(4) 근현대 철학<br/>궁극적 선재론 및 전인적 이상<br/>(Agathism / Kalokagathia)"]
 ```
 
 ---

@@ -2,8 +2,9 @@
 title: 호메로스 위키 작업 이력 (Log)
 aliases: [타임라인, 히스토리, 변경 기록]
 tags: [type/meta, domain/culture, status/active]
+unlisted: true
 created: 2026-08-14
-updated: 2026-08-17
+updated: 2026-08-24
 sources: []
 status: active
 ---
@@ -1006,6 +1007,43 @@ status: active
   - `wiki/concepts/concept-agathos.md`, `concept-eleos.md`: 상호 참조 갱신
   - `wiki/index.md`, `wiki/overview.md`: 카탈로그 및 대시보드 갱신
   - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-24] style(meta) | 없는 문서 링크 제거 및 한글 서체 적용
+
+- **작업 개요**: 라이브 Quartz 사이트 점검에서 드러난 과장 링크, 프론트매터 노출, 한글/희랍어 서체 미적용, 중복 제목을 한 번에 교정함. 볼트 저작용 로그·메타 문서는 웹 빌드에서 제외하고, 홈·색인·개요는 실제로 있는 문서만 가리키도록 정리함.
+- **주요 반영 내역**:
+  - `quartz.config.yaml`: `note-properties` 비활성, `wiki/log.md`와 `wiki/meta/` ignore, Quartz v5 `quartz-fonts`에 Noto Serif KR / Noto Sans KR 명시, 그래프를 목차 아래로, 404에 좌측 크롬 유지.
+  - `custom.scss`: 한글 keep-all, 중복 H1 숨김, Properties 숨김, Noto Serif 폴백(폴리토닉 그리스), 미해결 링크 점선.
+  - `DESIGN.md`: 공개 사이트 디자인 토큰 문서 추가.
+  - `index.md`, `wiki/overview.md`, `wiki/index.md`, `words/index.md`: 없는 문서와 file:// 링크 제거, 탐색기용 짧은 제목, 어원도 3노드로 축소.
+  - `words/word-*.md`: 웹 제목용 title 필드 추가.
+  - `concept-aidos.md`, `entity-achilles.md`, `homeric-ethics-literature-review.md`: CommonMark가 한글 조사 앞에서 볼드를 깨는 구절 정리.
+- **생성 및 갱신 파일**:
+  - `DESIGN.md`: 신규
+  - `quartz.config.yaml`, `custom.scss`
+  - `index.md`, `wiki/overview.md`, `wiki/index.md`, `words/index.md`
+  - `words/word-achilles.md`, `word-agathos.md`, `word-eleos.md`
+  - `wiki/concepts/concept-aidos.md`, `wiki/entities/entity-achilles.md`, `wiki/analyses/homeric-ethics-literature-review.md`
+  - `wiki/log.md`: 작업 이력 타임라인 갱신
+
+---
+
+## [2026-08-24] fix(all) | 머메이드 노드 목록 구문 충돌 전수 정정
+
+- **작업 개요**: Quartz/Mermaid htmlLabels가 노드 라벨 앞의 `1. ` 구문을 마크다운 순서 목록으로 읽어 `Unsupported markdown: list`를 내고 다이어그램이 비는 문제를 볼트 전수 조사함. 45개 펜스 중 실제 충돌은 2블록이었고, 2026-08-17에 정한 `(1)` / `[제1편]` 서식으로 맞춤.
+- **조사 범위**: `wiki/`, `words/` 내 머메이드 45블록. 라벨 시작 또는 `<br/>` 뒤의 `N. `, `- `, `* `를 트리거로 사용.
+- **실제 장애**:
+  - `wiki/concepts/concept-agathos.md`: `["1. 군사적 무용 ..."]` 등 4노드
+  - `words/word-agathos.md`: 의미 전이 계통도 `["1. 아르카익 호메로스"]` 등 4노드
+- **오탐으로 제외**: `1권:`, `1단계:`, `*agath-` (점+공백 목록 마커가 아님)
+- **재발 방지**: `AGENTS.md` 2.4절에 머메이드 노드 라벨 규칙을 명문화. Quartz OFM의 mermaid 옵션은 on/off만 있어 엔진 단 htmlLabels 해제는 하지 않음.
+- **갱신 파일**:
+  - `wiki/concepts/concept-agathos.md`
+  - `words/word-agathos.md`
+  - `AGENTS.md`
+  - `wiki/log.md`
 
 
 

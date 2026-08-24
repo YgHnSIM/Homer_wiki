@@ -1,93 +1,81 @@
 ---
-title: 호메로스 위키 전체 카탈로그 (Index)
-aliases: [전체 목록, 인덱스, 파일 목차]
+title: 위키 색인
+aliases: [전체 목록, 인덱스, 파일 목차, 호메로스 위키 전체 카탈로그]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-08-17
+updated: 2026-08-24
 sources: []
 status: active
 ---
 
-# 호메로스 위키 인덱스 (Index)
+# 위키 색인
 
-위키 내 모든 마크다운 문서들의 카테고리별 전체 카탈로그입니다.
-
----
-
-## 메인 & 메타 (Meta & Main)
-
-- [[overview]] — 호메로스 위키 홈페이지 / 메인 대시보드
-- [[index]] — 전체 문서 카탈로그 (현재 문서)
-- [[log]] — 위키 구축 및 수정 이력 타임라인
-- [[entity-framework]] — 엔티티 프레임워크 지침 및 표준 스키마
+작성된 마크다운 문서만 카테고리별로 모은 공개 목록입니다. 미작성 표제어는 링크하지 않습니다.
 
 ---
 
-## 소스 문서 (Sources)
+## 입구
 
-- [[williams-1993-shame-and-necessity]] — 버나드 윌리엄스: 수치심과 필연성 (고대 도덕심리학 및 행위주체성 복원)
-- [[adkins-1960-merit-and-responsibility]] — A. W. H. 애드킨스: 공적과 책임 (경쟁적 가치와 협력적 가치의 2분법)
-- [[long-1970-morals-and-values]] — A. A. 롱: 호메로스의 도덕과 가치 (적절성의 기준과 과도/결핍 통제 모델)
-- [[cairns-1993-aidos]] — 더글러스 케언스: 아이도스 (명예와 수치심의 심리학과 윤리학 표준 연구)
-- [[dodds-1951-greeks-and-irrational]] — E. R. 도즈: 그리스인들과 비합리적인 것 (수치 문화와 아테 분석)
-- [[snell-1946-discovery-of-mind]] — 브루노 스넬: 정신의 발견 (호메로스 인체관 및 영혼 개념)
-- [[lloyd-jones-1971-justice-of-zeus]] — 휴 로이드-존스: 제우스의 정의 (호메로스 서사시의 우주적 정의 Dikē)
-- [[macintyre-1981-after-virtue-ch10]] — 알래스데어 매킨타이어: 덕의 상실 10장 (영웅 사회에서의 역할과 덕)
-- [[vernant-1989-belle-mort]] — 장-피에르 베르낭: 아름다운 죽음과 호메로스 영웅 윤리
-- [[redfield-1975-nature-and-culture]] — 제임스 레드필드: 일리아스의 자연과 문화 (헥토르의 비극과 영웅 규범의 한계)
-- [[shay-1994-achilles-in-vietnam]] — 조너선 셰이: 베트남의 아킬레우스 (테미스의 배신, 도덕적 상해, 치유)
-- [[zanker-1994-heart-of-achilles]] — 그레이엄 잰커: 아킬레우스의 마음 (개인적 윤리와 대도량, 연민)
-- [[lee-junseok-2024-iliad-jeongam]] — 이준석: 정암학당 2024 호메로스 『일리아스』 4강 연속 집중강좌 해제
-- [[scott-1979-pity-and-pathos]] — 메리 스콧: 호메로스에서의 연민과 파토스 (결과주의적 파토스와 오익토스/엘레오스의 도덕심리학)
-- [[scott-1980-aidos-and-nemesis]] — 메리 스콧: 호메로스 저작에서의 아이도스와 네메시스 (감정적 위축과 공적 의분의 상호 제재)
-- [[scott-1981-some-greek-terms]] — 메리 스콧: 호메로스 저작에서의 비경쟁적 태도를 나타내는 희랍어 어휘 연구 (Aganos, Meilichos, Kedos, Pistos)
-- [[scott-1982-philos-philotes-xenia]] — 메리 스콧: 호메로스 저작에서의 필로스, 필로테스, 크세니아 (긴장 완화로서의 필로스와 크세니아 상호부조망)
-- [[lee-junseok-2018-wrath-and-pity]] — 이준석: 분노의 서사시, 연민의 서사시 『일리아스』 (피아를 초월하는 3단계 동일화와 일관된 시학)
-- [[lee-junseok-2016-odyssey-humanity]] — 이준석: 호메로스의 휴머니티 (구혼자 살육과 폴뤼페모스 대비, 인간조건과 테미스의 수호)
+- [[overview|서사시 개요]]
+- 위키 색인 (현재 문서)
+- [[words/index|어원 사전]]
 
 ---
 
-## 인물 및 개체 (Entities)
+## 소스 문서
 
-- [[_template]] — 엔티티 표준 마크다운 템플릿
-- [[entity-achilles|아킬레우스]] (Achilles) — 『일리아스』의 주인공, 펠레우스와 테티스의 아들, 신적 분노(Mênis)와 비극적 연민(Eleos)의 영웅
-- [[entity-odysseus|오디세우스]] *(작성 예정)* — 꾀 많은 지략가, 『오뒷세이아』의 주인공
-- [[entity-hector|헥토르]] *(작성 예정)* — 트로이의 수호 영웅, 프리아모스의 장남
-- [[entity-zeus|제우스]] *(작성 예정)* — 올림포스 최고의 신
-
----
-
-## 개념 및 사상 (Concepts)
-
-- [[concept-epic-cycle|서사시환 (Epic Cycle)]] — 트로이 전쟁 전말을 아우르는 8편의 고대 그리스 서사시 연작 체계 (퀴프리아부터 텔레고네이아까지)
-- [[concept-menis|Menis]] — 신적 분노와 우주적 파괴력, 탈인간화와 필멸성의 연대
-- [[concept-hikesia|Hikesia]] — 신성한 탄원의 의례, 신체 접촉 현상학 및 경외(Aidos)
-- [[concept-aidos|Aidos]] — 수치심, 경외, 자기억제, 내면화된 타자의 시선 및 도덕심리학적 억제 메커니즘
-- [[concept-nemesis|Nemesis]] — 응당한 몫의 분배(Nemein)와 질서(Kosmos)를 수호하는 공적 의분, '네메시스가 되지 않는다(Ouk esti nemesis)'의 적절성 윤리학
-- [[concept-xenia|Xenia]] — 손님 환대와 상호부조의 신성한 규범, 긴장 완화(Philos)와 문명적 법질서(Eunomia)의 초석
-- [[concept-agathos|Agathos]] — 영웅적 탁월성과 결과주의적 성공의 귀족 규범 (군사적 무용·혈통·부의 결합체)
-- [[concept-eleos|Eleos]] — 연민(Eleos)과 오익토스(Oiktos), 성공의 급작스런 붕괴(Pathos) 및 비경쟁적 연대 규범
-- [[concept-themis|Themis]] *(작성 예정)* — 신성한 관습과 공동체의 공정한 규칙
-- [[concept-arete|Arete]] *(작성 예정)* — 탁월성과 용맹
-- [[concept-time|Timê]] *(작성 예정)* — 명예와 사회적 보상
-- [[concept-kleos|Kleos]] *(작성 예정)* — 불멸의 명성과 영웅적 영예
-- [[concept-dike|Dike]] *(작성 예정)* — 정의와 우주적 질서
-- [[concept-nostos|Nostos]] *(작성 예정)* — 귀환과 고향으로의 이행
-- [[concept-moira|Moira]] *(작성 예정)* — 운명의 몫
-- [[concept-ate|Ate]] *(작성 예정)* — 정신적 눈멂, 미망
-- [[concept-parrhesia|Parrhesia]] *(작성 예정)* — 직언과 영웅적 진실성
-- [[concept-tlemosyne|Tlemosyne]] *(작성 예정)* — 인내와 고난의 극복
-- [[concept-homophrosyne|Homophrosyne]] *(작성 예정)* — 동반자적 지혜, 부부의 일치된 지혜
+- [[williams-1993-shame-and-necessity|버나드 윌리엄스, 수치심과 필연성 (1993)]]
+- [[adkins-1960-merit-and-responsibility|A. W. H. 애드킨스, 공적과 책임 (1960)]]
+- [[long-1970-morals-and-values|A. A. 롱, 호메로스의 도덕과 가치 (1970)]]
+- [[cairns-1993-aidos|더글러스 케언스, 아이도스 (1993)]]
+- [[dodds-1951-greeks-and-irrational|E. R. 도즈, 그리스인들과 비합리적인 것 (1951)]]
+- [[snell-1946-discovery-of-mind|브루노 스넬, 정신의 발견 (1946)]]
+- [[lloyd-jones-1971-justice-of-zeus|휴 로이드-존스, 제우스의 정의 (1971)]]
+- [[macintyre-1981-after-virtue-ch10|알래스데어 매킨타이어, 덕의 상실 10장 (1981)]]
+- [[vernant-1989-belle-mort|장-피에르 베르낭, 아름다운 죽음 (1989)]]
+- [[redfield-1975-nature-and-culture|제임스 레드필드, 일리아스의 자연과 문화 (1975)]]
+- [[shay-1994-achilles-in-vietnam|조너선 셰이, 베트남의 아킬레우스 (1994)]]
+- [[zanker-1994-heart-of-achilles|그레이엄 잰커, 아킬레우스의 마음 (1994)]]
+- [[lee-junseok-2024-iliad-jeongam|이준석, 정암학당 『일리아스』 해제 (2024)]]
+- [[scott-1979-pity-and-pathos|메리 스콧, 연민과 파토스 (1979)]]
+- [[scott-1980-aidos-and-nemesis|메리 스콧, 아이도스와 네메시스 (1980)]]
+- [[scott-1981-some-greek-terms|메리 스콧, 비경쟁적 태도 어휘 (1981)]]
+- [[scott-1982-philos-philotes-xenia|메리 스콧, 필로스·필로테스·크세니아 (1982)]]
+- [[lee-junseok-2018-wrath-and-pity|이준석, 분노의 서사시, 연민의 서사시 (2018)]]
+- [[lee-junseok-2016-odyssey-humanity|이준석, 호메로스의 휴머니티 (2016)]]
 
 ---
 
-## 분석 및 비평 (Analyses)
+## 인물
 
-- [[homeric-ethics-literature-review]] — 호메로스 서사시의 윤리학적 특징 및 전 세계 최고 영향력 연구 문헌 종합 분석
+- [[entity-achilles|아킬레우스]] (Achilles) — *일리아스*의 주인공, 메니스와 엘레오스의 영웅
+
+작성 예정 (링크 없음): 오디세우스, 헥토르, 제우스.
+
+---
+
+## 개념
+
+- [[concept-epic-cycle|서사시환 (Epic Cycle)]]
+- [[concept-menis|메니스 (Menis)]]
+- [[concept-hikesia|히케시아 (Hikesia)]]
+- [[concept-aidos|아이도스 (Aidos)]]
+- [[concept-nemesis|네메시스 (Nemesis)]]
+- [[concept-xenia|크세니아 (Xenia)]]
+- [[concept-agathos|아가토스 (Agathos)]]
+- [[concept-eleos|엘레오스 (Eleos)]]
+
+작성 예정 (링크 없음): 테미스, 아레테, 티메, 클레오스, 디케, 노스토스, 모이라, 아테.
+
+---
+
+## 분석
+
+- [[wiki/analyses/homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]
 
 ---
 
 ## 관련 항목
 
-- [[overview]]
-- [[log]]
+- [[overview|서사시 개요]]
+- [[words/index|어원 사전]]
