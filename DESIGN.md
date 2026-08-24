@@ -79,10 +79,23 @@ Base unit: 4px.
 
 - Article column ~65–75ch (Quartz center ~790px at 1440).
 - Breakpoints: mobile 800px (existing Quartz/custom.scss), tablet 768 captured in QA, desktop 1440.
-- Right rail: TOC above graph. Graph is secondary on long articles.
+- Right rail: graph first (taller panel, larger labels), then TOC, then backlinks. Below 800px the rail stacks (graph, then backlinks). Between 801px and 1199px graph `max-height` is not capped at 24rem so the chip grid is not clipped.
 - 404 keeps left chrome (title, search, dark mode). No empty canvas.
 
 ## 5. Components
+
+### Graph
+
+- **Local panel**: 420px tall (360px under 800px). Neighbours only (`depth: 1`). Current-page title is labeled; hover names the rest. Nodes are enlarged. Tag pages omitted.
+- **Global overlay**: Ctrl/Cmd+G or the expand icon. All titles shown, shortened to 12 characters. Hover dims unrelated nodes.
+- **Type filter**: chip grid under the graph title (3 columns desktop, 2 on mobile). The global overlay uses a compact centered chip bar. Categories: 개념, 인물, 문헌, 분석, 어원, 기타. Default pressed: 개념 + 인물. Folder indexes stay in 기타. Current page always stays visible. Selection persists in `localStorage` (`homer-wiki-graph-types`).
+- **Motion**: D3/Pixi owned. Do not add extra animation.
+
+### Graph type chip
+
+- **Anatomy**: unfilled pill, 1px `var(--lightgray)` border, caption size (0.8rem), Noto Sans KR, `word-break: keep-all`. Gap `--space-2`.
+- **States**: default (darkgray text, lightgray border); hover (heading text, gray border); selected (`aria-pressed=true`: terracotta text, terracotta border, `--highlight` fill); focus-visible (2px terracotta ring, 2px offset); active (`scale(0.98)`). At least one category stays on.
+- **Rules**: one accent only. Do not color chips per category. Touch target >= 40px under 800px.
 
 ### Site chrome
 
@@ -104,6 +117,26 @@ Base unit: 4px.
 ### Tag chip
 
 - Nowrap; wrap the chip row, never the label mid-slug. Prefer hidden on public.
+
+### Concept constellation
+
+- **Where**: `wiki/overview.md`, first map after the intro.
+- **Nodes**: the eight written concepts plus Achilles. Fixed mermaid flowchart, not a force graph.
+- **Edges**: subgraphs keep pairs side by side (aidos–nemesis, hikesia–xenia) and the Iliad arc in one row (menis → Achilles → eleos). Remaining solids: concepts realized in Achilles; epic-cycle as a frame.
+- **Rules**: short labels, no markdown list markers in nodes, no wikilinks inside mermaid. Legend under the diagram carries the wikilinks. Default mermaid palette; do not add a second accent.
+
+### Concept × source matrix
+
+- **Where**: analysis page `개념과 문헌`. Sources as rows, written concepts as columns.
+- **Cells**: 중심 (terracotta bold), 언급 (body), — (empty). No emoji, no extra hues.
+- **Layout**: sticky first column, horizontal scroll. Caption 0.85rem. Do not wrap cell labels.
+
+### Typed neighbors
+
+- **Where**: right rail, under the graph and above the TOC, so the list stays in the sticky column.
+- **Anatomy**: h3 `맞물리는 문서`, then groups 개념 / 인물 / 문헌 / 분석 / 어원. Same link style as backlinks.
+- **Data**: union of outgoing wikilinks and backlinks from contentIndex. Skip unwritten slugs, tag pages, folder indexes, type/meta.
+- **States**: empty widget hides. Reader mode hides with the rail.
 
 ### Mermaid
 

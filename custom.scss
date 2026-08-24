@@ -28,7 +28,9 @@ h4,
 .breadcrumb-container,
 .content-meta,
 .toc,
-.backlinks {
+.backlinks,
+.graph-type-filter,
+.knowledge-neighbors {
   font-family: "Noto Sans KR", "Noto Serif KR", sans-serif;
 }
 
@@ -81,7 +83,9 @@ article,
 .breadcrumb-container,
 .article-title,
 .page-title,
-.backlinks {
+.backlinks,
+.graph-type-filter,
+.knowledge-neighbors {
   word-break: keep-all;
   overflow-wrap: break-word;
   line-break: strict;
@@ -221,9 +225,179 @@ body[data-slug="404"] {
   }
 }
 
+.graph > .graph-outer {
+  height: 420px;
+  padding: 0.75rem;
+}
+
+.knowledge-neighbors {
+  font-family: "Noto Sans KR", "Noto Serif KR", sans-serif;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  flex: 0 0 auto;
+  max-height: 16rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+
+  h3 {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .knowledge-neighbors__group {
+    margin-top: 0.75rem;
+  }
+
+  .knowledge-neighbors__label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--gray);
+    margin: 0 0 0.25rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin: 0.25rem 0;
+    line-height: 1.4;
+  }
+
+  a {
+    word-break: keep-all;
+  }
+}
+
+body[data-slug="wiki/analyses/analysis-concept-source-matrix"] {
+  .table-container table th,
+  .table-container table td {
+    white-space: nowrap;
+    min-width: 0;
+    padding: 0.45rem 0.6rem;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  .table-container table th:first-child,
+  .table-container table td:first-child {
+    text-align: left;
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--light);
+    min-width: 9rem;
+  }
+
+  .table-container table td strong {
+    color: var(--secondary);
+    font-weight: 600;
+  }
+}
+
+.graph-type-filter {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  min-height: 2rem;
+  margin: 0.5rem 0 0.25rem;
+  padding: 4px;
+
+  button {
+    appearance: none;
+    margin: 0;
+    width: 100%;
+    border: 1px solid var(--lightgray);
+    border-radius: 4px;
+    background: var(--light);
+    color: var(--darkgray);
+    font: inherit;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    word-break: keep-all;
+    text-align: center;
+    transition:
+      color 150ms ease-out,
+      background-color 150ms ease-out,
+      border-color 150ms ease-out;
+
+    &:hover {
+      color: var(--dark);
+      border-color: var(--gray);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--secondary);
+      outline-offset: 2px;
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
+
+    &[aria-pressed="true"] {
+      color: var(--secondary);
+      border-color: var(--secondary);
+      background: var(--highlight);
+    }
+
+    &[aria-pressed="true"]:hover {
+      color: var(--dark);
+    }
+  }
+}
+
+.graph-type-filter--global {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  z-index: 5;
+  top: calc(10vh + 0.75rem);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: min(76vw, 52rem);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 5px;
+
+  button {
+    width: auto;
+  }
+}
+
+.graph > .graph-outer > .global-graph-icon {
+  opacity: 0.85;
+  width: 28px;
+  height: 28px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .graph-type-filter button {
+    transition: none;
+
+    &:active {
+      transform: none;
+    }
+  }
+}
+
+@media all and (min-width: 801px) and (max-width: 1199px) {
+  .right.sidebar > .graph {
+    max-height: none !important;
   }
 }
 
@@ -296,13 +470,36 @@ body[data-slug="404"] {
   }
 
   .right.sidebar {
+    flex-direction: column !important;
     width: 100% !important;
     margin-top: 2rem !important;
     padding-top: 1.5rem !important;
     border-top: 1px solid var(--lightgray);
+
+    > * {
+      flex: none !important;
+      max-height: none !important;
+      width: 100% !important;
+    }
   }
 
-  .graph {
-    max-height: 280px !important;
+  .graph > .graph-outer {
+    height: 360px !important;
+    max-height: none !important;
+  }
+
+  .graph-type-filter {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .graph-type-filter button {
+    min-height: 40px;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .graph-type-filter--global {
+    left: 50%;
+    width: max-content;
+    max-width: 90vw;
   }
 }

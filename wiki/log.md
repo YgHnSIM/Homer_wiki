@@ -1045,6 +1045,49 @@ status: active
   - `AGENTS.md`
   - `wiki/log.md`
 
+---
+
+## [2026-08-24] style(meta) | 지식 그래프 라벨과 패널 가독성 개선
+
+- **작업 개요**: 우측 그래프 뷰가 기본값(라벨 `fontSize` 0.6 = 약 9px, 패널 높이 250px, 목차 아래 배치)이라 한글 제목이 거의 보이지 않던 문제를 교정함.
+- **주요 반영 내역**:
+  - `quartz.config.yaml`: 로컬 그래프 라벨 1.25(약 19px), 전체 그래프 1.05, 링크 거리·반발력 확대, 호버 시 이웃만 강조, 그래프를 우측 레일 최상단으로 이동.
+  - `custom.scss`: 로컬 그래프 패널 높이 420px(모바일 360px), 가장자리 라벨이 잘리지 않도록 안쪽 여백, 전체 그래프 열기 버튼 대비 강화. 모바일 280px 상한 제거.
+  - `scripts/patch-quartz-graph.mjs`: Quartz 기본값이 현재 페이지만 라벨을 보여 점을 찍은 것처럼 보이던 동작을 모든 노드 라벨 표시로 바꿈. CI `deploy.yml`에서 빌드 전 적용.
+- **갱신 파일**:
+  - `quartz.config.yaml`, `custom.scss`, `DESIGN.md`, `.github/workflows/deploy.yml`, `scripts/patch-quartz-graph.mjs`, `wiki/log.md`
+
+---
+
+## [2026-08-24] feat(meta) | 지식 그래프 노드 범주 선택
+
+- **작업 개요**: 공개 그래프에서 문서 종류를 골라 보게 했다. 기본값은 개념과 인물만 켠다.
+- **주요 반영 내역**:
+  - 그래프 제목 아래 칩: 개념, 인물, 문헌, 분석, 어원, 기타. 같은 선택이 전체 그래프 오버레이에도 적용된다.
+  - 기본 선택 `type/concept` + `type/entity`. 지금 보고 있는 문서는 종류와 관계없이 남긴다. 선택은 `localStorage`에 유지한다.
+  - 폴더 색인(`wiki/concepts/index` 등)은 기타로 둔다. 태그 페이지는 계속 숨긴다.
+  - `removeTags`로 어원 노드를 빌드에서 빼던 설정을 없애, 어원 칩을 켜면 단어 노드가 나오게 했다.
+  - 전체 그래프 바깥 클릭이 칩을 닫힘으로 오인하지 않게 패치했다.
+  - 800px 이하에서는 우측 레일을 세로로 쌓고, 1199px 이하에서는 그래프 `max-height: 24rem` 제한을 풀어 칩과 캔버스가 푸터와 겹치지 않게 했다.
+- **갱신 파일**:
+  - `scripts/graph-type-filter.js`, `scripts/patch-quartz-graph.mjs`
+  - `quartz.config.yaml`, `custom.scss`, `DESIGN.md`, `wiki/log.md`
+
+---
+
+## [2026-08-24] feat(meta) | 개념 성좌와 문헌 표, 맞물림 목록
+
+- **작업 개요**: 지식 연관을 그래프 점 대신 세 화면으로 나눠 본다. 1) 개요의 고정 성좌 2) 개념×문헌 표 3) 지금 문서의 종류별 이웃.
+- **1. 개념 성좌**: `wiki/overview.md`. 작성된 개념 8 + 아킬레우스. 짝 개념은 가로 실선, 일리아스 축은 메니스→아킬레우스→엘레오스 화살, 서사시환은 테두리.
+- **2. 개념×문헌 표**: `wiki/analyses/analysis-concept-source-matrix.md`. 칸은 중심 / 언급 / —.
+- **3. 맞물리는 문서**: 우측 레일, 그래프 아래·목차 위. 나가는 링크와 역링크를 개념·인물·문헌·분석·어원으로 나눔.
+- **갱신 파일**:
+  - `wiki/overview.md`
+  - `wiki/analyses/analysis-concept-source-matrix.md`
+  - `scripts/build-concept-source-matrix.mjs`, `scripts/typed-neighbors.js`, `scripts/patch-quartz-graph.mjs`
+  - `custom.scss`, `DESIGN.md`
+  - `index.md`, `wiki/index.md`, `wiki/analyses/homeric-ethics-literature-review.md`, `wiki/log.md`
+
 
 
 

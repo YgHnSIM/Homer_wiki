@@ -150,33 +150,31 @@ plugins:
         drag: true
         zoom: true
         depth: 1
-        scale: 1.1
-        repelForce: 0.5
-        centerForce: 0.3
-        linkDistance: 30
-        fontSize: 0.6
+        scale: 1
+        repelForce: 0.9
+        centerForce: 0.15
+        linkDistance: 80
+        fontSize: 1.2
         opacityScale: 1
-        removeTags:
-          - "type/word"
-          - "domain/etymology"
+        focusOnHover: true
+        enableRadial: true
         showTags: false
       globalGraph:
         drag: true
         zoom: true
         depth: -1
-        scale: 0.9
-        repelForce: 0.5
-        centerForce: 0.3
-        linkDistance: 30
-        fontSize: 0.6
+        scale: 0.85
+        repelForce: 1
+        centerForce: 0.1
+        linkDistance: 100
+        fontSize: 0.95
         opacityScale: 1
-        removeTags:
-          - "type/word"
-          - "domain/etymology"
+        focusOnHover: true
+        enableRadial: true
         showTags: false
     layout:
       position: right
-      priority: 40
+      priority: 10
   - source: "@quartz-community/search"
     enabled: true
     layout:

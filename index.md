@@ -16,7 +16,7 @@ status: active
 
 ## 입구
 
-- [[wiki/overview|서사시 개요]] — *일리아스*와 *오뒷세이아*의 축과 핵심 개념 지도
+- [[wiki/overview|서사시 개요]] — 개념 성좌, *일리아스*와 *오뒷세이아*의 축
 - [[wiki/index|위키 색인]] — 인물, 개념, 분석, 학술 문헌 목록
 - [[words/index|어원 사전]] — 호메로스 어휘·인명이 현대 영어에 정착한 경로
 
@@ -48,6 +48,7 @@ status: active
 ### 분석과 문헌
 
 - [[wiki/analyses/homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 명예·수치 문화 연구사
+- [[analysis-concept-source-matrix|개념과 문헌]] — 작성된 개념과 문헌의 맞물림
 - [[adkins-1960-merit-and-responsibility|애드킨스 (1960), 공적과 책임]]
 - [[cairns-1993-aidos|케언스 (1993), 아이도스]]
 - [[lee-junseok-2024-iliad-jeongam|이준석 (2024), 일리아스 정암학당 해제]]
@@ -58,7 +59,7 @@ status: active
 
 - 검색: 한국어, 영어, 희랍어 표제어
 - 리더 모드: 긴 항목에서 본문만 남김
-- 그래프와 역링크: 우측 패널 (단어 문서는 메인 그래프에서 제외)
+- 그래프와 역링크: 우측 패널. 그래프는 종류를 고를 수 있고, 그 아래 맞물리는 문서를 개념·인물·문헌별로 나눕니다.
 
 ## 관련 항목
 
