@@ -3,7 +3,7 @@ title: 수치심과 필연성 (Shame and Necessity, 1993)
 aliases: [Bernard Williams 1993, Shame and Necessity, 윌리엄스 1993]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: []
 author: 버나드 윌리엄스 (Bernard Williams, 1929–2003)
 publication_year: 1993
@@ -158,9 +158,8 @@ graph TD
 
 ---
 
-## ## 관련 항목
-
-- [[homeric-ethics-literature-review]]
+## 관련 항목
+- [[analysis-homeric-ethics-literature-review]]
 - [[concept-aidos|Aidos]]
 - [[concept-arete|Arete]]
 - [[concept-ate|Ate]]

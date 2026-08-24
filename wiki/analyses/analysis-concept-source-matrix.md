@@ -61,7 +61,7 @@ status: active
 
 ## 관련 항목
 
-- [[homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]
+- [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]
 - [[wiki/index|위키 색인]]
 - [[overview|서사시 개요]]
 - [[concept-aidos|아이도스]]

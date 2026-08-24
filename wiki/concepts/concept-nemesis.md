@@ -3,7 +3,7 @@ title: 네메시스 (Nemesis / νέμεσις) — 응당한 분배와 공적 �
 aliases: [Nemesis, νέμεσις, 네메시스, 의분, 공적 분노, 질서 수호, nemesan, ouk esti nemesis]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, lloyd-jones-1971-justice-of-zeus.md, adkins-1960-merit-and-responsibility.md]
 status: active
 ---
@@ -37,7 +37,7 @@ graph TD
 ### 2.1 신분 질서(*Kosmos*) 일탈 및 세간의 평판(*Phatis dêmou*) 수호
 - **테르시테스의 월권 단죄**: 평민 전사 [[entity-thersites|테르시테스]]가 최고 지휘관 [[entity-agamemnon|아가멤논]]을 모욕했을 때, 그리스 군대 전체가 그에게 깊은 네메시스를 품습니다 (_Il._ 2.222–223). 신분 질서의 위반은 전열과 공동체의 존립을 위협하기 때문입니다.
 - **텔레마코스의 아고라 고발**: [[entity-telemachos|텔레마코스]]는 이타카 민회에서 구혼자들의 재산 약탈을 고발하며 시민들에게 "가슴속에 네메시스를 품으라(*nemessêthête d' eni thumôi*)"고 호소하고, 인간들의 네메시스와 신들의 노여움을 두려워하라고 촉구합니다 (_Od._ 2.64–67, 2.136–137).
-- **구혼자들의 평판 불안**: 누더기를 걸친 거지([[entity-odysseus|오디세우스]])가 활을 쏘려 할 때 구혼자 에우리마코스가 격분하는 것은(_Od._ 21.285–286, 21.323–329), 하층민이 귀족([[concept-agathoi|Agathoi]])의 우월성을 침범하여 세간의 비난과 조롱(*elencheiê / phatis*)을 살 것에 대한 네메시스입니다.
+- **구혼자들의 평판 불안**: 누더기를 걸친 거지([[entity-odysseus|오디세우스]])가 활을 쏘려 할 때 구혼자 에우리마코스가 격분하는 것은(_Od._ 21.285–286, 21.323–329), 하층민이 귀족([[concept-agathos|Agathoi]])의 우월성을 침범하여 세간의 비난과 조롱(*elencheiê / phatis*)을 살 것에 대한 네메시스입니다.
 - **헬레네의 탄식**: [[entity-helene|헬레네]]는 자신의 처지와 [[entity-paris|파리스]]의 나태함을 한탄하며 "훗날 사람들의 수많은 비난(*nemesin*)을 의식할 줄 아는 남자의 아내가 되었어야 했다"고 자책합니다 (_Il._ 6.351).
 
 ### 2.2 영웅적 아레테([[concept-arete|Arete]]) 불이행과 전우애에 대한 질책
@@ -134,8 +134,7 @@ $$\text{행위자의 아이도스(Aidôs, 내적 억제)} \iff \text{관찰자�
 
 ---
 
-## 7. 관련 항목
-
+## 관련 항목
 ### 핵심 인물 및 신
 - [[entity-achilles|아킬레우스]] — 23권에서 네메시스의 상호성을 훈계하고, 24권에서 신들의 네메시스 경고를 수용한 영웅
 - [[entity-agamemnon|아가멤논]] — 아킬레우스에게 화해의 선물을 건네는 것이 네메시스가 아님을 확인받은 군주

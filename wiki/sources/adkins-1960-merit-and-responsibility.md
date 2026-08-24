@@ -3,7 +3,7 @@ title: "공적과 책임 (Merit and Responsibility: A Study in Greek Values, 196
 aliases: [A. W. H. Adkins 1960, Merit and Responsibility, 애드킨스 1960]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: []
 author: 아서 W. H. 애드킨스 (Arthur W. H. Adkins, 1929–1996)
 publication_year: 1960
@@ -139,7 +139,7 @@ graph TD
 
 ## 관련 항목
 
-- [[homeric-ethics-literature-review]]
+- [[analysis-homeric-ethics-literature-review]]
 - [[long-1970-morals-and-values]]
 - [[scott-1980-aidos-and-nemesis]]
 - [[concept-arete|Arete]]

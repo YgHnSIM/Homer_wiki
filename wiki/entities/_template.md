@@ -150,9 +150,8 @@ graph TD
 
 ---
 
-## 13. 관련 항목 (See Also)
-
+## 관련 항목
 - [[overview]]
-- [[index]]
+- [[wiki/index|위키 색인]]
 - [[entity-framework]]
 - [[]]

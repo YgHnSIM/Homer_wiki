@@ -3,7 +3,7 @@ title: 서사시환 (Epic Cycle / ἐπικὸς κύκλος)
 aliases: [Epic Cycle, 서사시환, 트로이 서사시환, Trojan Cycle, 에피코스 퀴클로스, ἐπικὸς κύκλος]
 tags: [type/concept, domain/mythology, domain/iliad, domain/odyssey, domain/culture, status/active]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-24
 sources: []
 status: active
 ---
@@ -120,14 +120,13 @@ flowchart TD
 
 ---
 
-## 5. 관련 항목
-
+## 관련 항목
 - [[overview]] — 호메로스 위키 메인 대시보드
-- [[index]] — 전체 문서 카탈로그
+- [[wiki/index|전체 문서 카탈로그]]
 - [[entity-framework]] — 엔티티 프레임워크 작성 지침
 - [[entity-achilles|achilles]] — 아킬레우스 엔티티 문서 (서사시환 전승 수록)
 - [[concept-menis|Menis]] — 일리아스의 핵심 모티프 (신적 분노)
 - [[concept-nostos|Nostos]] — 귀환 모티프와 오뒷세이아
 - [[concept-themis|Themis]] — 신성 관습과 영웅 사회 규범
 - [[concept-aidos|Aidos]] — 수치심과 경외
-- [[homeric-ethics-literature-review]] — 호메로스 서사시 윤리학 종합 분석
+- [[analysis-homeric-ethics-literature-review]] — 호메로스 서사시 윤리학 종합 분석

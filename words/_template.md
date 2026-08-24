@@ -1,4 +1,5 @@
 ---
+title: 표제어 (영단어/인명/개념)
 word: word_name # 현대 영어 표제어 (Modern English Word / Eponym)
 greek_root: ῥίζα (rhiza, 명사) # 원어 철자 (라틴 전사, 품사/원형)
 pie_root: "*root-" # "*PIE 조어 어근" | "Pre-Greek substrate" | "Uncertain / Pending"
@@ -143,12 +144,11 @@ graph TD
 
 ---
 
-## 9. 관련 단어 및 엔티티 (Related Words & Entities)
-
+## 관련 항목
 - **호메로스 위키 연관 문서**:
   - [[entity-관련인물|관련 인물]]
   - [[concept-관련개념|관련 개념]]
 - **동일 어원/동계어 단어 문서**:
   - [[word-동계어단어|동계어 표제어]]
-  - [[index|호메로스 어원·영단어 사전 인덱스]]
+  - [[words/index|호메로스 어원·영단어 사전 인덱스]]
 

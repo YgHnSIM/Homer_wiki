@@ -3,7 +3,7 @@ title: 히케시아 (Hikesia / ἱκεσία) — 탄원의 의례와 경외
 aliases: [Hikesia, ἱκεσία, 탄원, 탄원 의례, 히케테스]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md, lee-junseok-2024-iliad-jeongam.md, cairns-1993-aidos.md, zanker-1994-heart-of-achilles.md]
 status: active
 ---
@@ -73,8 +73,7 @@ status: active
 
 ---
 
-## 5. 관련 항목
-
+## 관련 항목
 ### 호메로스 텍스트 및 인물
 - [[일리아스]]
 - [[오뒷세이아]]
@@ -108,4 +107,4 @@ status: active
 - [[lee-junseok-2024-iliad-jeongam]]
 - [[cairns-1993-aidos]]
 - [[zanker-1994-heart-of-achilles]]
-- [[homeric-ethics-literature-review]]
+- [[analysis-homeric-ethics-literature-review]]

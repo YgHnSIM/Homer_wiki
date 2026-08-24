@@ -3,7 +3,7 @@ title: 호메로스 위키 엔티티 프레임워크 지침 (Entity Framework Gu
 aliases: [엔티티 프레임워크, 엔티티 작성 지침, Entity Framework]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-24
 sources: []
 status: active
 ---
@@ -27,7 +27,7 @@ status: active
   - **생물 및 괴물(Creature/Monster)**: 퀴클롭스(폴뤼페모스), 스킬라, 카리브디스, 케이론 등
 - **배제 대상**:
   - 추상적 윤리 규범 및 가치 체계는 `wiki/concepts/` (예: [[concept-aidos|Aidos]], [[concept-menis|Menis]], [[concept-nemesis|Nemesis]], [[concept-hikesia|Hikesia]])에 수록합니다.
-  - 서사적 사건, 비교 비평, 학술 논쟁 총괄은 `wiki/analyses/` (예: [[homeric-ethics-literature-review]])에 수록합니다.
+  - 서사적 사건, 비교 비평, 학술 논쟁 총괄은 `wiki/analyses/` (예: [[analysis-homeric-ethics-literature-review]])에 수록합니다.
 
 ### 1.2 단일 지칭 대상 원칙 (Single Referent Principle)
 동일한 이름이 지형과 신격을 동시에 가리키는 경우(예: 스카만드로스강 vs 하신 크산토스/스카만드로스), 개념적 혼선을 방지하기 위해 지칭 대상별로 독립 문서를 원칙으로 하거나 명확히 구획합니다.
@@ -124,7 +124,7 @@ graph LR
 |:---|:---|:---|:---|:---|
 | 아킬레우스의 두 가지 운명 선택 | 호메로스 본문 | _Il._ 9.410–416 | 원전 명시 | [[lee-junseok-2018-wrath-and-pity\|이준석 2018]] |
 | 묘역 숭배(Hero Cult)의 형성기 | 물질자료/비문 | 흑해 레우케섬 발굴, BC 7세기 | 강한 학술 추론 | [[vernant-1989-belle-mort\|Vernant 1989]] |
-| 9권 사절단 거부의 윤리학적 성격 | 현대 학술 연구 | Adkins(1960) vs Williams(1993) | 논쟁적 | [[homeric-ethics-literature-review]] |
+| 9권 사절단 거부의 윤리학적 성격 | 현대 학술 연구 | Adkins(1960) vs Williams(1993) | 논쟁적 | [[analysis-homeric-ethics-literature-review]] |
 ```
 
 ---
@@ -143,10 +143,9 @@ graph LR
 
 ---
 
-## 7. 관련 항목
-
-- [[_template]] — 엔티티 표준 마크다운 템플릿
+## 관련 항목
+- [[wiki/entities/_template|엔티티 표준 마크다운 템플릿]]
 - [[entity-achilles|achilles]] — 아킬레우스 표준 엔티티 문서 (기준 예시)
 - [[overview]] — 호메로스 위키 메인 대시보드
-- [[index]] — 전체 문서 카탈로그
-- [[homeric-ethics-literature-review]] — 호메로스 윤리학 종합 분석
+- [[wiki/index|전체 문서 카탈로그]]
+- [[analysis-homeric-ethics-literature-review]] — 호메로스 윤리학 종합 분석

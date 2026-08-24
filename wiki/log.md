@@ -1102,6 +1102,18 @@ status: active
 - **갱신 파일**:
   - `quartz.config.yaml`, `.github/workflows/deploy.yml`, `custom.scss`, `DESIGN.md`, `wiki/log.md`
 
+---
+
+## [2026-08-24] refactor(all) | 프로젝트 구조·링크·검증 체계 개편
+
+- **구조 정규화**: 검증 대상 관리 문서 41개의 프론트매터와 최종 `관련 항목` 제목을 표준화하고 변경 문서의 `updated` 날짜를 갱신함.
+- **파일명 정합성**: 윤리학 종합 분석을 `analysis-homeric-ethics-literature-review.md`로 변경하고 기존 슬러그를 별칭으로 보존함.
+- **링크 정비**: 확정된 오기와 모호한 `index`·`_template` 링크를 교정하고, 미래 구축용 빨간 링크는 그대로 보존함.
+- **출처 정비**: 원본 PDF명과 URL을 유효한 YAML 문자열로 정규화하고 문서 유형별 `sources` 규칙을 `AGENTS.md`에 명시함.
+- **자동 검증**: 표준 YAML 파서와 명시적 빨간 링크 허용 목록을 사용하는 `scripts/validate-wiki.mjs`를 추가하고, 개념×문헌 매트릭스 생성을 누락 없는 인덱스 기반으로 전환하여 CI에서 두 검사를 실행하도록 구성함.
+- **배포 재현성**: GitHub Pages 워크플로가 고정된 Quartz v5 커밋을 사용하도록 변경하고 배포 문서와 디자인 문서를 현행 기능에 맞춰 갱신함.
+- **불변 원본 보존**: `raw/`의 원문과 첨부 파일은 수정하지 않음.
+
 
 
 

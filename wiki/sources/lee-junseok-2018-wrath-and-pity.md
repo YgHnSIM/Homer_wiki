@@ -3,8 +3,8 @@ title: 분노의 서사시, 연민의 서사시 일리아스 (The Iliad, the Poe
 aliases: [이준석 2018, 분노의 서사시 연민의 서사시 일리아스, Lee 2018, Iliad Wrath and Pity, 일리아스 동일화 시학]
 tags: [type/source, domain/iliad, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-08-16
-sources: [분노의 서사시, 연민의 서사시 『일리아스』.pdf]
+updated: 2026-08-24
+sources: ["분노의 서사시, 연민의 서사시 『일리아스』.pdf"]
 author: 이준석 (Lee, Joon Seok)
 publication_year: 2018
 publisher_or_journal: 가톨릭철학, 제31호, pp. 35–57
@@ -180,15 +180,14 @@ A. B. Lord (1995) / J. M. Foley (1999, 2002)
 
 ---
 
-## ## 관련 항목
-
+## 관련 항목
 - [[lee-junseok-2024-iliad-jeongam]]
 - [[lee-junseok-2016-odyssey-humanity]]
 - [[zanker-1994-heart-of-achilles]]
 - [[redfield-1975-nature-and-culture]]
 - [[vernant-1989-belle-mort]]
 - [[shay-1994-achilles-in-vietnam]]
-- [[homeric-ethics-literature-review]]
+- [[analysis-homeric-ethics-literature-review]]
 - [[concept-menis|Menis]]
 - [[concept-hikesia|Hikesia]]
 - [[concept-eleos|Eleos]]

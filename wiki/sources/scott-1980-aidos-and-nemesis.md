@@ -3,8 +3,8 @@ title: 호메로스 저작에서의 아이도스와 네메시스 (Aidos and Neme
 aliases: [Mary Scott 1980, Aidos and Nemesis in Homer, 스콧 1980, 아이도스와 네메시스]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-16
-updated: 2026-08-16
-sources: [Mary Scott, “Aidos and Nemesis in the Works of Homer, and their Relevance to Social or Co-operative Values” (1980).pdf]
+updated: 2026-08-24
+sources: ["Mary Scott, “Aidos and Nemesis in the Works of Homer, and their Relevance to Social or Co-operative Values” (1980).pdf"]
 author: 메리 스콧 (Mary Scott)
 publication_year: 1980
 publisher_or_journal: Acta Classica, Vol. 23, pp. 13–35
@@ -216,4 +216,4 @@ graph TD
   - [[concept-arete|Arete]] (탁월성과 용맹)
   - [[concept-time|Timê]] (명예와 배상)
 - **분석 문서**:
-  - [[homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)
+  - [[analysis-homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)

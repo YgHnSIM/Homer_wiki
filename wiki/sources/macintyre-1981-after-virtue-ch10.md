@@ -3,7 +3,7 @@ title: 덕의 상실 - 제10장 영웅 사회에서의 덕들 (After Virtue, Ch.
 aliases: [Alasdair MacIntyre 1981, After Virtue Ch 10, 매킨타이어 1981]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: []
 author: 알래스데어 매킨타이어 (Alasdair MacIntyre, 1929–2024)
 publication_year: 1981
@@ -85,9 +85,8 @@ graph TD
 
 ---
 
-## ## 관련 항목
-
-- [[homeric-ethics-literature-review]]
+## 관련 항목
+- [[analysis-homeric-ethics-literature-review]]
 - [[concept-arete|Arete]]
 - [[concept-time|Timê]]
 - [[concept-kleos|Kleos]]

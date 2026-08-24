@@ -3,8 +3,8 @@ title: 호메로스 저작에서의 비경쟁적 태도를 나타내는 희랍�
 aliases: [Mary Scott 1981, Some Greek Terms in Homer, 스콧 1981, 비경쟁적 어휘 연구]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-17
-sources: [Mary Scott, “Some Greek Terms in Homer Suggesting Non-Competitive Attitudes” (1981).pdf]
+updated: 2026-08-24
+sources: ["Mary Scott, “Some Greek Terms in Homer Suggesting Non-Competitive Attitudes” (1981).pdf"]
 author: 메리 스콧 (Mary Scott)
 publication_year: 1981
 publisher_or_journal: Acta Classica, Vol. 24, pp. 1–16
@@ -326,4 +326,4 @@ graph TD
 - [[concept-xenia]] — 손님 환대와 긴장 완화
 
 ### 분석 문서 (Analyses)
-- [[homeric-ethics-literature-review]] — 호메로스 윤리학 종합 분석
+- [[analysis-homeric-ethics-literature-review]] — 호메로스 윤리학 종합 분석

@@ -3,8 +3,8 @@ title: 호메로스 저작에서의 필로스, 필로테스, 크세니아 (Philo
 aliases: [Mary Scott 1982, Philos Philotes and Xenia, 스콧 1982, 필로스와 크세니아]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-17
-sources: [Mary Scott, “Philos, Philotes and Xenia” (1982).pdf]
+updated: 2026-08-24
+sources: ["Mary Scott, “Philos, Philotes and Xenia” (1982).pdf"]
 author: 메리 스콧 (Mary Scott)
 publication_year: 1982
 publisher_or_journal: Acta Classica, Vol. 25, pp. 1–19
@@ -254,4 +254,4 @@ graph TD
   - [[concept-themis|Themis]] (관습적 정의와 환대의 법도)
   - [[concept-dike|Dike]] (우주적 질서와 정의)
 - **분석 문서**:
-  - [[homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)
+  - [[analysis-homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)

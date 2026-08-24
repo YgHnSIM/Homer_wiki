@@ -42,10 +42,16 @@ aliases: [원어/희랍어 이름, 대안 표기, 약어]
 tags: [type/entity, domain/iliad, status/active]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-sources: [관련 raw 문서 파일명]
+sources: [관련 소스]
 status: draft | active | review | archived
 ---
 ```
+
+- `updated`는 문서의 내용이나 구조가 마지막으로 의미 있게 변경된 날짜입니다.
+- `sources`는 문서 유형에 따라 다음처럼 기록합니다.
+  - `wiki/concepts/`, `wiki/entities/`, `wiki/analyses/`: `wiki/sources/`의 파일명
+  - `wiki/sources/`: `raw/`의 원본 파일명 또는 외부 URL. 쉼표가 있거나 URL인 값은 따옴표로 감쌉니다.
+  - `words/`: 사전·문헌의 서지 표제. 아직 출처가 없으면 `[]`를 사용합니다.
 
 ### 2.2 내부 링크 및 이중 대괄호
 
@@ -73,7 +79,7 @@ status: draft | active | review | archived
 - **원문 인용구(Quotes) 서식 규정**: 호메로스 서사시 원문 구절 및 학술 연구 문헌의 직접 인용구에는 콜아웃/블록인용(`>`)을 일체 적용하지 않습니다. 대신 일반 본문 단락 내 따옴표/기울임꼴(`"..."`, `*"..."*`) 또는 목록 항목(`- "..."`, `- *"..."*` 및 하위 주석 `  - **[주석]**: ...`) 형태로 서술합니다. `>` 기호는 오직 학술적 경고(`> [!WARNING]`), 총평(`> [!NOTE]`), 요약(`> **요약**:`) 등 메타 안내 블록에만 제한적으로 사용합니다.
 - 학설이나 서사 해석 간 모순이 존재할 경우 경고 콜아웃을 명시적으로 남깁니다: `> [!WARNING] 모순/이설 발견`
 - **머메이드 노드 라벨**: 노드 문자열의 시작 또는 `<br/>` 바로 뒤에 `1. `, `- ` 같은 마크다운 목록 구문을 쓰지 않습니다. Mermaid htmlLabels가 이를 목록으로 읽어 `Unsupported markdown: list`로 렌더링이 실패합니다. 번호는 `(1)` 또는 `[제1편]`처럼 괄호·대괄호로 표기합니다.
-- 모든 페이지 하단에는 `## 관련 항목` 섹션을 포함하여 관련 페이지 링크를 묶어 배치합니다.
+- 모든 페이지 하단에는 `## 관련 항목` 섹션을 포함하여 관련 페이지 링크를 묶어 배치합니다. 단, 시계열을 계속 덧붙이는 `wiki/log.md`는 이 규칙에서 제외합니다.
 
 ### 2.5 파일 명명 규칙 (File Naming Conventions)
 
@@ -85,10 +91,11 @@ status: draft | active | review | archived
 | `wiki/concepts/` | 호메로스 핵심 개념·사상 | `concept-<name>.md` | `concept-menis.md`, `concept-aidos.md` | `[[concept-menis\|메니스]]` |
 | `words/` | 어원·영단어 수용사 | `word-<name>.md` | `word-achilles.md`, `word-mentor.md` | `[[word-achilles\|Achilles]]` |
 | `wiki/sources/` | 원전 및 학술 소스 | `<author>-<year>-<title>.md` | `lee-junseok-2024-iliad-jeongam.md` | `[[lee-junseok-2024-iliad-jeongam]]` |
-| `wiki/analyses/` | 종합 비평 및 서사 분석 | `analysis-<title>.md` | `homeric-ethics-literature-review.md` | `[[homeric-ethics-literature-review]]` |
+| `wiki/analyses/` | 종합 비평 및 서사 분석 | `analysis-<title>.md` | `analysis-homeric-ethics-literature-review.md` | `[[analysis-homeric-ethics-literature-review]]` |
 | `wiki/meta/` | 메타 가이드라인 | `<name>.md` | `entity-framework.md` | `[[entity-framework]]` |
 
-- **위키링크 작성 원칙**: 파일명이 볼트 전역에서 고유하므로, 어느 폴더에 위치한 문서에서 링크하든 상대경로(`../`)나 폴더 경로 없이 `[[entity-achilles|아킬레우스]]`, `[[concept-menis|메니스]]`, `[[word-achilles|Achilles]]`와 같이 간결하고 안전하게 표기합니다.
+- **위키링크 작성 원칙**: 고유한 파일명은 상대경로나 폴더 경로 없이 `[[entity-achilles|아킬레우스]]`, `[[concept-menis|메니스]]`, `[[word-achilles|Achilles]]`처럼 표기합니다.
+- **중복 관리 파일 예외**: `index.md`와 `_template.md`처럼 볼트 안에 동명이 있는 파일은 `[[wiki/index|위키 색인]]`, `[[words/index|어원 사전]]`, `[[wiki/entities/_template|엔티티 템플릿]]`처럼 저장소 루트 기준 경로를 사용합니다.
 
 
 ---
@@ -111,7 +118,11 @@ status: draft | active | review | archived
 
 ### 3.3 검수 및 정제 (Lint Workflow)
 
-- 주기적으로 고아 페이지(Orphaned page), 끊어진 링크, 오래된/모순된 설명을 검수하여 `wiki/log.md`에 기록하고 업데이트합니다.
+- 최초 실행이나 `package-lock.json` 변경 후 `npm ci`로 고정된 검증 의존성을 설치합니다.
+- 변경 후 `node scripts/validate-wiki.mjs`로 프론트매터, 파일명, 링크, 인덱스, 관련 항목 규칙을 검사합니다.
+- 개념×문헌 매트릭스는 `node scripts/build-concept-source-matrix.mjs --check`로 동기화 상태를 검사합니다.
+- 의도한 미래 페이지 링크와 템플릿 자리표시는 `scripts/allowed-red-links.json`에 등록합니다. 등록되지 않았거나 더 이상 사용하지 않는 빨간 링크는 검증 실패로 처리합니다.
+- 검수 결과와 수정 내역을 `wiki/log.md`에 기록합니다.
 
 ---
 

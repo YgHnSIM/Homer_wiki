@@ -3,7 +3,7 @@ title: 그리스인들과 비합리적인 것 (The Greeks and the Irrational, 19
 aliases: [E. R. Dodds 1951, The Greeks and the Irrational, 도즈 1951]
 tags: [type/source, domain/culture, domain/iliad, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: []
 author: E. R. 도즈 (Eric Robertson Dodds, 1893–1979)
 publication_year: 1951
@@ -127,9 +127,8 @@ graph TD
 
 ---
 
-## ## 관련 항목
-
-- [[homeric-ethics-literature-review]]
+## 관련 항목
+- [[analysis-homeric-ethics-literature-review]]
 - [[concept-ate|Ate]]
 - [[concept-aidos|Aidos]]
 - [[concept-moira|Moira]]

@@ -3,7 +3,7 @@ title: 아킬레우스 (Achilles / Ἀχιλλεύς)
 aliases: [Achilles, Ἀχιλλεύς, 아킬레우스, 펠레우스의 아들, 펠레이데스, Pelides, 아이아키데스, Aiakides]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-24
 sources: [lee-junseok-2018-wrath-and-pity.md, lee-junseok-2024-iliad-jeongam.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, dodds-1951-greeks-and-irrational.md]
 status: active
 entity_type: person
@@ -225,17 +225,16 @@ graph TD
 | 트로아스 베식-테페 및 시게이온 묘역 | 물질자료/발굴 | Korfmann 트로이 발굴 보고서 | 강한 학술 추론 | [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] |
 | 5중 방패와 미케네 니엘로 상감 대조 | 원전/물질자료 | _Il._ 18.478–608, Shaft Grave IV 단검 | 강한 학술 추론 | [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] |
 | 흑해 레우케섬 폰타르케스 영웅 숭배 | 물질자료/비문 | 올비아 비문 및 레우케 신전 터 | 강한 학술 추론 | [[vernant-1989-belle-mort\|Vernant 1989]] |
-| 서사시환(퀴프리아/아이티오피스) 전승 | 후대 문헌 | Proclus, *Chrestomathia* | 후대 수용 (고대 전승) | [[homeric-ethics-literature-review]] |
-| 스틱스강 침수 및 아킬레스건 전승 | 후대 문헌 | Statius, _Achilleid_ 1.133 | 후대 수용 (호메로스 부재) | [[homeric-ethics-literature-review]] |
-| 9권 배상 거부의 도덕 철학적 의의 | 현대 학술 연구 | Adkins vs Williams/Zanker vs 이준석 | 논쟁적 | [[homeric-ethics-literature-review]] |
+| 서사시환(퀴프리아/아이티오피스) 전승 | 후대 문헌 | Proclus, *Chrestomathia* | 후대 수용 (고대 전승) | [[analysis-homeric-ethics-literature-review]] |
+| 스틱스강 침수 및 아킬레스건 전승 | 후대 문헌 | Statius, _Achilleid_ 1.133 | 후대 수용 (호메로스 부재) | [[analysis-homeric-ethics-literature-review]] |
+| 9권 배상 거부의 도덕 철학적 의의 | 현대 학술 연구 | Adkins vs Williams/Zanker vs 이준석 | 논쟁적 | [[analysis-homeric-ethics-literature-review]] |
 | 도덕적 상해(Moral Injury) 분석 | 현대 학술 연구 | Jonathan Shay (1994) | 강한 학술 추론 | [[shay-1994-achilles-in-vietnam\|Shay 1994]] |
 
 ---
 
-## 13. 관련 항목 (See Also)
-
+## 관련 항목
 - [[word-achilles|Achilles (영단어 어원 및 수용사)]] — 아킬레우스 이름의 어원 계보 및 현대 영어 파생어 사전
-- [[_template]] — 엔티티 표준 마크다운 템플릿
+- [[wiki/entities/_template|엔티티 표준 마크다운 템플릿]]
 - [[entity-framework]] — 엔티티 프레임워크 작성 지침
 - [[concept-menis|Menis]] — 신적 분노와 우주적 파괴력
 - [[concept-thumos|Thumos]] — 영웅적 열정과 감정의 좌소
@@ -243,7 +242,7 @@ graph TD
 - [[concept-hikesia|Hikesia]] — 신성한 탄원의 의례와 프리아모스의 방문
 - [[concept-aidos|Aidos]] — 수치심과 도덕 감정
 - [[concept-nemesis|Nemesis]] — 공적 의분과 질서의 수호
-- [[homeric-ethics-literature-review]] — 호메로스 서사시 윤리학 종합 분석
+- [[analysis-homeric-ethics-literature-review]] — 호메로스 서사시 윤리학 종합 분석
 - [[lee-junseok-2018-wrath-and-pity]] — 분노의 서사시, 연민의 서사시 일리아스
 - [[zanker-1994-heart-of-achilles]] — 아킬레우스의 마음과 연민
 - [[shay-1994-achilles-in-vietnam]] — 베트남의 아킬레우스와 도덕적 상해

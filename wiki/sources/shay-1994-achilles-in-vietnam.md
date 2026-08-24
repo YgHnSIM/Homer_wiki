@@ -3,7 +3,7 @@ title: 베트남의 아킬레우스 - 전투 트라우마와 인격의 파괴 (A
 aliases: [Jonathan Shay 1994, Achilles in Vietnam, 셰이 1994]
 tags: [type/source, domain/culture, domain/iliad, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: []
 author: 조너선 셰이 (Jonathan Shay, M.D., Ph.D., 1941– )
 publication_year: 1994
@@ -100,9 +100,8 @@ graph TD
 
 ---
 
-## ## 관련 항목
-
-- [[homeric-ethics-literature-review]]
+## 관련 항목
+- [[analysis-homeric-ethics-literature-review]]
 - [[concept-themis|Themis]]
 - [[concept-menis|Menis]]
 - [[concept-ate|Ate]]

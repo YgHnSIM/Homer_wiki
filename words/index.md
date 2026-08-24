@@ -4,6 +4,8 @@ aliases: [단어 인덱스, 호메로스 어원·영단어 사전, Word Index]
 tags: [type/meta, domain/etymology, status/active]
 created: 2026-08-17
 updated: 2026-08-24
+sources: []
+status: active
 ---
 
 # 어원 사전
@@ -50,7 +52,7 @@ graph TB
 ## 관련 항목
 
 - [[wiki/index|위키 색인]]
-- [[wiki/overview|서사시 개요]]
+- [[overview|서사시 개요]]
 - [[concept-agathos|아가토스]]
 - [[concept-eleos|엘레오스]]
 - [[entity-achilles|아킬레우스]]

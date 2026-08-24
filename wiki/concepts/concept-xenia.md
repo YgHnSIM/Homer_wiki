@@ -3,7 +3,7 @@ title: 크세니아 (Xenia / ξενία) — 손님 환대와 상호부조의 �
 aliases: [Xenia, ξενία, 크세니아, 손님 환대, 필록세니아, Philoxenia, 크세노스, Xenos]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-24
 sources: [scott-1979-pity-and-pathos.md, scott-1982-philos-philotes-xenia.md, scott-1980-aidos-and-nemesis.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, cairns-1993-aidos.md]
 status: active
 ---
@@ -99,8 +99,7 @@ graph TD
 
 ---
 
-## 5. 관련 항목
-
+## 관련 항목
 ### 호메로스 텍스트 및 인물
 - [[일리아스]]
 - [[오뒷세이아]]
@@ -135,4 +134,4 @@ graph TD
 - [[adkins-1960-merit-and-responsibility]] (A. W. H. 애드킨스: 공적과 책임)
 - [[lee-junseok-2024-iliad-jeongam]] (이준석: 일리아스 집중강좌 — 파리스의 크세니아 배반 분석)
 - [[lee-junseok-2016-odyssey-humanity]] (이준석: 호메로스의 휴머니티와 구혼자 처벌)
-- [[homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)
+- [[analysis-homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)

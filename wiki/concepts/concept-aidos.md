@@ -3,7 +3,7 @@ title: 아이도스 (Aidôs / αἰδώς) — 수치심, 경외 및 자기억�
 aliases: [Aidos, Aidôs, αἰδώς, 수치심, 경외, 염치, 조심성]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, cairns-1993-aidos.md, williams-1993-shame-and-necessity.md, long-1970-morals-and-values.md, dodds-1951-greeks-and-irrational.md, redfield-1975-nature-and-culture.md, lee-junseok-2024-iliad-jeongam.md]
 status: active
 ---
@@ -99,8 +99,7 @@ $$\text{행위자의 아이도스(Aidôs)} \iff \text{관찰자의 네메시스(
 
 ---
 
-## 5. 관련 항목
-
+## 관련 항목
 ### 핵심 인물 및 서사
 - [[일리아스]] / [[오뒷세이아]]
 - [[entity-achilles|아킬레우스]] — 헥토르 시신 훼손으로 아이도스를 잃었다가 24권에서 신적 경외와 연민으로 회복한 비극적 영웅

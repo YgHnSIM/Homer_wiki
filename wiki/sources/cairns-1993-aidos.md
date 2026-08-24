@@ -3,7 +3,7 @@ title: "아이도스 (Aidos: The Psychology and Ethics of Honour and Shame in An
 aliases: [Douglas Cairns 1993, Aidos, 케언스 1993]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: []
 author: 더글러스 L. 케언스 (Douglas L. Cairns)
 publication_year: 1993
@@ -138,7 +138,7 @@ graph TD
 
 ## 관련 항목
 
-- [[homeric-ethics-literature-review]]
+- [[analysis-homeric-ethics-literature-review]]
 - [[concept-aidos|Aidos]]
 - [[concept-nemesis|Nemesis]]
 - [[concept-time|Timê]]

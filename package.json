@@ -1,0 +1,11 @@
+{
+  "name": "homer-wiki-tooling",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/validate-wiki.mjs && node scripts/build-concept-source-matrix.mjs --check && node scripts/test-wiki-tooling.mjs"
+  },
+  "devDependencies": {
+    "yaml": "2.9.0"
+  }
+}

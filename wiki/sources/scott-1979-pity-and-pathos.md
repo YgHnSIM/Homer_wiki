@@ -3,8 +3,8 @@ title: 호메로스에서의 연민과 파토스 (Pity and Pathos in Homer, 1979
 aliases: [Mary Scott 1979, Pity and Pathos in Homer, 스콧 1979, 호메로스의 연민과 파토스]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-17
-sources: [Mary Scott, “Pity and Pathos in Homer” (1979).pdf]
+updated: 2026-08-24
+sources: ["Mary Scott, “Pity and Pathos in Homer” (1979).pdf"]
 author: 메리 스콧 (Mary Scott)
 publication_year: 1979
 publisher_or_journal: Acta Classica, Vol. 22, pp. 1–14
@@ -46,7 +46,7 @@ status: active
 | **발동 주체** | 인간 관찰자 (『일리아스』에서는 아킬레우스가 유일한 주체) | 올림포스 신들(제우스, 아폴론, 포세이돈, 헤라) 및 인간 전사/주인 |
 | **대립 감정/상태** | 승자의 조롱, 약탈, 짓밟기 (*triumphing over the defeated*) | 메네아이네인(*meneainein*, 적을 향해 맹렬히 돌진하는 공격적 분노) |
 | **발동 전제 조건** | 상대방의 명백한 무력화와 극단적 수치(*peculiar humiliation*) 목격 | **비경쟁적 관계(Non-competitive / Philos relationship)**의 형성 또는 환기 |
-| **사회적 제도 연계** | 전차경주 위로 상 배분, 전장 탄원 시 극단적 억제 | 손님 환대([[concept-xenia|Xenia]]), 탄원([[concept-hikesia|Hikesia]]), 상호부조(*philotes*) |
+| **사회적 제도 연계** | 전차경주 위로 상 배분, 전장 탄원 시 극단적 억제 | 손님 환대([[concept-xenia\|Xenia]]), 탄원([[concept-hikesia\|Hikesia]]), 상호부조(*philotes*) |
 
 ### [Mermaid 논증 구조도]
 
@@ -227,4 +227,4 @@ graph TD
 - [[scott-1982-philos-philotes-xenia|스콧 (1982) 필로스, 필로테스, 크세니아]]
 - [[adkins-1960-merit-and-responsibility|애드킨스 (1960) 공적과 책임]]
 - [[zanker-1994-heart-of-achilles|잰커 (1994) 아킬레우스의 마음]]
-- [[homeric-ethics-literature-review|호메로스 윤리학 종합 분석]]
+- [[analysis-homeric-ethics-literature-review|호메로스 윤리학 종합 분석]]

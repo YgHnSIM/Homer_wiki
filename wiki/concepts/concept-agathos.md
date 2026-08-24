@@ -119,8 +119,7 @@ graph TD
 
 ---
 
-## 6. 관련 항목
-
+## 관련 항목
 ### 호메로스 텍스트 및 인물
 - [[일리아스]]
 - [[오뒷세이아]]
@@ -154,4 +153,4 @@ graph TD
 - [[macintyre-1981-after-virtue-ch10]] (알래스데어 매킨타이어: 덕의 상실 10장 — 영웅 사회에서의 역할과 덕)
 - [[williams-1993-shame-and-necessity]] (버나드 윌리엄스: 수치심과 필연성 — 호메로스 행위주체성 복원)
 - [[lee-junseok-2024-iliad-jeongam]] (이준석: 일리아스 집중강좌 — 영웅적 아가토스와 명예 체계 해제)
-- [[homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)
+- [[analysis-homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)

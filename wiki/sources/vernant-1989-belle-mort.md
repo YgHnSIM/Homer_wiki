@@ -3,7 +3,7 @@ title: 아름다운 죽음과 호메로스 영웅 윤리 (La belle mort et le ca
 aliases: [Jean-Pierre Vernant, La belle mort, 베르낭 1989]
 tags: [type/source, domain/culture, domain/iliad, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: []
 author: 장-피에르 베르낭 (Jean-Pierre Vernant, 1914–2007)
 publication_year: 1989
@@ -83,9 +83,8 @@ graph TD
 
 ---
 
-## ## 관련 항목
-
-- [[homeric-ethics-literature-review]]
+## 관련 항목
+- [[analysis-homeric-ethics-literature-review]]
 - [[concept-kleos|Kleos]]
 - [[concept-time|Timê]]
 - [[concept-moira|Moira]]

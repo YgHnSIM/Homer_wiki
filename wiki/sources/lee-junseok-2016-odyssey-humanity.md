@@ -3,8 +3,8 @@ title: 호메로스의 휴머니티 - 오뒷세이아의 구혼자 살육을 중
 aliases: [이준석 2016, 호메로스의 휴머니티, Lee 2016, Odyssey Humanity, 구혼자 살육과 폴뤼페모스]
 tags: [type/source, domain/odyssey, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-08-16
-sources: [호메로스의 휴머니티 - 『오뒷세이아』의 구혼자 살육을 중심으로-.pdf]
+updated: 2026-08-24
+sources: ["호메로스의 휴머니티 - 『오뒷세이아』의 구혼자 살육을 중심으로-.pdf"]
 author: 이준석 (Lee, Joon Seok)
 publication_year: 2016
 publisher_or_journal: 가톨릭철학, 제27호, pp. 5–34
@@ -178,14 +178,13 @@ Hölscher (1989) / Rutherford (1986, 1992) / Vidal-Naquet (1981) / Austin (1975)
 
 ---
 
-## ## 관련 항목
-
+## 관련 항목
 - [[lee-junseok-2024-iliad-jeongam]]
 - [[lee-junseok-2018-wrath-and-pity]]
 - [[lloyd-jones-1971-justice-of-zeus]]
 - [[redfield-1975-nature-and-culture]]
 - [[cairns-1993-aidos]]
-- [[homeric-ethics-literature-review]]
+- [[analysis-homeric-ethics-literature-review]]
 - [[concept-themis|Themis]]
 - [[concept-xenia|Xenia]]
 - [[concept-dike|Dike]]

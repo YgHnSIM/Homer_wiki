@@ -15,6 +15,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  QUARTZ_COMMIT: 075afd3f712da0088a07f5284a7b3aba37dd61b6
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,22 +32,30 @@ jobs:
         with:
           node-version: 22
 
+      - name: Install Wiki Tooling Dependencies
+        run: npm ci
+
+      - name: Validate Wiki Structure
+        run: npm run check
+
       - name: Setup Quartz Engine
         run: |
-          git clone --depth 1 https://github.com/jackyzha0/quartz.git .quartz
-          cd .quartz
-          npm ci
+          git init .quartz
+          git -C .quartz remote add origin https://github.com/jackyzha0/quartz.git
+          git -C .quartz fetch --depth 1 origin "$QUARTZ_COMMIT"
+          git -C .quartz checkout --detach FETCH_HEAD
+          npm --prefix .quartz ci
 
       - name: Stage Public Wiki Content
         run: |
-          # Clear default quartz content
+          # Clear default Quartz content
           rm -rf .quartz/content/*
-          
+
           # Copy root index, wiki, and words directories
           cp index.md .quartz/content/
           cp -r wiki .quartz/content/
           cp -r words .quartz/content/
-          
+
           # Copy custom quartz configuration
           cp quartz.config.yaml .quartz/quartz.config.yaml
 

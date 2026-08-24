@@ -3,7 +3,7 @@ title: 제우스의 정의 (The Justice of Zeus, 1971)
 aliases: [Hugh Lloyd-Jones 1971, The Justice of Zeus, 로이드-존스 1971]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: []
 author: 휴 로이드-존스 (Sir Hugh Lloyd-Jones, 1922–2009)
 publication_year: 1971
@@ -92,9 +92,8 @@ graph TD
 
 ---
 
-## ## 관련 항목
-
-- [[homeric-ethics-literature-review]]
+## 관련 항목
+- [[analysis-homeric-ethics-literature-review]]
 - [[concept-dike|Dike]]
 - [[concept-themis|Themis]]
 - [[concept-xenia|Xenia]]

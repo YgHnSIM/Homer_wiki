@@ -3,7 +3,7 @@ title: 정신의 발견 (Die Entdeckung des Geistes, 1946)
 aliases: [Bruno Snell 1946, The Discovery of the Mind, 스넬 1946]
 tags: [type/source, domain/culture, domain/iliad, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: []
 author: 브루노 스넬 (Bruno Snell, 1896–1986)
 publication_year: 1946
@@ -97,9 +97,8 @@ graph TD
 
 ---
 
-## ## 관련 항목
-
-- [[homeric-ethics-literature-review]]
+## 관련 항목
+- [[analysis-homeric-ethics-literature-review]]
 - [[williams-1993-shame-and-necessity]]
 - [[dodds-1951-greeks-and-irrational]]
 - [[adkins-1960-merit-and-responsibility]]

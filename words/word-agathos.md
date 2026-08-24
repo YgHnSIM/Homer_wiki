@@ -162,8 +162,7 @@ graph LR
 
 ---
 
-## 9. 관련 단어 및 엔티티 (Cross References)
-
+## 관련 항목
 ### 호메로스 위키 개념 및 인물
 - [[concept-agathos|아가토스 (Agathos)]] — 영웅적 탁월성과 결과주의적 성공의 귀족 규범
 - [[concept-arete|아레테 (Arete)]] — 전사로서의 기능적 탁월성과 무용

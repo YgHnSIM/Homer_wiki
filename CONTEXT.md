@@ -9,7 +9,7 @@ The authoritative Obsidian-compatible markdown repository containing Homeric epi
 _Avoid_: CMS, database, blog repository
 
 **Digital Garden**:
-The public, interconnected web representation of the Homer Wiki knowledge base, featuring interactive graph navigation and bi-directional linking.
+The public, interconnected web representation of the Homer Wiki knowledge base, featuring full-text search, backlinks, and bi-directional linking.
 _Avoid_: Blog, documentation site, portal
 
 **Quartz Engine**:
@@ -17,7 +17,7 @@ The static site generator that compiles Obsidian markdown, wikilinks, callouts, 
 _Avoid_: Web framework, backend server, CMS engine
 
 **Public Scope**:
-The curated knowledge directories (`wiki/` and `words/`) designated for public web rendering and indexing.
+The curated entry page (`index.md`) and knowledge directories (`wiki/`, `words/`) designated for public web rendering and indexing.
 _Avoid_: Full repository dump, uncurated build
 
 **Exclusion Scope**:

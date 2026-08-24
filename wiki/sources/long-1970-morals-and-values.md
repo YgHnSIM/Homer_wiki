@@ -3,8 +3,8 @@ title: 호메로스의 도덕과 가치 (Morals and Values in Homer, 1970)
 aliases: [A. A. Long 1970, Morals and Values in Homer, 롱 1970, 호메로스의 도덕과 가치]
 tags: [type/source, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-16
-updated: 2026-08-16
-sources: [A. A. Long, “Morals and Values in Homer” (1970).pdf]
+updated: 2026-08-24
+sources: ["A. A. Long, “Morals and Values in Homer” (1970).pdf"]
 author: 앤서니 A. 롱 (Anthony Arthur Long, 1940– )
 publication_year: 1970
 publisher_or_journal: The Journal of Hellenic Studies (JHS), Vol. 90, pp. 121–139
@@ -188,7 +188,7 @@ graph TD
 
 ## 관련 항목
 
-- [[homeric-ethics-literature-review]]
+- [[analysis-homeric-ethics-literature-review]]
 - [[adkins-1960-merit-and-responsibility]]
 - [[scott-1980-aidos-and-nemesis]]
 - [[williams-1993-shame-and-necessity]]

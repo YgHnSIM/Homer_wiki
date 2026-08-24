@@ -3,8 +3,8 @@ title: 정암학당 2024 호메로스 『일리아스』 4회차 연속 집중�
 aliases: [이준석 2024 일리아스, 정암학당 일리아스 강좌, Jeongam 2024 Iliad Lecture]
 tags: [type/source, domain/culture, domain/iliad, status/active]
 created: 2026-08-16
-updated: 2026-08-16
-sources: [https://youtube.com/playlist?list=PLRKwb98a2sFyO2GTs07s6a8k4ORNkDniA]
+updated: 2026-08-24
+sources: ["https://youtube.com/playlist?list=PLRKwb98a2sFyO2GTs07s6a8k4ORNkDniA"]
 author: 이준석 (한국방송통신대학교 문화교양학과 교수 / 사단법인 정암학당 연구원)
 publication_year: 2024
 publisher_or_journal: 사단법인 정암학당 서양고전강좌 (YouTube 8강 연속 기획)
@@ -100,9 +100,8 @@ graph TD
 
 ---
 
-## ## 관련 항목
-
-- [[homeric-ethics-literature-review]]
+## 관련 항목
+- [[analysis-homeric-ethics-literature-review]]
 - [[일리아스]]
 - [[entity-achilles|아킬레우스]]
 - [[entity-hector|헥토르]]

@@ -3,7 +3,7 @@ title: 일리아스의 자연과 문화 - 헥토르의 비극 (Nature and Cultur
 aliases: [James Redfield 1975, Nature and Culture in the Iliad, 레드필드 1975]
 tags: [type/source, domain/culture, domain/iliad, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: []
 author: 제임스 M. 레드필드 (James M. Redfield, 1935– )
 publication_year: 1975
@@ -101,9 +101,8 @@ graph TD
 
 ---
 
-## ## 관련 항목
-
-- [[homeric-ethics-literature-review]]
+## 관련 항목
+- [[analysis-homeric-ethics-literature-review]]
 - [[concept-arete|Arete]]
 - [[concept-time|Timê]]
 - [[concept-aidos|Aidos]]

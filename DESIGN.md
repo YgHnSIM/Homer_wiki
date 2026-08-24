@@ -20,18 +20,18 @@ Tokens match `quartz.config.yaml` theme colors. Do not introduce a second accent
 | Role | Token | Light | Dark | Usage |
 |------|-------|-------|------|-------|
 | Surface/primary | --light | #faf7f2 | #181a1b | Page background |
-| Surface/secondary | --lightgray | #e8e2d7 | #282c30 | Borders, chips, graph frame |
+| Surface/secondary | --lightgray | #e8e2d7 | #282c30 | Borders, chips, diagram frame |
 | Text/secondary | --gray | #a89f91 | #737b84 | Meta, muted UI, unresolved affordance |
 | Text/primary | --darkgray | #3c3836 | #d3d0c9 | Body |
 | Text/heading | --dark | #1d2021 | #f2efe9 | Titles, icons |
-| Accent/primary | --secondary | #8f3f2d | #e58c73 | Links, site title, current graph node |
-| Accent/hover | --tertiary | #5c7065 | #8eb09b | Hover, visited graph nodes |
+| Accent/primary | --secondary | #8f3f2d | #e58c73 | Links, site title, diagram emphasis |
+| Accent/hover | --tertiary | #5c7065 | #8eb09b | Hover and visited links |
 | Highlight | --highlight | rgba(143, 63, 45, 0.12) | rgba(229, 140, 115, 0.15) | Internal link wash |
 | Text highlight | --textHighlight | #f9d37188 | #f9d37188 | Markdown ==highlight== |
 
 ### Rules
 
-- Accent is for links, site title, and graph focus only.
+- Accent is for links, site title, and diagram emphasis only.
 - Broken/unresolved links use gray + dotted underline, never the same terracotta as live links.
 - Warm gray family only. No cool-gray mixing.
 
@@ -75,7 +75,7 @@ Base unit: 4px.
 | --space-3 | 12px | Sidebar item |
 | --space-4 | 16px | Compact section (top spacing) |
 | --space-6 | 24px | Article block gap |
-| --space-8 | 32px | Mobile graph/article split |
+| --space-8 | 32px | Mobile diagram/article split |
 
 - Article column ~65–75ch (Quartz center ~790px at 1440).
 - Breakpoints: mobile 800px (existing Quartz/custom.scss), tablet 768 captured in QA, desktop 1440.
@@ -135,7 +135,7 @@ Base unit: 4px.
 
 ### Rules
 
-- No decorative motion. Graph physics is Quartz-owned; do not add page-load animations.
+- No decorative motion. Keep transitions limited to search, theme, and link states; do not add page-load animations.
 - `prefers-reduced-motion`: leave Quartz defaults; do not add new keyframe motion.
 - GPU-only if anything is added later (`transform`, `opacity`).
 

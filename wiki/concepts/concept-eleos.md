@@ -3,7 +3,7 @@ title: 엘레오스와 오익토스 (Eleos & Oiktos / ἔλεος & οἶκτο�
 aliases: [Eleos, ἔλεος, Oiktos, οἶκτος, 엘레오스, 오익토스, 연민, 동정, Pity, Pathos, 파토스, Oiktros, 오익트로스]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-24
 sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1981-some-greek-terms.md, scott-1982-philos-philotes-xenia.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, zanker-1994-heart-of-achilles.md, cairns-1993-aidos.md]
 status: active
 ---
@@ -35,11 +35,11 @@ status: active
 |:---|:---|:---|
 | **심리적 본질** | 극단적 수치 목격 시의 **감정적 억제 및 위축(Inhibition)** | 곤경을 바로잡으려는 **능동적 추진력(Forward drive)** |
 | **행동 양식** | 조롱·가해의 중단 및 **존엄의 부분적 복원** | 물질적·신체적 원조 및 **실질적 구호 제공** |
-| **서사시 대표 장면** | [[entity-achilles|아킬레우스]]의 [[entity-priam|프리아모스]] 부축(_Il._ 24.515–516), 에우멜로스 위로(_Il._ 23.534–538) | 신들의 구호 개입(_Il._ 15.12, 16.431), 구혼자들의 음식 적선(_Od._ 17.367) |
-| **주요 주체** | 인간 관찰자 (서사시 인간 중 아킬레우스가 유일) | 올림포스 신들([[entity-zeus|제우스]], [[entity-apollo|아폴론]], [[entity-poseidon|포세이돈]]) 및 인간 |
+| **서사시 대표 장면** | [[entity-achilles\|아킬레우스]]의 [[entity-priam\|프리아모스]] 부축(_Il._ 24.515–516), 에우멜로스 위로(_Il._ 23.534–538) | 신들의 구호 개입(_Il._ 15.12, 16.431), 구혼자들의 음식 적선(_Od._ 17.367) |
+| **주요 주체** | 인간 관찰자 (서사시 인간 중 아킬레우스가 유일) | 올림포스 신들([[entity-zeus\|제우스]], [[entity-apollo\|아폴론]], [[entity-poseidon\|포세이돈]]) 및 인간 |
 | **대립 상태** | 승자의 오만한 조롱(*triumphing over the fallen*) | 맹렬한 파괴적 돌진(*meneainein*, μενεαίνειν) |
 | **발동 조건** | 상대방의 무력화와 수치(*aischron*, αἰσχρόν) 인지 | **비경쟁적 관계(Non-competitive / Philos)**의 성립 |
-| **결합 규범** | 아이도스(Aidos), 수치심 회피 | [[concept-xenia|크세니아(Xenia)]], [[concept-hikesia|탄원(Hikesia)]], 상호부조(*philotes*) |
+| **결합 규범** | 아이도스(Aidos), 수치심 회피 | [[concept-xenia\|크세니아(Xenia)]], [[concept-hikesia\|탄원(Hikesia)]], 상호부조(*philotes*) |
 
 ```mermaid
 graph TD
@@ -140,4 +140,4 @@ graph TD
 - [[lee-junseok-2018-wrath-and-pity|이준석 (2018) 분노의 서사시, 연민의 서사시 일리아스]] — 피아를 초월하는 동일화 시학
 - [[zanker-1994-heart-of-achilles|잰커 (1994) 아킬레우스의 마음]] — 개인적 윤리와 비극적 연민의 발전
 - [[cairns-1993-aidos|케언스 (1993) 아이도스]] — 고대 그리스 도덕심리학
-- [[homeric-ethics-literature-review|호메로스 윤리학 종합 분석]] — 18종 연구 소스 및 패러다임 총괄 리포트
+- [[analysis-homeric-ethics-literature-review|호메로스 윤리학 종합 분석]] — 19종 연구 소스 및 패러다임 총괄 리포트

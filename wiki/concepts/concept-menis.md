@@ -3,7 +3,7 @@ title: 메니스 (Mênis / μῆνις) — 신적 분노와 우주적 파괴력
 aliases: [Menis, Mênis, μῆνις, 신적 분노, 아킬레우스의 분노]
 tags: [type/concept, domain/iliad, domain/mythology, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources: [lee-junseok-2024-iliad-jeongam.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, long-1970-morals-and-values.md, redfield-1975-nature-and-culture.md]
 status: active
 ---
@@ -67,8 +67,7 @@ status: active
 
 ---
 
-## 4. 관련 항목
-
+## 관련 항목
 ### 호메로스 텍스트 및 핵심 인물
 - [[일리아스]] — 메니스를 제1표제어로 삼는 서사시
 - [[entity-achilles|아킬레우스]] — 메니스의 주체이자 초월적 영웅
@@ -102,4 +101,4 @@ status: active
 - [[redfield-1975-nature-and-culture]] — 영웅 규범의 내적 비극성과 문화적 경계 이탈
 
 ### 상위 분석 문서
-- [[homeric-ethics-literature-review]] — 호메로스 서사시의 윤리학적 특징 및 전 세계 연구 문헌 종합 분석
+- [[analysis-homeric-ethics-literature-review]] — 호메로스 서사시의 윤리학적 특징 및 전 세계 연구 문헌 종합 분석

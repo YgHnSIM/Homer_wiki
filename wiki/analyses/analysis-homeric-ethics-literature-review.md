@@ -2,6 +2,8 @@
 title: 호메로스 서사시의 윤리학적 특징 및 전 세계 최고 영향력 연구 문헌 분석
 aliases:
   [
+    homeric-ethics-literature-review,
+    wiki/analyses/homeric-ethics-literature-review,
     Homeric Ethics Literature Review,
     호메로스 윤리학 연구사,
     호메로스 도덕관,
@@ -10,7 +12,7 @@ aliases:
 tags:
   [type/analysis, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-24
 sources:
   - williams-1993-shame-and-necessity.md
   - adkins-1960-merit-and-responsibility.md
@@ -39,7 +41,7 @@ status: active
 > [!NOTE] 지식베이스 총괄 개요
 > 호메로스(Homer, Ὅμηρος)의 양대 서사시 *일리아스*(Iliad)와 *오뒷세이아*(Odyssey)는 고대 지중해 문명의 세계관을 집대성한 원천이자, 서구 도덕철학과 인간학의 지평을 정초한 원형 텍스트입니다. 20세기 중반 이후 고전문헌학·도덕철학·역사심리학·정신의학의 교차로에서 전개된 호메로스 윤리학 연구는 단순한 문학적 해석을 넘어, 인간의 행위 주체성(Moral Agency), 도덕적 책임의 발생 근거, 내면 정서의 구조, 그리고 필멸적 실존의 비극적 한계를 해명하는 현대 사상계의 중대한 지적 각축장이었습니다.
 >
-> 본 종합 분석 문서는 `wiki/sources/`에 구축된 17종의 핵심 연구 도시에와 전 세계 학술 정전을 유기적으로 결집하여, 호메로스 윤리 체계의 심층 다이얼렉틱과 지난 80년간 축적된 패러다임 전환사를 체계적으로 해제합니다.
+> 본 종합 분석 문서는 `wiki/sources/`에 구축된 19종의 핵심 연구 도시에와 전 세계 학술 정전을 유기적으로 결집하여, 호메로스 윤리 체계의 심층 다이얼렉틱과 지난 80년간 축적된 패러다임 전환사를 체계적으로 해제합니다.
 
 ---
 
@@ -49,26 +51,26 @@ status: active
 
 |   순위   | 저자                      | 저작 / 논문명 (연도)                                     |            피인용수             | 핵심 연구 내용 및 윤리학적 기여                                                                                                                                                                                                                                                      |               위키 심층 도시에 링크               |
 | :----: | :---------------------- | :------------------------------------------------ | :-------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------: |
-| **1**  | **Bernard Williams**    | **_Shame and Necessity_** (1993)                  |         **2,850+**          | **고대 도덕심리학의 복원.** 스넬-애드킨스식 진보주의 발전론을 비판하고, 호메로스 영웅의 자율적 행위 주체성(Agency), 존재론적 필연성, '내면화된 타자' 중심의 [[concept-aidos \|                                         Aidos]] 윤리학 정립.                                                                                              |  [[williams-1993-shame-and-necessity]]   |
-| **2**  | **Alasdair MacIntyre**  | **_After Virtue_** (1981, 제10장)                   | **25,400+** _(호메로스 2,400+)_ | **현대 덕 윤리학의 정초.** 호메로스 사회에서 덕([[concept-arete                                                                   \|              Arete]])은 추상적 규범이 아니라 사회적 역할(Role) 및 삶의 서사적 통일성에 내재함을 증명 (사실-당위의 일치).                                                                   |   [[macintyre-1981-after-virtue-ch10]]   |
-| **3**  | **E. R. Dodds**         | **_The Greeks and the Irrational_** (1951)        | **5,600+** _(호메로스 2,100+)_  | **수치 문화(Shame Culture) 테제 제창.** 호메로스 사회의 도덕 감정을 문화인류학적으로 분석하고, 아테([[concept-ate                                 \|                             Ate]], 정신적 눈멂)와 신적 개입의 심리적 외주화 메커니즘 규명.                                                                                  |   [[dodds-1951-greeks-and-irrational]]   |
-| **4**  | **Jean-Pierre Vernant** | **_L'individu, la mort, l'amour_** (1989)         | **4,150+** _(호메로스 1,850+)_  | **프랑스 역사심리학적 구조주의.** 영웅의 **'아름다운 죽음(la belle mort, kalos thanatos)'**과 불멸의 명성([[concept-kleos                   \|                                Kleos]]), 시신 훼손 금기 및 필멸성의 형이상학 분석.                                                                                    |       [[vernant-1989-belle-mort]]        |
-| **5**  | **Walter Burkert**      | **_Griechische Religion_** (1977)                 | **3,680+** _(호메로스 1,500+)_  | **종교-제의적 도덕 질서.** 제우스 크세니오스, 신성한 맹세(Horkos), 희생제의를 통한 [[concept-xenia                                           \|                                 Xenia]] 규범 및 우주적 도덕률의 종교적 기초 해명.                                                                                     |     [[burkert-1977-greek-religion]]      |
+| **1**  | **Bernard Williams**    | **_Shame and Necessity_** (1993)                  |         **2,850+**          | **고대 도덕심리학의 복원.** 스넬-애드킨스식 진보주의 발전론을 비판하고, 호메로스 영웅의 자율적 행위 주체성(Agency), 존재론적 필연성, '내면화된 타자' 중심의 [[concept-aidos\|Aidos]] 윤리학 정립.                                                                                              |  [[williams-1993-shame-and-necessity]]   |
+| **2**  | **Alasdair MacIntyre**  | **_After Virtue_** (1981, 제10장)                   | **25,400+** _(호메로스 2,400+)_ | **현대 덕 윤리학의 정초.** 호메로스 사회에서 덕([[concept-arete\|Arete]])은 추상적 규범이 아니라 사회적 역할(Role) 및 삶의 서사적 통일성에 내재함을 증명 (사실-당위의 일치).                                                                   |   [[macintyre-1981-after-virtue-ch10]]   |
+| **3**  | **E. R. Dodds**         | **_The Greeks and the Irrational_** (1951)        | **5,600+** _(호메로스 2,100+)_  | **수치 문화(Shame Culture) 테제 제창.** 호메로스 사회의 도덕 감정을 문화인류학적으로 분석하고, 아테([[concept-ate\|Ate]], 정신적 눈멂)와 신적 개입의 심리적 외주화 메커니즘 규명.                                                                                  |   [[dodds-1951-greeks-and-irrational]]   |
+| **4**  | **Jean-Pierre Vernant** | **_L'individu, la mort, l'amour_** (1989)         | **4,150+** _(호메로스 1,850+)_  | **프랑스 역사심리학적 구조주의.** 영웅의 **'아름다운 죽음(la belle mort, kalos thanatos)'**과 불멸의 명성([[concept-kleos\|Kleos]]), 시신 훼손 금기 및 필멸성의 형이상학 분석.                                                                                    |       [[vernant-1989-belle-mort]]        |
+| **5**  | **Walter Burkert**      | **_Griechische Religion_** (1977)                 | **3,680+** _(호메로스 1,500+)_  | **종교-제의적 도덕 질서.** 제우스 크세니오스, 신성한 맹세(Horkos), 희생제의를 통한 [[concept-xenia\|Xenia]] 규범 및 우주적 도덕률의 종교적 기초 해명.                                                                                     |     [[burkert-1977-greek-religion]]      |
 | **6**  | **Bruno Snell**         | **_Die Entdeckung des Geistes_** (1946)           | **3,280+** _(호메로스 1,950+)_  | **독일 문헌학적 정신사 연구.** Soma/Psyche 어휘 분석을 통해 호메로스 인간에게 근대적 통합 자아가 결여되어 있었다는 '결핍 및 외적 동기화 테제' 제기.                                                                                                                                                                           |     [[snell-1946-discovery-of-mind]]     |
-| **7**  | **M. I. Finley**        | **_The World of Odysseus_** (1954)                | **3,120+** _(호메로스 1,700+)_  | **역사사회학적 가치 분석.** 호혜적 선물 교환(Gift-exchange), [[concept-xenia                                                     \|                     Xenia]], 오이코스(Oikos) 질서에 정초된 귀족 전사 계급 윤리의 물질적·사회적 토대 규명.                                                                         |    [[finley-1954-world-of-odysseus]]     |
-| **8**  | **Jonathan Shay**       | **_Achilles in Vietnam_** (1994)                  |         **2,500+**          | **정신의학-고전윤리학 융합.** 테미스([[concept-themis                                                                         \|        Themis]])의 배신, **도덕적 상해(Moral Injury)**, 버서크(광폭화) 상태와 애도·환대를 통한 인간성 회복의 치유 서사 실증.                                                             |    [[shay-1994-achilles-in-vietnam]]     |
-| **9**  | **Arthur W. H. Adkins** | **_Merit and Responsibility_** (1960)             |         **1,820+**          | **호메로스 가치어 분석의 출발점.** '경쟁적 덕([[concept-arete                                                                    \|                                Arete]])' 대 '협력적 덕([[concept-dike                                 \| Dike]])'의 2분법을 설정하고, 전사 사회 특유의 칸트적 도덕 책임 부재론 주장. | [[adkins-1960-merit-and-responsibility]] |
+| **7**  | **M. I. Finley**        | **_The World of Odysseus_** (1954)                | **3,120+** _(호메로스 1,700+)_  | **역사사회학적 가치 분석.** 호혜적 선물 교환(Gift-exchange), [[concept-xenia\|Xenia]], 오이코스(Oikos) 질서에 정초된 귀족 전사 계급 윤리의 물질적·사회적 토대 규명.                                                                         |    [[finley-1954-world-of-odysseus]]     |
+| **8**  | **Jonathan Shay**       | **_Achilles in Vietnam_** (1994)                  |         **2,500+**          | **정신의학-고전윤리학 융합.** 테미스([[concept-themis\|Themis]])의 배신, **도덕적 상해(Moral Injury)**, 버서크(광폭화) 상태와 애도·환대를 통한 인간성 회복의 치유 서사 실증.                                                             |    [[shay-1994-achilles-in-vietnam]]     |
+| **9**  | **Arthur W. H. Adkins** | **_Merit and Responsibility_** (1960)             |         **1,820+**          | **호메로스 가치어 분석의 출발점.** '경쟁적 덕([[concept-arete\|Arete]])' 대 '협력적 덕([[concept-dike\|Dike]])'의 2분법을 설정하고, 전사 사회 특유의 칸트적 도덕 책임 부재론 주장. | [[adkins-1960-merit-and-responsibility]] |
 | **10** | **James M. Redfield**   | **_Nature and Culture in the Iliad_** (1975)      |         **1,650+**          | **영웅 규범의 문화인류학적 비극성.** 헥토르의 시민적 영웅성(aner politikos) 분석을 통해, 문명을 수호하려는 영웅 윤리가 역설적으로 문명을 파괴하는 내적 모순 해부.                                                                                                                                                                   |   [[redfield-1975-nature-and-culture]]   |
-| **11** | **Richard Seaford**     | **_Reciprocity and Ritual_** (1994)               |         **1,250+**          | **상호성(Reciprocity) 윤리의 붕괴와 재건.** 교환 체계의 파탄 및 [[concept-xenia                                                    \|                          Xenia]] 유린을 통하여 서사시와 초기 폴리스 공동체 윤리의 형성 과정 추적.                                                                               | [[seaford-1994-reciprocity-and-ritual]]  |
-| **12** | **Douglas L. Cairns**   | **_Aidos_** (1993)                                |         **1,150+**          | **[[concept-aidos                                                                                               \| Aidos]] 연구의 독보적 정전.** 서사시 텍스트 전수 조사를 통해 사전 억제적(Prospective) 양심, 타인에 대한 도덕적 공감, [[concept-nemesis \| Nemesis]]와의 상호 억제 회로 실증.                         |          [[cairns-1993-aidos]]           |
-| **13** | **Hugh Lloyd-Jones**    | **_The Justice of Zeus_** (1971)                  |          **980+**           | **도덕적 연속성 테제.** 『일리아스』와 『오뒷세이아』 전반을 관통하는 제우스의 정의([[concept-dike                                                 \|                                 Dike]])와 종교적 도덕 질서의 확고한 연속성 입증.                                                                                      |   [[lloyd-jones-1971-justice-of-zeus]]   |
+| **11** | **Richard Seaford**     | **_Reciprocity and Ritual_** (1994)               |         **1,250+**          | **상호성(Reciprocity) 윤리의 붕괴와 재건.** 교환 체계의 파탄 및 [[concept-xenia\|Xenia]] 유린을 통하여 서사시와 초기 폴리스 공동체 윤리의 형성 과정 추적.                                                                               | [[seaford-1994-reciprocity-and-ritual]]  |
+| **12** | **Douglas L. Cairns**   | **_Aidos_** (1993)                                |         **1,150+**          | **[[concept-aidos\|Aidos]] 연구의 독보적 정전.** 서사시 텍스트 전수 조사를 통해 사전 억제적(Prospective) 양심, 타인에 대한 도덕적 공감, [[concept-nemesis\|Nemesis]]와의 상호 억제 회로 실증.                         |          [[cairns-1993-aidos]]           |
+| **13** | **Hugh Lloyd-Jones**    | **_The Justice of Zeus_** (1971)                  |          **980+**           | **도덕적 연속성 테제.** 『일리아스』와 『오뒷세이아』 전반을 관통하는 제우스의 정의([[concept-dike\|Dike]])와 종교적 도덕 질서의 확고한 연속성 입증.                                                                                      |   [[lloyd-jones-1971-justice-of-zeus]]   |
 | **14** | **Christopher Gill**    | **_Personality in Greek Epic_** (1996)            |          **920+**           | **참여자적 자아 모델 정립.** 데카르트적 고립 주체가 아닌 타자와의 관계 및 공동체적 대화 속에서 결단하는 '객관적-참여자적 자아(Objective-participant self)' 개념화.                                                                                                                                                            | [[gill-1996-personality-in-greek-epic]]  |
-| **15** | **Marcel Detienne**     | **_Les Maîtres de vérité_** (1967)                |          **890+**           | **고대 진리관과 정의의 기원.** 아르카익기 진리(Aletheia)와 [[concept-dike                                                          \|                      Dike]]의 결합을 분석하고, 시인·왕·예언자가 공유한 종교-윤리적 권위의 신화적 기초 규명.                                                                           |   [[detienne-1967-maitres-de-verite]]    |
-| **16** | **Gregory Nagy**        | **_The Best of the Achaeans_** (1979)             |  **2,100+** _(호메로스 850+)_   | **최고 영웅의 신화시학.** 무력(Bie)과 지혜(Metis)의 긴장, 필멸의 영웅이 서사시 전통을 통해 획득하는 불멸의 명성([[concept-kleos                         \|                                    Kleos Aphthiton]]) 체계 해명.                                                                                         |    [[nagy-1979-best-of-the-achaeans]]    |
+| **15** | **Marcel Detienne**     | **_Les Maîtres de vérité_** (1967)                |          **890+**           | **고대 진리관과 정의의 기원.** 아르카익기 진리(Aletheia)와 [[concept-dike\|Dike]]의 결합을 분석하고, 시인·왕·예언자가 공유한 종교-윤리적 권위의 신화적 기초 규명.                                                                           |   [[detienne-1967-maitres-de-verite]]    |
+| **16** | **Gregory Nagy**        | **_The Best of the Achaeans_** (1979)             |  **2,100+** _(호메로스 850+)_   | **최고 영웅의 신화시학.** 무력(Bie)과 지혜(Metis)의 긴장, 필멸의 영웅이 서사시 전통을 통해 획득하는 불멸의 명성([[concept-kleos\|Kleos Aphthiton]]) 체계 해명.                                                                                         |    [[nagy-1979-best-of-the-achaeans]]    |
 | **17** | **Hans van Wees**       | **_Status Warriors_** (1992)                      |          **750+**           | **지위 경쟁의 전사 윤리.** 호메로스 사회의 지위(Status) 투쟁, 모욕(Hybris)과 분노의 역학, 귀족 전사 계급 특유의 아고니스틱(Agonistic) 윤리 구조 실증.                                                                                                                                                                   |    [[van-wees-1992-status-warriors]]     |
 | **18** | **Albin Lesky**         | **_Göttliche und menschliche Motivation_** (1961) |          **420+**           | **이중 동기화(Doppelte Motivation) 이론.** 한 사건이 신적 섭리와 인간의 자율적 심리 결단이라는 두 독립된 층위에서 완벽히 양립함을 논증.                                                                                                                                                                               |   [[lesky-1961-gottliche-motivation]]    |
-| **19** | **A. A. Long**          | **_Morals and Values in Homer_** (1970, _JHS_)    |          **320+**           | **애드킨스 2분법 해체 및 '적절성의 기준' 확립.** 과도와 결핍을 통제하는 공식구 체계와 상호적 [[concept-time                                         \|                              Timê]] 규범을 분석하여 아리스토텔레스 중용 윤리의 기원 규명.                                                                                   |     [[long-1970-morals-and-values]]      |
-| **20** | **Graham Zanker**       | **_The Heart of Achilles_** (1994)                |          **260+**           | **개인적 윤리(Personal Ethics)의 발전.** 집단적 전사 규범을 초월하여 대도량(Megalopsychia)과 비극적 연민([[concept-eleos                     \|                                 Eleos]])에 도달하는 아킬레우스의 내적 성숙 추적.                                                                                      |    [[zanker-1994-heart-of-achilles]]     |
+| **19** | **A. A. Long**          | **_Morals and Values in Homer_** (1970, _JHS_)    |          **320+**           | **애드킨스 2분법 해체 및 '적절성의 기준' 확립.** 과도와 결핍을 통제하는 공식구 체계와 상호적 [[concept-time\|Timê]] 규범을 분석하여 아리스토텔레스 중용 윤리의 기원 규명.                                                                                   |     [[long-1970-morals-and-values]]      |
+| **20** | **Graham Zanker**       | **_The Heart of Achilles_** (1994)                |          **260+**           | **개인적 윤리(Personal Ethics)의 발전.** 집단적 전사 규범을 초월하여 대도량(Megalopsychia)과 비극적 연민([[concept-eleos\|Eleos]])에 도달하는 아킬레우스의 내적 성숙 추적.                                                                                      |    [[zanker-1994-heart-of-achilles]]     |
 
 ---
 
@@ -149,7 +151,7 @@ graph TD
 
 - **탄원(Hikesia, ἱκεσία) 의례와 손키스의 현상학**:
   - 늙은 왕 프리아모스가 적진으로 잠입하여 아들을 도륙한 원수 아킬레우스의 무릎을 잡고 손에 입을 맞추는 극한의 탄원(_Il._ 24.477–479)을 행합니다.
-  - 아킬레우스가 노인의 손을 부드럽게 밀어내는 동작(ἀπώσα토 ἦκα, _Il._ 24.508)은 탄원의 배척이 아니라, 상대를 자신과 대등한 고통을 짊어진 필멸자로 인식하며 발생한 **거룩한 경외([[concept-aidos|Aidos]])의 발현**입니다.
+  - 아킬레우스가 노인의 손을 부드럽게 밀어내는 동작(ἀπώσατο ἦκα, _Il._ 24.508)은 탄원의 배척이 아니라, 상대를 자신과 대등한 고통을 짊어진 필멸자로 인식하며 발생한 **거룩한 경외([[concept-aidos|Aidos]])의 발현**입니다.
 - **제우스의 두 항아리(Pithoi, πίθοι) 우화와 고통의 보편화**:
   - 아킬레우스가 설파하는 두 항아리 우화(_Il._ 24.527–533)는 운명([[concept-moira|Moira]])의 불가피한 비극성을 성찰하게 합니다. 펠레우스도 프리아모스도 최고의 영화 뒤에 비참한 불행을 겪었음을 통찰함으로써, 아킬레우스는 자신의 사적 원한을 **'모든 필멸자가 공유하는 보편적 실존의 비극'**으로 승화하여 숭고한 연민([[concept-eleos|Eleos]])에 도달합니다.
 - **니오베 신화와 인간적 조건의 복원**:
@@ -197,7 +199,7 @@ graph TD
 
 #### 4. 지혜(Metis / μῆτις) 대 기만(Dolos / δόλος)의 윤리적 균열
 
-- 『일리아스』의 아킬레우스가 _"마음속에 품은 것과 다르게 말하는 자는 하데스의 문만큼 밉다"_(_Il._ 9.312–313)며 직언([[concept-parrhesia|Parrhesia]], παρρησία)을 영웅의 절대적 덕목으로 삼은 반면, 『오뒷세이아』는 불굴의 인내([[Tlemosyne]], τλημοσύνη)와 더불어 능란한 변장, 거짓말, 함정(Dolos, δόλος)을 영웅적 탁월성으로 찬양합니다 (Detienne & Vernant 1974). 두 서사시 간의 가치관 균열은 아르카익기 그리스 사회의 생존 윤리 변천사를 증언합니다.
+- 『일리아스』의 아킬레우스가 _"마음속에 품은 것과 다르게 말하는 자는 하데스의 문만큼 밉다"_(_Il._ 9.312–313)며 직언([[concept-parrhesia|Parrhesia]], παρρησία)을 영웅의 절대적 덕목으로 삼은 반면, 『오뒷세이아』는 불굴의 인내([[concept-tlemosyne|Tlemosyne]], τλημοσύνη)와 더불어 능란한 변장, 거짓말, 함정(Dolos, δόλος)을 영웅적 탁월성으로 찬양합니다 (Detienne & Vernant 1974). 두 서사시 간의 가치관 균열은 아르카익기 그리스 사회의 생존 윤리 변천사를 증언합니다.
 
 #### 5. 페넬로페의 주체적 지혜와 호모프로시네(Homophrosyne / ὁμοφροσύνη)
 
@@ -210,7 +212,7 @@ graph TD
 | 비교 축                   | 『일리아스』 (Iliad)                      | 『오뒷세이아』 (Odyssey)                            | 학술적 쟁점 및 긴장                                 |
 | :------------------------ | :---------------------------------------- | :-------------------------------------------------- | :-------------------------------------------------- |
 | **핵심 윤리 영역**        | 전장(Polemos)과 전사 공동체               | 가정(Oikos)과 폴리스 질서 회복                      | 무력 중심의 집단 윤리 vs 가문 수호 중심의 생존 윤리 |
-| **최고의 탁월성**         | 무용(Bie)과 불멸의 명성([[concept-kleos\|Kleos]])        | 지혜([[concept-metis\|Metis]]), 인내([[Tlemosyne]]), 기만술(Dolos) | 아킬레우스적 정직성 vs 오디세우스적 실용주의        |
+| **최고의 탁월성**         | 무용(Bie)과 불멸의 명성([[concept-kleos\|Kleos]])        | 지혜([[concept-metis\|Metis]]), 인내([[concept-tlemosyne\|Tlemosyne]]), 기만술(Dolos) | 아킬레우스적 정직성 vs 오디세우스적 실용주의        |
 | **보상과 명예 체계**      | 전리품([[concept-geras\|Geras]])과 티메([[concept-time\|Timê]])의 충돌 | 오이코스 자산 탈환 및 사회적 지위 복원              | 외적 보상의 실존적 파탄 vs 사적 소유권의 재확립     |
 | **정의([[concept-dike\|Dike]])의 성격** | 운명([[concept-moira\|Moira]])과 힘의 지배, 신들의 편향  | 방자함(Atasthalia)에 대한 인과응보적 심판           | 비극적 실존주의 vs 신정론(Theodicy)과 결과주의      |
 | **사회적 억제 기제**      | 수치심([[concept-aidos\|Aidos]])과 도덕적 분노(Nemesis)  | 신성한 환대 규범([[concept-xenia\|Xenia]])과 제우스의 징벌         | 내면화된 타자 시선 vs 종교적·법적 환대 의무         |
@@ -370,7 +372,7 @@ graph TD
   - **진솔한 실존적 고백**: 근대 독자들은 이를 비겁한 책임 회피로 오독하기 쉬우나, 도즈와 윌리엄스가 밝혀냈듯 이는 고대인의 진실한 심리적 경험에 대한 고백입니다.
   - **사후적 배상(Apoina)과의 결합**: 아가멤논은 원인을 신적 개입으로 돌리는 데서 멈추지 않고, 즉각 막대한 보물과 전리품 배상(Apoina, ἄποινα)을 아킬레우스에게 건넵니다. 즉, 행위의 심리적 동기는 신적 눈멂(Atē)에 기인했을지라도, 그 행위가 초래한 사회적 파국에 대해서는 **행위자가 실질적 책임을 온전히 감당하는 고대 특유의 성숙한 책임관**을 보여줍니다.
 - **포이닉스의 리타이(Litai) 우화(*Il.* 9.502–514)**:
-  - 아테는 발이 빠르고 강하여 인간을 먼저 덮쳐 파멸을 초래하지만, '기도와 탄원의 여신들(Litai, Λι타ί)'은 절름발이에 주름진 눈으로 아테의 뒤를 따라가며 상처를 치유합니다.
+  - 아테는 발이 빠르고 강하여 인간을 먼저 덮쳐 파멸을 초래하지만, '기도와 탄원의 여신들(Litai, Λιταί)'은 절름발이에 주름진 눈으로 아테의 뒤를 따라가며 상처를 치유합니다.
   - 포이닉스는 아킬레우스에게 사절단의 탄원([[concept-hikesia|Hikesia]])을 거절하는 자는 또 다른 아테의 징벌을 받아 파멸할 것임을 경고하며, 용서와 유연한 마음(*streptai phrenes*)을 갖는 것이 영웅의 마땅한 도덕적 의무임을 역설합니다.
 
 ---
@@ -454,7 +456,7 @@ graph TD
 - [[concept-menis|Menis]] (신적 분노 / 우주적 파괴력)
 - [[concept-nostos|Nostos]] (귀환 / 오이코스의 회복)
 - [[concept-parrhesia|Parrhesia]] (직언 / 영웅적 진실성)
-- [[Tlemosyne]] (인내 / 고난의 극복)
+- [[concept-tlemosyne|Tlemosyne]] (인내 / 고난의 극복)
 - [[concept-homophrosyne|Homophrosyne]] (동반자적 지혜 / 부부의 일치)
 
 ### 심층 소스 연구 도시에
@@ -481,6 +483,6 @@ graph TD
 
 ### 메타 및 대시보드
 
-- [[index]] — 호메로스 위키 전체 카탈로그
+- [[wiki/index|호메로스 위키 전체 카탈로그]]
 - [[overview]] — 호메로스 서사시 위키 대시보드
 - [[analysis-concept-source-matrix|개념과 문헌]] — 작성된 개념과 문헌의 맞물림
