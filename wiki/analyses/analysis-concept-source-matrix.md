@@ -27,6 +27,7 @@ sources:
   - detienne-1974-cunning-intelligence.md
   - bittlestone-2005-odysseus-unbound.md
   - nagy-1979-best-of-achaeans.md
+  - greek-ministry-2025-odysseion-ithaca.md
 status: active
 ---
 
@@ -42,7 +43,7 @@ status: active
 - 언급: 개념 항목의 `sources`에 그 문헌이 있거나, 문헌 프론트매터의 `key_concepts` 또는 `## 관련 항목` 이전의 근거 본문이 작성된 개념을 가리키는 경우. 문서 끝의 `## 관련 항목`에만 있는 탐색 링크는 근거로 집계하지 않습니다.
 - —: 이 위키에서 아직 잇지 않은 실입니다. 원서가 그 개념을 다루지 않는다는 뜻이 아닙니다. [[snell-1946-discovery-of-mind|스넬 1946]]과 [[vernant-1989-belle-mort|베르낭 1989]]의 열쇠 개념은 아테·클레오스처럼 아직 항목이 없습니다.
 
-> **요약**: 작성된 개념 8개와 문헌 22편만 넣었습니다. 빈칸은 미작성 표제어이거나, 아직 위키가 잇지 않은 연결입니다.
+> **요약**: 작성된 개념 8개와 문헌 23편만 넣었습니다. 빈칸은 미작성 표제어이거나, 아직 위키가 잇지 않은 연결입니다.
 
 ---
 
@@ -72,6 +73,7 @@ status: active
 | [[detienne-1974-cunning-intelligence\|드티엔·베르낭 1974]] | — | — | — | — | — | — | — | — |
 | [[bittlestone-2005-odysseus-unbound\|비틀스톤 2005]] | — | — | — | — | — | — | — | — |
 | [[nagy-1979-best-of-achaeans\|나기 1979]] | — | — | — | — | — | — | — | — |
+| [[greek-ministry-2025-odysseion-ithaca\|그리스 2025]] | — | — | — | — | — | — | — | — |
 
 [[concept-epic-cycle|서사시환]] 열은 비어 있습니다. 개념 항목의 `sources`가 아직 없고, 문헌 문서도 이 표제어로 잇지 않았습니다.
 

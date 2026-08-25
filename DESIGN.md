@@ -122,6 +122,17 @@ Base unit: 4px.
 
 - Max width 100%; horizontal pan on small screens; node labels short (prefer Latin/Greek lemma over long Korean sentences).
 
+### Interactive geographic map
+
+- **Where**: `entity-odysseus` 7.1 전역 위치도.
+- **Structure**: 전역 지도와 이오니아 제도 확대 미니맵을 한 쌍으로 둔다. 두 Google Maps iframe에는 의미 있는 제목과 직접 열기 대체 링크를 둔다. 표식은 현대 이타키 좌표이며, 호메로스 지리의 확정 증거로 쓰지 않는다.
+- **Layout**: 전역 지도는 본문 폭 100%, 데스크톱 높이 30rem, 800px 이하 높이 17rem이다. 미니맵은 본문 안에서 34rem 이하로 제한하고 데스크톱 높이 22rem, 800px 이하 높이 16rem으로 둔다. 고정 `width`·`height` 속성으로 레이아웃 이동을 막고, CSS가 실제 반응형 높이를 담당한다.
+- **Inset caption**: 미니맵의 캡션은 UI/메타 글자 크기(0.85rem)로, 지도 위에서 먼저 읽히도록 둔다. 전역도와 확대도의 역할을 섞지 않는다.
+- **Archaeology map**: 7.2는 수작업 해안 윤곽 대신 Leaflet으로 렌더한 실제 OpenStreetMap 지형 기반을 사용한다. 두 발굴 관련 지점은 현대 WGS84 좌표에 직접 결박한 테라코타 점과 최소형 라벨로 올리며, 라벨은 지형·지명보다 앞서지 않는다.
+- **Archaeology map layout**: 지도는 본문 폭 100%, 데스크톱 높이 32rem, 800px 이하 25rem이다. 라벨은 지도 내부에서 52%를 넘지 않으며, 지도 조작을 가로막지 않도록 `pointer-events: none`을 둔다.
+- **Surface**: `1px var(--lightgray)` 테두리만 사용하며, 그림자·둥근 모서리·별도 강조색을 더하지 않는다.
+- **Accessibility**: `title`, `loading="lazy"`, `allowfullscreen`, `strict-origin-when-cross-origin` 리퍼러 정책을 필수로 둔다.
+
 ### 404
 
 - Keep site title + search. Copy already Korean. Offer home as primary action.

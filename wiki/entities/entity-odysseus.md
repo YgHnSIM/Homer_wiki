@@ -4,7 +4,7 @@ aliases: [Odysseus, Ὀδυσσεύς, 오딧세우스, 라에르테스의 아�
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-25
 updated: 2026-08-25
-sources: [detienne-1974-cunning-intelligence.md, nagy-1979-best-of-achaeans.md, bittlestone-2005-odysseus-unbound.md, lee-junseok-2016-odyssey-humanity.md, lee-junseok-2024-iliad-jeongam.md, scott-1982-philos-philotes-xenia.md]
+sources: [detienne-1974-cunning-intelligence.md, nagy-1979-best-of-achaeans.md, bittlestone-2005-odysseus-unbound.md, greek-ministry-2025-odysseion-ithaca.md, lee-junseok-2016-odyssey-humanity.md, lee-junseok-2024-iliad-jeongam.md, scott-1982-philos-philotes-xenia.md]
 status: active
 entity_type: person
 corpus: [iliad, odyssey]
@@ -98,7 +98,60 @@ corpus: [iliad, odyssey]
 
 ## 7. 고고학과 지리 (Archaeology, Topography & Material Culture)
 
-### 7.1 호메로스 이타케의 위치
+### 7.1 그리스 전역에서의 이타키
+
+<iframe
+  class="odysseus-regional-map"
+  title="이타키를 중심으로 한 그리스 및 이오니아 해 Google 지도"
+  src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m3!2m1!1s38.45,20.65!6i6"
+  width="100%"
+  height="480"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+이타키(Ithaki)는 그리스 서부 이오니아 해에 있는 섬으로, 그리스 본토와 펠로폰네소스반도에서 서쪽 바다로 나간 이오니아 제도 안에 놓인다. 방향 감각을 위해 말하면, 이타키는 **아테네의 서쪽**, 케팔로니아(Cephalonia)의 북동쪽, 레프카다(Leucas)의 남쪽에 있다. 레프카다는 본토와 통행이 연결되어 보이지만 현대 지리상 섬이다.
+
+위 전역 지도는 이타키의 현대 좌표(`38.45°N, 20.65°E`)를 중심으로, 그리스 전역과 이오니아 해·주변 지역이 함께 보이도록 축척을 `z=6`으로 둔 Google Maps 임베드이다. 전역 지도의 표식이 너무 작아 세 섬의 관계를 놓치지 않도록, 바로 아래에 레프카다·케팔로니아·이타키를 함께 읽는 확대 미니맵을 덧붙였다. 임베드가 차단된 환경에서는 [Google 지도에서 이타키 열기](https://www.google.com/maps?q=38.45,20.65&amp;z=6)를 사용한다.
+
+<figure class="odysseus-ionian-inset">
+  <figcaption><strong>이오니아 제도 확대</strong>: 레프카다는 북쪽, 케팔로니아는 남서쪽, 이타키는 그 사이의 동쪽에 있다.</figcaption>
+  <iframe
+    class="odysseus-ionian-minimap"
+    title="레프카다, 케팔로니아, 이타키의 상대 위치를 보여 주는 Google 지도"
+    src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m3!2m1!1s38.45,20.65!6i9"
+    width="100%"
+    height="352"
+    loading="lazy"
+    allowfullscreen
+    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</figure>
+
+확대 지도는 이타키와 레프카다·케팔로니아의 실제 해안선 관계를 확인하는 보조 위치도이다. 임베드가 차단된 경우에는 [이오니아 제도 확대 지도 열기](https://www.google.com/maps?q=38.45,20.65&amp;z=9)를 사용한다. 아래의 상세 지도는 이 전역·지역 맥락 속에서 이타키 북부의 발굴 지점을 확대해 보여 준다.
+
+> [!NOTE] 지도 읽기
+> 위 지도는 현대 지명과 WGS84 좌표를 이용한 인터랙티브 지역 위치도이다. 이타키 표식은 현대 좌표를 가리킬 뿐이며, 호메로스 시대 해안선의 복원이나 호메로스 이타케의 단일한 비정을 주장하지 않는다.
+
+### 7.2 현대 이타키의 고고학 지점 위치도
+
+<figure class="odysseus-ithaca-archaeology-map">
+  <iframe
+    class="odysseus-ithaca-archaeology-iframe"
+    title="현대 이타키 북부의 폴리스 만 로이조스 동굴과 아기오스 아타나시오스 유적을 보여 주는 OpenStreetMap 지도"
+    srcdoc='<!doctype html><html lang="ko"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" /><style>:root{--surface:#faf7f2;--border:#e8e2d7;--text:#3c3836;--muted:#a89f91;--accent:#8f3f2d}html,body,#map{width:100%;height:100%;margin:0}.leaflet-container{background:var(--surface);color:var(--text);font-family:"Noto Sans KR","Noto Sans",sans-serif}.archaeology-marker{box-sizing:border-box;width:.9rem;height:.9rem;border:2px solid var(--surface);border-radius:50%;background:var(--accent)}.leaflet-tooltip.archaeology-label{max-width:14rem;border:1px solid var(--border);border-radius:0;box-shadow:none;background:var(--surface);color:var(--text);padding:.35rem .5rem;font-family:"Noto Sans KR","Noto Sans",sans-serif;font-size:.85rem;font-weight:600;line-height:1.35}.leaflet-tooltip.archaeology-label:before{border-right-color:var(--border)}.archaeology-coordinate{display:block;margin-top:.1rem;color:var(--muted);font-size:.8rem;font-weight:400}.leaflet-control-zoom a{border-radius:0;color:var(--text)}</style></head><body><div id="map" aria-label="현대 이타키 북부의 고고학 지점 지도"></div><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script><script>const map=L.map("map",{attributionControl:true,scrollWheelZoom:false,zoomControl:false});L.control.zoom({position:"topright"}).addTo(map);L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap contributors",maxZoom:19}).addTo(map);const siteIcon=L.divIcon({className:"",html:`<span class="archaeology-marker" aria-hidden="true"></span>`,iconSize:[14,14],iconAnchor:[7,7]});const sites=[{name:"아기오스 아타나시오스",coordinate:"38.460623°N, 20.637957°E",lat:38.460623,lon:20.637957},{name:"폴리스 만 로이조스 동굴",coordinate:"38.439792°N, 20.637871°E",lat:38.439792,lon:20.637871}];sites.forEach((site)=>{L.marker([site.lat,site.lon],{icon:siteIcon,keyboard:false}).addTo(map).bindTooltip(`${site.name}<span class="archaeology-coordinate">${site.coordinate}</span>`,{className:"archaeology-label",direction:"right",offset:[10,0],permanent:true})});map.fitBounds([[38.431,20.625],[38.472,20.653]],{padding:[36,150],maxZoom:13});</script></body></html>'
+    width="100%"
+    height="512"
+    loading="lazy"
+    allowfullscreen
+    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  <figcaption>현대 OpenStreetMap 지형 위에 두 고고학 지점의 WGS84 좌표를 표시한 위치도. 지도 바탕 © OpenStreetMap 기여자.</figcaption>
+</figure>
+
+이 지도는 두 고고학 지점의 현대 WGS84 좌표를 고정한 위치도이다. 폴리스 만 로이조스 동굴은 `38.439792°N, 20.637871°E`(Mycenaean Atlas 정확도 10m), 아기오스 아타나시오스의 이른바 ‘호메로스 학교’ 유적은 `38.460623°N, 20.637957°E`(정확 좌표)이다([[greek-ministry-2025-odysseion-ithaca|그리스 문화부·Mycenaean Atlas 2025]]). 지도를 직접 조작하려면 [OpenStreetMap에서 이타키 북부 열기](https://www.openstreetmap.org/?mlat=38.4502&amp;mlon=20.6379#map=13/38.4502/20.6379)를 사용한다. 바티(Vathy)는 독자의 방향 감각을 위한 현대 기준점이며, 두 후보지의 증거 등급을 높이는 근거는 아니다.
+
+지도에 현대 이타키·팔리키·레프카다를 함께 놓은 목적은 경쟁설의 **상대 위치**를 보이는 데 있다. 이는 고대 해안선의 복원도가 아니며, 팔리키·레프카다는 각각 논쟁적 가설과 소수설로만 표시했다. 『오뒷세이아』 9.21–27은 이타케·네리톤·인접 섬을 서사적으로 기술하지만, 이 구절만으로 현대 좌표 하나를 확정할 수는 없다.
+
+### 7.3 호메로스 이타케의 위치
 
 | 후보 | 근거 | 제한 |
 |:---|:---|:---|
@@ -108,13 +161,17 @@ corpus: [iliad, odyssey]
 
 [[bittlestone-2005-odysseus-unbound|Bittlestone et al. 2005]]은 팔리키를 이타케로 비정하지만 통설로 확정된 결과가 아니다. Hunter(2013)는 제안된 경로에서 후기 청동기 해수면 높이의 연속 수로를 배제했으며, 대안적 구조운동 모형은 추가 검증이 필요하다. *chthamalē*와 *pros zophon*의 번역, 인접 섬들의 위치와 미케네기 중심지 증거도 별도로 검토해야 한다.
 
-### 7.2 멧돼지 어금니 투구
+### 7.4 아기오스 아타나시오스와 오디세이온
+
+이타케 북부의 아기오스 아타나시오스-‘호메로스 학교’ 유적에는 후기 미케네기 도기편과 지하 수조·샘 시설이 보고되어 있다. 그리스 문화부의 2025년 발표은 이 유적을 북서 이타케의 청동기 활동망 안에 놓으면서도, 현장 자료만으로 오디세우스의 궁전을 확정하지는 않는다. 반면 헬레니즘기부터 초기·중기 로마기에 집중된 기념비적 복합체와 오디세우스 명문은 후대의 오디세이온, 즉 영웅 성소·숭배의 강한 근거이다([[greek-ministry-2025-odysseion-ithaca|그리스 문화부·Mycenaean Atlas 2025]]).
+
+### 7.5 멧돼지 어금니 투구
 
 『일리아스』 10.261–271의 투구는 본문에서 일반명 κυνέη로 불리며 별도의 고유 희랍어 명칭이 없다. 투구는 아뮌토르의 소유물에서 시작해 아우톨뤼코스의 절취, 암피다마스, 몰로스, [[entity-meriones|메리오네스]]를 거쳐 오디세우스에게 빌려진다.
 
 고고학 사례는 중기 헬라딕기부터 LH IIIC까지 이어진다. 이 묘사는 미케네 물질문화의 기억을 보존하지만, 투구가 LH IIIB/C 전에 사라졌다는 가정이나 이 구절만으로 700년 이상의 연속 구전을 증명하는 논거는 성립하지 않는다.
 
-### 7.3 폴리스 만 로이조스 동굴
+### 7.6 폴리스 만 로이조스 동굴
 
 로이조스 동굴의 헬레니즘기 봉헌 명문은 오디세우스 숭배의 직접 증거이다. 더 이른 기하학기 삼발이솥은 중요한 제의 자료이지만, 그것만으로 기하학기부터 오디세우스 숭배가 연속되었다거나 그가 ‘선원의 수호 영웅’으로 숭배되었다고 확정할 수는 없다.
 
@@ -172,6 +229,7 @@ corpus: [iliad, odyssey]
 | 적대 중지와 맹약 | _Od._ 24.531–548 | 원전 명시 | 현대적 의미의 영구 평화 조약은 아님 |
 | 멧돼지 어금니 투구의 LH IIIC 존속 | _Il._ 10.261–271; Cambridge 고고학 종합 | 강한 물질 증거 | 연속 구전 기간을 단독 입증하지 못함 |
 | 팔리키 이타케 가설 | Bittlestone et al. 2005; Hunter 2013 | 핵심 수로 모형에 반증이 제시된 논쟁적 가설 | 제안 경로의 후기 청동기 연속 해협은 배제됨; 대안 구조운동 모형과 고고학 중심지는 미검증 |
+| 아기오스 아타나시오스의 청동기·후대 제의 층위 | 그리스 문화부 2025; Mycenaean Atlas C612 | 물질 증거 및 후대 수용 | 청동기 왕궁의 직접 증명은 아님 |
 | 헬레니즘기 오디세우스 봉헌 | 로이조스 동굴 명문 | 직접 물질 증거 | 더 이른 숭배의 연속성은 별도 논증 필요 |
 
 ## 관련 항목
@@ -190,6 +248,7 @@ corpus: [iliad, odyssey]
 - [[detienne-1974-cunning-intelligence|Detienne & Vernant 1974]]
 - [[nagy-1979-best-of-achaeans|Nagy 1979]]
 - [[bittlestone-2005-odysseus-unbound|Bittlestone et al. 2005]]
+- [[greek-ministry-2025-odysseion-ithaca|그리스 문화부·Mycenaean Atlas 2025]]
 - [[lee-junseok-2016-odyssey-humanity|이준석 2016]]
 - [[analysis-concept-source-matrix|개념과 문헌]]
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]

@@ -46,6 +46,7 @@ status: active
 - [[detienne-1974-cunning-intelligence|마르셀 드티엔·장-피에르 베르낭, 그리스인들의 메티스 (1974)]]
 - [[bittlestone-2005-odysseus-unbound|로버트 비틀스톤 외, 오디세우스 언바운드 (2005)]]
 - [[nagy-1979-best-of-achaeans|그레고리 나기, 아카이아인들의 최고 영웅 (1979)]]
+- [[greek-ministry-2025-odysseion-ithaca|그리스 문화부, 이타키의 오디세이온 (2025)]]
 
 ---
 

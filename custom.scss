@@ -254,6 +254,54 @@ body[data-slug="wiki/entities/entity-achilles"] {
   }
 }
 
+body[data-slug="wiki/entities/entity-odysseus"] {
+  .odysseus-regional-map {
+    display: block;
+    width: 100%;
+    height: 30rem;
+    border: 1px solid var(--lightgray);
+  }
+
+  .odysseus-ionian-inset {
+    max-width: 34rem;
+    margin: 1.25rem 0;
+  }
+
+  .odysseus-ionian-inset figcaption {
+    margin-bottom: 0.5rem;
+    color: var(--darkgray);
+    font-family: "Noto Sans KR", "Noto Sans", sans-serif;
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .odysseus-ionian-minimap {
+    display: block;
+    width: 100%;
+    height: 22rem;
+    border: 1px solid var(--lightgray);
+  }
+
+  .odysseus-ithaca-archaeology-map {
+    margin: 1.5rem 0;
+  }
+
+  .odysseus-ithaca-archaeology-iframe {
+    display: block;
+    width: 100%;
+    height: 32rem;
+    border: 1px solid var(--lightgray);
+  }
+
+  .odysseus-ithaca-archaeology-map figcaption {
+    margin-top: 0.5rem;
+    color: var(--gray);
+    font-family: "Noto Sans KR", "Noto Sans", sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+}
+
 body[data-slug="404"] {
   .article-title,
   .content-meta {
@@ -372,6 +420,20 @@ body[data-slug="wiki/analyses/analysis-concept-source-matrix"] {
       flex: none !important;
       max-height: none !important;
       width: 100% !important;
+    }
+  }
+
+  body[data-slug="wiki/entities/entity-odysseus"] {
+    .odysseus-regional-map {
+      height: 17rem;
+    }
+
+    .odysseus-ionian-minimap {
+      height: 16rem;
+    }
+
+    .odysseus-ithaca-archaeology-iframe {
+      height: 25rem;
     }
   }
 }
