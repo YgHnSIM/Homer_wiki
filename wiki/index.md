@@ -3,7 +3,7 @@ title: 위키 색인
 aliases: [전체 목록, 인덱스, 파일 목차, 호메로스 위키 전체 카탈로그]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-08-25
+updated: 2026-08-26
 sources: []
 status: active
 ---

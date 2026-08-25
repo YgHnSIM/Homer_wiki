@@ -8,6 +8,7 @@
   --headerFont: "Noto Serif KR", "Noto Serif", "Noto Serif Greek", "Times New Roman", serif !important;
   --bodyFont: "Noto Serif KR", "Noto Serif", "Noto Serif Greek", "Times New Roman", serif !important;
   --codeFont: "IBM Plex Mono", ui-monospace, monospace !important;
+  --dictionaryGreekFont: "Noto Serif", "Noto Serif KR", serif !important;
 }
 
 body,
@@ -188,6 +189,16 @@ a.tag,
         }
       }
     }
+  }
+
+  // Dictionary entries keep Latin and polytonic Greek in the same serif family.
+  // Hangul falls through to the matching Noto Serif KR CJK face.
+  a.nav-file-title[href*="/words/word-"] {
+    font-family: var(--dictionaryGreekFont);
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    line-height: 1.5;
+    white-space: nowrap;
   }
 }
 

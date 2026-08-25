@@ -43,9 +43,10 @@ Tokens match `quartz.config.yaml` theme colors. Do not introduce a second accent
 |------|-------|-----|
 | Display / headings / body | `"Noto Serif KR", "Noto Serif", serif` | Hangul serif + polytonic Greek/Latin from Noto Serif |
 | UI (explorer, search, chips) | `"Noto Sans KR", "Noto Serif KR", sans-serif` | Compact sidebar labels |
+| Dictionary entry labels | `"Noto Serif", "Noto Serif KR", serif` | Explicitly keeps Latin and polytonic Greek in the same serif family; Hangul falls back to the Korean Noto Serif face |
 | Code | `"IBM Plex Mono", ui-monospace, monospace` | Existing mono |
 
-Playfair Display and Spectral are not used: they lack Hangul, and Quartz v5 `quartz-fonts` ignored `theme.typography` unless plugin options are set.
+Playfair Display and Spectral are not used: they lack Hangul. The dictionary label stack uses the main Noto Serif family first because it carries Latin and polytonic Greek; `Noto Serif KR` remains the Hangul companion. Quartz v5 `quartz-fonts` options are explicit so the main Noto Serif web font is actually loaded instead of being a browser-only fallback.
 
 ### Scale (reading)
 

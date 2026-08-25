@@ -21,7 +21,7 @@ aliases:
   - 오디세우스
 tags: [type/word, domain/etymology, domain/odyssey, domain/mythology, status/review]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-26
 sources:
   - "Merriam-Webster, Odyssey; Odyssean; Odysseus; Ulysses; Ulyssean"
   - "Oxford Advanced Learner's Dictionary, odyssey; 2001: A Space Odyssey; Ulysses"

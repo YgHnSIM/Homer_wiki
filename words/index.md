@@ -3,7 +3,7 @@ title: 어원 사전
 aliases: [단어 인덱스, 호메로스 어원·영단어 사전, Word Index]
 tags: [type/meta, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-08-25
+updated: 2026-08-26
 sources: []
 status: active
 ---

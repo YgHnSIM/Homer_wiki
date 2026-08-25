@@ -1,5 +1,5 @@
 ---
-title: Agathos (ἀγαθός)
+title: Agathos (아가토스 / ἀγαθός)
 word: agathos
 greek_root: ἀγαθός (agathos, 형용사/명사)
 pie_root: "Pre-Greek substrate"
@@ -8,12 +8,12 @@ transmissions: [pre_greek, greek, latin, old_french, middle_english, modern_engl
 aliases: [ἀγαθός, agathos, agathism, Agatha, kalokagathia, 아가토스, 아가티즘]
 tags: [type/word, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-08-24
+updated: 2026-08-26
 sources: [Beekes 2010 Etymological Dictionary of Greek, Chantraine 1968 DELG, Oxford English Dictionary, LSJ]
 status: active
 ---
 
-# Agathos (ἀγαθός)
+# Agathos (아가토스 / ἀγαθός)
 
 > **요약**: 고대 그리스어의 핵심 가치 칭찬어 **아가토스(ἀγαθός, *agathos*)**는 전사 귀족의 기능적 탁월성과 결과주의적 성공을 뜻하는 선희랍 기층어 기원의 어휘로, 라틴어와 앵글로-노르만 프랑스어를 거쳐 여성 인명 **Agatha**로 수용되었으며, 19세기 근대 영어에서 철학적 신조어 **Agathism**(궁극적 선재론) 및 고전 이상 **Kalokagathia**(미와 선의 일치)로 학술 어휘화되었습니다.
 

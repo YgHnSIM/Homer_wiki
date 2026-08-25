@@ -17,7 +17,7 @@ aliases:
   ]
 tags: [type/word, domain/etymology, domain/iliad, status/active]
 created: 2026-08-17
-updated: 2026-08-24
+updated: 2026-08-26
 sources: [Beekes 2010, Chantraine DELG, Pokorny IEW, OED, Nagy 1979, LSJ]
 status: active
 ---

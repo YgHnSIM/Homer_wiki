@@ -1,5 +1,5 @@
 ---
-title: Eleos (ἔλεος)
+title: Eleos (엘레오스 / ἔλεος)
 word: eleos
 greek_root: ἔλεος (eleos, 명사)
 pie_root: "Pre-Greek substrate / Uncertain (선희랍 기층어 또는 고유 의성어)"
@@ -8,12 +8,12 @@ transmissions: [greek, latin, old_french, old_english, middle_english, modern_en
 aliases: [ἔλεος, Eleos, Eleemosynary, Alms, Almoner, Kyrie eleison, ἐλεημοσύνη]
 tags: [type/word, domain/etymology, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-24
+updated: 2026-08-26
 sources: [Beekes 2010 EDG, Chantraine 1968 DELG, Frisk GEW, OED, LSJ, Lewis & Short]
 status: active
 ---
 
-# 표제어: Eleos (ἔλεος) — Eleemosynary / Alms / Almoner
+# Eleos (엘레오스 / ἔλεος)
 
 > **요약**: 고대 그리스어 **ἔλεος**(*eleos*, 연민·비애감) 및 2차 파생 명사 **ἐλεημοσύνη**(*eleēmosynē*, 자비·자선)는 칠십인역과 신약성서를 거쳐 교회 라틴어로 편입된 뒤, 세 갈래로 분기되어 현대 영어의 구제금(**Alms**), 자선관(**Almoner**), 법학적 자선 형용사(**Eleemosynary**), 그리고 전례 기도문(**Kyrie eleison**)으로 정착했습니다.
 

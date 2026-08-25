@@ -98,8 +98,8 @@ plugins:
       useThemeFonts: false
       fontOrigin: googleFonts
       title:
-        name: Noto Serif KR
-        weights: [600, 700]
+        name: Noto Serif
+        weights: [400, 600, 700]
       header:
         name: Noto Serif KR
         weights: [600, 700]
