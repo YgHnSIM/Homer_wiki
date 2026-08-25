@@ -3,7 +3,7 @@ title: 어원 사전
 aliases: [단어 인덱스, 호메로스 어원·영단어 사전, Word Index]
 tags: [type/meta, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-08-24
+updated: 2026-08-25
 sources: []
 status: active
 ---
@@ -25,9 +25,10 @@ graph TB
     G1["Ἀχιλλεύς"]:::greek --> L1["Latin Achilles"]:::latin --> E1["Achilles' heel / tendon"]:::english
     G2["ἀγαθός"]:::greek --> L2["Agatha"]:::latin --> E2["Agathism / Kalokagathia"]:::english
     G3["ἔλεος"]:::greek --> L3["eleemosyna"]:::latin --> E3["alms / eleemosynary"]:::english
+    G4["Ὀδύσσεια"]:::greek --> L4["Odyssea"]:::latin --> E4["Odyssey / odyssey"]:::english
 ```
 
-아직 사전 본문이 없는 표제어(Mentor, Odyssey, Hector, Siren, Nemesis, clue 등)는 문서가 생긴 뒤에 도식에 올립니다.
+현재 도식에는 작성된 단어 문서만 올립니다. Odyssey는 본문을 작성했지만 역사적 어원과 중세 전승 단계에 검토 상태가 남아 있으므로 문서 상태를 review로 유지합니다. Mentor, Hector, Siren, Nemesis, clue 등은 별도 문서가 생긴 뒤에 도식에 추가합니다.
 
 ---
 
@@ -36,8 +37,8 @@ graph TB
 | 분류 | 문서 수 | 작성된 항목 |
 |:---|:---:|:---|
 | 개념·추상어 | 2 | [[word-agathos\|Agathos]], [[word-eleos\|Eleos]] |
-| 인명 유래어 | 1 | [[word-achilles\|Achilles]] |
-| 총계 | 3 | — |
+| 인명·서명 유래어 | 2 | [[word-achilles\|Achilles]], [[word-odyssey\|Odyssey]] |
+| 총계 | 4 | — |
 
 ---
 
@@ -46,6 +47,7 @@ graph TB
 - [[word-achilles|Achilles]] — Ἀχιλλεύς. *Achilles' heel*, *Achilles tendon*, *Achillean*
 - [[word-agathos|Agathos]] — ἀγαθός. *Agathism*, *Agatha*, *Kalokagathia*
 - [[word-eleos|Eleos]] — ἔλεος. *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
+- [[word-odyssey|Odyssey]] — Ὀδύσσεια. *Odyssey*, *odyssey*, *Odyssean*
 
 ---
 
@@ -56,3 +58,4 @@ graph TB
 - [[concept-agathos|아가토스]]
 - [[concept-eleos|엘레오스]]
 - [[entity-achilles|아킬레우스]]
+- [[entity-odysseus|오디세우스]]
