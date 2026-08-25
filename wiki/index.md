@@ -51,7 +51,7 @@ status: active
 
 ## 인물
 
-- [[entity-achilles|아킬레우스]] (Achilles) — *일리아스*의 주인공, 메니스와 엘레오스의 영웅
+- [[entity-achilles|아킬레우스]] (Achilles) — *일리아스*의 주인공, 메니스에서 연민으로 향하는 서사의 중심
 - [[entity-odysseus|오디세우스]] (Odysseus) — *오뒷세이아*의 주인공, 메티스와 노스토스의 영웅
 
 작성 예정 (링크 없음): 헥토르, 제우스.
