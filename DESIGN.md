@@ -44,7 +44,7 @@ Tokens match `quartz.config.yaml` theme colors. Do not introduce a second accent
 | Display / headings / body | `"Noto Serif KR", "Noto Serif", serif` | Hangul serif + polytonic Greek/Latin from Noto Serif |
 | UI (explorer, search, chips) | `"Noto Sans KR", "Noto Serif KR", sans-serif` | Compact sidebar labels |
 | Dictionary entry labels | `"Noto Serif", "Noto Serif KR", serif` | Explicitly keeps Latin and polytonic Greek in the same serif family; Hangul falls back to the Korean Noto Serif face |
-| Code | `"IBM Plex Mono", ui-monospace, monospace` | Existing mono |
+| Code | `"IBM Plex Mono", "Noto Serif", "Noto Serif KR", ui-monospace, monospace` | IBM Plex Mono for Latin code; loaded Noto Serif fallback for polytonic Greek and Noto Serif KR for Hangul |
 
 Playfair Display and Spectral are not used: they lack Hangul. The dictionary label stack uses the main Noto Serif family first because it carries Latin and polytonic Greek; `Noto Serif KR` remains the Hangul companion. Quartz v5 `quartz-fonts` options are explicit so the main Noto Serif web font is actually loaded instead of being a browser-only fallback.
 
@@ -122,6 +122,7 @@ Base unit: 4px.
 ### Mermaid
 
 - Max width 100%; horizontal pan on small screens; node labels short (prefer Latin/Greek lemma over long Korean sentences).
+- Light and dark modes remap generated SVG fills, borders, labels, and edge markers to the corresponding Quartz tokens so colors never leak across themes. Semantic class definitions retain stroke width in Mermaid, while CSS owns the theme-aware fills and text colors; Greek/Latin/English accents stay distinct but subdued.
 
 ### Interactive geographic map
 
@@ -176,5 +177,5 @@ Strategy: **borders-only**, warm.
 | Explorer folder slugs (`entities`, `concepts`) | Left rail | Renaming folders breaks vault paths | Optional folder `index.md` titles later |
 | English "min read" | content-meta | Plugin i18n still emits English next to Korean dates | Hide via CSS if a stable selector exists after build |
 | Search ranking | Search modal | Quartz BM25; entity pages cannot be boosted without a custom mapFn | Content titles + unpublishing log reduce noise |
-| Mermaid node type | `.mermaid` | Noto Serif KR has no Greek metrics, so diagrams use Times New Roman | Load Noto Serif (non-KR) in quartz-fonts without a Sass `@import` |
+| Mermaid node type | `.mermaid` | Noto Serif KR has no Greek metrics, so diagrams use the loaded Noto Serif fallback | Keep Noto Serif (non-KR) in quartz-fonts without a Sass `@import` |
 | `note-properties` stays enabled | quartz.config.yaml | Disabling it dumps YAML into the article. Hide the panel with `hidePropertiesView` | Do not set `enabled: false` |

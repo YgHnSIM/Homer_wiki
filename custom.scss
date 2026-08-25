@@ -7,8 +7,23 @@
   --top-spacing: 1.25rem;
   --headerFont: "Noto Serif KR", "Noto Serif", "Noto Serif Greek", "Times New Roman", serif !important;
   --bodyFont: "Noto Serif KR", "Noto Serif", "Noto Serif Greek", "Times New Roman", serif !important;
-  --codeFont: "IBM Plex Mono", ui-monospace, monospace !important;
+  // Keep Latin code monospaced while routing missing polytonic Greek glyphs
+  // to the already-loaded editorial serif instead of system fallback fonts.
+  --codeFont: "IBM Plex Mono", "Noto Serif", "Noto Serif KR", ui-monospace, monospace !important;
   --dictionaryGreekFont: "Noto Serif", "Noto Serif KR", serif !important;
+  --mermaid-node-text: #1d2021;
+  --mermaid-greek-fill: #f5eee6;
+  --mermaid-greek-stroke: #8f3f2d;
+  --mermaid-latin-fill: #edf2f7;
+  --mermaid-latin-stroke: #2c5770;
+  --mermaid-english-fill: #eef2ee;
+  --mermaid-english-stroke: #5c7065;
+  --mermaid-substrate-fill: #f4f0e8;
+  --mermaid-substrate-stroke: #8b7355;
+  --mermaid-variant-fill: #f7f3e8;
+  --mermaid-variant-stroke: #8d6e3f;
+  --mermaid-note-fill: #f4eeee;
+  --mermaid-note-stroke: #9a4d4d;
 }
 
 body,
@@ -256,6 +271,197 @@ table {
     max-width: 100% !important;
     height: auto !important;
     min-width: 280px;
+  }
+
+  // Keep semantic class names in Markdown while letting CSS own the theme.
+  // The classDef declarations only retain stroke width because Mermaid turns
+  // fill/color declarations into inline !important styles.
+  .node.greek rect,
+  .node.greek circle,
+  .node.greek ellipse,
+  .node.greek polygon,
+  .node.greek path {
+    fill: var(--mermaid-greek-fill) !important;
+    stroke: var(--mermaid-greek-stroke) !important;
+  }
+
+  .node.latin rect,
+  .node.latin circle,
+  .node.latin ellipse,
+  .node.latin polygon,
+  .node.latin path {
+    fill: var(--mermaid-latin-fill) !important;
+    stroke: var(--mermaid-latin-stroke) !important;
+  }
+
+  .node.english rect,
+  .node.english circle,
+  .node.english ellipse,
+  .node.english polygon,
+  .node.english path {
+    fill: var(--mermaid-english-fill) !important;
+    stroke: var(--mermaid-english-stroke) !important;
+  }
+
+  .node.substrate rect,
+  .node.substrate circle,
+  .node.substrate ellipse,
+  .node.substrate polygon,
+  .node.substrate path {
+    fill: var(--mermaid-substrate-fill) !important;
+    stroke: var(--mermaid-substrate-stroke) !important;
+  }
+
+  .node.variant rect,
+  .node.variant circle,
+  .node.variant ellipse,
+  .node.variant polygon,
+  .node.variant path {
+    fill: var(--mermaid-variant-fill) !important;
+    stroke: var(--mermaid-variant-stroke) !important;
+  }
+
+  .node.note rect,
+  .node.note circle,
+  .node.note ellipse,
+  .node.note polygon,
+  .node.note path {
+    fill: var(--mermaid-note-fill) !important;
+    stroke: var(--mermaid-note-stroke) !important;
+  }
+
+  text,
+  foreignObject,
+  foreignObject *,
+  .nodeLabel,
+  .nodeLabel *,
+  .label,
+  .label *,
+  .cluster-label,
+  .cluster-label *,
+  .edgeLabel,
+  .edgeLabel * {
+    color: var(--mermaid-node-text) !important;
+    fill: var(--mermaid-node-text) !important;
+  }
+}
+
+// Mermaid serializes classDef colors into each SVG, so the light-mode fills
+// otherwise survive a theme switch. These variables are also consumed by the
+// source classDef declarations, which Mermaid writes as inline !important CSS.
+html[saved-theme="dark"] {
+  --mermaid-node-text: var(--dark);
+  --mermaid-greek-fill: color-mix(in srgb, var(--secondary) 22%, var(--light));
+  --mermaid-greek-stroke: var(--secondary);
+  --mermaid-latin-fill: color-mix(in srgb, var(--gray) 24%, var(--light));
+  --mermaid-latin-stroke: var(--darkgray);
+  --mermaid-english-fill: color-mix(in srgb, var(--tertiary) 22%, var(--light));
+  --mermaid-english-stroke: var(--tertiary);
+  --mermaid-substrate-fill: color-mix(in srgb, var(--gray) 18%, var(--light));
+  --mermaid-substrate-stroke: var(--darkgray);
+  --mermaid-variant-fill: color-mix(in srgb, var(--gray) 18%, var(--light));
+  --mermaid-variant-stroke: var(--darkgray);
+  --mermaid-note-fill: color-mix(in srgb, var(--secondary) 14%, var(--light));
+  --mermaid-note-stroke: var(--secondary);
+}
+
+// Re-map generated shapes and labels to Quartz's dark tokens while keeping
+// semantic Greek/Latin/English accents subdued.
+html[saved-theme="dark"] .mermaid {
+  .node rect,
+  .node circle,
+  .node ellipse,
+  .node polygon,
+  .node path {
+    fill: var(--lightgray) !important;
+    stroke: var(--darkgray) !important;
+  }
+
+  .node.greek rect,
+  .node.greek circle,
+  .node.greek ellipse,
+  .node.greek polygon,
+  .node.greek path {
+    fill: color-mix(in srgb, var(--secondary) 22%, var(--light)) !important;
+    stroke: var(--secondary) !important;
+  }
+
+  .node.latin rect,
+  .node.latin circle,
+  .node.latin ellipse,
+  .node.latin polygon,
+  .node.latin path {
+    fill: color-mix(in srgb, var(--gray) 24%, var(--light)) !important;
+    stroke: var(--darkgray) !important;
+  }
+
+  .node.english rect,
+  .node.english circle,
+  .node.english ellipse,
+  .node.english polygon,
+  .node.english path {
+    fill: color-mix(in srgb, var(--tertiary) 22%, var(--light)) !important;
+    stroke: var(--tertiary) !important;
+  }
+
+  .node.substrate rect,
+  .node.substrate circle,
+  .node.substrate ellipse,
+  .node.substrate polygon,
+  .node.substrate path,
+  .node.variant rect,
+  .node.variant circle,
+  .node.variant ellipse,
+  .node.variant polygon,
+  .node.variant path {
+    fill: color-mix(in srgb, var(--gray) 18%, var(--light)) !important;
+    stroke: var(--darkgray) !important;
+  }
+
+  .node.note rect,
+  .node.note circle,
+  .node.note ellipse,
+  .node.note polygon,
+  .node.note path {
+    fill: color-mix(in srgb, var(--secondary) 14%, var(--light)) !important;
+    stroke: var(--secondary) !important;
+  }
+
+  .cluster rect {
+    fill: var(--light) !important;
+    stroke: var(--lightgray) !important;
+  }
+
+  .edgeLabel rect,
+  .labelBkg,
+  .edgeLabel span {
+    fill: var(--light) !important;
+    background: var(--light) !important;
+    background-color: var(--light) !important;
+    stroke: var(--lightgray) !important;
+  }
+
+  text,
+  foreignObject,
+  foreignObject *,
+  .nodeLabel,
+  .nodeLabel *,
+  .label,
+  .label *,
+  .cluster-label,
+  .cluster-label *,
+  .edgeLabel,
+  .edgeLabel * {
+    color: var(--dark) !important;
+    fill: var(--dark) !important;
+  }
+
+  .edgePath .path,
+  .flowchart-link,
+  .marker path,
+  .arrowheadPath {
+    stroke: var(--darkgray) !important;
+    fill: var(--darkgray) !important;
   }
 }
 

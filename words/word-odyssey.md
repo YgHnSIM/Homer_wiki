@@ -64,12 +64,12 @@ graph TD
     MOD --> SPACE["space odyssey<br/>일반 명사구"]:::english
     MOD --> FILM["2001: A Space Odyssey<br/>고유한 영화 제목"]:::english
 
-    classDef substrate fill:#f4f0e8,stroke:#8b7355,stroke-width:1.5px,color:#1d2021;
-    classDef greek fill:#f5eee6,stroke:#8f3f2d,stroke-width:2px,color:#1d2021;
-    classDef variant fill:#f7f3e8,stroke:#8d6e3f,stroke-width:1.5px,color:#1d2021;
-    classDef latin fill:#edf2f7,stroke:#2c5770,stroke-width:1.5px,color:#1d2021;
-    classDef english fill:#eef2ee,stroke:#5c7065,stroke-width:2px,color:#1d2021;
-    classDef note fill:#f4eeee,stroke:#9a4d4d,stroke-width:1.5px,color:#1d2021;
+    classDef substrate stroke-width:1.5px;
+    classDef greek stroke-width:2px;
+    classDef variant stroke-width:1.5px;
+    classDef latin stroke-width:1.5px;
+    classDef english stroke-width:2px;
+    classDef note stroke-width:1.5px;
 ```
 
 이 도식에서 실선은 이름에서 제목을 거쳐 영어 표제어로 이어지는 확인 가능한 어휘 관계를, 점선은 평행 수용 또는 별도의 인명 경로를 나타낸다. 영어 *odyssey*와 *Ulysses*는 서로 다른 가지다. 전자는 서사시 제목의 보통명사화이고, 후자는 오디세우스 이름의 라틴계 변형이다. 프랑스어 *Odyssée*가 영어의 필수 중간 단계였다고 이 도식은 주장하지 않는다.

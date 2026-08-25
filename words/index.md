@@ -18,9 +18,9 @@ status: active
 
 ```mermaid
 graph TB
-    classDef greek fill:#f5eee6,stroke:#8f3f2d,stroke-width:2px,color:#1d2021;
-    classDef latin fill:#edf2f7,stroke:#2c5770,stroke-width:1.5px,color:#1d2021;
-    classDef english fill:#eef2ee,stroke:#5c7065,stroke-width:2px,color:#1d2021;
+    classDef greek stroke-width:2px;
+    classDef latin stroke-width:1.5px;
+    classDef english stroke-width:2px;
 
     G1["Ἀχιλλεύς"]:::greek --> L1["Latin Achilles"]:::latin --> E1["Achilles' heel / tendon"]:::english
     G2["ἀγαθός"]:::greek --> L2["Agatha"]:::latin --> E2["Agathism / Kalokagathia"]:::english
