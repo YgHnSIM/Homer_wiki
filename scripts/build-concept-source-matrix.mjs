@@ -86,6 +86,14 @@ function sourceLabel(sourceId) {
   return match ? `${match[1]} ${match[2]}` : koreanWithYear
 }
 
+function sourceEvidence(markdown) {
+  const frontmatter = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/)
+  const keyConcepts = frontmatter?.[1].match(/^key_concepts:\s*(.*)$/m)?.[1] ?? ""
+  const body = frontmatter === null ? markdown : markdown.slice(frontmatter[0].length)
+  const evidenceBody = body.split(/^## 관련 항목\s*$/m, 1)[0]
+  return `${keyConcepts}\n${evidenceBody}`
+}
+
 const citedByConcept = {}
 for (const [id] of CONCEPTS) {
   const markdown = fs.readFileSync(path.join("wiki/concepts", `${id}.md`), "utf8")
@@ -95,7 +103,7 @@ for (const [id] of CONCEPTS) {
 const mentionedInSource = {}
 for (const [sourceId] of SOURCES) {
   const markdown = fs.readFileSync(path.join("wiki/sources", `${sourceId}.md`), "utf8")
-  const ids = [...markdown.matchAll(/concept-[a-z0-9-]+/g)].map((match) => match[0])
+  const ids = [...sourceEvidence(markdown).matchAll(/concept-[a-z0-9-]+/g)].map((match) => match[0])
   mentionedInSource[sourceId] = new Set(ids.filter((id) => citedByConcept[id]))
 }
 

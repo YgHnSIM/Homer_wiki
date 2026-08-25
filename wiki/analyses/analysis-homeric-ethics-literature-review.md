@@ -13,7 +13,7 @@ aliases:
 tags:
   [type/analysis, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-16
-updated: 2026-08-24
+updated: 2026-08-25
 sources:
   - williams-1993-shame-and-necessity.md
   - adkins-1960-merit-and-responsibility.md
@@ -34,6 +34,7 @@ sources:
   - scott-1982-philos-philotes-xenia.md
   - lee-junseok-2018-wrath-and-pity.md
   - lee-junseok-2016-odyssey-humanity.md
+  - nagy-1979-best-of-achaeans.md
 status: active
 ---
 
@@ -42,7 +43,7 @@ status: active
 > [!NOTE] 지식베이스 총괄 개요
 > 호메로스(Homer, Ὅμηρος)의 양대 서사시 *일리아스*(Iliad)와 *오뒷세이아*(Odyssey)는 고대 지중해 문명의 세계관을 집대성한 원천이자, 서구 도덕철학과 인간학의 지평을 정초한 원형 텍스트입니다. 20세기 중반 이후 고전문헌학·도덕철학·역사심리학·정신의학의 교차로에서 전개된 호메로스 윤리학 연구는 단순한 문학적 해석을 넘어, 인간의 행위 주체성(Moral Agency), 도덕적 책임의 발생 근거, 내면 정서의 구조, 그리고 필멸적 실존의 비극적 한계를 해명하는 현대 사상계의 중대한 지적 각축장이었습니다.
 >
-> 본 종합 분석 문서는 `wiki/sources/`에 구축된 19종의 핵심 연구 도시에와 전 세계 학술 정전을 유기적으로 결집하여, 호메로스 윤리 체계의 심층 다이얼렉틱과 지난 80년간 축적된 패러다임 전환사를 체계적으로 해제합니다.
+> 현재 `wiki/sources/`에는 22종의 소스 문서가 있으며, 이 종합 분석의 프론트매터는 그중 직접 참조하는 20종을 열거합니다. 표에만 남아 있고 아직 소스 문서가 없는 연구는 빨간 링크로 구분됩니다.
 
 ---
 
@@ -67,7 +68,7 @@ status: active
 | **13** | **Hugh Lloyd-Jones**    | **_The Justice of Zeus_** (1971)                  |          **980+**           | **도덕적 연속성 테제.** 『일리아스』와 『오뒷세이아』 전반을 관통하는 제우스의 정의([[concept-dike\|Dike]])와 종교적 도덕 질서의 확고한 연속성 입증.                                                                                      |   [[lloyd-jones-1971-justice-of-zeus]]   |
 | **14** | **Christopher Gill**    | **_Personality in Greek Epic_** (1996)            |          **920+**           | **참여자적 자아 모델 정립.** 데카르트적 고립 주체가 아닌 타자와의 관계 및 공동체적 대화 속에서 결단하는 '객관적-참여자적 자아(Objective-participant self)' 개념화.                                                                                                                                                            | [[gill-1996-personality-in-greek-epic]]  |
 | **15** | **Marcel Detienne**     | **_Les Maîtres de vérité_** (1967)                |          **890+**           | **고대 진리관과 정의의 기원.** 아르카익기 진리(Aletheia)와 [[concept-dike\|Dike]]의 결합을 분석하고, 시인·왕·예언자가 공유한 종교-윤리적 권위의 신화적 기초 규명.                                                                           |   [[detienne-1967-maitres-de-verite]]    |
-| **16** | **Gregory Nagy**        | **_The Best of the Achaeans_** (1979)             |  **2,100+** _(호메로스 850+)_   | **최고 영웅의 신화시학.** 무력(Bie)과 지혜(Metis)의 긴장, 필멸의 영웅이 서사시 전통을 통해 획득하는 불멸의 명성([[concept-kleos\|Kleos Aphthiton]]) 체계 해명.                                                                                         |    [[nagy-1979-best-of-the-achaeans]]    |
+| **16** | **Gregory Nagy**        | **_The Best of the Achaeans_** (1979)             |              **—**              | **최고 영웅의 신화시학.** 무력(Bie)과 지혜(Metis)의 긴장, 필멸의 영웅이 서사시 전통을 통해 획득하는 불멸의 명성([[concept-kleos\|Kleos Aphthiton]]) 체계 해명.                                                                                         |    [[nagy-1979-best-of-achaeans]]    |
 | **17** | **Hans van Wees**       | **_Status Warriors_** (1992)                      |          **750+**           | **지위 경쟁의 전사 윤리.** 호메로스 사회의 지위(Status) 투쟁, 모욕(Hybris)과 분노의 역학, 귀족 전사 계급 특유의 아고니스틱(Agonistic) 윤리 구조 실증.                                                                                                                                                                   |    [[van-wees-1992-status-warriors]]     |
 | **18** | **Albin Lesky**         | **_Göttliche und menschliche Motivation_** (1961) |          **420+**           | **이중 동기화(Doppelte Motivation) 이론.** 한 사건이 신적 섭리와 인간의 자율적 심리 결단이라는 두 독립된 층위에서 완벽히 양립함을 논증.                                                                                                                                                                               |   [[lesky-1961-gottliche-motivation]]    |
 | **19** | **A. A. Long**          | **_Morals and Values in Homer_** (1970, _JHS_)    |          **320+**           | **애드킨스 2분법 해체 및 '적절성의 기준' 확립.** 과도와 결핍을 통제하는 공식구 체계와 상호적 [[concept-time\|Timê]] 규범을 분석하여 아리스토텔레스 중용 윤리의 기원 규명.                                                                                   |     [[long-1970-morals-and-values]]      |
@@ -138,7 +139,7 @@ graph TD
   아킬레우스가 거부한 것은 보상 자체가 아니라 아가멤논이 배상을 빌미로 강요한 **'위계적 굴종(Submission)'**입니다. 아가멤논은 "그는 나에게 복종해야 한다. 내가 더 왕답기 때문이다"(_Il._ 9.160–161)라고 천명했습니다. 따라서 거부는 물질의 허무가 아니라, 자신의 존엄을 짓밟으려는 지휘관의 오만에 맞선 결연한 저항입니다.
 - **비극적 과오론과 아테(Atê, ἄτη) ([[dodds-1951-greeks-and-irrational|Dodds 1951]], Knox 1983)**:
   텍스트 내부에서 사절단(포이닉스, 아이아스)은 아킬레우스의 완고함을 실존적 각성이 아닌 **파멸적 미망이자 공동체에 대한 배신**으로 정면 질타합니다. 아이아스는 살인 배상금(Poinê, ποινή)을 받고 화해하는 사회적 관습법([[concept-themis|Themis]])조차 묵살한 냉혹함을 비판하며, 포이닉스는 신들의 화해 규범을 어긴 맹목적 광기(**아테, Atê**)의 파멸을 경고합니다. 이 고집은 결국 가장 사랑하는 전우 파트로클로스의 죽음이라는 파국(Hamartia, ἁμαρτία)을 초래합니다.
-- **신화시학적 불멸명성론 ([[nagy-1979-best-of-the-achaeans|Nagy 1979]], Slatkin 1991)**:
+- **신화시학적 불멸명성론 ([[nagy-1979-best-of-achaeans|Nagy 1979]], Slatkin 1991)**:
   아킬레우스의 목표는 보상 체계의 탈출이 아닙니다. 유한한 세속적 전리품을 포기하는 대가로, 영원히 노래될 서사시 전통 속에서 **'불멸의 명성([[concept-kleos|Kleos Aphthiton]])'**을 획득하려는 명예 체계의 궁극적 극대화입니다.
 
 #### 4. 18~22권: 도덕적 상해(Moral Injury)와 탈인간화(Dehumanization) ([[shay-1994-achilles-in-vietnam|Shay 1994]], [[lee-junseok-2024-iliad-jeongam|이준석 2024]])
@@ -473,6 +474,7 @@ graph TD
 - [[dodds-1951-greeks-and-irrational]] — E. R. 도즈: 그리스인들과 비합리적인 것 (수치 문화와 Atē 분석)
 - [[snell-1946-discovery-of-mind]] — 브루노 스넬: 정신의 발견 (호메로스 인체관 및 영혼 개념사)
 - [[redfield-1975-nature-and-culture]] — 제임스 레드필드: 일리아스의 자연과 문화 (헥토르의 비극과 문화의 파탄)
+- [[nagy-1979-best-of-achaeans]] — 그레고리 나기: 아카이아인들의 최고 영웅 (비에·메티스의 대비와 클레오스·노스토스의 신화시학)
 - [[shay-1994-achilles-in-vietnam]] — 조너선 셰이: 베트남의 아킬레우스 (테미스 배신, 도덕적 상해, 치유)
 - [[lloyd-jones-1971-justice-of-zeus]] — 휴 로이드-존스: 제우스의 정의 (호메로스 서사시의 우주적 정의 Dike)
 - [[macintyre-1981-after-virtue-ch10]] — 알래스데어 매킨타이어: 덕의 상실 10장 (역할에 정초된 덕과 서사적 통일성)

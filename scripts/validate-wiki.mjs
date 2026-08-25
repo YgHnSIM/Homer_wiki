@@ -1,6 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
-import { parseDocument } from "yaml"
+import { validateDocumentFrontmatter, validateFilename } from "./wiki-document-validation.mjs"
 
 const ROOT = process.cwd()
 const RED_LINK_POLICY_PATH = path.join(ROOT, "scripts", "allowed-red-links.json")
@@ -17,16 +17,6 @@ const ALLOWED_RED_LINKS = new Set(allowedRedLinkEntries)
 if (ALLOWED_RED_LINKS.size !== allowedRedLinkEntries.length) {
   throw new Error(`${RED_LINK_POLICY_PATH}에 중복된 대상이 있습니다.`)
 }
-const REQUIRED_FRONTMATTER = [
-  "title",
-  "aliases",
-  "tags",
-  "created",
-  "updated",
-  "sources",
-  "status",
-]
-const VALID_STATUSES = new Set(["draft", "active", "review", "archived"])
 const RELATED_EXCEPTIONS = new Set(["wiki/log.md"])
 const PATH_LINK_EXCEPTIONS = new Set([
   "wiki/index",
@@ -54,12 +44,6 @@ function walkMarkdown(directory) {
     })
 }
 
-function extractFrontmatter(markdown) {
-  const match = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/)
-  if (!match) return null
-  return { raw: match[1] }
-}
-
 function linesOutsideFences(markdown) {
   const result = []
   let inFence = false
@@ -71,52 +55,6 @@ function linesOutsideFences(markdown) {
     if (!inFence) result.push({ line, lineNumber: index + 1 })
   }
   return result
-}
-
-function expectedTypeTag(relativePath) {
-  if (relativePath === "index.md") return "type/meta"
-  if (/^wiki\/(?:index|overview|log)\.md$/.test(relativePath)) return "type/meta"
-  if (relativePath.startsWith("wiki/meta/")) return "type/meta"
-  if (relativePath.startsWith("wiki/analyses/")) return "type/analysis"
-  if (relativePath.startsWith("wiki/concepts/")) return "type/concept"
-  if (relativePath.startsWith("wiki/entities/")) return "type/entity"
-  if (relativePath.startsWith("wiki/sources/")) return "type/source"
-  if (relativePath === "words/index.md") return "type/meta"
-  if (relativePath.startsWith("words/")) return "type/word"
-  return null
-}
-
-function validateFilename(relativePath, addError) {
-  const name = path.posix.basename(relativePath)
-  if (relativePath.startsWith("wiki/concepts/") && !/^concept-[a-z0-9-]+\.md$/.test(name)) {
-    addError(relativePath, "개념 파일명이 concept-<name>.md 규칙과 다릅니다.")
-  }
-  if (
-    relativePath.startsWith("wiki/entities/") &&
-    name !== "_template.md" &&
-    !/^entity-[a-z0-9-]+\.md$/.test(name)
-  ) {
-    addError(relativePath, "엔티티 파일명이 entity-<name>.md 규칙과 다릅니다.")
-  }
-  if (
-    relativePath.startsWith("wiki/analyses/") &&
-    !/^analysis-[a-z0-9-]+\.md$/.test(name)
-  ) {
-    addError(relativePath, "분석 파일명이 analysis-<title>.md 규칙과 다릅니다.")
-  }
-  if (
-    relativePath.startsWith("wiki/sources/") &&
-    !/^[a-z0-9-]+-\d{4}-[a-z0-9-]+\.md$/.test(name)
-  ) {
-    addError(relativePath, "소스 파일명이 <author>-<year>-<title>.md 규칙과 다릅니다.")
-  }
-  if (
-    relativePath.startsWith("words/") &&
-    !["index.md", "_template.md"].includes(name) &&
-    !/^word-[a-z0-9-]+\.md$/.test(name)
-  ) {
-    addError(relativePath, "단어 파일명이 word-<name>.md 규칙과 다릅니다.")
-  }
 }
 
 const contentFiles = [path.join(ROOT, "index.md"), ...walkMarkdown(path.join(ROOT, "wiki")), ...walkMarkdown(path.join(ROOT, "words"))]
@@ -164,103 +102,13 @@ function targetsIn(markdown) {
 
 for (const { relativePath, markdown } of records) {
   validateFilename(relativePath, addError)
-  const frontmatterBlock = extractFrontmatter(markdown)
-  if (frontmatterBlock === null) {
-    addError(relativePath, "표준 YAML 프론트매터가 없습니다.")
-    continue
-  }
-
-  const yamlDocument = parseDocument(frontmatterBlock.raw, {
-    prettyErrors: true,
-    uniqueKeys: true,
+  const hasFrontmatter = validateDocumentFrontmatter({
+    root: ROOT,
+    relativePath,
+    markdown,
+    addError,
   })
-  for (const error of yamlDocument.errors) {
-    addError(relativePath, `YAML 파싱 오류: ${error.message.replace(/\s+/g, " ")}`)
-  }
-
-  let frontmatter = null
-  if (yamlDocument.errors.length === 0) {
-    const parsed = yamlDocument.toJS()
-    if (parsed === null || typeof parsed !== "object" || Array.isArray(parsed)) {
-      addError(relativePath, "프론트매터 최상위 값은 YAML mapping이어야 합니다.")
-    } else {
-      frontmatter = parsed
-    }
-  }
-
-  if (frontmatter !== null) {
-    for (const field of REQUIRED_FRONTMATTER) {
-      if (!Object.hasOwn(frontmatter, field)) {
-        addError(relativePath, `프론트매터 필수 필드 ${field}가 없습니다.`)
-      }
-    }
-
-    if (Object.hasOwn(frontmatter, "title") && typeof frontmatter.title !== "string") {
-      addError(relativePath, "title은 문자열이어야 합니다.")
-    }
-    for (const sequenceField of ["aliases", "tags", "sources"]) {
-      if (Object.hasOwn(frontmatter, sequenceField) && !Array.isArray(frontmatter[sequenceField])) {
-        addError(relativePath, `${sequenceField}는 YAML sequence여야 합니다.`)
-      }
-    }
-
-    const isTemplate = path.posix.basename(relativePath) === "_template.md"
-    const created = frontmatter.created
-    const updated = frontmatter.updated
-    const datePattern = /^\d{4}-\d{2}-\d{2}$/
-    if (!isTemplate && Object.hasOwn(frontmatter, "created") && (typeof created !== "string" || !datePattern.test(created))) {
-      addError(relativePath, `created 날짜가 YYYY-MM-DD 문자열 형식이 아닙니다: ${String(created)}`)
-    }
-    if (!isTemplate && Object.hasOwn(frontmatter, "updated") && (typeof updated !== "string" || !datePattern.test(updated))) {
-      addError(relativePath, `updated 날짜가 YYYY-MM-DD 문자열 형식이 아닙니다: ${String(updated)}`)
-    }
-    if (!isTemplate && datePattern.test(created ?? "") && datePattern.test(updated ?? "") && updated < created) {
-      addError(relativePath, `updated(${updated})가 created(${created})보다 이릅니다.`)
-    }
-
-    const status = frontmatter.status
-    const tags = Array.isArray(frontmatter.tags) ? frontmatter.tags : []
-    if (Object.hasOwn(frontmatter, "status") && typeof status !== "string") {
-      addError(relativePath, "status는 문자열이어야 합니다.")
-    } else if (status && !VALID_STATUSES.has(status)) {
-      addError(relativePath, `허용되지 않은 status입니다: ${status}`)
-    }
-    if (typeof status === "string" && !tags.includes(`status/${status}`)) {
-      addError(relativePath, `status/${status} 태그가 status 필드와 동기화되지 않았습니다.`)
-    }
-    const typeTag = expectedTypeTag(relativePath)
-    if (typeTag && !tags.includes(typeTag)) addError(relativePath, `${typeTag} 태그가 없습니다.`)
-
-    if (Array.isArray(frontmatter.sources)) {
-      const sources = frontmatter.sources
-      if (sources.some((source) => typeof source !== "string")) {
-        addError(relativePath, "sources 항목은 모두 문자열이어야 합니다.")
-      } else if (relativePath.startsWith("wiki/sources/")) {
-        const sourcesLine = frontmatterBlock.raw.match(/^sources:\s*(.*)$/m)?.[1]?.trim() ?? ""
-        if (sources.some((source) => /\.pdf\b/i.test(source) || /^https?:\/\//.test(source))) {
-          if (!/^\[\s*(["']).*\1\s*\]$/s.test(sourcesLine)) {
-            addError(relativePath, "소스 페이지의 PDF명·URL은 YAML flow sequence 안에서 인용해야 합니다.")
-          }
-        }
-        for (const source of sources) {
-          if (/^https?:\/\//.test(source)) continue
-          if (source && !fs.existsSync(path.join(ROOT, "raw", source))) {
-            addError(relativePath, `raw 원본을 찾을 수 없습니다: ${source}`)
-          }
-        }
-      } else if (
-        relativePath.startsWith("wiki/concepts/") ||
-        relativePath.startsWith("wiki/entities/") ||
-        relativePath.startsWith("wiki/analyses/")
-      ) {
-        for (const source of sources) {
-          if (source && !fs.existsSync(path.join(ROOT, "wiki", "sources", source))) {
-            addError(relativePath, `wiki/sources 문서를 찾을 수 없습니다: ${source}`)
-          }
-        }
-      }
-    }
-  }
+  if (!hasFrontmatter) continue
 
   const outside = linesOutsideFences(markdown)
   const h2Headings = outside.filter(({ line }) => /^## /.test(line)).map(({ line }) => line.trim())

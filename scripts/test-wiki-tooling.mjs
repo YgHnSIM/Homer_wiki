@@ -30,6 +30,12 @@ function assertFailure(result, expectedMessage) {
   }
 }
 
+function assertSuccess(result, context) {
+  if (result.status !== 0) {
+    throw new Error(`${context}\n${result.stdout}\n${result.stderr}`)
+  }
+}
+
 try {
   fs.copyFileSync(path.join(PROJECT_ROOT, "index.md"), path.join(sandbox, "index.md"))
   for (const directory of ["wiki", "words", "raw"]) {
@@ -52,6 +58,117 @@ try {
   assertFailure(run(VALIDATOR), "YAML 파싱 오류")
   fs.writeFileSync(conceptPath, originalConcept)
 
+  const sourceName = fs
+    .readdirSync(path.join(sandbox, "wiki", "sources"))
+    .find((name) => name.endsWith(".md"))
+  if (sourceName === undefined) throw new Error("Source-integrity test requires one source page.")
+  const sourcePath = path.join(sandbox, "wiki", "sources", sourceName)
+  const originalSource = fs.readFileSync(sourcePath, "utf8")
+
+  // Given: a source page points to neither an HTTP(S) URL nor a file under raw/.
+  fs.writeFileSync(
+    sourcePath,
+    originalSource.replace(/^sources:.*$/m, "sources: [not-a-real-source]"),
+  )
+  // When: the repository validator checks the source page.
+  const invalidSourceResult = run(VALIDATOR)
+  // Then: the unresolvable value is rejected instead of bypassing existence checks.
+  assertFailure(invalidSourceResult, "raw 원본을 찾을 수 없습니다: not-a-real-source")
+  fs.writeFileSync(sourcePath, originalSource)
+
+  fs.writeFileSync(
+    sourcePath,
+    originalSource.replace(/^sources:.*$/m, "sources: [HTTPS://example.com/source]"),
+  )
+  assertFailure(
+    run(VALIDATOR),
+    "소스 페이지의 쉼표 포함 값·PDF명·URL은 항목별로 인용해야 합니다.",
+  )
+
+  fs.writeFileSync(
+    sourcePath,
+    originalSource.replace(/^sources:.*$/m, 'sources: ["https://example.com/source"]'),
+  )
+  assertSuccess(run(VALIDATOR), "A quoted HTTPS source should pass validation.")
+
+  fs.writeFileSync(
+    sourcePath,
+    originalSource.replace(
+      /^sources:.*$/m,
+      'sources: ["https://a.example/source", HTTPS://b.example/source, "https://c.example/source"]',
+    ),
+  )
+  assertFailure(
+    run(VALIDATOR),
+    "소스 페이지의 쉼표 포함 값·PDF명·URL은 항목별로 인용해야 합니다.",
+  )
+
+  fs.writeFileSync(
+    sourcePath,
+    originalSource.replace(/^sources:.*$/m, 'sources: ["README.md"]'),
+  )
+  assertSuccess(run(VALIDATOR), "An existing file under raw/ should pass validation.")
+
+  fs.writeFileSync(
+    sourcePath,
+    originalSource.replace(/^sources:.*$/m, 'sources: ["../wiki/log.md"]'),
+  )
+  assertFailure(run(VALIDATOR), "raw 원본을 찾을 수 없습니다: ../wiki/log.md")
+
+  fs.writeFileSync(
+    sourcePath,
+    originalSource.replace(/^sources:.*$/m, "sources: [assets]"),
+  )
+  assertFailure(run(VALIDATOR), "raw 원본을 찾을 수 없습니다: assets")
+
+  const externalRawDirectory = path.join(sandbox, "outside-raw")
+  fs.mkdirSync(externalRawDirectory)
+  fs.writeFileSync(path.join(externalRawDirectory, "external.pdf"), "not actually under raw")
+  fs.symlinkSync(
+    externalRawDirectory,
+    path.join(sandbox, "raw", "external-assets"),
+    process.platform === "win32" ? "junction" : "dir",
+  )
+  fs.writeFileSync(
+    sourcePath,
+    originalSource.replace(/^sources:.*$/m, 'sources: ["external-assets/external.pdf"]'),
+  )
+  assertFailure(
+    run(VALIDATOR),
+    "raw 원본을 찾을 수 없습니다: external-assets/external.pdf",
+  )
+  fs.writeFileSync(sourcePath, originalSource)
+
+  const entityName = fs
+    .readdirSync(path.join(sandbox, "wiki", "entities"))
+    .find((name) => name.startsWith("entity-") && name.endsWith(".md"))
+  if (entityName === undefined) throw new Error("Source-reference test requires one entity page.")
+  const entityPath = path.join(sandbox, "wiki", "entities", entityName)
+  const originalEntity = fs.readFileSync(entityPath, "utf8")
+  fs.writeFileSync(
+    entityPath,
+    originalEntity.replace(/^sources:.*$/m, "sources: [../log.md]"),
+  )
+  assertFailure(run(VALIDATOR), "wiki/sources 문서를 찾을 수 없습니다: ../log.md")
+
+  fs.writeFileSync(entityPath, originalEntity.replace(/^sources:.*$/m, 'sources: [""]'))
+  assertFailure(run(VALIDATOR), "wiki/sources 문서를 찾을 수 없습니다:")
+
+  const nestedSourceDirectory = path.join(sandbox, "wiki", "sources", "nested")
+  fs.mkdirSync(nestedSourceDirectory)
+  fs.copyFileSync(sourcePath, path.join(nestedSourceDirectory, sourceName))
+  const backslashSource = `nested\\${sourceName}`
+  fs.writeFileSync(
+    entityPath,
+    originalEntity.replace(/^sources:.*$/m, `sources: [${backslashSource}]`),
+  )
+  assertFailure(
+    run(VALIDATOR),
+    `wiki/sources 문서를 찾을 수 없습니다: ${backslashSource}`,
+  )
+  fs.rmSync(nestedSourceDirectory, { recursive: true })
+  fs.writeFileSync(entityPath, originalEntity)
+
   const indexPath = path.join(sandbox, "wiki", "index.md")
   const originalIndex = fs.readFileSync(indexPath, "utf8")
   fs.writeFileSync(
@@ -70,7 +187,34 @@ try {
     throw new Error(`Matrix builder omitted a newly indexed concept.\n${matrixResult.stderr}`)
   }
 
-  console.log("Wiki tooling regression tests passed: red-link policy, YAML parsing, dynamic concepts.")
+  const relatedOnlySourceId = "tooling-2000-related-only"
+  fs.writeFileSync(
+    path.join(sandbox, "wiki", "sources", `${relatedOnlySourceId}.md`),
+    '---\naliases: [concept-menis]\nkey_concepts: ["[[concept-aidos|Aidos]]"]\nsources: []\n---\n\n## 관련 항목\n\n- [[concept-menis|메니스]]\n',
+  )
+  fs.writeFileSync(
+    indexPath,
+    fs.readFileSync(indexPath, "utf8").replace(
+      /^## 소스 문서\s*$/m,
+      `## 소스 문서\n\n- [[${relatedOnlySourceId}|도구 2000]]`,
+    ),
+  )
+  const relatedOnlyResult = run(MATRIX_BUILDER)
+  const relatedOnlyRow = relatedOnlyResult.stdout
+    .split(/\r?\n/)
+    .find((line) => line.includes(`[[${relatedOnlySourceId}\\|`))
+  if (
+    relatedOnlyResult.status !== 0 ||
+    !relatedOnlyRow?.match(/\]\] \| — \| — \| 언급 \|/)
+  ) {
+    throw new Error(
+      `Matrix builder treated a related-item link as evidence.\n${relatedOnlyResult.stdout}\n${relatedOnlyResult.stderr}`,
+    )
+  }
+
+  console.log(
+    "Wiki tooling regression tests passed: red-link policy, YAML parsing, source integrity, dynamic concepts, evidence boundaries.",
+  )
 } finally {
   fs.rmSync(sandbox, { recursive: true, force: true })
 }

@@ -3,7 +3,7 @@ title: 위키 색인
 aliases: [전체 목록, 인덱스, 파일 목차, 호메로스 위키 전체 카탈로그]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-08-24
+updated: 2026-08-25
 sources: []
 status: active
 ---
@@ -43,14 +43,18 @@ status: active
 - [[scott-1982-philos-philotes-xenia|메리 스콧, 필로스·필로테스·크세니아 (1982)]]
 - [[lee-junseok-2018-wrath-and-pity|이준석, 분노의 서사시, 연민의 서사시 (2018)]]
 - [[lee-junseok-2016-odyssey-humanity|이준석, 호메로스의 휴머니티 (2016)]]
+- [[detienne-1974-cunning-intelligence|마르셀 드티엔·장-피에르 베르낭, 그리스인들의 메티스 (1974)]]
+- [[bittlestone-2005-odysseus-unbound|로버트 비틀스톤 외, 오디세우스 언바운드 (2005)]]
+- [[nagy-1979-best-of-achaeans|그레고리 나기, 아카이아인들의 최고 영웅 (1979)]]
 
 ---
 
 ## 인물
 
 - [[entity-achilles|아킬레우스]] (Achilles) — *일리아스*의 주인공, 메니스와 엘레오스의 영웅
+- [[entity-odysseus|오디세우스]] (Odysseus) — *오뒷세이아*의 주인공, 메티스와 노스토스의 영웅
 
-작성 예정 (링크 없음): 오디세우스, 헥토르, 제우스.
+작성 예정 (링크 없음): 헥토르, 제우스.
 
 ---
 
