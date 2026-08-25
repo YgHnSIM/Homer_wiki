@@ -122,7 +122,7 @@ Base unit: 4px.
 ### Mermaid
 
 - Max width 100%; horizontal pan on small screens; node labels short (prefer Latin/Greek lemma over long Korean sentences).
-- Light and dark modes remap generated SVG fills, borders, labels, and edge markers to the corresponding Quartz tokens so colors never leak across themes. Semantic class definitions retain stroke width in Mermaid, while CSS owns the theme-aware fills and text colors; Greek/Latin/English accents stay distinct but subdued.
+- Light and dark modes remap generated SVG fills, borders, labels, and edge markers to the corresponding Quartz tokens so colors never leak across themes. Timeline sections with dark generated fills use a separate theme-aware foreground token for label contrast. Semantic class definitions retain stroke width in Mermaid, while CSS owns the theme-aware fills and text colors; Greek/Latin/English accents stay distinct but subdued.
 
 ### Interactive geographic map
 

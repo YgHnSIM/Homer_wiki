@@ -12,6 +12,7 @@
   --codeFont: "IBM Plex Mono", "Noto Serif", "Noto Serif KR", ui-monospace, monospace !important;
   --dictionaryGreekFont: "Noto Serif", "Noto Serif KR", serif !important;
   --mermaid-node-text: #1d2021;
+  --mermaid-timeline-dark-text: var(--light);
   --mermaid-greek-fill: #f5eee6;
   --mermaid-greek-stroke: #8f3f2d;
   --mermaid-latin-fill: #edf2f7;
@@ -344,6 +345,17 @@ table {
     color: var(--mermaid-node-text) !important;
     fill: var(--mermaid-node-text) !important;
   }
+
+  // Mermaid's first two timeline sections use dark fills even in light mode.
+  // Give their labels a theme-aware light/dark foreground instead of the
+  // global body-colored Mermaid text.
+  .timeline-node.section-0 text,
+  .timeline-node.section-0 tspan,
+  .timeline-node.section-1 text,
+  .timeline-node.section-1 tspan {
+    color: var(--mermaid-timeline-dark-text) !important;
+    fill: var(--mermaid-timeline-dark-text) !important;
+  }
 }
 
 // Mermaid serializes classDef colors into each SVG, so the light-mode fills
@@ -351,6 +363,7 @@ table {
 // source classDef declarations, which Mermaid writes as inline !important CSS.
 html[saved-theme="dark"] {
   --mermaid-node-text: var(--dark);
+  --mermaid-timeline-dark-text: var(--dark);
   --mermaid-greek-fill: color-mix(in srgb, var(--secondary) 22%, var(--light));
   --mermaid-greek-stroke: var(--secondary);
   --mermaid-latin-fill: color-mix(in srgb, var(--gray) 24%, var(--light));
