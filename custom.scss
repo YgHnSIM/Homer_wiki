@@ -248,6 +248,12 @@ table {
   }
 }
 
+body[data-slug="wiki/entities/entity-achilles"] {
+  .mermaid svg {
+    max-width: min(100%, 30rem) !important;
+  }
+}
+
 body[data-slug="404"] {
   .article-title,
   .content-meta {
