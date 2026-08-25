@@ -3,7 +3,7 @@ title: 호메로스 위키 (Homer Wiki)
 aliases: [Homer Wiki, 호메로스 디지털 가든]
 tags: [type/meta, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
-updated: 2026-08-24
+updated: 2026-08-25
 sources: []
 status: active
 ---
@@ -27,6 +27,7 @@ status: active
 ### 인물
 
 - [[entity-achilles|아킬레우스 (Achilles)]] — 메니스(분노)에서 엘레오스(연민)로 이행하는 *일리아스*의 중심 영웅
+- [[entity-odysseus|오디세우스 (Odysseus)]] — 메티스와 노스토스를 통해 귀향과 왕권 회복을 수행하는 *오뒷세이아*의 중심 영웅
 
 ### 개념
 

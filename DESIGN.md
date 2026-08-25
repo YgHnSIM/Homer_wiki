@@ -108,8 +108,8 @@ Base unit: 4px.
 ### Concept constellation
 
 - **Where**: `wiki/overview.md`, first map after the intro.
-- **Nodes**: the eight written concepts plus Achilles. Fixed mermaid flowchart, not a force graph.
-- **Edges**: subgraphs keep pairs side by side (aidos–nemesis, hikesia–xenia) and the Iliad arc in one row (menis → Achilles → eleos). Remaining solids: concepts realized in Achilles; epic-cycle as a frame.
+- **Nodes**: the eight written concepts plus Achilles and Odysseus. Fixed mermaid flowchart, not a force graph.
+- **Edges**: subgraphs keep pairs side by side (aidos–nemesis, hikesia–xenia), the Iliad arc in one row (menis → Achilles → eleos), and the Odyssey association (xenia—Odysseus). Remaining solids: concepts realized in Achilles; epic-cycle as a frame.
 - **Rules**: short labels, no markdown list markers in nodes, no wikilinks inside mermaid. Legend under the diagram carries the wikilinks. Default mermaid palette; do not add a second accent.
 
 ### Concept × source matrix

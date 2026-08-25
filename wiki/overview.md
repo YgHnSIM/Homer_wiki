@@ -3,7 +3,7 @@ title: 서사시 개요
 aliases: [홈페이지, 메인 대시보드, 호메로스 위키 홈, Overview]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-08-24
+updated: 2026-08-25
 sources: []
 status: active
 ---
@@ -16,7 +16,7 @@ status: active
 
 ## 개념 성좌
 
-작성된 개념 여덟과 [[entity-achilles|아킬레우스]]만 그립니다. 자리는 고정입니다. 점 그래프처럼 밀고 당기지 않습니다.
+작성된 개념 여덟과 대표 인물 [[entity-achilles|아킬레우스]], [[entity-odysseus|오디세우스]]를 그립니다. 자리는 고정입니다. 점 그래프처럼 밀고 당기지 않습니다.
 
 ```mermaid
 flowchart LR
@@ -34,6 +34,10 @@ flowchart LR
     Menis["메니스"] --> Ach["아킬레우스"] --> Eleos["엘레오스"]
   end
 
+  subgraph nostosArc["오뒷세이아의 축"]
+    Xenia --- Ody["오디세우스"]
+  end
+
   Agathos["아가토스"] --- Ach
   Cycle --- Menis
   Cycle --- Xenia
@@ -47,7 +51,7 @@ flowchart LR
 - [[concept-epic-cycle|서사시환]]은 테두리입니다. 일리아스 쪽은 메니스, 오뒷세이아 쪽은 크세니아로 잇습니다.
 - 그림에 없는 겹침: 아이도스·히케시아·엘레오스는 24권 탄원에서 한 장면에 모입니다. 선이 그림을 가로지르지 않게 범례에만 적습니다.
 
-아직 없는 표제어(아레테, 클레오스, 티메, 디케, 노스토스, 모이라 등)와 헥토르·오디세우스는 자리가 비어 있습니다. 문서가 생기면 이 그림에 올립니다.
+이 지도는 대표 개념과 두 주인공의 연결을 간략히 표시합니다. 전체 문서 목록은 [[wiki/index|위키 색인]]에서 확인합니다.
 
 ---
 
@@ -55,14 +59,14 @@ flowchart LR
 
 트로이 전쟁 10년 차, 아킬레우스의 분노(Mênis, μῆνις)와 약 51일간의 사건.
 
-- 중심 인물: 아킬레우스. 헥토르, 아가멤논, 오디세우스, 파트로클로스, 프리아모스는 아직 독립 항목이 없습니다.
+- 중심 인물: 아킬레우스. 다른 인물 문서의 작성 현황은 [[wiki/index#인물|위키 색인]]에서 확인합니다.
 - 서사를 밀어 가는 개념: 메니스, 히케시아, 엘레오스, 아이도스
 
 ## 오뒷세이아 (Odyssey)
 
 트로이 함락 뒤 오디세우스의 귀향(Nostos, νόστος)과 이타카의 복수.
 
-- 오디세우스, 페넬로페, 텔레마코스 항목은 아직 없습니다.
+- 중심 인물: 오디세우스. 관련 인물 문서의 작성 현황은 [[wiki/index#인물|위키 색인]]에서 확인합니다.
 - 관련 개념: 크세니아, 히케시아, 아이도스
 
 ---
@@ -86,6 +90,7 @@ flowchart LR
 - [[words/index|어원 사전]]
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]
 - [[analysis-concept-source-matrix|개념과 문헌]]
+- [[entity-odysseus|오디세우스]]
 
 ## 관련 항목
 

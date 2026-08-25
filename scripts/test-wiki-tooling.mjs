@@ -171,6 +171,40 @@ try {
 
   const indexPath = path.join(sandbox, "wiki", "index.md")
   const originalIndex = fs.readFileSync(indexPath, "utf8")
+
+  const unlistedEntityId = "entity-tooling-person"
+  fs.writeFileSync(
+    path.join(sandbox, "wiki", "entities", `${unlistedEntityId}.md`),
+    [
+      "---",
+      "title: 도구 인물",
+      "aliases: [Tooling Person]",
+      "tags: [type/entity, domain/mythology, status/active]",
+      "created: 2026-08-25",
+      "updated: 2026-08-25",
+      "sources: []",
+      "status: active",
+      "---",
+      "",
+      "# 도구 인물",
+      "",
+      "## 관련 항목",
+    ].join("\n"),
+  )
+  fs.writeFileSync(
+    indexPath,
+    originalIndex.replace(
+      /^## 인물\s*$/m,
+      `## 인물\n\n- [[${unlistedEntityId}|도구 인물]]`,
+    ),
+  )
+  assertFailure(
+    run(VALIDATOR),
+    `공개 입구 문서의 인물 목록에서 엔티티가 누락되었습니다: ${unlistedEntityId}`,
+  )
+  fs.rmSync(path.join(sandbox, "wiki", "entities", `${unlistedEntityId}.md`))
+  fs.writeFileSync(indexPath, originalIndex)
+
   fs.writeFileSync(
     indexPath,
     originalIndex.replace(
