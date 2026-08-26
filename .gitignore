@@ -11,6 +11,7 @@ test-quartz/
 quartz-test/
 public/
 scratch/
+screenshot-*.png
 
 # OS specific
 .DS_Store

@@ -1485,9 +1485,9 @@ status: active
 
 ---
 
-## [2026-08-27] refactor(meta) | 폴더 목록 및 최근 수정 날짜 은폐 및 표제어 단일 행 최적화
+## [2026-08-27] refactor(meta) | 폴더 목록 및 최근 수정 날짜·태그 은폐 및 표제어 단일 행 최적화
 
-- **요청**: 모바일 화면 하단의 폴더 페이지 목록(`page-listing`, `section-ul`)에서 날짜(`2026년 8월 26일` 등)가 좌측 폭을 차지하여 인명/문서 표제어(`Achilles (아킬레우스)` 등)가 줄바꿈되는 문제를 해결함.
-- **수정**: `custom.scss`에서 `.page-listing` 및 `.recent-notes`의 날짜 메타데이터(`.meta`, `p.meta`, `time`, `.date`)를 `display: none !important`로 은폐하고, `.desc` 및 링크 영역에 `100%` 너비와 `white-space: nowrap !important; word-break: keep-all !important;`를 적용하여 단일 행으로 깔끔하게 표시되도록 최적화함.
-- **검증**: `npm run check` 통과 및 실제 Chrome 브라우저(CDP 모바일 375x812 뷰포트) 실측 렌더링 캡처로 날짜 완전 은폐 및 표제어 단일 행 배치 시각 검증 완료.
+- **요청**: 모바일 화면 하단의 폴더 페이지 목록(`page-listing`, `section-ul`)에서 날짜와 태그 배지들(`#type/word`, `#domain/etymology` 등)이 공간을 차지하는 문제를 해결하고, 표제어만 깔끔하게 단일 행으로 표시되도록 최적화함.
+- **수정**: `custom.scss`에서 `.page-listing` 및 `.recent-notes` 내 날짜 메타데이터(`.meta`, `p.meta`, `time`, `.date`)와 태그 목록(`ul.tags`, `.tags`)을 `display: none !important`로 은폐하고, `.desc` 링크 영역에 `100%` 너비와 `white-space: nowrap !important; word-break: keep-all !important;`를 적용함.
+- **검증**: `npm run check` 통과 및 실제 Chrome 브라우저(CDP 모바일 375x812 뷰포트) 실측 렌더링 캡처로 날짜·태그 완전 은폐 및 표제어 단일 행 표시 시각 검증 완료.
 

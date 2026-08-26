@@ -276,18 +276,10 @@ a.tag,
     }
   }
 
-  ul.tags {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 0.35rem !important;
-    padding-left: 0 !important;
-    margin: 0.2rem 0 0 0 !important;
-    list-style: none !important;
-
-    li {
-      margin: 0 !important;
-      padding: 0 !important;
-    }
+  // Hide tags in listings for a clean, compact view
+  ul.tags,
+  .tags {
+    display: none !important;
   }
 
   ul.section-ul,
@@ -298,7 +290,7 @@ a.tag,
 
     li.section-li,
     li.recent-li {
-      margin: 0.5rem 0 !important;
+      margin: 0.35rem 0 !important;
       line-height: 1.4 !important;
     }
   }
