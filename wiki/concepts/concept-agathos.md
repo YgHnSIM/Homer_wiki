@@ -1,18 +1,26 @@
 ---
 title: 아가토스 (Agathos)
-aliases: [Agathos, ἀγαθός, 아가토스, 아가토이, Agathoi, 아리스토스, Aristos, 탁월한 자, 아가토스 (Agathos / ἀγαθός) — 영웅적 탁월성과 결과주의적 성공의 귀족 규범]
+aliases: [Agathos, ἀγαθός, agathós, 아가토스, 아가토이, Agathoi, 아리스토스, Aristos, 탁월한 자, "아가토스 (Agathos, ἀγαθός) — 영웅적 탁월성과 결과주의적 성공의 귀족 규범", 아가토스 (Agathos / ἀγαθός) — 영웅적 탁월성과 결과주의적 성공의 귀족 규범]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-24
+updated: 2026-08-26
 sources: [scott-1979-pity-and-pathos.md, scott-1981-some-greek-terms.md, adkins-1960-merit-and-responsibility.md, scott-1982-philos-philotes-xenia.md, long-1970-morals-and-values.md, macintyre-1981-after-virtue-ch10.md, williams-1993-shame-and-necessity.md, lee-junseok-2024-iliad-jeongam.md]
 status: active
+korean_name: 아가토스
+conventional_latin: Agathos
+greek: "ἀγαθός"
+transliteration: "agathós"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
 ---
 
-# 아가토스 (Agathos, ἀγαθός) — 영웅적 탁월성과 결과주의적 성공의 귀족 규범
+# 아가토스 (Agathos)
+
+**[[greek-reading-guide|읽는 법]]**: 아가토스 · **원어**: ἀγαθός · **학술 전사**: *agathós*
 
 ## 1. 개념 정의 및 문헌학적·사회적 위상
 
-**아가토스(Agathos, ἀγαθός / 복수형 아가토이, Agathoi, ἀγαθοί)**는 호메로스 서사시와 아르카익 그리스 사회에서 현대적 의미의 '도덕적으로 착한 사람(morally good)'을 뜻하지 않습니다.
+**아가토스(ἀγαθός, *agathós*; 관용 라틴명 Agathos / 복수형 아가토이, Agathoi, ἀγαθοί)**는 호메로스 서사시와 아르카익 그리스 사회에서 현대적 의미의 '도덕적으로 착한 사람(morally good)'을 뜻하지 않습니다.
 
 고대 영웅 사회에서 아가토스는 **'군사적 무용([[concept-arete|Arete]]), 고귀한 혈통, 막대한 부와 명예([[concept-time|Timê]])를 갖추고 공동체와 가문([[concept-oikos|Oikos]])을 수호하는 데 성공한 탁월한 귀족 전사(Noble warrior-chieftain)'**를 가리키는 최고의 가치 칭찬어였습니다 ([[adkins-1960-merit-and-responsibility|Adkins 1960]]).
 
@@ -27,14 +35,14 @@ status: active
 
 호메로스 그리스어에서 *agathos*는 보충 어간을 통해 다채로운 비교급과 최상급을 형성하며, 이는 고대 귀족 지배층의 계급적·이데올로기적 정체성과 직결됩니다:
 
-| 등급 | 희랍어 어휘 | 어원 및 문헌학적 의미 | 현대적 파생 개념 |
-|:---|:---|:---|:---|
-| **원급** | **Agathos (ἀγαθός)** / **Esthlos (ἐσθλός)** | 훌륭한, 유능한, 고귀한, 용맹한 귀족 전사. | — |
-| **비교급 (1)** | **Ameinōn (ἀμείνων)** | 더 유익하고 탁월한, 더 뛰어난 전투 능력을 지닌. | — |
-| **비교급 (2)** | **Kreissōn (κρείσσων)** | 더 강력한, 힘과 지위에서 우위에 선 (*kratos* 파생). | 민주정(Democracy)의 *-cracy* |
-| **최상급 (1)** | **Aristos (ἄριστος)** | **가장 탁월한 자, 최고의 영웅** (*aristeia* / *arete* 동계). | **귀족정(Aristocracy)**, 영웅적 무용담(*Aristeia*) |
-| **최상급 (2)** | **Kratistos (κράτιστος)** | 가장 압도적인 물리적 완력과 지배력을 행사하는 자. | — |
-| **최상급 (3)** | **Beltistos (βέλτιστος)** | 가장 훌륭하고 유익한 자, 최선의 선택. | — |
+| 등급 | 관용 라틴명 | 희랍어 어휘 | 학술 전사 | 어원 및 문헌학적 의미 | 현대적 파생 개념 |
+|:---|:---|:---|:---|:---|:---|
+| **원급** | **Agathos / Esthlos** | **ἀγαθός / ἐσθλός** | *agathós / esthlós* | 훌륭한, 유능한, 고귀한, 용맹한 귀족 전사. | — |
+| **비교급 (1)** | **Ameinōn** | **ἀμείνων** | *ameínōn* | 더 유익하고 탁월한, 더 뛰어난 전투 능력을 지닌. | — |
+| **비교급 (2)** | **Kreissōn** | **κρείσσων** | *kreíssōn* | 더 강력한, 힘과 지위에서 우위에 선 (*kratos* 파생). | 민주정(Democracy)의 *-cracy* |
+| **최상급 (1)** | **Aristos** | **ἄριστος** | *áristos* | **가장 탁월한 자, 최고의 영웅** (*aristeia* / *arete* 동계). | **귀족정(Aristocracy)**, 영웅적 무용담(*Aristeia*) |
+| **최상급 (2)** | **Kratistos** | **κράτιστος** | *krátistos* | 가장 압도적인 물리적 완력과 지배력을 행사하는 자. | — |
+| **최상급 (3)** | **Beltistos** | **βέλτιστος** | *béltistos* | 가장 훌륭하고 유익한 자, 최선의 선택. | — |
 
 ---
 
@@ -42,12 +50,12 @@ status: active
 
 호메로스 텍스트에서 한 인물이 진정한 아가토스로 인정받기 위해서는 4가지 차원의 사회적·물리적 역량이 결합되어야 합니다:
 
-| 핵심 요건 | 희랍어 개념 | 문헌학적 정의 및 서사시 내 기능 | 결핍 시 결과 |
-|:---|:---|:---|:---|
-| **1. 전투력과 무용** | **아레테([[concept-arete\|Arete]])** | 적을 압도하고 전열의 맨 앞에 서서 승리를 이끄는 신체적·군사적 탁월성. | 전장에서의 패배, 무력함, 죽음. |
-| **2. 고귀한 혈통** | **에우게네이아(Eugêneia / εὐγενής)** | 신(Gods)이나 유력한 왕들의 혈통을 계승한 귀족적 신분 정당성. | 평민/하층민으로 취급, 발언권 상실. |
-| **3. 물질적 부와 명예** | **티메([[concept-time\|Timê]]) / 게라스(Geras)** | 많은 토지, 가축, 황금, 전리품을 소유하고 식솔을 부양할 수 있는 경제력. | 타인의 무시와 모욕([[concept-time\|티메 박탈]]). |
-| **4. 결과주의적 성공** | **에르곤(Ergon / ἔργον) 중심** | 실패에 대해 "의도는 좋았다"는 변명이 통하지 않는 절대적 성공 지향. | 비겁자·패배자 낙인(**카코스, [[concept-kakos\|Kakos]]**). |
+| 핵심 요건 | 관용 라틴명 | 희랍어 개념 | 학술 전사 | 문헌학적 정의 및 서사시 내 기능 | 결핍 시 결과 |
+|:---|:---|:---|:---|:---|:---|
+| **1. 전투력과 무용** | **Arete** ([[concept-arete\|Arete]]) | **ἀρετή** | *aretḗ* | 적을 압도하고 전열의 맨 앞에 서서 승리를 이끄는 신체적·군사적 탁월성. | 전장에서의 패배, 무력함, 죽음. |
+| **2. 고귀한 혈통** | **Eugeneia** | **εὐγενής** | *eugenḗs* | 신(Gods)이나 유력한 왕들의 혈통을 계승한 귀족적 신분 정당성. | 평민/하층민으로 취급, 발언권 상실. |
+| **3. 물질적 부와 명예** | **Timē / Geras** ([[concept-time\|Timê]]) | **τιμή / γέρας** | *timḗ / géras* | 많은 토지, 가축, 황금, 전리품을 소유하고 식솔을 부양할 수 있는 경제력. | 타인의 무시와 모욕([[concept-time\|티메 박탈]]). |
+| **4. 결과주의적 성공** | **Ergon** | **ἔργον** | *érgon* | 실패에 대해 "의도는 좋았다"는 변명이 통하지 않는 절대적 성공 지향. | 비겁자·패배자 낙인(**카코스, [[concept-kakos\|Kakos]]**). |
 
 ```mermaid
 graph TD

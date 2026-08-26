@@ -37,7 +37,7 @@ cssclasses: [greek-reading-page]
 
 | 그리스어 실제형 | 학술 전사 | 한국어 풀이 |
 |:---|:---|:---|
-| μῆνιν | mē\u0302nin | 분노를 |
+| μῆνιν | mē\u0302nin | 근거: [μῆνις](https://example.test/lexicon) |
 `
 
 const word = `---
@@ -59,6 +59,7 @@ cssclasses: [greek-reading-page]
 
 # Odyssey (오뒷세이아)
 **[[greek-reading-guide|읽는 법]]**: 오뒷세이아 · **원어**: Ὀδύσσεια · **학술 전사**: *Odússeia*
+> **요약**: 이 fixture는 메타 요약 블록에서 μῆνις를 허용해야 한다.
 `
 
 const entity = concept
@@ -104,6 +105,16 @@ function makeFixture() {
 function mutateFile(root, relativePath, transform) {
   const file = path.join(root, ...relativePath.split("/"))
   fs.writeFileSync(file, transform(fs.readFileSync(file, "utf8")))
+}
+
+function declareLegacySearchForms(root, relativePath, forms) {
+  const encodedForms = forms.map((value) => JSON.stringify(value)).join(", ")
+  mutateFile(root, relativePath, (text) => {
+    const aliasLine = text.match(/^aliases: \[[^\r\n]*\]$/m)?.[0]
+    assert.ok(aliasLine, `${relativePath}: fixture aliases line missing`)
+    const aliasesWithLegacyForms = `${aliasLine.slice(0, -1)}, ${encodedForms}]`
+    return text.replace(aliasLine, `${aliasesWithLegacyForms}\nlegacy_search_forms: [${encodedForms}]`)
+  })
 }
 
 function setLegacy(root, pages) {
@@ -183,6 +194,39 @@ try {
   assert.ok(inventory.summary.signals.linkAliasRuns > 0)
   assert.equal(inventory.summary.nfcViolations, 0)
   assert.deepEqual(codes(validRoot), [])
+  assert.deepEqual(validateRepository({ root: validRoot }).warnings, [])
+
+  const legacySearchForms = ["메니스 (μῆνις, Menis)", "메니스 (Menis) — legacy H1"]
+  const compatibilityRoot = makeFixture()
+  declareLegacySearchForms(compatibilityRoot, "wiki/concepts/concept-menis.md", legacySearchForms)
+  assert.deepEqual(codes(compatibilityRoot), [])
+  const missingLegacySearchFormRoot = makeFixture()
+  declareLegacySearchForms(missingLegacySearchFormRoot, "wiki/concepts/concept-menis.md", legacySearchForms)
+  mutateFile(missingLegacySearchFormRoot, "wiki/concepts/concept-menis.md", (text) => text.replace(`, ${JSON.stringify(legacySearchForms[0])}`, ""))
+  assert.ok(codes(missingLegacySearchFormRoot).includes("ALIASES_COMPATIBILITY"))
+
+  const unlabelledRoot = makeFixture()
+  mutateFile(unlabelledRoot, "index.md", (text) => `${text}\n\nμῆνις ἄειδε θεὰ Πηληϊάδεω\nθεοὶ πόληας ἐφορῶσι;\n`)
+  const unlabelledResult = validateRepository({ root: unlabelledRoot })
+  assert.deepEqual(unlabelledResult.errors, [])
+  assert.deepEqual(unlabelledResult.warnings.map(({ code }) => code), ["UNLABELLED_LONG_GREEK", "UNLABELLED_LONG_GREEK"])
+  const warningCli = spawnSync(process.execPath, [VALIDATION_CLI, "--strict"], { cwd: unlabelledRoot, encoding: "utf8" })
+  assert.equal(warningCli.status, 0, warningCli.stderr)
+  assert.match(warningCli.stderr, /warning\tUNLABELLED_LONG_GREEK/)
+  const calloutRoot = makeFixture()
+  mutateFile(calloutRoot, "words/word-odyssey.md", (text) => text.replace("이 fixture는 메타 요약 블록에서 μῆνις를 허용해야 한다.", "이 fixture는 메타 요약 블록에서 μῆνις ἄειδε θεὰ Πηληϊάδεω를 허용해야 한다."))
+  assert.deepEqual(validateRepository({ root: calloutRoot }).warnings, [])
+  const multilineRoot = makeFixture()
+  mutateFile(multilineRoot, "wiki/concepts/concept-menis.md", (text) => text
+    .replace("*μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος*", "*μῆνιν ἄειδε θεὰ <br/>Πηληϊάδεω Ἀχιλῆος*")
+    .replace("theà Pēlēïádeō Akhilēos*", "theà <br/>Pēlēïádeō Akhilēos*"))
+  assert.deepEqual(codes(multilineRoot), [])
+
+  const ellipsisRoot = makeFixture()
+  mutateFile(ellipsisRoot, "wiki/concepts/concept-menis.md", (text) => text
+    .replace("Ἀχιλῆος*", "Ἀχιλῆος...*")
+    .replace("Akhilēos*", "Akhilēos ...*"))
+  assert.deepEqual(codes(ellipsisRoot), [])
 
   const invalidYamlRoot = makeFixture()
   mutateFile(invalidYamlRoot, "wiki/concepts/concept-menis.md", (text) => text.replace("title: 메니스 (Menis)", "title: ["))
@@ -218,9 +262,20 @@ try {
     ["legacy escape", (root) => setLegacy(root, ["../wiki/old.md"]), "LEDGER_PATH"],
     ["quote missing", (root) => mutateFile(root, "wiki/concepts/concept-menis.md", (text) => text.replace(/^- \*\*번역\*\*:.*\n/m, "")), "LONG_QUOTATION"],
     ["quote order", (root) => mutateFile(root, "wiki/concepts/concept-menis.md", (text) => text.replace(/(- \*\*번역\*\*:.*)\n(- \*\*원문\*\*:.*)/, "$2\n$1")), "LONG_QUOTATION"],
+    ["quote line count", (root) => mutateFile(root, "wiki/concepts/concept-menis.md", (text) => text.replace("*μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος*", "*μῆνιν ἄειδε θεὰ <br/>Πηληϊάδεω Ἀχιλῆος*")), "QUOTATION_LINE_COUNT"],
+    ["quote token boundary", (root) => mutateFile(root, "wiki/concepts/concept-menis.md", (text) => text.replace("Akhilēos*", "Akhilēos extra*")), "QUOTATION_TOKEN_BOUNDARY"],
+    ["table mixed representation", (root) => mutateFile(root, "wiki/concepts/concept-menis.md", (text) => text.replace("| μῆνιν | mē\u0302nin | 근거: [μῆνις](https://example.test/lexicon) |", "| μῆνιν (*mē\u0302nin*) | mē\u0302nin | 분노를 |")), "TABLE_MIXED_REPRESENTATION"],
     ["table transliteration", (root) => mutateFile(root, "wiki/concepts/concept-menis.md", (text) => text.replace("| 그리스어 실제형 | 학술 전사 |", "| 그리스어 실제형 | 로마자 |")), "TABLE_TRANSLITERATION_COLUMN"],
+    ["generic morphology table", (root) => mutateFile(root, "index.md", (text) => `${text}\n\n| 구성 요소 또는 관계 | 의미 및 근거 | 확실성 |\n|:---|:---|:---|\n| πολυ- | 복합어 요소 | 높음 |\n`), "TABLE_TRANSLITERATION_COLUMN"],
   ]
   for (const [name, mutate, expectedCode] of cases) expectFailure(name, mutate, expectedCode)
+
+  const comparisonRoot = makeFixture()
+  mutateFile(comparisonRoot, "index.md", (text) => `${text}\n\n| 비교 구성 | 관계 | 근거 |\n|:---|:---|:---|\n| μῆνις | 대조 | fixture |\n`)
+  assert.deepEqual(codes(comparisonRoot), [])
+  const inlineTermsRoot = makeFixture()
+  mutateFile(inlineTermsRoot, "index.md", (text) => `${text}\n\n\`πολύτροπος\`, \`πολύμητις\`, \`πολυμήχανος\`, \`πτολίπορθος\`는 비교 대상이다.\n`)
+  assert.deepEqual(validateRepository({ root: inlineTermsRoot }).warnings, [])
 
   const reportResult = spawnSync(process.execPath, [INVENTORY_CLI, "--report"], { cwd: validRoot, encoding: "utf8" })
   const repeatedReport = spawnSync(process.execPath, [INVENTORY_CLI, "--report"], { cwd: validRoot, encoding: "utf8" })

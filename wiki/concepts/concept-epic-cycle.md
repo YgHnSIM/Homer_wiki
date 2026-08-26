@@ -1,18 +1,26 @@
 ---
 title: 서사시환 (Epic Cycle)
-aliases: [Epic Cycle, 서사시환, 트로이 서사시환, Trojan Cycle, 에피코스 퀴클로스, ἐπικὸς κύκλος, 서사시환 (Epic Cycle / ἐπικὸς κύκλος)]
+aliases: [Epic Cycle, 서사시환, 트로이 서사시환, Trojan Cycle, 에피코스 퀴클로스, ἐπικὸς κύκλος, "epikòs kúklos", 서사시환 (Epic Cycle / ἐπικὸς κύκλος)]
 tags: [type/concept, domain/mythology, domain/iliad, domain/odyssey, domain/culture, status/active]
 created: 2026-08-17
-updated: 2026-08-24
+updated: 2026-08-26
 sources: []
 status: active
+korean_name: 서사시환
+conventional_latin: Epic Cycle
+greek: "ἐπικὸς κύκλος"
+transliteration: "epikòs kúklos"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
 ---
 
-# 서사시환 (Epic Cycle / ἐπικὸς κύκλος)
+# 서사시환 (Epic Cycle)
+
+**[[greek-reading-guide|읽는 법]]**: 서사시환 · **원어**: ἐπικὸς κύκλος · **학술 전사**: *epikòs kúklos*
 
 ## 1. 개요와 정의
 
-**서사시환(敍事詩環, Epic Cycle)**은 고대 그리스에서 트로이 전쟁이나 테바이 전쟁과 같은 거대한 신화적 서사 체계를 시작부터 결말까지 연대기순으로 엮어 **'하나의 둥근 고리(환, Cycle)'**처럼 완성한 서사시들의 모음집(연작 군)을 가리킵니다. 희랍어 원어로는 **에피코스 퀴클로스(ἐπικὸς κύκλος)**라 부릅니다.
+**서사시환(敍事詩環; ἐπικὸς κύκλος, *epikòs kúklos*; 관용 라틴명 Epic Cycle)**은 고대 그리스에서 트로이 전쟁이나 테바이 전쟁과 같은 거대한 신화적 서사 체계를 시작부터 결말까지 연대기순으로 엮어 **'하나의 둥근 고리(환, Cycle)'**처럼 완성한 서사시들의 모음집(연작 군)을 가리킵니다. 희랍어 원어로는 **에피코스 퀴클로스(ἐπικὸς κύκλος)**라 부릅니다.
 
 일반적으로 '서사시환'이라 할 때는 트로이 전쟁의 전말을 다룬 **'트로이 서사시환(Trojan Cycle)'**을 주로 지칭하며, 넓은 의미로는 오이디푸스와 테바이 원정을 다룬 '테바이 서사시환(Theban Cycle)' 및 신들의 기원을 다룬 '거인족 신화환'을 포함합니다.
 
@@ -88,7 +96,7 @@ flowchart TD
   - 아가멤논의 미케네 귀환과 아내 클리타임네스트라 및 아이기스토스에 의한 암살, 오레스테스의 복수.
   - 메넬라오스의 이집트 표류와 네스토르의 안전한 귀환.
 
-### 3.7 『오뒷세이아』 (Odyssey / Ὀδύσ赛ia, 24권) — 호메로스 현존
+### 3.7 『오뒷세이아』 (Odyssey / Ὀδύσσεια, 24권) — 호메로스 현존
 - 트로이 함락 후 [[entity-odysseus|오디세우스]]가 포세이돈의 분노로 인해 겪는 10년간의 험난한 해상 표류와 귀환([[concept-nostos|Nostos]]).
 - 11권 저승(Nekuia)에서 아킬레우스 망령과의 대면("망령의 군주보다 지상의 머슴이 낫다").
 - 이타카 궁정의 구혼자 처단, 아내 페넬로페와의 재결합, 아테나의 중재를 통한 내전 종식.

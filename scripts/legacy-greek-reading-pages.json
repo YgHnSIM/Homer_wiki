@@ -1,37 +1,5 @@
 {
   "schemaVersion": 1,
   "reason": "pre-homeric-oriented-v1 migration",
-  "pages": [
-    "index.md",
-    "wiki/analyses/analysis-homeric-ethics-literature-review.md",
-    "wiki/analyses/analysis-polytropos.md",
-    "wiki/concepts/concept-agathos.md",
-    "wiki/concepts/concept-eleos.md",
-    "wiki/concepts/concept-epic-cycle.md",
-    "wiki/concepts/concept-hikesia.md",
-    "wiki/concepts/concept-menis.md",
-    "wiki/concepts/concept-nemesis.md",
-    "wiki/concepts/concept-xenia.md",
-    "wiki/entities/entity-odysseus.md",
-    "wiki/overview.md",
-    "wiki/sources/adkins-1960-merit-and-responsibility.md",
-    "wiki/sources/bittlestone-2005-odysseus-unbound.md",
-    "wiki/sources/cairns-1993-aidos.md",
-    "wiki/sources/detienne-1974-cunning-intelligence.md",
-    "wiki/sources/dodds-1951-greeks-and-irrational.md",
-    "wiki/sources/lee-junseok-2016-odyssey-humanity.md",
-    "wiki/sources/lee-junseok-2018-wrath-and-pity.md",
-    "wiki/sources/lee-junseok-2024-iliad-jeongam.md",
-    "wiki/sources/long-1970-morals-and-values.md",
-    "wiki/sources/raw-2026-polytropos-notes.md",
-    "wiki/sources/scott-1979-pity-and-pathos.md",
-    "wiki/sources/scott-1980-aidos-and-nemesis.md",
-    "wiki/sources/scott-1982-philos-philotes-xenia.md",
-    "wiki/sources/williams-1993-shame-and-necessity.md",
-    "words/index.md",
-    "words/word-achilles.md",
-    "words/word-agathos.md",
-    "words/word-eleos.md",
-    "words/word-polytropos.md"
-  ]
+  "pages": []
 }

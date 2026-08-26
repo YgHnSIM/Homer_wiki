@@ -669,6 +669,20 @@ body[data-slug="wiki/analyses/analysis-concept-source-matrix"] {
     overflow-wrap: anywhere;
   }
 
+  // Long KaTeX expressions must scroll inside the paragraph instead of
+  // widening the mobile document. Quartz may emit display math as a plain
+  // paragraph containing .katex, so .katex-display alone is not sufficient.
+  .markdown-preview-view p > .katex {
+    display: inline-block;
+    max-width: 100%;
+    overflow-x: auto;
+    vertical-align: middle;
+  }
+
+  .markdown-preview-view p > .katex .katex-html {
+    max-width: max-content;
+  }
+
   .table-container,
   .mermaid,
   .katex-display {
@@ -679,6 +693,16 @@ body[data-slug="wiki/analyses/analysis-concept-source-matrix"] {
 
   .table-container {
     overflow-x: auto !important;
+  }
+
+  // Quartz positions the mobile explorer absolutely inside the padded body.
+  // A -100vw closed transform would otherwise leave that body's left inset
+  // visible at the viewport edge. Anchor the drawer to the viewport so the
+  // closed state is fully off-canvas and the open state spans the screen.
+  .explorer .explorer-content {
+    position: fixed !important;
+    left: 0 !important;
+    right: auto !important;
   }
 
   .article-title {

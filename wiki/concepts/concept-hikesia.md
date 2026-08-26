@@ -1,18 +1,26 @@
 ---
 title: 히케시아 (Hikesia)
-aliases: [Hikesia, ἱκεσία, 탄원, 탄원 의례, 히케테스, 히케시아 (Hikesia / ἱκεσία) — 탄원의 의례와 경외]
+aliases: [Hikesia, ἱκεσία, hikésia, 탄원, 탄원 의례, 히케테스, "히케시아 (Hikesia, ἱκεσία) — 탄원의 의례와 경외", 히케시아 (Hikesia / ἱκεσία) — 탄원의 의례와 경외]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-08-24
+updated: 2026-08-26
 sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md, lee-junseok-2024-iliad-jeongam.md, cairns-1993-aidos.md, zanker-1994-heart-of-achilles.md]
 status: active
+korean_name: 히케시아
+conventional_latin: Hikesia
+greek: "ἱκεσία"
+transliteration: "hikésia"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
 ---
 
-# 히케시아 (Hikesia, ἱκεσία) — 탄원의 의례와 경외
+# 히케시아 (Hikesia)
+
+**[[greek-reading-guide|읽는 법]]**: 히케시아 · **원어**: ἱκεσία · **학술 전사**: *hikésia*
 
 ## 1. 개념 정의 및 종교적 규범
 
-**히케시아(Hikesia, ἱκεσία)**는 고대 그리스 사회에서 무력한 처지에 놓인 약자나 패자가 강자에게 자비, 생명 보존, 보호를 구하는 **신성한 탄원 의례(Supplication)**입니다.
+**히케시아(ἱκεσία, *hikésia*; 관용 라틴명 Hikesia)**는 고대 그리스 사회에서 무력한 처지에 놓인 약자나 패자가 강자에게 자비, 생명 보존, 보호를 구하는 **신성한 탄원 의례(Supplication)**입니다.
 
 탄원자(**히케테스, Hiketês, ἱκέτης**)는 올림포스 최고의 신 **[[entity-zeus|제우스]] 히케시오스(Zeus Hikesios, 탄원자의 수호신)**의 직접적인 보호 영역 아래 놓입니다. 정식 의례를 완수한 탄원자를 살해하거나 모욕하는 행위는 신성모독([[concept-asebeia|Asebeia]], ἀσέβεια)이자 신들의 도덕적 징벌([[concept-nemesis|Nemesis]], νέμεσις)을 부르는 중대한 죄악으로 간주되었습니다.
 
@@ -25,11 +33,11 @@ status: active
 
 히케시아는 단순한 언어적 간청이 아니라, 엄격히 규정된 **신체 접촉 의례(Bodily Contact Ritual)**를 핵심으로 합니다.
 
-| 신체 접촉 동작 | 희랍어 어휘 및 격 지배 | 상징적 의미 및 인류학적 메커니즘 |
-|:---|:---|:---|
-| **무릎 잡기** | γουνάζομαι / λαβεῖν γούνων (속격) | 고대 그리스 생리학에서 무릎(γούνατα)은 기동력과 생명력(αἰών)의 원천으로 간주됨. 전사의 공격력을 스스로 내려놓고 생사여탈권을 상대에게 전적으로 위임하는 무조건적 굴복. |
-| **턱/수염 만지기** | ἅπτομαι γενείου (속격) | 머리와 생명의 존엄을 상대의 자비에 맡기며 인격적 유대와 긍휼을 촉구하는 호소. |
-| **손에 입 맞추기** | κύσε χεῖρας (대격) | 자식이나 동료를 죽인 살인자의 손일지라도 그 절대적 지배력을 수용하는 궁극의 의례적 비하(Humiliation)와 복종. |
+| 신체 접촉 동작 | 희랍어 어휘 및 격 지배 | 학술 전사 | 상징적 의미 및 인류학적 메커니즘 |
+|:---|:---|:---|:---|
+| **무릎 잡기** | γουνάζομαι / λαβεῖν γούνων (속격) | *gounázomai / labeîn gounō̂n* | 고대 그리스 생리학에서 무릎(γούνατα)은 기동력과 생명력(αἰών)의 원천으로 간주됨. 전사의 공격력을 스스로 내려놓고 생사여탈권을 상대에게 전적으로 위임하는 무조건적 굴복. |
+| **턱/수염 만지기** | ἅπτομαι γενείου (속격) | *háptomai geneíou* | 머리와 생명의 존엄을 상대의 자비에 맡기며 인격적 유대와 긍휼을 촉구하는 호소. |
+| **손에 입 맞추기** | κύσε χεῖρας (대격) | *kŷse kheîras* | 자식이나 동료를 죽인 살인자의 손일지라도 그 절대적 지배력을 수용하는 궁극의 의례적 비하(Humiliation)와 복종. |
 
 이러한 신체적 접촉이 성립하면 상대방에게는 즉각적으로 **아이도스([[concept-aidos|Aidos]], 약자 및 신적 질서에 대한 종교적 경외와 억제)**가 환기됩니다 ([[cairns-1993-aidos|Cairns 1993]]).
 

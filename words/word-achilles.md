@@ -1,15 +1,26 @@
 ---
-title: Achilles (아킬레우스 / Ἀχιλλεύς)
-word: achilles
+title: Achilles (아킬레우스)
+word: Achilles
+korean_name: 아킬레우스
+conventional_latin: Achilles
+greek: "Ἀχιλλεύς"
+transliteration: "Akhilleús"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
 greek_root: Ἀχιλλεύς (Achilleus, 명사)
 pie_root: "*h₂egʰ- (비탄, 고통) + Proto-Greek *lāwos (군대/전사 집단)"
 word_type: eponym
 transmissions: [greek, latin, old_french, middle_english, modern_english]
 aliases:
   [
+    "Achilles (아킬레우스 / Ἀχιλλεύς)",
+    "Achilles (아킬레우스)",
     Achilles,
+    achilles,
     Achilleus,
     Ἀχιλλεύς,
+    Akhilleús,
+    아킬레우스,
     Achilles' heel,
     Achilles tendon,
     Achillean,
@@ -22,7 +33,9 @@ sources: [Beekes 2010, Chantraine DELG, Pokorny IEW, OED, Nagy 1979, LSJ]
 status: active
 ---
 
-# Achilles (아킬레우스 / Ἀχιλλεύς)
+# Achilles (아킬레우스)
+
+**[[greek-reading-guide|읽는 법]]**: 아킬레우스 · **원어**: Ἀχιλλεύς · **학술 전사**: *Akhilleús*
 
 > **요약**: 호메로스 서사시 『일리아스』의 주인공 영웅 아킬레우스(Ἀχιλλεύς)의 이름에서 유래한 인명 유래어(Eponym)로, 고대 그리스어 시학의 "군대에게 비탄을 가져오는 자"(_Achi-lāwos_)에서 출발하여 라틴어와 중세 프랑스어를 거쳐 현대 영어의 고유명사, 문학적 형용사(_Achillean_), 해부학 전문어(_Achilles tendon_), 식물학 속명(_Achillea_), 그리고 치명적 취약점을 뜻하는 핵심 관용구(_Achilles' heel_)로 정착 및 다각화되었습니다.
 
@@ -98,13 +111,13 @@ graph TD
 
 호메로스 육보격 운율 체계에서 아킬레우스는 시행 내 위치와 격 변화에 맞춰 결합된 고유 수식어를 갖습니다:
 
-| 희랍어 정형구              | 라틴 전사                 | 의미 및 운율적 배치                              |
+| 희랍어 정형구              | 학술 전사                 | 의미 및 운율적 배치                              |
 | :------------------------- | :------------------------ | :----------------------------------------------- |
-| **πόδας ὠκὺς Ἀχιλλεύς**    | _podas ôkus Achilleus_    | 발이 빠른 아킬레우스 (시행 종결부 여성 쉼표 뒤)  |
-| **ποδάρκης δῖος Ἀχιλλεύς** | _podarkês dios Achilleus_ | 발이 굳센 신 같은 아킬레우스 (육보격 종결부)     |
-| **Πηληϊάδης / Πηλεΐδης**   | _Pêlêiadês / Pêleïdês_    | 펠레우스의 아들 (부칭, 혈통과 필멸성 환기)       |
-| **Αἰακίδης**               | _Aiakidês_                | 아이아코스의 손자 (조부칭, 정의로운 신화적 혈통) |
-| **ῥηξήνωρ**                | _rhêxênôr_                | 전열을 부수는 자 (압도적 전투 돌파력)            |
+| **πόδας ὠκὺς Ἀχιλλεύς**    | *pódas ōkùs Akhilleús*    | 발이 빠른 아킬레우스 (시행 종결부 여성 쉼표 뒤)  |
+| **ποδάρκης δῖος Ἀχιλλεύς** | *podárkēs dī̂os Akhilleús* | 발이 굳센 신 같은 아킬레우스 (육보격 종결부)     |
+| **Πηληϊάδης / Πηλεΐδης**   | *Pēlēïádēs / Pēleḯdēs*    | 펠레우스의 아들 (부칭, 혈통과 필멸성 환기)       |
+| **Αἰακίδης**               | *Aiakídēs*                | 아이아코스의 손자 (조부칭, 정의로운 신화적 혈통) |
+| **ῥηξήνωρ**                | *rhēksḗnōr*              | 전열을 부수는 자 (압도적 전투 돌파력)            |
 
 ---
 

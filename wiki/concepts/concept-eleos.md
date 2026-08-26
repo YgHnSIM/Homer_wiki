@@ -1,24 +1,32 @@
 ---
 title: 엘레오스와 오익토스 (Eleos & Oiktos)
-aliases: [Eleos, ἔλεος, Oiktos, οἶκτος, 엘레오스, 오익토스, 연민, 동정, Pity, Pathos, 파토스, Oiktros, 오익트로스, 엘레오스와 오익토스 (Eleos & Oiktos / ἔλεος & οἶκτος) — 호메로스 영웅 윤리의 연민, 비애감 및 비경쟁적 연대]
+aliases: [Eleos, ἔλεος, Oiktos, οἶκτος, "éleos & oîktos", "ἔλεος & οἶκτος", "Eleos & Oiktos", 엘레오스, 오익토스, 연민, 동정, Pity, Pathos, 파토스, Oiktros, 오익트로스, "엘레오스와 오익토스 (Eleos & Oiktos / ἔλεος & οἶκτος) — 호메로스 영웅 윤리의 연민, 비애감 및 비경쟁적 연대"]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-24
+updated: 2026-08-26
 sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1981-some-greek-terms.md, scott-1982-philos-philotes-xenia.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, zanker-1994-heart-of-achilles.md, cairns-1993-aidos.md]
 status: active
+korean_name: 엘레오스와 오익토스
+conventional_latin: "Eleos & Oiktos"
+greek: "ἔλεος & οἶκτος"
+transliteration: "éleos & oîktos"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
 ---
 
-# 엘레오스와 오익토스 (Eleos & Oiktos / ἔλεος & οἶκτος) — 호메로스 영웅 윤리의 연민, 비애감 및 비경쟁적 연대
+# 엘레오스와 오익토스 (Eleos & Oiktos)
+
+**[[greek-reading-guide|읽는 법]]**: 엘레오스와 오익토스 · **원어**: ἔλεος & οἶκτος · **학술 전사**: *éleos & oîktos*
 
 ## 1. 개념 정의 및 문헌학적·도덕심리학적 위상
 
 호메로스 서사시에서 **연민(Pity)**은 근대적 의미의 보편적 인도주의(Humanitarianism)와는 구별되는 아르카익 영웅 사회의 고유한 도덕심리학적 기제에 기반합니다. 호메로스 텍스트에서 연민은 기능과 심리적 방향성이 상이한 두 가지 희랍어 어휘군으로 분화되어 나타납니다 ([[scott-1979-pity-and-pathos|Scott 1979]]):
 
-1. **오익토스(Oiktos, οἶκτος / 동사 οἰκτείρειν, *oikteirein* / 형용사 οἰκτρός, *oiktros*)**:
+1. **오익토스(Oiktos, οἶκτος, *oîktos* / 동사 οἰκτείρειν, *oikteirein* / 형용사 οἰκτρός, *oiktros*)**:
    - 타인의 극단적인 굴욕과 파멸(*peculiar humiliation*)을 목격할 때 일어나는 **'감정적 위축 및 억제(Inhibition / Shrinking back)'**입니다.
    - 승자가 [[concept-arete|아레테(Arete)]] 규범에 따라 패자를 유린하고 조롱할 수 있는 권리를 행사하지 않고, **가해를 멈추며 상대의 잃어버린 존엄 일부를 회복시켜 주는 행위(Refraining from triumphing / Restoring dignity)**로 이어집니다.
    - **[[concept-aidos|아이도스(Aidos)]]와의 차별성**: 아이도스가 '자신이 비난받을 것을 두려워하여 짓는 내적 억제'라면, 오익토스는 '타인의 참혹한 수치를 목격하고 그 처지에 전율하여 가해를 중단하는 억제'라는 점에서 주체와 대상의 구도가 다릅니다.
-2. **엘레오스(Eleos, ἔλεος / 동사 ἐλεαίρειν, *eleairein*, ἐλεεῖν, *eleein* / 형용사 ἐλεεινός, *eleeinos*)**:
+2. **엘레오스(Eleos, ἔλεος, *éleos* / 동사 ἐλεαίρειν, *eleairein*, ἐλεεῖν, *eleein* / 형용사 ἐλεεινός, *eleeinos*)**:
    - 곤경에 처한 대상을 돕고 상황을 바로잡으려는 **'적극적 구호 추진력(Positive forward drive)'**입니다.
    - 적을 향해 맹렬히 돌진하는 공격적 분노인 메네아이네인(*meneainein*, μενεαίνειν / 어원 [[concept-menos|메노스, Menos, μένος]])의 대척점에서, 호의를 품고 실질적 원조와 구호를 실행합니다.
 

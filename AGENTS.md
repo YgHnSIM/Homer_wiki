@@ -61,6 +61,7 @@ status: draft | active | review | archived
 - 일반 산문은 첫 완전 공개 뒤 한국어명을 기본으로 한다. 철자·방언·형태론 분석 또는 직접 인용에서만 원어와 학술 전사를 다시 제시한다.
 - 4어 이상 또는 완결된 절·시행은 `번역 → 원문 → 실제형 학술 전사` 순서로 쓰며, 형태론·정형구 표는 그리스어 실제형과 학술 전사 열을 분리한다.
 - 상세 전사·예외 판단은 `docs/editorial/homeric-oriented-transliteration-v1.md`, 독자용 안내는 `wiki/greek-reading-guide.md`를 따른다. IPA와 음성은 현재 범위에 넣지 않는다.
+- 공개 그리스어 문서는 현재 `scripts/legacy-greek-reading-pages.json`의 `pages: []` 상태로 전환되었으므로, 새 문서도 유예 없이 위 계약을 따르고 `npm run check:greek`로 검증한다. 규약 변경이나 미확정 전사는 버전·예외 원장·감사 문서를 함께 갱신한다.
 
 ### 2.2 내부 링크 및 이중 대괄호
 

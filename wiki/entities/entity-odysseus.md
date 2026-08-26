@@ -1,16 +1,24 @@
 ---
 title: 오디세우스 (Odysseus)
-aliases: [Odysseus, Ὀδυσσεύς, 오딧세우스, 라에르테스의 아들, 라에르티아데스, Laertiades, 폴뤼트로포스, Polytropos, 오디세우스 (Odysseus / Ὀδυσσεύς)]
+aliases: [Odysseus, Ὀδυσσεύς, Odusseús, 오딧세우스, 라에르테스의 아들, 라에르티아데스, Laertiades, 폴뤼트로포스, Polytropos, 오디세우스 (Odysseus / Ὀδυσσεύς)]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-26
 sources: [detienne-1974-cunning-intelligence.md, nagy-1979-best-of-achaeans.md, bittlestone-2005-odysseus-unbound.md, greek-ministry-2025-odysseion-ithaca.md, lee-junseok-2016-odyssey-humanity.md, lee-junseok-2024-iliad-jeongam.md, scott-1982-philos-philotes-xenia.md]
 status: active
 entity_type: person
 corpus: [iliad, odyssey]
+korean_name: 오디세우스
+conventional_latin: Odysseus
+greek: "Ὀδυσσεύς"
+transliteration: "Odusseús"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
 ---
 
-# 오디세우스 (Odysseus / Ὀδυσσεύς)
+# 오디세우스 (Odysseus)
+
+**[[greek-reading-guide|읽는 법]]**: 오디세우스 · **원어**: Ὀδυσσεύς · **학술 전사**: *Odusseús*
 
 ## 서사적 입구 (Narrative Entry)
 
@@ -34,18 +42,18 @@ corpus: [iliad, odyssey]
 
 ### 2.1 희랍어 표기와 이름 풀이
 
-- **표제형**: Ὀδυσσεύς (*Odysseus*). 속격 Ὀδυσσῆος 등 운율과 방언에 따른 형태가 나타난다.
+- **표제형**: Ὀδυσσεύς (*Odusseús*). 속격 Ὀδυσσῆος 등 운율과 방언에 따른 형태가 나타난다.
 - **본문 내 이름 풀이**: 외조부 [[entity-autolycus|아우톨뤼코스]]는 자신이 많은 사람에게 원망을 샀다는 말과 동사 *odussasthai*를 아이의 이름에 연결한다(_Od._ 19.406–412). 이는 작품이 제공하는 이름 풀이이지, 이름의 선사시대 기원을 확정하는 역사언어학적 증명은 아니다([[nagy-1979-best-of-achaeans|Nagy 1979]]).
 
 ### 2.2 주요 정형구와 별칭
 
-| 희랍어 정형구 | 통상적 의미 | 서사적 기능 및 대표 출전 |
-|:---|:---|:---|
-| πολύτροπος (*polytropos*) | 여러 방향으로 도는, 다방면의 | 『오뒷세이아』 첫 행에서 이동과 변형의 가능성을 연다. _Od._ 1.1 |
-| πολύμητις (*polymētis*) | 많은 계책을 지닌 | 계략의 보유자라는 반복 표지이다. _Od._ 9.1 |
-| πολυμήχανος (*polymēkhanos*) | 여러 방책을 지닌 | 전사·사절·설계자의 복합적 역할을 환기한다. _Il._ 2.173 |
-| πολύτλας δῖος Ὀδυσσεύς | 많이 견딘 고귀한 오디세우스 | 고난을 견디는 귀환자의 정형구이다. 『오뒷세이아』 반복형 |
-| πτολίπορθος (*ptoliporthos*) | 도시를 함락하는 자 | 계략가뿐 아니라 전쟁 영웅이라는 이력을 남긴다. _Od._ 8.3 |
+| 희랍어 정형구 | 학술 전사 | 통상적 의미 | 서사적 기능 및 대표 출전 |
+|:---|:---|:---|:---|
+| πολύτροπος | *polútropos* | 여러 방향으로 도는, 다방면의 | 『오뒷세이아』 첫 행에서 이동과 변형의 가능성을 연다. _Od._ 1.1 |
+| πολύμητις | *polúmētis* | 많은 계책을 지닌 | 계략의 보유자라는 반복 표지이다. _Od._ 9.1 |
+| πολυμήχανος | *polumḗkhanos* | 여러 방책을 지닌 | 전사·사절·설계자의 복합적 역할을 환기한다. _Il._ 2.173 |
+| πολύτλας δῖος Ὀδυσσεύς | *polútlas dī̂os Odusseús* | 많이 견딘 고귀한 오디세우스 | 고난을 견디는 귀환자의 정형구이다. 『오뒷세이아』 반복형 |
+| πτολίπορθος | *ptolíporthos* | 도시를 함락하는 자 | 계략가뿐 아니라 전쟁 영웅이라는 이력을 남긴다. _Od._ 8.3 |
 
 이 표현들은 성격표의 고정 항목만이 아니라 육보격의 서로 다른 위치를 채우는 정형구 체계의 일부이다. 따라서 *polytropos*나 *polymētis* 하나를 모든 장면의 유일한 해석 열쇠로 삼지 않는다.
 

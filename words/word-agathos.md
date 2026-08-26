@@ -1,11 +1,17 @@
 ---
-title: Agathos (아가토스 / ἀγαθός)
-word: agathos
+title: Agathos (아가토스)
+word: Agathos
+korean_name: 아가토스
+conventional_latin: Agathos
+greek: "ἀγαθός"
+transliteration: "agathós"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
 greek_root: ἀγαθός (agathos, 형용사/명사)
 pie_root: "Pre-Greek substrate"
 word_type: concept
 transmissions: [pre_greek, greek, latin, old_french, middle_english, modern_english]
-aliases: [ἀγαθός, agathos, agathism, Agatha, kalokagathia, 아가토스, 아가티즘]
+aliases: ["Agathos (아가토스 / ἀγαθός)", "Agathos (아가토스)", Agathos, ἀγαθός, agathos, agathós, Agathism, agathism, Agatha, kalokagathia, 아가토스, 아가티즘]
 tags: [type/word, domain/etymology, status/active]
 created: 2026-08-17
 updated: 2026-08-26
@@ -13,7 +19,9 @@ sources: [Beekes 2010 Etymological Dictionary of Greek, Chantraine 1968 DELG, Ox
 status: active
 ---
 
-# Agathos (아가토스 / ἀγαθός)
+# Agathos (아가토스)
+
+**[[greek-reading-guide|읽는 법]]**: 아가토스 · **원어**: ἀγαθός · **학술 전사**: *agathós*
 
 > **요약**: 고대 그리스어의 핵심 가치 칭찬어 **아가토스(ἀγαθός, *agathos*)**는 전사 귀족의 기능적 탁월성과 결과주의적 성공을 뜻하는 선희랍 기층어 기원의 어휘로, 라틴어와 앵글로-노르만 프랑스어를 거쳐 여성 인명 **Agatha**로 수용되었으며, 19세기 근대 영어에서 철학적 신조어 **Agathism**(궁극적 선재론) 및 고전 이상 **Kalokagathia**(미와 선의 일치)로 학술 어휘화되었습니다.
 
@@ -66,18 +74,16 @@ graph TD
 호메로스 서사시에서 *agathos*는 현대적 의미의 도덕적 선인이 아니라, **'전투에서 승리하고 가문과 공동체를 지켜내는 유능한 귀족 장수'**를 가리킵니다.
 
 ### 3.1 헥토르의 영웅적 아가토스 책무 (_Il._ 6.444–446)
-- **원문**:
-  ἀλλὰ μάλ᾽ αἰνῶς / αἰδέομαι Τρῶας καὶ Τρῳάδας ἑλκεσιπέπλους, / αἴ κε κακὸς ὣς νόσφιν ἀλυσκάζω πολέμοιο· / οὐδέ με θυμὸς ἄνωγεν, ἐπεὶ μάθον ἔμμεναι ἐσθλὸς / αἰεὶ καὶ πρώτοισι μετὰ Τρώεσσι μάχεσθαι.
-
 - **번역**: "그러나 내가 만일 카코스(*kakos*, 무능한 비겁자)처럼 싸움터에서 물러선다면 트로이아의 남녀들을 뵙기에 너무나 부끄럽소(*aideomai*). 내 마음 또한 뒤로 물러서기를 허락지 않으니, 나는 언제나 트로이아인들의 맨 앞줄에서 싸우며, 부친의 큰 영예와 내 자신의 명예를 지키는 훌륭한 자(*esthlos / agathos*)가 되는 법을 배웠기 때문이오."
+- **원문**: *ἀλλὰ μάλ᾽ αἰνῶς / αἰδέομαι Τρῶας καὶ Τρῳάδας ἑλκεσιπέπλους, / αἴ κε κακὸς ὣς νόσφιν ἀλυσκάζω πολέμοιο· / οὐδέ με θυμὸς ἄνωγεν, ἐπεὶ μάθον ἔμμεναι ἐσθλὸς / αἰεὶ καὶ πρώτοισι μετὰ Τρώεσσι μάχεσθαι.*
+- **학술 전사**: *allà mál’ ainō̂s / aidéomai Trō̂as kaì Trōiádas helkesipéplous, / aí ke kakòs hṑs nósphin aluskázō polémoio; / oudé me thumòs ánōgen, epeì máthon émmenai esthlòs / aieì kaì prṓtoisi metà Trṓessi mákhesthai.*
 
 - **문전문맥 분석**: 헥토르는 아가토스가 단순히 선천적 혈통에 머무는 것이 아니라, 전열의 맨 앞에서 목숨을 걸고 싸우는 지속적인 훈련과 실천(*mathon*)을 통해 증명되는 결과주의적 규범임을 명확히 보여줍니다.
 
 ### 3.2 에우멜로스 전차 경주와 아리스토스 논쟁 (_Il._ 23.536–538)
-- **원문**:
-  κάλλιστος μὲν ἄριστος ἀνὴρ ἐλαύνει μώνυχας ἵππους· / ἀλλ᾽ ἄγε δή οἱ δῶμεν ἀέθλιον, ὡς ἐπιεικές, / δεύτερ᾽.
-
 - **번역**: "가장 훌륭한 자(*aristos anēr*)가 말들을 꼴찌로 몰고 왔구나. 자, 순리에 맞게 그에게 2등 상을 주도록 하자."
+- **원문**: *κάλλιστος μὲν ἄριστος ἀνὴρ ἐλαύνει μώνυχας ἵππους· / ἀλλ᾽ ἄγε δή οἱ δῶμεν ἀέθλιον, ὡς ἐπιεικές, / δεύτερ᾽.*
+- **학술 전사**: *kállistos mèn áristos anḕr eláunei mṓnukhas híppous; / all’ áge dḗ hoi dō̂men aéthlion, hṑs epieikés, / déuter’.*
 
 - **문전문맥 분석**: 아킬레우스가 꼴찌로 들어온 에우멜로스를 '아리스토스(가장 뛰어난 아가토스)'라는 본질적 신분 지위에 근거해 포상하려 하자 안틸로코스가 반발하는 장면으로, 귀족의 내재적 지위와 실제 경기 결과 사이의 긴장을 극적으로 노출합니다.
 

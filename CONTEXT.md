@@ -40,6 +40,8 @@ The Greek reading layer separates identification, reading flow, and philological
 
 The transliteration is a reading and character-correspondence aid, not IPA or a claim to reconstruct a single historical Homeric pronunciation. CSS may refine presentation but does not carry information absent from Markdown.
 
+As of 2026-08-26, the public Greek-bearing corpus has completed the staged migration: the legacy ledger is empty, and `npm run check` is the repository gate for the shared contract. Future pages inherit the strict structure immediately; a new transliteration convention requires a versioned editorial update and an ADR follow-up.
+
 ## Entity Editorial Model
 
 **서사적 입구 (Narrative Entry)**:

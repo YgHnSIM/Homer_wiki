@@ -1,6 +1,8 @@
 ---
 status: accepted
 date: 2026-08-26
+implementation_status: complete
+implemented_date: 2026-08-26
 ---
 
 # 점진적 그리스어 읽기 주석
@@ -55,6 +57,10 @@ date: 2026-08-26
 - 관용명과 전사의 혼동, ASCII와 장음 표기의 무질서한 혼용, 표제형으로 실제형을 덮는 오류를 구조적으로 줄인다.
 - 자동화는 정규화와 형식 검증에 한정된다. 문헌학적 정확성은 근거를 갖춘 사람의 검토와 예외 원장에 남는 과업이다.
 - 모바일에서는 표 자체만 가로로 이동해야 하며, 본문 전체의 가로 넘침이나 전사 열 숨김으로 문제를 해결하지 않는다.
+
+## 이행 상태
+
+2026-08-26에 `homeric-oriented-v1` 계약을 정식 표제 페이지, 분석 문서, 소스 문서, 탐색 문서에 적용했다. `scripts/legacy-greek-reading-pages.json`은 빈 `pages` 배열로 종료되었고, 공개 그리스어 포함 문서 전체가 엄격 검증 대상이 되었다. `npm run check`와 `npm run check:greek`가 통과했으며 전사 예외 원장에는 `review` 또는 `approved` 항목이 남아 있지 않다.
 
 ## 이행과 접근성
 

@@ -1,11 +1,17 @@
 ---
-title: Eleos (엘레오스 / ἔλεος)
-word: eleos
+title: Eleos (엘레오스)
+word: Eleos
+korean_name: 엘레오스
+conventional_latin: Eleos
+greek: "ἔλεος"
+transliteration: "éleos"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
 greek_root: ἔλεος (eleos, 명사)
 pie_root: "Pre-Greek substrate / Uncertain (선희랍 기층어 또는 고유 의성어)"
 word_type: concept
 transmissions: [greek, latin, old_french, old_english, middle_english, modern_english]
-aliases: [ἔλεος, Eleos, Eleemosynary, Alms, Almoner, Kyrie eleison, ἐλεημοσύνη]
+aliases: ["Eleos (엘레오스 / ἔλεος)", ἔλεος, Eleos, eleos, éleos, Eleemosynary, Alms, Almoner, Kyrie eleison, ἐλεημοσύνη]
 tags: [type/word, domain/etymology, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
 updated: 2026-08-26
@@ -13,7 +19,9 @@ sources: [Beekes 2010 EDG, Chantraine 1968 DELG, Frisk GEW, OED, LSJ, Lewis & Sh
 status: active
 ---
 
-# Eleos (엘레오스 / ἔλεος)
+# Eleos (엘레오스)
+
+**[[greek-reading-guide|읽는 법]]**: 엘레오스 · **원어**: ἔλεος · **학술 전사**: *éleos*
 
 > **요약**: 고대 그리스어 **ἔλεος**(*eleos*, 연민·비애감) 및 2차 파생 명사 **ἐλεημοσύνη**(*eleēmosynē*, 자비·자선)는 칠십인역과 신약성서를 거쳐 교회 라틴어로 편입된 뒤, 세 갈래로 분기되어 현대 영어의 구제금(**Alms**), 자선관(**Almoner**), 법학적 자선 형용사(**Eleemosynary**), 그리고 전례 기도문(**Kyrie eleison**)으로 정착했습니다.
 
@@ -72,8 +80,12 @@ graph TD
 호메로스 서사시에서 연민의 표현은 고전기적 추상명사(ἔλεος)보다는 구체적인 비탄과 행동을 수반하는 동사형(`ἐλεαίρω`, `ἐλεέω`) 및 대조적 감정 억제 동사인 `οἰκτείρω`(*oikteirō*)를 통해 체현됩니다.
 
 - **『일리아스』 24권 503–506행, 516행 (프리아모스의 탄원과 아킬레우스의 화해)**:
-  - *"신들을 두려워하십시오(ἀλλ’ αἰδεῖο θεούς), 아킬레우스여! 그리고 당신 자신의 아버지를 생각하여 나를 불쌍히 여기십시오(αὐτόν τ’ ἐλέησον). 나는 그보다 훨씬 더 가련합니다."* (_Il._ 24.503–504)
-  - *"노인의 센 머리와 센 턱수염을 불쌍히 여겨(οἰκτείρων πολιόν τε κάρη πολιόν τε γένειον) 손으로 그를 일으켜 세우며..."* (_Il._ 24.516)
+  - **번역**: “신들을 두려워하십시오, 아킬레우스여! 그리고 당신 자신의 아버지를 생각하여 나를 불쌍히 여기십시오. 나는 그보다 훨씬 더 가련합니다.” (_Il._ 24.503–504)
+  - **원문**: *ἀλλ’ αἰδεῖο θεούς ... αὐτόν τ’ ἐλέησον ...*
+  - **학술 전사**: *all’ aideîo theoús ... autón t’ eléēson ...*
+  - **번역**: “노인의 센 머리와 센 턱수염을 불쌍히 여겨 손으로 그를 일으켜 세우며...” (_Il._ 24.516)
+  - **원문**: *οἰκτείρων πολιόν τε κάρη πολιόν τε γένειον*
+  - **학술 전사**: *oikteírōn polión te kárē polión te géneion*
   - **[주석]**: 탄원자 프리아모스가 요구하는 부정과거 명령형 `ἐλέησον`이 시신 반환이라는 즉각적·능동적 구호 결단을 촉구한다면, 아킬레우스의 현재분사 `οἰκτείρων`은 노인의 참혹한 굴욕을 목격한 관찰자의 감정적 억제와 신체적 부축 행위를 지칭합니다 ([[concept-eleos|Eleos & Oiktos]]).
 
 - **『일리아스』 20권 463–472행 (트로스의 탄원 거절과 전장 자비의 부재)**:
@@ -81,7 +93,9 @@ graph TD
   - **[주석]**: 경쟁적 승패와 복수의 맹위([[concept-menos|Menos]])가 지배하는 전장에서는 `ἐλεέω`의 청원이 냉혹하게 기각됨을 보여줍니다.
 
 - **『일리아스』 23권 534–538행 (에우멜로스 위로와 오익토스의 발동)**:
-  - *"발 빠른 고결한 아킬레우스가 그들을 보고 불쌍히 여겨(τοὺς δὲ ἰδὼν ᾤκτιρε) 아카이오이족 가운데서 날개 돋친 말을 건넸다."* (_Il._ 23.534–535)
+  - **번역**: “발 빠른 고결한 아킬레우스가 그들을 보고 불쌍히 여겨 아카이오이족 가운데서 날개 돋친 말을 건넸다.” (_Il._ 23.534–535)
+  - **원문**: *τοὺς δὲ ἰδὼν ᾤκτιρε*
+  - **학술 전사**: *toùs dè idṑn ṓiktire*
   - **[주석]**: 평화로운 장례 경기라는 비경쟁적 맥락에서, 최고의 기량을 지닌 귀족 전사([[concept-agathos|Agathos]])가 불운으로 꼴찌가 된 굴욕을 목격했을 때 승자의 조롱을 멈추고 위로상을 수여하는 `οἶκτος`의 기능을 입증합니다.
 
 - **『오뒷세이아』 17권 367–368행 (구혼자들의 걸인 적선과 환대 규범)**:
