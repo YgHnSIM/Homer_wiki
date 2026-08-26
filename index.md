@@ -3,7 +3,7 @@ title: 호메로스 위키 (Homer Wiki)
 aliases: [Homer Wiki, 호메로스 디지털 가든]
 tags: [type/meta, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
-updated: 2026-08-25
+updated: 2026-08-26
 sources: []
 status: active
 ---
@@ -45,11 +45,15 @@ status: active
 - [[word-achilles|Achilles]] — Achilles' heel, Achilles tendon
 - [[word-agathos|Agathos]] — Agatha, Agathism, Kalokagathia
 - [[word-eleos|Eleos]] — alms, eleemosynary, Kyrie eleison
+- [[word-odyssey|Odyssey]] — 오디세우스 이름과 작품명의 수용사
+- [[word-polytropos|Polytropos]] — πολύτροπος, polytropos, polutropos의 어원·학술 수용
 
 ### 분석과 문헌
 
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 명예·수치 문화 연구사
 - [[analysis-concept-source-matrix|개념과 문헌]] — 작성된 개념과 문헌의 맞물림
+- [[analysis-polytropos|폴리트로포스 추가 연구]] — πολύτροπος의 원전 용례와 의미·수용사
+- [[raw-2026-polytropos-notes|폴리트로포스 raw 자료 요약]] — 원자료와 검증 경계
 - [[adkins-1960-merit-and-responsibility|애드킨스 (1960), 공적과 책임]]
 - [[cairns-1993-aidos|케언스 (1993), 아이도스]]
 - [[lee-junseok-2024-iliad-jeongam|이준석 (2024), 일리아스 정암학당 해제]]

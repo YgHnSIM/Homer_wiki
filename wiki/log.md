@@ -1334,3 +1334,12 @@ status: active
 - **수용사 보류**: `transmissions`를 `[greek, modern_english]`로 제한하고, 라틴어·프랑스어·중세 영어의 연속 경로와 `polytropic`·`polytropous`·`polytropism`의 직접 파생 관계를 추가 조사 대상으로 남김.
 - **기존 문서 보존 및 연결**: `analysis-polytropos.md`와 `raw-2026-polytropos-notes.md` 본문은 유지하고, 각 문서의 관련 항목에 새 word 문서 링크만 추가함.
 - **색인 동기화**: `words/index.md`의 개념·추상어 수와 총계를 갱신하고, 수용 경로 도식에 현대 학술 음역 가지와 P 알파벳 항목을 추가함.
+
+---
+
+## [2026-08-26] chore(meta) | Quartz ignore 규칙 및 메인 링크 점검
+
+- **ignore 규칙**: `.quartz/`는 기존 규칙으로 이미 제외되어 있음을 확인하고, 요청한 `quartz-test/`를 저장소 루트 `.gitignore`에 추가함. `test-quartz/` 기존 규칙은 유지함.
+- **메인 링크 보완**: 루트 `index.md`와 홈페이지 별칭을 가진 `wiki/overview.md`에 누락된 `word-odyssey.md`, `word-polytropos.md`, `analysis-polytropos.md` 링크를 추가하고, 루트 메인 페이지에는 소스 요약 문서도 연결함.
+- **색인 대조**: `wiki/index.md`의 소스·분석 카탈로그와 `words/index.md`의 5개 단어 항목은 이미 최신 상태임을 확인함.
+- **검증**: `npm run check` 통과(50개 문서·1,430개 링크, 허용된 빨간 링크 566개·97개 대상; 개념×문헌 8×24 동기화; 위키 툴링 회귀 테스트). `git check-ignore -v`로 두 경로의 ignore 적용을 확인함.

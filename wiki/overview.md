@@ -3,7 +3,7 @@ title: 서사시 개요
 aliases: [홈페이지, 메인 대시보드, 호메로스 위키 홈, Overview]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-08-25
+updated: 2026-08-26
 sources: []
 status: active
 ---
@@ -68,6 +68,8 @@ flowchart LR
 
 - 중심 인물: 오디세우스. 관련 인물 문서의 작성 현황은 [[wiki/index#인물|위키 색인]]에서 확인합니다.
 - 관련 개념: 크세니아, 히케시아, 아이도스
+- 관련 어원·수용사: [[word-odyssey|Odyssey]], [[word-polytropos|Polytropos]]
+- 추가 연구: [[analysis-polytropos|폴리트로포스 추가 연구]]
 
 ---
 
@@ -90,6 +92,9 @@ flowchart LR
 - [[words/index|어원 사전]]
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]
 - [[analysis-concept-source-matrix|개념과 문헌]]
+- [[analysis-polytropos|폴리트로포스 추가 연구]]
+- [[word-odyssey|Odyssey 어원·수용사]]
+- [[word-polytropos|Polytropos 어원·수용사]]
 - [[entity-odysseus|오디세우스]]
 
 ## 관련 항목
