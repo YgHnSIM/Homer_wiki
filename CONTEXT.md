@@ -44,26 +44,26 @@ As of 2026-08-26, the public Greek-bearing corpus has completed the staged migra
 
 ## Entity Editorial Model
 
-**서사적 입구 (Narrative Entry)**:
+**서사적 입구** (Narrative Entry):
 An opening orientation that presents an entity through its central conflict, decisive movement, and humanistic question before the detailed evidence sections. It is an interpretive frame, not a replacement for the Homeric text or a claim that the interpretation is the only valid reading.
 _Avoid_: Novelistic invention of unrecorded thoughts or motives
 
-**핵심 긴장 (Core Tension)**:
+**핵심 긴장** (Core Tension):
 The conflict between values, relationships, roles, or forms of action that organizes an entity's narrative arc. It must be grounded in scenes, speeches, narrator wording, or identified scholarship rather than modern psychological diagnosis.
 _Avoid_: Treating a modern theory as the character's own conceptual vocabulary
 
-**전환점 (Turning Point)**:
+**전환점** (Turning Point):
 A textually identifiable event, decision, recognition, loss, or intervention that changes the entity's immediate relation to a goal, person, community, or fate. Each major turning point should carry a Homeric book-and-line reference when available.
 _Avoid_: Calling every dramatic scene a character-development milestone
 
-**서사적 궤적 (Narrative Arc)**:
+**서사적 궤적** (Narrative Arc):
 The ordered sequence of scenes, choices, consequences, and unresolved tensions through which an entity is presented in the Homeric corpus. The term describes narrative arrangement and does not automatically imply moral progress or psychological growth.
 _Avoid_: A linear maturation story when the texts support competing or discontinuous portraits
 
-**해석 렌즈 (Interpretive Lens)**:
+**해석 렌즈** (Interpretive Lens):
 A bounded scholarly perspective, such as philology, history, archaeology, religion, ethics, or reception, used to examine a narrative claim after the core textual account has been established.
 _Avoid_: Using a lens to substitute for missing primary evidence
 
-**증거 층위 (Evidence Layer)**:
+**증거 층위** (Evidence Layer):
 The explicit distinction between what the Homeric text states, what scholarship strongly infers, what remains contested, and what belongs to later reception. Narrative fluency must not erase these differences in certainty.
 _Avoid_: Presenting later mythography or modern interpretation as Homeric fact

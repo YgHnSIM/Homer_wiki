@@ -109,7 +109,7 @@ Base unit: 4px.
 - **Surface**: no card, callout, badge, background fill, shadow, icon, or added border surrounds the reading row. It inherits the warm palette without adding a color token.
 - **Scholarly tables**: Greek actual form and academic transliteration occupy distinct columns. Existing tables and their mobile wrappers follow the borders-only surface rule: `1px var(--lightgray)` where a border is already needed, with no elevated panel treatment.
 - **Mobile**: at 375px and below, long rows wrap without page-level horizontal overflow. Wide scholarly tables scroll only inside the existing `.table-container`; columns are neither hidden nor recombined to fit.
-- **Implementation state (2026-08-26)**: all public Greek-bearing pages are under the strict Markdown contract; the legacy migration ledger is empty. Future visual changes must preserve the text-first reading row and the existing table wrapper.
+- **Implementation state** (2026-08-26): all public Greek-bearing pages are under the strict Markdown contract; the legacy migration ledger is empty. Future visual changes must preserve the text-first reading row and the existing table wrapper.
 
 ### Tag chip
 
