@@ -1343,3 +1343,10 @@ status: active
 - **메인 링크 보완**: 루트 `index.md`와 홈페이지 별칭을 가진 `wiki/overview.md`에 누락된 `word-odyssey.md`, `word-polytropos.md`, `analysis-polytropos.md` 링크를 추가하고, 루트 메인 페이지에는 소스 요약 문서도 연결함.
 - **색인 대조**: `wiki/index.md`의 소스·분석 카탈로그와 `words/index.md`의 5개 단어 항목은 이미 최신 상태임을 확인함.
 - **검증**: `npm run check` 통과(50개 문서·1,430개 링크, 허용된 빨간 링크 566개·97개 대상; 개념×문헌 8×24 동기화; 위키 툴링 회귀 테스트). `git check-ignore -v`로 두 경로의 ignore 적용을 확인함.
+
+---
+
+## [2026-08-26] fix(words) | Polytropos 사이드바 표제 순서 정정
+
+- `words/word-polytropos.md`의 YAML `title`을 기존 어원 사전 항목과 같은 `영문 표제어 (한국어 표기 / 희랍어 원어)` 순서로 정정함.
+- 검증: `node scripts/validate-wiki.mjs` 통과.

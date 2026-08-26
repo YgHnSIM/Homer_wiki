@@ -1,5 +1,5 @@
 ---
-title: Polytropos (πολύτροπος / 폴리트로포스)
+title: Polytropos (폴리트로포스 / πολύτροπος)
 word: polytropos
 greek_root: "πολύτροπος (polýtropos; 형용사; πολύς + τροπ-/τροπο-; τρόπος·τροπή·τρέπω와 관련)"
 pie_root: "Uncertain / Pending"
