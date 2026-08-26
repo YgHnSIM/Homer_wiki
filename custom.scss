@@ -46,7 +46,8 @@ h4,
 .content-meta,
 .toc,
 .backlinks,
-.recent-notes {
+.recent-notes,
+.page-listing {
   font-family: "Noto Sans KR", "Noto Sans", "Noto Sans Greek", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -235,9 +236,11 @@ a.tag,
   }
 }
 
-// Hide date in Recent Notes (최근 수정) widget & maximize title width for single-line display
+// Folder & Tag page listings (.page-listing, .section-ul) and Recent Notes (.recent-notes)
+.page-listing,
 .recent-notes {
   .meta,
+  p.meta,
   .date,
   time,
   .recent-date {
@@ -245,7 +248,9 @@ a.tag,
   }
 
   .section {
-    display: block !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
     width: 100% !important;
     margin: 0.2rem 0 !important;
   }
@@ -253,25 +258,48 @@ a.tag,
   .desc {
     width: 100% !important;
 
-    h3, h4, a, .title {
-      font-size: 0.9rem;
+    h3,
+    h4 {
+      margin: 0 !important;
+      font-size: 0.95rem !important;
+      line-height: 1.4 !important;
+    }
+
+    a {
+      font-size: 0.95rem !important;
       white-space: nowrap !important;
       word-break: keep-all !important;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: inline-block;
-      max-width: 100%;
+      display: inline-block !important;
+      max-width: 100% !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
     }
   }
 
+  ul.tags {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.35rem !important;
+    padding-left: 0 !important;
+    margin: 0.2rem 0 0 0 !important;
+    list-style: none !important;
+
+    li {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
+
+  ul.section-ul,
   ul.recent-ul,
   ol.recent-ul {
-    padding-left: 0;
-    list-style: none;
+    padding-left: 0 !important;
+    list-style: none !important;
 
+    li.section-li,
     li.recent-li {
-      margin: 0.35rem 0;
-      line-height: 1.4;
+      margin: 0.5rem 0 !important;
+      line-height: 1.4 !important;
     }
   }
 }
