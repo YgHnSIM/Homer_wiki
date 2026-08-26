@@ -47,6 +47,7 @@ status: active
 - [[bittlestone-2005-odysseus-unbound|로버트 비틀스톤 외, 오디세우스 언바운드 (2005)]]
 - [[nagy-1979-best-of-achaeans|그레고리 나기, 아카이아인들의 최고 영웅 (1979)]]
 - [[greek-ministry-2025-odysseion-ithaca|그리스 문화부, 이타키의 오디세이온 (2025)]]
+- [[raw-2026-polytropos-notes|Raw 추가 자료 — 폴리트로포스의 다층적 의미와 수용사 연구]]
 
 ---
 
@@ -78,6 +79,7 @@ status: active
 
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]
 - [[analysis-concept-source-matrix|개념과 문헌]] — 작성된 개념이 어느 문헌에 기대는지
+- [[analysis-polytropos|폴리트로포스 추가 연구]]
 
 ---
 
