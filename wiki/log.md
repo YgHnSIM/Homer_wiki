@@ -1482,3 +1482,12 @@ status: active
 - **도식 축소**: `word-polytropos.md`의 어원 전파 계통도에서 오디세우스·오뒷세이아·라틴어 및 프랑스어 작품명 계통과 근거 미확정 중간 언어 노드를 제거하고, `πολύτροπος`의 확인된 표제형·호메로스 굴절형·현대 학술 음역 관계만 남김.
 - **혼동 방지**: 도식 바로 아래에서 오디세우스와 『오뒷세이아』가 서사적 용례 맥락일 뿐 폴리트로포스의 직접 어원 계통이 아님을 밝히고, 세부 수용사는 Odyssey 문서로 안내함.
 - **검증**: `node scripts/validate-wiki.mjs`, `node scripts/build-concept-source-matrix.mjs --check`, `npm run check:greek`, `git diff --check` 통과. raw 변경 0건.
+
+---
+
+## [2026-08-27] refactor(meta) | RecentNotes 최근 수정 날짜 제거 및 표제어 단일 행 최적화
+
+- **요청**: 모바일 화면에서 '최근 수정' 위젯의 날짜(예: 2026년 8월 26일)가 좌측 공간을 차지하여 인명/문서 제목(`Achilles (아킬레우스)` 등)이 두 줄로 줄바꿈되는 현상을 해결함.
+- **수정**: `quartz.config.yaml`에 `@quartz-community/recent-notes`의 `showDates: false` 옵션을 설정하고, `custom.scss`에 `.recent-notes` CSS 전용 레이아웃 규칙을 추가하여 날짜 요소를 은폐하고 제목 영역(`.desc`)에 100% 폭과 `white-space: nowrap`을 적용함.
+- **검증**: `npm run check` 통과 (위키 문서 52개, 링크 1,502개, 그리스어 구조 검증 32개 전체 통과).
+
