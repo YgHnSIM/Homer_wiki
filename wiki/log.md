@@ -1474,3 +1474,11 @@ status: active
 - **발견**: 모바일에서 Quartz Explorer가 본문 셸의 좌측 inset을 기준으로 `translateX(-100vw)`되면서 닫힌 패널의 마지막 29.6px가 화면에 남는 상태를 시각 검수로 확인함. 문서 전체 폭 수치만으로는 잡히지 않는 경계 결함이었음.
 - **구현**: `custom.scss`의 800px 이하 Explorer 콘텐츠를 viewport 기준 `position: fixed`로 고정하고 `left: 0`·`right: auto`를 명시하여 닫힘 상태는 `right: 0`, 열림 상태는 `left: 0`부터 viewport 전체를 사용하도록 보정함.
 - **확인**: 그리스 문화부 소스와 오디세우스 엔티티에서 닫힘·열림 상태를 live DOM으로 확인하고, 수정 후 47개 route × 2개 viewport 총 94개 화면을 재캡처하여 외부 가로 overflow 0건을 확인함.
+
+---
+
+## [2026-08-26] refactor(words) | 폴리트로포스 어원 도식 초점 정리
+
+- **도식 축소**: `word-polytropos.md`의 어원 전파 계통도에서 오디세우스·오뒷세이아·라틴어 및 프랑스어 작품명 계통과 근거 미확정 중간 언어 노드를 제거하고, `πολύτροπος`의 확인된 표제형·호메로스 굴절형·현대 학술 음역 관계만 남김.
+- **혼동 방지**: 도식 바로 아래에서 오디세우스와 『오뒷세이아』가 서사적 용례 맥락일 뿐 폴리트로포스의 직접 어원 계통이 아님을 밝히고, 세부 수용사는 Odyssey 문서로 안내함.
+- **검증**: `node scripts/validate-wiki.mjs`, `node scripts/build-concept-source-matrix.mjs --check`, `npm run check:greek`, `git diff --check` 통과. raw 변경 0건.
