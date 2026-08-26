@@ -21,6 +21,7 @@ function extractFrontmatter(markdown) {
 function expectedTypeTag(relativePath) {
   if (relativePath === "index.md") return "type/meta"
   if (/^wiki\/(?:index|overview|log)\.md$/.test(relativePath)) return "type/meta"
+  if (relativePath === "wiki/greek-reading-guide.md") return "type/meta"
   if (relativePath.startsWith("wiki/meta/")) return "type/meta"
   if (relativePath.startsWith("wiki/analyses/")) return "type/analysis"
   if (relativePath.startsWith("wiki/concepts/")) return "type/concept"
@@ -202,7 +203,11 @@ export function validateDocumentFrontmatter({ root, relativePath, markdown, addE
 
 export function validateFilename(relativePath, addError) {
   const name = path.posix.basename(relativePath)
-  if (relativePath.startsWith("wiki/concepts/") && !/^concept-[a-z0-9-]+\.md$/.test(name)) {
+  if (
+    relativePath.startsWith("wiki/concepts/") &&
+    name !== "_template.md" &&
+    !/^concept-[a-z0-9-]+\.md$/.test(name)
+  ) {
     addError(relativePath, "개념 파일명이 concept-<name>.md 규칙과 다릅니다.")
   }
   if (

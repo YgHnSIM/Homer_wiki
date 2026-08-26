@@ -19,6 +19,7 @@ status: active
 - [[overview|서사시 개요]]
 - 위키 색인 (현재 문서)
 - [[words/index|어원 사전]]
+- [[greek-reading-guide|그리스어 읽기 안내]]
 
 ---
 

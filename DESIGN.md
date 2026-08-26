@@ -102,6 +102,14 @@ Base unit: 4px.
 - **Unresolved**: gray, dotted underline. Public entry pages must not emit these.
 - **File URLs**: forbidden on public pages.
 
+### Greek reading row and scholarly tables
+
+- **Reading row**: the H1-following `읽는 법` line is quiet article metadata, set in the existing serif reading stack at 0.85–0.95rem with at least 1.5 line height. It uses `var(--gray)` for supporting text while preserving the normal live-link treatment for its link.
+- **Hierarchy**: the row remains below the article title and slightly quieter than body text. It is ordinary Markdown text, so it must wrap naturally and remain complete when CSS is unavailable.
+- **Surface**: no card, callout, badge, background fill, shadow, icon, or added border surrounds the reading row. It inherits the warm palette without adding a color token.
+- **Scholarly tables**: Greek actual form and academic transliteration occupy distinct columns. Existing tables and their mobile wrappers follow the borders-only surface rule: `1px var(--lightgray)` where a border is already needed, with no elevated panel treatment.
+- **Mobile**: at 375px and below, long rows wrap without page-level horizontal overflow. Wide scholarly tables scroll only inside the existing `.table-container`; columns are neither hidden nor recombined to fit.
+
 ### Tag chip
 
 - Nowrap; wrap the chip row, never the label mid-slug. Prefer hidden on public.

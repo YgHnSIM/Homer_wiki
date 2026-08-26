@@ -24,6 +24,22 @@ _Avoid_: Full repository dump, uncurated build
 Raw texts, source PDFs, and internal agent configurations (`raw/`, `.obsidian/`, `.agents/`, `.omo/`) excluded from web compilation to safeguard copyrights and maintain operational hygiene.
 _Avoid_: Hidden pages, secret docs
 
+## Greek Reading Information Architecture
+
+The Greek reading layer separates identification, reading flow, and philological evidence. It keeps the public article readable for Korean readers while retaining the original form and an explicitly versioned scholarly transliteration where those are useful.
+
+| Document or layer | Role | Reader-facing responsibility |
+|---|---|---|
+| Formal entry frontmatter | Single source of truth | Stores `korean_name`, `conventional_latin`, `greek`, `transliteration`, `transliteration_system`, and `cssclasses`. |
+| Title and H1 | Navigation and identification | Concepts and entities use Korean plus the conventional Latin name; words use the English headword plus the Korean name. |
+| Reading row | First complete disclosure | Immediately below H1, presents Korean name, Greek headword, and scholarly transliteration in a stable text order. |
+| General prose | Continuous reading | Uses the Korean name after first disclosure; restores Greek and transliteration only when the form itself matters. |
+| Long quotations and scholarly tables | Textual comparison | Long quotations run translation, original, then actual-form transliteration; tables keep Greek actual form and transliteration in separate columns. |
+| `wiki/greek-reading-guide.md` | Public orientation | Explains the visible labels and limits for non-specialist readers without reproducing the full technical rule set. |
+| `docs/editorial/homeric-oriented-transliteration-v1.md` | Editorial authority | Defines the versioned transliteration system and its evidence and exception process. |
+
+The transliteration is a reading and character-correspondence aid, not IPA or a claim to reconstruct a single historical Homeric pronunciation. CSS may refine presentation but does not carry information absent from Markdown.
+
 ## Entity Editorial Model
 
 **서사적 입구 (Narrative Entry)**:

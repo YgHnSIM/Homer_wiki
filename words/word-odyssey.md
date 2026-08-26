@@ -1,17 +1,26 @@
 ---
-title: Odyssey (오뒷세이아 / Ὀδύσσεια)
-word: odyssey
-greek_root: "Ὀδύσσεια (Odysseia, ἡ; 서사시 제목), cf. Ὀδυσσεύς (Odysseus)"
+title: Odyssey (오뒷세이아)
+word: Odyssey
+korean_name: 오뒷세이아
+conventional_latin: Odyssey
+greek: "Ὀδύσσεια"
+transliteration: "Odússeia"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
+greek_root: "Ὀδύσσεια (Odússeia, ἡ; 서사시 제목), cf. Ὀδυσσεύς (Odusseús)"
 pie_root: "Uncertain / Pending"
 word_type: eponym
 transmissions: [greek, latin, modern_english]
 aliases:
+  - "Odyssey (오뒷세이아 / Ὀδύσσεια)"
   - odyssey
   - Odyssey
   - Ὀδύσσεια
   - Odysseia
+  - Odússeia
   - Ὀδυσσεύς
   - Odysseus
+  - Odusseús
   - Odyssean
   - Ulysses
   - Ulixes
@@ -38,7 +47,9 @@ sources:
 status: review
 ---
 
-# Odyssey (오뒷세이아 / Ὀδύσσεια)
+# Odyssey (오뒷세이아)
+
+**[[greek-reading-guide|읽는 법]]**: 오뒷세이아 · **원어**: Ὀδύσσεια · **학술 전사**: *Odússeia*
 
 > **요약**: 영어 *odyssey*는 처음부터 ‘모험 여행’을 뜻한 보통명사가 아니었다. 오디세우스의 귀환을 노래한 서사시 제목 *Odyssey*가 먼저 있었고, 그 제목이 한 사람의 이름에서 경험의 형식으로 확장되면서 오늘날의 ‘길고 사건 많은 여행’과 ‘지적·영적 탐구’를 뜻하는 소문자 명사가 되었다.
 
@@ -48,9 +59,9 @@ status: review
 
 ```mermaid
 graph TD
-    NAME["Ὀδυσσεύς<br/>Odysseus<br/>궁극 어원 불확정"]:::greek --> TITLE["Ὀδύσσεια, ἡ<br/>서사시 제목"]:::greek
-    P["ὀδυσσάμενος<br/>Od. 19.407: 본문 이름 풀이"]:::note
-    VAR["Ὀλυσσεύς · Ὀλισεύς · Οὐλιξεύς<br/>그리스어 변이형"]:::variant
+    NAME["Ὀδυσσεύς<br/>Odusseús"]:::greek --> TITLE["Ὀδύσσεια<br/>Odússeia"]:::greek
+    P["ὀδυσσάμενος<br/>odussámenos"]:::note
+    VAR["Ὀλυσσεύς · Ὀλισεύς · Οὐλιξεύς<br/>Olusseús · Oliseús · Oulikseús"]:::variant
     NAME -. "본문 이름 풀이" .-> P
     NAME -. "변이형" .-> VAR
     TITLE --> LAT["Latin Odyssea<br/>라틴어 제목 수용"]:::latin
@@ -88,14 +99,14 @@ graph TD
 
 Liddell–Scott–Jones(LSJ)의 Ὀδυσσεύς 항목은 다음과 같은 인명 변이군과 관련 파생형을 함께 기록한다. 이 목록은 고대 문헌에 나타난 형태의 범위를 보여주지만, 각 형태가 서로 어떤 역사적 순서로 이어졌는지를 단독으로 증명하지는 않는다.
 
-| 형태 | 전사·기능 | 문헌적 의미 |
-|:---|:---|:---|
-| Ὀδυσσεύς | *Odysseus* | 호메로스의 인명형 |
-| Ὀδυσεύς | *Odyseus* | 자음 중복이 다른 변이형 |
-| Οὐλιξεύς, Οὐλίξης | *Oulixeus, Oulixēs* | 라틴계 이름과 연결되는 희랍 변이형 |
-| Ὀλυσεύς, Ὀλυσσεύς | *Olyseus, Olysseus* | `l`을 보이는 변이형 |
-| Ὀλυτεύς, Ὀλυττεύς, Ὀλισεύς, Ὠλυσσεύς | *Olyteus, Olytteus, Oliseus, Ōlysseus* | LSJ가 열거하는 추가 변이형 |
-| Ὀδύσσεια, Ὀδύσσειος | *Odysseia, Odysseios* | 서사시 제목 및 관련 파생형 |
+| 그리스어형 | 학술 전사 | 기능 | 문헌적 의미 |
+|:---|:---|:---|:---|
+| Ὀδυσσεύς | *Odusseús* | 인명 표제형 | 호메로스의 인명형 |
+| Ὀδυσεύς | *Oduseús* | 인명 변이형 | 자음 중복이 다른 변이형 |
+| Οὐλιξεύς, Οὐλίξης | *Oulikseús, Oulíksēs* | 인명 변이형 | 라틴계 이름과 연결되는 희랍 변이형 |
+| Ὀλυσεύς, Ὀλυσσεύς | *Oluseús, Olusseús* | 인명 변이형 | `l`을 보이는 변이형 |
+| Ὀλυτεύς, Ὀλυττεύς, Ὀλισεύς, Ὠλυσσεύς | *Oluteús, Olutteús, Oliseús, Ōlusseús* | 인명 변이형 | LSJ가 열거하는 추가 변이형 |
+| Ὀδύσσεια, Ὀδύσσειος | *Odússeia, Odússeios* | 작품명·파생형 | 서사시 제목 및 관련 파생형 |
 
 LSJ는 ὀδύσσομαι와 이름을 연결하는 설명을 **신화적 어원(mythic etymology)**으로 다룬다. 그러므로 ‘오디세우스라는 이름의 역사적 기원이 분노를 뜻하는 동사에서 확정되었다’고 쓰는 대신, 호메로스 서사가 이름을 분노·적대의 말놀이로 설명했다는 사실과 역사언어학적 어원은 분리해야 한다.
 
@@ -107,15 +118,15 @@ LSJ는 ὀδύσσομαι와 이름을 연결하는 설명을 **신화적 어�
 
 이 항목은 사전의 표제형과 호메로스 본문에 실제로 찍힌 굴절형을 구분한다.
 
-| 실제 형태 | 표제형 또는 관련어 | 형태론 | 검증 위치 |
-|:---|:---|:---|:---|
-| `πολύτροπον` | `πολύτροπος` | 남성 대격 단수 형용사; `ἄνδρα`와 일치 | _Od._ 1.1, [Scaife](https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0012.tlg002.perseus-grc2%3A1.1-1.6/) |
-| `ὠδύσαο` | `ὀδύσσομαι` | 2인칭 단수 부정과거 중간태 직설법; `οἱ`는 여격 단수 | _Od._ 1.62, [Furman](https://folio.furman.edu/dramaturg/Homer/Odyssey/pages/chunk_003.html) |
-| `πολύμητις` | `πολύμητις` | 남성 주격 단수; `Ὀδυσσεύς`와 함께 발화 도입 | _Od._ 9.1, [DCC](https://dcc.dickinson.edu/homer-odyssey/ix-1-46) |
-| `Ὀδυσεὺς` / `Ὀδυσσεύς` | `Ὀδυσσεύς` | 남성 고유명사 주격 단수; 판본별 단일·이중 sigma | _Od._ 9.19, [DCC](https://dcc.dickinson.edu/homer-odyssey/ix-1-46) |
-| `ὀδυσσάμενος` | `ὀδύσσομαι` | 부정과거 중간태 남성 주격 단수 분사 | _Od._ 19.407, [DCC](https://dcc.dickinson.edu/homer-odyssey/xix-405%E2%80%93454) |
-| `ὀδύσασθαι` | `ὀδύσσομαι` | 부정과거 중간태 부정사; 19.407의 실제 형태가 아님 | [LSJ](https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n72123/) |
-| `Ὀδύσσεια, ἡ` | `Ὀδύσσεια` | 여성 명사 주격형; 작품 제목 | [LSJ](https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n72120/) |
+| 그리스어 실제형 | 학술 전사 | 표제형·형태론 | 한국어 풀이 | 근거 |
+|:---|:---|:---|:---|:---|
+| `πολύτροπον` | *polútropon* | `πολύτροπος`; 남성 대격 단수 형용사 | `ἄνδρα`와 일치하는 ‘여러 길을 겪은’ | _Od._ 1.1, [Scaife](https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0012.tlg002.perseus-grc2%3A1.1-1.6/) |
+| `ὠδύσαο` | *ōdúsao* | `ὀδύσσομαι`; 2인칭 단수 부정과거 중간태 직설법 | ‘그를 그토록 미워하셨습니까’; `οἱ`는 여격 단수 | _Od._ 1.62, [Furman](https://folio.furman.edu/dramaturg/Homer/Odyssey/pages/chunk_003.html) |
+| `πολύμητις` | *polúmētis* | `πολύμητις`; 남성 주격 단수 | 오디세우스의 발화 도입 수식 | _Od._ 9.1, [DCC](https://dcc.dickinson.edu/homer-odyssey/ix-1-46) |
+| `Ὀδυσεὺς` / `Ὀδυσσεύς` | *Oduseùs* / *Odusseús* | `Ὀδυσσεύς`; 남성 고유명사 주격 단수 | 판본별 단일·이중 sigma 인명형 | _Od._ 9.19, [DCC](https://dcc.dickinson.edu/homer-odyssey/ix-1-46) |
+| `ὀδυσσάμενος` | *odussámenos* | `ὀδύσσομαι`; 부정과거 중간태 남성 주격 단수 분사 | ‘노여워하며’ 또는 ‘미움을 받으며’ | _Od._ 19.407, [DCC](https://dcc.dickinson.edu/homer-odyssey/xix-405%E2%80%93454) |
+| `ὀδύσασθαι` | *odúsasthai* | `ὀδύσσομαι`; 부정과거 중간태 부정사 | 19.407의 실제 형태가 아닌 사전 제시형 | [LSJ](https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n72123/) |
+| `Ὀδύσσεια, ἡ` | *Odússeia, hē* | `Ὀδύσσεια`; 여성 명사 주격형 | 작품 제목 | [LSJ](https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n72120/) |
 
 따라서 영어식 *odussasthai*를 남겨야 할 경우에는 그리스어 **ὀδύσασθαι**의 부정사 음역이라고 명시해야 한다. 19.407의 본문형은 **ὀδυσσάμενος**이며, 두 형태를 합쳐 “실제 원문에 *odussasthai*가 있다”고 쓰는 것은 형태론적 오류이다.
 
@@ -129,7 +140,9 @@ LSJ는 ὀδύσσομαι와 이름을 연결하는 설명을 **신화적 어�
 
 서사시의 첫 행은 다음과 같다.
 
-- *“ἄνδρα μοι ἔννεπε, μοῦσα, πολύτροπον”* — “그 많은 길을 겪은 남자를 내게 말해다오.” (_Od._ 1.1, [Scaife 원문](https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0012.tlg002.perseus-grc2%3A1.1-1.6/))
+- **번역**: “그 많은 길을 겪은 남자를 내게 말해다오.”
+- **원문**: *“ἄνδρα μοι ἔννεπε, μοῦσα, πολύτροπον”*
+- **학술 전사**: *“ándra moi énnepe, moûsa, polútropon”* (_Od._ 1.1, [Scaife 원문](https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0012.tlg002.perseus-grc2%3A1.1-1.6/))
 
 여기서 실제 인용형은 표제형 **πολύτροπος**가 아니라 **πολύτροπον**이다. **πολύτροπον**은 `ἄνδρα`와 일치하는 남성 대격 단수 형용사이며, 뒤따르는 1.2–5행의 방랑, 도시와 인간의 마음을 봄, 고통, 동료들의 귀향을 한꺼번에 예고한다([Furman Greek Reader 1.1–1.30](https://folio.furman.edu/dramaturg/Homer/Odyssey/pages/chunk_001.html)).
 
@@ -139,7 +152,9 @@ LSJ는 ὀδύσσομαι와 이름을 연결하는 설명을 **신화적 어�
 
 아테나가 제우스에게 묻는다.
 
-- *“Τροίῃ ἐν εὐρείῃ· τί νύ οἱ τόσον ὠδύσαο, Ζεῦ;”* — “넓은 트로이에서, 제우스여, 어찌하여 그를 그토록 미워하셨습니까?” (_Od._ 1.62, [Furman Greek Reader 1.60–1.93](https://folio.furman.edu/dramaturg/Homer/Odyssey/pages/chunk_003.html))
+- **번역**: “넓은 트로이에서, 제우스여, 어찌하여 그를 그토록 미워하셨습니까?”
+- **원문**: *“Τροίῃ ἐν εὐρείῃ· τί νύ οἱ τόσον ὠδύσαο, Ζεῦ;”*
+- **학술 전사**: *“Troíēi en eureíēi; tí nú hoi tóson ōdúsao, Zeû?”* (_Od._ 1.62, [Furman Greek Reader 1.60–1.93](https://folio.furman.edu/dramaturg/Homer/Odyssey/pages/chunk_003.html))
 
 **ὠδύσαο**는 `ὀδύσσομαι`의 2인칭 단수 부정과거 중간태 직설법이고, **οἱ**는 그 대상인 오디세우스를 가리키는 여격 단수 대명사이다. 이 질문은 이름과 동사의 소리·의미 공명을 만들어 내며, LSJ도 1.62를 Ὀδυσσεύς의 “신화적 기원”과 연결해 인용한다([LSJ `ὀδύσσομαι`](https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n72123/)). 그러나 그것은 시 안에서 이름을 다시 읽게 만드는 내부 에티몰로지이며, 실제 이름이 역사적으로 “미움받는 자”에서 파생되었다는 증명은 아니다.
 
@@ -147,13 +162,17 @@ LSJ는 ὀδύσσομαι와 이름을 연결하는 설명을 **신화적 어�
 
 9권의 첫 행은 말하기의 장면을 **πολύμητις Ὀδυσσεύς**로 연다.
 
-- *“τὸν δ᾽ ἀπαμειβόμενος προσέφη πολύμητις Ὀδυσσεύς”* — “그러자 많은 계책을 아는 오디세우스가 대답하여 말했다.” (_Od._ 9.1, [DCC 9.1–46](https://dcc.dickinson.edu/homer-odyssey/ix-1-46))
+- **번역**: “그러자 많은 계책을 아는 오디세우스가 대답하여 말했다.”
+- **원문**: *“τὸν δ᾽ ἀπαμειβόμενος προσέφη πολύμητις Ὀδυσσεύς”*
+- **학술 전사**: *“tòn d’ apameibómenos proséphē polúmētis Odusseús”* (_Od._ 9.1, [DCC 9.1–46](https://dcc.dickinson.edu/homer-odyssey/ix-1-46))
 
 여기서 **πολύμητις**는 남성 주격 단수이고, 이 표현은 반복되는 발화 도입 정형구이다. 1.1의 희귀하고 프로그램적인 **πολύτροπον**과 달리, **πολύμητις Ὀδυσσεύς**는 오디세우스가 이제 자신의 목소리로 과거를 말하는 장면을 배치한다. 정형구의 기능은 심리 특성의 단순 반복이라기보다, 영웅을 서사 내부의 화자이자 자기 평판의 제작자로 무대에 세우는 데 있다.
 
 그는 곧 자신의 이름과 혈통을 공개한다.
 
-- *“εἴμ᾽ Ὀδυσεὺς Λαερτιάδης, ὃς πᾶσι δόλοισιν / ἀνθρώποισι μέλω, καί μευ κλέος οὐρανὸν ἵκει.”* (_Od._ 9.19–20, [DCC 9.1–46](https://dcc.dickinson.edu/homer-odyssey/ix-1-46))
+- **번역**: “나는 라에르테스의 아들 오디세우스, 온갖 계책으로 모든 사람에게 알려진 자요 / 나의 명성은 하늘에 닿는다.”
+- **원문**: *“εἴμ᾽ Ὀδυσεὺς Λαερτιάδης, ὃς πᾶσι δόλοισιν / ἀνθρώποισι μέλω, καί μευ κλέος οὐρανὸν ἵκει.”*
+- **학술 전사**: *“eím’ Oduseùs Laertiádēs, hòs pā̂si dóloisin / anthrṓpoisi mélō, kaí meu kléos ouranòn híkei.”* (_Od._ 9.19–20, [DCC 9.1–46](https://dcc.dickinson.edu/homer-odyssey/ix-1-46))
 
 **Λαερτιάδης**는 성격을 나타내는 별칭이 아니라 라에르테스의 아들이라는 부칭·계보 표지이다. 이 판본의 9.19에는 **Ὀδυσεὺς**가 보이고, 다른 판본과 표제형에는 **Ὀδυσσεύς**가 보인다. 단일 sigma와 이중 sigma의 차이를 서로 다른 인물명이나 어원으로 읽어서는 안 된다. 이 자기소개에서 `δόλοι`와 `κλέος`는 독립적인 역사 증언이라기보다, 파이아케스인들 앞에서 낯선 이가 사회적으로 읽힐 수 있는 영웅 화자로 자신을 연출하는 언어 행위이다.
 
@@ -161,10 +180,21 @@ LSJ는 ὀδύσσομαι와 이름을 연결하는 설명을 **신화적 어�
 
 폴뤼페모스 장면에서 오디세우스는 이름을 말하지 않음으로써 살아남는다.
 
-- *“ἦ μή τίς σ᾽ αὐτὸν κτείνει δόλῳ ἠὲ βίηφιν;”* (_Od._ 9.406)
-- *“ὦ φίλοι, Οὖτίς με κτείνει δόλῳ οὐδὲ βίηφιν.”* (_Od._ 9.408)
-- *“εἰ μὲν δὴ μή τίς σε βιάζεται οἶον ἐόντα”* (_Od._ 9.410)
-- *“ὡς ὄνομ᾽ ἐξαπάτησεν ἐμὸν καὶ μῆτις ἀμύμων.”* (_Od._ 9.414, [Scaife 9.406–10.160](https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0012.tlg002.perseus-grc2%3A9.406-10.160); [DCC 9.409–460](https://dcc.dickinson.edu/homer-odyssey/ix-409-460))
+- **번역**: “혹 누군가가 꾀나 힘으로 너를 죽이고 있는가?”
+- **원문**: *“ἦ μή τίς σ᾽ αὐτὸν κτείνει δόλῳ ἠὲ βίηφιν;”*
+- **학술 전사**: *“ē̂ mḗ tís s’ autòn kteínei dólōi ēè bíēphin?”* (_Od._ 9.406)
+
+- **번역**: “친구들이여, 아무도 나를 꾀로도 힘으로도 죽이지 않는다.”
+- **원문**: *“ὦ φίλοι, Οὖτίς με κτείνει δόλῳ οὐδὲ βίηφιν.”*
+- **학술 전사**: *“ō̂ phíloi, Oûtís me kteínei dólōi oudè bíēphin.”* (_Od._ 9.408)
+
+- **번역**: “그렇다면 아무도 너를 홀로 있는 채 괴롭히지 않는다면.”
+- **원문**: *“εἰ μὲν δὴ μή τίς σε βιάζεται οἶον ἐόντα”*
+- **학술 전사**: *“ei mèn dḕ mḗ tís se biázetai oîon eónta”* (_Od._ 9.410)
+
+- **번역**: “이처럼 내 이름과 흠 없는 계책이 그를 속였다.”
+- **원문**: *“ὡς ὄνομ᾽ ἐξαπάτησεν ἐμὸν καὶ μῆτις ἀμύμων.”*
+- **학술 전사**: *“hōs ónom’ eksapátēsen emòn kaì mē̂tis amúmōn.”* (_Od._ 9.414, [Scaife 9.406–10.160](https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0012.tlg002.perseus-grc2%3A9.406-10.160); [DCC 9.409–460](https://dcc.dickinson.edu/homer-odyssey/ix-409-460))
 
 **Οὖτίς**는 이 장면에서 사용하는 전술적 가명이다. 키클롭스들은 그것을 “아무도”라는 부정적 표현으로 알아듣고, 오디세우스는 바로 그 오해 때문에 도움을 차단한다. `μή τίς`와 `Οὖτίς`의 분절·질문 응답 관계, 그리고 9.414의 `ὄνομα`와 `μῆτις`의 결합은 텍스트에 분명한 말장난의 효과를 준다. 다만 이것을 **Οὖτίς = Ὀδυσσεύς**, 또는 **μῆτις가 μή τίς에서 파생되었다**는 형태론적 등식으로 바꾸어서는 안 된다. 본문이 명시하는 것은 이름과 훌륭한 계책이 키클롭스를 속였다는 사실이며, 더 강한 어원적 등식은 문학적 추론의 영역이다.
 
@@ -172,25 +202,29 @@ LSJ는 ὀδύσσομαι와 이름을 연결하는 설명을 **신화적 어�
 
 19.392–404에서 에우리클레이아는 씻김 도중 흉터를 알아본다. 흉터는 기억을 촉발하지만, 그 구간 자체가 완성된 음성 인식을 담고 있는 것은 아니다([DCC 19.361–404](https://dcc.dickinson.edu/homer-odyssey/xix-361%E2%80%93404)). 이어서 외조부 아우톨리코스가 아기의 이름을 설명한다.
 
-- *“πολλοῖσιν γὰρ ἐγώ γε ὀδυσσάμενος ... / τῷ δ᾽ Ὀδυσεὺς ὄνομ᾽ ἔστω ἐπώνυμον”* (_Od._ 19.407–409, [DCC 19.405–454](https://dcc.dickinson.edu/homer-odyssey/xix-405%E2%80%93454))
+- **번역**: “나는 많은 이들에게 노여워하고 또 많은 이들의 노여움을 샀으니 … / 이 아이의 이름을 오디세우스라 하여 그 이름이 뜻을 따르게 하라.”
+- **원문**: *“πολλοῖσιν γὰρ ἐγώ γε ὀδυσσάμενος ... / τῷ δ᾽ Ὀδυσεὺς ὄνομ᾽ ἔστω ἐπώνυμον”*
+- **학술 전사**: *“polloîsin gàr egṓ ge odussámenos ... / tō̂i d’ Oduseùs ónom’ éstō epṓnumon”* (_Od._ 19.407–409, [DCC 19.405–454](https://dcc.dickinson.edu/homer-odyssey/xix-405%E2%80%93454))
 
 **ὀδυσσάμενος**는 `ὀδύσσομαι`의 부정과거 중간태 남성 주격 단수 분사이다. 문맥상 “많은 사람들에게 화를 내며” 또는 “많은 사람들에게 미움받으며”라는 두 방향의 해석이 가능하다는 주석 전통이 있다. 이어지는 **ὄνομ᾽ ... ἐπώνυμον**은 이름을 의미 있게 부여하는 본문 내 명명 설화를 만든다. 이것은 오디세우스라는 인물의 후대적 기억을 이름의 사건으로 되감는 **호메로스 내부의 민간어원적·서사적 재분석**이지, 이름의 선사시대 기원을 입증하는 자료가 아니다.
 
 19.410–412는 파르나소스에서 줄 선물을 약속하는 장면으로 명명 단위를 이어 가지만, 에우리클레이아의 말로 완성되는 인식은 다음 구간에 있다.
 
-- *“ἦ μάλ᾽ Ὀδυσσεύς ἐσσι, φίλον τέκος”* (_Od._ 19.474–475, [DCC 19.455–498](https://dcc.dickinson.edu/homer-odyssey/xix-455%E2%80%93498))
+- **번역**: “참으로 너는 오디세우스구나, 사랑하는 아이야.”
+- **원문**: *“ἦ μάλ᾽ Ὀδυσσεύς ἐσσι, φίλον τέκος”*
+- **학술 전사**: *“ē̂ mál’ Odusseús essi, phílon tékos”* (_Od._ 19.474–475, [DCC 19.455–498](https://dcc.dickinson.edu/homer-odyssey/xix-455%E2%80%93498))
 
 따라서 19.392–412는 **흉터가 인식을 시작하고 이름의 설화가 그 기억을 되받는 단위**라고 말할 수 있지만, 그 범위 안에서 이미 구두 인식이 완료되었다고 말해서는 안 된다.
 
 ### 3.6 정형구와 이름 기능의 분리
 
-| 실제 인용형 | 표제형·형태 | 서사적 기능 | 어원 주장과의 거리 |
-|:---|:---|:---|:---|
-| **πολύτροπον** (_Od._ 1.1) | 표제형 `πολύτροπος`; 남성 대격 단수 | 이름을 늦추고 방랑·다중성의 서사 전체를 여는 프로그램적 형용사 | Ὀδυσσεύς의 직접 어원이 아님 |
-| **πολύμητις Ὀδυσσεύς** (_Od._ 9.1) | `πολύμητις`; 남성 주격 단수 | 오디세우스를 말하는 영웅, 자기 서사의 화자로 도입하는 반복 정형구 | 이름의 형태론과 무관한 서사적 수식 |
-| **πολυμήχαν᾽** (_Il._ 2.173) | `πολυμήχανος`; 남성 호격 단수, 시적 탈락형 | 직접 호명 속에서 다수의 계책을 가진 인물이라는 역할을 호출 | 이름의 어원이 아니라 호명 공식 |
-| **πτολίπορθος Ὀδυσσεύς** (_Od._ 8.3) | `πτολίπορθος`; 남성 주격 단수 | 트로이 함락의 전사적 공적을 전경화 | `Ὀδυσσεύς`의 어원을 설명하지 않음 |
-| **Οὖτίς** (_Od._ 9.408) | 전술적 가명·고유명사적 사용 | 이름을 지워 감시와 공동체의 응답을 우회 | Ὀδυσσεύς와 형태론적으로 동일하지 않음 |
+| 그리스어 실제형 | 학술 전사 | 표제형·형태론 | 서사적 기능 | 어원 주장과의 거리 | 근거 |
+|:---|:---|:---|:---|:---|:---|
+| **πολύτροπον** | *polútropon* | `πολύτροπος`; 남성 대격 단수 | 이름을 늦추고 방랑·다중성의 서사 전체를 여는 프로그램적 형용사 | Ὀδυσσεύς의 직접 어원이 아님 | _Od._ 1.1 |
+| **πολύμητις Ὀδυσσεύς** | *polúmētis Odusseús* | `πολύμητις`; 남성 주격 단수 + `Ὀδυσσεύς`; 인명 주격 단수 | 오디세우스를 말하는 영웅, 자기 서사의 화자로 도입하는 반복 정형구 | 이름의 형태론과 무관한 서사적 수식 | _Od._ 9.1 |
+| **πολυμήχαν᾽** | *polumḗkhan’* | `πολυμήχανος`; 남성 호격 단수, 시적 탈락형 | 직접 호명 속에서 다수의 계책을 가진 인물이라는 역할을 호출 | 이름의 어원이 아니라 호명 공식 | _Il._ 2.173 |
+| **πτολίπορθος Ὀδυσσεύς** | *ptolíporthos Odusseús* | `πτολίπορθος`; 남성 주격 단수 + `Ὀδυσσεύς`; 인명 주격 단수 | 트로이 함락의 전사적 공적을 전경화 | `Ὀδυσσεύς`의 어원을 설명하지 않음 | _Od._ 8.3 |
+| **Οὖτίς** | *Oûtís* | 남성 주격 단수의 전술적 가명·고유명사적 사용; 별도 표제형 판정 보류 | 이름을 지워 감시와 공동체의 응답을 우회 | Ὀδυσσεύς와 형태론적으로 동일하지 않음 | _Od._ 9.408 |
 
 이 표에서 **형태**는 실제 본문에 나온 표면형을, **표제형**은 사전에서 찾는 기본형을 뜻한다. 특히 `πολύτροπος`, `πολύμητις`, `πολυμήχανος`, `πτολίπορθος`를 모두 “오디세우스의 어원”으로 읽으면, 정형구의 운율·발화·호명 기능과 인명학을 한 층위로 납작하게 만든다. _Il._ 2.173의 호격형은 [Scaife 해당 행](https://atlas.perseus.tufts.edu/nodes/urn%3Acts%3AgreekLit%3Atlg0012.tlg001.perseus-grc2%3A2.173/), _Od._ 8.3의 주격형은 [Scaife 해당 행](https://atlas.perseus.tufts.edu/nodes/urn%3Acts%3AgreekLit%3Atlg0012.tlg002.perseus-grc2%3A8.3/)에서 확인할 수 있다.
 
@@ -315,14 +349,14 @@ Collins의 *space odyssey* 구문 페이지는 *dystopian space odyssey*처럼 �
 | _Od._ 1.62의 `ὠδύσαο`가 `ὀδύσσομαι`의 2인칭 단수 아오리스트 중간태 직설법이라는 사실 | 호메로스 희랍어 문법 | 문헌·형태 입증 (Established) | [Furman Greek Reader, _Od._ 1.60–1.93](https://folio.furman.edu/dramaturg/Homer/Odyssey/pages/chunk_003.html); [LSJ `ὀδύσσομαι`](https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n72123/) |
 | `ὠδύσαο`와 이름 사이의 내부적 소리·의미 공명 | 호메로스 서사·명명 | 강한 텍스트 추론 (Strong inference) | _Od._ 1.62; _Od._ 19.407–409; [LSJ `ὀδύσσομαι`](https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n72123/) |
 | _Od._ 9.1의 `πολύμητις Ὀδυσσεύς`가 오디세우스의 발화를 여는 반복 정형구라는 해석 | 호메로스 정형구·서사 기능 | 강한 텍스트 추론 (Strong inference) | [DCC _Od._ 9.1–46](https://dcc.dickinson.edu/homer-odyssey/ix-1-46) |
-| _Od._ 9.19–20의 `εἴμ᾽ Ὀδυσεὺς/Ὀδυσσεύς Λαερτιάδης`가 자기소개·부칭·명성의 장면이라는 사실 | 호메로스 인명·서사 | 문헌 입증 및 해석 분리 (Established + Strong inference) | [DCC _Od._ 9.1–46](https://dcc.dickinson.edu/homer-odyssey/ix-1-46) |
+| _Od._ 9.19–20의 자기소개 구절이 이름·부칭·명성을 결합한다는 사실 | 호메로스 인명·서사 | 문헌 입증 및 해석 분리 (Established + Strong inference) | [DCC _Od._ 9.1–46](https://dcc.dickinson.edu/homer-odyssey/ix-1-46) |
 | _Od._ 9.406–414의 `Οὖτίς`가 키클롭스를 속이기 위한 전술적 가명이고, 9.414가 `ὄνομα`와 `μῆτις`의 효과를 서술한다는 사실 | 호메로스 명명·화용론 | 문헌 입증 (Established) | [Scaife _Od._ 9.406–10.160](https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0012.tlg002.perseus-grc2%3A9.406-10.160/); [DCC _Od._ 9.409–460](https://dcc.dickinson.edu/homer-odyssey/ix-409-460) |
 | `μή τίς`·`Οὖτίς`·`μῆτις` 사이의 단어 경계·음성적 공명 | 호메로스 말장난 | 문학적 추론 (Strong inference; 형태론적 등식은 부정) | _Od._ 9.406, 9.408, 9.410, 9.414; [Scaife](https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0012.tlg002.perseus-grc2%3A9.406-10.160/) |
 | `μῆτις`가 `μή τίς`에서 역사적으로 파생되었다는 주장 | 고대 희랍어 형태론 | 근거 없음 (Spurious) | 본문은 속임수의 효과를 보여 주지만 두 표현의 형태론적 동일성을 주장하지 않음 |
 | _Od._ 19.392–412에서 흉터가 인식을 촉발하고 19.407–409에서 아우톨뤼코스의 명명 설명이 삽입된다는 사실 | 호메로스 인식·명명 설화 | 문헌 입증 (Established) | [DCC _Od._ 19.361–404](https://dcc.dickinson.edu/homer-odyssey/xix-361%E2%80%93404); [DCC _Od._ 19.405–454](https://dcc.dickinson.edu/homer-odyssey/xix-405%E2%80%93454) |
 | 19.407의 실제형 `ὀδυσσάμενος`가 `ὀδύσσομαι`의 남성 주격 단수 아오리스트 중간태 분사라는 사실 | 호메로스 희랍어 문법 | 문헌·형태 입증 (Established) | [DCC _Od._ 19.405–454](https://dcc.dickinson.edu/homer-odyssey/xix-405%E2%80%93454) |
-| `ὀδυσσάμενος ... Ὀδυσεὺς ὄνομ᾽ ἔστω ἐπώνυμον`이 역사적 어원이 아니라 호메로스 내부의 명명 설화라는 판정 | 호메로스 민간어원·인명학 | 고대 설명은 Established, 역사적 어원은 Pending | _Od._ 19.407–409; [DCC _Od._ 19.405–454](https://dcc.dickinson.edu/homer-odyssey/xix-405%E2%80%93454); [LSJ `Ὀδυσσεύς`](https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n72122/) |
-| _Od._ 19.474–475의 `ἦ μάλ᾽ Ὀδυσσεύς ἐσσι`가 요청 범위 밖의 구두 인식을 완성한다는 사실 | 호메로스 인식 장면 | 문헌 입증 (Established) | [DCC _Od._ 19.455–498](https://dcc.dickinson.edu/homer-odyssey/xix-455%E2%80%93498) |
+| _Od._ 19.407–409의 명명 문구가 역사적 어원이 아니라 호메로스 내부의 명명 설화라는 판정 | 호메로스 민간어원·인명학 | 고대 설명은 Established, 역사적 어원은 Pending | _Od._ 19.407–409; [DCC _Od._ 19.405–454](https://dcc.dickinson.edu/homer-odyssey/xix-405%E2%80%93454); [LSJ `Ὀδυσσεύς`](https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n72122/) |
+| _Od._ 19.474–475의 인식 발화가 요청 범위 밖에서 구두 인식을 완성한다는 사실 | 호메로스 인식 장면 | 문헌 입증 (Established) | [DCC _Od._ 19.455–498](https://dcc.dickinson.edu/homer-odyssey/xix-455%E2%80%93498) |
 | `odussasthai`를 19.407의 실제형으로 제시하는 주장 | 그리스어 형태론·음역 | 부정 (Spurious) | 해당 부정사는 `ὀδύσασθαι`; 19.407의 본문형은 `ὀδυσσάμενος`임 ([LSJ `ὀδύσσομαι`](https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n72123/)) |
 | 라틴어 *Ulixes / Ulysses*의 존재와 고전 용례 | 라틴어 인명 | 문헌 입증 (Established) | [Lewis–Short, `Ulixes`](https://cld.bbaw.de/lemma/lat/Ulixes) |
 | 라틴어 인명의 세부 경로를 에트루리아어·시켈리아 희랍어·서부 희랍어 중 하나로 확정하는 주장 | 라틴·서부 희랍어 접촉 | 논쟁적 가설 (Contested) | [Lewis–Short, `Ulixes`](https://cld.bbaw.de/lemma/lat/Ulixes); [Beekes, pp. 194–195](https://www.robertbeekes.nl/wp-content/uploads/2019/08/b124.pdf) |

@@ -1,16 +1,26 @@
 ---
-title: 엔티티명 (희랍어명 / 라틴문자명)
+title: 엔티티명 (관용 라틴명)
 aliases: [라틴문자명, 희랍어명, 대안표기, 주요별칭]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/draft]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 sources: []
 status: draft
+korean_name: 엔티티명
+conventional_latin: 관용 라틴명
+greek: "희랍어 표제형"
+transliteration: "학술 전사"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
 entity_type: person # person | deity | place | group | object | creature
 corpus: [iliad, odyssey] # [iliad] | [odyssey] | [iliad, odyssey]
 ---
 
-# 엔티티명 (Greek / Latin)
+# 엔티티명 (관용 라틴명)
+
+**[[greek-reading-guide|읽는 법]]**: 엔티티명 · **원어**: 희랍어 표제형 · **학술 전사**: *학술 전사*
+
+<!-- 일반 산문에서는 위 읽는 법 행 뒤 한국어명을 기본으로 쓰고, 철자·방언·형태론 분석 또는 직접 인용에서만 원어와 학술 전사를 다시 제시합니다. -->
 
 ## 서사적 입구 (Narrative Entry)
 - **핵심 장면**: 독자가 엔티티의 긴장을 즉시 파악할 수 있는 원전 장면으로 시작합니다.
@@ -34,6 +44,10 @@ corpus: [iliad, odyssey] # [iliad] | [odyssey] | [iliad, odyssey]
 - **대표 수식어**: 호메로스 정형구(*formula*) 목록 및 의미 (예: 발이 빠른, 준마를 부리는 등).
 - **운율적 기능**: 육보격(Dactylic Hexameter) 시행 내 위치(운율적 쉼표/휴지부) 및 서술적 효과.
 
+| 희랍어 정형구 실제형 | 학술 전사 | 한국어 풀이 | 운율적 기능 및 출전 |
+|:---|:---|:---|:---|
+| 실제 정형구 | 같은 실제형의 전사 | 문맥상 의미 | 육보격 내 위치, _Il._/_Od._ 권·행 |
+
 ### 2.3 방언 및 이형 표기
 - 이오니아-아이올리스 방언 혼재 양상 및 호메로스 텍스트 내 형태론적 특이점.
 
@@ -48,6 +62,10 @@ corpus: [iliad, odyssey] # [iliad] | [odyssey] | [iliad, odyssey]
 
 ### 3.3 서사적 전환점과 결정적 장면
 - 인물/대상의 운명을 가르는 핵심 결절점 및 클라이맥스 장면 분석.
+- 긴 원문은 실제 인용형을 다음 순서로 제시합니다.
+  - **번역**: 한국어 번역문
+  - **원문**: *희랍어 실제 인용문*
+  - **학술 전사**: *위 원문과 행 단위로 대응하는 실제형 전사*
 
 ---
 

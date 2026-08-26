@@ -1,16 +1,24 @@
 ---
 title: 아킬레우스 (Achilles)
-aliases: [Achilles, Ἀχιλλεύς, 아킬레우스, 펠레우스의 아들, 펠레이데스, Pelides, 아이아키데스, Aiakides, 아킬레우스 (Achilles / Ἀχιλλεύς)]
+aliases: [Achilles, Ἀχιλλεύς, Akhilleús, 아킬레우스, 펠레우스의 아들, 펠레이데스, Pelides, 아이아키데스, Aiakides, 아킬레우스 (Achilles / Ἀχιλλεύς)]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
-updated: 2026-08-25
+updated: 2026-08-26
 sources: [lee-junseok-2018-wrath-and-pity.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, nagy-1979-best-of-achaeans.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, dodds-1951-greeks-and-irrational.md]
 status: active
 entity_type: person
 corpus: [iliad, odyssey]
+korean_name: 아킬레우스
+conventional_latin: Achilles
+greek: "Ἀχιλλεύς"
+transliteration: "Akhilleús"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
 ---
 
-# 아킬레우스 (Achilles / Ἀχιλλεύς)
+# 아킬레우스 (Achilles)
+
+**[[greek-reading-guide|읽는 법]]**: 아킬레우스 · **원어**: Ἀχιλλεύς · **학술 전사**: *Akhilleús*
 
 ## 서사적 입구 (Narrative Entry)
 
@@ -34,8 +42,8 @@ corpus: [iliad, odyssey]
 
 ### 2.1 희랍어 표기와 이름의 해석
 
-- **표제형**: Ἀχιλλεύς (*Achilleus*). 호메로스 서사시에는 운율과 격에 따른 곡용형이 함께 나타난다.
-- **시학적 어원 해석**: 그레고리 나기(Gregory Nagy)는 이름을 *akhos* (ἄχος, 비탄)와 *laos* (λαός, 군대·민중)의 결합으로 해석한다. 이 분석은 아킬레우스의 철수가 군대 전체에 고통을 가져온다는 서사적 기능을 설명하는 강한 문헌학적 추론이지만, 선사시대 이름의 확정된 역사언어학적 어원은 아니다([[nagy-1979-best-of-achaeans|Nagy 1979]]).
+- **표제형**: Ἀχιλλεύς (*Akhilleús*). 호메로스 서사시에는 운율과 격에 따른 곡용형이 함께 나타난다.
+- **시학적 어원 해석**: 그레고리 나기(Gregory Nagy)는 이름을 *ákhos* (ἄχος, 비탄)와 *laós* (λαός, 군대·민중)의 결합으로 해석한다. 이 분석은 아킬레우스의 철수가 군대 전체에 고통을 가져온다는 서사적 기능을 설명하는 강한 문헌학적 추론이지만, 선사시대 이름의 확정된 역사언어학적 어원은 아니다([[nagy-1979-best-of-achaeans|Nagy 1979]]).
 
 > [!WARNING] 어원과 시학의 구분
 > 아킬레우스의 이름을 군대의 고통과 연결하는 해석은 서사시의 의미 작용을 설명하는 가설이다. 이를 이름의 객관적 어원이나 인물의 역사적 실재를 증명하는 자료로 사용할 수 없다.
@@ -44,13 +52,13 @@ corpus: [iliad, odyssey]
 
 호메로스의 수식어는 인물의 성격을 한 번에 고정하는 별명이면서, 육보격 시행의 서로 다른 위치를 채우는 정형구이다. 같은 인물도 장면과 문법적 형태에 따라 다른 수식어로 불리므로, 하나의 별칭을 인물 전체의 단일한 해석 열쇠로 삼지 않는다.
 
-| 희랍어 정형구 | 통상적 의미 | 서사적 기능 및 대표 근거 |
-|:---|:---|:---|
-| **πόδας ὠκὺς Ἀχιλλεύς** (*podas ōkus Achilleus*) | 발이 빠른 아킬레우스 | 전장에서의 기동성과 육체적 탁월성을 환기한다. _Il._ 1.84 등 |
-| **Πηληϊάδης / Πηλεΐδης** (*Pēlēïadēs / Pēlēïdēs*) | 펠레우스의 아들 | 가문과 필멸의 혈통을 전면에 둔다. _Il._ 16.15 등 |
-| **Αἰακίδης** (*Aiakidēs*) | 아이아코스의 후손 | 영웅적 계보와 전통적 명예를 환기한다. _Il._ 16.15, 21.189 |
-| **δῖος Ἀχιλλεύς** (*dios Achilleus*) | 신과 같은 아킬레우스 | 비범한 전사적 위상을 표시하지만, 불사신이라는 뜻은 아니다. |
-| **ῥηξήνωρ** (*rhēxēnōr*) | 전열을 부수는 자 | 결투와 돌파 장면에서 공격적 행위성을 강조한다. |
+| 희랍어 정형구 | 학술 전사 | 통상적 의미 | 서사적 기능 및 대표 근거 |
+|:---|:---|:---|:---|
+| **πόδας ὠκὺς Ἀχιλλεύς** | *pódas ōkùs Akhilleús* | 발이 빠른 아킬레우스 | 전장에서의 기동성과 육체적 탁월성을 환기한다. _Il._ 1.84 등 |
+| **Πηληϊάδης / Πηλεΐδης** | *Pēlēïádēs / Pēleḯdēs* | 펠레우스의 아들 | 가문과 필멸의 혈통을 전면에 둔다. _Il._ 16.15 등 |
+| **Αἰακίδης** | *Aiakídēs* | 아이아코스의 후손 | 영웅적 계보와 전통적 명예를 환기한다. _Il._ 16.15, 21.189 |
+| **δῖος Ἀχιλλεύς** | *dī̂os Akhilleús* | 신과 같은 아킬레우스 | 비범한 전사적 위상을 표시하지만, 불사신이라는 뜻은 아니다. |
+| **ῥηξήνωρ** | *rhēksḗnōr* | 전열을 부수는 자 | 결투와 돌파 장면에서 공격적 행위성을 강조한다. |
 
 ### 2.3 방언과 곡용형
 

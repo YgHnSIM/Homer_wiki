@@ -53,6 +53,15 @@ status: draft | active | review | archived
   - `wiki/sources/`: `raw/`의 원본 파일명 또는 외부 URL. 쉼표가 있거나 URL인 값은 따옴표로 감쌉니다.
   - `words/`: 사전·문헌의 서지 표제. 아직 출처가 없으면 `[]`를 사용합니다.
 
+#### 그리스어 읽기 UX 운영 규칙
+
+- 정식 개념·엔티티·단어 페이지는 `korean_name`, `conventional_latin`, `greek`, `transliteration`, `transliteration_system`, `cssclasses`를 단일 원천으로 둔다. `transliteration_system`은 `homeric-oriented-v1`, `cssclasses`에는 `greek-reading-page`를 포함한다.
+- 개념·엔티티 제목과 H1은 `한국어명 (관용 라틴명)`, 단어 제목과 H1은 `영어 표제어 (한국어명)`으로 일치시킨다. 그리스어와 학술 전사는 제목에 넣지 않는다.
+- H1 바로 아래 첫 비어 있지 않은 본문 줄은 다음 읽는 법 행으로 둔다: `**[[greek-reading-guide|읽는 법]]**: {korean_name} · **원어**: {greek} · **학술 전사**: *{transliteration}*`.
+- 일반 산문은 첫 완전 공개 뒤 한국어명을 기본으로 한다. 철자·방언·형태론 분석 또는 직접 인용에서만 원어와 학술 전사를 다시 제시한다.
+- 4어 이상 또는 완결된 절·시행은 `번역 → 원문 → 실제형 학술 전사` 순서로 쓰며, 형태론·정형구 표는 그리스어 실제형과 학술 전사 열을 분리한다.
+- 상세 전사·예외 판단은 `docs/editorial/homeric-oriented-transliteration-v1.md`, 독자용 안내는 `wiki/greek-reading-guide.md`를 따른다. IPA와 음성은 현재 범위에 넣지 않는다.
+
 ### 2.2 내부 링크 및 이중 대괄호
 
 - 옵시디언 `[[위키링크]]` 형식을 필수 사용합니다.

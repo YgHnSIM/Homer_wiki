@@ -1,7 +1,13 @@
 ---
-title: 표제어 (영단어/인명/개념)
-word: word_name # 현대 영어 표제어 (Modern English Word / Eponym)
-greek_root: ῥίζα (rhiza, 명사) # 원어 철자 (라틴 전사, 품사/원형)
+title: English headword (한국어 표제어)
+word: English headword # 현대 영어 표제어 (Modern English Word / Eponym)
+korean_name: 한국어 표제어
+conventional_latin: Conventional Latin name
+greek: "그리스어 표제형"
+transliteration: "학술 전사"
+transliteration_system: homeric-oriented-v1
+cssclasses: [greek-reading-page]
+greek_root: "ῥίζα" # 어원·형태론 설명용 원어근; 읽기 UI의 단일 원천이 아님
 pie_root: "*root-" # "*PIE 조어 어근" | "Pre-Greek substrate" | "Uncertain / Pending"
 word_type: concept # concept | eponym | root | borrowing
 transmissions: [greek, latin, old_french, middle_english, modern_english]
@@ -13,7 +19,11 @@ sources: [] # 관련 사전 및 문헌 출처 (예: Beekes 2010, LSJ, OED)
 status: draft # draft | active | review | archived
 ---
 
-# 표제어 (영단어/인명/개념)
+# English headword (한국어 표제어)
+
+**[[greek-reading-guide|읽는 법]]**: 한국어 표제어 · **원어**: 그리스어 표제형 · **학술 전사**: *학술 전사*
+
+<!-- 일반 산문에서는 위 읽는 법 행 뒤 한국어명을 기본으로 쓰고, 철자·방언·형태론 분석 또는 직접 인용에서만 원어와 학술 전사를 다시 제시합니다. -->
 
 > **요약**: 현대 영어 단어의 핵심 정의, 원어 어원 및 전파 경로 요약 (1~2문장).
 
@@ -24,7 +34,7 @@ status: draft # draft | active | review | archived
 ```mermaid
 graph TD
     %% 기본 어원 전파 경로
-    PIE["PIE: *root (의미) / 또는 선희랍 기층어"] --> GRK["고대 희랍어: 원어 (라틴전사, 의미)"]
+    PIE["PIE: *root (의미) / 또는 선희랍 기층어"] --> GRK["고대 희랍어: 원어"]
     GRK --> LAT["고전/후기 라틴어: 차용어"]
     LAT --> OFR["고대/중세 프랑스어: 변형어"]
     OFR --> ME["중세 영어: 차용어 (시대)"]
@@ -50,13 +60,20 @@ graph TD
 - **고대 희랍어 형태론**:
   - 기본 어간, 접미사 결합 구조, 품사 변형 (명사/동사/형용사).
 
+| 그리스어 실제형 | 학술 전사 | 표제형·형태론 | 한국어 풀이 | 근거 |
+|:---|:---|:---|:---|:---|
+| 실제형 | 같은 실제형의 전사 | 표제형, 격·수·성 또는 시제·태·법 | 문맥상 뜻 | 사전 또는 원전 위치 |
+
 ---
 
 ## 3. 호메로스 서사시 원전 용례 및 인명학 (Homeric Epic Context & Onomastics)
 
 - **호메로스 텍스트 출전**:
   - _Il._ X.XXX / _Od._ Y.YYY (실제 검증된 권·행 번호 필수)
-  - 원문 인용 및 서사적 문맥 분석.
+  - 긴 원문 인용 및 서사적 문맥 분석은 다음 순서를 사용합니다.
+    - **번역**: 한국어 번역문
+    - **원문**: *그리스어 실제 인용문*
+    - **학술 전사**: *위 원문과 행 단위로 대응하는 실제형 전사*
 - **정형구(Formula) 및 수식 칭호(Epithets)**:
   - 호메로스 시가 운율 내에서의 위치와 결합된 고유 수식어.
 - **인명·신명 복합어 분석 (Onomastics, Eponym인 경우)**:

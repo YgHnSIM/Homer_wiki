@@ -1326,6 +1326,7 @@ status: active
 - **결정사항 보존**: 25개 설계 질의의 승인 답변을 `docs/plans/greek-reading-ux-implementation-plan.md`에 고정 결정으로 기록함.
 - **세션 인계 명세**: 다른 세션이 설계 질문을 되풀이하지 않고 작업할 수 있도록 표시 계약, 프론트매터 스키마, 전사 예외·레거시 원장, 파일럿 4종, 단계별 파일 목록과 완료 조건을 명시함.
 - **범위 제한**: 실제 위키 본문, 템플릿, 검증기, Quartz·Obsidian 스타일의 구현은 시작하지 않음.
+- **검증**: `npm run check` 통과(50개 문서·1,420개 링크, 허용된 빨간 링크 566개·97개 대상; 개념×문헌 8×24 동기화; 위키 툴링 회귀 테스트). 계획 문서의 잔여 표식과 후행 공백이 없고 `git diff --check`가 통과함.
 
 ## [2026-08-26] feat(words) | Polytropos 어원·수용사 문서 추가
 
@@ -1350,3 +1351,44 @@ status: active
 
 - `words/word-polytropos.md`의 YAML `title`을 기존 어원 사전 항목과 같은 `영문 표제어 (한국어 표기 / 희랍어 원어)` 순서로 정정함.
 - 검증: `node scripts/validate-wiki.mjs` 통과.
+
+---
+
+## [2026-08-26] chore(meta) | 그리스어 읽기 UX 구현 기준선 재확인
+
+- **실행 범위**: 승인된 `docs/plans/greek-reading-ux-implementation-plan.md`를 처음부터 끝까지 읽고 25개 고정 결정을 재질문하지 않은 채 단계 0을 시작함.
+- **사용자 변경 보존**: 수정된 `.gitignore`·`wiki/log.md`와 추적되지 않은 `docs/plans/`를 확인했으며, 기존 변경을 덮어쓰지 않음.
+- **기존 검증 기준선**: `npm run check` 통과(50개 문서·1,430개 링크, 허용된 빨간 링크 566개·97개 대상; 개념×문헌 8×24 동기화; 위키 툴링 회귀 테스트).
+- **임시 그리스어 집계**: 현재 체크아웃의 `wiki/`·`words/`·루트 `index.md`를 대상으로 50개 Markdown, 그리스 문자 포함 50개 문서, 2,486개 연속 그리스어 문자열, NFC 고유 68개, 그리스어 포함 1,065개 행을 확인함. 이는 정식 인벤토리 구현 전의 Unicode Script_Extensions 기반 임시 집계이며, 템플릿·내부 문서·작업 로그 포함 여부와 코드 펜스 분류는 새 인벤토리에서 재생산함.
+- **렌더러 기준선**: Quartz의 popover와 Reader mode는 활성화되어 있고 `wiki/log.md`·`wiki/meta/**`·템플릿은 제외됨. note-properties 플러그인은 활성화된 채 `hidePropertiesView: true`이며, Obsidian의 `ancient-fonts` 스니펫은 활성화되어 있음.
+- **보호 확인**: `raw/`에는 쓰지 않았고, 단계 1·2 문서와 단계 4 도구는 독립 서브에이전트가 겹치지 않는 파일 범위에서 작성 중임.
+
+---
+
+## [2026-08-26] feat(meta) | 그리스어 읽기 UX 규약 및 파일럿 구현
+
+- **규약·문서화**: 점진적 주석 ADR, Homeric-oriented-v1 전사 규약, 감사 기준선, 공개 읽기 안내를 추가하고 루트·위키 색인에 연결함.
+- **운영 계약**: `AGENTS.md`, `CONTEXT.md`, `DESIGN.md`, 개념·엔티티·단어 템플릿에 정규화·읽기 행·표·긴 인용 규칙을 반영함.
+- **자동화**: 인벤토리, 엄격 검증, 회귀 테스트, 예외 파일, pre-existing 레거시 원장을 추가하고 `check:greek`·`report:greek`·통합 `check` 명령을 연결함.
+- **고정 파일럿**: `concept-aidos.md`, `entity-achilles.md`, `word-odyssey.md`, `scott-1981-some-greek-terms.md`를 새 계약으로 이행함. 레거시 원장은 현재 31개 pre-existing public page로 축소됨.
+- **스타일**: Quartz와 Obsidian에 페이지 첫머리 읽기 행 및 내부 스크롤 표 스타일을 추가하되 기존 세리프·CJK·무채색 읽기 원칙을 유지함.
+- **검증**: `npm run check`, `node scripts/greek-reading-validation.mjs --strict`, `node scripts/test-greek-reading-tooling.mjs`, 개념×문헌 매트릭스, `git diff --check`를 통과함. 현재 인벤토리는 52문서·38개 그리스어 포함 문서·1,700 runs·NFC 위반 0건을 보고함.
+- **보호 확인**: `raw/` 변경 0건. 전체 레거시 파동 마이그레이션은 파일럿 통과 후 단계 8에서 이어갈 수 있도록 남겨 둠.
+
+---
+
+## [2026-08-26] fix(meta) | 그리스어 읽기 UX 모바일 렌더링 경계 보강
+
+- **문제 확인**: 독립 시각 QA에서 390px 캡처 시 레이아웃 intrinsic width가 읽기 행·Mermaid·헤더·표를 우측으로 밀 수 있는 경계 조건을 발견함.
+- **CSS 보강**: 모바일 Quartz grid를 `minmax(0, 1fr)`로 고정하고 주요 레이아웃 자식의 `min-width: 0`·`max-width: 100%`를 명시함. 읽기 행은 긴 전사도 자연스럽게 줄바꿈하고, 표·Mermaid·KaTeX는 부모 폭 안에 고정함.
+- **접근성/상호작용**: 실제 Quartz 버튼 클래스인 `readermode`를 모바일 터치 영역 규칙에 포함해 다크 모드·리더 모드 버튼을 각각 40px로 유지함.
+- **렌더링 검증**: Quartz 샌드박스 47개 입력·436개 산출물 빌드 성공. 390×844 실제 브라우저에서 body/html scroll width 390px, 읽기 행 2줄, Mermaid 내부 영역 315px, 표 내부 스크롤 331px, 페이지 외부 가로 overflow 0을 확인함. 데스크톱 1440px 캡처에서도 제목·읽기 행·본문·TOC 계층을 확인함.
+- **최종 자동 검증**: `npm run check`, `check:greek`, `report:greek`, Sass 컴파일, `git diff --check` 통과. raw 변경 0건.
+
+---
+
+## [2026-08-26] refactor(meta) | 그리스어 읽기 검증 도구 모듈 분리
+
+- 공통 Unicode 추출·경로 분류·오류 객체를 `scripts/greek-reading-shared.mjs`로 분리하고, 레거시·전사 예외 원장 검증을 `scripts/greek-reading-ledgers.mjs`로 분리함.
+- 인벤토리와 엄격 검증기의 공개 함수 호환성은 유지하면서 각 순수 코드 파일을 250줄 이하로 정리함.
+- 검증: `npm run check` 및 28개 그리스어 읽기 구조 회귀 테스트 통과. `raw/` 변경 0건.
