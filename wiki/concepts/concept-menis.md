@@ -3,7 +3,7 @@ title: 메니스 (Menis)
 aliases: [Menis, Mênis, μῆνις, "mē̂nis", 신적 분노, 아킬레우스의 분노, "메니스 (Mênis, μῆνις) — 신적 분노와 우주적 파괴력", 메니스 (Mênis / μῆνις) — 신적 분노와 우주적 파괴력]
 tags: [type/concept, domain/iliad, domain/mythology, status/active]
 created: 2026-08-16
-updated: 2026-08-26
+updated: 2026-08-27
 sources: [lee-junseok-2024-iliad-jeongam.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, long-1970-morals-and-values.md, redfield-1975-nature-and-culture.md]
 status: active
 korean_name: 메니스
@@ -27,7 +27,7 @@ cssclasses: [greek-reading-page]
 
 - *"노래하소서, 여신이여! 펠레우스의 아들 아킬레우스의 파멸적인 분노(Mênis)를..."* (_Il._ 1.1–2)
 
-호메로스 서사시에서 *Mênis*는 주로 신들의 분노—[[entity-apollo|아폴론]]의 분노(_Il._ 1.75), [[entity-zeus|제우스]]의 분노(_Il._ 15.122)—에 사용됩니다. 인간 영웅 중에서는 오직 [[entity-achilles|아킬레우스]]만이 이 단어의 주체로 호명되며(예외적으로 _Il._ 13.460에서 [[entity-aeneas|아이네이아스]]가 프리아모스로부터 마땅한 명예를 받지 못했을 때 정형구적으로 한 차례 언급됨), 이는 아킬레우스가 인간의 한계를 넘어 신과 필멸자의 경계선에 선 초월적 존재이자, 그의 분노가 그리스 군단과 트로이아 전체의 운명을 뒤흔드는 우주적 파괴력을 지니고 있음을 선언하는 문헌학적 장치입니다 ([[lee-junseok-2024-iliad-jeongam|이준석 2024]]).
+호메로스 서사시에서 *Mênis*는 주로 신들의 분노—[[entity-apollo|아폴론]]의 분노(_Il._ 1.75), [[entity-zeus|제우스]]의 분노(_Il._ 15.122)—에 사용됩니다. 인간 영웅 중에서는 오직 [[entity-achilles|아킬레우스]]만이 이 단어의 주체로 호명되며(예외적으로 _Il._ 13.460에서 [[entity-aeneas|아이네이아스]]가 프리아모스로부터 마땅한 [[concept-time|명예(Timê)]]를 받지 못했을 때 정형구적으로 한 차례 언급됨), 이는 아킬레우스가 인간의 한계를 넘어 신과 필멸자의 경계선에 선 초월적 존재이자, 그의 분노가 그리스 군단과 트로이아 전체의 운명을 뒤흔드는 우주적 파괴력을 지니고 있음을 선언하는 문헌학적 장치입니다 ([[lee-junseok-2024-iliad-jeongam|이준석 2024]]).
 
 ---
 
@@ -51,7 +51,7 @@ cssclasses: [greek-reading-page]
 
 ## 3. 서사적 전개와 3단계 변천
 
-### 3.1 1단계: 존재론적 명예([[concept-time|Timê]]) 유린과 메니스의 발동 (1~9권)
+### 3.1 1단계: 존재론적 명예([[concept-time|티메]]) 유린과 메니스의 발동 (1~9권)
 - **발동 원인**: 아가멤논이 최고 지휘관의 권력으로 아킬레우스의 정당한 전리품([[concept-geras|Geras]]) [[entity-briseis|브리세이스]]를 강탈했을 때 발동됩니다 (_Il._ 1.352–356).
 - **존재론적 몫의 부정**: 호메로스 사회에서 게라스는 단순한 물질적 노획물이 아니라 목숨을 걸고 싸운 전사의 탁월성([[concept-arete|Arete]])을 공동체가 공인하는 물리적 지표입니다. 따라서 게라스의 강탈은 전사의 존재론적 가치를 말살하는 행위입니다.
 - **제우스의 뜻과의 결합**: 아킬레우스는 어머니 [[entity-thetis|테티스]]를 통해 [[entity-zeus|제우스]]에게 청원하여 아카이아 군대가 패배하도록 만듦으로써 자신의 대체 불가능성을 증명하고자 합니다 (_Il._ 1.500–530).
@@ -90,7 +90,7 @@ cssclasses: [greek-reading-page]
 ### 관련 윤리 및 신화 개념
 - [[concept-cholos|Cholos]] — 간에서 솟구치는 인간적 울분과 순간적 격정
 - [[concept-kotos|Kotos]] — 내면에 품어두는 장기적 원한
-- [[concept-time|Timê]] — 전사의 존재론적 명예와 사회적 공인
+- [[concept-time|티메 (Time)]] — 전사의 존재론적 명예와 사회적 공인
 - [[concept-geras|Geras]] — 탁월성에 대한 보상으로 주어지는 전리품
 - [[concept-hikesia|Hikesia]] — 신체 접촉과 경외를 통한 화해의 탄원 의례
 - [[concept-eleos|Eleos]] — 고통의 보편성에 기반한 비극적 연민

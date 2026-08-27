@@ -24,6 +24,7 @@ const preferredConceptOrder = [
   "concept-hikesia",
   "concept-aidos",
   "concept-nemesis",
+  "concept-time",
   "concept-xenia",
   "concept-eleos",
   "concept-agathos",

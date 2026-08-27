@@ -14,7 +14,7 @@ aliases:
   - "아이도스 (Aidôs, αἰδώς) — 수치심, 경외 및 자기억제의 도덕 감정"
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-08-26
+updated: 2026-08-27
 sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, cairns-1993-aidos.md, williams-1993-shame-and-necessity.md, long-1970-morals-and-values.md, dodds-1951-greeks-and-irrational.md, redfield-1975-nature-and-culture.md, lee-junseok-2024-iliad-jeongam.md]
 status: active
 korean_name: 아이도스
@@ -67,7 +67,7 @@ graph TD
   - **번역**: "서로를 의식하여 부끄러워하라."
   - **원문**: *ἀλλήλους τ’ αἰδεῖσθε*
   - **학술 전사**: *allḗlous t’ aideîsthe*
-- **명예 손상 회피**: 전우들 앞에서 등을 돌리고 도망쳐 명예([[concept-time|Timê]])를 상실하고 세간의 비난 평판인 파티스 데무(φάτις δήμου, *phátis dḗmou*)를 듣는 것에 대한 두려움이 영웅을 전선에 묶어두는 핵심 동력입니다.
+- **명예 손상 회피**: 전우들 앞에서 등을 돌리고 도망쳐 [[concept-time|명예(Timê)]]를 상실하고 세간의 비난 평판인 파티스 데무(φάτις δήμου, *phátis dḗmou*)를 듣는 것에 대한 두려움이 영웅을 전선에 묶어두는 핵심 동력입니다.
 
 ### 2.2 위계와 권력에 대한 경외 (Respect for Hierarchy)
 - **군주와 상급자 앞의 절제**: [[entity-diomedes|디오메데스]]가 [[entity-agamemnon|아가멤논]]의 부당한 질책에 침묵하는 것과, 전령 [[entity-talthybios|탈튀비오스]]와 에우리바테스가 [[entity-achilles|아킬레우스]]의 위엄에 눌려 말을 잇지 못하는 것은 권력과 지위가 자아내는 아이도스입니다.
@@ -176,9 +176,8 @@ $$\text{행위자의 아이도스} \iff \text{관찰자의 네메시스}$$
 - [[concept-hikesia|Hikesia]] — 신체 접촉과 아이도스에 기초한 신성 탄원 의례
 - [[concept-xenia|Xenia]] — 손님 환대의 의무와 제우스 크세니오스의 가호
 - [[concept-eleos|Eleos]] — 고통받는 타자에 대한 연민과 공감
-- [[concept-time|Timê]] — 사회적 인정과 명예
+- [[concept-time|티메 (Time)]] — 사회적 인정과 명예
 - [[concept-arete|Arete]] — 영웅적 탁월성과 그에 따르는 도덕적 책무
-- [[concept-xenia|Xenia]] — 손님 환대와 이방인 보호 규범
 - [[concept-themis|Themis]] — 신성한 관습 규범
 - [[concept-moira|Moira]] — 인간에게 할당된 응당한 몫과 운명적 한계
 - [[concept-hybris|Hybris]] — 몫을 넘어선 오만과 불의
@@ -196,4 +195,3 @@ $$\text{행위자의 아이도스} \iff \text{관찰자의 네메시스}$$
 - [[redfield-1975-nature-and-culture]] — 자연과 문화: 일리아스의 헥토르와 영웅적 비극
 - [[lee-junseok-2024-iliad-jeongam]] — 정암학당 2024 일리아스 강좌 (6권/24권 아이도스 심화 해제)
 - [[zanker-1994-heart-of-achilles]] — 아킬레우스의 마음: 호메로스 서사시의 연민과 도덕적 선택
-

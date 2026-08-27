@@ -3,7 +3,7 @@ title: 위키 색인
 aliases: [전체 목록, 인덱스, 파일 목차, 호메로스 위키 전체 카탈로그]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-08-26
+updated: 2026-08-27
 sources: []
 status: active
 ---
@@ -68,11 +68,12 @@ status: active
 - [[concept-hikesia|히케시아 (Hikesia)]]
 - [[concept-aidos|아이도스 (Aidos)]]
 - [[concept-nemesis|네메시스 (Nemesis)]]
+- [[concept-time|티메 (Time)]]
 - [[concept-xenia|크세니아 (Xenia)]]
 - [[concept-agathos|아가토스 (Agathos)]]
 - [[concept-eleos|엘레오스 (Eleos)]]
 
-작성 예정 (링크 없음): 테미스, 아레테, 티메, 클레오스, 디케, 노스토스, 모이라, 아테.
+작성 예정 (링크 없음): 테미스, 아레테, 클레오스, 디케, 노스토스, 모이라, 아테.
 
 ---
 

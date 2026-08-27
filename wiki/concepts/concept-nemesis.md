@@ -1,9 +1,9 @@
 ---
 title: 네메시스 (Nemesis)
-aliases: [Nemesis, νέμεσις, némesis, 네메시스, 의분, 공적 분노, 질서 수호, nemesan, ouk esti nemesis, "네메시스 (Nemesis, νέμεσις) — 응당한 분배와 공적 의분", 네메시스 (Nemesis / νέμεσις) — 응당한 분배와 공적 의분]
+aliases: [Nemesis, νέμεσις, némesis, 네메시스, 의분, 공적 분노, 질서 수호, nemesan, ouk esti nemesis, "네메시스 (Nemesis, νέ메σις) — 응당한 분배와 공적 의분", 네메시스 (Nemesis / νέ메σις) — 응당한 분배와 공적 의분]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-08-26
+updated: 2026-08-27
 sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, lloyd-jones-1971-justice-of-zeus.md, adkins-1960-merit-and-responsibility.md]
 status: active
 korean_name: 네메시스
@@ -45,7 +45,7 @@ graph TD
 ### 2.1 신분 질서(*Kosmos*) 일탈 및 세간의 평판(*Phatis dêmou*) 수호
 - **테르시테스의 월권 단죄**: 평민 전사 [[entity-thersites|테르시테스]]가 최고 지휘관 [[entity-agamemnon|아가멤논]]을 모욕했을 때, 그리스 군대 전체가 그에게 깊은 네메시스를 품습니다 (_Il._ 2.222–223). 신분 질서의 위반은 전열과 공동체의 존립을 위협하기 때문입니다.
 - **텔레마코스의 아고라 고발**: [[entity-telemachos|텔레마코스]]는 이타카 민회에서 구혼자들의 재산 약탈을 고발하며 시민들에게 "가슴속에 네메시스를 품으라(*nemessêthête d' eni thumôi*)"고 호소하고, 인간들의 네메시스와 신들의 노여움을 두려워하라고 촉구합니다 (_Od._ 2.64–67, 2.136–137).
-- **구혼자들의 평판 불안**: 누더기를 걸친 거지([[entity-odysseus|오디세우스]])가 활을 쏘려 할 때 구혼자 에우리마코스가 격분하는 것은(_Od._ 21.285–286, 21.323–329), 하층민이 귀족([[concept-agathos|Agathoi]])의 우월성을 침범하여 세간의 비난과 조롱(*elencheiê / phatis*)을 살 것에 대한 네메시스입니다.
+- **구혼자들의 평판 불안**: 누더기를 걸친 거지([[entity-odysseus|오디세우스]])가 활을 쏘려 할 때 구혼자 에우리마코스가 격분하는 것은(_Od._ 21.285–286, 21.323–329), 하층민이 귀족([[concept-agathos|Agathoi]])의 우월성과 [[concept-time|명예(Timê)]]를 침범하여 세간의 비난과 조롱(*elencheiê / phatis*)을 살 것에 대한 네메시스입니다.
 - **헬레네의 탄식**: [[entity-helene|헬레네]]는 자신의 처지와 [[entity-paris|파리스]]의 나태함을 한탄하며 "훗날 사람들의 수많은 비난(*nemesin*)을 의식할 줄 아는 남자의 아내가 되었어야 했다"고 자책합니다 (_Il._ 6.351).
 
 ### 2.2 영웅적 아레테([[concept-arete|Arete]]) 불이행과 전우애에 대한 질책
@@ -56,7 +56,7 @@ graph TD
 ### 2.3 신들의 의분과 한계선 수호
 - **대지 능욕에 대한 아폴론의 분노**: [[entity-achilles|아킬레우스]]가 헥토르의 사체를 전차에 매달아 끌고 다니며 모독할 때, [[entity-apollo|아폴론]]은 "그가 아무리 용맹할지라도(*agathôi per eonti*), 말 못 하는 흙먼지(대지)를 능욕하여 우리가 그에게 네메시스를 품지 않도록 조심해야 한다"고 엄중히 경고합니다 (_Il._ 24.53–54).
 - **아레스의 광포한 월권 억제**: 전쟁의 신 [[entity-ares|아레스]]가 제우스의 섭리를 넘어 전장에서 질서 없이(*ou kata kosmon*) 학살을 자행할 때, [[entity-hera|헤라]]는 [[entity-zeus|제우스]]에게 왜 아레스에게 네메시스를 느끼지 않느냐고 강력히 항의합니다 (_Il._ 5.757–759).
-- **포세이돈의 동등한 몫 주장**: 제우스가 전장에서 물러나라고 위협할 때, 포세이돈은 자신 역시 제우스와 동등한 몫(*homotimon*)을 분배받았음을 상기시키며 제우스의 월권에 격분합니다 (_Il._ 15.185–217).
+- **포세이돈의 동등한 몫 주장**: 제우스가 전장에서 물러나라고 위협할 때, 포세이돈은 자신 역시 제우스와 동등한 [[concept-time|티메]](명예)이자 몫(*homotimon*, ὁμότιμον)을 분배받았음을 상기시키며 제우스의 월권에 격분합니다 (_Il._ 15.185–217).
 
 ---
 
@@ -154,6 +154,7 @@ $$\text{행위자의 아이도스(Aidôs, 내적 억제)} \iff \text{관찰자�
 
 ### 관련 윤리 및 신화 개념
 - [[concept-aidos|Aidos]] — 네메시스를 예견하여 내면에서 일어나는 수치심과 자기억제 감정
+- [[concept-time|티메 (Time)]] — 각자의 신분과 몫에 비례하여 부여되는 공적 명예와 위계
 - [[concept-moira|Moira]] — 인간과 신에게 할당된 응당한 몫과 운명적 한계
 - [[concept-themis|Themis]] — 신성한 질서와 관습적 규범
 - [[concept-kosmos|Kosmos]] — 우주와 사회의 정돈된 위계 질서
