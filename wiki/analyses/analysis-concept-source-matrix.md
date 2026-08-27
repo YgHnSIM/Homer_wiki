@@ -3,7 +3,7 @@ title: 개념과 문헌
 aliases: [개념 문헌 표, 개념×문헌]
 tags: [type/analysis, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-24
-updated: 2026-08-27
+updated: 2026-08-28
 sources:
   - williams-1993-shame-and-necessity.md
   - adkins-1960-merit-and-responsibility.md
@@ -50,7 +50,7 @@ status: active
 
 ## 표
 
-| 문헌 | [[concept-menis\|메니스]] | [[concept-hikesia\|히케시아]] | [[concept-aidos\|아이도스]] | [[concept-nemesis\|네메시스]] | [[concept-time\|티메]] | [[concept-xenia\|크세니아]] | [[concept-eleos\|엘레오스]] | [[concept-agathos\|아가토스]] | [[concept-epic-cycle\|서사시환]] |
+| 문헌 | [[concept-menis\|메니스]] | [[concept-hikesia\|히케시아]] | [[concept-aidos\|아이도스]] | [[concept-nemesis\|네메시스]] | [[concept-time\|티메]] | [[concept-xenia\|크세니아]] | [[concept-eleos\|엘레오스]] | [[concept-agathos\|아가토스]] | [[concept-epic-cycle\|에픽 사이클]] |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | [[williams-1993-shame-and-necessity\|윌리엄스 1993]] | — | — | **중심** | — | 언급 | 언급 | — | 언급 | — |
 | [[adkins-1960-merit-and-responsibility\|애드킨스 1960]] | — | — | 언급 | 언급 | 언급 | 언급 | 언급 | **중심** | — |
@@ -77,7 +77,7 @@ status: active
 | [[greek-ministry-2025-odysseion-ithaca\|그리스 2025]] | — | — | — | — | — | — | — | — | — |
 | [[raw-2026-polytropos-notes\|raw-2026-polytropos-notes]] | — | — | — | — | — | — | — | — | — |
 
-[[concept-epic-cycle|서사시환]] 열은 비어 있습니다. 개념 항목의 `sources`가 아직 없고, 문헌 문서도 이 표제어로 잇지 않았습니다.
+[[concept-epic-cycle|에픽 사이클]] 열은 비어 있습니다. 개념 항목의 `sources`가 아직 없고, 문헌 문서도 이 표제어로 잇지 않았습니다.
 
 표를 다시 만들 때는 `scripts/build-concept-source-matrix.mjs`를 실행합니다. **중심** 칸만 스크립트 안의 짧은 목록으로 고정하고, 언급은 프론트매터와 문헌 문서의 위키링크에서 모읍니다.
 

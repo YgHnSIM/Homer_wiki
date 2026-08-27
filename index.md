@@ -40,7 +40,7 @@ status: active
 - [[concept-xenia|크세니아 (Xenia)]] — 손님 환대와 상호부조
 - [[concept-eleos|엘레오스 (Eleos)]] — 연민과 오익토스
 - [[concept-agathos|아가토스 (Agathos)]] — 영웅적 탁월자와 결과주의적 성공
-- [[concept-epic-cycle|서사시환 (Epic Cycle)]] — 트로이 전쟁 전말을 잇는 서사시 연작
+- [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]] — 트로이 전쟁 전말을 잇는 서사시 연작
 
 ### 어원
 

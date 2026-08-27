@@ -176,6 +176,52 @@ server.listen(PORT, async () => {
   fs.writeFileSync("screenshot-home-desktop.png", Buffer.from(desktopData, "base64"));
   console.log("Screenshot saved to screenshot-home-desktop.png (size:", desktopHeight, "px)");
 
+  // 3. Desktop Screenshot (Epic Cycle)
+  console.log("Navigating to http://localhost:3333/wiki/concepts/concept-epic-cycle...");
+  await sendSession("Page.navigate", { url: `http://localhost:${PORT}/wiki/concepts/concept-epic-cycle` });
+  await new Promise((r) => setTimeout(r, 2500));
+
+  const epicMetrics = await sendSession("Page.getLayoutMetrics");
+  const epicHeight = Math.ceil(epicMetrics.contentSize.height);
+
+  await sendSession("Emulation.setDeviceMetricsOverride", {
+    width: 1200,
+    height: epicHeight,
+    deviceScaleFactor: 2,
+    mobile: false
+  });
+
+  const { data: epicData } = await sendSession("Page.captureScreenshot", {
+    format: "png",
+    fromSurface: true,
+    captureBeyondViewport: true
+  });
+  fs.writeFileSync("screenshot-epic-cycle-desktop.png", Buffer.from(epicData, "base64"));
+  console.log("Screenshot saved to screenshot-epic-cycle-desktop.png (size:", epicHeight, "px)");
+
+  // 4. Desktop Screenshot (Overview)
+  console.log("Navigating to http://localhost:3333/wiki/overview...");
+  await sendSession("Page.navigate", { url: `http://localhost:${PORT}/wiki/overview` });
+  await new Promise((r) => setTimeout(r, 2500));
+
+  const overviewMetrics = await sendSession("Page.getLayoutMetrics");
+  const overviewHeight = Math.ceil(overviewMetrics.contentSize.height);
+
+  await sendSession("Emulation.setDeviceMetricsOverride", {
+    width: 1200,
+    height: overviewHeight,
+    deviceScaleFactor: 2,
+    mobile: false
+  });
+
+  const { data: overviewData } = await sendSession("Page.captureScreenshot", {
+    format: "png",
+    fromSurface: true,
+    captureBeyondViewport: true
+  });
+  fs.writeFileSync("screenshot-overview-desktop.png", Buffer.from(overviewData, "base64"));
+  console.log("Screenshot saved to screenshot-overview-desktop.png (size:", overviewHeight, "px)");
+
   ws.close();
   chrome.kill();
   server.close();

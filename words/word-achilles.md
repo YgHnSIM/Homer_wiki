@@ -256,6 +256,6 @@ flowchart LR
   - [[concept-kleos|클레오스 (Kleos / κλέος)]] — 영원히 사라지지 않는 명성
   - [[concept-eleos|엘레오스 (Eleos / ἔλεος)]] — 24권 프리아모스와 나눈 비극적 연민
   - [[concept-hikesia|히케시아 (Hikesia / ἱκεσία)]] — 프리아모스의 거룩한 탄원 의례
-  - [[concept-epic-cycle|서사시환 (Epic Cycle)]] — 트로이 전쟁 전승 및 아킬레우스의 사후 전승
+  - [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]] — 트로이 전쟁 전승 및 아킬레우스의 사후 전승
 - **단어 사전 색인 문서**:
   - [[words/index|호메로스 어원·영단어 사전 인덱스]]

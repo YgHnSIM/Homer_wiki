@@ -3,7 +3,7 @@ title: 아킬레우스 (Achilles)
 aliases: [Achilles, Ἀχιλλεύς, Akhilleús, 아킬레우스, 펠레우스의 아들, 펠레이데스, Pelides, 아이아키데스, Aiakides, 아킬레우스 (Achilles / Ἀχιλλεύς)]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
-updated: 2026-08-26
+updated: 2026-08-28
 sources: [lee-junseok-2018-wrath-and-pity.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, nagy-1979-best-of-achaeans.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, dodds-1951-greeks-and-irrational.md]
 status: active
 entity_type: person
@@ -110,7 +110,7 @@ flowchart TD
 
 『오뒷세이아』 11권에서 오디세우스는 저승의 아킬레우스를 영웅들의 지배자로 칭송하지만, 아킬레우스는 죽은 자의 명예보다 살아 있는 삶을 원한다고 대답한다(_Od._ 11.467–491). 짧은 대화는 『일리아스』의 클레오스 중심 선택을 무효화하지 않는다. 대신 귀향을 실제로 얻은 오디세우스와 이미 죽은 아킬레우스를 마주 세워, 명성이 생존을 대신할 수 있는지 다시 묻는다.
 
-24권의 장례 회고는 아킬레우스의 죽음과 장례가 신들과 인간 모두의 애도 대상이 되었음을 전한다(_Od._ 24.36–97). 그의 죽음 자체는 『일리아스』의 직접 서사가 아니라 『오뒷세이아』와 서사시환이 전제하는 후속 사건이므로, 호메로스 각 작품의 층위를 구분해야 한다.
+24권의 장례 회고는 아킬레우스의 죽음과 장례가 신들과 인간 모두의 애도 대상이 되었음을 전한다(_Od._ 24.36–97). 그의 죽음 자체는 『일리아스』의 직접 서사가 아니라 『오뒷세이아』와 에픽 사이클이 전제하는 후속 사건이므로, 호메로스 각 작품의 층위를 구분해야 한다.
 
 ### 3.3 전환점을 따라 읽는 질문
 
@@ -184,7 +184,7 @@ flowchart TB
 
 ### 5.4 아름다운 죽음과 후대의 영웅상
 
-장-피에르 베르낭(Jean-Pierre Vernant)의 ‘아름다운 죽음’(*belle mort*)은 젊음과 전사적 명성이 죽음 이후의 기억 속에서 결합하는 방식을 설명한다([[vernant-1989-belle-mort|Vernant 1989]]). 아킬레우스는 『일리아스』 안에서 아직 죽지 않지만, 『오뒷세이아』의 장례 회고와 서사시환의 후속 전승은 그의 죽음을 이미 알고 있다. 그러므로 ‘아킬레우스가 아름다운 죽음을 선택했다’는 표현은 본문 명시라기보다, 두 운명과 후대의 장례·수용 전승을 연결하는 해석으로 제시해야 한다.
+장-피에르 베르낭(Jean-Pierre Vernant)의 ‘아름다운 죽음’(*belle mort*)은 젊음과 전사적 명성이 죽음 이후의 기억 속에서 결합하는 방식을 설명한다([[vernant-1989-belle-mort|Vernant 1989]]). 아킬레우스는 『일리아스』 안에서 아직 죽지 않지만, 『오뒷세이아』의 장례 회고와 에픽 사이클의 후속 전승은 그의 죽음을 이미 알고 있다. 그러므로 ‘아킬레우스가 아름다운 죽음을 선택했다’는 표현은 본문 명시라기보다, 두 운명과 후대의 장례·수용 전승을 연결하는 해석으로 제시해야 한다.
 
 ## 6. 역사적 맥락 (Historical Context & Social Institutions)
 
@@ -236,9 +236,9 @@ flowchart TB
 
 ## 10. 후대 전승과 수용 (Post-Homeric Tradition & Reception)
 
-### 10.1 서사시환
+### 10.1 에픽 사이클
 
-『퀴프리아』와 『아이티오피스』의 전승 요약은 스퀴로스의 은신, 펜테실레이아와 멤논과의 전투, 파리스와 아폴론에 의한 죽음 등 『일리아스』 이후의 사건을 전한다. 『소일리아스』는 아킬레우스 무구의 심판과 유골의 안치를 다룬다. 이 사건들은 호메로스의 『일리아스』에 직접 서술된 행적이 아니라, 트로이 전쟁을 둘러싼 후대 서사시환의 층위로 표시해야 한다([[concept-epic-cycle|서사시환]]).
+『퀴프리아』와 『아이티오피스』의 전승 요약은 스퀴로스의 은신, 펜테실레이아와 멤논과의 전투, 파리스와 아폴론에 의한 죽음 등 『일리아스』 이후의 사건을 전한다. 『소일리아스』는 아킬레우스 무구의 심판과 유골의 안치를 다룬다. 이 사건들은 호메로스의 『일리아스』에 직접 서술된 행적이 아니라, 트로이 전쟁을 둘러싼 후대 에픽 사이클의 층위로 표시해야 한다([[concept-epic-cycle|에픽 사이클]]).
 
 ### 10.2 비극과 철학
 

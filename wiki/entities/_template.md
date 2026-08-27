@@ -150,7 +150,7 @@ graph TD
 ---
 
 ## 10. 후대 전승과 수용 (Post-Homeric Tradition & Reception)
-- **서사시환(Epic Cycle) 및 고전기 비극**: 서사시환(*Cypria*, *Aethiopis*, *Ilioupersis* 등) 및 3대 비극 시인의 변형.
+- **에픽 사이클(Epic Cycle) 및 고전기 비극**: 에픽 사이클(*Cypria*, *Aethiopis*, *Ilioupersis* 등) 및 3대 비극 시인의 변형.
 - **고대 말기 및 근현대 수용**: 헬레니즘·로마 서사시(베르길리우스, 스타티우스) 및 현대 문학·예술적 재해석.
 
 ---

@@ -1549,3 +1549,21 @@ status: active
   - **운영 지침 규정화**: `AGENTS.md` 제2.4절에 **인덱스 및 카탈로그 1행 표준 서식 규정** 신설.
 - **검증**: `npm run check` 및 `npm run check:greek` 전체 통과 (`raw/` 불변 원칙 준수).
 
+---
+
+## [2026-08-28] refactor(concepts) | '서사시환' 번역어를 '에픽 사이클(Epic Cycle)' 원어 표기로 전면 정비
+
+- **작업 개요**: 한자어 번역어인 '서사시환(敍事詩環)'을 제거하고, 현대 서양고전문헌학 및 위키 명명 규약에 부합하는 원어/원음 표기인 **에픽 사이클(Epic Cycle / 희랍어: ἐπικὸς κύκλος, *epikòs kúklos*)**로 볼트 전역을 전면 정비함.
+- **주요 변경 사항**:
+  - `wiki/concepts/concept-epic-cycle.md`: 제목(`에픽 사이클 (Epic Cycle)`), `korean_name: 에픽 사이클`, 읽는 법 행, 개요, 트로이 사이클 연대기 구조, 문헌학적 상태 및 아리스토텔레스 시학 비평 본문 전면 수정. 검색 호환을 위해 `aliases`에 `[Epic Cycle, 에픽 사이클, 트로이 사이클, Trojan Cycle, 에피코스 퀴클로스, 서사시환, 트로이 서사시환, ...]` 유지.
+  - `index.md` & `wiki/index.md`: 개념 카탈로그 내 링크 표기를 `[[concept-epic-cycle|에픽 사이클 (Epic Cycle)]]`로 통일.
+  - `wiki/overview.md`: 개념 성좌 Mermaid 다이어그램 노드(`Cycle["에픽 사이클"]`), 범례 설명, 작성된 핵심 개념 목록의 표기를 '에픽 사이클'로 갱신.
+  - `wiki/entities/entity-achilles.md`: 3.2절, 5.4절, 10.1절('에픽 사이클' 헤딩 및 층위 설명) 수정.
+  - `wiki/entities/entity-odysseus.md`: 10절 후대 전승, 12절 증거 매트릭스, 관련 항목 링크 텍스트 수정.
+  - `wiki/entities/_template.md`: 10절 템플릿 안내문구 정비.
+  - `wiki/sources/detienne-1974-cunning-intelligence.md`: 문서 경계 안내문구 정비.
+  - `words/word-achilles.md`: 관련 항목 링크 텍스트 수정.
+  - `wiki/analyses/analysis-concept-source-matrix.md`: 매트릭스 표 헤더(`[[concept-epic-cycle\|에픽 사이클]]`) 및 본문 설명 동기화.
+- **검증**: `npm run check` 및 `npm run check:greek` 전체 통과 (`raw/` 불변 원칙 준수).
+
+

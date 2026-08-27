@@ -3,7 +3,7 @@ title: 오디세우스 (Odysseus)
 aliases: [Odysseus, Ὀδυσσεύς, Odusseús, 오딧세우스, 라에르테스의 아들, 라에르티아데스, Laertiades, 폴뤼트로포스, Polytropos, 오디세우스 (Odysseus / Ὀδυσσεύς)]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-25
-updated: 2026-08-26
+updated: 2026-08-28
 sources: [detienne-1974-cunning-intelligence.md, nagy-1979-best-of-achaeans.md, bittlestone-2005-odysseus-unbound.md, greek-ministry-2025-odysseion-ithaca.md, lee-junseok-2016-odyssey-humanity.md, lee-junseok-2024-iliad-jeongam.md, scott-1982-philos-philotes-xenia.md]
 status: active
 entity_type: person
@@ -278,7 +278,7 @@ flowchart LR
 
 ## 10. 후대 전승과 수용 (Post-Homeric Tradition & Reception)
 
-보존된 서사시환의 요약은 『소일리아스』에서 아킬레우스 무구의 심판, 트로이 정찰, 팔라디온 절취와 목마 계획을 다룬다. 필록테테스를 데려오는 인물은 디오메데스이고, 목마 제작자는 아테나의 지시를 받은 에페이오스이다. 이는 『일리아스』와 『오뒷세이아』의 직접 서사에 추가된 후대 전승으로 분리해야 한다([[concept-epic-cycle|서사시환]]).
+보존된 에픽 사이클의 요약은 『소일리아스』에서 아킬레우스 무구의 심판, 트로이 정찰, 팔라디온 절취와 목마 계획을 다룬다. 필록테테스를 데려오는 인물은 디오메데스이고, 목마 제작자는 아테나의 지시를 받은 에페이오스이다. 이는 『일리아스』와 『오뒷세이아』의 직접 서사에 추가된 후대 전승으로 분리해야 한다([[concept-epic-cycle|에픽 사이클]]).
 
 오디세우스가 미친 척 소금을 뿌리며 밭을 갈고 팔라메데스가 텔레마코스를 쟁기 앞에 놓았다는 상세는 주로 히기누스 『이야기』 95와 같은 후대 신화편람 전승에 속한다. 이를 현전하지 않는 『퀴프리아』의 보존 내용으로 단정할 수 없다. 『텔레고니아』 요약의 텔레고노스가 아버지를 알아보지 못하고 죽였다는 이야기도 테이레시아스의 ‘바다로부터 오는 죽음’ 예언(_Od._ 11.134–137)의 유일한 원래 의미로 확정해서는 안 된다.
 
@@ -312,7 +312,7 @@ flowchart LR
 | 이타케의 후보 비정은 확정되지 않았다 | 고고학·지리·현대 연구 | Bittlestone et al. 2005; Hunter 2013 | 논쟁적 | [[bittlestone-2005-odysseus-unbound\|Bittlestone et al. 2005]] |
 | 아기오스 아타나시오스와 로이조스 동굴은 서로 다른 층위의 자료를 제공한다 | 물질자료·후대 수용 | 그리스 문화부 2025; Mycenaean Atlas; 로이조스 동굴 봉헌 명문 | 강한 학술 추론 | [[greek-ministry-2025-odysseion-ithaca\|그리스 문화부·Mycenaean Atlas 2025]] |
 | 멧돼지 어금니 투구는 미케네 물질문화의 기억을 환기한다 | 호메로스 본문·물질자료 | _Il._ 10.261–271; 고고학 종합 자료 | 강한 학술 추론 | [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] |
-| 오디세우스의 후대 전승은 호메로스 원전과 분리해야 한다 | 후대 문헌 | 『소일리아스』·『텔레고니아』 요약·소포클레스 비극 | 후대 수용 | [[concept-epic-cycle\|서사시환]] |
+| 오디세우스의 후대 전승은 호메로스 원전과 분리해야 한다 | 후대 문헌 | 『소일리아스』·『텔레고니아』 요약·소포클레스 비극 | 후대 수용 | [[concept-epic-cycle\|에픽 사이클]] |
 
 ## 관련 항목
 
@@ -326,7 +326,7 @@ flowchart LR
 - [[concept-metis|Metis]] — 계략과 상황 판단의 지혜
 - [[concept-nostos|Nostos]] — 오디세우스 서사의 귀향 구조
 - [[concept-xenia|Xenia]] — 낯선 사람과 공동체를 판별하는 환대 규범
-- [[concept-epic-cycle|Epic Cycle]] — 호메로스 이후 오디세우스 전승의 층위
+- [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]] — 호메로스 이후 오디세우스 전승의 층위
 - [[detienne-1974-cunning-intelligence|Detienne & Vernant 1974]] — 메티스와 계략의 인류학
 - [[nagy-1979-best-of-achaeans|Nagy 1979]] — 아킬레우스와 오디세우스의 영웅적 대비
 - [[bittlestone-2005-odysseus-unbound|Bittlestone et al. 2005]] — 이타케 비정 논쟁

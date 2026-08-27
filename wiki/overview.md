@@ -3,7 +3,7 @@ title: 서사시 개요
 aliases: [홈페이지, 메인 대시보드, 호메로스 위키 홈, Overview]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-08-26
+updated: 2026-08-28
 sources: []
 status: active
 ---
@@ -22,7 +22,7 @@ status: active
 
 ```mermaid
 flowchart LR
-  Cycle["서사시환"]
+  Cycle["에픽 사이클"]
 
   subgraph eyes["시선과 몫"]
     Aidos["아이도스"] --- Nemesis["네메시스"]
@@ -50,7 +50,7 @@ flowchart LR
 - 상자 안 실선: 짝 개념. [[concept-aidos|아이도스]]와 [[concept-nemesis|네메시스]], [[concept-hikesia|히케시아]]와 [[concept-xenia|크세니아]].
 - 화살: 서사의 이행. [[concept-menis|메니스]]가 아킬레우스를 밀고, 24권에서 [[concept-eleos|엘레오스]]로 꺾입니다. [[lee-junseok-2018-wrath-and-pity|이준석 2018]].
 - [[concept-agathos|아가토스]]는 영웅적 탁월자의 자리로 아킬레우스에 붙습니다.
-- [[concept-epic-cycle|서사시환]]은 테두리입니다. 일리아스 쪽은 메니스, 오뒷세이아 쪽은 크세니아로 잇습니다.
+- [[concept-epic-cycle|에픽 사이클]]은 테두리입니다. 일리아스 쪽은 메니스, 오뒷세이아 쪽은 크세니아로 잇습니다.
 - 그림에 없는 겹침: 아이도스·히케시아·엘레오스는 24권 탄원에서 한 장면에 모입니다. 선이 그림을 가로지르지 않게 범례에만 적습니다.
 
 이 지도는 대표 개념과 두 주인공의 연결을 간략히 표시합니다. 전체 문서 목록은 [[wiki/index|위키 색인]]에서 확인합니다.
@@ -78,13 +78,13 @@ flowchart LR
 ## 작성된 핵심 개념
 
 - [[concept-menis|메니스]] (μῆνις) — 신적 분노
-- [[concept-hikesia|히케시아]] (ἱκεσία) — 탄원
+- [[concept-hikesia|히케시아]] (ἱ케σία) — 탄원
 - [[concept-aidos|아이도스]] (αἰδώς) — 수치심과 경외
-- [[concept-nemesis|네메시스]] (νέμεσις) — 공적 의분
-- [[concept-eleos|엘레오스]] (ἔλεος) — 연민
+- [[concept-nemesis|네메시스]] (νέмеσις) — 공적 의분
+- [[concept-eleos|엘레오스]] (ἔлеος) — 연민
 - [[concept-agathos|아가토스]] (ἀγαθός) — 영웅적 탁월자
 - [[concept-xenia|크세니아]] (ξενία) — 손님 환대
-- [[concept-epic-cycle|서사시환]] (ἐπικὸς κύκλος) — 트로이 전쟁 연작
+- [[concept-epic-cycle|에픽 사이클]] (ἐπικὸς κύκλος) — 트로이 전쟁 연작
 
 ---
 

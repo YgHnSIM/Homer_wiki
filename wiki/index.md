@@ -63,7 +63,7 @@ status: active
 
 ## 개념
 
-- [[concept-epic-cycle|서사시환 (Epic Cycle)]]
+- [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]]
 - [[concept-menis|메니스 (Menis)]]
 - [[concept-hikesia|히케시아 (Hikesia)]]
 - [[concept-aidos|아이도스 (Aidos)]]
