@@ -117,6 +117,7 @@ server.listen(PORT, async () => {
   await sendSession("Page.enable");
   await sendSession("DOM.enable");
   await sendSession("CSS.enable");
+  // 1. Mobile Screenshot (Home)
   await sendSession("Emulation.setDeviceMetricsOverride", {
     width: 375,
     height: 812,
@@ -124,32 +125,60 @@ server.listen(PORT, async () => {
     mobile: true
   });
 
-  console.log("Navigating to http://localhost:3333/words/index...");
-  await sendSession("Page.navigate", { url: `http://localhost:${PORT}/words/index` });
-
+  console.log("Navigating to http://localhost:3333/...");
+  await sendSession("Page.navigate", { url: `http://localhost:${PORT}/` });
   await new Promise((r) => setTimeout(r, 2000));
 
-  const metrics = await sendSession("Page.getLayoutMetrics");
-  const height = Math.ceil(metrics.contentSize.height);
+  const mobileMetrics = await sendSession("Page.getLayoutMetrics");
+  const mobileHeight = Math.ceil(mobileMetrics.contentSize.height);
 
   await sendSession("Emulation.setDeviceMetricsOverride", {
     width: 375,
-    height: height,
+    height: mobileHeight,
     deviceScaleFactor: 2,
     mobile: true
   });
 
-  const { data: base64Data } = await sendSession("Page.captureScreenshot", {
+  const { data: mobileData } = await sendSession("Page.captureScreenshot", {
     format: "png",
     fromSurface: true,
     captureBeyondViewport: true
   });
+  fs.writeFileSync("screenshot-home-mobile.png", Buffer.from(mobileData, "base64"));
+  console.log("Screenshot saved to screenshot-home-mobile.png (size:", mobileHeight, "px)");
 
-  fs.writeFileSync("screenshot-mobile-words.png", Buffer.from(base64Data, "base64"));
-  console.log("Screenshot saved to screenshot-mobile-words.png (size:", height, "px)");
+  // 2. Desktop Screenshot (Home)
+  await sendSession("Emulation.setDeviceMetricsOverride", {
+    width: 1200,
+    height: 900,
+    deviceScaleFactor: 2,
+    mobile: false
+  });
+
+  await sendSession("Page.navigate", { url: `http://localhost:${PORT}/` });
+  await new Promise((r) => setTimeout(r, 2000));
+
+  const desktopMetrics = await sendSession("Page.getLayoutMetrics");
+  const desktopHeight = Math.ceil(desktopMetrics.contentSize.height);
+
+  await sendSession("Emulation.setDeviceMetricsOverride", {
+    width: 1200,
+    height: desktopHeight,
+    deviceScaleFactor: 2,
+    mobile: false
+  });
+
+  const { data: desktopData } = await sendSession("Page.captureScreenshot", {
+    format: "png",
+    fromSurface: true,
+    captureBeyondViewport: true
+  });
+  fs.writeFileSync("screenshot-home-desktop.png", Buffer.from(desktopData, "base64"));
+  console.log("Screenshot saved to screenshot-home-desktop.png (size:", desktopHeight, "px)");
 
   ws.close();
   chrome.kill();
   server.close();
   process.exit(0);
 });
+

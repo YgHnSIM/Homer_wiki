@@ -3,7 +3,7 @@ title: 호메로스 위키 (Homer Wiki)
 aliases: [Homer Wiki, 호메로스 디지털 가든]
 tags: [type/meta, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
-updated: 2026-08-27
+updated: 2026-08-28
 sources: []
 status: active
 ---
@@ -44,22 +44,28 @@ status: active
 
 ### 어원
 
-- [[word-time|Time]] — timocracy, Timothy, Timon; τιμή 어원·수용사
-- [[word-achilles|Achilles]] — Achilles' heel, Achilles tendon
-- [[word-agathos|Agathos]] — Agatha, Agathism, Kalokagathia
-- [[word-eleos|Eleos]] — alms, eleemosynary, Kyrie eleison
-- [[word-odyssey|Odyssey]] — 오디세우스 이름과 작품명의 수용사
-- [[word-polytropos|Polytropos]] — πολύτροπος, polytropos, polutropos의 어원·학술 수용
+- [[word-achilles|Achilles (아킬레우스)]] — *Achilles' heel*, *Achilles tendon*, *Achillean*
+- [[word-agathos|Agathos (아가토스)]] — *Agatha*, *Agathism*, *Kalokagathia*
+- [[word-eleos|Eleos (엘레오스)]] — *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
+- [[word-odyssey|Odyssey (오디세이)]] — *Odyssey*, *odyssey*, *Odyssean*
+- [[word-polytropos|Polytropos (폴리트로포스)]] — *polytropos*, *polutropos*, *many-turned*
+- [[word-time|Time (티메)]] — *timocracy*, *timocratic*, *Timothy*, *Timon*, *timology*
 
-### 분석과 문헌
+### 분석
 
-- [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 명예·수치 문화 연구사
-- [[analysis-concept-source-matrix|개념과 문헌]] — 작성된 개념과 문헌의 맞물림
-- [[analysis-polytropos|폴리트로포스 추가 연구]] — πολύτροπος의 원전 용례와 의미·수용사
-- [[raw-2026-polytropos-notes|폴리트로포스 raw 자료 요약]] — 원자료와 검증 경계
-- [[adkins-1960-merit-and-responsibility|애드킨스 (1960), 공적과 책임]]
-- [[cairns-1993-aidos|케언스 (1993), 아이도스]]
-- [[lee-junseok-2024-iliad-jeongam|이준석 (2024), 일리아스 정암학당 해제]]
+- [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 전 세계 연구사 및 핵심 윤리 개념 종합 분석
+- [[analysis-concept-source-matrix|개념과 문헌]] — 핵심 개념 9종과 학술 문헌 24종의 맞물림 매트릭스
+- [[analysis-polytropos|폴리트로포스 추가 연구]] — *polytropos*의 원전 용례와 역사적 의미 수용사
+
+### 문헌
+
+- [[williams-1993-shame-and-necessity|버나드 윌리엄스 (1993), 수치심과 필연성]] — 호메로스적 인간관의 복원과 칸트적 도덕주의 비판
+- [[adkins-1960-merit-and-responsibility|A. W. H. 애드킨스 (1960), 공적과 책임]] — 경쟁적 덕(아가토스)과 협동적 덕의 구조적 갈등론
+- [[cairns-1993-aidos|더글러스 케언스 (1993), 아이도스]] — 억제와 경외의 다층적 수치심 구조 분석
+- [[dodds-1951-greeks-and-irrational|E. R. 도즈 (1951), 그리스인들과 비합리적인 것]] — 수치 문화와 죄의식 문화의 전환기적 분석
+- [[nagy-1979-best-of-achaeans|그레고리 나기 (1979), 아카이아인들의 최고 영웅]] — 서사시 전통과 영웅 제의론 및 클레오스 탐구
+- [[lee-junseok-2024-iliad-jeongam|이준석 (2024), 일리아스 정암학당 해제]] — 분노(메니스)와 연민(엘레오스)의 서사적 이행과 한국어 강독 해제
+- 전체 24종 소스 문헌 목록 및 상세 해제는 [[wiki/index#소스 문서|위키 색인 (소스 문서)]]에서 확인할 수 있습니다.
 
 ---
 
