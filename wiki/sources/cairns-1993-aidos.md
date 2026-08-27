@@ -60,7 +60,7 @@ graph TD
 
 ### 제1장: 호메로스 서사시의 아이도스와 명예 (*Aidôs and Honour in Homer*)
 - **개념의 다층성 규명**:
-  - 'aidōs'는 한 가지 고정된 의미가 아니라, **'수치(Shame), 두려움(Fear), 존경(Respect), 경외(Reverence), 절제(Modesty)'**를 아우르는 복합 감정 체계입니다.
+  - 'aidōs'는 한 가지 고정된 의미가 아니라, ‘**수치(Shame), 두려움(Fear), 존경(Respect), 경외(Reverence), 절제(Modesty)**’를 아우르는 복합 감정 체계입니다.
   - 전사는 단순히 남들에게 비난받을까 봐 두려워하는 것이 아니라, 자신이 지켜온 명예([[concept-time|Timê]])와 품위를 스스로 더럽히지 않기 위해 아이도스를 발휘합니다 (자기 존중, Self-respect).
 
 ### 제2장: 사회적 관계 속의 아이도스 (*Aidôs in Social Relations*)

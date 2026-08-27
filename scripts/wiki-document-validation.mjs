@@ -234,3 +234,67 @@ export function validateFilename(relativePath, addError) {
     addError(relativePath, "단어 파일명이 word-<name>.md 규칙과 다릅니다.")
   }
 }
+
+export function validateBoldMarkdownSyntax({ relativePath, markdown, addError }) {
+  const lines = markdown.split(/\r?\n/)
+  let inFence = false
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i]
+    const lineNumber = i + 1
+
+    if (/^\s*```/.test(line)) {
+      inFence = !inFence
+      continue
+    }
+    if (inFence) continue
+
+    // Replace inline code with placeholders of exact same length
+    const withoutCode = line.replace(/`[^`]*`/g, (m) => "_".repeat(m.length))
+
+    // Rule 4: Unbalanced bold markers on a single line (odd count of **)
+    const asterisks = withoutCode.match(/\*\*/g)
+    if (asterisks && asterisks.length % 2 !== 0) {
+      addError(relativePath, "단일 행에 닫히지 않은 볼드 마커(**)가 있습니다.", lineNumber)
+      continue
+    }
+
+    // Inspect each bold span **inner**
+    const boldMatches = withoutCode.matchAll(/\*\*(.+?)\*\*/g)
+    for (const match of boldMatches) {
+      const inner = match[1]
+
+      // Rule 1: Inner quotes/brackets directly adjacent to bold markers
+      if (/^[‘'“"『「]/.test(inner)) {
+        addError(
+          relativePath,
+          `볼드 마커 안쪽에 인접한 여는 문장부호가 있습니다: '**${inner}**'`,
+          lineNumber,
+        )
+      }
+      if (/[’'”"』」]$/.test(inner)) {
+        addError(
+          relativePath,
+          `볼드 마커 안쪽에 인접한 닫는 문장부호가 있습니다: '**${inner}**'`,
+          lineNumber,
+        )
+      }
+
+      // Rule 3: Spaces inside bold boundaries
+      if (inner.startsWith(" ") || inner.endsWith(" ")) {
+        addError(relativePath, `볼드 마커 안쪽 경계에 불필요한 공백이 있습니다: '**${inner}**'`, lineNumber)
+      }
+    }
+
+    // Rule 2: Parentheses inside bold immediately followed by a Korean syllable
+    // e.g. **표제어(원어)**조사
+    if (/\*\*[^*()\r\n]+\([^)\r\n]+\)\*\*[가-힣]/.test(withoutCode)) {
+      addError(
+        relativePath,
+        "볼드 내부에 괄호가 포함된 상태로 조사가 직결되었습니다. **표제어**(원어)조사 형식으로 분리하세요.",
+        lineNumber,
+      )
+    }
+  }
+}
+

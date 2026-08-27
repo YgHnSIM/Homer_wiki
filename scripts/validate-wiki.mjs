@@ -1,6 +1,10 @@
 import fs from "node:fs"
 import path from "node:path"
-import { validateDocumentFrontmatter, validateFilename } from "./wiki-document-validation.mjs"
+import {
+  validateBoldMarkdownSyntax,
+  validateDocumentFrontmatter,
+  validateFilename,
+} from "./wiki-document-validation.mjs"
 import { validatePublicEntityIndex } from "./wiki-navigation-validation.mjs"
 
 const ROOT = process.cwd()
@@ -105,6 +109,7 @@ validatePublicEntityIndex({ records, addError })
 
 for (const { relativePath, markdown } of records) {
   validateFilename(relativePath, addError)
+  validateBoldMarkdownSyntax({ relativePath, markdown, addError })
   const hasFrontmatter = validateDocumentFrontmatter({
     root: ROOT,
     relativePath,

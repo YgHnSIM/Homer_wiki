@@ -54,7 +54,7 @@ status: active
 
 ## [2026-08-16] upgrade | `wiki/sources/` 소스 문서 12종 전면 고도화 (v2.0 표준 규격 적용)
 
-- **작업 개요**: Hyperplan 합의안에 따라 `wiki/sources/` 내 전체 12종 소스 문서를 **『호메로스 위키 소스 표준 규격 v2.0』**으로 전면 재작성 및 대폭 확충.
+- **작업 개요**: Hyperplan 합의안에 따라 `wiki/sources/` 내 전체 12종 소스 문서를 『**호메로스 위키 소스 표준 규격 v2.0**』으로 전면 재작성 및 대폭 확충.
 - **적용된 v2.0 표준 규격**:
   - 서지 상세 및 학술사적 배경/기존 학설 비판
   - Mermaid 논증 흐름도(Argument Diagram) 및 핵심 테제 1~3
@@ -80,7 +80,7 @@ status: active
 
 ## [2026-08-16] upgrade-v3 | `wiki/sources/` 12종 전편 대심화 (v3.0 Deep Scholarly Dossier 구축)
 
-- **작업 개요**: 서양고전학 및 도덕철학 전문 연구자 수준의 지식베이스화를 위해, `wiki/sources/` 12종 전체 문서를 **『호메로스 위키 심층 도시에 규격 v3.0 (8대 표준 모듈 체계)』**로 전면 재작성 및 대심화 완료.
+- **작업 개요**: 서양고전학 및 도덕철학 전문 연구자 수준의 지식베이스화를 위해, `wiki/sources/` 12종 전체 문서를 『**호메로스 위키 심층 도시에 규격 v3.0 (8대 표준 모듈 체계)**』로 전면 재작성 및 대심화 완료.
 - **적용된 8대 표준 모듈**:
   1. 서지 상세 및 지성사적 배경 (방법론, 기존 패러다임)
   2. 개념 전복 매트릭스 및 Mermaid 논증 계보도
@@ -96,7 +96,7 @@ status: active
 
 ## [2026-08-16] synthesis | `wiki/analyses/homeric-ethics-literature-review.md` 대합성(Grand Synthesis) 전면 고도화
 
-- **작업 개요**: v3.0 심층 도시에로 확충된 12종 연구 소스 및 최신 고전학 성과를 바탕으로, 메인 분석 문서인 `homeric-ethics-literature-review.md`를 총체적 거시 이론 틀을 갖춘 **『호메로스 윤리학 대합성(Grand Synthesis) 리포트』**로 전면 갱신.
+- **작업 개요**: v3.0 심층 도시에로 확충된 12종 연구 소스 및 최신 고전학 성과를 바탕으로, 메인 분석 문서인 `homeric-ethics-literature-review.md`를 총체적 거시 이론 틀을 갖춘 『**호메로스 윤리학 대합성(Grand Synthesis) 리포트**』로 전면 갱신.
 - **반영된 핵심 고도화 사항**:
   1. YAML `sources:` 메타데이터 12종 전체 연결 및 정합성 확보
   2. 『일리아스』(비극과 해체) 대 『오뒷세이아』(정의와 회복)의 대칭적 윤리 구조 심층 대비
@@ -125,7 +125,7 @@ status: active
 - **작업 개요**: `raw/A. A. Long, “Morals and Values in Homer” (1970).pdf` 소스를 정밀 분석하여 `wiki/sources/long-1970-morals-and-values.md` 심층 도시에(8대 표준 모듈 체계)로 신규 작성하고, 지식베이스 전반에 상호 교차 참조를 반영함.
 - **반영된 핵심 학술 성과**:
   - 애드킨스(1960)의 '경쟁적 가치 vs 협력적 가치' 2분법에 대한 문헌학적·철학적 반박
-  - 단일한 **'적절성의 기준(Standard of Appropriateness)'** (_kata moiran, themis, kata kosmon, eoike, chré, aisimos_)을 통한 과도(Excess)와 결핍(Deficiency) 통제 모델 확립
+  - 단일한 ‘**적절성의 기준(Standard of Appropriateness)**’ (_kata moiran, themis, kata kosmon, eoike, chré, aisimos_)을 통한 과도(Excess)와 결핍(Deficiency) 통제 모델 확립
   - 아가토스(_agathos_)의 경칭적 성격, 아에이케스(_aeikês_) 및 아이스코스(_aischos_)의 광범위한 불의 규탄 용례 실증
   - 상호적 명예([[concept-time|Timê]])와 배상(Gifts), 고귀한 자의 유연한 마음(_streptai phrenes esthlôn_) 분석
 - **업데이트된 연관 문서**:
@@ -222,7 +222,7 @@ status: active
 
 - **작업 개요**: `raw/Mary Scott, “Aidos and Nemesis in the Works of Homer, and their Relevance to Social or Co-operative Values” (1980).pdf` 소스를 정밀 분석하여 `wiki/sources/scott-1980-aidos-and-nemesis.md` 심층 도시에(v3.0 8대 표준 모듈 체계)로 신규 작성하고, 연계 핵심 개념 문서인 `wiki/concepts/aidos.md`와 `wiki/concepts/nemesis.md`를 신규 구축함.
 - **반영된 핵심 학술 성과**:
-  - **아이도스([[concept-aidos|Aidos]])의 단일 본질 규명**: 폰 에르파(1937)의 다의적 분절론을 비판하고, 모든 용례를 관통하는 단일한 심리적 공통 분모로서 **'외부 비판에 대한 두려움으로 인한 감정적 위축(Shrinking back / Pulling back / Non-moral inhibition)'** 정립.
+  - **아이도스([[concept-aidos|Aidos]])의 단일 본질 규명**: 폰 에르파(1937)의 다의적 분절론을 비판하고, 모든 용례를 관통하는 단일한 심리적 공통 분모로서 ‘**외부 비판에 대한 두려움으로 인한 감정적 위축(Shrinking back / Pulling back / Non-moral inhibition)**’ 정립.
   - **비도덕적 성격과 칸트적 의무론 배제**: 호메로스 영웅의 튀모스(_thumos_) 기반 본능적 습속(_mathon_)과 세간의 평판(_phatis dēmou_ / _Öffentlichkeit des Gewissens_)에 따른 작동 원리 규명. 궁핍자에게 아이도스는 해로운 것(_ouk agathē_, _Od._ 17.347)이라는 문헌학적 증거 제시.
   - **네메시스([[concept-nemesis|Nemesis]])의 질서 수호 기능**: _nemein_(분배하다)에서 파생되어 각자의 마땅한 몫과 질서(_kosmos_)를 지키도록 요구하는 공적 의분의 메커니즘 규명. '네메시스가 되지 않는다(_ouk esti nemesis_)'를 통한 중용 및 배상 정당화.
   - **신적 제재(Divine Sanction)의 인류학적 보완**: 결과 중심(Results-culture)의 아레테 규범에서 세속적 처벌력이 약한 탄원([[concept-hikesia|Hikesia]]), 손님 환대([[concept-xenia|Xenia]]), 시신 매장 등의 협력적 가치가 제우스(Zeus Hikesios/Xenios)와 아폴론 등 **신들의 보호 영역으로 이관되어 누미노제적 경외를 획득**하는 과정 실증.
@@ -270,7 +270,7 @@ status: active
   - **논리 및 학설 충돌 경고 콜아웃 신설**:
     1. `> [!WARNING] 모순/이설 발견: 비도덕적 결과주의(Adkins) 대 통합적 적절성 규범(Long / Lloyd-Jones)`
     2. `> [!WARNING] 모순/이설 발견: 상황 적응적 감정론(Scott) 대 신적 응징/정의론(Lloyd-Jones)`
-  - **'네메시스가 되지 않는다(Ouk esti nemesis)' 윤리학 심화**: 단순 무죄가 아닌 초인적 가치(헬레네), 군주의 배상(아가멤논), 인간적 고통(9년 종군), 환대의 중용에 대한 '적절성의 척도(Standard of Appropriateness)' 공인 메커니즘 분석
+  - ‘**네메시스가 되지 않는다(Ouk esti nemesis)' 윤리학 심화**’: 단순 무죄가 아닌 초인적 가치(헬레네), 군주의 배상(아가멤논), 인간적 고통(9년 종군), 환대의 중용에 대한 '적절성의 척도(Standard of Appropriateness)' 공인 메커니즘 분석
   - **지식망 및 관련 항목 대폭 확충**:
     - 본문 내 `[[entity-thersites|테르시테스]]`, `[[entity-odysseus|오디세우스]]`, `[[entity-agamemnon|아가멤논]]`, `[[entity-helene|헬레네]]`, `[[entity-menelaos|메넬라오스]]`, `[[entity-poseidon|포세이돈]]`, `[[entity-apollo|아폴론]]`, `[[entity-ares|아레스]]`, `[[entity-hera|헤라]]`, `[[entity-telemachos|텔레마코스]]`, `[[concept-thumos|Thumos]]`, `[[concept-kosmos|Kosmos]]`, `[[concept-eleos|Eleos]]`, `[[concept-tisis|Tisis]]`, `[[concept-anaideia|Anaideia]]`, `[[concept-cholos|Cholos]]`, `[[concept-phatis-demou|Phatis Dêmou]]` 위키링크 보강
     - 24권 아폴론의 네메시스 경고와 연민([[concept-eleos|Eleos]]) 및 비극적 분노([[concept-menis|Menis]]) 종식 연동 구조 명시
@@ -519,7 +519,7 @@ status: active
     - 공인 어원 사전(Beekes EDG, Chantraine DELG, Pokorny IEW, LSJ, OED) 근거 없는 가짜 PIE 어근 날조 전면 차단.
     - 호메로스 서사시 권·행 번호 환각 인용 차단.
     - 선희랍 기층어(Pre-Greek substrate / 비-PIE) 정직 인정 및 비-PIE 분류.
-    - 근거 부재 또는 학설 미해결 시 **"근거 부족 / 추가 조사 필요(Pending Research)"** 강제 격하 및 `status: review` 유지.
+    - 근거 부재 또는 학설 미해결 시 “**근거 부족 / 추가 조사 필요(Pending Research)**” 강제 격하 및 `status: review` 유지.
     - 민간 어원설(Folk Etymology)에 대한 `> [!WARNING]` 경고 분리 처리.
   - **3단계 작업 모드**: `concept`(일반 개념어), `eponym`(인명·신명 유래어), `deep`(거대 다중 파생 어족).
   - **5단계 워크플로**: Phase 0(식별/모드) -> Phase 1(어원 증거 원장/환각차단) -> Phase 2(3라운드 공방) -> Phase 3(승인 게이트) -> Phase 4(본문/Mermaid 계통도) -> Phase 5(동기화/커밋).
@@ -876,7 +876,7 @@ status: active
     - 제2절 표 내 *atimazein* 링크를 `[[concept-time|티메 박탈]]`로 정정.
     - 헥토르의 출전 결의(_Il._ 6.444–446) 및 에우멜로스 전차경주(_Il._ 23.536–538) 핵심 원문 인용 및 주석 수록.
   - **논리 및 학설 심화** (`logician`):
-    - 매킨타이어(MacIntyre 1981)의 **'사회적 역할에 정초된 덕(Virtues embodied in roles)'** 테제 정밀화.
+    - 매킨타이어(MacIntyre 1981)의 ‘**사회적 역할에 정초된 덕(Virtues embodied in roles)**’ 테제 정밀화.
     - 호메로스 사회의 공적 중재 기구 부재와 아가토스 간의 파국적 티메 충돌 메커니즘 명시.
   - **지식망 확장 및 위키 규격 완결** (`architect`, `weaver`, `editor`):
     - `concept-kakos`, `concept-kalokagathia`, `concept-metis`, `concept-tlemosyne`, `williams-1993-shame-and-necessity` 교차 링크 확충.
@@ -1495,7 +1495,7 @@ status: active
 
 ## [2026-08-27] refactor(all) | 마크다운 볼드 괄호 서식 표준화 및 조사 인접 파싱 결함 전수 정비
 
-- **배경**: CommonMark 및 웹 렌더러(Remark/Quartz) 파서의 구두점-문자 인접 규격(Delimiter Flanking Rule)으로 인해 `**표제어(원어)**는` 형태로 작성된 구문에서 닫는 `**`가 구두점(`)`)과 한글 문자(`는`) 사이에 끼여 파싱이 실패하고 리터럴 `**`로 노출되는 결함 확인.
+- **배경**: CommonMark 및 웹 렌더러(Remark/Quartz) 파서의 구두점-문자 인접 규격(Delimiter Flanking Rule)으로 인해 `**표제어**(원어)는` 형태로 작성된 구문에서 닫는 `**`가 구두점(`)`)과 한글 문자(`는`) 사이에 끼여 파싱이 실패하고 리터럴 `**`로 노출되는 결함 확인.
 - **조치**: 지식베이스 전역(단어 사전, 개념, 소스, 분석, 메타 가이드 문서 등)을 전수 점검하여 `**표제어**(원어)조사` 및 `**표제어** (원어)` 표준 방안(방안 A)으로 일괄 전환함.
 - **규정 반영**: `AGENTS.md` 제2.4절에 볼드 및 괄호 서식 규칙을 신설 명시하여 향후 작성 문서에서도 동일한 파싱 결함이 재발하지 않도록 가이드라인을 정립함.
 - **검증**: 볼트 전역 40여 개 핵심 문서 내 1,300여 개 패턴 정비 완료, 조사 인접 파싱 오류 잔여 0건 검증, `npm run check` 및 `npm run check:greek` 전체 통과 (`raw/` 불변 원칙 준수).
@@ -1504,7 +1504,7 @@ status: active
 
 ## [2026-08-27] feat(concepts) | 신규 개념 문서 티메(Time) 구축 및 지식베이스 연동
 
-- **작업 개요**: 호메로스 서사시의 핵심 가치 제도인 **티메(Time, τιμή)**에 관한 종합 백과사전식 심화 개념 문서(`wiki/concepts/concept-time.md`)를 신규 작성하고 위키 전반에 연동 완료.
+- **작업 개요**: 호메로스 서사시의 핵심 가치 제도인 **티메**(Time, τιμή)에 관한 종합 백과사전식 심화 개념 문서(`wiki/concepts/concept-time.md`)를 신규 작성하고 위키 전반에 연동 완료.
 - **주요 내용 및 6대 학술 테마 구성**:
   - **개념 정의 및 어원학적 기원**: PIE `*kwey-` → 그리스어 `tīō(τίω)` 발전, Vleminck(1982)의 5단계 환유 연쇄 모델(시선-정량평가-존중-가시적 표시-직분·자격), 핵심 형태론 및 어군 대조표 수록.
   - **본문 용례 및 작동 영역**: 『일리아스』 인정 경제의 3단계 파국(1권 몰수, 9권 선물 공격 거부와 초월적 상소, 16권 대리 협상과 파트로클로스의 전사), 『오뒷세이아』 가내 질서와 환대 집행(14권 에우마이오스 환대, 22권 배상 거부와 피의 복수 포이네), 사르페돈의 노블레스 오블리주 연설(_Il._ 12.310–328) 및 올림포스 3형제 신들의 우주 분할과 호모티모스 선언(_Il._ 15.185–195) 3단 원문 대조.
@@ -1522,7 +1522,7 @@ status: active
 
 ## [2026-08-27] feat(words) | Time(티메) 영단어 어원 및 수용사 분석 문서 구축 및 지식베이스 전수 연동
 
-- **작업 개요**: 고대 그리스어 **티메(τιμή, Time)**의 인도유럽조어 어원(*kwey-)에서부터 현대 영어 어휘 및 문화 수용사로 이어지는 방대한 계보를 분석한 단어 사전 문서(words/word-time.md)를 신규 구축하고, concept-time.md와의 중복 해소 및 메인/색인 페이지를 전수 동기화함.
+- **작업 개요**: 고대 그리스어 **티메**(τιμή, Time)의 인도유럽조어 어원(*kwey-)에서부터 현대 영어 어휘 및 문화 수용사로 이어지는 방대한 계보를 분석한 단어 사전 문서(words/word-time.md)를 신규 구축하고, concept-time.md와의 중복 해소 및 메인/색인 페이지를 전수 동기화함.
 - **주요 내용 및 8대 섹션 구성**:
   - **어원 전파 계통도 (Mermaid Tree)**: PIE *kwey- → 그리스어 τίω / τιμή → 후기 라틴어 	imocratia / Timotheus / Timon → 중세 불어 	imocratie / Timothée → 현대 영어 Timocracy / Timothy / Timon / Timology 분기 시각화.
   - **PIE 및 원시 그리스어 형태론**: PIE *kwey-('주의 깊게 보다, 값을 매기다'), 슬라브어 동계어(러시아어 *čest’* '명예', *čitat’* '읽다/세다') 및 산스크리트어 *cáyati* 대조, 형태론 대조표 분리 열 완비.
@@ -1553,7 +1553,7 @@ status: active
 
 ## [2026-08-28] refactor(concepts) | '서사시환' 번역어를 '에픽 사이클(Epic Cycle)' 원어 표기로 전면 정비
 
-- **작업 개요**: 한자어 번역어인 '서사시환(敍事詩環)'을 제거하고, 현대 서양고전문헌학 및 위키 명명 규약에 부합하는 원어/원음 표기인 **에픽 사이클(Epic Cycle / 희랍어: ἐπικὸς κύκλος, *epikòs kúklos*)**로 볼트 전역을 전면 정비함.
+- **작업 개요**: 한자어 번역어인 '서사시환(敍事詩環)'을 제거하고, 현대 서양고전문헌학 및 위키 명명 규약에 부합하는 원어/원음 표기인 **에픽 사이클**(Epic Cycle / 희랍어: ἐπικὸς κύκλος, *epikòs kúklos*)로 볼트 전역을 전면 정비함.
 - **주요 변경 사항**:
   - `wiki/concepts/concept-epic-cycle.md`: 제목(`에픽 사이클 (Epic Cycle)`), `korean_name: 에픽 사이클`, 읽는 법 행, 개요, 트로이 사이클 연대기 구조, 문헌학적 상태 및 아리스토텔레스 시학 비평 본문 전면 수정. 검색 호환을 위해 `aliases`에 `[Epic Cycle, 에픽 사이클, 트로이 사이클, Trojan Cycle, 에피코스 퀴클로스, 서사시환, 트로이 서사시환, ...]` 유지.
   - `index.md` & `wiki/index.md`: 개념 카탈로그 내 링크 표기를 `[[concept-epic-cycle|에픽 사이클 (Epic Cycle)]]`로 통일.
@@ -1565,5 +1565,24 @@ status: active
   - `words/word-achilles.md`: 관련 항목 링크 텍스트 수정.
   - `wiki/analyses/analysis-concept-source-matrix.md`: 매트릭스 표 헤더(`[[concept-epic-cycle\|에픽 사이클]]`) 및 본문 설명 동기화.
 - **검증**: `npm run check` 및 `npm run check:greek` 전체 통과 (`raw/` 불변 원칙 준수).
+
+---
+
+## [2026-08-28] fix(all) | 옵시디언 볼드체(`**`) 파싱 결함 전수 교정 및 재발 방지 자동화 체계 구축
+
+- **작업 개요**: CommonMark 및 옵시디언 마크다운 파서에서 따옴표/문장부호 인접 및 괄호-조사 결합 시 굵은 글씨 표지(`**`)가 리터럴로 노출되던 결함을 분석하고, 볼트 전역 54개 문서 대상 전수 교정 및 영구 재발 방지 자동 린터·도구 체계를 구축함.
+- **주요 변경 사항**:
+  - **도구 및 자동화 체계 구축**:
+    - `scripts/fix-bold-syntax.mjs`: 볼트 전역 마크다운 볼드 구문 결함 자동 탐지 및 표준 변환 도구 신설 (`--write`, `--check` 모드 지원).
+    - `scripts/wiki-document-validation.mjs`: `validateBoldMarkdownSyntax` 함수 신설 (내부 따옴표/문장부호 인접, 괄호-조사 직결, 경계 공백, 닫히지 않은 볼드 등 4대 규칙 엄격 검사).
+    - `scripts/validate-wiki.mjs`: 위키 검증 루프에 볼드 문법 검증기 연동.
+    - `scripts/test-wiki-tooling.mjs`: 볼드 문법 5대 케이스 회귀 테스트 추가.
+    - `package.json`: `"fix:bold": "node scripts/fix-bold-syntax.mjs --write"` 스크립트 등록.
+  - **운영 지침 개정**:
+    - `AGENTS.md` 제2.4절 '굵은 글씨(볼드), 따옴표 및 괄호 서식 규정' 개정 (문장부호 외곽 분리 원칙 `'**강조**'조사`, `『**서명**』`, `"**인용**"` 및 괄호 분리 원칙 명문화).
+  - **볼트 전역 전수 교정**:
+    - `wiki/concepts/concept-epic-cycle.md`를 포함하여 볼트 전역 31개 문서 129개 라인 대상 볼드 구문 일괄 표준화 완료.
+- **검증**: `npm run check` 및 `npm run check:greek` 전체 통과 (54개 문서, 1,620개 링크, 562개 허용 빨간 링크, 볼드 문법 회귀 테스트 100% 통과, `raw/` 불변 준수).
+
 
 

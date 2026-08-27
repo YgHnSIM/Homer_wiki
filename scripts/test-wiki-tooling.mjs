@@ -246,9 +246,36 @@ try {
     )
   }
 
+  // Bold markdown syntax tests
+  const boldTestFile = path.join(sandbox, "wiki", "concepts", "concept-menis.md")
+  const boldOriginal = fs.readFileSync(boldTestFile, "utf8")
+
+  // Case 1: Inner opening quote
+  fs.writeFileSync(boldTestFile, `${boldOriginal}\n**'잘못된 강조'**\n`)
+  assertFailure(run(VALIDATOR), "볼드 마커 안쪽에 인접한 여는 문장부호가 있습니다")
+
+  // Case 2: Inner closing quote
+  fs.writeFileSync(boldTestFile, `${boldOriginal}\n**잘못된 강조'**\n`)
+  assertFailure(run(VALIDATOR), "볼드 마커 안쪽에 인접한 닫는 문장부호가 있습니다")
+
+  // Case 3: Parentheses inside bold with adjacent Korean particle
+  fs.writeFileSync(boldTestFile, `${boldOriginal}\n**표제어(원어)**는\n`)
+  assertFailure(run(VALIDATOR), "볼드 내부에 괄호가 포함된 상태로 조사가 직결되었습니다")
+
+  // Case 4: Spaces at bold boundaries
+  fs.writeFileSync(boldTestFile, `${boldOriginal}\n** 공백 포함 **\n`)
+  assertFailure(run(VALIDATOR), "볼드 마커 안쪽 경계에 불필요한 공백이 있습니다")
+
+  // Case 5: Unbalanced bold marker on a single line
+  fs.writeFileSync(boldTestFile, `${boldOriginal}\n**닫히지 않은 볼드\n`)
+  assertFailure(run(VALIDATOR), "단일 행에 닫히지 않은 볼드 마커(**)가 있습니다")
+
+  fs.writeFileSync(boldTestFile, boldOriginal)
+
   console.log(
-    "Wiki tooling regression tests passed: red-link policy, YAML parsing, source integrity, dynamic concepts, evidence boundaries.",
+    "Wiki tooling regression tests passed: red-link policy, YAML parsing, source integrity, dynamic concepts, evidence boundaries, bold syntax rules.",
   )
 } finally {
   fs.rmSync(sandbox, { recursive: true, force: true })
 }
+
