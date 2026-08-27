@@ -1584,5 +1584,22 @@ status: active
     - `wiki/concepts/concept-epic-cycle.md`를 포함하여 볼트 전역 31개 문서 129개 라인 대상 볼드 구문 일괄 표준화 완료.
 - **검증**: `npm run check` 및 `npm run check:greek` 전체 통과 (54개 문서, 1,620개 링크, 562개 허용 빨간 링크, 볼드 문법 회귀 테스트 100% 통과, `raw/` 불변 준수).
 
+---
+
+## [2026-08-28] feat(entities) | 아가멤논(Agamemnon) 신규 엔티티 문서 구축 (deep 모드 v2.0)
+
+- **작업 개요**: `raw/아가멤논_Gemini.md` 및 `raw/아가멤논_Grok.md`를 바탕으로, 적대적 7인 학술 평의회(`homer-entity` 프레임워크 v2.0)의 3라운드 공방전을 거쳐 아카이아 연합군 총사령관 **아가멤논**(`wiki/entities/entity-agamemnon.md`) 문서를 13개 풀스펙 섹션으로 신규 구축함.
+- **주요 수록 내용 및 학술적 심화**:
+  - **서사적 입구 및 문헌학(1~3절)**: 제우스 유래의 불멸의 스켑트론 계보(_Il._ 2.100–108), 5대 칭호 정형구(*anax andrōn*, *euru kreiōn*, *poimēn laōn* 등), 1·2·4·6·9·11·14·19·23권 및 『오뒷세이아』 11·24권 네퀴아 서사 궤적 총정리.
+  - **3축 관계망(4절)**: 아트레우스 가문 신성 계보, 아카이아 지휘망 갈등, 트로이아 원정 및 비극적 귀향 도살을 시각화한 Mermaid 다이어그램 구축.
+  - **역사·고고학 렌즈(6~7절)**: 미케네 선형문자 B *wa-na-ka*와 아르카익 *basileus*의 중층성, 슐리만 "아가멤논의 가면"(BC 16C)의 400년 편년 불일치 WARNING 콜아웃, 11권 키뉘라스 흉갑의 동지중해 야금 교역 실증.
+  - **종교·철학·윤리학 렌즈(8~9절)**: Sarah Hitch의 제사의 왕(*King of Sacrifice*) 제의론, E. R. Dodds 및 Albin Lesky의 *Atē*(미망)와 이중 동인론(*Double Agency*), Walter Donlan의 선물 경제 파탄, Douglas Cairns의 *Aidōs* 결핍 분석.
+  - **후대 전승 및 학술 논쟁(10~11절)**: 호메로스 원전 내 이피게네이아 희생 부재(3녀 생존)와 서사시환/아테네 비극의 단절, Andrew Porter(가련한 전제군주) vs Oliver Taplin(구조적 중심성) 논쟁 대비.
+  - **증거 매트릭스(12절)**: 12개 핵심 테제에 대한 원전 출전 및 확실성 4단계(원전 명시 8건, 강한 추론 2건, 논쟁적 1건, 후대 수용 1건) 완비.
+- **동기화 및 검증**:
+  - `index.md`, `wiki/index.md`에 인물 카탈로그 항목 추가.
+  - `scripts/allowed-red-links.json`에서 `entity-agamemnon` 제거.
+  - `npm run check` (55개 문서 검증) 및 `npm run check:greek` 100% 통과 (`raw/` 불변 원칙 준수).
+
 
 

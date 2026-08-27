@@ -3,7 +3,7 @@ title: 위키 색인
 aliases: [전체 목록, 인덱스, 파일 목차, 호메로스 위키 전체 카탈로그]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-08-27
+updated: 2026-08-28
 sources: []
 status: active
 ---
@@ -55,6 +55,7 @@ status: active
 ## 인물
 
 - [[entity-achilles|아킬레우스]] (Achilles) — 상처·철수·복수에서 적의 아버지와의 공동 애도로 이동하는 영웅
+- [[entity-agamemnon|아가멤논]] (Agamemnon) — 제우스적 스켑트론과 통치권의 정통성, 미망(Atē)과 비극적 노스토스의 중심축
 - [[entity-odysseus|오디세우스]] (Odysseus) — 부재·익명성·재인을 거쳐 귀환과 왕권을 회복하는 영웅
 
 작성 예정 (링크 없음): 헥토르, 제우스.
