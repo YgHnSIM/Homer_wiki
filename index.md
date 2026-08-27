@@ -3,7 +3,7 @@ title: 호메로스 위키 (Homer Wiki)
 aliases: [Homer Wiki, 호메로스 디지털 가든]
 tags: [type/meta, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
-updated: 2026-08-26
+updated: 2026-08-27
 sources: []
 status: active
 ---
@@ -32,6 +32,7 @@ status: active
 
 ### 개념
 
+- [[concept-time|티메 (Time)]] — 신적 배당과 인정 경제의 가치 체계
 - [[concept-menis|메니스 (Menis)]] — 우주적 질서를 흔드는 신적 분노
 - [[concept-aidos|아이도스 (Aidos)]] — 수치심, 경외, 자기억제
 - [[concept-nemesis|네메시스 (Nemesis)]] — 몫과 질서를 수호하는 공적 의분
@@ -43,6 +44,7 @@ status: active
 
 ### 어원
 
+- [[word-time|Time]] — timocracy, Timothy, Timon; τιμή 어원·수용사
 - [[word-achilles|Achilles]] — Achilles' heel, Achilles tendon
 - [[word-agathos|Agathos]] — Agatha, Agathism, Kalokagathia
 - [[word-eleos|Eleos]] — alms, eleemosynary, Kyrie eleison

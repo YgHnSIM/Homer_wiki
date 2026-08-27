@@ -1518,5 +1518,23 @@ status: active
   - `scripts/build-concept-source-matrix.mjs` 및 `wiki/analyses/analysis-concept-source-matrix.md` 9개 개념 × 24개 소스 매트릭스 동기화.
 - **검증 완료**: `npm run check` 및 `npm run check:greek` 전체 통과 (53개 문서, 1,583개 링크, 545개 빨간 링크 허용, 그리스어 구조 테스트 32개 통과, `raw/` 불변 원칙 준수).
 
+---
 
+## [2026-08-27] feat(words) | Time(티메) 영단어 어원 및 수용사 분석 문서 구축 및 지식베이스 전수 연동
 
+- **작업 개요**: 고대 그리스어 **티메(τιμή, Time)**의 인도유럽조어 어원(*kwey-)에서부터 현대 영어 어휘 및 문화 수용사로 이어지는 방대한 계보를 분석한 단어 사전 문서(words/word-time.md)를 신규 구축하고, concept-time.md와의 중복 해소 및 메인/색인 페이지를 전수 동기화함.
+- **주요 내용 및 8대 섹션 구성**:
+  - **어원 전파 계통도 (Mermaid Tree)**: PIE *kwey- → 그리스어 τίω / τιμή → 후기 라틴어 	imocratia / Timotheus / Timon → 중세 불어 	imocratie / Timothée → 현대 영어 Timocracy / Timothy / Timon / Timology 분기 시각화.
+  - **PIE 및 원시 그리스어 형태론**: PIE *kwey-('주의 깊게 보다, 값을 매기다'), 슬라브어 동계어(러시아어 *čest’* '명예', *čitat’* '읽다/세다') 및 산스크리트어 *cáyati* 대조, 형태론 대조표 분리 열 완비.
+  - **민간어원/동음이의어 분쇄 콜아웃**: 영어 	ime(시간, PIE *deh₂y- '나누다')과 그리스어 	ime(명예, PIE *kwey-)의 우연한 철자 일치 및 어원적 무관성 경고(> [!WARNING]) 명시.
+  - **호메로스 서사시 원전 용례**: 사르페돈의 노블레스 오블리주(_Il._ 12.310–314) 및 아킬레우스의 가치 체계 불신 선언(_Il._ 9.318–320) 3단 원문 인용 대조.
+  - **역사적 전파 및 수용사**: 플라톤의 명예정치(Rule of Honor) vs 아리스토텔레스의 재산자격정치(Rule of Property Qualification) 분기, 14세기 Oresme의 프랑스어 중역, 1586년 Robert Ashley의 영어권 최초 수용(*timocracy*).
+  - **현대 영어 어휘 패밀리 및 인명 수용**: Timocracy, Timocratic, Timocrat, Timology(19세기 가치평가학), Timothy(Τιμόθεος, 성 디모데 유래 영미권 대표 인명), Timon(Τίμων, 셰익스피어 희곡 『아테네의 타이먼』을 통한 극단적 인간혐오자 보통명사화).
+  - **증거 매트릭스**: 8대 주장별 사전(Beekes, Chantraine, OED, LSJ) 및 문헌 출전 매핑.
+- **지식베이스 연동 및 중복 해소 (방안 B 적용)**:
+  - wiki/concepts/concept-time.md: 1절의 상세 형태론 표 및 어원 세부를 word-time.md로 이전하고, 1문단 요약 및 [[word-time|Time 어원 분석]] 링크로 경량화.
+  - 루트 index.md: ### 개념에 [[concept-time|티메 (Time)]], ### 어원에 [[word-time|Time]] 추가 및 동기화.
+  - words/index.md: Mermaid 다이어그램 노드 추가, 현황 표 갱신(개념·추상어 3→4개, 총계 5→6개), 알파벳 색인에 Time 등록, 관련 항목 연동.
+- **검증 완료**: 
+pm run check 전체 통과 (54개 문서, 1,614개 링크, 562개 허용 빨간 링크, 그리스어 읽기 32개 구조 테스트 통과, 
+aw/ 불변 준수).
