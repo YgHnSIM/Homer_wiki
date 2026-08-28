@@ -213,7 +213,7 @@ flowchart TB
 
     subgraph Nekyia["저승에서의 조우와 교차 경고"]
         direction LR
-        Ghost["아가멤논의 망령 (_Od._ 11 / _Od._ 24)<br/>여인을 결코 온전히 믿지 말고 은밀히 귀향하라<br/>페넬로페의 정절과 불멸의 미덕 찬양"]
+        Ghost["아가멤논의 망령<br/>(_Od._ 11 / _Od._ 24)<br/>여인을 결코 온전히 믿지 말고<br/>은밀히 귀향하라<br/>페넬로페의 정절과<br/>불멸의 미덕 찬양"]
     end
 
     subgraph OdyNostos["오디세우스의 성공적 귀향 (복원의 전형)"]
@@ -226,10 +226,11 @@ flowchart TB
         Ody2 <===>|정체 확인 및 오이코스 수호| Pen2
         Ody2 <===>|함께 전선 구축| Tel2
         Ody2 ==>|응징 및 척살| Suit
+        Suit ~~~ Tel2
     end
 
-    Aga2 -.->|비극적 최후 증언| Ghost
-    Ghost -.->|신중한 귀향 및 경계 촉구| Ody2
+    AgaNostos -.->|비극적 최후 증언| Nekyia
+    Nekyia -.->|신중한 귀향 및 경계 촉구| OdyNostos
 ```
 
 | 인물 및 대상 | 오이코스 내 역할 및 서사적 기능 | 원전 근거 |

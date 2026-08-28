@@ -1622,3 +1622,14 @@ status: active
   - **자동 검증 규칙 구현**: `scripts/wiki-document-validation.mjs`에 `validateDeprecatedTerminology` 함수를 신설하고 `scripts/validate-wiki.mjs`에 연동. 프론트매터 `aliases` 검색 색인 목적을 제외한 본문 내 '서사시환' 사용 시 빌드 차단 에러를 발생시키도록 규정.
   - **도구 회귀 테스트 추가**: `scripts/test-wiki-tooling.mjs`에 폐기 번역어 검출 테스트 케이스 추가.
 - **검증**: `npm run check` 및 `npm run check:greek` 전체 통과 (55개 문서 검증, 1,678개 링크, 569개 허용 빨간 링크, 도구 회귀 테스트 100% 통과).
+
+---
+
+## [2026-08-28] fix(entities) | 아가멤논 4.3 다이어그램 가독성 보완
+
+- **작업 개요**: `wiki/entities/entity-agamemnon.md` 4.3절의 Mermaid 다이어그램을 첨부 스케치의 상단 좌우 전개, 중단 저승 망령, 하단 좌우 전개 구조로 정렬하고, 렌더링 가독성을 보완함.
+- **주요 수정**:
+  - 상·중·하 세 클러스터 사이의 관계를 클러스터 단위 연결로 명시하여 `아가멤논의 비극적 귀향 → 저승에서의 조우 → 오디세우스의 성공적 귀향` 순서를 안정적으로 배치.
+  - 망령 노드의 인용문과 한국어 구절에 의미 단위별 줄바꿈을 지정하고, 하단 `Suit ~~~ Tel2` 레이아웃 보조선을 추가하여 클러스터 제목과 노드의 겹침을 해소.
+  - `custom.scss`에서 해당 Mermaid 블록만 내부 가로 패닝이 가능하도록 고정 가독 폭과 컨테이너 overflow를 적용하여 모바일 페이지 전체 수평 overflow를 방지.
+- **검증**: `npm run check` 통과, Quartz v5 정적 빌드 완료, 데스크톱 및 모바일 좌·우 패닝 Mermaid 캡처와 독립 시각 검토 2건에서 PASS 확인.

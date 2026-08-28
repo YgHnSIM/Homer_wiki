@@ -757,6 +757,28 @@ body[data-slug="wiki/analyses/analysis-concept-source-matrix"] {
     overflow-x: auto !important;
   }
 
+  // Keep the Agamemnon counterpoint readable on narrow screens. The diagram
+  // pans inside its code block instead of shrinking every label to page width.
+  body[data-slug="wiki/entities/entity-agamemnon"]
+    pre:has(> code.mermaid[data-clipboard*="AgaNostos"]) {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+  }
+
+  body[data-slug="wiki/entities/entity-agamemnon"]
+    pre:has(> code.mermaid[data-clipboard*="AgaNostos"]) > code.mermaid {
+    width: 760px !important;
+    max-width: none !important;
+    justify-content: flex-start !important;
+  }
+
+  body[data-slug="wiki/entities/entity-agamemnon"]
+    pre:has(> code.mermaid[data-clipboard*="AgaNostos"]) > code.mermaid > svg {
+    width: 760px !important;
+    min-width: 760px !important;
+    max-width: none !important;
+  }
+
   // Quartz positions the mobile explorer absolutely inside the padded body.
   // A -100vw closed transform would otherwise leave that body's left inset
   // visible at the viewport edge. Anchor the drawer to the viewport so the
