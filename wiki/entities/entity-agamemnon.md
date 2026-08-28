@@ -197,12 +197,13 @@ flowchart LR
 『오뒷세이아』에서 아가멤논의 귀향 실패는 오디세우스의 성공적 귀향을 비추는 핵심 대위법(Counterpoint)으로 기능한다.
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph AgaNostos["아가멤논의 비극적 귀향 (파멸의 반례)"]
+        direction LR
         Aga2["아가멤논 (Agamemnon)<br/>트로이아 승전 귀환"]
         Cas2["카산드라 (Cassandra)<br/>전리품 예언녀"]
-        Cly2["클뤼타임네스트라<br/>배신과 음모"]
-        Aeg2["아이기스토스<br/>불륜 및 찬탈"]
+        Cly2["클뤼타임네스트라 (Clytemnestra)<br/>배신과 음모"]
+        Aeg2["아이기스토스 (Aegisthus)<br/>불륜 및 찬탈"]
         
         Aeg2 -.->|음모 결탁| Cly2
         Aga2 -->|환영 연회장 진입| Cly2
@@ -210,14 +211,16 @@ flowchart LR
         Cly2 ==>|함께 살해| Cas2
     end
 
-    subgraph Nekyia["저승에서의 교차 경고"]
-        Ghost["아가멤논의 망령 (_Od._ 11)<br/>여인을 결코 온전히 믿지 말라"]
+    subgraph Nekyia["저승에서의 조우와 교차 경고"]
+        direction LR
+        Ghost["아가멤논의 망령 (_Od._ 11 / _Od._ 24)<br/>여인을 결코 온전히 믿지 말고 은밀히 귀향하라<br/>페넬로페의 정절과 불멸의 미덕 찬양"]
     end
 
     subgraph OdyNostos["오디세우스의 성공적 귀향 (복원의 전형)"]
-        Ody2["오디세우스 (Odysseus)<br/>위장 침투 및 귀환"]
+        direction LR
+        Ody2["오디세우스 (Odysseus)<br/>위장 침투 및 은밀한 귀환"]
         Pen2["페넬로페 (Penelope)<br/>정절과 침상의 지혜"]
-        Tel2["텔레마코스 (Telemachos)<br/>부자 결속 및 전투"]
+        Tel2["텔레마코스 (Telemachos)<br/>부자 결속 및 공동 전선"]
         Suit["구혼자 108인<br/>오이코스 침탈자"]
 
         Ody2 <===>|정체 확인 및 오이코스 수호| Pen2
