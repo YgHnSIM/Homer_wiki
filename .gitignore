@@ -6,7 +6,6 @@
 
 # Build & Temporary Files
 node_modules/
-test-quartz/
 .quartz/
 quartz-test/
 public/

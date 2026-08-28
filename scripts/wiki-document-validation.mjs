@@ -298,3 +298,43 @@ export function validateBoldMarkdownSyntax({ relativePath, markdown, addError })
   }
 }
 
+export function validateDeprecatedTerminology({ relativePath, markdown, addError }) {
+  if (relativePath === "wiki/log.md") return
+  const lines = markdown.split(/\r?\n/)
+  let inFence = false
+  let inFrontmatter = false
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i]
+    const lineNumber = i + 1
+
+    if (i === 0 && line.trim() === "---") {
+      inFrontmatter = true
+      continue
+    }
+    if (inFrontmatter && line.trim() === "---") {
+      inFrontmatter = false
+      continue
+    }
+
+    if (/^\s*```/.test(line)) {
+      inFence = !inFence
+      continue
+    }
+    if (inFence) continue
+
+    // Allow in aliases line in YAML frontmatter for search compatibility
+    if (inFrontmatter && /^aliases:\s*\[/.test(line)) {
+      continue
+    }
+
+    if (/서사시환/.test(line)) {
+      addError(
+        relativePath,
+        "폐기된 구 한자어 표기 '서사시환'이 포함되어 있습니다. '에픽 사이클'로 교체하세요.",
+        lineNumber,
+      )
+    }
+  }
+}
+

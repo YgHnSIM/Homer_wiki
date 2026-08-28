@@ -2,6 +2,7 @@ import fs from "node:fs"
 import path from "node:path"
 import {
   validateBoldMarkdownSyntax,
+  validateDeprecatedTerminology,
   validateDocumentFrontmatter,
   validateFilename,
 } from "./wiki-document-validation.mjs"
@@ -110,6 +111,7 @@ validatePublicEntityIndex({ records, addError })
 for (const { relativePath, markdown } of records) {
   validateFilename(relativePath, addError)
   validateBoldMarkdownSyntax({ relativePath, markdown, addError })
+  validateDeprecatedTerminology({ relativePath, markdown, addError })
   const hasFrontmatter = validateDocumentFrontmatter({
     root: ROOT,
     relativePath,

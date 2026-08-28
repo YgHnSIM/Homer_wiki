@@ -272,8 +272,14 @@ try {
 
   fs.writeFileSync(boldTestFile, boldOriginal)
 
+  // Deprecated terminology test (서사시환 -> 에픽 사이클)
+  fs.writeFileSync(boldTestFile, `${boldOriginal}\n후대 서사시환 전승에 따르면\n`)
+  assertFailure(run(VALIDATOR), "폐기된 구 한자어 표기 '서사시환'이 포함되어 있습니다")
+
+  fs.writeFileSync(boldTestFile, boldOriginal)
+
   console.log(
-    "Wiki tooling regression tests passed: red-link policy, YAML parsing, source integrity, dynamic concepts, evidence boundaries, bold syntax rules.",
+    "Wiki tooling regression tests passed: red-link policy, YAML parsing, source integrity, dynamic concepts, evidence boundaries, bold syntax rules, deprecated terminology.",
   )
 } finally {
   fs.rmSync(sandbox, { recursive: true, force: true })
