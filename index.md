@@ -30,6 +30,7 @@ status: active
 - [[entity-achilles|아킬레우스 (Achilles)]] — 메니스(분노)에서 엘레오스(연민)로 이행하는 *일리아스*의 중심 영웅
 - [[entity-agamemnon|아가멤논 (Agamemnon)]] — 제우스적 스켑트론과 통치권의 정통성, 미망(Atē)과 비극적 노스토스의 중심축
 - [[entity-odysseus|오디세우스 (Odysseus)]] — 메티스와 노스토스를 통해 귀향과 왕권 회복을 수행하는 *오뒷세이아*의 중심 영웅
+- [[entity-hector|헥토르 (Hector)]] — 가족과 공동체를 수호하는 시민적 책임과 영웅 규범의 파괴적 모순을 체현하는 트로이아 총사령관
 
 ### 개념
 
