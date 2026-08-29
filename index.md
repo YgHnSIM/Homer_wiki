@@ -49,6 +49,7 @@ status: active
 - [[word-achilles|Achilles (아킬레우스)]] — *Achilles' heel*, *Achilles tendon*, *Achillean*
 - [[word-agathos|Agathos (아가토스)]] — *Agatha*, *Agathism*, *Kalokagathia*
 - [[word-eleos|Eleos (엘레오스)]] — *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
+- [[word-hector|Hector (헥토르)]] — *to hector*, *hectoring*, *hectorism*
 - [[word-odyssey|Odyssey (오디세이)]] — *Odyssey*, *odyssey*, *Odyssean*
 - [[word-polytropos|Polytropos (폴리트로포스)]] — *polytropos*, *polutropos*, *many-turned*
 - [[word-time|Time (티메)]] — *timocracy*, *timocratic*, *Timothy*, *Timon*, *timology*

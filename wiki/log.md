@@ -1675,3 +1675,20 @@ status: active
     - 결함: CJK 문자열 폭 계산 오차로 인한 서브그래프 표제 줄바꿈 및 노드 박스 침범, 단일 노드 중첩 박스 충돌.
     - 조치: 단일 노드(`Hec`)를 독립 중앙 허브 노드로 분리하고, 서브그래프 표제를 간결화(`올림포스 신들의 개입`, `아카이아 숙적 대결`)하였으며, `custom.scss`에 클러스터 표제 `white-space: nowrap !important` 및 `edgeLabel` 투명화 스타일을 적용하여 100% 무결점 렌더링 달성.
 - **검증**: `scripts/capture-hector-diagrams.mjs`를 통한 브라우저 렌더링 캡처 육안 전수 검수 완료, Quartz v5 빌드 및 `npm run check`, `npm run check:greek` 100% 통과.
+
+---
+
+## [2026-08-30] feat(words) | Hector (헥토르) 어원 및 수용사 심화 문서 신규 구축
+
+- **작업 개요**: 호메로스 서사시의 트로이아 최고 수호 영웅 헥토르(Ἕκτωρ)의 어원과 조근 PIE `*segh-`의 거대 동족어군, 3천 년에 걸친 의미 전락사(Pejoration) 및 17세기 런던 왕정복고기 1차 사료를 심층 분석한 `words/word-hector.md` 문서를 신규 구축함.
+- **주요 내용 및 학술적 분석**:
+  - **1절 어원 전파 계통도**: PIE `*segh-` → 미케네 그리스어 *e-ko-to* → 호메로스 Ἕκτωρ 및 방대한 동족어족(*scheme, school, epoch, hectic, eunuch, ekekheiria*, 독일어 *Sieg/Siegfried*) 계통도(`graph TD`) 수록.
+  - **2절 인도유럽조어 및 고대 그리스어 형태론**: PIE `*segh-`의 원초적 2대 의미역(군사적 제압 vs 지속적 지탱), 행위자 접미사 `*-tōr` 결합, 그리스어 역사음운론의 그라스만 법칙(Grassmann's Law) 비작동에 따른 기식음 대립(ἔχω vs ἕξω vs Ἕκτωρ) 정밀 증명, 크노소스 점토판(KN As 1516) 실증.
+  - **3절 호메로스 원전 시학 및 인명학**: 그레고리 나지(Gregory Nagy)의 서사시 발화명(Speaking Name) 테제와 아스티아낙스 명명 상징 조응, 원전 3대 텍스트(_Il._ 5.473–475 Polyptoton, _Il._ 6.402–403 성문 작별, _Il._ 24.729–730 안드로마케 마지막 애가) 원문·학술전사·번역·주해 완비.
+  - **4절 고전 라틴어 및 중세 기사도 수용사**: 베르길리우스 『아이네이스』의 로마 성물 수호자 위상, 중세 9대 영웅(Nine Worthies) 중 이교도 3영웅의 수두 위상, 초기 근대 영어(셰익스피어)의 용맹한 호걸 찬사 용법 실증.
+  - **5절 17세기 런던 갱단 'The Hectors'와 의미 악화사**: 1660~1680년대 왕정복고기 런던 귀족 청년 불량배 집단의 난동 사료(새뮤얼 피프스 일기, 토머스 섀드웰 희곡 『The Scowrers』 1691), OED 최초 출현 기록(1655년 명사 → 1674/1680년 동사 전환), 3천 년 의미 전락 궤적 다이어그램(`flowchart TD`) 수록.
+  - **6절 현대 영어 파생어 및 유의어 의미장 분석**: 현대 통사 구문론(*hector someone into doing something*), 5대 위압·괴롭힘 유의어(*hector vs browbeat vs bully vs swagger vs badger*) 5차원 정밀 변별 매트릭스 표, 현대 권위지(The Economist, NYT, The Guardian) 코퍼스 실례 수록.
+  - **7절 인도유럽어족 동족어 연계망**: *schema, school, epoch, hectic, eunuch, ekekheiria*, 독일어 *Sieg* 등 지성사·학문·의학 어휘 심화 분석.
+  - **8절 어원 증거 매트릭스**: 8개 핵심 명제에 대한 6단계 확실성 등급 및 사전·학술 문헌 근거 완비.
+- **인덱스 및 위키 지식망 동기화**: `words/index.md` 수용 경로 도식·표·색인 갱신, `index.md` 최신화, `wiki/entities/entity-hector.md` 상호 연결.
+- **검증**: `npm run check` (문서 57개, 링크 1,771개, 허용 빨간 링크 593개) 및 `npm run check:greek` (구조 테스트 32건, 레거시 0건) 100% 무결점 통과.
