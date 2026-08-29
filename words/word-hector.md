@@ -45,20 +45,16 @@ status: active
 인도유럽조어(PIE) 조근 `*segh-`는 고대 그리스어에서 기본 동사 ἔχω(*ékhō*, 가지다/지탱하다) 및 영웅의 이름 Ἕκτωρ(*Héktōr*)를 낳았을 뿐만 아니라, 철학·학문·의학·제도 전반에 걸친 방대한 현대 영단어군과 게르만어군 동족어를 파생시켰습니다.
 
 ```mermaid
-graph TD
-    PIE["PIE: *segh- ('붙잡다, 극복하다, 지탱하다')"]
+flowchart TD
+    PIE["인도유럽조어(PIE) 조근<br/>*segh- ('붙잡다, 극복하다, 지탱하다')"]
 
-    PIE --> GRK_EKH["고대 그리스어: ἔχω (ékhō, '가지다, 지탱하다')"]
-    PIE --> SKT["산스크리트어: sáhas- ('힘, 승리') / sáhate ('극복하다')"]
-    PIE --> GER["원시 게르만어: *segaz -> 현대 독일어 Sieg ('승리') / Siegfried"]
+    PIE --> SKT["산스크리트어<br/>sáhas- ('힘, 승리') / sáhate ('극복하다')"]
+    PIE --> GER["원시 게르만어 *segaz<br/>-> 독일어 Sieg ('승리') / Siegfried"]
+    PIE --> GRK["고대 그리스어<br/>ἔχω (ékhō, '가지다, 지탱하다')"]
 
-    GRK_EKH --> HEKTOR["Ἕκτωρ (Héktōr, '지탱하는 자') -> 영단어 Hector (위협하다/괴롭히다)"]
-    GRK_EKH --> SKHEMA["σχῆμα (skhēma, '형태/태도') -> 영어 schema / scheme"]
-    GRK_EKH --> SKHOLE["σχολή (skholē, '여가/몰입') -> 영어 school / scholar"]
-    GRK_EKH --> EPOKHE["ἐποχή (epokhē, '정지/판단유보') -> 영어 epoch / 철학 epoche"]
-    GRK_EKH --> HEKTIS["ἕξις (heksis) -> ἑκτικός (hektikos) -> 영어 hectic ('소모열의/분주한')"]
-    GRK_EKH --> EUNOUKH["εὐνοῦχος (eunoûkhos, '침소를 지키는 자') -> 영어 eunuch ('환관')"]
-    GRK_EKH --> EKEKHEIR["ἐκεχειρία (ekekheiria, '손을 멈춤') -> 올림픽 휴전 ekekheiria"]
+    GRK --> B1["(1) 영웅 인명 및 어원 전락<br/>Ἕκτωρ (Héktōr, '지탱하는 자')<br/>-> 영단어 to hector ('위협하다, 괴롭히다')"]
+    GRK --> B2["(2) 철학 및 학문 어휘<br/>σχῆμα (schema) · σχολή (school) · ἐποχή (epoch)"]
+    GRK --> B3["(3) 의학 및 사회제도 어휘<br/>ἕξις/ἑκτικός (hectic) · εὐνοῦχος (eunuch) · ἐκεχειρία (휴전)"]
 ```
 
 ---
@@ -167,7 +163,7 @@ graph TD
 ### 5.1 왕정복고기 런던의 폭력 갱단과 어의의 타락
 청교도 혁명 이후 1660년대 왕정복고기(Restoration)에 이르러, 런던의 방탕한 귀족·신사 청년들이 코번트 가든과 스트랜드의 밤거리에서 무리를 지어 행인을 습격하고 야경꾼을 폭행하는 폭력 조직을 결성했습니다. 이들은 자신들을 고대 최고의 전사에 빗대어 ‘**The Hectors**’라 자칭했습니다.
 
-그러나 이들의 실제 행태는 만취 상태에서 약자를 위협하고, 가짜 결투(False challenge)를 남발하며 고함을 지르고 으스대는 비열한 난동이었습니다. 이에 따라 시민들과 문인들은 'Hector'라는 이름을 "영웅을 참칭하며 큰소리로 남을 위협하는 골목 불량배, 허풍쟁이 건달"로 조롱조로 부르기 시작했고, 단어의 의미는 **최고의 영웅(Valiant hero)에서 비열한 가해자(Street bully)**로 180도 전락(**Pejoration**)하였습니다.
+그러나 이들의 실제 행태는 만취 상태에서 약자를 위협하고, 가짜 결투(False challenge)를 남발하며 고함을 지르고 으스대는 비열한 난동이었습니다. 이에 따라 시민들과 문인들은 'Hector'라는 이름을 "영웅을 참칭하며 큰소리로 남을 위협하는 골목 불량배, 허풍쟁이 건달"로 조롱조로 부르기 시작했고, 단어의 의미는 '**최고의 영웅**'(Valiant hero)에서 '**비열한 가해자**'(Street bully)로 180도 전락(**Pejoration**)하였습니다.
 
 ```mermaid
 flowchart TD
