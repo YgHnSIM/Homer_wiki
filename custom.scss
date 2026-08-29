@@ -360,6 +360,29 @@ a.tag,
     min-width: 280px;
   }
 
+  .cluster text,
+  .cluster span,
+  .cluster-label,
+  g[id^="subGraph"] text,
+  g[id^="subGraph"] span,
+  g[class*="cluster"] text,
+  g[class*="cluster"] span {
+    white-space: nowrap !important;
+    overflow: visible !important;
+    font-weight: 600 !important;
+  }
+
+  .edgeLabel,
+  .edgeLabel span,
+  .edgeLabel p,
+  .edgeLabel text,
+  .edgeLabel rect {
+    background-color: transparent !important;
+    background: transparent !important;
+    fill: transparent !important;
+    padding: 0 !important;
+  }
+
   // Keep semantic class names in Markdown while letting CSS own the theme.
   // The classDef declarations only retain stroke width because Mermaid turns
   // fill/color declarations into inline !important styles.

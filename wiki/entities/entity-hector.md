@@ -75,9 +75,9 @@ flowchart TD
         A["(1) 출전과 총사령관의 책무<br/>트로이아 전군 지휘 및 결투 주선"] --> B["(2) 도성과 가족의 문턱<br/>안드로마케와의 이별과 투구 벗기"]
     end
 
-    subgraph P2["제2국면: 공세 정점과 비극적 오판"]
+    subgraph P2["제2국면: 공세 정점과 오판"]
         direction LR
-        C["(3) 평원 돌파와 방벽 격파<br/>새점 경고 무시와 아카이아 방벽 돌파"] --> D["(4) 함선 방화와 파트로클로스 사살<br/>아킬레우스 무구 획득과 공세의 정점"] --> E["(5) 폴리다마스의 경고와 오판<br/>성내 철수 거부와 평원 야영 고집"]
+        C["(3) 평원 돌파와 방벽 격파<br/>새점 경고 무시와 방벽 돌파"] --> D["(4) 함선 방화 및 파트로클로스 사살<br/>아킬레우스 무구 획득과 공세 정점"] --> E["(5) 폴리다마스의 경고와 오판<br/>성내 철수 거부와 평원 야영 고집"]
     end
 
     subgraph P3["제3국면: 파멸과 문화적 화해"]
@@ -171,12 +171,12 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    subgraph Adv["전략 자문 및 정치적 대립"]
-        Pol["폴리다마스 (Polydamas)<br/>동갑내기 참모 / 신중한 방어론 (Noos)"]
+    subgraph Adv["전략 자문"]
+        Pol["폴리다마스 (Polydamas)<br/>동갑내기 참모 · 신중한 방어론 (Noos)"]
     end
 
-    subgraph Core["최고 총사령부"]
-        Hec["헥토르 (Hector)<br/>군사 지휘권 (Spear / Thumos)"]
+    subgraph Core["최고 사령부"]
+        Hec["헥토르 (Hector)<br/>군사 지휘권 (Spear · Thumos)"]
     end
 
     subgraph Army["본대 및 동맹군 편제"]
@@ -185,8 +185,8 @@ flowchart LR
         DarArr["아이네이아스<br/>(다르다니아군)"]
     end
 
-    Pol -.->|"전략적 충고 / 18권 철수론 기각"| Hec
-    Hec ==>|"총사령관 명령 하달"| TroArr
+    Pol -.->|"철수론 기각"| Hec
+    Hec --> TroArr
     Hec --- Lyc
     Hec --- DarArr
 ```
@@ -207,28 +207,26 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-    subgraph Divine["올림포스 신적 층위 (Divine Agency)"]
+    subgraph Divine["올림포스 신들의 개입"]
         Zeu["제우스 (Zeus)<br/>황금 저울 운명 판정 (Kērostasía)"]
         Apo["아폴론 (Apollo)<br/>무력 고취 · 부상 치유 · 시신 보존"]
-        Ath["아테나 (Athena)<br/>데이포보스로 변신 · 기만적 살해 유도"]
+        Ath["아테나 (Athena)<br/>데이포보스로 변신 · 기만적 유인"]
     end
 
-    subgraph Center["트로이아의 방패"]
-        Hec["헥토르 (Hector)"]
-    end
+    Hec["헥토르 (Hector)<br/>트로이아의 방패"]
 
-    subgraph Rivals["아카이아 숙적 대결망 (Achaean Rivals)"]
+    subgraph Rivals["아카이아 숙적 대결"]
         Ach["아킬레우스 (Achilles)<br/>최강의 숙적 / 22권 결투 · 시신 모욕 / 24권 화해"]
         Pat["파트로클로스 (Patroklos)<br/>아킬레우스의 전우 / 16권 사살 · 무구 박탈"]
         Aia["대 아이아스 (Telamonian Ajax)<br/>방벽의 수호자 / 7권 호각 결투 · 예물 교환"]
     end
 
-    Zeu ==>|"운명의 날 하데스로 기울임"| Hec
-    Apo -->|"일시적 비호 및 시신 보존"| Hec
+    Zeu -->|"운명 판정"| Hec
+    Apo -->|"비호 및 보존"| Hec
     Ath -.->|"기만적 배신"| Hec
-    Hec <==>|"필멸의 대결 및 복수"| Ach
-    Hec -->|"사살 및 아킬레우스 갑주 획득"| Pat
-    Hec <-->|"호각의 무용 격돌"| Aia
+    Hec <-->|"필멸의 결투"| Ach
+    Hec -->|"사살 및 무구 획득"| Pat
+    Hec <-->|"호각의 격돌"| Aia
 ```
 
 | 숙적 및 대립자 | 진영 및 위상 | 헥토르와의 대결 성격 | 서사적 전개 및 결과 | 대표 출전 |
