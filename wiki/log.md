@@ -1780,3 +1780,16 @@ status: active
   - **위키 규격 및 가독성(Architect/Editor)**: 볼드 내부 괄호/문장부호 분리(`**정신적 눈멂**(infatuation/moral blindness)을`, `헤시오도스 『**신통기**』 (Theogony 230):`), 8절 어원 증거 매트릭스 표준 4열 복원 및 6대 확실성 등급 안내 수록, 2절 목록-표 중복 및 5.2절 중복 다이어그램 제거.
   - **지식망 연결(Weaver)**: `[[concept-ate|아테 (Ate)]]` 개념 본체 상호 교차 링크 구축, 서사 핵심 인물(`[[entity-zeus|제우스]]`, `[[entity-phoenix|포이닉스]]`, `[[entity-erinys|에리뉘스]]`, `[[entity-eris|에리스]]`, `[[entity-hector|헥토르]]` 등) 및 연관 윤리 개념(`[[concept-hybris|히브리스]]`, `[[concept-hamartia|하마르티아]]`, `[[concept-hikesia|히케시아]]` 등) 링크 보강, 관련 항목 1행 표준화.
 - **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
+
+
+---
+
+## [2026-08-30] docs(words) | word-hector.md 5인 적대적 학술 평의회(homer-review) 검토 및 정제 완료
+
+- **작업 개요**: `homer-review` 프레임워크를 가동하여 5인 적대적 평의회(Philologist, Logician, Architect, Weaver, Editor)의 3라운드 교차 비평 및 승인안에 따라 `words/word-hector.md`를 전면 검증·정제함.
+- **주요 개선 및 정제 내용**:
+  - **문헌학적 원전 무결성(Philology)**: 3.3절 (1) 원전 인용구 `_Il._ 5.472–474` 및 `οἴχεται`(*oíkhetai*) 정본 복원, 허위 아오리스트 어형 `ἔσχεθεν` 제거 및 폴립토톤(`Ἕκτορ`, `ἔχεσκες`, `ἑξέμεν`) 분석 엄밀화; 미케네 선형문자 B 점토판의 허위 출전 `KN Fh 348` 삭제 및 실존 인명 *e-ko-to* 출전(`KN As 1516.12`, `KN V 60.1`, `PY Eb 913.1`, `PY Ep 212.1`) 정정; 그라스만 법칙 음운 변천 단계(`*seɡʰ-tōr` $\rightarrow$ `*hék-tōr`) 정밀화; Ἕκτωρ의 Beekes 사전 출전(`EDG 491–492 (s.v. ἔχω)`) 교정; 24.729–730 운율 시행 2행 분할 정상화.
+  - **논리 및 수용사 구조(Logic)**: 8.1절에 `> [!WARNING] 모순/이설 발견` 콜아웃 신설하여 선희랍 기층어설/아나톨리아 루위아어설 대 순수 PIE 어원설 간의 비교언어학적 쟁점 병기; 16세기 르네상스 찬사 $\rightarrow$ 17세기 초 엘리자베스·자코비안 연극의 '허풍쟁이 무부(swaggering blade)' $\rightarrow$ 1660년대 갱단 'The Hectors' $\rightarrow$ 1670~80년대 동사 `to hector` 전성으로 이어지는 다단계 의미 악화사(Pejoration) 인과 사슬 확립; 나지(Nagy) 발화명 테제와 동사 `erúomai` 간 시어적 주해(poetic gloss) 관계 명시; 중세 다레스-딕티스 친트로이아 전승 매개 고리 보강; 동족어 3대 의미적 분기 축(능동적 장악/수호, 재귀적 억제/정지, 정태적 체질/상태) 체계화.
+  - **위키 규격 및 가독성(Architect/Editor)**: 볼드 내부 괄호/원어 분리(`**9대 영웅**(Nine Worthies)`, `**schema / scheme** (도식, 외형, 체계)` 등) 전수 적용; Mermaid 다이어그램 내 자모 오입력(`ἐποχή`, `εὐ노ῦχος` $\rightarrow$ `εὐ노ῦχος`) 교정; `words/_template.md` 표준 8대 H2 표제 일치 및 8절 6대 확실성 등급/민간어원 경고 콜아웃 복원; 6.2절 유의어 매트릭스 뉘앙스 열 학술어 정돈.
+  - **지식망 연결(Weaver)**: 소스 문서(`[[nagy-1979-best-of-achaeans]]`, `[[redfield-1975-nature-and-culture]]`), 서사 핵심 인물(`[[entity-hector]]`, `[[entity-sarpedon]]`, `[[entity-andromache]]`, `[[entity-aeneas]]`), 핵심 윤리 개념(`[[concept-ate]]`, `[[concept-aidos]]`, `[[concept-kleos]]`, `[[concept-moira]]`) 인라인 및 관련 항목 링크 확충; 303행 소분류명 `호메로스 서사시 영웅 인명 유래어(Eponym) 단어 문서`로 정정; `## 관련 항목` 1행 표준 서식 전면 적용.
+- **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
