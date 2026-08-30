@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { spawn } from "node:child_process";
 
-const PORT = 3333;
+const PORT = 3334;
 const PUBLIC_DIR = path.resolve(".quartz/public");
 
 const mimeTypes = {
@@ -199,10 +199,14 @@ server.listen(PORT, async () => {
   fs.writeFileSync("screenshot-epic-cycle-desktop.png", Buffer.from(epicData, "base64"));
   console.log("Screenshot saved to screenshot-epic-cycle-desktop.png (size:", epicHeight, "px)");
 
-  // 4. Desktop Screenshot (Overview)
-  console.log("Navigating to http://localhost:3333/wiki/overview...");
+  // 4. Desktop Screenshot (Overview - Light Mode)
+  console.log("Navigating to http://localhost:3333/wiki/overview (Light)...");
   await sendSession("Page.navigate", { url: `http://localhost:${PORT}/wiki/overview` });
-  await new Promise((r) => setTimeout(r, 2500));
+  await new Promise((r) => setTimeout(r, 2000));
+  await sendSession("Runtime.evaluate", {
+    expression: "document.documentElement.setAttribute('saved-theme', 'light');"
+  });
+  await new Promise((r) => setTimeout(r, 1000));
 
   const overviewMetrics = await sendSession("Page.getLayoutMetrics");
   const overviewHeight = Math.ceil(overviewMetrics.contentSize.height);
@@ -219,8 +223,23 @@ server.listen(PORT, async () => {
     fromSurface: true,
     captureBeyondViewport: true
   });
-  fs.writeFileSync("screenshot-overview-desktop.png", Buffer.from(overviewData, "base64"));
-  console.log("Screenshot saved to screenshot-overview-desktop.png (size:", overviewHeight, "px)");
+  fs.writeFileSync("screenshot-overview-light-explicit.png", Buffer.from(overviewData, "base64"));
+  console.log("Screenshot saved to screenshot-overview-light-explicit.png");
+
+  // 5. Desktop Screenshot (Overview - Dark Mode)
+  console.log("Switching to Dark Mode on overview...");
+  await sendSession("Runtime.evaluate", {
+    expression: "document.documentElement.setAttribute('saved-theme', 'dark');"
+  });
+  await new Promise((r) => setTimeout(r, 1000));
+
+  const { data: overviewDarkData } = await sendSession("Page.captureScreenshot", {
+    format: "png",
+    fromSurface: true,
+    captureBeyondViewport: true
+  });
+  fs.writeFileSync("screenshot-overview-dark-explicit.png", Buffer.from(overviewDarkData, "base64"));
+  console.log("Screenshot saved to screenshot-overview-dark-explicit.png");
 
   ws.close();
   chrome.kill();

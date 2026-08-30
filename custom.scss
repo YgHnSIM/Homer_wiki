@@ -855,3 +855,172 @@ body[data-slug="wiki/analyses/analysis-concept-source-matrix"] {
     }
   }
 }
+
+// Homer Map SVG Landscape diagram styling (Strict Light / Dark Mode Isolation)
+:root .homer-map-svg,
+.homer-map-svg {
+  --bg-cycle: #f4ede2;
+  --stroke-cycle: #8f7554;
+  --title-cycle: #1a1612;
+  --sub-cycle: #54493d;
+
+  --bg-order-box: #fcfbf9;
+  --stroke-order-box: #d4ccbf;
+  --label-order: #5c4e3e;
+
+  --bg-order-node: #ffffff;
+  --stroke-order-node: #a8967c;
+  --main-order-node: #1a1612;
+  --sub-order-node: #54493d;
+  --line-order-grid: #baa892;
+
+  --bg-iliad-box: #fcf8f7;
+  --stroke-iliad-box: #e5cbc7;
+  --bg-iliad-hdr: #faeae7;
+  --stroke-iliad-hdr: #9e362d;
+  --title-iliad-hdr: #751b14;
+  --bg-iliad-node: #ffffff;
+  --stroke-iliad-node: #c98e87;
+  --main-iliad-node: #1a1612;
+  --sub-iliad-node: #54493d;
+  --color-iliad-arrow: #9e362d;
+
+  --bg-ody-box: #f6f9fc;
+  --stroke-ody-box: #c9dbe8;
+  --bg-ody-hdr: #e5f0f8;
+  --stroke-ody-hdr: #2c6396;
+  --title-ody-hdr: #134673;
+  --bg-ody-node: #ffffff;
+  --stroke-ody-node: #85b0d1;
+  --main-ody-node: #1a1612;
+  --sub-ody-node: #54493d;
+  --color-ody-arrow: #2c6396;
+
+  --color-default-arrow: #7a664e;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([saved-theme="light"]) .homer-map-svg {
+    --bg-cycle: #2d261e;
+    --stroke-cycle: #b89c78;
+    --title-cycle: #ede3d5;
+    --sub-cycle: #b3a492;
+
+    --bg-order-box: #1a1816;
+    --stroke-order-box: #3d3730;
+    --label-order: #c4b5a2;
+
+    --bg-order-node: #252320;
+    --stroke-order-node: #5c5346;
+    --main-order-node: #ede7e0;
+    --sub-order-node: #b3a99c;
+    --line-order-grid: #544b3f;
+
+    --bg-iliad-box: #201716;
+    --stroke-iliad-box: #4a2926;
+    --bg-iliad-hdr: #3b1c19;
+    --stroke-iliad-hdr: #e06c62;
+    --title-iliad-hdr: #ffb8b2;
+    --bg-iliad-node: #291e1d;
+    --stroke-iliad-node: #633c38;
+    --main-iliad-node: #f5eceb;
+    --sub-iliad-node: #c7b2b0;
+    --color-iliad-arrow: #e06c62;
+
+    --bg-ody-box: #151d24;
+    --stroke-ody-box: #243a4e;
+    --bg-ody-hdr: #192b3d;
+    --stroke-ody-hdr: #5b9bd6;
+    --title-ody-hdr: #b8dcff;
+    --bg-ody-node: #1c2630;
+    --stroke-ody-node: #335069;
+    --main-ody-node: #e8f1f7;
+    --sub-ody-node: #a3bac9;
+    --color-ody-arrow: #5b9bd6;
+
+    --color-default-arrow: #b8a58e;
+  }
+}
+
+html[saved-theme="dark"] .homer-map-svg {
+  --bg-cycle: #2d261e !important;
+  --stroke-cycle: #b89c78 !important;
+  --title-cycle: #ede3d5 !important;
+  --sub-cycle: #b3a492 !important;
+
+  --bg-order-box: #1a1816 !important;
+  --stroke-order-box: #3d3730 !important;
+  --label-order: #c4b5a2 !important;
+
+  --bg-order-node: #252320 !important;
+  --stroke-order-node: #5c5346 !important;
+  --main-order-node: #ede7e0 !important;
+  --sub-order-node: #b3a99c !important;
+  --line-order-grid: #544b3f !important;
+
+  --bg-iliad-box: #201716 !important;
+  --stroke-iliad-box: #4a2926 !important;
+  --bg-iliad-hdr: #3b1c19 !important;
+  --stroke-iliad-hdr: #e06c62 !important;
+  --title-iliad-hdr: #ffb8b2 !important;
+  --bg-iliad-node: #291e1d !important;
+  --stroke-iliad-node: #633c38 !important;
+  --main-iliad-node: #f5eceb !important;
+  --sub-iliad-node: #c7b2b0 !important;
+  --color-iliad-arrow: #e06c62 !important;
+
+  --bg-ody-box: #151d24 !important;
+  --stroke-ody-box: #243a4e !important;
+  --bg-ody-hdr: #192b3d !important;
+  --stroke-ody-hdr: #5b9bd6 !important;
+  --title-ody-hdr: #b8dcff !important;
+  --bg-ody-node: #1c2630 !important;
+  --stroke-ody-node: #335069 !important;
+  --main-ody-node: #e8f1f7 !important;
+  --sub-ody-node: #a3bac9 !important;
+  --color-ody-arrow: #5b9bd6 !important;
+
+  --color-default-arrow: #b8a58e !important;
+}
+
+html[saved-theme="light"] .homer-map-svg {
+  --bg-cycle: #f4ede2 !important;
+  --stroke-cycle: #8f7554 !important;
+  --title-cycle: #1a1612 !important;
+  --sub-cycle: #54493d !important;
+
+  --bg-order-box: #fcfbf9 !important;
+  --stroke-order-box: #d4ccbf !important;
+  --label-order: #5c4e3e !important;
+
+  --bg-order-node: #ffffff !important;
+  --stroke-order-node: #a8967c !important;
+  --main-order-node: #1a1612 !important;
+  --sub-order-node: #54493d !important;
+  --line-order-grid: #baa892 !important;
+
+  --bg-iliad-box: #fcf8f7 !important;
+  --stroke-iliad-box: #e5cbc7 !important;
+  --bg-iliad-hdr: #faeae7 !important;
+  --stroke-iliad-hdr: #9e362d !important;
+  --title-iliad-hdr: #751b14 !important;
+  --bg-iliad-node: #ffffff !important;
+  --stroke-iliad-node: #c98e87 !important;
+  --main-iliad-node: #1a1612 !important;
+  --sub-iliad-node: #54493d !important;
+  --color-iliad-arrow: #9e362d !important;
+
+  --bg-ody-box: #f6f9fc !important;
+  --stroke-ody-box: #c9dbe8 !important;
+  --bg-ody-hdr: #e5f0f8 !important;
+  --stroke-ody-hdr: #2c6396 !important;
+  --title-ody-hdr: #134673 !important;
+  --bg-ody-node: #ffffff !important;
+  --stroke-ody-node: #85b0d1 !important;
+  --main-ody-node: #1a1612 !important;
+  --sub-ody-node: #54493d !important;
+  --color-ody-arrow: #2c6396 !important;
+
+  --color-default-arrow: #7a664e !important;
+}
+
