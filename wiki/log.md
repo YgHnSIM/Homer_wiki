@@ -1768,3 +1768,15 @@ status: active
 
 - **작업 개요**: [`entity-hector.md`](file:///c:/Vault/Homer_wiki/wiki/entities/entity-hector.md) 2.1절 어원 분석에 포함되어 있던 결합형 다이어크리틱(`U+0261` + `U+0311` Combining Inverted Breve + `U+02B0`)으로 인해 모바일/웹 폰트에서 글자 깨짐(`*se□□ʰ-`)이 발생하던 결함을 표준 PIE 어근 표기 `*segh-`로 교정함.
 - **검증**: `npm run check` 및 `npm run check:greek` 100% 통과.
+
+---
+
+## [2026-08-30] docs(words) | word-ate.md 5인 적대적 학술 평의회(homer-review) 검토 및 정제 완료
+
+- **작업 개요**: `homer-review` 프레임워크를 가동하여 5인 적대적 평의회(Philologist, Logician, Architect, Weaver, Editor)의 3라운드 교차 비평 및 승인안에 따라 `words/word-ate.md`를 전면 검증·정제함.
+- **주요 개선 및 정제 내용**:
+  - **문헌학적 원전 무결성(Philology)**: 2절 형태론 표의 `ἄασεν` 출전(_Il._ 19.95) 및 `ἀάτη` 출전 정정, `ἀασάμην` 전사 다이어크리틱 누락(`aasámēn`) 교정, 에픽 고유 형용사 `ἀάατος`(*aáatos*, _Il._ 14.271) 복원 수록, 산스크리트어 *avati* 오류 제거 및 히타이트어/PIE 후두음 비교 정밀화.
+  - **논리 및 수용사 구조(Logic)**: 세네카 비극(Senecan tragedy)의 복수극 매개 및 복수의 여신(Fury) 도상학적 융합(syncretism) 복원, 『줄리어스 시저』 비극과 『헛소동』 희극적 과장(comic hyperbole)의 장르별 분리, 소행성 111 Ate 명명 동기 등급 조정(정황 추정).
+  - **위키 규격 및 가독성(Architect/Editor)**: 볼드 내부 괄호/문장부호 분리(`**정신적 눈멂**(infatuation/moral blindness)을`, `헤시오도스 『**신통기**』 (Theogony 230):`), 8절 어원 증거 매트릭스 표준 4열 복원 및 6대 확실성 등급 안내 수록, 2절 목록-표 중복 및 5.2절 중복 다이어그램 제거.
+  - **지식망 연결(Weaver)**: `[[concept-ate|아테 (Ate)]]` 개념 본체 상호 교차 링크 구축, 서사 핵심 인물(`[[entity-zeus|제우스]]`, `[[entity-phoenix|포이닉스]]`, `[[entity-erinys|에리뉘스]]`, `[[entity-eris|에리스]]`, `[[entity-hector|헥토르]]` 등) 및 연관 윤리 개념(`[[concept-hybris|히브리스]]`, `[[concept-hamartia|하마르티아]]`, `[[concept-hikesia|히케시아]]` 등) 링크 보강, 관련 항목 1행 표준화.
+- **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
