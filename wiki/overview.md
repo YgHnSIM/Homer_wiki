@@ -24,32 +24,33 @@ status: active
 flowchart TD
   Cycle["에픽 사이클 (트로이아 전쟁 전말)"]
 
-  subgraph Order["사회적 몫과 규범적 시선"]
-    Agathos["아가토스 (탁월성)"] --- Time["티메 (명예와 몫)"]
-    AidosNemesis["아이도스 / 네메시스 (수치 / 의분)"] --- Xenia["크세니아 (손님 환대)"]
-    Agathos --- AidosNemesis
-    Time --- Xenia
-  end
+  Agathos["아가토스 (탁월성)"] --- Time["티메 (명예와 몫)"]
+  AidosNemesis["아이도스 / 네메시스 (수치 / 의분)"] --- Xenia["크세니아 (손님 환대)"]
+  Agathos --- AidosNemesis
+  Time --- Xenia
 
-  subgraph Iliad["일리아스: 분노에서 연민으로"]
-    direction TB
-    Ate["아테 (판단 마비)"] --> Conflict["아가멤논 vs 아킬레우스"]
-    Conflict --> Menis["메니스 (파괴적 분노)"]
-    Menis --> Tragedy["헥토르 전사 & 비극"]
-    Tragedy --> Hikesia["히케시아 (신성한 탄원)"]
-    Hikesia --> Eleos["엘레오스 (연민과 화해)"]
-  end
+  Iliad["일리아스: 분노에서 연민으로"]
+  Ate["아테 (판단 마비)"]
+  Conflict["아가멤논 vs 아킬레우스"]
+  Menis["메니스 (파괴적 분노)"]
+  Tragedy["헥토르 전사 & 비극"]
+  Hikesia["히케시아 (신성한 탄원)"]
+  Eleos["엘레오스 (연민과 화해)"]
 
-  subgraph Odyssey["오뒷세이아: 고난 극복과 정의 회복"]
-    direction TB
-    Polytropos["폴리트로포스 (지혜·임기응변)"] --> Ody["오디세우스의 고난"]
-    Ody --> Nostos["노스토스 (귀향)"]
-    Nostos --> Judgment["크세니아 시험 & 구혼자 응징"]
-  end
+  Odyssey["오뒷세이아: 귀향과 정의 회복"]
+  Polytropos["폴리트로포스 (지혜·임기응변)"]
+  Ody["오디세우스의 고난"]
+  Nostos["노스토스 (귀향)"]
+  Judgment["크세니아 시험 & 구혼자 응징"]
 
-  Cycle --> Order
-  Time --> Ate
-  Xenia --> Polytropos
+  Cycle --> Agathos
+  Cycle --> Time
+
+  Time --> Iliad
+  Iliad --> Ate --> Conflict --> Menis --> Tragedy --> Hikesia --> Eleos
+
+  Xenia --> Odyssey
+  Odyssey --> Polytropos --> Ody --> Nostos --> Judgment
 ```
 
 ### 지형도 구조와 작동 원리
