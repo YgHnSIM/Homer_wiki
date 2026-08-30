@@ -21,28 +21,32 @@ status: active
 작성된 개념 여덟과 대표 인물 [[entity-achilles|아킬레우스]], [[entity-odysseus|오디세우스]]를 그립니다. 자리는 고정입니다. 점 그래프처럼 밀고 당기지 않습니다.
 
 ```mermaid
-flowchart LR
+flowchart TD
   Cycle["에픽 사이클"]
 
   subgraph eyes["시선과 몫"]
+    direction LR
     Aidos["아이도스"] --- Nemesis["네메시스"]
   end
 
   subgraph guest["탄원과 환대"]
+    direction LR
     Hikesia["히케시아"] --- Xenia["크세니아"]
   end
 
   subgraph arc["일리아스의 축"]
+    direction LR
     Menis["메니스"] --> Ach["아킬레우스"] --> Eleos["엘레오스"]
   end
 
   subgraph nostosArc["오뒷세이아의 축"]
-    Xenia --- Ody["오디세우스"]
+    Ody["오디세우스"]
   end
 
   Agathos["아가토스"] --- Ach
   Cycle --- Menis
   Cycle --- Xenia
+  Xenia --- Ody
 ```
 
 선의 종류:

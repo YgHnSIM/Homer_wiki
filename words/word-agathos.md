@@ -45,9 +45,7 @@ graph TD
     ME_AGA --> ENG_AGA["현대 영어: Agatha (인명 / 고유명사)"]
 
     GRK -->|19세기 철학 조어| ENG_AGATHISM["현대 영어: Agathism (1817, Southey)<br/>우주의 궁극적 선 귀결론"]
-    ENG_AGATHISM --> DERIV1["Agathist (n. 신봉자) / Agathic (adj.)"]
-    ENG_AGATHISM --> DERIV2["Agathology (n. 최고선학 / 도덕철학)"]
-    ENG_AGATHISM --> DERIV3["Agathokakological (adj. 선악 혼합의, 1834)"]
+    ENG_AGATHISM --> DERIV["파생 학술 어휘군<br/>· Agathist / Agathic (신봉자/선적)<br/>· Agathology (최고선학)<br/>· Agathokakological (선악혼합)"]
 ```
 
 ---

@@ -1844,4 +1844,20 @@ status: active
   - **다이어그램 시각적 최적화(Visual QA / Architect)**: 4.1절 3자 복합 관계망 다이어그램의 가로 팽창(Ultra-wide Layout) 및 엣지 라벨 중첩 결함을 해소하기 위해 상단(아카이아 숙적) - 중앙(파리스 중심 트로이아 왕실 허브) - 하단(올림포스 신격 개입)의 3단 수직 스택(LR 3-Column Hub) 구조로 재설계하고 엣지 라벨을 간결화하여 시각적 가독성을 대폭 향상함.
 - **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
 
+---
+
+## [2026-08-30] fix(meta) | 볼트 전역 Mermaid 다이어그램 겹침·간섭 전수 조사 및 일괄 최적화
+
+- **작업 개요**: 볼트 내 전체 60개 문서 64개 Mermaid 다이어그램을 브라우저(Edge Headless)로 전수 렌더링 검증하여 발견된 6개 다이어그램의 노드/엣지 겹침, 서브그래프 경계 간섭, 가로 과밀, 고립 노드 결함을 일괄 수정함.
+- **주요 개선 및 정제 내용**:
+  - **`wiki/overview.md`**: `Xenia` 노드의 중복 서브그래프 귀속에 따른 격자형 선 꼬임 결함을 해소하고 좌우 2대 서사 기둥 및 상하 대칭 3단 계층형으로 재배치.
+  - **`wiki/analyses/analysis-homeric-ethics-literature-review.md`**:
+    - 1번 서사 윤리 5단계 대비도: 점선 횡단 엣지 라벨을 `[언어적 진실성 대비 (직언 vs 메티스)]`, `[갈등 종결 대비 (비극 공유 vs 절멸)]`로 간결화하여 중앙 텍스트 뭉개짐 해소.
+    - 2번 14대 윤리 개념망: `우주적 질서` 내부에서 중복 참조되던 `Eleos` 노드 종속성을 정리하고 3단계 수직 흐름 및 명확한 단계별 교차 엣지로 재구성.
+  - **`wiki/entities/entity-odysseus.md`**: 미연결 상태로 고립되어 있던 `에우마이오스` 노드를 신적 개입(좌) - 오디세우스(중) - 오이코스 결속(우)의 3열 허브 구조로 정상 연결.
+  - **`words/word-agathos.md`**: 최하단 19세기 철학 조어 하위 3개 파생 노드를 `파생 학술 어휘군` 단일 카드로 수직 통합하여 가로 6열 과밀 압박 해소.
+  - **`wiki/sources/scott-1981-some-greek-terms.md`**: 4대 비경쟁적 용어 노드에 균형 잡힌 `<br/>` 줄바꿈을 적용하여 정사각형의 읽기 편한 카드 레이아웃으로 개선.
+- **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
+
+
 
