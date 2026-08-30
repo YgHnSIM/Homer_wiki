@@ -1761,3 +1761,10 @@ status: active
 - **지식베이스 동기화**:
   - `wiki/index.md`: 헥토르 항목 1행 표준 형식으로 갱신.
 - **검증**: `npm run check` 및 `npm run check:greek` 통과 확인.
+
+---
+
+## [2026-08-30] fix(entities) | entity-hector.md 2.1절 PIE 어근 특수문자 깨짐(두부 현상) 교정
+
+- **작업 개요**: [`entity-hector.md`](file:///c:/Vault/Homer_wiki/wiki/entities/entity-hector.md) 2.1절 어원 분석에 포함되어 있던 결합형 다이어크리틱(`U+0261` + `U+0311` Combining Inverted Breve + `U+02B0`)으로 인해 모바일/웹 폰트에서 글자 깨짐(`*se□□ʰ-`)이 발생하던 결함을 표준 PIE 어근 표기 `*segh-`로 교정함.
+- **검증**: `npm run check` 및 `npm run check:greek` 100% 통과.
