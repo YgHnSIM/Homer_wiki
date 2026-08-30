@@ -1867,7 +1867,16 @@ status: active
 - **주요 개선 내용**:
   - **다이어그램 전면 재구축 및 가로 폭 최적화**: 상위 규범 체계(상단 콤팩트 박스) 아래에 일리아스 축과 오뒷세이아 축을 좌우 2열(Two-column, TB 수직 진행)로 나란히 배치하여, 기존 6개 노드 가로 나열에 따른 가로 과팽창 결함을 해소하고 한눈에 들어오는 대칭 구조로 최적화.
   - **서사시 요약 및 개념 목록 동기화**: *일리아스*와 *오뒷세이아* 개요 섹션에 전체 5대 인물(아킬레우스, 아가멤논, 헥토르, 파리스, 오디세우스) 및 10대 개념을 전면 연결하고, 10종 개념 목록의 희랍어 원어 및 정의 최신화.
-  - **입구 및 연관 링크 정비**: `index.md` 입구 설명 문구를 '서사 및 윤리 지형도'로 갱신하고, `overview.md` 내 이어서 읽기 및 관련 항목 링크 확충.
+  - **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
+
+---
+
+## [2026-08-31] fix(meta) | overview.md 서브그래프 헤더와 첫 노드 겹침 렌더링 결함 수정
+
+- **작업 개요**: 브라우저 렌더링 시 `Odyssey` 서브그래프 타이틀과 첫 노드(`Polytropos`)가 겹쳐서 글자가 잘리던 Mermaid dagre 레이아웃 결함을 해소함.
+- **주요 개선 내용**:
+  - **서브그래프 컨테이너 타겟팅 해소**: `Order --> Odyssey` 대신 `Time --> Ate` 및 `Xenia --> Polytropos`로 명시적 노드 간 연결을 적용하여 dagre 엔진이 서브그래프 헤더와 내부 노드 간 안전 마진을 정상 계산하도록 수정.
+  - **상단 규범 2x2 그리드화**: `Order` 내부 노드들을 2열 2행(`Agathos --- Time`, `AidosNemesis --- Xenia`)으로 정돈하여 상단 폭을 슬림화하고 전체 다이어그램의 박스 균형성 완성.
 - **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
 
 
