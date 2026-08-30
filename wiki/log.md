@@ -1808,3 +1808,29 @@ status: active
 - **지식베이스 동기화**:
   - `index.md`, `wiki/index.md`: 파리스 항목 1행 표준 형식으로 갱신.
 - **검증**: `npm run check` 및 `npm run check:greek` 통과 확인.
+
+---
+
+## [2026-08-30] docs(entities) | entity-paris.md 5인 적대적 학술 평의회(homer-review) 검토 및 정제 완료
+
+- **작업 개요**: `homer-review` 프레임워크를 가동하여 5인 적대적 평의회(Philologist, Logician, Architect, Weaver, Editor)의 서브에이전트 3라운드 교차 비평 및 승인안에 따라 `wiki/entities/entity-paris.md`를 전면 검증·정제함.
+- **주요 개선 및 정제 내용**:
+  - **문헌학적 원전 무결성(Philology)**: 이중 명칭 출현 빈도 통계 정정 (알렉산드로스 약 45회 vs 파리스 6회); 13권 에우케노르 부친 오류 정정 (코이라노스 $\rightarrow$ 코린토스의 예언자 폴뤼이도스, _Il._ 13.663); 정형구 표 내 호격 실제형 `Δύσπαρι`(*Dúspari*) 및 연접형 그라브 악센트(`γυναιμανὲς ἠπεροπευτὰ`) 교정; _Il._ 24.28 인용 정형구 출전 정정; 3권 뤼카온 흉갑 차용 구문(`ἥρμοσε δ᾽ αὐτῷ`) 통사론 정정 ("흉갑이 그에게 꼭 들어맞았다"); 11권 매복 은신처(`ἐκ λοχέοιο`) 및 디오메데스 복합 멸칭(`παρθενοπῖπα`, `κέρᾳ ἀγλαέ`) 복원; 수치심 수용 최초 발화 출전(_Il._ 3.59) 보완; 24.30 유일어 악센트 `μαχλοσύνη`(*makhlosúnē*) 정규화.
+  - **논리 및 지성사 구조(Logic)**: Adkins(1960, 도덕적 결손 모델)와 Williams(1993, 온전한 행위 주체성 변호)의 대립 지형도 명확화; 플라톤주의적 이분법 투사를 지양하고 호메로스적 외재적 신적 힘(Divine Force)과 이중 동기화(Doppelmotivation) 모델로 균형화; 트로이아 멸망의 신학적 인과에 4권 맹약 파기(Horkia 유린) 집단 죄책 결합; CTH 76 알락산두 조약 비정의 언어학적·역사학적 추론 한계 명시.
+  - **위키 규격 및 가독성(Architect/Editor)**: 볼드 내부 괄호/원어 외곽 분리 원칙(`**알렉산드로스** (Ἀλέξανδρος, *Aléksandros*):`, `**파리스** (Πάρις, *Páris*):` 등) 전수 적용; 프론트매터 `tags`에 `domain/odyssey` 추가; 12절 증거 매트릭스 열 헤더 `확실성` 표준화 및 자기참조 링크 전면 제거; 13절 관련 문헌 전부에 `— [핵심 연구 테제]` 1행 표준 서식 병기; 감상적 미사여구 배제 및 백과사전적 객관 서술 정돈.
+  - **지식망 연결(Weaver)**: 상위 포털 백링크(`[[overview]]`, `[[wiki/index]]`, `[[entity-framework]]`) 및 분석/어원 문서(`[[analysis-homeric-ethics-literature-review]]`, `[[word-hector]]`) 연결; 결손 인물/신격/개념(`[[entity-zeus]]`, `[[entity-hera]]`, `[[entity-athena]]`, `[[entity-lykaon]]`, `[[concept-ate]]`, `[[concept-arete]]` 등) 위키링크 전면 복원; 4.2절 인물 관계 표에 디오메데스, 아킬레우스, 필록테테스, 아폴론 증설.
+- **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
+
+---
+
+## [2026-08-30] docs(entities) | entity-paris.md 7인 적대적 평의회 재검토 및 심화 완료 (homer-entity deep)
+
+- **작업 개요**: `homer-entity` 프레임워크 7인 적대적 학술 평의회 서브에이전트(Philologist, Archaeologist, Philosopher, Receptionist, Skeptic, Validator, Architect)의 재검토 및 심화안을 통해 `wiki/entities/entity-paris.md`의 문헌학·역사고고학·종교철학·수용사 층위를 최고 수준으로 정밀화함.
+- **주요 개선 및 정제 내용**:
+  - **문헌학 및 원전 인용(Philology)**: 유니코드 자모 결함 교정(`καμπύλα τόξα`, `ἥρμοσε`); 단순형 `Πάρις` 실출전 정정(_Il._ 3.325, 3.438, 6.512, 24.249); 11.371행 일로스 분묘 비석 은신 원문(`στήλῃ κεκλιμένος... Ἴλου Δαρδανίδαο`) 복원; 디오메데스 4중 호격 힐난어군(`τοξότα, λωβητήρ, κέρᾳ ἀγλαέ, παρθε노πῖπα`, _Il._ 11.385) 완비; `Ἑλένης πόσις ἠϋκόμοιο` 주격 단일화 및 3.39행 5연속 닥틸 쾌속 운율 명시.
+  - **역사고고학(Archaeology/History)**: CTH 76(KUB 21.1) 조약의 트로이아 VIh 말기 연대(BC 1280경) 및 `ᴰAppaliunaš` 수호신 성격 고증; LBA 복합궁/전차 엘리트 전력과 아르카익기 호플리테스 폄하 윤리의 2단계 층위 분리; Hawkins/Easton(1995) VIIb1 양면 루비아 청동 인장 및 Starke(1997) `*Pari-zitis` 비교언어학적 재구성 가설 등급 명시.
+  - **종교인류학 및 철학(Philosophy/Ethics)**: 제우스 크세니오스-호르키오스 신벌과 4권 맹약 파기(Horkia 유린) 집단 죄책의 신학적 결합; `dôra theôn`에 내재한 불가항력적 필연성(Ananke)과 Williams(1993)의 다원적 행위자성(Agency) 대립 심화; 고대 심신론(Noos의 아이도스 인지적 수용 vs Thumos/Phren의 에로스 굴복)을 통한 원초적 의지박약(Akrasia) 분석; Redfield(1975)의 침실(Thalamos) vs 성벽(Teichos) 공간 문명론 심화.
+  - **수용사 및 학술논쟁(Reception/Debates)**: 에픽 사이클 3부작 층위 매핑(키프리아, 아이티오피스 아킬레우스 발목 사살, 소일리아스 독화살 사망 및 오이노네 거부); 24.30행 유일어 `μαχλοσύνη`에 대한 아리스타르코스 아테테시스 vs 통일파 변호의 3자 대립 심화; 에우리피데스 비극 아곤 및 오비디우스 『헤로이데스』(5, 16, 17서), 베르길리우스 『아이네이스』(1.26–28) 수용사 완비.
+  - **지식망 및 매트릭스(Architect/Validator/Weaver)**: 12절 매트릭스 15행 매핑 정상화(1행·12행 `[[lee-junseok-2024-iliad-jeongam]]`); 4.1절 관계망에 오이노네 엣지 추가; 13절 어원 링크 표준 파생어 형식(`[[word-hector|Hector (헥토르)]] — *hector*, *hectoring*`) 정비.
+- **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
+
