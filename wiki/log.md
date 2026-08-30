@@ -1793,3 +1793,18 @@ status: active
   - **위키 규격 및 가독성(Architect/Editor)**: 볼드 내부 괄호/원어 분리(`**9대 영웅**(Nine Worthies)`, `**schema / scheme** (도식, 외형, 체계)` 등) 전수 적용; Mermaid 다이어그램 내 자모 오입력(`ἐποχή`, `εὐ노ῦχος` $\rightarrow$ `εὐ노ῦχος`) 교정; `words/_template.md` 표준 8대 H2 표제 일치 및 8절 6대 확실성 등급/민간어원 경고 콜아웃 복원; 6.2절 유의어 매트릭스 뉘앙스 열 학술어 정돈.
   - **지식망 연결(Weaver)**: 소스 문서(`[[nagy-1979-best-of-achaeans]]`, `[[redfield-1975-nature-and-culture]]`), 서사 핵심 인물(`[[entity-hector]]`, `[[entity-sarpedon]]`, `[[entity-andromache]]`, `[[entity-aeneas]]`), 핵심 윤리 개념(`[[concept-ate]]`, `[[concept-aidos]]`, `[[concept-kleos]]`, `[[concept-moira]]`) 인라인 및 관련 항목 링크 확충; 303행 소분류명 `호메로스 서사시 영웅 인명 유래어(Eponym) 단어 문서`로 정정; `## 관련 항목` 1행 표준 서식 전면 적용.
 - **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
+
+---
+
+## [2026-08-30] feat(entities) | 파리스 엔티티 문서 신규 구축 및 심화 (homer-entity deep)
+
+- **작업 개요**: `homer-entity` 프레임워크와 7인 적대적 학술 평의회(Philologist, Archaeologist, Philosopher, Receptionist, Skeptic, Validator, Architect)의 서브에이전트 3라운드 공방을 통해 `wiki/entities/entity-paris.md`를 13개 풀스펙 섹션으로 신규 구축하고 지식베이스를 동기화함.
+- **주요 수록 및 심화 내용**:
+  - **프론트매터 및 문헌학(Philology)**: `korean_name`, `conventional_latin`, `greek`, `transliteration: Páris`, `transliteration_system: homeric-oriented-v1`, `cssclasses: [greek-reading-page]` UX 계약 준수; 이중 명칭(Ἀλέξανδρος 140회 이상 vs Πάρις 45회 미만)의 운율적 경제성 및 서사적 어조 분석; 2.2절 고유 정형구 표 및 연쇄 호격 질책(`Δύσπαρι εἶδος ἄρισ테 γυναιμανὲς ἠπεροπευτά`)의 운율 위치 분석; 3권 뤼카온 흉갑 차용(`ἥρμοσε δ᾽ αὐτῷ`)의 서사적 결손 모티프 수록.
+  - **고고학 및 역사적 맥락(Archaeology/History)**: 보아즈쾨이 히타이트 쐐기문자 외교 점토판(CTH 76 무와탈리 2세-윌루사 알락산두 조약, BC 1280경)을 통한 인명의 후기 청동기 실재성 및 신격 아팔리우나(Appaliuna) 증인 분석; 트로이아 VIIa 파괴 지층의 청동/골제 화살촉 발굴과 아나톨리아 복합궁의 군사적 실재성; 트로이아 VIIb 양면 루비아 상형문자 인장과 이중문화 지평 고증; 기원전 8세기 아르카익 호플리테스 윤리의 궁술 폄하 이데올로기 층위 분리.
+  - **종교인류학 및 철학(Philosophy/Anthropology)**: 제우스 크세니오스(Zeus Xenios)의 환대 규범 유린에 따른 우주론적 죄책(Asebeia) 및 트로이아 파멸의 신벌(Tisis) 정당성; 아프로디테의 원초적 에로스 제의와 신적 강제; 3권 신적 은사론(_Il._ 3.64–66)의 이중 동기화와 도덕적 기만성 비판; 헥토르의 질책에 대한 지적 수용(`κατ᾽ αἶσαν ἔνεικας`)과 관능적 도피 간의 도덕심리학적 분열(Phren/Noos vs Eros/Ate); 공적 폴리스 문화와 사적 에로스의 실존적 충돌.
+  - **후대 전승 및 학술 논쟁(Reception/Debates)**: 에픽 사이클(키프리아, 아이티오피스, 소일리아스)의 태몽·오이노네·아킬레우스 사살·필록테테스 독화살 사망 전승 체계화; 에우리피데스 비극 및 오비디우스 『헤로이데스』의 수용사 정리; 24.25–30행 '파리스의 심판' 구절(*μάχλοσύνη*)에 대한 분석파(Wilamowitz) 대 통일파(Reinhardt, Janko) 학술 쟁점 정리 (`> [!WARNING]` 내부 위키링크 배제).
+  - **증거 매트릭스 및 관계망**: 15행 5대 축(호메로스 본문, 언어/비문, 물질/고고학, 현대 학술 연구, 후대 수용) 증거 매트릭스 확충 (11권 3대 수뇌부 저격 및 13권 저격 단독 행 1:1 매핑); Mermaid 올림포스 신격-트로이아 왕실-아카이아 숙적 3자 복합 관계망 구축; 관련 항목 1행 표준화.
+- **지식베이스 동기화**:
+  - `index.md`, `wiki/index.md`: 파리스 항목 1행 표준 형식으로 갱신.
+- **검증**: `npm run check` 및 `npm run check:greek` 통과 확인.
