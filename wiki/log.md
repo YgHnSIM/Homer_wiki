@@ -1746,3 +1746,18 @@ status: active
   - **위키 규격 및 가독성 고도화(Architect/Editor)**: 문장부호/괄호 외곽 분리 원칙 준수, 수식 LaTeX 마커 분리, 콜아웃 내 위키링크 제거, 소스 프론트매터에 `lee-junseok-2024-iliad-jeongam.md` 보강.
   - **지식망 연결 및 색인 동기화(Weaver)**: `words/word-ate`, `overview`, `wiki/index`, `index`, `entity-hector`, `entity-polydamas` 등 상호 링크 확충 및 `scripts/allowed-red-links.json`에 `concept-atasthalia`, `concept-hamartia`, `entity-eris` 등록.
 - **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
+
+---
+
+## [2026-08-30] feat(entities) | 헥토르 엔티티 문서 심화 (homer-entity deep)
+
+- **작업 개요**: `homer-entity` 프레임워크와 7인 적대적 학술 평의회(Philologist, Archaeologist, Philosopher, Receptionist, Skeptic, Validator, Architect)의 3라운드 공방을 통해 `wiki/entities/entity-hector.md`를 13개 풀스펙 섹션으로 심화 개정하고 지식베이스를 동기화함.
+- **주요 갱신 및 심화 내용**:
+  - **프론트매터 및 문헌학(Philology)**: `korean_name`, `conventional_latin`, `greek`, `transliteration: Héktōr`, `transliteration_system: homeric-oriented-v1`, `cssclasses: [greek-reading-page]` UX 계약 준수; 선형문자 B 점토판(KN V 60.1, PY Eb 913.1)의 실존 인명 *e-ko-to* 수록; 2.2절 고유 정형구 표 5개 열 표준화 및 원전 인용구(6.441–446, 22.99–105, 24.767–772)의 키릴·한글 혼입 문자 전수 교정.
+  - **고고학 및 역사적 맥락(Archaeology/History)**: 미케네 청동기(LH IIIB/C) 물질문화와 기원전 8세기 아르카익 폴리스 도성 수호자(Polisschutz) 이념의 층위 분리; 선형문자 B 점토판의 와낙스(*wa-na-ka*)와 라와게타스(*ra-wa-ke-ta*) 군사적 분업 모델 적용; 보아즈쾨이 히타이트 설형문자 외교 점토판(CTH 76 알락산두 조약, CTH 181 타와갈라와 서한, CTH 191 마나파-타르훈타 서한) 및 트로이 VIh/VIIa층 복합 기억 분석 수록.
+  - **종교인류학 및 철학(Philosophy/Anthropology)**: 아폴론의 비호와 케로스타시아(Kērostasía) 운명 저울; 보이오티아 테바이에서의 헥토르 영웅 숭배(Pausanias 9.18.5); 24권 3인 여성(안드로마케, 헤카베, 헬레네)의 삼중 고오스(*goos*)와 가객들의 스레노스(*thrēnos*) 성별 분업; 신체-정신 감정 좌소(Thumos-Phren-Noos-Ker)와 아테(Atē)의 미망; 아이도스(Aidōs)-네메시스(Nemesis) 도덕적 이중 구속 및 22권 실존적 각성(*condicio humana*) 심화.
+  - **후대 전승 및 학술 논쟁(Reception/Debates)**: 에픽 사이클(퀴프리아, 소일리아스, 일리오스의 낙성), 다레스-딕티스 중세 전승, 9대 영웅(Nine Worthies), 셰익스피어 『트로일루스와 크레시다』, 포프 번역 감수성 영웅상 및 영어 동사 `hector` 어원사 수록; 4대 학술 쟁점(하마르티아 vs 불가피성, 정형 관습 vs 다면적 캐릭터, 남성성 전사 이데올로기 비판, 창 vs 홀 공론장) 정리 (`> [!WARNING]` 내부 위키링크 배제).
+  - **증거 매트릭스 및 관계망**: 19행 5대 축(호메로스 본문, 언어/비문, 물질/고고학, 현대 학술 연구, 후대 수용) 증거 매트릭스 확충; Mermaid 계보도, 지휘망, 디오메데스를 포함한 숙적 대결망 고도화; 관련 항목 백링크 1행 표준화.
+- **지식베이스 동기화**:
+  - `wiki/index.md`: 헥토르 항목 1행 표준 형식으로 갱신.
+- **검증**: `npm run check` 및 `npm run check:greek` 통과 확인.
