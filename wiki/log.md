@@ -1834,3 +1834,14 @@ status: active
   - **지식망 및 매트릭스(Architect/Validator/Weaver)**: 12절 매트릭스 15행 매핑 정상화(1행·12행 `[[lee-junseok-2024-iliad-jeongam]]`); 4.1절 관계망에 오이노네 엣지 추가; 13절 어원 링크 표준 파생어 형식(`[[word-hector|Hector (헥토르)]] — *hector*, *hectoring*`) 정비.
 - **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
 
+---
+
+## [2026-08-30] fix(entities) | entity-paris.md 그리스어 전수 교정 및 관계망 다이어그램 시각적 최적화
+
+- **작업 개요**: 브라우저 렌더링 시각적 검증(Visual QA) 및 그리스어/전사 규약 전수 감사 결과를 바탕으로 `wiki/entities/entity-paris.md`의 잔여 표기 결함 교정 및 4.1절 관계망 다이어그램 레이아웃을 전면 최적화함.
+- **주요 개선 및 정제 내용**:
+  - **그리스어 및 문자 표기 정밀화(Philology)**: 2.3절 66행의 희랍어 자모 결합 오탈자(`ἥρ모세` $\rightarrow$ `ἥρμοσε`) 교정; 9.1절 210행의 `dôra theôn`을 `homeric-oriented-v1` 표준 장모음 곡절부호 표기인 `*dō̂ra theō̂n*`(`δῶρα θεῶν`)으로 정규화.
+  - **다이어그램 시각적 최적화(Visual QA / Architect)**: 4.1절 3자 복합 관계망 다이어그램의 가로 팽창(Ultra-wide Layout) 및 엣지 라벨 중첩 결함을 해소하기 위해 상단(아카이아 숙적) - 중앙(파리스 중심 트로이아 왕실 허브) - 하단(올림포스 신격 개입)의 3단 수직 스택(LR 3-Column Hub) 구조로 재설계하고 엣지 라벨을 간결화하여 시각적 가독성을 대폭 향상함.
+- **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
+
+
