@@ -154,6 +154,7 @@ $$\text{행위자의 아이도스(Aidôs, 내적 억제)} \iff \text{관찰자�
 
 ### 관련 윤리 및 신화 개념
 - [[concept-aidos|Aidos]] — 네메시스를 예견하여 내면에서 일어나는 수치심과 자기억제 감정
+- [[concept-ate|Ate]] — 네메시스를 유발하는 치명적인 정신적 눈멂과 오판
 - [[concept-time|티메 (Time)]] — 각자의 신분과 몫에 비례하여 부여되는 공적 명예와 위계
 - [[concept-moira|Moira]] — 인간과 신에게 할당된 응당한 몫과 운명적 한계
 - [[concept-themis|Themis]] — 신성한 질서와 관습적 규범

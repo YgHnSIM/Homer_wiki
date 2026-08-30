@@ -3,7 +3,7 @@ title: 어원 사전
 aliases: [단어 인덱스, 호메로스 어원·영단어 사전, Word Index]
 tags: [type/meta, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-08-27
+updated: 2026-08-30
 sources: []
 status: active
 ---
@@ -31,6 +31,7 @@ graph TB
     G5["Ὀδύσσεια"]:::greek --> L5["Odyssea"]:::latin --> E5["Odyssey / odyssey"]:::english
     G6["πολύτροπος"]:::greek -. "학술적 음역" .-> E6["polytropos / polutropos"]:::english
     G7["τιμή"]:::greek --> L7["timocratia / Timotheus"]:::latin --> E7["timocracy / Timothy / Timon"]:::english
+    G8["ἄτη"]:::greek --> L8["Latin Ate"]:::latin --> E8["Ate / Atic / 111 Ate"]:::english
 ```
 
 현재 도식에는 작성된 단어 문서만 올립니다. Odyssey는 본문을 작성했지만 역사적 어원과 중세 전승 단계에 검토 상태가 남아 있으므로 문서 상태를 review로 유지합니다. Mentor, Siren, Nemesis, clue 등은 별도 문서가 생긴 뒤에 도식에 추가합니다.
@@ -42,8 +43,8 @@ graph TB
 | 분류 | 문서 수 | 작성된 항목 |
 |:---|:---:|:---|
 | 개념·추상어 | 4 | [[word-agathos\|Agathos]], [[word-eleos\|Eleos]], [[word-polytropos\|Polytropos]], [[word-time\|Time]] |
-| 인명·서명 유래어 | 3 | [[word-achilles\|Achilles]], [[word-hector\|Hector]], [[word-odyssey\|Odyssey]] |
-| 총계 | 7 | — |
+| 인명·서명 유래어 | 4 | [[word-achilles\|Achilles]], [[word-ate\|Ate]], [[word-hector\|Hector]], [[word-odyssey\|Odyssey]] |
+| 총계 | 8 | — |
 
 ---
 
@@ -51,6 +52,7 @@ graph TB
 
 - [[word-achilles|Achilles]] — Ἀχιλλεύς. *Achilles' heel*, *Achilles tendon*, *Achillean*
 - [[word-agathos|Agathos]] — ἀγαθός. *Agathism*, *Agatha*, *Kalokagathia*
+- [[word-ate|Ate]] — ἄτη. *Ate*, *Atic*, *Atetic*, *Ate-ridden*, *111 Ate*
 - [[word-eleos|Eleos]] — ἔλεος. *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
 - [[word-hector|Hector]] — Ἕκτωρ. *to hector*, *hectoring*, *hectorism*
 - [[word-odyssey|Odyssey]] — Ὀδύσσεια. *Odyssey*, *odyssey*, *Odyssean*
@@ -63,6 +65,7 @@ graph TB
 
 - [[wiki/index|위키 색인]]
 - [[overview|서사시 개요]]
+- [[concept-ate|아테]]
 - [[concept-time|티메]]
 - [[concept-agathos|아가토스]]
 - [[concept-eleos|엘레오스]]

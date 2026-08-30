@@ -4,7 +4,7 @@ aliases: [타임라인, 히스토리, 변경 기록]
 tags: [type/meta, domain/culture, status/active]
 unlisted: true
 created: 2026-08-14
-updated: 2026-08-28
+updated: 2026-08-30
 sources: []
 status: active
 ---
@@ -1703,3 +1703,34 @@ status: active
   - **제5.1절 괄호-볼드 인접 파싱 오류 교정**: `**최고의 영웅(Valiant hero)에서 비열한 가해자(Street bully)**로` 구문에서 괄호와 조사가 볼드 마커와 결합되어 `**` 리터럴이 노출되던 결함을 문장부호/괄호 외곽 분리 원칙에 맞추어 `'**최고의 영웅**'(Valiant hero)에서 '**비열한 가해자**'(Street bully)로` 교정 완료.
   - **브라우저 전수 렌더링 검수**: 독자 읽는 법 배지, 요약 콜아웃, 제2.3절 미케네 형태론 표, 제5절 5단계 의미 전락사 다이어그램, 제6.2절 5대 유의어 매트릭스 표, 제8.2절 어원 증거 매트릭스 표 등 전 섹션의 시각적 무결성 확인.
 - **검증**: Quartz 정적 빌드 102개 문서 완료, `npm run check` 및 `npm run check:greek` 100% 통과.
+
+---
+
+## [2026-08-30] feat(concepts,words) | Ate (아테/미망) 개념 심화 및 어원·영단어 수용사 사전 문서 신규 구축
+
+- **작업 개요**: 호메로스 서사시 윤리학·심리학의 핵심 개념이자 인간과 신들의 비극적 판단 마비를 가리키는 **아테**(Ate / ἄτη)에 대하여, 개념 심화 문서(`wiki/concepts/concept-ate.md`)와 어원·영단어 수용사 사전 문서(`words/word-ate.md`, deep 모드)를 동시 구축하고 위키 전역의 교차 참조를 동기화함.
+- **주요 내용 및 학술적 분석**:
+  - **개념 심화 문서 (`concept-ate.md`)**:
+    - **1절 어원 및 형태론**: 동사 `ἀάω`(*aáō*), 서사시 비축약형 `ἀάτη`(*aátē*), 형용사 `ἀτηρός`(*atērós*), 복합어 `βλαψίφρων`(*blapsíphrōn*) 형태론 대조표 수록.
+    - **2절 서사시 4대 작동 영역**: 『일리아스』 19.86–138(아가멤논의 공식 사죄 및 제우스의 아테 추방 신화), 『일리아스』 9.502–514(포이닉스의 리타이 우화와 2차 아테 징벌), 『오뒷세이아』 11.61(엘페노르의 취기와 실족), 21–22권(구혼자들의 자멸) 원문·학술전사·번역·주석 완비.
+    - **3절 의미 범위와 정형적 결합**: 3단계 인과 구조(신적 원인 $\rightarrow$ 주관적 마비 $\rightarrow$ 객관적 파멸), 서사시 정형구 표, 이중 결정론(Double Determination) 메커니즘.
+    - **4절 관련 개념 관계망**: Mermaid 다이어그램, Aidos, Nemesis, Menis, Litai, Erinys와의 상호작용 분석.
+    - **5절 학술적 쟁점 및 개념사**: Dodds 1951(심리적 외주화/수치문화론) vs Williams 1993(행위자 책임론 및 인과적 배상) 대조, 헤시오도스 및 비극/아리스토텔레스 하마르티아(Hamartia)로의 개념사 발전.
+    - **6절 증거 매트릭스**: 원전 및 2차 연구문헌 출전과 확실성 등급 정리.
+  - **어원 사전 문서 (`word-ate.md`, deep 모드)**:
+    - **1절 어원 전파 계통도**: 선희랍 기층어 / PIE 가설 → 고대 희랍어 ἄτη/ἀάω → 라틴어 Ate → 르네상스 영국 문학(Shakespeare, Spenser) → 근현대 천문학(Asteroid 111 Ate) 및 고전학·심리학 수용 도식화(`graph TD`).
+    - **2절 PIE 및 희랍어 원어근 분석**: Beekes(2010)의 선희랍 기층어설과 비교언어학적 가설 대조, ἀάω 동사 변화 및 형태론 표.
+    - **3절 서사시 원전 용례 및 인명학**: _Il._ 19.86–94 및 _Il._ 9.502–514 정밀 대조 및 제우스의 맏딸로서의 신격화 분석.
+    - **4절 역사적 전파 및 수용사**: 비극의 4단계 인과율(Hubris -> Ate -> Nemesis -> Tisis), 라틴 문헌 수용, 르네상스 고전 부흥기 유입 경로.
+    - **5절 음운 및 의미 변화사**: 물리적 실족 → 내면적 미망 → 의인화된 복수/파멸의 신격 → 근대 문학적 알레고리.
+    - **6절 현대 영어 파생어군**: *Ate*, *Atic*, *Atetic*, *Ate-ridden*, *111 Ate* 등 OED 기반 매트릭스.
+    - **7절 인명·신명 파생 고유명사 및 관용표현**: 셰익스피어 『줄리어스 시저』(3.1.271: *"With Ate by his side come hot from hell"*), 『존 왕』, 『헛소동』 정밀 주석 및 소행성 111 아테(1870) 명명 배경.
+    - **8절 어원 증거 매트릭스**: 6대 확실성 등급 표 및 민간어원(eat, attero 등) 반박.
+- **지식베이스 전면 동기화**:
+  - `wiki/index.md`: `## 개념` 섹션에 `concept-ate` 등록 및 미작성 목록에서 제거.
+  - `words/index.md`: 수용 경로 Mermaid 다이어그램, 현황 표, 알파벳 색인 갱신.
+  - `wiki/analyses/analysis-homeric-ethics-literature-review.md`: 아테 전사 및 132/270행 확정 갱신.
+  - `wiki/analyses/analysis-concept-source-matrix.md`: 10개 개념 × 24개 소스 매트릭스 동기화.
+  - `wiki/concepts/concept-aidos.md`, `concept-nemesis.md`: 관련 항목에 `concept-ate` 상호 링크 연결.
+  - `scripts/allowed-red-links.json`: 기작성된 `concept-ate` 제거 및 신규 미래 링크 등록.
+- **검증**: `npm run check` 및 `npm run check:greek` 100% 무결점 통과.

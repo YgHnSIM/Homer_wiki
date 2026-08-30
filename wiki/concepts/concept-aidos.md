@@ -173,6 +173,7 @@ $$\text{행위자의 아이도스} \iff \text{관찰자의 네메시스}$$
 
 ### 관련 윤리 및 신화 개념
 - [[concept-nemesis|Nemesis]] — 마땅한 몫의 침해에 대한 공적 의분과 질서 수호
+- [[concept-ate|Ate]] — 판단력을 마비시키고 아이도스를 마비시키는 치명적 미망
 - [[concept-hikesia|Hikesia]] — 신체 접촉과 아이도스에 기초한 신성 탄원 의례
 - [[concept-xenia|Xenia]] — 손님 환대의 의무와 제우스 크세니오스의 가호
 - [[concept-eleos|Eleos]] — 고통받는 타자에 대한 연민과 공감

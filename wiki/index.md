@@ -74,8 +74,9 @@ status: active
 - [[concept-xenia|크세니아 (Xenia)]]
 - [[concept-agathos|아가토스 (Agathos)]]
 - [[concept-eleos|엘레오스 (Eleos)]]
+- [[concept-ate|아테 (Ate)]]
 
-작성 예정 (링크 없음): 테미스, 아레테, 클레오스, 디케, 노스토스, 모이라, 아테.
+작성 예정 (링크 없음): 테미스, 아레테, 클레오스, 디케, 노스토스, 모이라.
 
 ---
 

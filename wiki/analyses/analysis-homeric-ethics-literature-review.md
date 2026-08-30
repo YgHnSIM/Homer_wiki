@@ -129,7 +129,7 @@ graph TD
   - 헥토르는 가족과 도시를 수호하는 '시민적 영웅'이지만, 트로이의 필연적 멸망을 예감하면서도 동료 시민들의 비난에 대한 수치심([[concept-aidos|아이도스]](αἰδώς, *aidṓs*)) 때문에 성벽 안으로 물러서지 못하고 사지로 향합니다.
   - 이는 영웅적 명예 규범이 역설적으로 공동체(트로이) 전체를 공멸로 몰고 가는 영웅주의의 내적 모순을 선명하게 체현합니다.
 
-#### 3. 9권 아킬레우스의 거부: '실존적 각성'인가, '권력 투쟁과 비극적 과오([[concept-ate|아테]](ἄτη; 학술 전사 검토 보류))'인가?
+#### 3. 9권 아킬레우스의 거부: '실존적 각성'인가, '권력 투쟁과 비극적 과오([[concept-ate|아테]], ἄτη)'인가?
 
 아킬레우스가 아가멤논의 물질적 배상을 단호히 거절하며 쏟아낸 절규(_Il._ 9.318–409: _"머무는 자나 용맹하게 싸운 자나 몫은 같으며, 비겁한 자나 고결한 자나 똑같은 명예를 받고, 아무 일도 하지 않은 자나 혁혁한 공을 세운 자나 죽기는 매한가지다"_)는 호메로스 해석사의 가장 첨예한 격전장입니다.
 
@@ -267,7 +267,7 @@ graph TD
 | **[[concept-hikesia\|히케시아]]** (Hikesia) | ἱκεσία | *hikésia* | 명사·표제형 | 약자·패자가 신의 가호 아래 자비를 구하는 신성한 탄원 의례 | 아이도스(Aidos)를 촉발하여 적대적 폭력을 멈추고 연민을 이끌어냄 | [[lee-junseok-2024-iliad-jeongam]]; [[lee-junseok-2018-wrath-and-pity]] |
 | **[[concept-eleos\|엘레오스]]** (Eleos) | ἔλεος | *éleos* | 명사·표제형 | 인간 유한성과 필멸성(Mortality)을 공유하는 비극적 연민 | 메니스(Menis)의 광기를 종식시키고 화해를 가능케 하는 궁극의 정서 | [[scott-1979-pity-and-pathos]]; [[lee-junseok-2018-wrath-and-pity]]; [[zanker-1994-heart-of-achilles]] |
 | **[[concept-moira\|모이라]]** (Moira) | μοῖρα | *moîra* | 명사·표제형 | 필멸의 한계, 정해진 몫과 운명 | 인간의 자유로운 도덕적 선택([[williams-1993-shame-and-necessity\|Agency]])과 양립함 | [[williams-1993-shame-and-necessity]]; [[long-1970-morals-and-values]] |
-| **[[concept-ate\|아테]]** (Ate) | ἄτη | 검토 보류 | 명사·표제형 | 신들이 내린 일시적 판단 마비, 정신적 눈멂 | 파멸을 초래하지만 행위자는 물질적 배상(Apoina) 책임을 짐 | [[dodds-1951-greeks-and-irrational]]; [[williams-1993-shame-and-necessity]] |
+| **[[concept-ate\|아테]]** (Ate) | ἄτη | *átē* | 명사·표제형 | 신들이 내린 일시적 판단 마비, 정신적 눈멂 | 파멸을 초래하지만 행위자는 물질적 배상(Apoina) 책임을 짐 | [[dodds-1951-greeks-and-irrational]]; [[williams-1993-shame-and-necessity]] |
 | **[[concept-menis\|메니스]]** (Menis) | μῆνις | *mē̂nis* | 명사·표제형 | 우주적 파괴력을 지닌 신적 분노 | 24권 탄원(Hikesia)과 연민(Eleos)을 통해서만 최종 정화됨 | [[lee-junseok-2024-iliad-jeongam]]; [[lee-junseok-2018-wrath-and-pity]] |
 | **[[concept-nostos\|노스토스]]** (Nostos) | νόστος | 검토 보류 | 명사·표제형 | 고난을 극복하고 가정과 사회 질서로 돌아가는 귀환 | 오이코스(Oikos)의 도덕적 정의 복원과 직결됨 | [[nagy-1979-best-of-achaeans]]; [[lee-junseok-2016-odyssey-humanity]] |
 
