@@ -42,12 +42,14 @@ status: active
 - [[concept-xenia|크세니아 (Xenia)]] — 손님 환대와 상호부조
 - [[concept-eleos|엘레오스 (Eleos)]] — 연민과 오익토스
 - [[concept-agathos|아가토스 (Agathos)]] — 영웅적 탁월자와 결과주의적 성공
+- [[concept-ate|아테 (Ate)]] — 신들이 내린 일시적 판단 마비와 치명적 과오 및 파멸의 연쇄
 - [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]] — 트로이 전쟁 전말을 잇는 서사시 연작
 
 ### 어원
 
 - [[word-achilles|Achilles (아킬레우스)]] — *Achilles' heel*, *Achilles tendon*, *Achillean*
 - [[word-agathos|Agathos (아가토스)]] — *Agatha*, *Agathism*, *Kalokagathia*
+- [[word-ate|Ate (아테)]] — *Ate*, *Atic*, *Atetic*, *Ate-ridden*, *111 Ate*
 - [[word-eleos|Eleos (엘레오스)]] — *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
 - [[word-hector|Hector (헥토르)]] — *to hector*, *hectoring*, *hectorism*
 - [[word-odyssey|Odyssey (오디세이)]] — *Odyssey*, *odyssey*, *Odyssean*

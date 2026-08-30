@@ -1734,3 +1734,15 @@ status: active
   - `wiki/concepts/concept-aidos.md`, `concept-nemesis.md`: 관련 항목에 `concept-ate` 상호 링크 연결.
   - `scripts/allowed-red-links.json`: 기작성된 `concept-ate` 제거 및 신규 미래 링크 등록.
 - **검증**: `npm run check` 및 `npm run check:greek` 100% 무결점 통과.
+
+---
+
+## [2026-08-30] docs(concepts) | concept-ate.md 5인 적대적 학술 평의회(homer-review) 검토 및 정제 완료
+
+- **작업 개요**: `homer-review` 프레임워크를 가동하여 5인 적대적 평의회(Philologist, Logician, Architect, Weaver, Editor)의 3라운드 교차 비평 및 승인안에 따라 `wiki/concepts/concept-ate.md`를 전면 검증·정제함.
+- **주요 개선 및 정제 내용**:
+  - **문헌학적 오류 교정(Philology)**: 희랍어 원문 내 한글 오타(`ἄγρι온` $\rightarrow$ `ἄγριον`, `ἐξέλε토` $\rightarrow$ `ἐξέλε토`) 정정, 비호메로스/비극 어휘 `βλαψίφρων` 제거 및 호메로스 정형구 분사 `βλάπτουσ’ ἀνθρώπους` 대체, 가공된 공식 `ἀάσαθ’ ἑκών` 제거 및 원전 정형구 `ἀάσατο δὲ μέγα θυμῷ`(_Il._ 9.537) 수록, 유령어 `οἴνῳ ἀωθείς` $\rightarrow$ `φρεσὶν ᾗσιν ἀασθείς`(_Od._ 21.301) 정정.
+  - **서사 및 학설 구조 심화(Logic)**: 헥토르의 폴리다마스 권고 기각과 22권 자책(_Il._ 18·22권), 파트로클로스의 성벽 돌진(_Il._ 16.684–691)을 5대 서사 영역으로 통합; 엘페노르의 실족을 일상적 실존의 취약성으로 재배치; Dodds vs Williams(행위자성 및 인과 책임) 및 Adkins vs Lloyd-Jones(결과주의적 가치 대 Dike) 대립 명료화; 호메로스 신화적 아테와 아리스토텔레스 시학 하마르티아(Hamartia) 간 개념사적 단절/이설 명시.
+  - **위키 규격 및 가독성 고도화(Architect/Editor)**: 문장부호/괄호 외곽 분리 원칙 준수, 수식 LaTeX 마커 분리, 콜아웃 내 위키링크 제거, 소스 프론트매터에 `lee-junseok-2024-iliad-jeongam.md` 보강.
+  - **지식망 연결 및 색인 동기화(Weaver)**: `words/word-ate`, `overview`, `wiki/index`, `index`, `entity-hector`, `entity-polydamas` 등 상호 링크 확충 및 `scripts/allowed-red-links.json`에 `concept-atasthalia`, `concept-hamartia`, `entity-eris` 등록.
+- **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
