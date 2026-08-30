@@ -4,7 +4,7 @@ aliases: [타임라인, 히스토리, 변경 기록]
 tags: [type/meta, domain/culture, status/active]
 unlisted: true
 created: 2026-08-14
-updated: 2026-08-30
+updated: 2026-08-31
 sources: []
 status: active
 ---
@@ -1858,6 +1858,18 @@ status: active
   - **`words/word-agathos.md`**: 최하단 19세기 철학 조어 하위 3개 파생 노드를 `파생 학술 어휘군` 단일 카드로 수직 통합하여 가로 6열 과밀 압박 해소.
   - **`wiki/sources/scott-1981-some-greek-terms.md`**: 4대 비경쟁적 용어 노드에 균형 잡힌 `<br/>` 줄바꿈을 적용하여 정사각형의 읽기 편한 카드 레이아웃으로 개선.
 - **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
+
+---
+
+## [2026-08-31] feat(meta) | 서사시 개요(overview.md) 지형도 고도화 및 최신 개념·인물 전면 동기화
+
+- **작업 개요**: 기존 '개념 성좌'의 정체 및 모호성 문제를 해소하기 위해 `wiki/overview.md`의 시각화 및 안내 체계를 '서사 및 윤리 지형도'로 전면 고도화하고, 지식베이스에 구축된 핵심 개념 10종 및 영웅 인물 5종을 완벽하게 동기화함.
+- **주요 개선 내용**:
+  - **다이어그램 전면 재구축**: 상위 사회·우주적 규범 체계(아가토스-티메-아이도스/네메시스-크세니아), 일리아스 축(아테 $\rightarrow$ 메니스 $\rightarrow$ 히케시아 $\rightarrow$ 엘레오스), 오뒷세이아 축(폴리트로포스 $\rightarrow$ 오디세우스 $\rightarrow$ 노스토스 $\rightarrow$ 크세니아/응징)의 3단 유기적 흐름도 구축.
+  - **서사시 요약 및 개념 목록 동기화**: *일리아스*와 *오뒷세이아* 개요 섹션에 전체 5대 인물(아킬레우스, 아가멤논, 헥토르, 파리스, 오디세우스) 및 10대 개념을 전면 연결하고, 10종 개념 목록의 희랍어 원어 및 정의 최신화.
+  - **입구 및 연관 링크 정비**: `index.md` 입구 설명 문구를 '서사 및 윤리 지형도'로 갱신하고, `overview.md` 내 이어서 읽기 및 관련 항목 링크 확충.
+- **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
+
 
 
 
