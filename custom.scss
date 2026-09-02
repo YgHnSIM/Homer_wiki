@@ -1024,3 +1024,28 @@ html[saved-theme="light"] .homer-map-svg {
   --color-default-arrow: #7a664e !important;
 }
 
+// Interactive SVG Landscape links
+.homer-map-svg a.homer-map-link,
+a.homer-map-link {
+  text-decoration: none;
+  cursor: pointer;
+
+  rect {
+    transition: filter 0.15s ease, stroke-width 0.15s ease;
+  }
+
+  &:hover rect {
+    filter: brightness(0.96);
+    stroke-width: 2.2px;
+  }
+
+  &:focus-visible rect {
+    stroke-width: 2.4px;
+    outline: none;
+  }
+}
+
+html[saved-theme="dark"] .homer-map-svg a.homer-map-link:hover rect,
+html:not([saved-theme="light"]) .homer-map-svg a.homer-map-link:hover rect {
+  filter: brightness(1.15);
+}

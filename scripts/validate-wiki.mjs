@@ -6,7 +6,12 @@ import {
   validateDocumentFrontmatter,
   validateFilename,
 } from "./wiki-document-validation.mjs"
-import { validatePublicEntityIndex } from "./wiki-navigation-validation.mjs"
+import {
+  validateOverviewSvgLinks,
+  validatePublicEntityIndex,
+  validateWikiIndexFormat,
+  validateWordIndexFormat,
+} from "./wiki-navigation-validation.mjs"
 
 const ROOT = process.cwd()
 const RED_LINK_POLICY_PATH = path.join(ROOT, "scripts", "allowed-red-links.json")
@@ -107,6 +112,9 @@ function targetsIn(markdown) {
 }
 
 validatePublicEntityIndex({ records, addError })
+validateWikiIndexFormat({ records, addError })
+validateWordIndexFormat({ records, addError })
+validateOverviewSvgLinks({ records, resolves, addError })
 
 for (const { relativePath, markdown } of records) {
   validateFilename(relativePath, addError)

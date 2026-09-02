@@ -36,11 +36,13 @@ status: active
   </defs>
 
   <!-- 1. Epic Cycle (Top Header) -->
-  <g transform="translate(230, 12)">
-    <rect width="300" height="42" rx="8" ry="8" fill="var(--bg-cycle)" stroke="var(--stroke-cycle)" stroke-width="1.8"/>
-    <text x="150" y="20" text-anchor="middle" font-size="13.5" font-weight="700" fill="var(--title-cycle)">에픽 사이클 (Epic Cycle)</text>
-    <text x="150" y="34" text-anchor="middle" font-size="10.5" fill="var(--sub-cycle)">트로이아 전쟁 전말을 잇는 서사시 연작</text>
-  </g>
+  <a href="concept-epic-cycle" class="homer-map-link">
+    <g transform="translate(230, 12)">
+      <rect width="300" height="42" rx="8" ry="8" fill="var(--bg-cycle)" stroke="var(--stroke-cycle)" stroke-width="1.8"/>
+      <text x="150" y="20" text-anchor="middle" font-size="13.5" font-weight="700" fill="var(--title-cycle)">에픽 사이클 (Epic Cycle)</text>
+      <text x="150" y="34" text-anchor="middle" font-size="10.5" fill="var(--sub-cycle)">트로이아 전쟁 전말을 잇는 서사시 연작</text>
+    </g>
+  </a>
 
   <!-- Down Arrow: Cycle -> Order -->
   <path d="M 380 54 L 380 72" stroke="var(--color-default-arrow)" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
@@ -57,29 +59,37 @@ status: active
 
   <!-- Order Nodes -->
   <!-- Agathos -->
-  <g transform="translate(75, 110)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
-    <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">아가토스 (Agathos)</text>
-    <text x="132.5" y="31" text-anchor="middle" font-size="10.5" fill="var(--sub-order-node)">영웅적 탁월성과 결과주의적 성공</text>
-  </g>
+  <a href="concept-agathos" class="homer-map-link">
+    <g transform="translate(75, 110)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
+      <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">아가토스 (Agathos)</text>
+      <text x="132.5" y="31" text-anchor="middle" font-size="10.5" fill="var(--sub-order-node)">영웅적 탁월성과 결과주의적 성공</text>
+    </g>
+  </a>
   <!-- Time -->
-  <g transform="translate(420, 110)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
-    <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">티메 (Time)</text>
-    <text x="132.5" y="31" text-anchor="middle" font-size="10.5" fill="var(--sub-order-node)">신적 배당과 명예의 몫</text>
-  </g>
+  <a href="concept-time" class="homer-map-link">
+    <g transform="translate(420, 110)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
+      <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">티메 (Time)</text>
+      <text x="132.5" y="31" text-anchor="middle" font-size="10.5" fill="var(--sub-order-node)">신적 배당과 명예의 몫</text>
+    </g>
+  </a>
   <!-- Aidos / Nemesis -->
-  <g transform="translate(75, 160)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
-    <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">아이도스 / 네메시스 (Aidos / Nemesis)</text>
-    <text x="132.5" y="31" text-anchor="middle" font-size="10.5" fill="var(--sub-order-node)">수치심과 경외 / 공적 의분</text>
-  </g>
+  <a href="concept-aidos" class="homer-map-link">
+    <g transform="translate(75, 160)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
+      <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">아이도스 / 네메시스 (Aidos / Nemesis)</text>
+      <text x="132.5" y="31" text-anchor="middle" font-size="10.5" fill="var(--sub-order-node)">수치심과 경외 / 공적 의분</text>
+    </g>
+  </a>
   <!-- Xenia -->
-  <g transform="translate(420, 160)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
-    <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">크세니아 (Xenia)</text>
-    <text x="132.5" y="31" text-anchor="middle" font-size="10.5" fill="var(--sub-order-node)">손님 환대와 상호부조 규범</text>
-  </g>
+  <a href="concept-xenia" class="homer-map-link">
+    <g transform="translate(420, 160)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
+      <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">크세니아 (Xenia)</text>
+      <text x="132.5" y="31" text-anchor="middle" font-size="10.5" fill="var(--sub-order-node)">손님 환대와 상호부조 규범</text>
+    </g>
+  </a>
 
   <!-- Vertical Connectors from Order to Iliad & Odyssey Columns -->
   <!-- Aidos/Nemesis to Iliad -->
@@ -104,35 +114,45 @@ status: active
   <path d="M 207.5 489 L 207.5 501" stroke="var(--color-iliad-arrow)" stroke-width="1.4" fill="none" marker-end="url(#arrow-iliad)"/>
 
   <!-- Iliad Node 1: Ate -->
-  <g transform="translate(75, 295)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
-    <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">아테 (Ate)</text>
-    <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-iliad-node)">판단 마비와 치명적 과오 (아가멤논 vs 아킬레우스)</text>
-  </g>
+  <a href="concept-ate" class="homer-map-link">
+    <g transform="translate(75, 295)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
+      <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">아테 (Ate)</text>
+      <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-iliad-node)">판단 마비와 치명적 과오 (아가멤논 vs 아킬레우스)</text>
+    </g>
+  </a>
   <!-- Iliad Node 2: Menis -->
-  <g transform="translate(75, 347)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
-    <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">메니스 (Menis)</text>
-    <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-iliad-node)">우주적 질서를 뒤흔드는 신적 분노</text>
-  </g>
+  <a href="concept-menis" class="homer-map-link">
+    <g transform="translate(75, 347)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
+      <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">메니스 (Menis)</text>
+      <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-iliad-node)">우주적 질서를 뒤흔드는 신적 분노</text>
+    </g>
+  </a>
   <!-- Iliad Node 3: Tragedy -->
-  <g transform="translate(75, 399)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
-    <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">비극적 파국 (Tragedy)</text>
-    <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-iliad-node)">파트로클로스·헥토르 전사와 비극의 연쇄</text>
-  </g>
+  <a href="entity-hector" class="homer-map-link">
+    <g transform="translate(75, 399)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
+      <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">비극적 파국 (Tragedy)</text>
+      <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-iliad-node)">파트로클로스·헥토르 전사와 비극의 연쇄</text>
+    </g>
+  </a>
   <!-- Iliad Node 4: Hikesia -->
-  <g transform="translate(75, 451)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
-    <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">히케시아 (Hikesia)</text>
-    <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-iliad-node)">무릎과 손 접촉을 통한 프리아모스의 신성한 탄원</text>
-  </g>
+  <a href="concept-hikesia" class="homer-map-link">
+    <g transform="translate(75, 451)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
+      <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">히케시아 (Hikesia)</text>
+      <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-iliad-node)">무릎과 손 접촉을 통한 프리아모스의 신성한 탄원</text>
+    </g>
+  </a>
   <!-- Iliad Node 5: Eleos -->
-  <g transform="translate(75, 503)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
-    <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">엘레오스 (Eleos)</text>
-    <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-iliad-node)">비극적 연민의 공유와 화해의 장례</text>
-  </g>
+  <a href="concept-eleos" class="homer-map-link">
+    <g transform="translate(75, 503)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
+      <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">엘레오스 (Eleos)</text>
+      <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-iliad-node)">비극적 연민의 공유와 화해의 장례</text>
+    </g>
+  </a>
 
   <!-- 4. Right Column: Odyssey -->
   <rect x="395" y="235" width="315" height="335" rx="10" ry="10" fill="var(--bg-ody-box)" stroke="var(--stroke-ody-box)" stroke-width="1.2"/>
@@ -151,17 +171,21 @@ status: active
   <path d="M 552.5 489 L 552.5 501" stroke="var(--color-ody-arrow)" stroke-width="1.4" fill="none" marker-end="url(#arrow-odyssey)"/>
 
   <!-- Odyssey Node 1: Polytropos -->
-  <g transform="translate(420, 295)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-ody-node)" stroke="var(--stroke-ody-node)" stroke-width="1.3"/>
-    <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-ody-node)">폴리트로포스 (Polytropos)</text>
-    <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-ody-node)">다재다능한 지혜·메티스와 임기응변</text>
-  </g>
+  <a href="word-polytropos" class="homer-map-link">
+    <g transform="translate(420, 295)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-ody-node)" stroke="var(--stroke-ody-node)" stroke-width="1.3"/>
+      <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-ody-node)">폴리트로포스 (Polytropos)</text>
+      <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-ody-node)">다재다능한 지혜·메티스와 임기응변</text>
+    </g>
+  </a>
   <!-- Odyssey Node 2: Odysseus Trials -->
-  <g transform="translate(420, 347)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-ody-node)" stroke="var(--stroke-ody-node)" stroke-width="1.3"/>
-    <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-ody-node)">오디세우스의 실존적 고난</text>
-    <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-ody-node)">10년간의 해상 방랑과 정체성 시험</text>
-  </g>
+  <a href="entity-odysseus" class="homer-map-link">
+    <g transform="translate(420, 347)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-ody-node)" stroke="var(--stroke-ody-node)" stroke-width="1.3"/>
+      <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-ody-node)">오디세우스의 실존적 고난</text>
+      <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-ody-node)">10년간의 해상 방랑과 정체성 시험</text>
+    </g>
+  </a>
   <!-- Odyssey Node 3: Nostos -->
   <g transform="translate(420, 399)">
     <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-ody-node)" stroke="var(--stroke-ody-node)" stroke-width="1.3"/>
@@ -169,11 +193,13 @@ status: active
     <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-ody-node)">귀향 완수와 거지 변장을 통한 이타카 잠입</text>
   </g>
   <!-- Odyssey Node 4: Xenia Trial -->
-  <g transform="translate(420, 451)">
-    <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-ody-node)" stroke="var(--stroke-ody-node)" stroke-width="1.3"/>
-    <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-ody-node)">크세니아 시험 (Xenia Trial)</text>
-    <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-ody-node)">환대 규범을 파괴한 구혼자 집단 응징</text>
-  </g>
+  <a href="concept-xenia" class="homer-map-link">
+    <g transform="translate(420, 451)">
+      <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-ody-node)" stroke="var(--stroke-ody-node)" stroke-width="1.3"/>
+      <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-ody-node)">크세니아 시험 (Xenia Trial)</text>
+      <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-ody-node)">환대 규범을 파괴한 구혼자 집단 응징</text>
+    </g>
+  </a>
   <!-- Odyssey Node 5: Dike -->
   <g transform="translate(420, 503)">
     <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-ody-node)" stroke="var(--stroke-ody-node)" stroke-width="1.3"/>

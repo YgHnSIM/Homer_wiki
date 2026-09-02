@@ -6,7 +6,8 @@
     "fix:bold": "node scripts/fix-bold-syntax.mjs --write",
     "check:greek": "node scripts/greek-reading-validation.mjs --strict && node scripts/test-greek-reading-tooling.mjs",
     "report:greek": "node scripts/greek-reading-inventory.mjs --report",
-    "check": "node scripts/validate-wiki.mjs && node scripts/build-concept-source-matrix.mjs --check && node scripts/test-wiki-tooling.mjs && npm run check:greek"
+    "check": "node scripts/validate-wiki.mjs && node scripts/build-concept-source-matrix.mjs --check && node scripts/test-wiki-tooling.mjs && npm run check:greek",
+    "test": "npm run check"
   },
   "devDependencies": {
     "yaml": "2.9.0"

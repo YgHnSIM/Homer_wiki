@@ -3,7 +3,7 @@ title: 어원 사전
 aliases: [단어 인덱스, 호메로스 어원·영단어 사전, Word Index]
 tags: [type/meta, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-08-30
+updated: 2026-09-03
 sources: []
 status: active
 ---
@@ -29,7 +29,7 @@ graph TB
     G3["ἔλεος"]:::greek --> L3["eleemosyna"]:::latin --> E3["alms / eleemosynary"]:::english
     G4["Ἕκτωρ"]:::greek --> L4["Latin Hector"]:::latin --> E4["to hector / hectoring"]:::english
     G5["Ὀδύσσεια"]:::greek --> L5["Odyssea"]:::latin --> E5["Odyssey / odyssey"]:::english
-    G6["πολύτροπος"]:::greek -. "학술적 음역" .-> E6["polytropos / polutropos"]:::english
+    G6["πολύ트로πος"]:::greek -. "학술적 음역" .-> E6["polytropos / polutropos"]:::english
     G7["τιμή"]:::greek --> L7["timocratia / Timotheus"]:::latin --> E7["timocracy / Timothy / Timon"]:::english
     G8["ἄτη"]:::greek --> L8["Latin Ate"]:::latin --> E8["Ate / Atic / 111 Ate"]:::english
 ```
@@ -50,14 +50,14 @@ graph TB
 
 ## 알파벳 색인
 
-- [[word-achilles|Achilles]] — Ἀχιλλεύς. *Achilles' heel*, *Achilles tendon*, *Achillean*
-- [[word-agathos|Agathos]] — ἀγαθός. *Agathism*, *Agatha*, *Kalokagathia*
-- [[word-ate|Ate]] — ἄτη. *Ate*, *Atic*, *Atetic*, *Ate-ridden*, *111 Ate*
-- [[word-eleos|Eleos]] — ἔλεος. *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
-- [[word-hector|Hector]] — Ἕκτωρ. *to hector*, *hectoring*, *hectorism*
-- [[word-odyssey|Odyssey]] — Ὀδύσσεια. *Odyssey*, *odyssey*, *Odyssean*
-- [[word-polytropos|Polytropos]] — πολύτροπος. *polytropos*, *polutropos*; 번역어와 현대 학술 수용 검토
-- [[word-time|Time]] — τιμή. *timocracy*, *timocratic*, *Timothy*, *Timon*, *timology*
+- [[word-achilles|Achilles (아킬레우스)]] — *Achilles' heel*, *Achilles tendon*, *Achillean*
+- [[word-agathos|Agathos (아가토스)]] — *Agatha*, *Agathism*, *Kalokagathia*
+- [[word-ate|Ate (아테)]] — *Ate*, *Atic*, *Atetic*, *Ate-ridden*, *111 Ate*
+- [[word-eleos|Eleos (엘레오스)]] — *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
+- [[word-hector|Hector (헥토르)]] — *to hector*, *hectoring*, *hectorism*
+- [[word-odyssey|Odyssey (오디세이)]] — *Odyssey*, *odyssey*, *Odyssean*
+- [[word-polytropos|Polytropos (폴리트로포스)]] — *polytropos*, *polutropos*, *many-turned*
+- [[word-time|Time (티메)]] — *timocracy*, *timocratic*, *Timothy*, *Timon*, *timology*
 
 ---
 

@@ -4,7 +4,7 @@ aliases: [타임라인, 히스토리, 변경 기록]
 tags: [type/meta, domain/culture, status/active]
 unlisted: true
 created: 2026-08-14
-updated: 2026-08-31
+updated: 2026-09-03
 sources: []
 status: active
 ---
@@ -1883,6 +1883,24 @@ status: active
     - **다크 모드**: 차콜 톤 카드 배경과 부드러운 오프화이트 텍스트(`--main-iliad-node: #f5eceb;`, `--main-ody-node: #e8f1f7;`), 앤틱 골드/코랄 핑크/스카이블루 글로우 테두리 및 화살표 마커 동기화.
     - `html[saved-theme="light"]`, `html[saved-theme="dark"]` 및 `@media (prefers-color-scheme: dark)` 선택자를 엄격히 분리하여 테마 간섭 문제 완전 해결.
 - **검증**: `npm run check` (wiki validation, concept-source matrix, tooling tests) 및 `npm run check:greek` 100% 통과.
+
+---
+
+## [2026-09-03] feat(meta) | 1단계 개선 과제: SVG 지형도 인터랙티브 링크화, 인덱스 1행 표준 서식 동기화 및 린터 강화
+
+- **작업 개요**: 호메로스 위키의 UX 및 내비게이션 탐색성을 혁신하기 위해 `wiki/overview.md` SVG 지형도에 클릭 가능한 하이퍼링크를 전면 탑재하고, `wiki/index.md` 및 `words/index.md`를 `AGENTS.md` 2.4 규정의 1행 표준 서식으로 완전 동기화하였으며, 자동화 린트 및 회귀 테스트를 강화함.
+- **주요 개선 및 구현 내용**:
+  - **SVG 지형도 하이퍼링크 탑재 및 스타일링**:
+    - `wiki/overview.md` 인라인 SVG의 12개 작성 노드(에픽 사이클, 아가토스, 티메, 아이도스/네메시스, 크세니아, 아테, 메니스, 비극적 파국-헥토르, 히케시아, 엘레오스, 폴리트로포스, 오디세우스의 고난)에 `<a href="..." class="homer-map-link">` 앵커 태그를 래핑하여 정적 다이어그램을 클릭 가능한 인터랙티브 포털로 전환.
+    - `custom.scss`에 `.homer-map-link` 전용 스타일을 추가하여 데스크톱/모바일 호버 시 노드 카드 밝기 및 테두리 강조, 다크 모드 시각적 피드백 구현.
+  - **인덱스 및 카탈로그 1행 표준 서식 전면 정비**:
+    - `wiki/index.md`: 인물(5종)의 괄호 위치 표준화, 개념(10종)의 핵심 정의 및 작동 원리 보강, 소스 문서(24종)의 학술적 핵심 연구 테제 전수 반영, 분석 문서(3종) 서식 통일.
+    - `words/index.md`: 알파벳 색인 8종을 `- [[word-<name>|영어 표제어 (한국어명)]] — [*대표 파생어*]` 규격으로 정규화.
+  - **자동화 검증 린터 및 테스트 스위트 보강**:
+    - `package.json`에 표준 `"test": "npm run check"` 스크립트 추가.
+    - `scripts/wiki-navigation-validation.mjs`에 `validateWikiIndexFormat`(위키 인덱스 1행 서식 검증), `validateWordIndexFormat`(단어 인덱스 1행 서식 검증), `validateOverviewSvgLinks`(SVG 지형도 내 링크 대상의 실재성 검증) 함수 신설 및 `scripts/validate-wiki.mjs` 파이프라인 연결.
+    - `scripts/test-wiki-tooling.mjs`에 신규 린터 3종에 대한 샌드박스 기반 오류 검출 회귀 테스트 케이스 완비.
+- **검증**: `npm test` (`validate-wiki.mjs`, `build-concept-source-matrix.mjs`, `test-wiki-tooling.mjs`, `greek-reading-validation.mjs`) 전수 100% 통과.
 
 
 

@@ -278,8 +278,47 @@ try {
 
   fs.writeFileSync(boldTestFile, boldOriginal)
 
+  // Wiki index format test
+  const wikiIndexPath = path.join(sandbox, "wiki", "index.md")
+  const originalWikiIndex = fs.readFileSync(wikiIndexPath, "utf8")
+  fs.writeFileSync(
+    wikiIndexPath,
+    originalWikiIndex.replace(
+      /^- \[\[concept-menis\|.+$/m,
+      "- [[concept-menis|메니스 (Menis)]]",
+    ),
+  )
+  assertFailure(run(VALIDATOR), "개념 항목이 1행 표준 서식을 준수하지 않았습니다")
+  fs.writeFileSync(wikiIndexPath, originalWikiIndex)
+
+  // Word index format test
+  const wordIndexPath = path.join(sandbox, "words", "index.md")
+  const originalWordIndex = fs.readFileSync(wordIndexPath, "utf8")
+  fs.writeFileSync(
+    wordIndexPath,
+    originalWordIndex.replace(
+      /^- \[\[word-achilles\|.+$/m,
+      "- [[word-achilles|Achilles]] — *Achilles' heel*",
+    ),
+  )
+  assertFailure(run(VALIDATOR), "알파벳 색인 항목이 1행 표준 서식을 준수하지 않았습니다")
+  fs.writeFileSync(wordIndexPath, originalWordIndex)
+
+  // Overview SVG links validation test
+  const overviewPath = path.join(sandbox, "wiki", "overview.md")
+  const originalOverview = fs.readFileSync(overviewPath, "utf8")
+  fs.writeFileSync(
+    overviewPath,
+    originalOverview.replace(
+      'href="concept-epic-cycle"',
+      'href="concept-nonexistent-page"',
+    ),
+  )
+  assertFailure(run(VALIDATOR), "SVG 지형도 내 링크 대상이 존재하지 않거나 유효하지 않습니다")
+  fs.writeFileSync(overviewPath, originalOverview)
+
   console.log(
-    "Wiki tooling regression tests passed: red-link policy, YAML parsing, source integrity, dynamic concepts, evidence boundaries, bold syntax rules, deprecated terminology.",
+    "Wiki tooling regression tests passed: red-link policy, YAML parsing, source integrity, dynamic concepts, evidence boundaries, bold syntax rules, deprecated terminology, index formatting, overview svg links.",
   )
 } finally {
   fs.rmSync(sandbox, { recursive: true, force: true })
