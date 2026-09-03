@@ -2015,3 +2015,19 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
     - \wiki/concepts/concept-ate.md\: 신들의 은폐된 뜻과 인간의 무지(Atē)의 공모 메커니즘(조대호 2007), 리타이-아테 우화의 조형적 형상화(김한 2019)를 반영하여 3.1.1절 및 문헌 목록 갱신.
     - \wiki/concepts/concept-menis.md\: 제우스의 숨은 뜻(Dios Boulê)과 메니스의 이중 결정론(조대호 2007), 신인동형설의 인본주의적 전환과 메니스의 정화(김한 2013)를 반영하여 3.4절 및 문헌 목록 갱신.
 - **검증**: pm test\ (\alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling.mjs\, \check:greek\) 전수 100% 통과 (오류 0개).
+---
+
+## [2026-09-03] feat(sources) | Jean-Claude Riedinger(1976) “La τιμή chez Homère” 신규 소스 수집 및 지식베이스 전면 통합
+
+- **작업 개요**: `raw/`에 새로 유입된 장클로드 리댕제(Jean-Claude Riedinger)의 논문 「호메로스에게서의 티메」(*La τιμή chez Homère*, *REG* 89, 1976, pp. 244–264)를 완독하고, 호메로스 위키 소스 규격(v2.0)에 맞추어 완전한 소스 문서를 작성하고 연관 개념, 인덱스, 개념-소스 매트릭스 체계에 통합함.
+- **주요 작업 내용**:
+  - **신규 소스 문서 작성**:
+    - `wiki/sources/riedinger-1976-la-time-chez-homere.md`: K. 라테(1946)와 A. W. H. 애드킨스(1960)의 '힘과 폭력 중심의 경쟁 사회' 모델을 비판하고, 티메(timē)의 분배 규칙이 개인의 사고와 행위를 완벽히 규율하는 고도로 응집력 있는 '사회적 질서(ordre social)'임을 규명. 티메의 2대 영역(공적 왕권·신성과 사적 오이코스·동료·환대) 및 3대 수여 자격(군주권/신성, 사적 연대, 개인의 탁월성) 도출. 군사적 무공뿐 아니라 평화적 행동, 분쟁 완화(*philophrosunē*, 9.254–258), 충실성(*pistos*)이 티메를 비약적으로 증대시키는 핵심 자격임을 입증. 티메가 사회적으로 사전에 계산·예측 가능(prévisible)하여 행위 규범으로 작동함을 실증. 루이 제르네의 선물 교환론과 연계하여 티메의 본질이 단순한 이해관계 교환(relation d'intérêt)이 아니라 계산을 초월한 관대한 헌정(hommage généreux)이자 '호혜성과 관대함(réciprocité et générosité)'의 도덕임을 체계적으로 분석.
+  - **연관 개념 문서 상호 연계 및 심화**:
+    - `wiki/concepts/concept-time.md`: sources 프론트매터 갱신, 5.1절 상호 인정 층위(Reciprocal Tier)에 리댕제 논문 링크 및 객관적 예측 가능성과 관대함의 도덕 테제 보강, 6절 증거 매트릭스 행 추가, 관련 항목 소스 목록 갱신.
+  - **메타 색인 및 매트릭스 동기화**:
+    - `wiki/index.md`: 소스 문서 섹션에 1행 표준 규격으로 등록 (총 31편).
+    - `index.md`: 루트 인덱스의 개념·문헌 매트릭스 및 총 문헌 수(31종) 갱신.
+    - `scripts/build-concept-source-matrix.mjs`: `CENTRAL` 객체에 `"riedinger-1976-la-time-chez-homere": ["concept-time"]` 등록.
+    - `wiki/analyses/analysis-concept-source-matrix.md`: 프론트매터 및 표 갱신(10개 개념 × 31개 학술 소스 문헌 매트릭스 완전 동기화).
+- **검증**: `npm test` (`validate-wiki.mjs`, `build-concept-source-matrix.mjs --check`, `test-wiki-tooling.mjs`, `greek-reading-validation.mjs`) 전수 100% 통과 (오류 0개).

@@ -13,7 +13,7 @@ aliases:
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-27
 updated: 2026-09-03
-sources: [adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, long-1970-morals-and-values.md, minchin-2019-homeric-religion.md, nagy-1979-best-of-achaeans.md, kearns-2006-gods-in-homeric-epics.md, lee-taesoo-2020-gods-in-audience.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md, kim-han-2019-gods-zeus-moira-and-god.md]
+sources: [adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, long-1970-morals-and-values.md, minchin-2019-homeric-religion.md, nagy-1979-best-of-achaeans.md, kearns-2006-gods-in-homeric-epics.md, lee-taesoo-2020-gods-in-audience.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md, kim-han-2019-gods-zeus-moira-and-god.md, riedinger-1976-la-time-chez-homere.md]
 status: active
 korean_name: 티메
 conventional_latin: Time
@@ -204,7 +204,7 @@ graph TD
 1. **힘·경쟁 층위 (Agonistic Tier)** — Adkins(1960), Finley(1954):
    - 티메의 핵심 기반을 전사 사회의 무력적 유효성과 전리품 재화로 파악합니다. 위기 상황에서 협동 규범이 무너지고 제로섬 방식의 지위 경쟁이 폭발하는 국면을 설명합니다 ([[adkins-1960-merit-and-responsibility|Adkins 1960]]).
 2. **상호 인정 층위 (Reciprocal Tier)** — Long(1970), Riedinger(1976), Cairns(1993):
-   - Adkins의 경쟁주의 모델을 비판하며, 티메가 타인의 자리를 인정하는 필리아(φιλία) 및 아이도스(αἰδώς)와 결합된 상호 인정 체계임을 증명했습니다 ([[long-1970-morals-and-values|Long 1970]], [[cairns-1993-aidos|Cairns 1993]]).
+   - Adkins의 경쟁주의 모델을 비판하며, 티메가 타인의 자리를 인정하는 필리아(φιλία) 및 아이도스(αἰδώς)와 결합된 상호 인정 체계임을 증명했습니다 ([[long-1970-morals-and-values|Long 1970]], [[riedinger-1976-la-time-chez-homere|Riedinger 1976]], [[cairns-1993-aidos|Cairns 1993]]). 특히 리댕제(Riedinger 1976)는 티메가 행위에 상응하여 사전에 객관적으로 계산·예측 가능(prévisible)한 사회적 질서 규범이며, 단순한 이해관계 교환을 넘어선 '호혜성과 계산 없는 관대함(réciprocité et générosité)'에 기반한 고유한 도덕 질서임을 입증했습니다.
 3. **신적 분배 층위 (Distributive Tier)** — Benveniste(1969), Finkelberg(1998):
    - 티메가 개인의 무공 경쟁에 앞서 운명, 제비, 제우스가 사전에 배당한 정합적 몫(`ἔμмоρε τιμῆς`)임을 입증했습니다.
 4. **표시·환유 층위 (Semiotic Tier)** — Vleminck(1982), Gernet(1948):
@@ -318,6 +318,7 @@ graph TD
 | **영웅 제의와 파네레니즘 클레오스의 상호작용** | 종교사 및 구송시학 | Nagy(1979) *Best of the Achaeans* | 보통-높음 | [[nagy-1979-best-of-achaeans]], [[concept-kleos\|클레오스]] |
 | **미케네 여성 노예 강제 노동의 실재성** | 금석문/고고학 자료 | Pylos Linear B 점토판 (`to-ro-ja`), *Il.* 19.245–246 | 높음 | [[concept-geras\|게라스]], [[entity-briseis\|브리세이스]] |
 | **고전기 아테네 시민권 박탈(atimia)로의 진화** | 법제사 비교 연구 | Hansen(1976), Vleminck(1982), Aristoteles *Ath. Pol.* | 높음 | [[concept-dike\|디케]], [[wiki/index\|위키 색인]] |
+| **티메의 객관적 예측 가능성과 관대함의 도덕** | 서사시 전수 분석 및 법인류학 | Riedinger(1976), Gernet(1968), *Il.* 1.508–510, 4.257–264, 9.254–258 | 높음 | [[riedinger-1976-la-time-chez-homere]], [[concept-aidos\|아이도스]] |
 
 ---
 
@@ -367,3 +368,4 @@ graph TD
 - [[cho-daeho-2007-gods-in-iliad|조대호 (2007)]] — 신들의 5대 이율배반성과 자의적 티메 배당 및 인간의 무지 분석
 - [[kim-han-2013-ilias-homeric-gods|김한 (2013)]] — 맹목적 자연력의 신격화와 신인동형설의 인본주의적 한계 분석
 - [[kim-han-2019-gods-zeus-moira-and-god|김한 (2019)]] — 우주 내재적 신들의 티메와 세속적 명예의 허무 및 실존적 연민 분석
+- [[riedinger-1976-la-time-chez-homere|장클로드 리댕제 (1976)]] — 애드킨스의 힘 중심론을 비판하고 티메의 객관적 예측 가능성과 호혜성·관대함의 도덕 규범을 실증한 논문

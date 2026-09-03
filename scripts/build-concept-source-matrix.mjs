@@ -64,6 +64,7 @@ const CENTRAL = {
   "lee-junseok-2024-iliad-jeongam": ["concept-menis"],
   "shay-1994-achilles-in-vietnam": ["concept-menis"],
   "adkins-1960-merit-and-responsibility": ["concept-agathos"],
+  "riedinger-1976-la-time-chez-homere": ["concept-time"],
 }
 
 function sourcesField(markdown) {

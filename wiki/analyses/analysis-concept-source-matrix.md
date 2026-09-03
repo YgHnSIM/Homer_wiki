@@ -35,6 +35,7 @@ sources:
   - cho-daeho-2007-gods-in-iliad.md
   - kim-han-2013-ilias-homeric-gods.md
   - kim-han-2019-gods-zeus-moira-and-god.md
+  - riedinger-1976-la-time-chez-homere.md
 status: active
 ---
 
@@ -50,7 +51,7 @@ status: active
 - 언급: 개념 항목의 `sources`에 그 문헌이 있거나, 문헌 프론트매터의 `key_concepts` 또는 `## 관련 항목` 이전의 근거 본문이 작성된 개념을 가리키는 경우. 문서 끝의 `## 관련 항목`에만 있는 탐색 링크는 근거로 집계하지 않습니다.
 - —: 이 위키에서 아직 잇지 않은 실입니다. 원서가 그 개념을 다루지 않는다는 뜻이 아닙니다. [[snell-1946-discovery-of-mind|스넬 1946]]과 [[vernant-1989-belle-mort|베르낭 1989]]의 열쇠 개념은 아테·클레오스처럼 아직 항목이 없습니다.
 
-> **요약**: 작성된 개념 10개와 문헌 30편만 넣었습니다. 빈칸은 미작성 표제어이거나, 아직 위키가 잇지 않은 연결입니다.
+> **요약**: 작성된 개념 10개와 문헌 31편만 넣었습니다. 빈칸은 미작성 표제어이거나, 아직 위키가 잇지 않은 연결입니다.
 
 ---
 
@@ -88,6 +89,7 @@ status: active
 | [[cho-daeho-2007-gods-in-iliad\|조대호 2007]] | 언급 | — | — | — | 언급 | — | 언급 | — | — | 언급 |
 | [[kim-han-2013-ilias-homeric-gods\|김한 2013]] | 언급 | — | — | — | 언급 | 언급 | 언급 | — | — | 언급 |
 | [[kim-han-2019-gods-zeus-moira-and-god\|김한 2019]] | 언급 | — | — | — | 언급 | — | 언급 | — | — | 언급 |
+| [[riedinger-1976-la-time-chez-homere\|리댕제 1976]] | 언급 | — | 언급 | 언급 | **중심** | 언급 | — | — | — | — |
 
 [[concept-epic-cycle|에픽 사이클]] 열은 비어 있습니다. 개념 항목의 `sources`가 아직 없고, 문헌 문서도 이 표제어로 잇지 않았습니다.
 

@@ -3,7 +3,7 @@ title: 호메로스 위키 (Homer Wiki)
 aliases: [Homer Wiki, 호메로스 디지털 가든]
 tags: [type/meta, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
-updated: 2026-08-28
+updated: 2026-09-03
 sources: []
 status: active
 ---
@@ -60,7 +60,7 @@ status: active
 ### 분석
 
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 전 세계 연구사 및 핵심 윤리 개념 종합 분석
-- [[analysis-concept-source-matrix|개념과 문헌]] — 핵심 개념 10종과 학술 문헌 30종의 맞물림 매트릭스
+- [[analysis-concept-source-matrix|개념과 문헌]] — 핵심 개념 10종과 학술 문헌 31종의 맞물림 매트릭스
 - [[analysis-polytropos|폴리트로포스 추가 연구]] — *polytropos*의 원전 용례와 역사적 의미 수용사
 
 ### 문헌
@@ -71,7 +71,7 @@ status: active
 - [[dodds-1951-greeks-and-irrational|E. R. 도즈 (1951), 그리스인들과 비합리적인 것]] — 수치 문화와 죄의식 문화의 전환기적 분석
 - [[nagy-1979-best-of-achaeans|그레고리 나기 (1979), 아카이아인들의 최고 영웅]] — 서사시 전통과 영웅 제의론 및 클레오스 탐구
 - [[lee-junseok-2024-iliad-jeongam|이준석 (2024), 일리아스 정암학당 해제]] — 분노(메니스)와 연민(엘레오스)의 서사적 이행과 한국어 강독 해제
-- 전체 30종 소스 문헌 목록 및 상세 해제는 [[wiki/index#소스 문서|위키 색인 (소스 문서)]]에서 확인할 수 있습니다.
+- 전체 31종 소스 문헌 목록 및 상세 해제는 [[wiki/index#소스 문서|위키 색인 (소스 문서)]]에서 확인할 수 있습니다.
 
 ---
 
