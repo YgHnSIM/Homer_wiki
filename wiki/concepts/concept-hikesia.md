@@ -3,8 +3,8 @@ title: 히케시아 (Hikesia)
 aliases: [Hikesia, ἱκεσία, hikésia, 탄원, 탄원 의례, 히케테스, "히케시아 (Hikesia, ἱκεσία) — 탄원의 의례와 경외", 히케시아 (Hikesia / ἱκεσία) — 탄원의 의례와 경외]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-08-26
-sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md, lee-junseok-2024-iliad-jeongam.md, cairns-1993-aidos.md, zanker-1994-heart-of-achilles.md]
+updated: 2026-09-03
+sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md, lee-junseok-2024-iliad-jeongam.md, cairns-1993-aidos.md, zanker-1994-heart-of-achilles.md, minchin-2019-homeric-religion.md]
 status: active
 korean_name: 히케시아
 conventional_latin: Hikesia
@@ -23,6 +23,11 @@ cssclasses: [greek-reading-page]
 **히케시아**(ἱκεσία, *hikésia*; 관용 라틴명 Hikesia)는 고대 그리스 사회에서 무력한 처지에 놓인 약자나 패자가 강자에게 자비, 생명 보존, 보호를 구하는 **신성한 탄원 의례**(Supplication)입니다.
 
 탄원자(**히케테스, Hiketês, ἱκέτης**)는 올림포스 최고의 신 **[[entity-zeus|제우스]] 히케시오스**(Zeus Hikesios, 탄원자의 수호신)의 직접적인 보호 영역 아래 놓입니다. 정식 의례를 완수한 탄원자를 살해하거나 모욕하는 행위는 신성모독([[concept-asebeia|Asebeia]], ἀσέβεια)이자 신들의 도덕적 징벌([[concept-nemesis|Nemesis]], νέμεσις)을 부르는 중대한 죄악으로 간주되었습니다.
+
+- **신들의 탄원자 수호와 응답의 지연성(Dilatoriness)**:
+  - 『오뒷세이아』 9권에서 오디세우스는 퀴클롭스 폴리페모스에게 자신들이 탄원자(**히케타이, Hiketai**)임을 밝히며 "제우스께서는 나그네와 탄원자에게 가해지는 어떠한 부당함도 반드시 응징하신다"고 경고합니다(*Od.* 9.269–271).
+  - 그러나 엘리자베스 민친([[minchin-2019-homeric-religion|Minchin 2019]])이 분석하듯, 호메로스 서사시에서 신들은 탄원자의 부르짖음에 즉각적으로 개입하거나 가해자를 즉시 처벌하지 않고 서사적 시간 속에서 상당한 지연(Dilatoriness)을 보입니다.
+  - 서사시 전체에서 탄원자의 기도에 신이 지체 없이 즉각 응답한 유일한 예외는 『오뒷세이아』 5권에서 이틀 밤낮을 표류하던 오디세우스가 스케리아 섬 강 하구에 이르러 강신에게 탄원하자, 강신이 즉각 거센 물살을 멈추고 파도를 잔잔하게 가라앉혀 상륙을 허락한 장면(*Od.* 5.447–453)뿐입니다. 이는 필멸자 간의 탄원이 빈번히 거부되는 냉혹한 현실과 대비되는 신적 은혜의 극적 예외를 드러냅니다.
 
 > [!WARNING] 모순/이설 발견: 탄원 의례의 구속력에 관한 학설 대립
 > John Gould(1973, "Hiketeia")는 신체 접촉이 완료되는 즉시 탄원자에 대한 종교적 결속과 보호가 자동적으로 강제된다고 보았습니다. 반면 F. S. Naiden(2006, *Ancient Supplication*) 등 후대 학자들은 호메로스 서사시에서 탄원 수락 여부는 상대방의 실리적·도덕적 판단에 따른 재량권(Discretion)이 작용하며, 특히 전장 탄원의 경우 분노와 보복 심리로 인해 빈번히 거부되었음을 지적합니다.
@@ -115,4 +120,5 @@ cssclasses: [greek-reading-page]
 - [[lee-junseok-2024-iliad-jeongam]]
 - [[cairns-1993-aidos]]
 - [[zanker-1994-heart-of-achilles]]
+- [[minchin-2019-homeric-religion]] (엘리자베스 민친: 호메로스의 종교 — 탄원자 수호와 신적 응답의 지연성 분석)
 - [[analysis-homeric-ethics-literature-review]]

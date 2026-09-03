@@ -12,8 +12,8 @@ aliases:
   - 몫
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-27
-updated: 2026-08-27
-sources: [adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, long-1970-morals-and-values.md, nagy-1979-best-of-achaeans.md]
+updated: 2026-09-03
+sources: [adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, long-1970-morals-and-values.md, minchin-2019-homeric-religion.md, nagy-1979-best-of-achaeans.md]
 status: active
 korean_name: 티메
 conventional_latin: Time
@@ -242,7 +242,21 @@ graph TD
 
 ---
 
-### 5.3 체계의 음영: 여성·전쟁포로 노예의 물상화와 제한적 자격
+### 5.3 Elizabeth Minchin(2019)의 신적 티메와 제의 상호성 모델: 신용 계좌와 네거티브 상호성
+
+엘리자베스 민친(Elizabeth Minchin)은 호메로스 서사시에서 인간-신 관계를 규율하는 근본 원리가 티메의 호혜적 교환(*do ut des*)에 기초해 있음을 규명했습니다 ([[minchin-2019-homeric-religion|Minchin 2019]]):
+
+- **제물의 향기(Knisē)와 신들의 명예 배당**:
+  - 신들은 불멸(*athanatoi*)과 무노화(*agerôi*)의 생리학을 지녀 인간의 썩는 고기를 직접 먹지 않지만, 불에 태운 제물의 고기 향기(κνίση, *knisē*)를 취함으로써 자신들의 티메를 확인합니다.
+  - 『일리아스』 24권에서 제우스는 헥토르의 시신을 아킬레우스의 모욕으로부터 구출하도록 명하며, 헥토르가 제단을 비운 적 없이 바친 풍성한 제물의 향기야말로 "우리의 명예의 몫(timê)"이라고 직접 밝힙니다(*Il.* 24.68–70).
+- '**신적 신용 계좌**(Credit Account)'와 탄원 기도:
+  - 인간이 평소 바치는 희생제물과 신전 건축은 일종의 신적 신용 계좌에 호의를 적립하는 행위입니다. 크리세스가 아가멤논에게 모욕당한 뒤 아폴론에게 과거 바친 제물을 근거로 아카이아군에 재앙을 내려달라고 간청하는 기도는 바로 이 상호적 채권에 기반합니다(*Il.* 1.39–42).
+- **불경에 대한 네거티브 상호성(Negative Reciprocity)**:
+  - 제사의 결여나 티메의 침해는 신들의 즉각적이고 파괴적인 보복을 초래합니다. 테우크로스는 아폴론에게 첫 새끼 양을 바치겠다고 서원하지 않아 화살이 빗나갔으며(*Il.* 23.862–865), 아카이아군은 장엄한 헤카톰베 없이 방벽을 쌓음으로써 포세이돈과 아폴론의 티메를 모욕했고, 그 대가로 방벽 전체가 바다와 강물에 의해 영구히 지워지는 형벌을 받게 됩니다(*Il.* 7.446–450, 12.1–35).
+
+---
+
+### 5.4 체계의 음영: 여성·전쟁포로 노예의 물상화와 제한적 자격
 
 호메로스의 티메 체계는 자유민 남성 엘리트 전사들의 자격 배당을 중심으로 구축되었으나, 이 체계는 여성, 전쟁 포로, 노예 계층의 물상화(Commodification)와 강제 노동을 필수적 전제로 삼았습니다.
 
@@ -258,7 +272,7 @@ graph TD
 
 ---
 
-### 5.4 법제사적 진화: 호메로스적 아티미아에서 고전기 아테네 시민권 박탈로
+### 5.5 법제사적 진화: 호메로스적 아티미아에서 고전기 아테네 시민권 박탈로
 
 호메로스 서사시의 부정적 상태어인 **아티모스**(ἄτιμος, *átimos*)와 **아티메토스**(ἀτίμητος, *atī́mētos*)가 고전기 아테네 폴리스의 성문 법제 아래에서 헌법적 형벌 제도인 **아티미아**(atimia, ἀτιμία)로 발전하는 과정은 그리스 공공 제도의 진화를 보여줍니다.
 
@@ -334,5 +348,6 @@ graph TD
 - [[adkins-1960-merit-and-responsibility]] — 호메로스 사회의 경쟁적 가치와 물질적 명예 분석
 - [[cairns-1993-aidos]] — 아이도스와 티메의 상호 인정 도덕심리학
 - [[long-1970-morals-and-values]] — Adkins 비판 및 협동적 가치와 티메의 결합 규명
+- [[minchin-2019-homeric-religion]] — 올림포스 판테온의 형성과 제사·기도의 상호성 및 시학적 양식화 분석
 - [[nagy-1979-best-of-achaeans]] — 영웅 제의(Hero Cult)와 파네레니즘 클레오스/티메의 상호작용
 - [[lee-junseok-2024-iliad-jeongam]] — 『일리아스』 정암학당 역주 및 호메로스 인정 경제 분석

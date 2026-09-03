@@ -3,8 +3,8 @@ title: 크세니아 (Xenia)
 aliases: [Xenia, ξενία, xenía, ksenía, 크세니아, 손님 환대, 필록세니아, Philoxenia, "크세니아 (Xenia, ξενία) — 손님 환대와 상호부조의 신성한 규범", 크세노스, Xenos, "크세니아 (Xenia / ξενία) — 손님 환대와 상호부조의 신성한 규범"]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-26
-sources: [scott-1979-pity-and-pathos.md, scott-1982-philos-philotes-xenia.md, scott-1980-aidos-and-nemesis.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, cairns-1993-aidos.md]
+updated: 2026-09-03
+sources: [scott-1979-pity-and-pathos.md, scott-1982-philos-philotes-xenia.md, scott-1980-aidos-and-nemesis.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, cairns-1993-aidos.md, minchin-2019-homeric-religion.md]
 status: active
 korean_name: 크세니아
 conventional_latin: Xenia
@@ -23,6 +23,11 @@ cssclasses: [greek-reading-page]
 **크세니아**(ξενία, *ksenía*; 관용 라틴명 Xenia)는 고대 그리스 사회에서 낯선 이방인(**크세노스, Xenos, ξένος**)과 주인(Host) 사이에 맺어지는 **신성한 손님 환대 규범이자 세습적 상호 안전 보장 제도**입니다. 희랍어 *xenos*는 환대를 받는 손님(Guest)과 환대를 베푸는 주인(Host) 양방향을 모두 지칭하며, 이는 크세니아가 본질적으로 **상호적·호혜적(Reciprocal) 관계**임을 보여줍니다.
 
 중앙집권적 공권력과 치안 기구가 부재했던 아르카익 그리스 세계에서, 여행자는 본질적으로 무권리 상태이자 잠재적 약탈 대상에 불과했습니다. 크세니아는 이 취약한 이방인을 폭력과 경쟁의 영역에서 비적대적 협력 영역(**필로스, Philos, φίλος**) 내부로 수용하여 숙식과 안전을 제공하고, 향후 상대 지역 방문 시 동등한 보호를 약속받는 상호부조의 핵심 기제였습니다 ([[scott-1982-philos-philotes-xenia|Scott 1982]]).
+
+- **제우스 크세니오스(Zeus Xeinios)의 신학적 보증과 트로이아 원정의 정당성**:
+  - 나그네와 손님의 안전은 최고신 **[[entity-zeus|제우스]] 크세니오스**(Zeus Xeinios, 손님 환대의 수호신)의 권위 아래 놓입니다. 손님을 해치거나 환대를 배신하는 것은 신의 명예([[concept-time|Timê]])를 직접 모욕하는 중대한 죄악입니다.
+  - 『일리아스』 3권에서 메넬라오스는 자신을 배신하고 헬레네를 유괴한 파리스와의 결투를 앞두고 제우스 크세니오스에게 공정한 응징을 탄원하며(*Il.* 3.351–354), 13권에서는 트로이아인들이 제우스 크세니오스의 분노를 두려워하지 않는다고 준열히 꾸짖습니다(*Il.* 13.622–625). 즉 아카이아 연합군의 트로이아 원정은 사적 복수를 넘어 크세니아를 침해한 죄악에 대한 범그리스적·신학적 징벌로서의 도덕적 정당성을 확보합니다 ([[minchin-2019-homeric-religion|Minchin 2019]]).
+  - 『오뒷세이아』에서도 구혼자들의 만행은 오디세우스 가문의 환대 규범을 체계적으로 짓밟은 죄악으로 규정되며, 아테나 여신의 지원 아래 감행되는 구혼자 살육은 제우스의 환대 질서를 복원하는 신성한 응징(Dike)으로 정당화됩니다.
 
 크세니아는 올림포스 최고의 신 **[[entity-zeus|제우스]] 크세니오스**(Zeus Xenios, 이방인의 수호신)의 직접적인 종교적 관할 아래 놓이며, 손님을 학대하거나 환대 의무를 저버리는 행위는 신들의 공적 의분([[concept-nemesis|Nemesis]])과 파멸적인 신벌을 초래하는 중죄로 규정되었습니다.
 
@@ -144,4 +149,5 @@ graph TD
 - [[adkins-1960-merit-and-responsibility]] (A. W. H. 애드킨스: 공적과 책임)
 - [[lee-junseok-2024-iliad-jeongam]] (이준석: 일리아스 집중강좌 — 파리스의 크세니아 배반 분석)
 - [[lee-junseok-2016-odyssey-humanity]] (이준석: 호메로스의 휴머니티와 구혼자 처벌)
+- [[minchin-2019-homeric-religion]] (엘리자베스 민친: 호메로스의 종교 — 제우스 크세니오스의 환대 감시와 신학적 정당화 분석)
 - [[analysis-homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)

@@ -3,8 +3,8 @@ title: 아테 (Ate)
 aliases: [Ate, ἄτη, átē, 아테, 미망, 정신적 눈멂, 치명적 과오, aatē, ἀάτη, atēros]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-30
-updated: 2026-08-30
-sources: [dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, cairns-1993-aidos.md, adkins-1960-merit-and-responsibility.md, lloyd-jones-1971-justice-of-zeus.md, lee-junseok-2024-iliad-jeongam.md]
+updated: 2026-09-03
+sources: [dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, cairns-1993-aidos.md, adkins-1960-merit-and-responsibility.md, lloyd-jones-1971-justice-of-zeus.md, lee-junseok-2024-iliad-jeongam.md, minchin-2019-homeric-religion.md]
 status: active
 korean_name: 아테
 conventional_latin: Ate
@@ -92,6 +92,11 @@ graph TD
 
 ### 2.3 『일리아스』 18·22권: 헥토르의 치명적 오판과 트로이아의 붕괴
 트로이아의 총사령관 [[entity-hector|헥토르]]의 서사는 영웅적 자만과 승세 속에서 찾아오는 아테의 비극적 파괴력을 체현합니다.
+
+- **점술 계약 위반: 12권 헥토르의 조징(새의 징조) 무시와 아테** (_Il._ 12.211–243):
+  - 함선 방벽 전투 중 독수리가 피 흘리는 뱀을 떨어뜨리는 불길한 징조가 나타나자 참모 폴리다마스는 진격을 멈출 것을 간언합니다.
+  - 그러나 헥토르는 "단 하나의 길조는 조국을 지키기 위해 싸우는 것뿐이다(*heis oiōnos aristos amynesthai peri patrēs*)"라며 신적 징조를 일축합니다(*Il._ 12.243).
+  - 엘리자베스 민친([[minchin-2019-homeric-religion|Minchin 2019]])이 규명하듯, 점술은 '신이 징조를 보내고, 예언자(Mantis)가 해독하며, 공동체가 수용한다'는 상호 묵계(Divination Contract) 위에 성립합니다. 헥토르의 징조 무시는 영웅적 애국심의 발로로 포장되지만, 신학적·서사적 층위에서는 신의 경고를 거부한 치명적 미망(아테)이자 18권의 무모한 야영과 22권의 비극적 죽음을 부르는 근원적 서사 복선입니다.
 
 - **폴리다마스의 자문 기각과 아테나의 눈가림** (_Il._ 18.243–314):
   - 아킬레우스의 전선 복귀가 임박하자, 지혜로운 참모 [[entity-polydamas|폴리다마스]]는 트로이아군 전원이 성벽 안으로 철수해야 한다고 강력히 권고합니다.
@@ -275,3 +280,4 @@ graph TD
 - [[adkins-1960-merit-and-responsibility]] — 공적과 책임 (결과주의적 가치관과 책임 분석)
 - [[lloyd-jones-1971-justice-of-zeus]] — 제우스의 정의 (호메로스 서사시의 도덕 질서와 신적 징벌)
 - [[lee-junseok-2024-iliad-jeongam]] — 정암학당 『일리아스』 해제 (19권 아가멤논의 사과와 아테 분석)
+- [[minchin-2019-homeric-religion]] — 호메로스의 종교 (점술 계약 위반과 헥토르의 비극적 징조 거부 분석)

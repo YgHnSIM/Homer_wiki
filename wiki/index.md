@@ -49,6 +49,7 @@ status: active
 - [[nagy-1979-best-of-achaeans|그레고리 나기 (1979), 아카이아인들의 최고 영웅]] — 서사시 전통과 영웅 제의론 및 클레오스 탐구
 - [[greek-ministry-2025-odysseion-ithaca|그리스 문화부 (2025), 이타키의 오디세이온]] — 현대 이타키 섬 오디세우스 복합문화공간 조성과 문화유산 전승
 - [[raw-2026-polytropos-notes|Raw 추가 자료 (2026), 폴리트로포스 수용사 노트]] — *polytropos*의 어원, 번역사 및 철학적 주해 노트
+- [[minchin-2019-homeric-religion|엘리자베스 민친 (2019), 호메로스의 종교]] — 올림포스 판테온의 형성과 제사·기도의 상호성 및 시학적 양식화 분석
 
 ---
 
