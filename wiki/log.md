@@ -2045,3 +2045,64 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
     - 제2장(Odyssey, Hesiod, Early Lyric): 오뒷세이아 1권 제우스 연설과 인간의 방자함(atasthalia), 서사 장르와 플롯의 차이(비극적 복합성 대 권선징악 민담), 구혼자들의 환대 침해와 처벌의 정당성(tisis), 헤시오도스 신통기의 테미스-디케 계보와 일과날의 3만 감시관 및 짐승과 인간을 가르는 '정의의 선물', 아르킬로코스·솔론(Fr. 13 West)의 지연된 응보, 테오그니스·시모니데스·핀다로스의 도덕관, 델포이적 실존적 비관주의와 제우스의 정의의 내적 공존 원리 규명.
   - **원문 인용 및 정밀 에피소드 매핑**: 핵심 원문 5선 및 심층 주석, 서사시 전편 및 아르카익 문헌 21개 에피소드 정밀 매핑 테이블 구축.
 - **검증**: `wiki/sources/lloyd-jones-1971-justice-of-zeus.md` 252행 구성으로 250~350줄 규격 및 서식 규칙(이모지 금지, 콜아웃 내 링크 금지, 볼드 문장부호 분리, 정확한 '## 관련 항목' 헤딩) 100% 준수 확인.
+
+---
+
+## [2026-09-03] feat(entities, words) | 칼립소(Calypso) 엔티티 및 어원 사전 문서 신규 구축
+
+- **작업 개요**: 호메로스 『오뒷세이아』의 핵심 인물 칼립소(Καλυψώ)에 대한 엔티티 심화 문서(`wiki/entities/entity-calypso.md`) 및 어원 사전 문서(`words/word-calypso.md`)를 신규 작성하고, 지식베이스 전역(색인, 그리스어 읽기 UX, 교차 참조 링크망)에 통합함.
+- **주요 작업 내용**:
+  - **엔티티 문서 구축 (`wiki/entities/entity-calypso.md`)**:
+    - 호메로스-엔티티(homer-entity) 표준 프레임워크 준수 (13개 전체 섹션 구성).
+    - 『오뒷세이아』 1, 5, 7, 9, 12, 23권의 출현 행 전수 검증 및 정형구(*pótnia númphē*, *dîa theáōn*, *dolóessa*) 분석.
+    - 5권 491–496행 불씨 직유의 *kalúpsato*(자기 은폐)와 칼립소 이름의 어원적 전도 문헌학적 규명.
+    - 5권 118–144행 항변 연설의 법정 수사학적 4단계 구조(서두 규탄, 신화적 선례, 구출자 정당성, 불가피한 승복) 분석.
+    - 6자 복합 관계망 Mermaid 다이어그램(칼립소-아틀라스-제우스-헤르메스-오뒷세우스-키르케-페넬로페) 구축.
+    - 오기기아 식생(편백나무, 포플러, 파슬리, 저승 조류)의 하데스·엘리시온 장례 상징성(Anderson 1958, Xian 2018) 분석.
+    - 아타나시아(불사) 거부와 유한한 인간 조건의 영웅적 수락 및 호메로스의 휴머니티(Vernant 1982, 이준석 2016) 고찰.
+    - 클레오스(명성)와 은폐(Kalypsis)의 실존적 충돌 및 크세니아의 억류화(*anánkēi*, 5.154–155) 비판.
+    - 수용사(베르길리우스 디도 형상, 페늘롱, 조이스 『율리시스』 4장) 및 젠더 비평 논쟁(Murnaghan/Doherty vs Meghji/Wilson) 정리.
+    - 10개 핵심 명제 12절 증거 매트릭스 수록.
+  - **어원 사전 문서 구축 (`words/word-calypso.md`)**:
+    - 호메로스-단어(homer-word) 표준 템플릿(8대 섹션) 준수.
+    - PIE `*ḱel-`("덮다, 숨기다")에서 희랍어 동사 *kalúptō*, 고유명 *Kalupsṓ*, 라틴어 *Calypso*, 현대 영어로의 전파 계통도(Mermaid) 구축.
+    - 게르만어군 동계어(*hell*, *hole*, *helmet*) 및 라틴어군 동계어(*conceal*, *cell*, *occult*, *clandestine*) 비교언어학적 분석.
+    - 현대 영어 파생어군 및 학술 고유명사(*Calypso bulbosa*, *Calypso Deep*, *Saturn XIV Calypso*, *RV Calypso*, *calyx*, *calyptra*) 정리.
+    - 카리브해 칼립소 음악(calypso)의 서아프리카 크리올어 *kaiso* 기원 및 민간 어원(Folk Etymology) 경고 블록 수록.
+  - **메타 색인 및 링크망 동기화**:
+    - `index.md`: 공개 입구 문서 인물 및 어원 목록에 칼립소 1행 표준 형식 추가.
+    - `wiki/index.md`: 카탈로그 인물 섹션에 칼립소 등록.
+    - `words/index.md`: 도식, 현황 표(인명·서명 유래어 5편, 총 9편), 알파벳 색인에 칼립소 추가.
+    - `scripts/allowed-red-links.json`: 작성 완료된 `entity-calypso` 제거.
+- **검증**: `npm test` 및 `node scripts/validate-wiki.mjs`, `npm run check:greek`, `node scripts/build-concept-source-matrix.mjs --check` 전수 통과 (오류 0개, 69 documents, legacyPages 0).
+
+---
+
+## [2026-09-03] docs(entities) | 칼립소(entity-calypso) 5인 적대적 검토(homer-review) 및 정제 완료
+
+- **작업 개요**: 호메로스 위키 특화 적대적 5인 검토 스킬(`homer-review`)을 발동하여 3개 전문 분과 서브에이전트 병렬 검토 및 3라운드 상호 공방전을 거쳐 생존한 핵심 개선안을 `wiki/entities/entity-calypso.md`에 전면 반영하고 연관 지식망을 정비함.
+- **주요 정제 내용**:
+  - **문헌학적 원전 인용 정밀 교정 (Philologist)**:
+    - 5권 494–496행 유령 인용을 실제 원전 범위인 5.488–493행으로 정정하고, 493행 *ἀμφικαλύψας*(남성 분사형) 성·수 일치 번역 교정.
+    - 2.2절 정형구 표의 *pótnia númphē*(Od. 1.14: *númphē pótni' éruke*, 1~2음보), *eüplókamos*(Od. 7.246, 12.449: *naíei eüplókamos, deinḕ theós*), *Átlantos thugátēr oloóphronos*(Od. 1.52: 1~4음보) 실제 원문 및 운율 위치 정비.
+    - Od. 9.32 'δολόεσσα' 키르케 수식어 오속 삭제 (칼립소 본인 투사는 7.245 단 한 곳으로 한정).
+    - 7년 체류 사실 출전을 Od. 7.259로 정정하고, 페르세포네 명계 숲(Od. 10.509-510)에 없는 오리나무·편백나무 서술 왜곡 제거.
+  - **논리 및 학설 서술 객관화 (Logician)**:
+    - 오뒷세우스의 불사 거부에서 현대 실존주의적 감상 과잉 투영을 정제하고, 오이코스(oikos)와 노스토스(Nostos) 회복이라는 호메로스적 텍스트 맥락으로 환원.
+    - 오기기아 식생 묘사의 쾌적한 이상향(*locus amoenus*)과 영웅의 고립감의 양면성을 균형 있게 기술.
+    - 페미니즘 비평 계보 왜곡 정정 (머너핸, 도허티, 윌슨 계보 정돈, 미확인 출처 Meghji 2025 삭제).
+    - 12절 증거 매트릭스 확실성 등급 조정 (법정 수사학, 비동의적 억류 등을 '강한 학술 추론'으로 엄밀화).
+  - **위키 규격 및 서식 교정 (Architect)**:
+    - 140행 `**강제로**(ἀνάγκῃ)` 볼드 괄호 분리 원칙 준수.
+    - 목록 헤더 내 출전·외래어 괄호 볼드 분리 및 인라인 코드 중첩 정돈.
+    - 생략 헤더 서식 `- **판정**: 생략 (Omitted)` 표준화.
+  - **지식 그래프 및 위키링크 확장 (Weaver)**:
+    - 본문 산문 내 `[[entity-odysseus|오뒷세우스]]`, `[[entity-athena|아테나]]`, `[[entity-zeus|제우스]]`, `[[entity-penelope|페넬로페]]` 최초 위키링크 복원.
+    - `scripts/allowed-red-links.json`에 `entity-circe`, `entity-hermes` 정규 등록 및 본문 링크 활성화.
+    - `wiki/entities/entity-odysseus.md` 관련 항목에 `[[entity-calypso|칼립소]]` 역방향 백링크 추가.
+    - 프론트매터 `sources` 및 본문에 칼립소 연설을 분석한 `[[kearns-2006-gods-in-homeric-epics|에밀리 컨스 (2006)]]` 추가.
+  - **문체 및 가독성 최적화 (Editor & Skeptic)**:
+    - 7개 섹션에 산발적으로 반복되던 '7년 체류 및 불사 거부' 줄거리 중복 해소.
+    - 주관적 미사여구 축약 및 10.2절 대중문화 1줄 사족 삭제.
+    - 6-7절 생략 사유를 제도 및 발굴 증거 부재 팩트로 건조하게 서술.
+- **검증**: `npm test` 전수 통과 (오류 0개, 69 documents, 2415 links, 758 allowed red links, legacyPages 0).

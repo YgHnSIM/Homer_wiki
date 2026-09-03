@@ -32,6 +32,7 @@ graph TB
     G6["πολύ트로πος"]:::greek -. "학술적 음역" .-> E6["polytropos / polutropos"]:::english
     G7["τιμή"]:::greek --> L7["timocratia / Timotheus"]:::latin --> E7["timocracy / Timothy / Timon"]:::english
     G8["ἄτη"]:::greek --> L8["Latin Ate"]:::latin --> E8["Ate / Atic / 111 Ate"]:::english
+    G9["Καλυψώ"]:::greek --> L9["Latin Calypso"]:::latin --> E9["Calypso / Calypso bulbosa"]:::english
 ```
 
 현재 도식에는 작성된 단어 문서만 올립니다. Odyssey는 본문을 작성했지만 역사적 어원과 중세 전승 단계에 검토 상태가 남아 있으므로 문서 상태를 review로 유지합니다. Mentor, Siren, Nemesis, clue 등은 별도 문서가 생긴 뒤에 도식에 추가합니다.
@@ -43,8 +44,8 @@ graph TB
 | 분류 | 문서 수 | 작성된 항목 |
 |:---|:---:|:---|
 | 개념·추상어 | 4 | [[word-agathos\|Agathos]], [[word-eleos\|Eleos]], [[word-polytropos\|Polytropos]], [[word-time\|Time]] |
-| 인명·서명 유래어 | 4 | [[word-achilles\|Achilles]], [[word-ate\|Ate]], [[word-hector\|Hector]], [[word-odyssey\|Odyssey]] |
-| 총계 | 8 | — |
+| 인명·서명 유래어 | 5 | [[word-achilles\|Achilles]], [[word-ate\|Ate]], [[word-calypso\|Calypso]], [[word-hector\|Hector]], [[word-odyssey\|Odyssey]] |
+| 총계 | 9 | — |
 
 ---
 
@@ -53,6 +54,7 @@ graph TB
 - [[word-achilles|Achilles (아킬레우스)]] — *Achilles' heel*, *Achilles tendon*, *Achillean*
 - [[word-agathos|Agathos (아가토스)]] — *Agatha*, *Agathism*, *Kalokagathia*
 - [[word-ate|Ate (아테)]] — *Ate*, *Atic*, *Atetic*, *Ate-ridden*, *111 Ate*
+- [[word-calypso|Calypso (칼립소)]] — *Calypso*, *Calypso bulbosa*, *Calypso Deep*
 - [[word-eleos|Eleos (엘레오스)]] — *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
 - [[word-hector|Hector (헥토르)]] — *to hector*, *hectoring*, *hectorism*
 - [[word-odyssey|Odyssey (오디세이)]] — *Odyssey*, *odyssey*, *Odyssean*
