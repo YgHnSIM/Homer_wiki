@@ -2151,3 +2151,10 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
     - 4절, 6절, 7.1절에 걸친 학술 명명 삼중 중복을 6절 어휘 패밀리 표로 통합 단일화.
     - 민간 어원(트리니다드 칼립소 음악) 경고 블록을 언어학적 메커니즘 중심의 2문장으로 압축.
 - **검증**: `npm test` 전수 통과 (오류 0개, 69 documents, 2420 links, 759 allowed red links, legacyPages 0).
+
+---
+
+## [2026-09-04] docs(meta) | 어원 사전 작성된 수용 경로 도식 삭제 및 재작성 금지
+- **작업 개요**: words/index.md에서 표제어 목록 mermaid를 삭제하고 AGENTS.md와 homer-word 스킬에 재작성 금지를 넣음.
+- **변경 사항**: words/index.md 섹션 삭제. Odyssey review 주기 유지. AGENTS.md 규칙 추가. homer-word Phase 5 및 안티패턴 등재.
+- **검증**: 린트 실행.
