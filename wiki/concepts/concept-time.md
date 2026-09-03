@@ -13,7 +13,7 @@ aliases:
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-27
 updated: 2026-09-03
-sources: [adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, long-1970-morals-and-values.md, minchin-2019-homeric-religion.md, nagy-1979-best-of-achaeans.md, kearns-2006-gods-in-homeric-epics.md]
+sources: [adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, long-1970-morals-and-values.md, minchin-2019-homeric-religion.md, nagy-1979-best-of-achaeans.md, kearns-2006-gods-in-homeric-epics.md, lee-taesoo-2020-gods-in-audience.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md, kim-han-2019-gods-zeus-moira-and-god.md]
 status: active
 korean_name: 티메
 conventional_latin: Time
@@ -255,6 +255,15 @@ graph TD
   - 제사의 결여나 티메의 침해는 신들의 즉각적이고 파괴적인 보복을 초래합니다. 테우크로스는 아폴론에게 첫 새끼 양을 바치겠다고 서원하지 않아 화살이 빗나갔으며(*Il.* 23.862–865), 아카이아군은 장엄한 헤카톰베 없이 방벽을 쌓음으로써 포세이돈과 아폴론의 티메를 모욕했고, 그 대가로 방벽 전체가 바다와 강물에 의해 영구히 지워지는 형벌을 받게 됩니다(*Il.* 7.446–450, 12.1–35).
 - **에밀리 컨스(Emily Kearns 2006)의 서사시적 판테온과 신들의 당파적 티메 경쟁**:
   - 에밀리 컨스는 서사시의 신들이 실제 제의의 국지적 다원성과 달리 명확히 규정된 '단일 개체'로서 인간 영웅들과 대등한 서사적 행위자로 기능하며, 지상 전장을 자신들의 우월성과 티메를 겨루는 경쟁의 장으로 삼는다고 분석했습니다 ([[kearns-2006-gods-in-homeric-epics|Kearns 2006]]). 신들은 인간의 제사를 통해 축적된 신용 계좌와 편애를 바탕으로 치열하게 다투지만, 위기 시에는 "필멸의 인간들 때문에 신들이 다툴 가치는 없다"며 초연함으로 회귀하는 독특한 위계를 유지합니다.
+- **관객석의 신들과 영광의 향유** ([[lee-taesoo-2020-gods-in-audience|이태수 2020]]):
+  - 이태수 교수는 호메로스의 올림포스 신들이 인간 사회의 도덕적 정의 수호자가 아니라, 인간의 살육전을 마치 스포츠 경기처럼 관람하는 초연한 관객임을 규명했습니다.
+  - 제우스가 전장에서 멀찌감치 떨어져 홀로 자신의 영광을 즐기며(*kydei gaion*, *Il.* 11.80–83) "죽이고 죽임당하는 자들"을 내려다보는 장면은, 신들의 티메가 인간의 도덕적 인정이 아니라 '압도적인 힘의 우위와 불멸의 자족성'에서 도출됨을 극명하게 보여줍니다.
+- **신들의 5대 이율배반성과 자의적 티메** ([[cho-daeho-2007-gods-in-iliad|조대호 2007]]):
+  - 조대호 교수는 레스키의 이율배반성을 확장하여 호메로스의 신들이 친근/소원, 총애/무자비, 자의/정의, 숭고/경박, 현시/은폐라는 5대 대립쌍을 이룬다고 보았습니다.
+  - 신들의 티메 배당은 인간의 공적에 비례하는 정의로운 보상이 아니라 신들의 자의적 편애와 충동에 좌우되며, 신들의 숨겨진 뜻(은폐)은 인간의 무지([[concept-ate|Atē]])와 결합하여 비극적 파국을 낳습니다.
+- **자연력의 신격화와 티메 추구의 실존적 한계** ([[kim-han-2013-ilias-homeric-gods|김한 2013]], [[kim-han-2019-gods-zeus-moira-and-god|2019]]):
+  - 김한 교수는 호메로스 신들의 이름이 우주 만물 속에 내재하는 맹목적 자연력(오케아노스=물, 헤파이토스=불, 아레스=전쟁)의 실체화이며, 신들이 인간의 도덕과 무관하게 활동함을 밝혔습니다.
+  - 하데스에서 아킬레우스가 "사자들의 왕이 되느니 지상에서 가난한 자의 머슴이 되겠다"(*Od.* 11.488–491)고 고백한 것은 전장에서 목숨을 걸고 추구하던 세속적 티메와 클레오스의 절대적 허무성을 폭로한 것이며, 서사시는 24권에서 공통의 유한성을 공유하는 유한자 간의 비극적 연민([[concept-eleos|Eleos]])으로 귀결됩니다.
 
 ---
 
@@ -354,3 +363,7 @@ graph TD
 - [[kearns-2006-gods-in-homeric-epics]] — 제의 실재와 서사 판테온의 괴리, 신들의 당파적 티메 경쟁과 시학적 종속 분석
 - [[nagy-1979-best-of-achaeans]] — 영웅 제의(Hero Cult)와 파네레니즘 클레오스/티메의 상호작용
 - [[lee-junseok-2024-iliad-jeongam]] — 『일리아스』 정암학당 역주 및 호메로스 인정 경제 분석
+- [[lee-taesoo-2020-gods-in-audience|이태수 (2020)]] — 제우스의 전지적 관람과 초연한 신적 행복 및 영광(kydei gaion) 분석
+- [[cho-daeho-2007-gods-in-iliad|조대호 (2007)]] — 신들의 5대 이율배반성과 자의적 티메 배당 및 인간의 무지 분석
+- [[kim-han-2013-ilias-homeric-gods|김한 (2013)]] — 맹목적 자연력의 신격화와 신인동형설의 인본주의적 한계 분석
+- [[kim-han-2019-gods-zeus-moira-and-god|김한 (2019)]] — 우주 내재적 신들의 티메와 세속적 명예의 허무 및 실존적 연민 분석

@@ -4,7 +4,7 @@ aliases: [Eleos, ἔλεος, Oiktos, οἶκτος, "éleos & oîktos", "ἔλ�
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
 updated: 2026-09-03
-sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1981-some-greek-terms.md, scott-1982-philos-philotes-xenia.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, zanker-1994-heart-of-achilles.md, cairns-1993-aidos.md, kearns-2006-gods-in-homeric-epics.md]
+sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1981-some-greek-terms.md, scott-1982-philos-philotes-xenia.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, zanker-1994-heart-of-achilles.md, cairns-1993-aidos.md, kearns-2006-gods-in-homeric-epics.md, lee-taesoo-2020-gods-in-audience.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md, kim-han-2019-gods-zeus-moira-and-god.md]
 status: active
 korean_name: 엘레오스와 오익토스
 conventional_latin: "Eleos & Oiktos"
@@ -85,10 +85,19 @@ graph TD
 - 『오뒷세이아』 17권에서 구혼자들은 거지로 변장한 [[entity-odysseus|오디세우스]]를 불쌍히 여겨(*eleairontes*, _Od._ 17.367) 빵을 나누어줍니다.
 - 비록 이 적선이 아테나 여신이 구혼자들의 의로움과 불의함을 시험하기 위해 유도한 서사적 장치(_Od._ 17.360–364)였을지라도, 텍스트는 엘레오스가 평시 사회에서 사회적 약자에게 작동하는 최소한의 자비 기제임을 실증합니다.
 
-### 3.4 올림포스 신들의 초연함과 연민(Pity)의 공존
+### 3.4 올림포스 신들의 초연함과 연민(Pity)의 공존: 관객석의 신들과 인간 비극의 심연
 - 에밀리 컨스([[kearns-2006-gods-in-homeric-epics|Kearns 2006]])가 분석하듯, *일리아스*의 신들은 인간들의 고투를 올림포스에서 내려다보며 "한낱 필멸자들 때문에 우리가 다툴 필요가 없다"(*Il.* 1.573–576, 21.462–467)는 경멸에 가까운 초연함을 보이지만, 동시에 인간 존재의 필멸적 취약성에 대해 깊은 연민(Pity)을 드러냅니다.
 - 제우스는 신들의 전장 개입을 허용하면서도 "비록 필멸자일지라도 나는 그들이 파멸해 가는 것을 돌보노라(*mélousí moi ollúmenoí per*, *Il.* 20.21)"라고 독백하며, 헥토르의 시신이 능욕당할 때 완고한 친아카이아계 여신들을 제외한 모든 신이 연민을 느낍니다(*Il.* 24.23–26).
 - 이러한 신적 연민은 도덕적 정의보다는 신들의 압도적 우월성(힘과 영속성)에서 우러나오는 감정으로, 신들의 불멸하는 무상함과 대비되어 인간 영웅들의 비극적 파토스를 최고조로 끌어올리는 시학적 대비 장치로 기능합니다.
+- **관객석의 신들과 신적 행복의 잔혹성** ([[lee-taesoo-2020-gods-in-audience|이태수 2020]]):
+  - 이태수 교수는 신들이 인간의 전쟁을 마치 스포츠 경기나 검투사 시합처럼 관람하며 '꺼지지 않는 웃음(*asbestos gelos*)'을 터뜨리는 구조를 분석했습니다.
+  - 신들의 연민은 극장 관객이 무대 위 비극을 보며 흘리는 눈물처럼, 자신의 절대적 안전과 불멸성이 보장된 자리에서 일시적으로 감상하는 심미적 연민일 뿐입니다. 신들의 행복은 인간의 고통을 노래로 감상하는 데서 완성되며, 신들의 이 냉혹한 초연함이야말로 인간이 필멸의 운명 속에서 서로를 불쌍히 여기며 구축하는 비극적 영웅주의의 절대적 대조면이 됩니다.
+- **신적인 조건(conditio divina)과 인간적인 조건(conditio humana)의 심연** ([[cho-daeho-2007-gods-in-iliad|조대호 2007]]):
+  - 조대호 교수는 고통을 모르는 복된 신들의 희극판(신들의 5대 이율배반성) 위에서만 필멸하는 인간의 비극성이 온전한 윤곽을 드러낸다고 논증했습니다.
+  - 『일리아스』 24권에서 아킬레우스가 프리아모스를 맞이하여 분노를 거두고 연민을 회복하는 화해는, 신들의 자의적이고 불가해한 세계 질서(두 개의 항아리 비유)를 직시하고 유한한 인간끼리 나누는 숭고한 연대의 정점입니다.
+- **허무의 자각과 연민의 연대** ([[kim-han-2013-ilias-homeric-gods|김한 2013]], [[kim-han-2019-gods-zeus-moira-and-god|2019]]):
+  - 김한 교수는 맹목적 자연력과 운명(Moira)의 지배 앞에서 전리품과 불멸의 명성([[concept-kleos|Kleos]])을 추구하던 영웅주의가 허무를 통찰하고 실존적 연민(Eleos)으로 나아가는 궤적을 규명했습니다.
+  - 아킬레우스와 프리아모스가 흘린 눈물은 운명의 폭력 앞에 내맡겨진 동료 인간에 대한 비극적 연대이자, 호메로스가 서양 정신사에 남긴 가장 위대한 '인간화된 세계(A Humanized World)'의 징표입니다.
 
 ---
 
@@ -154,4 +163,8 @@ graph TD
 - [[zanker-1994-heart-of-achilles|잰커 (1994) 아킬레우스의 마음]] — 개인적 윤리와 비극적 연민의 발전
 - [[cairns-1993-aidos|케언스 (1993) 아이도스]] — 고대 그리스 도덕심리학
 - [[kearns-2006-gods-in-homeric-epics|에밀리 컨스 (2006) 호메로스 서사시의 신들]] — 올림포스 신들의 초연함과 필멸 인간 조건에 대한 연민(Pity) 분석
+- [[lee-taesoo-2020-gods-in-audience|이태수 (2020) 호메로스의 신들 — 관객석의 신들]] — 인간의 고통을 노래로 감상하는 신적 행복과 냉혹한 초연함 분석
+- [[cho-daeho-2007-gods-in-iliad|조대호 (2007) 일리아스의 신들]] — conditio divina의 희극과 conditio humana의 비극, 두 개의 항아리와 24권 화해 분석
+- [[kim-han-2013-ilias-homeric-gods|김한 (2013) 일리아스에 나타난 호메로스의 신들]] — 맹목적 자연력과 신들의 도덕적 무관심 대 인간의 실존적 용기와 연민
+- [[kim-han-2019-gods-zeus-moira-and-god|김한 (2019) 호메로스의 신들, 제우스, 모이라이와 성서의 하나님]] — 운명의 폭력 앞에 선 아킬레우스-프리아모스의 비극적 연민의 연대 분석
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 종합 분석]] — 19종 연구 소스 및 패러다임 총괄 리포트

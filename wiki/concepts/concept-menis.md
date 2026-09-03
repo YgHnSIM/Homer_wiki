@@ -4,7 +4,7 @@ aliases: [Menis, Mênis, μῆνις, "mē̂nis", 신적 분노, 아킬레우스
 tags: [type/concept, domain/iliad, domain/mythology, status/active]
 created: 2026-08-16
 updated: 2026-08-27
-sources: [lee-junseok-2024-iliad-jeongam.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, long-1970-morals-and-values.md, redfield-1975-nature-and-culture.md]
+sources: [lee-junseok-2024-iliad-jeongam.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, long-1970-morals-and-values.md, redfield-1975-nature-and-culture.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md]
 status: active
 korean_name: 메니스
 conventional_latin: Menis
@@ -73,6 +73,14 @@ cssclasses: [greek-reading-page]
   - 자식 잃은 슬픔 속에서도 음식을 먹었던 [[entity-niobe|니오베]] 신화(_Il._ 24.602–620)를 매개로 프리아모스와 함께 식사를 나누고 잠자리를 마련합니다 (_Il._ 24.621–676).
   - 헥토르의 장례를 위해 12일간의 한시적 휴전(*Spondai*, σπονδαί)을 약속함으로써 사회적 규범과 연민([[concept-eleos|Eleos]])의 상태로 복귀하고, 『일리아스』를 추동하던 거대한 *Mênis*는 비로소 완결됩니다.
 
+### 3.4 신학적·존재론적 층위: 신들의 숨은 계획과 인간화된 세계의 발견 (조대호 2007, 김한 2013)
+- **제우스의 숨은 뜻(Dios Boulê)과 메니스의 이중 결정론** ([[cho-daeho-2007-gods-in-iliad|조대호 2007]]):
+  - 조대호 교수는 아킬레우스의 메니스가 인간적 차원의 분노에 그치지 않고, 제우스의 숨겨진 계획(*Dios kreisson noos*)과 긴밀히 맞물려 전개되는 '서사시의 논리'를 규명했습니다.
+  - 신들은 아킬레우스의 메니스를 지원하는 듯하지만, 그 과정에서 아킬레우스가 가장 아끼는 파트로클로스를 희생시킵니다. 인간 영웅의 메니스는 결국 신들의 불가해한 이율배반적 섭리(현시와 은폐) 속에서 처절한 파멸을 겪은 뒤에야 비로소 두 개의 항아리 비유를 통해 객관화되고 해소됩니다.
+- **신인동형설과 인간 중심적 전환** ([[kim-han-2013-ilias-homeric-gods|김한 2013]]):
+  - 김한 교수는 아킬레우스의 메니스가 맹목적 자연력(우주 내재적 신들)에 대한 맹종을 넘어, 신들의 도덕적 무관심과 잔혹성을 폭로하고 인간 실존의 자각으로 나아가는 문학적 전환점임을 분석했습니다.
+  - 신들은 불멸하기에 진정한 비극과 연민을 경험할 수 없으나, 가사적 존재인 아킬레우스는 극한의 분노를 통과함으로써 24권에서 동료 인간에 대한 연민을 획득하며 '인간화된 세계'를 열어젖힙니다.
+
 ---
 
 ## 관련 항목
@@ -107,6 +115,8 @@ cssclasses: [greek-reading-page]
 - [[zanker-1994-heart-of-achilles]] — 아킬레우스의 개인적 윤리와 연민(Eleos)
 - [[long-1970-morals-and-values]] — 적절성의 기준과 배상 및 명예의 상호성
 - [[redfield-1975-nature-and-culture]] — 영웅 규범의 내적 비극성과 문화적 경계 이탈
+- [[cho-daeho-2007-gods-in-iliad|조대호 (2007)]] — 일리아스의 신들 (제우스의 숨은 뜻과 메니스의 이중 결정론, 신적 조건과 인간적 조건 분석)
+- [[kim-han-2013-ilias-homeric-gods|김한 (2013)]] — 일리아스에 나타난 호메로스의 신들 (신인동형설의 인본주의적 사유 혁명과 메니스의 인간화된 전환)
 
 ### 상위 분석 문서
 - [[analysis-homeric-ethics-literature-review]] — 호메로스 서사시의 윤리학적 특징 및 전 세계 연구 문헌 종합 분석

@@ -4,7 +4,7 @@ aliases: [Ate, ἄτη, átē, 아테, 미망, 정신적 눈멂, 치명적 과�
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-30
 updated: 2026-09-03
-sources: [dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, cairns-1993-aidos.md, adkins-1960-merit-and-responsibility.md, lloyd-jones-1971-justice-of-zeus.md, lee-junseok-2024-iliad-jeongam.md, minchin-2019-homeric-religion.md, kearns-2006-gods-in-homeric-epics.md]
+sources: [dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, cairns-1993-aidos.md, adkins-1960-merit-and-responsibility.md, lloyd-jones-1971-justice-of-zeus.md, lee-junseok-2024-iliad-jeongam.md, minchin-2019-homeric-religion.md, kearns-2006-gods-in-homeric-epics.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md, kim-han-2019-gods-zeus-moira-and-god.md, lee-taesoo-2020-gods-in-audience.md]
 status: active
 korean_name: 아테
 conventional_latin: Ate
@@ -132,6 +132,15 @@ $$\text{초자연적 원인 (신적 충동)} \longrightarrow \text{주관적 상
 1. **외적·신적 원인** (Daimonic Cause): 제우스, 모이라, 에리뉘스 등이 인간의 마음에 아테를 불어넣음.
 2. **내적·심리적 상태** (Subjective State): 횡격막(Phren)의 판단력이 마비되어 무엇이 진정한 이익이고 명예인지 분별하지 못함.
 3. **객관적 실재 및 파국** (Objective Disaster): 군대의 궤멸, 전우의 죽음, 가문의 몰락 등 되돌릴 수 없는 파멸로 귀결됨.
+
+#### 3.1.1 신들의 은폐된 뜻과 인간의 무지(Atē)의 공모 (조대호 2007, 김한 2019)
+- **신들의 5대 이율배반성과 현시/은폐의 비극** ([[cho-daeho-2007-gods-in-iliad|조대호 2007]]):
+  - 조대호 교수는 호메로스 신 관념의 본질로서 '현시와 은폐'의 긴장을 규명했습니다. 신들은 영웅의 눈앞에 직접 나타나면서도 자신의 궁극적 의도와 세계 경영의 계획(*Dios kreisson noos*)은 철저히 감춥니다.
+  - 인간의 무지(Unwissenheit)와 아테는 신들이 자신의 계획을 관철하기 위해 인간에게 씌우는 필연적 안개입니다. 파트로클로스는 아킬레우스의 경고를 잊고 트로이 성벽으로 돌진할 때 "제우스의 뜻이 언제나 인간의 생각보다 강하다"는 시인의 논평과 함께 크나큰 미망(*mega aasthe*, *Il.* 16.685)에 빠지며, 헥토르 역시 폴리다마스의 현명한 퇴각 권고를 기각할 때 아테나 여신에 의해 분별력을 빼앗깁니다(*Il.* 18.311).
+  - 결국 아테는 영웅이 자신의 탁월성([[concept-arete|Arete]])을 가장 강하게 확신하는 절정의 순간에 발동하여 그를 파멸로 밀어 넣는 비극적 촉매로 작동합니다.
+- **그리스 특유의 외재화된 조형적 형상화** ([[kim-han-2019-gods-zeus-moira-and-god|김한 2019]]):
+  - 김한 교수는 9권의 리타이-아테 우화가 그리스 사유의 독특한 특성, 곧 '존재(Sein)와 작용(Wirken)의 미분화'에서 비롯된 조형적 상상력의 정점임을 분석했습니다.
+  - 내면적 심리 마비와 양심의 가책이 추상적 개념에 머물지 않고, 날쌘 발로 지상을 질주하며 인간을 해치는 아테와, 이를 뒤따르며 용서를 구하는 주름투성이 기도의 여신들(리타이(Litai, Λιταί))이라는 구체적 신격으로 형상화됩니다. 이는 운명의 절대성과 인간의 비극적 책임을 조형적으로 직조해 낸 호메로스 종교관의 핵심 지표입니다.
 
 ### 3.2 서사시 주요 정형구(Formulas) 및 연어 분석
 
@@ -273,7 +282,7 @@ graph TD
 
 ### 관련 분석 문서
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 호메로스 윤리학 연구사 및 아테의 심리적 외주화 테제 분석
-- [[analysis-concept-source-matrix|개념과 문헌 매트릭스]] — 핵심 개념과 학술 문헌 24종 간의 교차 매트릭스
+- [[analysis-concept-source-matrix|개념과 문헌 매트릭스]] — 핵심 개념과 학술 문헌 30종 간의 교차 매트릭스
 
 ### 주요 연구 문헌
 - [[dodds-1951-greeks-and-irrational]] — 그리스인들과 비합리적인 것 (아테의 심리적 외주화 및 수치 문화 분석)
@@ -284,3 +293,7 @@ graph TD
 - [[lee-junseok-2024-iliad-jeongam]] — 정암학당 『일리아스』 해제 (19권 아가멤논의 사과와 아테 분석)
 - [[minchin-2019-homeric-religion]] — 호메로스의 종교 (점술 계약 위반과 헥토르의 비극적 징조 거부 분석)
 - [[kearns-2006-gods-in-homeric-epics]] — 호메로스 서사시의 신들 (신적 미망과 오뒷세이아 아타스탈리아이의 도덕적 전회 규명)
+- [[cho-daeho-2007-gods-in-iliad|조대호 (2007)]] — 일리아스의 신들 (신들의 숨은 뜻과 인간의 무지, 파트로클로스·헥토르의 아테 분석)
+- [[kim-han-2013-ilias-homeric-gods|김한 (2013)]] — 일리아스에 나타난 호메로스의 신들 (맹목적 자연력과 신들의 도덕적 무관심 대 인간의 비극적 책임)
+- [[kim-han-2019-gods-zeus-moira-and-god|김한 (2019)]] — 호메로스의 신들, 제우스, 모이라이와 성서의 하나님 (리타이와 아테 우화의 조형화와 종교사적 한계)
+- [[lee-taesoo-2020-gods-in-audience|이태수 (2020)]] — 호메로스의 신들 — 관객석의 신들 (제우스의 역사와 관람, 인간의 미망을 조망하는 신들의 관객성)
