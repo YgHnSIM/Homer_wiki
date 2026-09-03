@@ -2126,3 +2126,28 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
     - 1절 Mermaid 계통도에 *eucalyptus*, *calyx*, *calyptra*, *conceal*, *hell* 등 게르만/라틴/그리스 파생어군 완전 연계.
     - 6절 현대 영어 파생어 표 및 7절 관용표현("Calypso-like isolation") 보강.
 - **검증**: `npm test` 전수 통과 (오류 0개, 69 documents, 2415 links, 757 allowed red links, legacyPages 0).
+
+---
+
+## [2026-09-03] docs(words) | 칼립소(word-calypso) 5인 적대적 검토(homer-review) 및 정제 완료
+
+- **작업 개요**: 호메로스 위키 특화 적대적 5인 검토 스킬(`homer-review`)을 발동하여 3개 전문 분과 서브에이전트(문헌/논리, 아키텍트/네트워크, 편집관/회의론자)를 병렬 가동하고 3라운드 공방전을 거쳐 생존한 핵심 개선안을 `words/word-calypso.md` 및 `words/index.md`에 전면 반영함.
+- **주요 정제 내용**:
+  - **문헌학 및 원전 인용 정밀 교정 (Philologist)**:
+    - 3.2절에서 뒤엉켜 있던 일리아스 전사 죽음 정형구 3개 출전과 번역을 완벽히 분리 정돈 (*Il.* 4.461: *tòn dè skótos ósse kalúpse*, *Il.* 5.68: *thánatos dé min amphékalupse*, *Il.* 16.350: *thanátou dè mélan néphos amphékalupsen*) 및 그리스 문자 혼용 제거.
+    - `docs/editorial/homeric-oriented-transliteration-v1.md` 규약에 맞춰 그리스 문자 크시(ξ) 전사 오류(`*kályx*`)를 `*kályks*`(속격 *kálykos*)로 전면 교정.
+    - 고대 형태론 표에 혼입되었던 근대 학명 신조어 `εὐκάλυπτος`(*eukályptos*)를 6절 근대 수용사 표로 정상 이관.
+    - 5.493행 분사 *amphikalúpsas*의 남성 주격이 목적어인 '잠(*húpnon*)'의 의인화 주어(constructio ad sensum)임을 명시.
+  - **논리 및 어원 학설 객관화 (Logician)**:
+    - 게르만어파를 사템어군으로 오분류한 음운 서술을 바로잡고, 켄툼 어파로서 독자적인 제1차 자음추이(그림의 법칙)를 거쳤음을 명시.
+    - 비케스(Beekes 2010 EDG 626)의 기층어설을 왜곡하여 PIE 정설 지지 문헌으로 인용했던 오류를 바로잡고, 포코르니/샹트렌(PIE 설) vs 비케스(선희랍 기층설)의 학설 대립(Contested)으로 재정의.
+    - 희랍어에 나타나는 불규칙 순음 확장(`-ub-/-up-`)의 음운사적 쟁점을 명확히 해명.
+  - **위키 규격 및 지식망 정비 (Architect & Weaver)**:
+    - 3.2절 서술부에 `[[entity-odysseus|오뒷세우스]]`, `[[concept-kleos|클레오스]]`, `[[concept-xenia|크세니아]]`, `[[concept-nostos|노스토스]]` 인라인 위키링크 보강.
+    - `words/index.md` 관련 항목에 `- [[entity-calypso|칼립소]]`를 추가하여 볼트 전역 백링크망 완성.
+  - **간결성 편집 및 사족 제거 (Editor & Skeptic)**:
+    - 3.2절 문학 비평 수사 및 7.2절 제임스 조이스 아침 일상 플롯 줄거리 사족을 전면 제거하고 팩트 중심 1문장으로 압축.
+    - 코퍼스 근거가 부족한 미공인 관용구("a Calypso of isolation")를 철회하고 비유적 형용사 *Calypso-like*로 정돈.
+    - 4절, 6절, 7.1절에 걸친 학술 명명 삼중 중복을 6절 어휘 패밀리 표로 통합 단일화.
+    - 민간 어원(트리니다드 칼립소 음악) 경고 블록을 언어학적 메커니즘 중심의 2문장으로 압축.
+- **검증**: `npm test` 전수 통과 (오류 0개, 69 documents, 2420 links, 759 allowed red links, legacyPages 0).

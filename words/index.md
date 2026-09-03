@@ -74,3 +74,4 @@ graph TB
 - [[entity-achilles|아킬레우스]]
 - [[entity-hector|헥토르]]
 - [[entity-odysseus|오디세우스]]
+- [[entity-calypso|칼립소]]
