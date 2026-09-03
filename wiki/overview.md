@@ -21,7 +21,7 @@ status: active
 호메로스 영웅 사회를 지탱하는 핵심 규범 체계와 *일리아스*, *오뒷세이아*의 서사적 동역학을 나타낸 구조도입니다.
 
 <div style="width: 100%; max-width: 760px; margin: 1.5rem auto; overflow-x: auto;">
-<svg class="homer-map-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 585" width="100%" height="100%" style="display: block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;">
+<svg class="homer-map-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 585" width="100%" height="100%" style="display: block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;">
   <defs>
     <!-- Arrow Markers -->
     <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
@@ -36,7 +36,7 @@ status: active
   </defs>
 
   <!-- 1. Epic Cycle (Top Header) -->
-  <a href="concept-epic-cycle" class="homer-map-link">
+  <a href="concept-epic-cycle" xlink:href="concept-epic-cycle" data-href="concept-epic-cycle" class="internal-link homer-map-link">
     <g transform="translate(230, 12)">
       <rect width="300" height="42" rx="8" ry="8" fill="var(--bg-cycle)" stroke="var(--stroke-cycle)" stroke-width="1.8"/>
       <text x="150" y="20" text-anchor="middle" font-size="13.5" font-weight="700" fill="var(--title-cycle)">에픽 사이클 (Epic Cycle)</text>
@@ -59,7 +59,7 @@ status: active
 
   <!-- Order Nodes -->
   <!-- Agathos -->
-  <a href="concept-agathos" class="homer-map-link">
+  <a href="concept-agathos" xlink:href="concept-agathos" data-href="concept-agathos" class="internal-link homer-map-link">
     <g transform="translate(75, 110)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
       <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">아가토스 (Agathos)</text>
@@ -67,7 +67,7 @@ status: active
     </g>
   </a>
   <!-- Time -->
-  <a href="concept-time" class="homer-map-link">
+  <a href="concept-time" xlink:href="concept-time" data-href="concept-time" class="internal-link homer-map-link">
     <g transform="translate(420, 110)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
       <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">티메 (Time)</text>
@@ -75,7 +75,7 @@ status: active
     </g>
   </a>
   <!-- Aidos / Nemesis -->
-  <a href="concept-aidos" class="homer-map-link">
+  <a href="concept-aidos" xlink:href="concept-aidos" data-href="concept-aidos" class="internal-link homer-map-link">
     <g transform="translate(75, 160)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
       <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">아이도스 / 네메시스 (Aidos / Nemesis)</text>
@@ -83,7 +83,7 @@ status: active
     </g>
   </a>
   <!-- Xenia -->
-  <a href="concept-xenia" class="homer-map-link">
+  <a href="concept-xenia" xlink:href="concept-xenia" data-href="concept-xenia" class="internal-link homer-map-link">
     <g transform="translate(420, 160)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-order-node)" stroke="var(--stroke-order-node)" stroke-width="1.4"/>
       <text x="132.5" y="18" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--main-order-node)">크세니아 (Xenia)</text>
@@ -114,7 +114,7 @@ status: active
   <path d="M 207.5 489 L 207.5 501" stroke="var(--color-iliad-arrow)" stroke-width="1.4" fill="none" marker-end="url(#arrow-iliad)"/>
 
   <!-- Iliad Node 1: Ate -->
-  <a href="concept-ate" class="homer-map-link">
+  <a href="concept-ate" xlink:href="concept-ate" data-href="concept-ate" class="internal-link homer-map-link">
     <g transform="translate(75, 295)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
       <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">아테 (Ate)</text>
@@ -122,7 +122,7 @@ status: active
     </g>
   </a>
   <!-- Iliad Node 2: Menis -->
-  <a href="concept-menis" class="homer-map-link">
+  <a href="concept-menis" xlink:href="concept-menis" data-href="concept-menis" class="internal-link homer-map-link">
     <g transform="translate(75, 347)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
       <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">메니스 (Menis)</text>
@@ -130,7 +130,7 @@ status: active
     </g>
   </a>
   <!-- Iliad Node 3: Tragedy -->
-  <a href="entity-hector" class="homer-map-link">
+  <a href="entity-hector" xlink:href="entity-hector" data-href="entity-hector" class="internal-link homer-map-link">
     <g transform="translate(75, 399)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
       <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">비극적 파국 (Tragedy)</text>
@@ -138,7 +138,7 @@ status: active
     </g>
   </a>
   <!-- Iliad Node 4: Hikesia -->
-  <a href="concept-hikesia" class="homer-map-link">
+  <a href="concept-hikesia" xlink:href="concept-hikesia" data-href="concept-hikesia" class="internal-link homer-map-link">
     <g transform="translate(75, 451)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
       <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">히케시아 (Hikesia)</text>
@@ -146,7 +146,7 @@ status: active
     </g>
   </a>
   <!-- Iliad Node 5: Eleos -->
-  <a href="concept-eleos" class="homer-map-link">
+  <a href="concept-eleos" xlink:href="concept-eleos" data-href="concept-eleos" class="internal-link homer-map-link">
     <g transform="translate(75, 503)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-iliad-node)" stroke="var(--stroke-iliad-node)" stroke-width="1.3"/>
       <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-iliad-node)">엘레오스 (Eleos)</text>
@@ -171,7 +171,7 @@ status: active
   <path d="M 552.5 489 L 552.5 501" stroke="var(--color-ody-arrow)" stroke-width="1.4" fill="none" marker-end="url(#arrow-odyssey)"/>
 
   <!-- Odyssey Node 1: Polytropos -->
-  <a href="word-polytropos" class="homer-map-link">
+  <a href="word-polytropos" xlink:href="word-polytropos" data-href="word-polytropos" class="internal-link homer-map-link">
     <g transform="translate(420, 295)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-ody-node)" stroke="var(--stroke-ody-node)" stroke-width="1.3"/>
       <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-ody-node)">폴리트로포스 (Polytropos)</text>
@@ -179,7 +179,7 @@ status: active
     </g>
   </a>
   <!-- Odyssey Node 2: Odysseus Trials -->
-  <a href="entity-odysseus" class="homer-map-link">
+  <a href="entity-odysseus" xlink:href="entity-odysseus" data-href="entity-odysseus" class="internal-link homer-map-link">
     <g transform="translate(420, 347)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-ody-node)" stroke="var(--stroke-ody-node)" stroke-width="1.3"/>
       <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-ody-node)">오디세우스의 실존적 고난</text>
@@ -193,7 +193,7 @@ status: active
     <text x="132.5" y="30" text-anchor="middle" font-size="10" fill="var(--sub-ody-node)">귀향 완수와 거지 변장을 통한 이타카 잠입</text>
   </g>
   <!-- Odyssey Node 4: Xenia Trial -->
-  <a href="concept-xenia" class="homer-map-link">
+  <a href="concept-xenia" xlink:href="concept-xenia" data-href="concept-xenia" class="internal-link homer-map-link">
     <g transform="translate(420, 451)">
       <rect width="265" height="38" rx="6" ry="6" fill="var(--bg-ody-node)" stroke="var(--stroke-ody-node)" stroke-width="1.3"/>
       <text x="132.5" y="17" text-anchor="middle" font-size="12" font-weight="700" fill="var(--main-ody-node)">크세니아 시험 (Xenia Trial)</text>

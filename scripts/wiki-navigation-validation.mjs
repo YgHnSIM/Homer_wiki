@@ -121,7 +121,7 @@ export function validateOverviewSvgLinks({ records, resolves, addError }) {
   const svgMatch = overview.markdown.match(/<svg[\s\S]*?<\/svg>/)
   if (!svgMatch) return
 
-  const links = [...svgMatch[0].matchAll(/<a\s+[^>]*href=["']([^"']+)["']/g)]
+  const links = [...svgMatch[0].matchAll(/<a\b[^>]*?(?<![a-zA-Z0-9:-])href=["']([^"']+)["']/g)]
   for (const match of links) {
     const target = match[1]
     if (!resolves(target)) {

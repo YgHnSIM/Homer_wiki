@@ -1902,6 +1902,23 @@ status: active
     - `scripts/test-wiki-tooling.mjs`에 신규 린터 3종에 대한 샌드박스 기반 오류 검출 회귀 테스트 케이스 완비.
 - **검증**: `npm test` (`validate-wiki.mjs`, `build-concept-source-matrix.mjs`, `test-wiki-tooling.mjs`, `greek-reading-validation.mjs`) 전수 100% 통과.
 
+---
+
+## [2026-09-03] fix(meta) | SVG 지형도 3중 호환 속성(Obsidian internal-link + Quartz SPA + SVG 표준) 적용 및 정규식 린터 보강
+
+- **작업 개요**: `wiki/overview.md` 인라인 SVG 지형도 내 12개 노드 링크의 실동작을 점검하고, Obsidian 볼트 내부 탐색과 Quartz 정적 사이트 SPA 라우팅, 그리고 표준 SVG 브라우저 호환성을 모두 충족하는 3중 속성을 전면 적용함.
+- **주요 개선 및 구현 내용**:
+  - **3중 호환 속성 적용**:
+    - `<a href="..." xlink:href="..." data-href="..." class="internal-link homer-map-link">` 구조를 12개 작성 노드에 일괄 적용.
+    - Obsidian 내부 링크 리스너가 감지하는 `data-href` 및 `internal-link` 클래스를 부여하여 클릭 시 볼트 내 해당 마크다운 문서를 즉시 열도록 연결.
+    - `<svg>` 루트에 `xmlns:xlink="http://www.w3.org/1999/xlink"` 선언 및 `xlink:href` 속성을 병기하여 Safari/WebKit 및 구형 SVG 렌더러 호환성 완비.
+    - Quartz 배포 빌드 검증을 통해 `href`가 올바른 상대 경로(`../wiki/concepts/...`, `../words/...`, `../wiki/entities/...`)로 rewrite되고 `data-slug`가 정상 주입됨을 확인.
+  - **린터 및 회귀 테스트 보강**:
+    - `scripts/wiki-navigation-validation.mjs`: `xlink:href`와의 인접 시 발생하던 정규식 탐욕 매칭 문제를 non-greedy 및 음의 후방탐색(`(?<![a-zA-Z0-9:-])href`)으로 정밀화.
+    - `scripts/test-wiki-tooling.mjs`: 매트릭스 빌더 테스트 후 샌드박스 상태를 원상 복구하는 cleanup 로직 추가.
+- **검증**: `npm test` (60개 문서 유효성, 개념-문헌 매트릭스, 린터 회귀 테스트, 그리스어 읽기 UX 검증) 100% 통과.
+
+
 
 
 

@@ -246,6 +246,10 @@ try {
     )
   }
 
+  fs.rmSync(path.join(sandbox, "wiki", "concepts", "concept-new.md"))
+  fs.rmSync(path.join(sandbox, "wiki", "sources", `${relatedOnlySourceId}.md`))
+  fs.writeFileSync(indexPath, originalIndex)
+
   // Bold markdown syntax tests
   const boldTestFile = path.join(sandbox, "wiki", "concepts", "concept-menis.md")
   const boldOriginal = fs.readFileSync(boldTestFile, "utf8")
