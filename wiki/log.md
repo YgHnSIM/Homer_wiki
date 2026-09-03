@@ -2106,3 +2106,23 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
     - 주관적 미사여구 축약 및 10.2절 대중문화 1줄 사족 삭제.
     - 6-7절 생략 사유를 제도 및 발굴 증거 부재 팩트로 건조하게 서술.
 - **검증**: `npm test` 전수 통과 (오류 0개, 69 documents, 2415 links, 758 allowed red links, legacyPages 0).
+
+---
+
+## [2026-09-03] docs(words) | 칼립소(word-calypso) 어원 수용사 심화 및 엔티티 중복 최소화 재편성 (homer-word)
+
+- **작업 개요**: 호메로스 어원·영단어 수용사 심화 스킬(`homer-word v2.0`)을 적용하여 `words/word-calypso.md` 문서를 엔티티 문서(`wiki/entities/entity-calypso.md`)와의 서사 중복을 최소화하고, 비교언어학·그리스어 형태론·어휘 패밀리 중심으로 전면 재편성함.
+- **주요 개편 내용**:
+  - **엔티티 문서와의 역할 분담 및 중복 최소화**:
+    - 7년 억류 서사 줄거리, 항변 연설 수사학, 오기기아 식생 장례 상징성, condicio humana 철학 등 엔티티 문서의 상세 내용을 걷어내고 `[[entity-calypso|칼립소 (Calypso)]]`로 위임.
+    - 3절을 호메로스 인명학(Nomen-Omen) 및 `καλύπτω`의 어휘 장(Lexical Field) 분석에 집중 편성 (서사시 전통에서 전사의 죽음을 표현하는 *thánatos dè min amphékalupse*와의 어휘적 조응 분석).
+  - **비교언어학 및 희랍어 형태론 심화**:
+    - PIE 조어 어근 `*ḱel-`("덮다, 감추다")의 켄툼(그리스/라틴) 대 사템·게르만(Grimm의 법칙) 음운 대응 및 동계어군(*hell, hole, hollow, helmet, hall, hull* / *conceal, cell, cellar, occult, clandestine, supercilious*) 체계화.
+    - 고유명 *Kalupsṓ*의 `-ώ`(*-ṓ*) 능동적 여성 행위자 명사(nomen agentis: "은폐자") 접미사 분석.
+    - 동원 명사군 `κάλυξ`(*kályx* > **calyx**) 및 `καλύπτρα`(*kalúptra* > **calyptra**), 합성어 `εὐκάλυπτος`(*eukályptos* > **eucalyptus**)의 형태론적 분기 고증.
+  - **문헌학적 인용 오류 교정**:
+    - 존재하지 않는 5권 494, 496행 인용 오류를 원전의 실제 행 번호인 5.488–493행으로 정정하고 *ἀμφικαλύψας* 성·수 일치 번역 반영.
+  - **어원 전파 계통도 및 어휘 패밀리 확장**:
+    - 1절 Mermaid 계통도에 *eucalyptus*, *calyx*, *calyptra*, *conceal*, *hell* 등 게르만/라틴/그리스 파생어군 완전 연계.
+    - 6절 현대 영어 파생어 표 및 7절 관용표현("Calypso-like isolation") 보강.
+- **검증**: `npm test` 전수 통과 (오류 0개, 69 documents, 2415 links, 757 allowed red links, legacyPages 0).
