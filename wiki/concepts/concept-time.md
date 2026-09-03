@@ -13,7 +13,7 @@ aliases:
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-27
 updated: 2026-09-03
-sources: [adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, long-1970-morals-and-values.md, minchin-2019-homeric-religion.md, nagy-1979-best-of-achaeans.md]
+sources: [adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, long-1970-morals-and-values.md, minchin-2019-homeric-religion.md, nagy-1979-best-of-achaeans.md, kearns-2006-gods-in-homeric-epics.md]
 status: active
 korean_name: 티메
 conventional_latin: Time
@@ -253,6 +253,8 @@ graph TD
   - 인간이 평소 바치는 희생제물과 신전 건축은 일종의 신적 신용 계좌에 호의를 적립하는 행위입니다. 크리세스가 아가멤논에게 모욕당한 뒤 아폴론에게 과거 바친 제물을 근거로 아카이아군에 재앙을 내려달라고 간청하는 기도는 바로 이 상호적 채권에 기반합니다(*Il.* 1.39–42).
 - **불경에 대한 네거티브 상호성(Negative Reciprocity)**:
   - 제사의 결여나 티메의 침해는 신들의 즉각적이고 파괴적인 보복을 초래합니다. 테우크로스는 아폴론에게 첫 새끼 양을 바치겠다고 서원하지 않아 화살이 빗나갔으며(*Il.* 23.862–865), 아카이아군은 장엄한 헤카톰베 없이 방벽을 쌓음으로써 포세이돈과 아폴론의 티메를 모욕했고, 그 대가로 방벽 전체가 바다와 강물에 의해 영구히 지워지는 형벌을 받게 됩니다(*Il.* 7.446–450, 12.1–35).
+- **에밀리 컨스(Emily Kearns 2006)의 서사시적 판테온과 신들의 당파적 티메 경쟁**:
+  - 에밀리 컨스는 서사시의 신들이 실제 제의의 국지적 다원성과 달리 명확히 규정된 '단일 개체'로서 인간 영웅들과 대등한 서사적 행위자로 기능하며, 지상 전장을 자신들의 우월성과 티메를 겨루는 경쟁의 장으로 삼는다고 분석했습니다 ([[kearns-2006-gods-in-homeric-epics|Kearns 2006]]). 신들은 인간의 제사를 통해 축적된 신용 계좌와 편애를 바탕으로 치열하게 다투지만, 위기 시에는 "필멸의 인간들 때문에 신들이 다툴 가치는 없다"며 초연함으로 회귀하는 독특한 위계를 유지합니다.
 
 ---
 
@@ -349,5 +351,6 @@ graph TD
 - [[cairns-1993-aidos]] — 아이도스와 티메의 상호 인정 도덕심리학
 - [[long-1970-morals-and-values]] — Adkins 비판 및 협동적 가치와 티메의 결합 규명
 - [[minchin-2019-homeric-religion]] — 올림포스 판테온의 형성과 제사·기도의 상호성 및 시학적 양식화 분석
+- [[kearns-2006-gods-in-homeric-epics]] — 제의 실재와 서사 판테온의 괴리, 신들의 당파적 티메 경쟁과 시학적 종속 분석
 - [[nagy-1979-best-of-achaeans]] — 영웅 제의(Hero Cult)와 파네레니즘 클레오스/티메의 상호작용
 - [[lee-junseok-2024-iliad-jeongam]] — 『일리아스』 정암학당 역주 및 호메로스 인정 경제 분석

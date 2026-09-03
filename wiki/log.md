@@ -1933,9 +1933,28 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
     - wiki/concepts/concept-hikesia.md: 제우스 히케테시오스(Zeus Hiketesios)와 탄원자 수호의 서사적 지연성(Dilatoriness) 및 스케리아 섬 강신의 예외적 즉각 응답 분석 반영.
     - wiki/concepts/concept-ate.md: 12권 헥토르의 조징(새의 징조) 기각과 점술 계약 위반, 비극적 아테의 서사적 복선 분석 반영.
   - **분석 및 메타 색인 동기화**:
-    - wiki/index.md: 25번째 소스 문서로 1행 표준 형식 규격 등록.
-    - wiki/analyses/analysis-concept-source-matrix.md: 민친(2019)과 10개 핵심 개념 간의 교차 매트릭스 자동 빌드 및 25개 소스 동기화 완료.
-- **검증**: 
-pm test 및 
-pm run check:greek 전수 통과.
+    - `wiki/index.md`: 25번째 소스 문서로 1행 표준 형식 규격 등록.
+    - `wiki/analyses/analysis-concept-source-matrix.md`: 민친(2019)과 10개 핵심 개념 간의 교차 매트릭스 자동 빌드 및 25개 소스 동기화 완료.
+- **검증**: `npm test` 및 `npm run check:greek` 전수 통과.
+
+---
+
+## [2026-09-03] feat(sources) | 에밀리 컨스(2006) 신규 소스 수집 및 관련 위키 연계
+
+- **작업 개요**: `raw/`에 새로 추가된 에밀리 컨스의 논문 「호메로스 서사시의 신들」(*The Gods in the Homeric Epics*, 2006)을 정독하고, 호메로스 위키 규격에 맞추어 소스 문서를 작성하고 연관 개념·분석·인덱스 체계에 통합함.
+- **주요 작업 내용**:
+  - **신규 소스 문서 작성**:
+    - `wiki/sources/kearns-2006-gods-in-homeric-epics.md`: 제의 실재(국지적 다원성)와 서사시 판테온(단일 개체성)의 구조적 괴리, 데메테르·디오뉘소스 배제의 시학적 필연성(보편적 은인과 당파성의 모순), 신들의 공간성과 신체적 한계의 역설, 신-인간 성적 결합의 성별 비대칭성(남신-필멸 여성 허용 대 여신-필멸 남성의 위계 전복 금기), 신들의 초연함과 연민(Pity)의 공존, *일리아스*의 경쟁적 판테온에서 *오뒷세이아*의 도덕적 단일 전선(atasthaliai 응징)으로의 신학적 전환, 그리고 만족스러운 신학을 희생하여 인간의 비극적 영웅주의를 구축한 호메로스 시학의 본질을 체계적으로 분석.
+  - **기존 개념 및 소스 문서 연계 보강**:
+    - `wiki/concepts/concept-time.md`: 신들의 단일 개체성 및 지상 전장을 무대로 한 당파적 티메 경쟁 논의 보강(5.3절) 및 문헌 목록 갱신.
+    - `wiki/concepts/concept-ate.md`: *일리아스*의 외재화된 신적 미망(Atē)과 *오뒷세이아* 서두 제우스 선언(1.32–43)의 아타스탈리아이(*atasthaliai*, 방자한 죄과) 도덕적 전회 규명(2.5절) 및 문헌 목록 갱신.
+    - `wiki/concepts/concept-eleos.md`: 올림포스 신들의 인간에 대한 경멸적 초연함과 필멸 인간 조건에 대한 연민(*Il.* 20.21, 24.23–26)의 공존 분석(3.4절) 및 문헌 목록 갱신.
+    - `wiki/concepts/concept-xenia.md`: *오뒷세이아* 후반부 구혼자 응징과 환대 질서 복원을 위한 신들의 '도덕적 단일 전선' 분석(1절) 및 문헌 목록 갱신.
+    - `wiki/sources/minchin-2019-homeric-religion.md`: 상호보완적 연구로서 Kearns 2006 교차 링크 추가.
+  - **분석 및 메타 색인 동기화**:
+    - `wiki/index.md`: 26번째 소스 문서로 1행 표준 형식 규격 등록 및 매트릭스 설명 문헌 수 갱신.
+    - `index.md`: 루트 인덱스의 개념·문헌 맞물림 설명 및 문헌 수(26종) 갱신.
+    - `wiki/analyses/analysis-concept-source-matrix.md`: 컨스(2006)와 10개 핵심 개념 간의 교차 매트릭스 자동 빌드 및 26개 소스 동기화 완료.
+- **검증**: `npm test` (`validate-wiki.mjs`, `build-concept-source-matrix.mjs`, `test-wiki-tooling.mjs`, `greek-reading-validation.mjs`) 전수 100% 통과.
+
 

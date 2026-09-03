@@ -4,7 +4,7 @@ aliases: [Ate, ἄτη, átē, 아테, 미망, 정신적 눈멂, 치명적 과�
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-30
 updated: 2026-09-03
-sources: [dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, cairns-1993-aidos.md, adkins-1960-merit-and-responsibility.md, lloyd-jones-1971-justice-of-zeus.md, lee-junseok-2024-iliad-jeongam.md, minchin-2019-homeric-religion.md]
+sources: [dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, cairns-1993-aidos.md, adkins-1960-merit-and-responsibility.md, lloyd-jones-1971-justice-of-zeus.md, lee-junseok-2024-iliad-jeongam.md, minchin-2019-homeric-religion.md, kearns-2006-gods-in-homeric-epics.md]
 status: active
 korean_name: 아테
 conventional_latin: Ate
@@ -117,6 +117,8 @@ graph TD
   - 그러나 정작 아테에 깊이 빠진 자들은 구혼자 자신들이었습니다. 그들은 오디세우스의 귀환을 알아보지 못하고, 신들의 네메시스([[concept-nemesis|네메시스]])와 사람들의 비난 평판을 무시하다가 전멸당합니다.
 - **일상적 실족의 예외적 사례** (_Od._ 11.61):
   - 네키이아에서 오디세우스가 만난 [[entity-elpenor|엘페노르]]의 망령은 자신의 허망한 실족사를 "다이몬의 나쁜 운명과 헤아릴 수 없는 술이 나를 미혹했다"(*âsé me daímonos aîsa kakḕ kaì athésphatos oînos*)고 증언하며, 아테가 거대한 정치적 오판뿐 아니라 일상적 실존의 취약성 속에서도 작동함을 보여줍니다.
+- **제우스의 프로그램적 선언과 아타스탈리아이(Atasthaliai)의 도덕적 전회** (_Od._ 1.32–43):
+  - 에밀리 컨스([[kearns-2006-gods-in-homeric-epics|Kearns 2006]])가 지적하듯, *오뒷세이아*의 신학은 *일리아스*의 비극적 아테관에서 중대한 도덕적 패러다임 전환을 이룹니다. 서사시 서두에서 제우스는 인간들이 모든 불행을 신 탓으로 돌리지만 실상은 자신들의 '방자한 죄과(*atasthaliai*)'로 인하여 운명의 몫(*moron*) 이상의 고통을 겪는다고 선언합니다. 이는 *일리아스*에서 외부 신들이 마음에 던져 넣는 초자연적 눈멂(Atē)이, *오뒷세이아*에 이르러 인간 스스로 책임을 져야 할 도덕적 죄과(atasthaliai)이자 신들의 도덕적 단일 전선에 의해 응징받는 정의(Dike)의 집행 근거로 재편되었음을 보여줍니다.
 
 ---
 
@@ -281,3 +283,4 @@ graph TD
 - [[lloyd-jones-1971-justice-of-zeus]] — 제우스의 정의 (호메로스 서사시의 도덕 질서와 신적 징벌)
 - [[lee-junseok-2024-iliad-jeongam]] — 정암학당 『일리아스』 해제 (19권 아가멤논의 사과와 아테 분석)
 - [[minchin-2019-homeric-religion]] — 호메로스의 종교 (점술 계약 위반과 헥토르의 비극적 징조 거부 분석)
+- [[kearns-2006-gods-in-homeric-epics]] — 호메로스 서사시의 신들 (신적 미망과 오뒷세이아 아타스탈리아이의 도덕적 전회 규명)

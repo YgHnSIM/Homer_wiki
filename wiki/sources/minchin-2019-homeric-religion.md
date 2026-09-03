@@ -167,6 +167,7 @@ graph TD
 - **[[adkins-1960-merit-and-responsibility|애드킨스 (1960)]]**: 결과주의적 성공과 경쟁적 덕목에 대한 비판적 대조군.
 - **[[dodds-1951-greeks-and-irrational|도즈 (1951)]]**: 인간 심리 동기화의 신적 외화(이중 동기화) 이론과의 연계.
 - **[[lloyd-jones-1971-justice-of-zeus|로이드-존스 (1971)]]**: 제우스의 정의(Dike)와 도덕적 우주 질서 논쟁과의 대비.
+- **[[kearns-2006-gods-in-homeric-epics|컨스 (2006)]]**: 제의 실재와 서사 판테온의 괴리, 신들의 당파성과 시학적 종속에 대한 상호보완적 연구.
 
 ---
 
@@ -175,6 +176,7 @@ graph TD
 - [[overview|서사시 개요]]
 - [[wiki/index|위키 색인]]
 - [[analysis-concept-source-matrix|개념과 문헌 매트릭스]]
+- [[kearns-2006-gods-in-homeric-epics|호메로스 서사시의 신들 (Kearns 2006)]]
 - [[concept-time|티메 (Time)]]
 - [[concept-xenia|크세니아 (Xenia)]]
 - [[concept-hikesia|히케시아 (Hikesia)]]

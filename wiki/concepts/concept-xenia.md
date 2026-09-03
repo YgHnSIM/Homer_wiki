@@ -4,7 +4,7 @@ aliases: [Xenia, ξενία, xenía, ksenía, 크세니아, 손님 환대, 필�
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
 updated: 2026-09-03
-sources: [scott-1979-pity-and-pathos.md, scott-1982-philos-philotes-xenia.md, scott-1980-aidos-and-nemesis.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, cairns-1993-aidos.md, minchin-2019-homeric-religion.md]
+sources: [scott-1979-pity-and-pathos.md, scott-1982-philos-philotes-xenia.md, scott-1980-aidos-and-nemesis.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, cairns-1993-aidos.md, minchin-2019-homeric-religion.md, kearns-2006-gods-in-homeric-epics.md]
 status: active
 korean_name: 크세니아
 conventional_latin: Xenia
@@ -28,6 +28,7 @@ cssclasses: [greek-reading-page]
   - 나그네와 손님의 안전은 최고신 **[[entity-zeus|제우스]] 크세니오스**(Zeus Xeinios, 손님 환대의 수호신)의 권위 아래 놓입니다. 손님을 해치거나 환대를 배신하는 것은 신의 명예([[concept-time|Timê]])를 직접 모욕하는 중대한 죄악입니다.
   - 『일리아스』 3권에서 메넬라오스는 자신을 배신하고 헬레네를 유괴한 파리스와의 결투를 앞두고 제우스 크세니오스에게 공정한 응징을 탄원하며(*Il.* 3.351–354), 13권에서는 트로이아인들이 제우스 크세니오스의 분노를 두려워하지 않는다고 준열히 꾸짖습니다(*Il.* 13.622–625). 즉 아카이아 연합군의 트로이아 원정은 사적 복수를 넘어 크세니아를 침해한 죄악에 대한 범그리스적·신학적 징벌로서의 도덕적 정당성을 확보합니다 ([[minchin-2019-homeric-religion|Minchin 2019]]).
   - 『오뒷세이아』에서도 구혼자들의 만행은 오디세우스 가문의 환대 규범을 체계적으로 짓밟은 죄악으로 규정되며, 아테나 여신의 지원 아래 감행되는 구혼자 살육은 제우스의 환대 질서를 복원하는 신성한 응징(Dike)으로 정당화됩니다.
+  - 에밀리 컨스([[kearns-2006-gods-in-homeric-epics|Kearns 2006]])가 분석하듯, *오뒷세이아* 후반부에서 신들은 개인적 편애를 넘어 크세니아를 파괴한 불의한 구혼자들을 징벌하고 의로운 오디세우스를 복권시키는 '도덕적 단일 전선(United front on a moral basis)'을 형성합니다. 시인 스스로 "신과 강한 영웅이 그들에게 차려줄 저녁보다 더 끔찍한 것은 없었을 것이니, 그들이 먼저 온당치 못한 짓을 꾸몄기 때문이라(*Od.* 20.392–395)"라고 확언하듯, 구혼자 살육은 크세니아 질서의 도덕적 수호를 위한 올림포스 전체의 신적 합의에 기초합니다.
 
 크세니아는 올림포스 최고의 신 **[[entity-zeus|제우스]] 크세니오스**(Zeus Xenios, 이방인의 수호신)의 직접적인 종교적 관할 아래 놓이며, 손님을 학대하거나 환대 의무를 저버리는 행위는 신들의 공적 의분([[concept-nemesis|Nemesis]])과 파멸적인 신벌을 초래하는 중죄로 규정되었습니다.
 
@@ -150,4 +151,5 @@ graph TD
 - [[lee-junseok-2024-iliad-jeongam]] (이준석: 일리아스 집중강좌 — 파리스의 크세니아 배반 분석)
 - [[lee-junseok-2016-odyssey-humanity]] (이준석: 호메로스의 휴머니티와 구혼자 처벌)
 - [[minchin-2019-homeric-religion]] (엘리자베스 민친: 호메로스의 종교 — 제우스 크세니오스의 환대 감시와 신학적 정당화 분석)
+- [[kearns-2006-gods-in-homeric-epics]] (에밀리 컨스: 호메로스 서사시의 신들 — 구혼자 응징과 신들의 도덕적 단일 전선 분석)
 - [[analysis-homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)

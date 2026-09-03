@@ -50,6 +50,7 @@ status: active
 - [[greek-ministry-2025-odysseion-ithaca|그리스 문화부 (2025), 이타키의 오디세이온]] — 현대 이타키 섬 오디세우스 복합문화공간 조성과 문화유산 전승
 - [[raw-2026-polytropos-notes|Raw 추가 자료 (2026), 폴리트로포스 수용사 노트]] — *polytropos*의 어원, 번역사 및 철학적 주해 노트
 - [[minchin-2019-homeric-religion|엘리자베스 민친 (2019), 호메로스의 종교]] — 올림포스 판테온의 형성과 제사·기도의 상호성 및 시학적 양식화 분석
+- [[kearns-2006-gods-in-homeric-epics|에밀리 컨스 (2006), 호메로스 서사시의 신들]] — 제의 실재와 서사시적 판테온의 괴리, 신적 인과성과 두 서사시 간의 신학적 변천 분석
 
 ---
 
@@ -85,7 +86,7 @@ status: active
 ## 분석
 
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 전 세계 연구사 및 핵심 윤리 개념 종합 분석
-- [[analysis-concept-source-matrix|개념과 문헌]] — 핵심 개념 10종과 학술 문헌 24종의 맞물림 매트릭스
+- [[analysis-concept-source-matrix|개념과 문헌]] — 핵심 개념 10종과 학술 문헌 26종의 맞물림 매트릭스
 - [[analysis-polytropos|폴리트로포스 추가 연구]] — *polytropos*의 원전 용례와 역사적 의미 수용사
 
 ---

@@ -3,8 +3,8 @@ title: 엘레오스와 오익토스 (Eleos & Oiktos)
 aliases: [Eleos, ἔλεος, Oiktos, οἶκτος, "éleos & oîktos", "ἔλεος & οἶκτος", "Eleos & Oiktos", 엘레오스, 오익토스, 연민, 동정, Pity, Pathos, 파토스, Oiktros, 오익트로스, "엘레오스와 오익토스 (Eleos & Oiktos / ἔλεος & οἶκτος) — 호메로스 영웅 윤리의 연민, 비애감 및 비경쟁적 연대"]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-26
-sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1981-some-greek-terms.md, scott-1982-philos-philotes-xenia.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, zanker-1994-heart-of-achilles.md, cairns-1993-aidos.md]
+updated: 2026-09-03
+sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1981-some-greek-terms.md, scott-1982-philos-philotes-xenia.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, zanker-1994-heart-of-achilles.md, cairns-1993-aidos.md, kearns-2006-gods-in-homeric-epics.md]
 status: active
 korean_name: 엘레오스와 오익토스
 conventional_latin: "Eleos & Oiktos"
@@ -85,6 +85,11 @@ graph TD
 - 『오뒷세이아』 17권에서 구혼자들은 거지로 변장한 [[entity-odysseus|오디세우스]]를 불쌍히 여겨(*eleairontes*, _Od._ 17.367) 빵을 나누어줍니다.
 - 비록 이 적선이 아테나 여신이 구혼자들의 의로움과 불의함을 시험하기 위해 유도한 서사적 장치(_Od._ 17.360–364)였을지라도, 텍스트는 엘레오스가 평시 사회에서 사회적 약자에게 작동하는 최소한의 자비 기제임을 실증합니다.
 
+### 3.4 올림포스 신들의 초연함과 연민(Pity)의 공존
+- 에밀리 컨스([[kearns-2006-gods-in-homeric-epics|Kearns 2006]])가 분석하듯, *일리아스*의 신들은 인간들의 고투를 올림포스에서 내려다보며 "한낱 필멸자들 때문에 우리가 다툴 필요가 없다"(*Il.* 1.573–576, 21.462–467)는 경멸에 가까운 초연함을 보이지만, 동시에 인간 존재의 필멸적 취약성에 대해 깊은 연민(Pity)을 드러냅니다.
+- 제우스는 신들의 전장 개입을 허용하면서도 "비록 필멸자일지라도 나는 그들이 파멸해 가는 것을 돌보노라(*mélousí moi ollúmenoí per*, *Il.* 20.21)"라고 독백하며, 헥토르의 시신이 능욕당할 때 완고한 친아카이아계 여신들을 제외한 모든 신이 연민을 느낍니다(*Il.* 24.23–26).
+- 이러한 신적 연민은 도덕적 정의보다는 신들의 압도적 우월성(힘과 영속성)에서 우러나오는 감정으로, 신들의 불멸하는 무상함과 대비되어 인간 영웅들의 비극적 파토스를 최고조로 끌어올리는 시학적 대비 장치로 기능합니다.
+
 ---
 
 ## 4. 고전기 도덕철학 및 비극론으로의 전개
@@ -148,4 +153,5 @@ graph TD
 - [[lee-junseok-2018-wrath-and-pity|이준석 (2018) 분노의 서사시, 연민의 서사시 일리아스]] — 피아를 초월하는 동일화 시학
 - [[zanker-1994-heart-of-achilles|잰커 (1994) 아킬레우스의 마음]] — 개인적 윤리와 비극적 연민의 발전
 - [[cairns-1993-aidos|케언스 (1993) 아이도스]] — 고대 그리스 도덕심리학
+- [[kearns-2006-gods-in-homeric-epics|에밀리 컨스 (2006) 호메로스 서사시의 신들]] — 올림포스 신들의 초연함과 필멸 인간 조건에 대한 연민(Pity) 분석
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 종합 분석]] — 19종 연구 소스 및 패러다임 총괄 리포트
