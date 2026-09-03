@@ -65,7 +65,7 @@ status: active
 | [[cairns-1993-aidos\|케언스 1993]] | — | 언급 | **중심** | 언급 | 언급 | 언급 | 언급 | — | — | 언급 |
 | [[dodds-1951-greeks-and-irrational\|도즈 1951]] | 언급 | — | **중심** | — | — | — | — | — | — | 언급 |
 | [[snell-1946-discovery-of-mind\|스넬 1946]] | — | — | — | — | — | — | — | — | — | 언급 |
-| [[lloyd-jones-1971-justice-of-zeus\|로이드-존스 1971]] | — | — | — | 언급 | — | 언급 | — | — | — | 언급 |
+| [[lloyd-jones-1971-justice-of-zeus\|로이드-존스 1971]] | — | — | 언급 | 언급 | 언급 | 언급 | 언급 | — | — | 언급 |
 | [[macintyre-1981-after-virtue-ch10\|매킨타이어 1981]] | — | — | — | — | 언급 | — | — | 언급 | — | — |
 | [[vernant-1989-belle-mort\|베르낭 1989]] | — | — | — | — | 언급 | — | — | — | — | — |
 | [[redfield-1975-nature-and-culture\|레드필드 1975]] | 언급 | — | 언급 | — | 언급 | — | — | — | — | — |
