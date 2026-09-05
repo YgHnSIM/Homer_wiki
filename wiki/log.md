@@ -2285,3 +2285,45 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
     - 8절 증거 매트릭스 및 하단 관련 항목에 `concept-kalokagathia` 및 Adkins 1960 추가.
   - `wiki/concepts/concept-ate.md`: 관련 항목에 `concept-agathos` 교차 링크 보강.
 - **검증**: `node scripts/validate-wiki.mjs` 통과 (73 documents, 2680 links, 838 allowed red links), `node scripts/build-concept-source-matrix.mjs --check` 동기화 확인, `npm run check:greek` 통과.
+
+---
+
+## [2026-09-05] feat(sources,concepts,entities) | 에밀 벤베니스트(1969) 『인도유럽 제도 어휘집』 수집 및 핵심 개념(게라스·테미스·디케) 지식베이스 구축
+- **작업 개요**: 새로 추가된 핵심 원천 문헌인 에밀 벤베니스트(Émile Benveniste)의 1969년 명저 『인도유럽 제도 어휘집』 제2권: 권력, 법, 종교(*Le Vocabulaire des institutions indo-européennes*, Tome 2: *Pouvoir, droit, religion*, 279 pp.)에 대해 3대의 전담 서브에이전트를 병렬 가동하여 비교언어학·고전문헌학 정밀 분석을 수행하고, 위키 소스 문서 생성, 핵심 개념 문서 신규 작성, 기존 연관 문서 심화 갱신 및 색인 동기화를 완료함.
+- **생성 및 업데이트 문서 내역**:
+  - `wiki/sources/benveniste-1969-vocabulaire-institutions-2.md` (신규):
+    - 제1부(왕권과 특권: rex vs wanax/basileus, krainein의 주권 비준, geras vs time 분리, kudos 승리 부적, laos vs demos), 제2부(법: themis vs dike, *med- 적극적 통치 척도, horkos 저주의 물리적 담지체, histor 시각 증인), 제3부(종교: hieros 동적 충만 vs hagios 금기, hosios 탈성화 의례, sponde 안전 담보 vs leibo 분노 진무, eukhesthai 공적 자부 및 아킬레우스 방패 재판 재해석, hiketes 무릎 도달 및 Litai 배상 탄원) 전편의 체계적 해제 및 Mermaid 개념 구조도 완비.
+  - `wiki/concepts/concept-geras.md` (신규):
+    - 고대 중성명사 `-as`형 계보 및 미케네어 `ke-ra` 확인.
+    - 오스트호프(1906)의 노인(*gerōn*) 어원설 전면 반박 (*to gar geras esti thanontōn* 6회 용례 실증).
+    - 전리품 분배 3단계 메커니즘과 연회 최상급 고기인 등심(*nōta*)의 물질성 규명.
+    - 티메(*timē*, 신적 위계 지분)와의 제도적 대립 및 일리아스 1권 아게라스토스(*agérastos*) 전락 공포와 아티모스(*átimos*) 사태의 충돌 분석.
+  - `wiki/concepts/concept-themis.md` (신규):
+    - 인도유럽 조어 `*dʰē-`(세우다, 정립하다) 어근 및 베다 *dhā́man-*과의 비교.
+    - 테미스의 본질을 '씨족 내부법(Droit familial)'이자 제우스-군주의 홀 전승 판례(*thémistes*)로 정초.
+    - 키클롭스의 무규범 상태(*athemistoi*), 에우마이오스의 환대 규범(*ou moi themis est'*), 아킬레우스 투구의 신성성 실증.
+  - `wiki/concepts/concept-dike.md` (신규):
+    - 인도유럽 조어 `*deik-`(말로써 보여주다) 어근 및 라틴어 *ius dicere*, 오스크어 *meddix*와의 비교언어학적 일치 규명.
+    - 디케의 본질을 '씨족 간 대외 사법(Droit interfamilial)'으로 정초.
+    - 디카스폴로스(*dikaspólos*)의 판례 정형구 보존자 위상 및 일리아스 18권 아킬레우스 방패 재판 장면(살인 배상금 서원 *eúkheto* 대 동해보복 거부 *anaíneto*)의 혁신적 본문 해제 수록.
+  - `wiki/concepts/concept-time.md`:
+    - 프론트매터 sources에 벤베니스트(1969) 추가.
+    - §5.1 신적 분배 층위에 벤베니스트의 게라스-티메 분리 및 일리아스 3권 조약 구절(티메 대 포이네) 보강.
+    - 하단 소스 및 관련 항목 교차 링크 갱신.
+  - `wiki/entities/entity-agamemnon.md`:
+    - 프론트매터 sources에 벤베니스트(1969) 추가.
+    - §5.1에 와낙스(*wanaks*)의 절대성, 전령 지팡이로서의 홀(*skēptron*), 주권적 비준권(*krainein*), 게라스 박탈로 인한 아게라스토스(*agérastos*) 공포 분석 심화.
+    - 하단 관련 항목에 `concept-geras`, `concept-themis`, `benveniste-1969-vocabulaire-institutions-2` 연계.
+  - `wiki/entities/entity-achilles.md`:
+    - 프론트매터 sources에 벤베니스트(1969) 추가.
+    - §3.1 (2)에 일리아스 9.310의 *kraneōn* 선언이 지닌 아킬레우스의 독자적 주권 회수 의미 보강.
+    - 하단 관련 항목에 `concept-geras`, `concept-themis`, `benveniste-1969-vocabulaire-institutions-2` 연계.
+  - `scripts/allowed-red-links.json`:
+    - 신규 생성된 `concept-geras`, `concept-themis`, `concept-dike`를 미래 페이지 목록에서 정리.
+  - `wiki/index.md`:
+    - 문헌 카탈로그에 벤베니스트(1969) 등재 (1행 표준 서식).
+    - 개념 카탈로그에 게라스, 테미스, 디케 등재 (1행 표준 서식) 및 예정 목록 갱신.
+  - `wiki/analyses/analysis-concept-source-matrix.md`:
+    - 개념×문헌 매트릭스 표 갱신 (13개 개념 × 36편 문헌 완전 동기화).
+- **검증**: `npm test` 전체 스위트 통과 (77 documents, 2774 links, 741 allowed red links, 개념×문헌 매트릭스 13×36 동기화, 위키 도구 회귀 테스트 100%, 그리스어 읽기 UX 계약 77개 문서 준수 0건 결함).
+

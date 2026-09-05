@@ -4,7 +4,7 @@ aliases: [Agamemnon, Ἀγαμέμνων, Agamémnōn, 아가멤논, 아트레�
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-28
 updated: 2026-09-05
-sources: [cairns-2012-ate-in-homeric-poems.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, lee-junseok-2016-odyssey-humanity.md, dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, nagy-1979-best-of-achaeans.md, vleminck-1982-institutional-aspect-of-time.md]
+sources: [cairns-2012-ate-in-homeric-poems.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, lee-junseok-2016-odyssey-humanity.md, dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, nagy-1979-best-of-achaeans.md, vleminck-1982-institutional-aspect-of-time.md, benveniste-1969-vocabulaire-institutions-2.md]
 status: active
 entity_type: person
 corpus: [iliad, odyssey]
@@ -252,8 +252,9 @@ flowchart TB
 ## 5. 인물 전용 모듈 (Person-Specific Details)
 
 ### 5.1 영웅적 신분과 왕권의 메커니즘
-- **세습 왕권(*basileia*)의 성격**: 아가멤논의 군주권은 개인적 탁월성(*aretē*)보다 가문의 세습과 신성한 스켑트론에 의해 뒷받침된다. 그는 병력의 규모와 부의 양에서 타 영웅들을 압도하지만, 집단 전체의 군사적 결정을 독단적으로 내릴 수 없으며 원로회(*boulē gerontōn*)와 전사 민회(*agora*)의 승인을 거쳐야만 한다.
-- **연설의 수사학과 심리적 기복**: DICES 데이터베이스 분석에 따르면 아가멤논은 일리아스 내에서 46회의 직접 연설을 수행한다. 그의 연설은 위엄 있는 명령과 거만한 질책으로 시작되나, 위기 상황에서는 급격한 자기비하와 비관주의, 패배주의적 도주 제안으로 전락하는 뚜렷한 심리적 양극성을 보인다.
+- **와낙스(wanax)와 바실레우스(basileus)의 제도적 위계**: 에밀 벤베니스트([[benveniste-1969-vocabulaire-institutions-2|Benveniste 1969]], II, pp. 15–35)는 미케네 선문자 B 점토판의 `wa-na-ka`가 궁전 경제의 정점에 선 최고 군주였고 `qa-si-re-u`는 지방 길드 우두머리에 불과했음을 밝히며, 호메로스 서사시에서 아가멤논이 지닌 '인간들의 와낙스'(*wanaks andrō̂n*) 칭호가 다른 동료 장군들(*basileis*)과 질적으로 구별되는 최고 주권의 흔적임을 규명했습니다. 아가멤논은 다수의 바실레우스들 가운데 한 명이면서도, 전군을 통솔하는 배타적 최고 주권자입니다.
+- **제우스의 홀(skēptron)과 주권적 비준권(krainein)**: 아가멤논의 왕권은 헤파이토스가 벼리고 제우스가 하사한 홀(*skēptron*)에 의해 정당화됩니다. 벤베니스트에 따르면 홀은 본래 '보행자의 지팡이'이자 '전령의 신임장'으로, 왕이 제우스의 말씀을 지상에 대변하도록 공인받은 전령임을 증명합니다. 나아가 군주의 본질적 권능인 동사 크라이네인(*krainein*)은 신의 고개 끄덕임(*nutus*)에서 유래하여 인간의 말에 법적 효력을 부여하는 '주권적 비준 행위'이며, 네스토르는 아가멤논에게 만인을 위한 좋은 말이라면 타인의 발언조차 군주로서 비준(*krēēnai*, *Il.* 9.100–102)해야 할 공적 책무가 있음을 역설합니다.
+- **게라스(geras) 박탈과 아게라스토스(agérastos)의 공포**: 아가멤논이 크뤼세이스를 반환해야 했을 때 격렬하게 반발한 이유는 단순한 욕심이 아닙니다. 군대 공동체가 전공과 직분에 바치는 물질적 특권 몫인 [[concept-geras|게라스]](*géras*)를 잃는다는 것은, 전군 앞에서 최고 군주가 유일하게 무특권 상태인 아게라스토스(*agérastos*, *Il.* 1.118–119)로 전락하여 신분적 권위([[concept-time|티메]])가 치명적으로 실추됨을 의미했습니다. 아가멤논은 자신의 티메를 지키기 위해 아킬레우스의 정당한 게라스(브리세이스)를 강탈하는 파탄적 월권을 저질렀습니다.
 
 ### 5.2 11권 아리스테이아의 서사 구조
 - **무장 제의**: 키프로스 왕 키뉘라스의 흉갑, 10개의 청동 띠와 20개의 놋쇠 장식이 달린 방패, 고르고의 머리 형상이 새겨진 무구 묘사는 아킬레우스의 신성 방패 장면에 필적하는 장엄성을 띤다(_Il._ 11.19–44).
@@ -410,8 +411,10 @@ flowchart TB
 - [[entity-zeus|제우스]] — 아가멤논에게 스켑트론과 통치권을 내렸으나 기만적 꿈으로 그를 시험한 최고신
 
 ### 핵심 개념
+- [[concept-geras|게라스 (Geras)]] — 군대 공동체가 전공과 직분에 바치는 물질적 특권 몫이자 아가멤논이 집착한 명예의 외적 징표
 - [[concept-agathos|아가토스 (Agathos)]] — 군단 전체의 최고 군주로서 아가멤논이 체현한 경쟁적 가치의 정점
 - [[concept-time|티메 (Timē)]] — 아가멤논과 아킬레우스가 목숨을 걸고 다툰 영웅의 사회적 명예와 가치
+- [[concept-themis|테미스 (Themis)]] — 제우스가 아가멤논에게 홀과 함께 맡긴 신성한 통치 규범과 판례들
 - [[concept-menis|메니스 (Mēnis)]] — 아가멤논의 권력 남용으로 폭발한 아킬레우스의 우주적·신적 분노
 - [[concept-aidos|아이도스 (Aidōs)]] — 최고 군주로서 아가멤논이 결여했던 도덕적 자제력과 수치심
 - [[concept-nemesis|네메시스 (Nemesis)]] — 아가멤논의 독단과 전리품 강탈에 대해 공동체가 느끼는 의분
@@ -421,6 +424,7 @@ flowchart TB
 - [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]] — 호메로스 이후 아가멤논의 이피게네이아 희생과 귀향 참극을 확립한 서사시군
 
 ### 문헌 및 소스
+- [[benveniste-1969-vocabulaire-institutions-2|에밀 벤베니스트 (1969), 인도유럽 제도 어휘집 2]] — 와낙스(wanax) 군주권, 홀(skēptron)의 기원, 비준권(krainein) 및 게라스(geras) 박탈과 아게라스토스(agerastos) 공포 분석
 - [[adkins-1960-merit-and-responsibility|A. W. H. 애드킨스 (1960), 공적과 책임]] — 호메로스 경쟁적 가치 위계와 최고 아가토스의 권력 정당화 분석
 - [[lee-junseok-2024-iliad-jeongam|이준석 (2024), 일리아스 정암학당 역주]] — 1·9·11·19권 아가멤논 텍스트 및 주석
 - [[lee-junseok-2018-wrath-and-pity|이준석 (2018), 분노의 서사시, 연민의 서사시 일리아스]] — 아가멤논과 아킬레우스의 갈등 구조 분석

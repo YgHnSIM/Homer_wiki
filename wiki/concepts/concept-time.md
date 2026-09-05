@@ -13,7 +13,7 @@ aliases:
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-27
 updated: 2026-09-05
-sources: [adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, long-1970-morals-and-values.md, minchin-2019-homeric-religion.md, nagy-1979-best-of-achaeans.md, kearns-2006-gods-in-homeric-epics.md, lee-taesoo-2020-gods-in-audience.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md, kim-han-2019-gods-zeus-moira-and-god.md, riedinger-1976-la-time-chez-homere.md, finkelberg-1998-time-and-arete.md, vleminck-1982-institutional-aspect-of-time.md]
+sources: [adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, long-1970-morals-and-values.md, minchin-2019-homeric-religion.md, nagy-1979-best-of-achaeans.md, kearns-2006-gods-in-homeric-epics.md, lee-taesoo-2020-gods-in-audience.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md, kim-han-2019-gods-zeus-moira-and-god.md, riedinger-1976-la-time-chez-homere.md, finkelberg-1998-time-and-arete.md, vleminck-1982-institutional-aspect-of-time.md, benveniste-1969-vocabulaire-institutions-2.md]
 status: active
 korean_name: 티메
 conventional_latin: Time
@@ -238,8 +238,9 @@ graph TD
    - 티메의 핵심 기반을 전사 사회의 무력적 유효성과 전리품 재화로 파악합니다. 위기 상황에서 협동 규범이 무너지고 제로섬 방식의 지위 경쟁이 폭발하는 국면을 설명합니다 ([[adkins-1960-merit-and-responsibility|Adkins 1960]]).
 2. **상호 인정 층위 (Reciprocal Tier)** — Long(1970), Riedinger(1976), Cairns(1993):
    - Adkins의 경쟁주의 모델을 비판하며, 티메가 타인의 자리를 인정하는 필리아(φιλία) 및 아이도스(αἰδώς)와 결합된 상호 인정 체계임을 증명했습니다 ([[long-1970-morals-and-values|Long 1970]], [[riedinger-1976-la-time-chez-homere|Riedinger 1976]], [[cairns-1993-aidos|Cairns 1993]]). 특히 리댕제(Riedinger 1976)는 티메가 행위에 상응하여 사전에 객관적으로 계산·예측 가능(prévisible)한 사회적 질서 규범이며, 단순한 이해관계 교환을 넘어선 '호혜성과 계산 없는 관대함(réciprocité et générosité)'에 기반한 고유한 도덕 질서임을 입증했습니다.
-3. **신적 분배 층위 (Distributive Tier)** — Benveniste(1969), [[finkelberg-1998-time-and-arete|Finkelberg 1998]]:
-   - 마르갈리트 핀켈버그(Finkelberg 1998)는 Adkins의 경쟁적 가치 테제를 비판하며, 정형구 `ἔμμορε τιμῆς`(*émmore timês*, "명예의 몫을 나누어 받았다") 분석을 통해 티메가 경쟁 이전에 신과 운명이 사전에 배당한 '**분배적 가치‘**(Distributive Value)임을 실증했습니다. 핀켈버그는 『일리아스』 9권에서 아가멤논의 막대한 선물 제안으로 아킬레우스의 티메는 극대화되었으나 전장을 이탈함으로써 공동체를 위한 실천적 탁월성인 **’아레테**([[concept-arete|Arete]])는 완전히 상실되는 구조적 모순을 규명했습니다.
+3. **신적 분배 층위 (Distributive Tier)** — [[benveniste-1969-vocabulaire-institutions-2|Benveniste(1969)]], [[finkelberg-1998-time-and-arete|Finkelberg(1998)]]:
+   - 에밀 벤베니스트(Benveniste 1969, II, pp. 43–55)는 군대 공동체가 전공에 따라 비정기적으로 헌정하는 가변적 물질 몫인 [[concept-geras|게라스 (Geras)]]와 달리, 티메는 제우스와 운명([[concept-moira|모이라]])이 태초에 배타적으로 할당한 '영구적 신적 품위이자 위계적 지분'임을 문헌학적으로 규명했습니다 (*Il.* 15.189 크로노스 세 아들의 티메 분할). 또한 *일리아스* 3권 결투 조약 구절(*Il.* 3.275–290) 정밀 분석을 통해, 승자에게 지불하는 정당한 조공·경의로서의 티메와 거부 시 집행되는 형벌적 응징인 포이네([[concept-poine|Poine]])의 제도적 구별을 확립했습니다.
+   - 마르갈리트 핀켈버그(Finkelberg 1998)는 Adkins의 경쟁적 가치 테제를 비판하며, 정형구 `ἔμ모레 티메스`(`ἔμμορε τιμῆς`, "명예의 몫을 나누어 받았다") 분석을 통해 티메가 경쟁 이전에 신과 운명이 사전에 배당한 '**분배적 가치‘**(Distributive Value)임을 실증했습니다. 핀켈버그는 『일리아스』 9권에서 아가멤논의 막대한 선물 제안으로 아킬레우스의 티메는 극대화되었으나 전장을 이탈함으로써 공동체를 위한 실천적 탁월성인 **’아레테**([[concept-arete|Arete]])는 완전히 상실되는 구조적 모순을 규명했습니다.
 4. **표시·환유 층위 (Semiotic Tier)** — Vleminck(1982), Gernet(1948):
    - "평가 → 존중 → 가시적 선물 → 특권 → 직분"으로 이어지는 환유적 연쇄 모형을 제시하여, 가시적 표시(게라스)의 박탈이 곧 직분(티메)의 침해로 번지는 메커니즘을 규명했습니다.
 5. **법·배상 층위 (Juridical Tier)** — Vatin(1982):
@@ -404,3 +405,4 @@ graph TD
 - [[riedinger-1976-la-time-chez-homere|장클로드 리댕제 (1976)]] — 애드킨스의 힘 중심론을 비판하고 티메의 객관적 예측 가능성과 호혜성·관대함의 도덕 규범을 실증한 논문
 - [[finkelberg-1998-time-and-arete|마르갈리트 핀켈버그 (1998)]] — 애드킨스의 경쟁적 가치 테제를 비판하고 티메를 운명의 몫처럼 배당되는 '분배적 가치'로 규명하며 아레테와의 구조적 충돌을 입증한 연구
 - [[vleminck-1982-institutional-aspect-of-time|세르주 블레맹크 (1982)]] — 어원학(*kwey-)과 5단계 환유를 통해 사물 평가에서 우주적 직분/제도로의 티메 진화를 밝히고 3권 맹약의 봉건적 신종을 규명한 논문
+- [[benveniste-1969-vocabulaire-institutions-2|에밀 벤베니스트 (1969)]] — 인도유럽 비교제도어휘학을 통해 게라스(전리품 몫)와 티메(신적 위계 지분)의 제도적 분리 및 일리아스 3권 조약 구절의 티메 대 포이네 구별을 확립한 기념비적 고전

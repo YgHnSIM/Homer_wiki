@@ -4,7 +4,7 @@ aliases: [Achilles, Ἀχιλλεύς, Akhilleús, 아킬레우스, 펠레우스
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
 updated: 2026-09-05
-sources: [cairns-2012-ate-in-homeric-poems.md, lee-junseok-2018-wrath-and-pity.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, nagy-1979-best-of-achaeans.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, dodds-1951-greeks-and-irrational.md, finkelberg-1995-odysseus-and-genus-hero.md, finkelberg-1998-time-and-arete.md, vleminck-1982-institutional-aspect-of-time.md]
+sources: [cairns-2012-ate-in-homeric-poems.md, lee-junseok-2018-wrath-and-pity.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, nagy-1979-best-of-achaeans.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, dodds-1951-greeks-and-irrational.md, finkelberg-1995-odysseus-and-genus-hero.md, finkelberg-1998-time-and-arete.md, vleminck-1982-institutional-aspect-of-time.md, benveniste-1969-vocabulaire-institutions-2.md]
 status: active
 entity_type: person
 corpus: [iliad, odyssey]
@@ -82,9 +82,11 @@ flowchart TD
 
 크뤼세이스의 반환 뒤 아가멤논이 아킬레우스의 전리품 브리세이스를 가져가면서, 두 사람의 갈등은 지휘관과 전사의 권한 다툼으로 번진다(_Il._ 1.121–187). 아킬레우스는 아가멤논을 모욕하고 칼을 뽑지만, 아테나가 개입하자 살인을 실행하지는 않는다(_Il._ 1.188–222). 이 장면의 긴장은 분노의 유무가 아니라, 분노를 멈추면서도 불의의 원인을 인정하지 않는 데 있다.
 
-#### (2) 떠남의 논리: 보상으로 회복되지 않는 명예
+#### (2) 떠남의 논리: 보상으로 회복되지 않는 명예와 주권 비준권의 회수
 
-아킬레우스는 테티스를 통해 제우스에게 아카이아군의 패배를 청하고(_Il._ 1.350–412), 9권의 사절단에도 즉시 돌아가지 않는다. 그는 아가멤논이 자신을 마치 제우스의 법적 보호망도 없는 "권리 없는 떠돌이 망명객(*atī́mētos metanástēs*, _Il._ 9.648, 16.59)"처럼 취급했다고 고발하며([[vleminck-1982-institutional-aspect-of-time|Vleminck 1982]]), 막대한 선물이 손상된 관계와 사라질 생명을 되돌릴 수 없다고 선언한다(_Il._ 9.308–429). 그는 "겁쟁이나 용자나 똑같은 티메를 받는다(_Il._ 9.319)"며 전사 사회의 가치 번역 체계 전체를 불신하고, 트로이에 남아 죽는 길과 귀향하는 삶의 두 운명을 나란히 놓는다(_Il._ 9.410–416). 이 거부는 영웅 사회의 보상 체계를 비판하는 목소리로 읽힐 수 있지만, 동시에 공동체가 무너지는 동안 자신의 분노를 끝까지 밀어붙이는 선택이기도 하다.
+아킬레우스는 테티스를 통해 제우스에게 아카이아군의 패배를 청하고(_Il._ 1.350–412), 9권의 사절단에도 즉시 돌아가지 않는다. 그는 아가멤논이 자신을 마치 제우스의 법적 보호망도 없는 "권리 없는 떠돌이 망명객(*atī́mētos metanástēs*, _Il._ 9.648, 16.59)"처럼 취급했다고 고발하며([[vleminck-1982-institutional-aspect-of-time|Vleminck 1982]]), 막대한 선물이 손상된 관계와 사라질 생명을 되돌릴 수 없다고 선언한다(_Il._ 9.308–429). 그는 "겁쟁이나 용자나 똑같은 티메를 받는다(_Il._ 9.319)"며 전사 사회의 가치 번역 체계 전체를 불신하고, 트로이에 남아 죽는 길과 귀향하는 삶의 두 운명을 나란히 놓는다(_Il._ 9.410–416).
+
+특히 에밀 벤베니스트([[benveniste-1969-vocabulaire-institutions-2|Benveniste 1969]], II, pp. 35–42)가 주목하듯, 사절단을 향한 아킬레우스의 결정적 대답인 "내가 결정/비준하는 바(*kraneōn*) 그대로 완수될(*tetelesmenon estai*) 것이다"(_Il._ 9.310)라는 선언은 단순한 고집이 아닙니다. 군주의 고유 권능인 동사 크라이네인(*krainein*)은 신의 끄덕임에서 유래하여 말에 법적 집행력을 부여하는 '주권적 비준 행위'입니다. 아킬레우스는 아가멤논의 군주적 비준권에 종속되기를 거부하고, 자신의 결단에 독자적인 법적 효력을 부여함으로써 스스로 독립된 주권자이자 절대적 자율적 영웅으로 우뚝 섰음을 천명한 것입니다. 이 거부는 영웅 사회의 보상 체계를 비판하는 목소리이면서, 공동체가 무너지는 동안 자신의 주권적 결단을 끝까지 밀어붙이는 선택이기도 합니다.
 
 #### (3) 타인의 몸을 통한 귀환: 파트로클로스의 갑옷과 대체 불가능성의 수호
 
@@ -316,14 +318,17 @@ flowchart TB
 - [[entity-peleus|펠레우스]] — 아킬레우스의 필멸적 부친
 - [[entity-thetis|테티스]] — 아킬레우스의 신적 모친
 - [[concept-agathos|Agathos]] — 압도적 무력의 영웅적 아가토스 규범
+- [[concept-geras|Geras]] — 공동체가 바치는 물질적 특권 몫이자 브리세이스 강탈로 박탈당한 명예의 징표
 - [[concept-menis|Menis]] — 서사의 발단을 이루는 신적 분노
-- [[concept-time|Timê]] — 전리품과 공적 명예의 관계
+- [[concept-time|Timē]] — 전리품과 공적 명예의 관계
+- [[concept-themis|Themis]] — 신성한 관습 규범과 아킬레우스의 홀 맹세
 - [[concept-kleos|Kleos]] — 죽음 뒤의 영웅적 명성
 - [[concept-nostos|Nostos]] — 귀향과 생존의 가치
 - [[concept-eleos|Eleos]] — 프리아모스 장면에서 작동하는 연민
 - [[concept-hikesia|Hikesia]] — 프리아모스의 탄원 의례
 - [[concept-xenia|Xenia]] — 적대 중단과 식사의 사회적 규범
 - [[word-achilles|Achilles]] — 아킬레우스 이름의 어원 및 현대 영어 수용사
+- [[benveniste-1969-vocabulaire-institutions-2|에밀 벤베니스트 (1969)]] — 인도유럽 제도 어휘집: 9권 310행 크라이네인(krainein) 선언을 통한 독자적 주권 회수 및 게라스 박탈로 인한 아티모스 위기 분석
 - [[adkins-1960-merit-and-responsibility|A. W. H. 애드킨스 (1960)]] — 공적과 책임: 9권 사절단 거부와 전통적 경쟁적 가치 체계의 파탄 분석
 - [[cairns-2012-ate-in-homeric-poems|더글러스 케언스 (2012)]] — 호메로스 서사시에서의 아테: 리타이 거부와 2차 아테의 연쇄 및 18권 아킬레우스의 자책 분석
 - [[finkelberg-1995-odysseus-and-genus-hero|마르갈리트 핀켈버그 (1995)]] — 오뒷세우스와 영웅이라는 유: 일리아스형 전사 영웅주의와 저승 아킬레우스의 재해석
