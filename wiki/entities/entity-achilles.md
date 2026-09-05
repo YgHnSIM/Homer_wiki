@@ -4,7 +4,7 @@ aliases: [Achilles, Ἀχιλλεύς, Akhilleús, 아킬레우스, 펠레우스
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
 updated: 2026-09-05
-sources: [lee-junseok-2018-wrath-and-pity.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, nagy-1979-best-of-achaeans.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, dodds-1951-greeks-and-irrational.md, finkelberg-1995-odysseus-and-genus-hero.md, finkelberg-1998-time-and-arete.md]
+sources: [cairns-2012-ate-in-homeric-poems.md, lee-junseok-2018-wrath-and-pity.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, nagy-1979-best-of-achaeans.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, dodds-1951-greeks-and-irrational.md, finkelberg-1995-odysseus-and-genus-hero.md, finkelberg-1998-time-and-arete.md]
 status: active
 entity_type: person
 corpus: [iliad, odyssey]
@@ -241,6 +241,14 @@ flowchart TB
 - **제9권의 모순과 아레테의 상실**: Finkelberg(1998)는 아가멤논의 막대한 보상 제안으로 인해 아킬레우스의 분배적 명예인 **티메**([[concept-time|Time]])는 극대화되었으나, 출전을 거부하고 공동체를 구원하지 않음으로써 그의 실천적 탁월성인 **아레테**([[concept-arete|Arete]])는 완전히 소멸했다고 분석합니다. 아레테는 사적으로 소유될 수 없으며 타인을 위한 행위(Enérgeia) 속에서만 성립합니다. 따라서 18권에서 아킬레우스가 스스로를 "대지의 쓸모없는 짐(*etōsion akhthos aroures*)"으로 자책한 것은 아레테를 발휘하지 못한 영웅의 존재론적 파탄을 가리킵니다.
 - **저승에서의 선택과 두 가지 영웅주의**: Finkelberg(1995)는 『오뒷세이아』 11.488–491에서 저승의 아킬레우스가 망자의 왕 노릇보다 지상에서 가난한 자 밑에서 머슴살이(*thēteuein*)를 하겠다고 고백한 장면을 재해석합니다. *thēteuein*(머슴살이하다)은 신화적으로 포세이돈과 아폴론의 라오메돈 복종에서 보듯 *athleuein*(노고를 치르다)의 동의어입니다. 따라서 이는 영웅적 죽음에 대한 비겁한 후회가 아니라, 『일리아스』의 '전장에서의 요절과 영원한 명성'이라는 영웅주의와 『오뒷세이아』의 '삶의 노고를 감내하고 생존하는' 영웅주의 사이의 **두 영웅주의 양식 간의 선택**입니다.
 
+### 9.5 아테의 비극적 대연쇄와 아킬레우스의 실존적 자책 ([[cairns-2012-ate-in-homeric-poems|Cairns 2012]])
+
+더글러스 케언스는 아킬레우스의 서사 궤적이 『일리아스』 전체의 비극적 정조와 형식(Tragic form and feeling)을 직조하는 **아테의 대연쇄**(Grand Sequence of Atē)의 핵심 축임을 규명합니다:
+
+- **포이닉스의 리타이 우화와 2차 아테의 함정**: 제9권에서 포이닉스는 아가멤논의 탄원과 공적 배상을 거절할 경우, 기도의 여신들(리타이)이 제우스에게 간청하여 거절자 자신에게 또 다른 아테가 닥쳐 스스로 파멸을 겪게 만든다고 경고했습니다(_Il._ 9.502–514). 아킬레우스는 화해를 거부함으로써 스스로 2차 아테의 궤도에 진입했습니다.
+- **파트로클로스의 전사와 실존적 파탄**: 제16권에서 파트로클로스를 대리 출전시켰다가 잃게 된 것은 포이닉스가 경고했던 2차 아테의 비극적 실현입니다. 제18권에서 아킬레우스는 흙을 뒤집어쓰고 "나는 동료들을 구하지 못하고 대지의 쓸모없는 짐(*etōsion akhthos aroures*)으로 머물렀다"고 울부짖습니다(_Il._ 18.98–110).
+- **헥토르의 자책과의 구조적 평행성**: 케언스에 따르면 제18권 아킬레우스의 실존적 자책은 제22권 헥토르의 고백("내 자신의 아타스탈리아이로 백성을 망쳤다", _Il._ 22.104)과 완벽한 대위법을 이룹니다. 두 영웅 모두 자신의 치명적 판단 착오(Atē)가 초래한 파멸적 손해 앞에서 도덕적 유책성을 뼈저리게 통감하는 호메로스 비극적 행위주체성의 정점을 체현합니다.
+
 ## 10. 후대 전승과 수용 (Post-Homeric Tradition & Reception)
 
 ### 10.1 에픽 사이클
@@ -283,6 +291,7 @@ flowchart TB
 | 레우케의 아킬레우스 숭배는 후대 영웅신 수용의 사례다 | 후대 제의·비문 | 레우케·올비아 관련 자료 | 후대 수용 | [[vernant-1989-belle-mort\|Vernant 1989]] |
 | 스틱스강 침수와 아킬레스건은 호메로스 밖의 전승이다 | 후대 문헌 | Statius, _Achilleid_ 1.133 | 후대 수용 | [[analysis-homeric-ethics-literature-review\|호메로스 윤리학 문헌 고찰]] |
 | 제9권 티메의 극대화와 공동체 아레테의 구조적 충돌 | 호메로스 본문·문헌학 | Il. 9.607–610, 11.762–763, 16.29–35; Finkelberg 1998 | 강한 학술 추론 | [[finkelberg-1998-time-and-arete\|핀켈버그 1998]] |
+| 아테의 비극적 대연쇄: 9권 리타이 거부와 18권 '대지의 짐' 자책 | 호메로스 본문·비극 시학 | Il. 9.502–514, 18.98–110; Cairns 2012 | 강한 학술 추론 | [[cairns-2012-ate-in-homeric-poems]] |
 | 저승의 아킬레우스 발언은 두 영웅주의 양식 간의 선택이다 | 호메로스 본문·비교신화 | Od. 11.488–491; Finkelberg 1995 | 강한 학술 추론 | [[finkelberg-1995-odysseus-and-genus-hero\|핀켈버그 1995]] |
 
 ## 관련 항목
@@ -301,6 +310,7 @@ flowchart TB
 - [[concept-hikesia|Hikesia]] — 프리아모스의 탄원 의례
 - [[concept-xenia|Xenia]] — 적대 중단과 식사의 사회적 규범
 - [[word-achilles|Achilles]] — 아킬레우스 이름의 어원 및 현대 영어 수용사
+- [[cairns-2012-ate-in-homeric-poems|더글러스 케언스 (2012)]] — 호메로스 서사시에서의 아테: 리타이 거부와 2차 아테의 연쇄 및 18권 아킬레우스의 자책 분석
 - [[finkelberg-1995-odysseus-and-genus-hero|마르갈리트 핀켈버그 (1995)]] — 오뒷세우스와 영웅이라는 유: 일리아스형 전사 영웅주의와 저승 아킬레우스의 재해석
 - [[finkelberg-1998-time-and-arete|마르갈리트 핀켈버그 (1998)]] — 호메로스에게서의 티메와 아레테: 9권 티메의 극대화와 아레테의 구조적 충돌
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 명예·책임·연민의 종합 분석

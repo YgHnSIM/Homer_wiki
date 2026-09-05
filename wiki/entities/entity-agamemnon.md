@@ -3,8 +3,8 @@ title: 아가멤논 (Agamemnon)
 aliases: [Agamemnon, Ἀγαμέμνων, Agamémnōn, 아가멤논, 아트레이데스, Atreides, 인간들의 왕, anax andron, ἄναξ ἀνδρῶν, 넓은 통치자, euru kreiōn, εὐρὺ κρείων]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-28
-updated: 2026-08-28
-sources: [lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, lee-junseok-2016-odyssey-humanity.md, dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, nagy-1979-best-of-achaeans.md]
+updated: 2026-09-05
+sources: [cairns-2012-ate-in-homeric-poems.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, lee-junseok-2016-odyssey-humanity.md, dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, nagy-1979-best-of-achaeans.md]
 status: active
 entity_type: person
 corpus: [iliad, odyssey]
@@ -307,7 +307,10 @@ flowchart TB
 ### 9.1 미망(*Atē*)과 이중 동인론(*Double Agency*)
 
 - **도즈의 호메로스 도덕심리학**: E. R. Dodds(1951, *The Greeks and the Irrational*)는 19권 아가멤논의 참회 연설(_Il._ 19.78–144)을 고대 '수치 문화'(*shame-culture*)의 전형적 심리 기제로 분석한다. 아가멤논이 자신의 죄책을 제우스, 모이라, 에리뉘스의 탓으로 돌리는 것은 위선적 면피가 아니라, 주체의 인지 좌소인 프렌(*phrēn*)이 외부 신성에 의해 일시적으로 마비되는 객관적 정신 현상으로 이해되었다.
-- **이중 동기화(Lesky & Williams)**: Albin Lesky(1961)와 Bernard Williams(1993)가 정립한 '이중 동인론'에 따르면, 신성한 *Atē*의 개입과 아가멤논의 격정(*thumos*) 및 이기적 오판은 상호 배타적이지 않고 동시에 작동한다. 아가멤논은 신의 개입을 주장하면서도 막대한 배상물을 실질적으로 전달함으로써 사회적·도덕적 책임을 완수한다.
+- **이중 동기화와 케언스의 화해 수사학** ([[lloyd-jones-1971-justice-of-zeus|Lloyd-Jones 1971]], [[williams-1993-shame-and-necessity|Williams 1993]], [[cairns-2012-ate-in-homeric-poems|Cairns 2012]]):
+  - 더글러스 케언스(Cairns 2012, pp. 37–46)는 도즈의 '책임 면탈(exculpation)' 투사 가설을 비판하며, 아가멤논이 9권(비공개)과 19권(공개 집회) 모두에서 막대한 배상금([[concept-apoina|아포이나]])을 자청했음을 입증한다. 만일 아가멤논이 책임을 면탈하려 했다면 배상을 약속할 이유가 없다.
+  - 아가멤논이 신들의 아테를 거론한 핵심 목적은 **비전형적 일탈**(Aberration)의 해명이다: "그 행동은 나의 평소 성품이나 전형적인 판단이 아니라, 신적 마비로 인한 일시적이고 재앙적인 일탈이었다."
+  - 이는 최고 사령관으로서 군주적 명예([[concept-time|티메]])의 치명적 붕괴를 막으면서도, 아킬레우스에게 공식적인 체면을 세워주고 전군 앞에서 공적 화해를 완수하는 고도의 화용론적 **화해 수사학**(Reconciliation rhetoric)이다.
 
 ### 9.2 티메(*Timē*) 체계의 모순과 아이도스(*Aidōs*)의 결핍
 
@@ -348,6 +351,7 @@ flowchart TB
 ### 11.2 19권 *Atē* 연설의 성격: 진정한 성찰인가 정치적 면피인가
 
 - **도즈(Dodds)·라벨(Rabel) 진영**: 고대 그리스인의 세계관에서 신성한 미망은 주관적 변명이 아닌 객관적 실재이며, 아가멤논은 군주로서의 위신을 잃지 않으면서 아킬레우스에게 전적인 물질적 배상을 제공하는 가장 세련된 화해 의례를 수행했다고 평가한다.
+- **케언스(Cairns 2012)의 인지·화용론적 대안 모델**: 케언스는 도즈의 무책임 투사론과 태플린 등의 단순한 정치적 연행론을 종합·극복한다. 아가멤논의 발화는 책임을 부인하는 것이 아니라, 평소와 다른 '비전형적 일탈(aberration)'을 설명함으로써 군주적 티메를 보존하고 아킬레우스와의 결속을 회복하는 성숙한 화해 수사학으로 평가된다.
 - **태플린(Taplin)·민친(Minchin) 진영**: 9권에서는 아킬레우스가 없으면 패배한다는 위기감 속에서 마지못해 사과하다가 조건을 붙였고, 19권에서는 군사들 앞에서 자신의 체면을 지키기 위해 장황한 신화적 우화로 책임을 전가하는 고도의 정치적 연행(*performance*)으로 해석한다.
 
 ---
@@ -362,7 +366,7 @@ flowchart TB
 | 6권 아드라스트로스 탄원 거부 및 태아 몰살 명령 | 호메로스 본문 | _Il._ 6.37–65 | 원전 명시 | [[concept-hikesia]] |
 | 9권 막대한 배상 제시 및 복종 전제조건(*basileuteros*) | 호메로스 본문 | _Il._ 9.114–161 | 원전 명시 | [[concept-aidos]] |
 | 11권 키뉘라스 흉갑 무장 및 맹수 직유 아리스테이아 | 호메로스 본문 | _Il._ 11.19–217 | 원전 명시 | [[nagy-1979-best-of-achaeans]] |
-| 19권 아테 신화 연설과 이중 동인론적 화해 | 호메로스 본문 | _Il._ 19.78–275 | 원전 명시 | [[dodds-1951-greeks-and-irrational]] |
+| 19권 아테 신화 연설과 이중 동인론적 화해 | 호메로스 본문 | _Il._ 19.78–275 | 원전 명시 | [[cairns-2012-ate-in-homeric-poems]], [[dodds-1951-greeks-and-irrational]] |
 | 오뒷세이아 저승 네퀴아의 비극적 도살 증언과 경고 | 호메로스 본문 | _Od._ 11.405–456 | 원전 명시 | [[lee-junseok-2016-odyssey-humanity]] |
 | 미케네 선형문자 B *wa-na-ka*와 아르카익 *basileus*의 중층성 | 언어·비문 / 고고학 | Pylos Er 312, Ta 711 | 강한 학술 추론 | [[adkins-1960-merit-and-responsibility]] |
 | 슐리만 "아가멤논의 가면"(BC 16C)의 편년 불일치 | 물질/고고학 | Grave Circle A, Shaft Grave V | 원전 명시 (물질 확정) | [[entity-achilles]] |

@@ -53,6 +53,7 @@ const SOURCES = sectionLinks(wikiIndex, "소스 문서").map(([id, label]) => {
 
 const CENTRAL = {
   "cairns-1993-aidos": ["concept-aidos"],
+  "cairns-2012-ate-in-homeric-poems": ["concept-ate"],
   "scott-1980-aidos-and-nemesis": ["concept-aidos", "concept-nemesis"],
   "scott-1979-pity-and-pathos": ["concept-eleos"],
   "scott-1982-philos-philotes-xenia": ["concept-xenia"],

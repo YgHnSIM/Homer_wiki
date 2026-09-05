@@ -2199,4 +2199,23 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
   - `index.md`: 33종 소스 매트릭스 및 소스 문헌 목록 갱신, Finkelberg 1995/1998 1행 표준 서식 등재.
 - **검증**: `npm test` 전수 통과.
 
+---
+
+## [2026-09-05] feat(sources) | 더글러스 케언스 2012 소스 문서 작성 및 위키 지식망 전면 연계
+- **작업 개요**: 더글러스 케언스(Douglas Cairns)의 2012년 대표 논문 「호메로스 서사시에서의 아테(Atē in the Homeric Poems)」(『PLLS』 15)를 정밀 분석하여 학술 소스 문서(`wiki/sources/cairns-2012-ate-in-homeric-poems.md`)를 작성하고 위키 지식망 전반에 연계함.
+- **주요 내용 및 학술적 기여**:
+  - 조머슈타인(Sommerstein)의 크레타 비문 *awata* 어원 연구를 수용하여 객관적 '손해·파멸(Harm/Schaden)'이 아테의 논리적 선행 초점 의미(Focal meaning)임을 밝히고, 인지언어학 원형 이론(Prototype Theory)을 적용해 주관적 '판단 착오(Folly)'가 원인-결과의 환유(Metonymy)를 통해 대표적 전형(Best example)으로 확장된 메커니즘 규명.
+  - 도즈(Dodds 1951)의 책임 면탈(Exculpation) 투사 가설을 비판하고, 9권과 19권 아가멤논의 사과가 군주적 명예(Timē)를 보존하면서 막대한 배상(Apoina)을 제공하는 '비전형적 일탈(Aberration)'의 화해 수사학임을 논증.
+  - 1권 아가멤논의 오판 → 9권 포이닉스의 리타이 우화와 사절단 거부 → 16권 아킬레우스의 오판과 파트로클로스 전사 → 18권 아킬레우스의 실존적 자책("대지의 쓸모없는 짐") → 22권 헥토르의 파멸로 이어지는 『일리아스』의 장대한 비극적 아테의 연쇄(Grand Sequence of Atē) 규명.
+  - 핀켈버그(Finkelberg 1995)의 아테 대 아타스탈리아 기계적 이분법을 비판하고, 22권 헥토르의 독백(*Il.* 22.104: "내 자신의 아타스탈리아이로...") 분석을 통해 두 개념이 '재앙을 낳은 유책한 과오'라는 공통 지평에서 부분적 중첩(Partial overlap)을 이룸을 입증.
+- **지식베이스 연계 및 갱신**:
+  - `wiki/concepts/concept-ate.md`: 원형 이론, 손해의 논리적 선행성, 아가멤논 화해 수사학, 아타스탈리아와의 부분 중첩 반영.
+  - `wiki/entities/entity-agamemnon.md`: 19권 아테 사과 연설의 비전형적 일탈 해명 및 군주적 티메 보존과 배상 결합 수사학 반영.
+  - `wiki/entities/entity-hector.md`: 22권 독백에서의 과장된 도덕적 자책(hyperbolic self-reproach) 및 아테 연쇄의 비극적 파멸 분석 반영.
+  - `wiki/entities/entity-achilles.md`: 9.5절 신설하여 9권 리타이 거부와 18권 '대지의 짐' 자책을 아테의 비극적 대연쇄 구조로 통합.
+  - `scripts/build-concept-source-matrix.mjs`: `CENTRAL`에 `cairns-2012-ate-in-homeric-poems`(`concept-ate`) 추가.
+  - `wiki/analyses/analysis-concept-source-matrix.md`: 10개 개념 × 34개 소스 문헌 매트릭스 표 및 프론트매터 동기화.
+  - `wiki/index.md` 및 `index.md`: 34종 소스 문헌 목록 및 카탈로그 1행 표준 서식 등재.
+- **검증**: `npm test` 전수 통과 (72 documents, 2590 links, 814 allowed red links, 10 concepts × 34 sources synchronized, check:greek 통과).
+
 

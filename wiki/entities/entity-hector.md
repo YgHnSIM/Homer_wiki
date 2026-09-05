@@ -3,8 +3,8 @@ title: 헥토르 (Hector)
 aliases: [Hector, Ἕκτωρ, Héktōr, 헥토르, 프리아모스의 아들, 프리아미데스, Priamides, 코뤼타이올로스, Korythaiolos]
 tags: [type/entity, domain/iliad, domain/mythology, status/active]
 created: 2026-08-29
-updated: 2026-08-30
-sources: [redfield-1975-nature-and-culture.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, cairns-1993-aidos.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, scott-1980-aidos-and-nemesis.md, nagy-1979-best-of-achaeans.md, dodds-1951-greeks-and-irrational.md]
+updated: 2026-09-05
+sources: [cairns-2012-ate-in-homeric-poems.md, redfield-1975-nature-and-culture.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, cairns-1993-aidos.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, scott-1980-aidos-and-nemesis.md, nagy-1979-best-of-achaeans.md, dodds-1951-greeks-and-irrational.md]
 status: active
 entity_type: person
 corpus: [iliad, odyssey]
@@ -105,7 +105,7 @@ flowchart TD
 18권에서 아킬레우스의 전선 복귀 함성이 울리자, 폴리다마스는 트로이아군 전체가 즉시 성벽 안으로 철수하여 방어전을 펼쳐야 한다고 강력히 권고한다. 그러나 승리에 도취된 헥토르는 이를 맹렬히 비난하며 평원 야영을 고집하고, 트로이아인들은 아테나의 미망([[concept-ate|아테]])에 눈이 멀어 헥토르의 오판에 환호한다(_Il._ 18.243–314).
 
 #### (6) 성문 앞 고립과 결투: 도주, 기만, 최후
-22권에서 패주하는 트로이아군이 모두 성안으로 들어갔으나 헥토르 홀로 스카이아이 성문 밖에 남는다. 부모의 애절한 호소에도 불구하고 폴리다마스의 비난과 동포들의 시선([[concept-aidos|아이도스]])을 두려워하여 잔류를 결단한다(_Il._ 22.99–130). 그러나 아킬레우스가 다가오자 공포에 사로잡혀 성벽 주위를 세 바퀴 도주한다(_Il._ 22.136–166). 제우스의 황금 저울이 기울자 수호신 아폴론은 그를 떠나고(_Il._ 22.208–213), 아테나가 데이포보스로 변신하여 그를 기만한다. 결국 아킬레우스의 펠리온 물푸레나무 창에 목을 관통당해 전사한다(_Il._ 22.326–363).
+22권에서 패주하는 트로이아군이 모두 성안으로 들어갔으나 헥토르 홀로 스카이아이 성문 밖에 남는다. 부모의 애절한 호소에도 불구하고 폴리다마스의 비난과 동포들의 시선([[concept-aidos|아이도스]])을 두려워하여 잔류를 결단한다(_Il._ 22.99–130). 그는 자신의 오판으로 군대를 잃은 책임을 "내 자신의 아타스탈리아이로 백성을 망쳤다"고 통렬히 자책한다. 더글러스 케언스([[cairns-2012-ate-in-homeric-poems|Cairns 2012]], pp. 59–82)에 따르면 이는 헥토르가 사악한 인물이라서가 아니라, 치명적 오판에 대해 스스로에게 최고 수위의 가혹한 도덕적 규탄(**과장된 도덕적 자책**, hyperbolic self-reproach)을 내리는 고결한 수호자의 내면을 체현한다. 그러나 아킬레우스가 다가오자 공포에 사로잡혀 성벽 주위를 세 바퀴 도주한다(_Il._ 22.136–166). 제우스의 황금 저울이 기울자 수호신 아폴론은 그를 떠나고(_Il._ 22.208–213), 아테나가 데이포보스로 변신하여 그를 기만한다. 결국 아킬레우스의 펠리온 물푸레나무 창에 목을 관통당해 전사한다(_Il._ 22.326–363).
 
 #### (7) 시신 훼손과 트로이아의 장례: 애도와 정화
 아킬레우스는 헥토르의 시신을 전차에 매달아 파트로클로스의 무덤 주위를 끌고 다니며 모욕하지만, 아폴론이 황금 아이기스로 감싸 훼손을 막는다(_Il._ 23.184–191, 24.18–21). 24권에서 프리아모스가 적진에 들어가 몸값을 치르고 시신을 인도받아 도성으로 귀환한다. 안드로마케, 헤카베, 헬레네의 삼중 애가 속에 성대한 화장과 장례 봉분이 완성되며 서사시가 종결된다(_Il._ 24.718–804).
@@ -281,6 +281,9 @@ flowchart TB
 - **도덕 심리학과 신체-정신 감정 좌소(Thumos, Phren, Noos, Ker)**: 헥토르는 승리의 격정에 휩싸여 가슴속의 전사적 열정(*thumos*)이 팽창할 때, 상황의 본질을 꿰뚫는 폴리다마스의 예지적 지성(*noos*)을 일축하고 치명적 미망([[concept-ate|아테]])에 빠진다. 호메로스적 인간관에서 행위의 실패는 내면적 악덕이 아니라 신체적 사유 좌소(*phren*)가 흐려지는 인지적 눈멂에서 비롯된다([[dodds-1951-greeks-and-irrational|Dodds 1951]], [[williams-1993-shame-and-necessity|Williams 1993]]).
 - **아이도스(Aidōs)의 이중 구속과 네메시스(Nemesis)**: 헥토르의 윤리적 결단은 사회적 평판과 체면, 타인의 비난에 대한 두려움인 [[concept-aidos|아이도스]]와 공동체의 도덕적 응징인 네메시스(*nemesis*)의 상호주관적 규범장에 결박되어 있다. 6권에서는 가족을 두고 출전하게 만들고, 22권에서는 성벽 안으로 피신하지 못하고 죽음을 선택하게 만드는 도덕적 이중 구속(Double Bind)으로 작동한다([[cairns-1993-aidos|Cairns 1993]]).
 - **자연과 문화의 긴장**: 제임스 레드필드가 규명하듯, 헥토르는 가족과 도시라는 문명화된 질서(Culture)의 수호자이지만, 그 공동체를 지키기 위해 동원해야 하는 전사 규범 자체가 역설적으로 공동체를 파괴하는 모순을 안고 있다([[redfield-1975-nature-and-culture|Redfield 1975]]).
+- **아테와 아타스탈리아이의 교차: 비극적 과오와 과장된 도덕적 자책** ([[cairns-2012-ate-in-homeric-poems|Cairns 2012]]):
+  - 헥토르의 비극적 파멸은 『일리아스』 전체를 관통하는 장대한 아테의 연쇄(Grand Sequence of Atē: 아가멤논 → 파트로클로스 → 헥토르)의 절정을 이룬다.
+  - 마르갈리트 핀켈버그(Finkelberg 1995)가 아테(외적 미망)와 아타스탈리아(내적 죄악)를 기계적으로 분리한 것과 달리, 케언스는 헥토르의 22권 독백이 두 개념의 '부분적 중첩(partial overlap)'을 증명한다고 논증한다. 헥토르는 결코 구혼자들과 같은 파렴치한 악인이 아니며, 지휘관으로서의 치명적인 판단 착오(Atē)로 군대를 궤멸시킨 죄책감 앞에서 자신에게 가장 가혹한 도덕적 비난의 언어(*atasthaliai*)를 던진 것이다.
 
 ## 10. 후대 전승과 수용 (Post-Homeric Tradition & Reception)
 
@@ -325,7 +328,7 @@ flowchart TB
 | 12권에서 새점 징조를 무시하고 조국 방어를 유일한 길조로 선언한다 | 호메로스 본문 | _Il._ 12.243 | 원전 명시 | [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] |
 | 16권 파트로클로스 사살 및 아킬레우스 신성 무구 탈취·착용 | 호메로스 본문 | _Il._ 16.818–861, 17.194–208 | 원전 명시 | [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] |
 | 18권 회의에서 폴리다마스의 도성 철수 자문을 기각하고 평원 야영을 고집한다 | 호메로스 본문 | _Il._ 18.243–314 | 원전 명시 | [[lee-junseok-2018-wrath-and-pity\|이준석 2018]] |
-| 22권 성문 앞 독백에서 동료들에 대한 아이도스(*Aidōs*)로 인해 피신을 거부한다 | 호메로스 본문 | _Il._ 22.99–130 | 원전 명시 | [[cairns-1993-aidos\|Cairns 1993]] |
+| 22권 성문 앞 독백에서 동료들에 대한 아이도스(*Aidōs*)로 인해 피신을 거부한다 | 호메로스 본문 | _Il._ 22.99–130 | 원전 명시 | [[cairns-1993-aidos\|Cairns 1993]], [[cairns-2012-ate-in-homeric-poems\|Cairns 2012]] |
 | 22권 아킬레우스의 접근 앞에서 공포에 사로잡혀 성벽 주위를 도주한다 | 호메로스 본문 | _Il._ 22.136–166 | 원전 명시 | [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] |
 | 22권 아테나의 기만을 깨닫고 유한한 인간 조건을 긍정하며 결투에 임한다 | 호메로스 본문 | _Il._ 22.297–305 | 원전 명시 | [[vernant-1989-belle-mort\|Vernant 1989]] |
 | 아킬레우스에 의한 시신 훼손과 아폴론의 보존 및 24권 몸값 반환과 장례 | 호메로스 본문 | _Il._ 22.395–404, 24.14–21, 24.718–804 | 원전 명시 | [[vernant-1989-belle-mort\|Vernant 1989]] |
@@ -365,6 +368,7 @@ flowchart TB
 - [[lee-junseok-2018-wrath-and-pity|이준석 (2018), 「분노의 서사시, 연민의 서사시 『일리아스』」]]
 - [[nagy-1979-best-of-achaeans|그레고리 나기 (1979), 『아카이아인들의 최고 영웅』]]
 - [[dodds-1951-greeks-and-irrational|E. R. 도즈 (1951), 『그리스인들과 비합리주의』]]
+- [[cairns-2012-ate-in-homeric-poems|더글러스 케언스 (2012), 「호메로스 서사시에서의 아테」]] — 22권 헥토르의 아타스탈리아이 자책 독백과 과장된 도덕적 자기비판 분석
 - [[cairns-1993-aidos|더글러스 케언스 (1993), 『아이도스: 고대 그리스 문헌에서의 수치심과 도덕성』]]
 - [[vernant-1989-belle-mort|장-피에르 베르낭 (1989), 「전사의 아름다운 죽음」]]
 - [[analysis-homeric-ethics-literature-review|호메로스 영웅 윤리학 문헌 고찰]]
