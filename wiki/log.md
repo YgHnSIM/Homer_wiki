@@ -2327,3 +2327,13 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
     - 개념×문헌 매트릭스 표 갱신 (13개 개념 × 36편 문헌 완전 동기화).
 - **검증**: `npm test` 전체 스위트 통과 (77 documents, 2774 links, 741 allowed red links, 개념×문헌 매트릭스 13×36 동기화, 위키 도구 회귀 테스트 100%, 그리스어 읽기 UX 계약 77개 문서 준수 0건 결함).
 
+## [2026-09-06] docs(concepts) | 게라스(concept-geras) 5인 적대적 검토(homer-review) 및 정제 완료
+
+- **작업 개요**: Homer-Review Phase 4 승인안을 `wiki/concepts/concept-geras.md`에 전면 반영하고, 로그·검증·커밋까지 완료함. themis/dike 역링크는 이미 게라스를 가리키므로 미수정. `wiki/index.md` 한 줄 요약은 변경 불필요로 유지.
+- **주요 정제 내용**:
+  - **Philology**: 미케네 `ke-ra`를 잠정 제안으로 약화(점토판 번호·제도적 연속성 단정 제거); *Od.* 4.65 등심(*nō̂ta*)은 한국어 요약+행 인용으로 정정(가짜 연속 원문 제거); *Il.* 16.456(무덤·비석)과 16.457(망자 공식구) 분리; 아킬레우스 인용 *Il.* 1.355–356 통일; *geraírō* / *nō̂ta* / *ksunḗïa* 전사 정리; '봉건적 유대'를 군주 복무·명예 관계 단절로 교체.
+  - **Logic**: 게라스/티메 신인 이분법을 벤베니스트 분석 대비로 완화하고 WARNING 콜아웃 추가; 게라스 상실→아티모스를 관련 메커니즘으로 재서술; 전리품 3단계를 전형적·논쟁적 관행으로 완화; 전리품 모이라 다의성 한 줄 주석; 오스트호프 수사 하향 및 *geróntōn* 공식의 제도·은유 용법 인정; Vleminck를 §3 본문에 1회 인용(프론트매터 sources·관련 항목 유지).
+  - **Architect**: 볼드+괄호 분리, `domain/etymology` 태그, `updated: 2026-09-06`, 읽는 법 행 이후 한국어 우선.
+  - **Weaver**: 관련 항목에 themis/dike/arete 추가; 네스토르·브리세이스·메넬라오스·텔레마코스·헤르메스·아폴론·제우스·테티스 첫 언급만 엔티티 링크; word-geras.md 미생성.
+  - **Editor**: 정의문 압축, 과격 수사 중화, 오스트호프·mermaid 중복 서술 축소, ἠτίμησεν 번역의 제도적 명예 침해 톤 정리.
+- **검증**: validate-wiki passed (77 docs, 2781 links, 748 allowed red links); matrix 13x36 sync; tooling+greek checks passed
