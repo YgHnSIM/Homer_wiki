@@ -2014,7 +2014,8 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
     - \wiki/concepts/concept-time.md\: 관객석 신들의 영광의 향유(이태수 2020), 신들의 5대 이율배반성과 자의적 티메 배당(조대호 2007), 우주 내재적 자연력의 신격화와 세속적 티메 추구의 실존적 한계(김한 2013, 2019)를 반영하여 5.3절 및 문헌 목록 갱신.
     - \wiki/concepts/concept-ate.md\: 신들의 은폐된 뜻과 인간의 무지(Atē)의 공모 메커니즘(조대호 2007), 리타이-아테 우화의 조형적 형상화(김한 2019)를 반영하여 3.1.1절 및 문헌 목록 갱신.
     - \wiki/concepts/concept-menis.md\: 제우스의 숨은 뜻(Dios Boulê)과 메니스의 이중 결정론(조대호 2007), 신인동형설의 인본주의적 전환과 메니스의 정화(김한 2013)를 반영하여 3.4절 및 문헌 목록 갱신.
-- **검증**: pm test\ (\alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling.mjs\, \check:greek\) 전수 100% 통과 (오류 0개).
+- **검증**: pm test\ (\
+alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling.mjs\, \check:greek\) 전수 100% 통과 (오류 0개).
 ---
 
 ## [2026-09-03] feat(sources) | Jean-Claude Riedinger(1976) “La τιμή chez Homère” 신규 소스 수집 및 지식베이스 전면 통합
@@ -2337,3 +2338,14 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
   - **Weaver**: 관련 항목에 themis/dike/arete 추가; 네스토르·브리세이스·메넬라오스·텔레마코스·헤르메스·아폴론·제우스·테티스 첫 언급만 엔티티 링크; word-geras.md 미생성.
   - **Editor**: 정의문 압축, 과격 수사 중화, 오스트호프·mermaid 중복 서술 축소, ἠτίμησεν 번역의 제도적 명예 침해 톤 정리.
 - **검증**: validate-wiki passed (77 docs, 2781 links, 748 allowed red links); matrix 13x36 sync; tooling+greek checks passed
+
+## [2026-09-06] docs(concepts) | 테미스(concept-themis) 5인 적대적 검토(homer-review) 및 정제 완료
+
+- **작업 개요**: Homer-Review Phase 4 승인안을 `wiki/concepts/concept-themis.md`에 전면 반영하고, 로그·검증·커밋까지 완료함. 게라스/디케 상호 관련 항목은 유지하고 `concept-xenia`를 추가함.
+- **주요 정제 내용**:
+  - **Philology**: *Od.* 14.56 표준 `οὔ μοι θέμις ἔστ'` / *ou moí thémis ést'* 정정; *Od.* 9.106 `ἀθεμίστων` 1차 인용; 여성 *-i-* 어간; `θεμιστός` 후대·파생 격하; *skē̂ptron* 통일; 다어 인용 삼중 및 `δίκη δμώων` 노출.
+  - **Logic**: 키클롭스=공유 아고라·테미스테스 부재; Benveniste WARNING; *Il.* 16.796 정형적 불허; Lloyd-Jones pp. 1–9·디케 연속성 층위 분리; `δίκη δμώων`=노예 처지 대조만.
+  - **Architect**: 깨진 앵커 제거; 여신 vs 제도 θέμις 분리; Eunomia 후대·헤시오도스 표기; 볼드+괄호; `updated: 2026-09-06`.
+  - **Weaver**: 아킬레우스·오뒷세우스 및 allowed-red-links 개체 첫 언급 링크; 디케 한국어 표시; 크세니아 관련 항목; 게라스/디케 상호 유지.
+  - **Editor**: 기원 수사 압축; themis/themistes/skēptron/xenia 절 경계; 이모지·콜아웃 위키링크 없음.
+- **검증**: validate-wiki passed (77 docs, 2792 links, 753 allowed red links); matrix/tooling/greek checks EXIT 0 (themis UNLABELLED warning cleared)
