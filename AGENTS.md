@@ -116,7 +116,7 @@ status: draft | active | review | archived
 | `wiki/meta/` | 메타 가이드라인 | `<name>.md` | `entity-framework.md` | `[[entity-framework]]` |
 
 - **위키링크 작성 원칙**: 고유한 파일명은 상대경로나 폴더 경로 없이 `[[entity-achilles|아킬레우스]]`, `[[concept-menis|메니스]]`, `[[word-achilles|Achilles]]`처럼 표기합니다.
-- **중복 관리 파일 예외**: `index.md`와 `_template.md`처럼 볼트 안에 동명이 있는 파일은 `[[wiki/index|위키 색인]]`, `[[words/index|어원 사전]]`, `[[wiki/entities/_template|엔티티 템플릿]]`처럼 저장소 루트 기준 경로를 사용합니다.
+- **중복 관리 파일 예외**: `index.md`와 `_template.md`처럼 볼트 안에 동명이 있는 파일은 `[[wiki/index|위키 색인]]`, `[[words/index|어원 사전]]`, `[[wiki/entities/_template|엔티티 템플릿]]`, `[[wiki/concepts/_template|개념 템플릿]]`처럼 저장소 루트 기준 경로를 사용합니다.
 
 
 ---

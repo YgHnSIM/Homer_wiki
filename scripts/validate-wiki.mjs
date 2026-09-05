@@ -33,6 +33,7 @@ const PATH_LINK_EXCEPTIONS = new Set([
   "wiki/index",
   "words/index",
   "wiki/entities/_template",
+  "wiki/concepts/_template",
   "words/_template",
 ])
 const PUBLIC_ENTRY_FILES = new Set([

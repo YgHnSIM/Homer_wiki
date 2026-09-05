@@ -2388,3 +2388,15 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - **Weaver**: 본문 내 주요 인물/신격 최초 언급 위키링크 복원(`[[entity-achilles|아킬레우스]]`, `[[entity-hephaestus|헤파이토스]]`, `[[entity-odysseus|오뒷세우스]]`, `[[entity-anticleia|안티클레이아]]`, `[[entity-eumaeus|에우마이오스]]`, `[[entity-agamemnon|아가멤논]]`); 사법 연계 개념(`[[concept-hybris|휘브리스]]`, `[[concept-tisis|티시스]]`, `[[concept-xenia|크세니아]]`) 및 학술 문헌(`[[dodds-1951-greeks-and-irrational|도즈 (1951)]]`, `[[adkins-1960-merit-and-responsibility|애드킨스 (1960)]]`, `[[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]`, `[[analysis-concept-source-matrix|개념과 문헌 행렬]]`) 교차 링크 확충; `wiki/index.md` 및 루트 `index.md` 카탈로그 1행 표준 설명 동기화.
   - **Editor**: 3절 75행 "시시한 영수증 사실 확인 소송" 등 비학술적 속어 및 78행 "극적인 생사 대립", "고함을 지르고 원로들이 모여든 이유" 등 주관적 극화 수식어 전면 삭제; 68행 상투적 찬사("원형을 완벽히 보여주는 결정적 텍스트") 삭제 및 객관적 서술 전환; 1절 서두 만연체 단문 분할 압축.
 - **검증**: `npm test` 전체 스위트(그리스어 읽기 UX 계약, wiki-validation 77 docs/2853 links/781 allowed red links, 개념×문헌 매트릭스 13×36) 전체 통과 (EXIT 0).
+
+---
+
+## [2026-09-06] feat(skills) | homer-concept v2.0 스킬 및 개념 프레임워크 3종 세트 신규 구축
+
+- **작업 개요**: `/grill-me` 인터뷰 및 적대적 설계 합의에 따라, 호메로스 핵심 개념·사상(`wiki/concepts/`)의 신규 기획·생성(`genesis`), 기존 문서 정비(`standard-refine`), 학설 충돌 감사(`deep-audit`)를 총괄하는 `homer-concept` v2.0 스킬 및 관련 메타 지침·템플릿 3종 세트를 전격 구축함.
+- **주요 구축 산출물**:
+  - **스킬 정의서**(`.agents/skills/homer-concept/SKILL.md`): 8인 적대적 학술 평의회(비교어원, 서사문헌, 사회제도, 심리철학, 종교제의, 후대수용, 실용회의, 정합성설계), 증거 원장 우선주의, 3단계 모드, 개념 상호작용망 다이어그램 설계 규약 및 homer-review 연계 체계 정립.
+  - **개념 프레임워크 공식 지침**(`wiki/meta/concept-framework.md`): 엔티티 프레임워크와의 대칭성을 갖춘 13개 풀스펙 표준 섹션 구조, 5대 개념 도메인(`ethical`, `institutional`, `psychological`, `theological`, `cosmic`), 2축 증거 평가 체계(자료유형 5종 × 확실성 4등급) 명문화.
+  - **13섹션 표준 개념 템플릿**(`wiki/concepts/_template.md`): 그리스어 읽기 UX 계약, 형태론 표 4열 분리 규약, Mermaid 상호작용망, 12절 증거 매트릭스 표가 완비된 표준 템플릿 수립.
+  - **규격 검증 및 연동**: `scripts/validate-wiki.mjs`의 `PATH_LINK_EXCEPTIONS`에 `wiki/concepts/_template` 등록 및 `AGENTS.md` 2.5조 중복 관리 파일 예외 동기화.
+- **검증**: `npm test` 전체 스위트(그리스어 읽기 UX 계약, wiki-validation 78 docs/2866 links/784 allowed red links, 개념×문헌 매트릭스 13×36 동기화) 완벽 통과 (EXIT 0).
