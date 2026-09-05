@@ -4,7 +4,7 @@ aliases: [타임라인, 히스토리, 변경 기록]
 tags: [type/meta, domain/culture, status/active]
 unlisted: true
 created: 2026-08-14
-updated: 2026-09-05
+updated: 2026-09-06
 sources: []
 status: active
 ---
@@ -2375,3 +2375,16 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - **Weaver**: 하단 관련 항목 최상단에 법의 수여자 `[[entity-zeus|제우스]]` 추가; `[[entity-nestor|네스토르]]`, `[[concept-poine|포이네]]`, `[[concept-hybris|휘브리스]]`, `[[concept-eunomia|에우노미아]]`, `[[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]`, `[[dodds-1951-greeks-and-irrational|도즈 (1951)]]`, `[[adkins-1960-merit-and-responsibility|애드킨스 (1960)]]` 링크 확충; `wiki/index.md` 및 루트 `index.md`의 테미스 카탈로그 요약을 공적 판례 및 공동체 질서 총체로 동기화 최신화.
   - **Editor**: 27행 주춧돌 테메틀라 관련 방어적 사족 삭제 및 동원어 괄호 단순화; 40행, 135행의 현학적 '좌소' 표현을 '원문 속격 복수형'으로 직관적 순화; 파트로클로스 투구 예시를 종교적 금기 맥락의 3문장으로 대폭 압축; 훈계조 방어 수식 제거.
 - **검증**: `npm test` 전체 스위트(그리스어 읽기 UX 계약, wiki-validation 77 docs/2832 links/774 allowed red links, 개념×문헌 매트릭스 13×36) 전체 통과 (EXIT 0).
+
+---
+
+## [2026-09-06] docs(concepts) | 디케(concept-dike) 서브에이전트 5인 적대적 검토(homer-review) 심화 정제 완료
+
+- **작업 개요**: 5개 독립 서브에이전트(Philologist, Logician, Architect, Weaver, Editor)의 적대적 공방전(homer-review)을 거쳐 승인된 정제안을 `wiki/concepts/concept-dike.md`, `wiki/index.md`, 루트 `index.md`에 전면 반영함.
+- **주요 정제 내용**:
+  - **Philology**: 1절 형태론 표의 유령어(`ithū̂ia díkē`) 박멸 및 헤시오도스 용례(`ἰθεῖα δίκη`, *Op.* 36, 224) 명시; 2절 머메이드 다이어그램 내 '낭독'을 구두 사법 선포인 '구두 선포'로 정정하고 전사 표기(`díkēn ithúntata eípoi`) 정상화; *Od.* 14.59 호메로스 헥사메테론 운율 어순 복원(`ἡ γὰρ δμώων δίκη ἐστὶν αἰεὶ δειδιότων`); *Od.* 11.218 원문 누락 종속절 복원(`ὅτε κέν τε θάνωσιν`) 및 '도리' 유교화 번역을 육신 해체의 '정해진 본성/존재 조건'으로 정정; *Il.* 19.180 문법적 청자(`ἔχῃσθα`)가 아킬레우스임을 명시하고 '사법적 권리'를 '관습적 몫/보상의 결손 없음'으로 문맥화.
+  - **Logic**: 등재 출처인 휴 로이드-존스(Lloyd-Jones 1971)의 제우스 우주적 도덕 정의 테제를 제4절 및 5절에 전면 복원; 벤베니스트(1969)의 씨족 간 세속 사법 정형구 모델과 도즈(1951)·애드킨스(1960)의 전도덕적 단계 진화론에 맞서 제우스의 디케가 서사시 초기부터 일관되게 작동했음을 밝히는 `> [!WARNING] 학설 대립: 절차 사법론 대 제우스의 우주적 정의` 콜아웃 신설; 디카이오스(dikaios) 개념을 사법 복종의 순환논증에서 나그네 환대(크세니아)와 신에 대한 경외라는 본래의 종교-윤리적 범주로 정립.
+  - **Architect**: 1절 형태론 표를 AGENTS.md 2.1 지침에 따라 `그리스어 실제형 | 학술 전사 | 품사 및 형태론 | 의미 및 문헌학적 맥락` 4열 표준 체계로 재구성; 볼드 내 원어 괄호 분리(`**폭력**(biē)`, `**동해보복**(피의 복수권)`) 및 볼드 내 이탤릭 중첩 해제; 표 내부 위키링크 파이프 이스케이프(`\|`) 전면 적용; 프론트매터 aliases 확장(`dikaspolos`, `디카스폴로스`, `대외 사법`, `올곧은 판결`, `itheîa díkē`); 본문 링크 한국어화(`[[concept-themis|테미스]]`) 및 관련 항목 규격 일치(`[[entity-achilles|아킬레우스 (Achilles)]]`).
+  - **Weaver**: 본문 내 주요 인물/신격 최초 언급 위키링크 복원(`[[entity-achilles|아킬레우스]]`, `[[entity-hephaestus|헤파이토스]]`, `[[entity-odysseus|오뒷세우스]]`, `[[entity-anticleia|안티클레이아]]`, `[[entity-eumaeus|에우마이오스]]`, `[[entity-agamemnon|아가멤논]]`); 사법 연계 개념(`[[concept-hybris|휘브리스]]`, `[[concept-tisis|티시스]]`, `[[concept-xenia|크세니아]]`) 및 학술 문헌(`[[dodds-1951-greeks-and-irrational|도즈 (1951)]]`, `[[adkins-1960-merit-and-responsibility|애드킨스 (1960)]]`, `[[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]`, `[[analysis-concept-source-matrix|개념과 문헌 행렬]]`) 교차 링크 확충; `wiki/index.md` 및 루트 `index.md` 카탈로그 1행 표준 설명 동기화.
+  - **Editor**: 3절 75행 "시시한 영수증 사실 확인 소송" 등 비학술적 속어 및 78행 "극적인 생사 대립", "고함을 지르고 원로들이 모여든 이유" 등 주관적 극화 수식어 전면 삭제; 68행 상투적 찬사("원형을 완벽히 보여주는 결정적 텍스트") 삭제 및 객관적 서술 전환; 1절 서두 만연체 단문 분할 압축.
+- **검증**: `npm test` 전체 스위트(그리스어 읽기 UX 계약, wiki-validation 77 docs/2853 links/781 allowed red links, 개념×문헌 매트릭스 13×36) 전체 통과 (EXIT 0).

@@ -3,7 +3,7 @@ title: 위키 색인
 aliases: [전체 목록, 인덱스, 파일 목차, 호메로스 위키 전체 카탈로그]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-09-03
+updated: 2026-09-06
 sources: []
 status: active
 ---
@@ -90,7 +90,7 @@ status: active
 - [[concept-ate|아테 (Ate)]] — 신들이 내린 일시적 판단 마비와 치명적 과오 및 파멸의 연쇄
 - [[concept-geras|게라스 (Geras)]] — 공동체가 군주와 영웅에게 헌정하는 물질적 특권 몫이자 최상급 등심 고기
 - [[concept-themis|테미스 (Themis)]] — 제우스가 군주에게 위탁한 신성한 선례이자 아고라의 공적 판례 및 공동체 질서의 총체
-- [[concept-dike|디케 (Dike)]] — 상이한 씨족 간 분쟁 시 재판관이 올곧은 선을 그어 선고하는 정형구적 대외 사법
+- [[concept-dike|디케 (Dike)]] — 상이한 씨족 간 분쟁 시 재판관이 올곧은 선을 긋는 정형구적 대외 사법이자 제우스의 우주적 도덕 정의
 - [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]] — 트로이아 전쟁 전말을 잇는 서사시 연작
 
 작성 예정 (링크 없음): 아레테, 클레오스, 노스토스, 모이라.
