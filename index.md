@@ -62,7 +62,7 @@ status: active
 ### 분석
 
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 전 세계 연구사 및 핵심 윤리 개념 종합 분석
-- [[analysis-concept-source-matrix|개념과 문헌]] — 핵심 개념 10종과 학술 문헌 34종의 맞물림 매트릭스
+- [[analysis-concept-source-matrix|개념과 문헌]] — 핵심 개념 10종과 학술 문헌 35종의 맞물림 매트릭스
 - [[analysis-polytropos|폴리트로포스 추가 연구]] — *polytropos*의 원전 용례와 역사적 의미 수용사
 
 ### 문헌
@@ -77,7 +77,8 @@ status: active
 - [[lee-junseok-2024-iliad-jeongam|이준석 (2024), 일리아스 정암학당 해제]] — 분노(메니스)와 연민(엘레오스)의 서사적 이행과 한국어 강독 해제
 - [[finkelberg-1995-odysseus-and-genus-hero|마르갈리트 핀켈버그 (1995), 오뒷세우스와 영웅이라는 유]] — 일리아스형 전사 요절 모델과 오뒷세이아형 노고·생존 모델의 영웅 류 재정의
 - [[finkelberg-1998-time-and-arete|마르갈리트 핀켈버그 (1998), 호메로스에게서의 티메와 아레테]] — 분배적 지위 가치로서의 티메와 실천적 탁월성인 아레테의 구조적 충돌
-- 전체 34종 소스 문헌 목록 및 상세 해제는 [[wiki/index#소스 문서|위키 색인 (소스 문서)]]에서 확인할 수 있습니다.
+- [[vleminck-1982-institutional-aspect-of-time|세르주 블레맹크 (1982), 호메로스 티메의 제도적 측면]] — 어원학(*kwey-)과 5단계 환유를 통해 사물 평가에서 우주적 직분/제도로의 티메 진화를 규명한 연구
+- 전체 35종 소스 문헌 목록 및 상세 해제는 [[wiki/index#소스 문서|위키 색인 (소스 문서)]]에서 확인할 수 있습니다.
 
 ---
 

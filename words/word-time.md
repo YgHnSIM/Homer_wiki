@@ -28,8 +28,8 @@ aliases:
   - 명예정치
 tags: [type/word, domain/etymology, domain/iliad, domain/odyssey, domain/culture, status/active]
 created: 2026-08-27
-updated: 2026-08-27
-sources: [Beekes 2010 Etymological Dictionary of Greek, Chantraine 1968 DELG, Oxford English Dictionary, LSJ, Lewis & Short]
+updated: 2026-09-05
+sources: [Beekes 2010 Etymological Dictionary of Greek, Chantraine 1968 DELG, Oxford English Dictionary, LSJ, Lewis & Short, "Vleminck 1982 L'aspect institutionnel de la time"]
 status: active
 ---
 
@@ -98,6 +98,19 @@ graph TD
 | `ἀτιμάω` / `ἠτίμησεν` | *atimáō* / *ētímēsen* | ἀτιμάω, 직설법 부정과거 3인칭 단수 | 자리를 빼앗다, 몫을 박탈하다, 모욕하다 | 아가멤논의 크리세스·아킬레우스 모욕 (*Il.* 1.11, 1.356) |
 | `ἄτιμος` / `ἀτίμητος` | *átimos* / *atī́mētos* | ἄτιμος / ἀτίμητος, 형용사 남성 주격 단수 | 티메를 박탈당한 자, 권리 없는 자 | 아킬레우스의 실존적 배제 비유 (*Il.* 1.171, 9.648) |
 | `ἔμμορε τιμῆς` | *émmore timē̂s* | μείρομαι + τιμή 속격 (정형구) | 티메의 몫을 받았다 (배당받다) | 왕과 신의 신성한 사전 배당 (*Il.* 1.278–279, 15.189) |
+| `ἐπιτιμήτωρ` | *epitimḗtōr* | ἐπιτιμάω 파생 남성 명사 주격 단수 | (약자의 티메를) 지키는 자, 응징자 | 제우스가 탄원자·이방인의 보증인임 (*Od.* 9.270) |
+| `ὁμότιμος` | *homótimos* | ὁμός + τιμή 복합 형용사 주격 단수 | 동등한 위엄/몫을 지닌 자 | 삼형제 신들의 대등한 티메 선언 (*Il.* 15.186) |
+| `ἀποτίνω` | *apotínō* | ἀπό + τίνω 합성 동사 | 갚다, 정치적 신종 조공을 바치다 | 트로이아가 바칠 영구적 티메 조공 (*Il.* 3.286) |
+
+### [Vleminck(1982)의 5단계 환유적 의미 확장 연쇄]
+
+고전문헌학자 세르주 블레맹크(Serge Vleminck 1982)는 어근 `*kwey-`와 동사 `tíō`에서 명사 `timḗ`로 이어지는 제도화 경로를 5단계 역사적 환유(Metonymy)로 정식화했습니다:
+
+1. **정량적 평가** (*Évaluation*): 사물과 인물의 가치를 시선으로 헤아려 산정 (*Il.* 23.700–705 삼각솥=소 12마리, 여인=소 4마리)
+2. **인격적 존중** (*Estime*): 탁월성, 지혜, 정의(dike)를 높이 평가함 (*Od.* 14.83–84)
+3. **가시적 표시** (*Marque visible*): 존경을 상석, 고기, 잔, 전리품([[concept-geras|Geras]]) 등 물질적 선물로 구체화 (*Il.* 23.648–649 네스토르의 잔)
+4. **특권 및 권리** (*Privilège / Droit*): 영웅이 자신의 가치에 상응하는 표시를 당연히 요구할 권리 (*Il.* 9.319)
+5. **직분 및 제도** (*Charge / Institution*): 원인과 결과의 완전한 환유를 통해 신과 인간 사회의 공식적 직무와 우주적 배당으로 고착됨 (*Il.* 15.185–195)
 
 ---
 
@@ -210,5 +223,6 @@ graph TD
 - [[words/index|호메로스 어원·영단어 사전 인덱스]]
 - Robert Beekes (2010), *Etymological Dictionary of Greek*, Brill.
 - Pierre Chantraine (1968), *Dictionnaire étymologique de la langue grecque* (DELG), Klincksieck.
+- [[vleminck-1982-institutional-aspect-of-time|Serge Vleminck (1982)]], "L'aspect institutionnel de la τιμή homérique à la lumière de l'étymologie", *Živa Antika* 32, pp. 151–164.
 - *Oxford English Dictionary* (OED Online), Oxford University Press.
 - H. G. Liddell & R. Scott (1940), *A Greek-English Lexicon* (LSJ), Clarendon Press.

@@ -67,6 +67,7 @@ const CENTRAL = {
   "adkins-1960-merit-and-responsibility": ["concept-agathos"],
   "riedinger-1976-la-time-chez-homere": ["concept-time"],
   "finkelberg-1998-time-and-arete": ["concept-time"],
+  "vleminck-1982-institutional-aspect-of-time": ["concept-time"],
 }
 
 function sourcesField(markdown) {

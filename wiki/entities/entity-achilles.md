@@ -4,7 +4,7 @@ aliases: [Achilles, Ἀχιλλεύς, Akhilleús, 아킬레우스, 펠레우스
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
 updated: 2026-09-05
-sources: [cairns-2012-ate-in-homeric-poems.md, lee-junseok-2018-wrath-and-pity.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, nagy-1979-best-of-achaeans.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, dodds-1951-greeks-and-irrational.md, finkelberg-1995-odysseus-and-genus-hero.md, finkelberg-1998-time-and-arete.md]
+sources: [cairns-2012-ate-in-homeric-poems.md, lee-junseok-2018-wrath-and-pity.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, nagy-1979-best-of-achaeans.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, dodds-1951-greeks-and-irrational.md, finkelberg-1995-odysseus-and-genus-hero.md, finkelberg-1998-time-and-arete.md, vleminck-1982-institutional-aspect-of-time.md]
 status: active
 entity_type: person
 corpus: [iliad, odyssey]
@@ -84,11 +84,11 @@ flowchart TD
 
 #### (2) 떠남의 논리: 보상으로 회복되지 않는 명예
 
-아킬레우스는 테티스를 통해 제우스에게 아카이아군의 패배를 청하고(_Il._ 1.350–412), 9권의 사절단에도 즉시 돌아가지 않는다. 그는 막대한 선물이 손상된 관계와 사라질 생명을 되돌릴 수 없다고 말하며, 트로이에 남는 삶과 귀향하는 삶의 두 운명을 나란히 놓는다(_Il._ 9.308–429, 9.410–416). 이 거부는 영웅 사회의 보상 체계를 비판하는 목소리로 읽힐 수 있지만, 동시에 공동체가 무너지는 동안 자신의 분노를 끝까지 밀어붙이는 선택이기도 하다.
+아킬레우스는 테티스를 통해 제우스에게 아카이아군의 패배를 청하고(_Il._ 1.350–412), 9권의 사절단에도 즉시 돌아가지 않는다. 그는 아가멤논이 자신을 마치 제우스의 법적 보호망도 없는 "권리 없는 떠돌이 망명객(*atī́mētos metanástēs*, _Il._ 9.648, 16.59)"처럼 취급했다고 고발하며([[vleminck-1982-institutional-aspect-of-time|Vleminck 1982]]), 막대한 선물이 손상된 관계와 사라질 생명을 되돌릴 수 없다고 선언한다(_Il._ 9.308–429). 그는 "겁쟁이나 용자나 똑같은 티메를 받는다(_Il._ 9.319)"며 전사 사회의 가치 번역 체계 전체를 불신하고, 트로이에 남아 죽는 길과 귀향하는 삶의 두 운명을 나란히 놓는다(_Il._ 9.410–416). 이 거부는 영웅 사회의 보상 체계를 비판하는 목소리로 읽힐 수 있지만, 동시에 공동체가 무너지는 동안 자신의 분노를 끝까지 밀어붙이는 선택이기도 하다.
 
-#### (3) 타인의 몸을 통한 귀환: 파트로클로스의 갑옷
+#### (3) 타인의 몸을 통한 귀환: 파트로클로스의 갑옷과 대체 불가능성의 수호
 
-함선이 위협받자 아킬레우스는 파트로클로스에게 자신의 갑옷을 입혀 전장에 나가게 한다. 이 선택은 그가 직접 돌아가지 않으면서도 자신의 이름과 전투적 위상을 타인의 몸에 실어 보내는 장면이다(_Il._ 16.1–47). 그러나 파트로클로스가 헥토르에게 죽자 대리된 전투는 대리할 수 없는 상실로 되돌아온다(_Il._ 16.843–854).
+함선이 위협받자 아킬레우스는 파트로클로스에게 자신의 갑옷을 입혀 전장에 나가게 한다. 이 선택은 그가 직접 돌아가지 않으면서도 자신의 이름과 전투적 위상을 타인의 몸에 실어 보내는 장면이다(_Il._ 16.1–47). 아킬레우스는 파트로클로스에게 적을 배에서 몰아내되 트로이 성벽까지 추격하지 말라고 엄히 경고하는데, 이는 그가 단독으로 트로이를 함락하여 자신을 "더욱 명예 없는 자(*atimóteron*, _Il._ 16.89–90)"로 만드는 것을 막고 자신의 대체 불가능한 티메를 지키기 위한 고도의 인정 경제적 계산이었다([[vleminck-1982-institutional-aspect-of-time|Vleminck 1982]]). 그러나 파트로클로스가 헥토르에게 죽자 대리된 전투는 대리할 수 없는 상실로 되돌아온다(_Il._ 16.843–854).
 
 #### (4) 애도와 복귀: 무구가 다시 몸을 만든다
 
@@ -313,6 +313,7 @@ flowchart TB
 - [[cairns-2012-ate-in-homeric-poems|더글러스 케언스 (2012)]] — 호메로스 서사시에서의 아테: 리타이 거부와 2차 아테의 연쇄 및 18권 아킬레우스의 자책 분석
 - [[finkelberg-1995-odysseus-and-genus-hero|마르갈리트 핀켈버그 (1995)]] — 오뒷세우스와 영웅이라는 유: 일리아스형 전사 영웅주의와 저승 아킬레우스의 재해석
 - [[finkelberg-1998-time-and-arete|마르갈리트 핀켈버그 (1998)]] — 호메로스에게서의 티메와 아레테: 9권 티메의 극대화와 아레테의 구조적 충돌
+- [[vleminck-1982-institutional-aspect-of-time|세르주 블레맹크 (1982)]] — 호메로스 티메의 제도적 측면: 아티메토스 메타나스테스(무권리자) 취급과 파트로클로스 출전의 티메 계산
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 명예·책임·연민의 종합 분석
 - [[wiki/entities/_template|엔티티 표준 마크다운 템플릿]]
 - [[entity-framework|엔티티 프레임워크 작성 지침]]

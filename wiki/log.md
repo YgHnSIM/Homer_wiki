@@ -2218,4 +2218,25 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
   - `wiki/index.md` 및 `index.md`: 34종 소스 문헌 목록 및 카탈로그 1행 표준 서식 등재.
 - **검증**: `npm test` 전수 통과 (72 documents, 2590 links, 814 allowed red links, 10 concepts × 34 sources synchronized, check:greek 통과).
 
+---
+
+## [2026-09-05] feat(sources) | 세르주 블레맹크 1982 소스 문서 작성 및 티메 제도론 위키 전면 통합
+- **작업 개요**: 세르주 블레맹크(Serge Vleminck)의 1982년 논문 「어원학의 관점에서 본 호메로스적 τιμή의 제도적 측면」(L'aspect institutionnel de la τιμή homérique à la lumière de l'étymologie, 『Živa Antika』 32)을 정밀 분석하여 학술 소스 문서(`wiki/sources/vleminck-1982-institutional-aspect-of-time.md`)를 신규 작성하고 관련 위키 지식망 전반에 연계함.
+- **주요 내용 및 학술적 기여**:
+  - 인도유럽조어(PIE) 어근 *kwey-(지속적 관찰과 지적 평가)와 동사 티오(tīō)에서 출발하여 '평가(évaluation) → 존중(estime) → 가시적 표시(marque visible) → 특권/권리(privilège/droit) → 직분/제도(institution)'로 이어지는 5단계 환유적(Metonymic) 의미론적 진화 경로 규명.
+  - 『일리아스』 23.700–705(파트로클로스 장례 경기 삼각솥=소 12마리, 여인=소 4마리)를 통해 동사 티오가 대상을 시각적으로 관찰하고 정량적 재화 척도로 가치를 매기는 물리적 평가 행위임을 실증.
+  - 『일리아스』 3.284–290(파리스-메넬라오스 결투 조약)의 `τιμὴν ἀποτινέμεν`을 기존 주석가들의 단순 손해배상금(포이네) 오독에서 구출하여, 트로이아가 아르고스 패권에 영구히 바쳐야 할 '봉건적 신종(hommage féodal)이자 종주권 승인 조공'임을 문헌학적으로 논증.
+  - 사회적 약자의 티메 규명: 신과 인간에게 버림받은 극소수의 추방자(아티메토스 메타나스테스)를 제외한 모든 인간은 고유한 티메를 지니며, 무력이 없는 이방인·탄원자·걸인의 티메는 최고신 제우스가 직접 감시자·보증인(Zeus epitimētōr)으로 개입하여 성립함을 밝힘.
+  - 호메로스 시대 자발적 감정(찬탄, 관대함)의 의무화에서 출발하여 5세기 고전기 아테네 폴리스의 '시민권(citoyenneté)'과 그 박탈인 아티미아(atimia) 법제로 이어지는 제도사적 계보 완성.
+- **지식베이스 연계 및 갱신**:
+  - `wiki/sources/vleminck-1982-institutional-aspect-of-time.md`: 신규 소스 문서 구축 (프론트매터, 논증 계보도, 5단계 환유 표, 3권 조약 분석, 핵심 그리스어/외국어 원문 주해).
+  - `wiki/concepts/concept-time.md`: 제1절 5단계 환유 연쇄 표 및 23.700–705 평가 용례 보강, 2.3절 3권 결투 조약의 봉건적 신종 티메 분석 신설, 소스 및 참고문헌 갱신.
+  - `words/word-time.md`: 제2절에 Vleminck 5단계 환유 연쇄 추가, 형태론 표에 `ἐπιτιμήτωρ`, `ὁμότιμος`, `ἀποτίνω` 보강 및 소스/참고문헌 갱신.
+  - `wiki/entities/entity-agamemnon.md`: 1권 군주의 초과권력(surdroit, hybris)과 불법적 아티미아 분석 보강, 3권 결투 조약의 봉건적 신종 요구 항목 신설, 관련 소스 갱신.
+  - `wiki/entities/entity-achilles.md`: 9권 아티메토스 메타나스테스(무권리자) 취급에 대한 실존적 분노 보강, 16권 파트로클로스 출전 제한의 아티모테론 경고와 인정 경제학적 함의 보강, 관련 소스 갱신.
+  - `scripts/build-concept-source-matrix.mjs`: `CENTRAL`에 `vleminck-1982-institutional-aspect-of-time`(`concept-time`) 추가.
+  - `wiki/analyses/analysis-concept-source-matrix.md`: 10개 개념 × 35개 소스 문헌 매트릭스 표 및 프론트매터 동기화.
+  - `wiki/index.md` 및 `index.md`: 35종 소스 문헌 목록 및 카탈로그 1행 표준 서식 등재.
+
+
 
