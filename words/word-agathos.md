@@ -14,8 +14,8 @@ transmissions: [pre_greek, greek, latin, old_french, middle_english, modern_engl
 aliases: ["Agathos (아가토스 / ἀγαθός)", "Agathos (아가토스)", Agathos, ἀγαθός, agathos, agathós, Agathism, agathism, Agatha, kalokagathia, 아가토스, 아가티즘]
 tags: [type/word, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-08-26
-sources: [Beekes 2010 Etymological Dictionary of Greek, Chantraine 1968 DELG, Oxford English Dictionary, LSJ]
+updated: 2026-09-05
+sources: [Beekes 2010 Etymological Dictionary of Greek, Chantraine 1968 DELG, Oxford English Dictionary, LSJ, Adkins 1960 Merit and Responsibility]
 status: active
 ---
 
@@ -163,6 +163,7 @@ graph LR
 | **5** | *Agatha*의 앵글로-노르만 차용 | 앵글로-노르만/중세영어 | Hanks et al. (*Oxford Dictionary of First Names*) | **정설/문헌 입증** |
 | **6** | Robert Southey의 *Agathism* (1817) 조어 | 근대 영어 | Oxford English Dictionary (OED s.v. *agathism*) | **정설/문헌 입증** |
 | **7** | *Kalokagathia*의 19세기 학술 차용 (1860) | 근대 영어 | Oxford English Dictionary (OED s.v. *kalokagathia*) | **정설/문헌 입증** |
+| **8** | 결과주의적 전사 규범 및 칼로카가티아 도덕화 | 가치론/의미론 | Adkins (1960: chs. 2–4) | **정설/학술 입증** |
 
 ---
 
@@ -171,10 +172,12 @@ graph LR
 - [[concept-agathos|아가토스 (Agathos)]] — 영웅적 탁월성과 결과주의적 성공의 귀족 규범
 - [[concept-arete|아레테 (Arete)]] — 전사로서의 기능적 탁월성과 무용
 - [[concept-time|티메 (Timê)]] — 영웅의 존재 가치를 증명하는 명예와 전리품
+- [[concept-kalokagathia|칼로카가티아 (Kalokagathia)]] — 고전기 미와 선의 일치 및 도덕화된 이상
 - [[concept-xenia|크세니아 (Xenia)]] — 아가토스의 생존과 안도를 위한 손님 환대 제도
 - [[concept-kakos|카코스 (Kakos)]] — 아가토스의 대척점에 있는 무능과 패배의 수치
 - [[entity-achilles|아킬레우스 (Achilles)]] — 압도적 무력의 아리스토스
 - [[entity-hector|헥토르 (Hector)]] — 공동체를 수호하는 시민적 아가토스
+- [[adkins-1960-merit-and-responsibility|A. W. H. 애드킨스 (1960), 『공적과 책임』]] — 아가토스의 결과주의적 가치 분석과 칼로카가티아 도덕화 과정
 
 ### 어원 지식베이스 색인
 - [[words/index|어원 사전 전체 카탈로그 (Words Index)]]

@@ -316,6 +316,7 @@ graph TD
 - [[concept-dike|디케 (Dike)]] — 제우스의 섭리에 기초한 정의와 형벌
 - [[concept-phren|프렌 (Phren)]] — 아테에 의해 마비되는 인간의 가슴/횡격막이자 사리분별의 좌소
 - [[concept-hamartia|하마르티아 (Hamartia)]] — 아리스토텔레스 비극론의 비극적 결함 및 판단 착오
+- [[concept-agathos|아가토스 (Agathos)]] — 아테의 미망과 결과주의적 평가로 시험받는 영웅적 전사 규범
 - [[concept-arete|아레테 (Arete)]] — 영웅적 탁월성과 결과주의적 성공 가치
 - [[entity-eris|에리스 (Eris)]] — 불화의 여신이자 헤시오도스 신통기에서 아테의 어머니로 묘사되는 신격
 

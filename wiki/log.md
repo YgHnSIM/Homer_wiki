@@ -2237,6 +2237,51 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
   - `scripts/build-concept-source-matrix.mjs`: `CENTRAL`에 `vleminck-1982-institutional-aspect-of-time`(`concept-time`) 추가.
   - `wiki/analyses/analysis-concept-source-matrix.md`: 10개 개념 × 35개 소스 문헌 매트릭스 표 및 프론트매터 동기화.
   - `wiki/index.md` 및 `index.md`: 35종 소스 문헌 목록 및 카탈로그 1행 표준 서식 등재.
+---
 
+## [2026-09-05] docs(sources) | 아서 애드킨스 1960 『공적과 책임』 소스 문서 v3.0 심층 전면 고도화
+- **작업 개요**: 새로 추가된 원본 PDF 사료 `raw/W. H. Adkins, “Merit and Responsibility A Study in Greek Values“ (1960).pdf`를 바탕으로 `wiki/sources/adkins-1960-merit-and-responsibility.md` 문서를 '호메로스 위키 심층 도시에 규격 v3.0 (8대 표준 모듈 체계)'에 맞추어 373행 풀스펙으로 전면 고도화 및 대폭 확충함.
+- **주요 구현 및 학술적 심화 내용**:
+  - **모듈 1: 서지 정보 및 지성사적 배경**: J. L. 오스틴과 길버트 라일의 옥스퍼드 일상언어학파 분석철학 방법론의 문헌학적 적용, 칸트적 의무론('ought implies can')과 선의지 편견 비판, 국가 공권력 및 경찰 부재 하에서 가문(Oikos)의 생존 투쟁과 결과주의 평가 모델의 필연성 정립.
+  - **모듈 2: 개념 전복 매트릭스 및 Mermaid 논증 계보도**: 호메로스 가치어의 2단계 위계 구조(제1계층 경쟁적 가치 vs 제2계층 협력적 가치) 도출, 근대 칸트주의적 도덕 모델과의 대조 매트릭스, 다이어그램 시각화.
+  - **모듈 3: 전 챕터별 정밀 독해 및 논증 단계 전수 분석**:
+    - 제1장: 도덕적 평가어의 작동 기제와 사법 체계 부재에 따른 도덕적 책임의 주변화.
+    - 제2장: 자유의지와 강제(노예의 아레테 상실, 원인으로서의 신들의 비도덕성과 패배 면책 불가능성, 모이라의 물리적 한계, 결과 중심 문화의 가혹한 실존적 위험).
+    - 제3장: 착오와 도덕적 과오(아가토스와 아레테의 군사적 성공 귀속성, 카코스·아이스크론의 무능 낙인, 중앙 공권력 부재 하 아레테 기준의 사회적 정당화, 여성의 가사·정절 중심 종속적 아레테, 협력적 덕목의 무력함, 23권 전차경주 에우멜로스 vs 안틸로코스 간 '설득적 정의' 출현, 아가토스의 권리와 사회적 제재 한계).
+    - 제4장: 정의의 역사(비도덕적 올림포스 신들 vs 도덕적 제우스 신앙의 맹아, 헤시오도스 농민 시학을 통한 정의와 아레테의 결정적 결합).
+    - 제5장: 오염(호메로스 서사시에서의 미아스마 부재, 살인의 비종교적 성격, 포이네 배상금 및 자발적 망명을 통한 세속적 분쟁 종결).
+  - **모듈 4: 문헌학적 어휘 사전**: `transliteration_system: homeric-oriented-v1` 체계에 따른 10대 핵심 어휘(agathos, arete, kakos, aischron, time, dikaios, aidos, moira, ate, poine) 정밀 주해 표 구축.
+  - **모듈 5: 핵심 원문 인용 및 심층 주석**: 애드킨스 원저의 핵심 영문 인용문 5선 및 결과 중심 문화, 변명 불가능성, 사법 부재, 신들의 비도덕성, 미아스마 부재에 대한 심층 주석 수록.
+  - **모듈 6: 서사시 전편 정밀 에피소드 매핑 테이블**: 『일리아스』 1, 2, 6, 9, 16, 19, 22, 23권 및 『오뒷세이아』 1, 14, 22권의 12대 핵심 에피소드에 대한 애드킨스의 결과주의적 해석과 후속 비판 학설 대조 표 완비.
+  - **모듈 7: 학술 논쟁사 및 비판적 공방**: 6대 핵심 비판사(Long 1970 적절성의 기준, Lloyd-Jones 1971 제우스의 정의, Williams 1993 원초적 인과성과 온전한 행위주체성, Cairns 1993/2012 아이도스 내면성 및 아테 비전형적 일탈론, Finkelberg 1998 분배적 티메 및 상호 탁월성/참여 규범, Scott 1979-1982 비경쟁적 태도의 실효성) 체계적 집대성.
+  - **모듈 8: 연구 질문 및 세미나 토론 쟁점**: 4대 심층 학술 토론 질문 수록.
+- **규정 준수 및 린트 검증**:
+  - AGENTS.md 전면 준수: 이모지 일체 배제, 콜아웃 내부 위키링크 완전 제거, 표 내부 위키링크 파이프(`\|`) 이스케이프, 볼드 문장부호 분리 규칙 엄수.
+  - 검증 도구: `node scripts/validate-wiki.mjs` 통과 (73개 문서 린트 완전 무결), `node scripts/build-concept-source-matrix.mjs --check` 통과, `npm run check:greek` 통과.
 
+---
 
+## [2026-09-05] feat(concepts,entities,words) | Adkins 1960 결과주의·경쟁적 가치 테제 심층 통합 및 지식망 정비
+- **작업 개요**: Adkins 1960(『Merit and Responsibility』)의 핵심 테제(경쟁적 가치 vs 협력적 가치 이분법, 결과주의적 아가토스 규범, 국가 사법체계 부재 하 오이코스 보전의 필연성, 23권 전차경주 설득적 정의, 헥토르의 아이도스 외적 사회적 제재 등)를 연관 핵심 개념·엔티티·단어 문서군에 정밀 통합하고 교차 링크망을 완성함.
+- **주요 수정 및 지식베이스 연계 내용**:
+  - `wiki/concepts/concept-agathos.md`:
+    - 1.1절에 Adkins 제2장(자유의지와 강제, 신적 원인 작용/모이라와 결과주의적 평가) 및 제3장(중앙 공권력 부재 하 오이코스 보전의 필연성) 심층 통합.
+    - 1.2절에 A. A. Long(1970)의 적절성 기준(Standard of Appropriateness) 및 M. Finkelberg(1998)의 상호 탁월성 추구(Mutual emulation of equals) 비판 대조 심화.
+    - 4.3절에 23권 에우멜로스 vs 안틸로코스의 전차 경주 설득적 정의(Persuasive justice) 논쟁에 대한 Adkins 제3장 분석 정밀 보강.
+  - `wiki/entities/entity-agamemnon.md`:
+    - 3.1절 1권 및 9권 서사 요약에 Adkins 분석 반영.
+    - 9.3절 신설: '경쟁적 가치의 정점과 군주적 티메의 구조적 정당화 (Adkins 1960)'.
+    - 12절 증거 매트릭스에 1·9권 아가토스 권력 테제 추가 및 관련 항목에 `concept-agathos`, `adkins-1960-merit-and-responsibility` 연계.
+  - `wiki/entities/entity-achilles.md`:
+    - 9.2절 개편: '경쟁적 가치 체계의 파탄과 실존적 행위주체성: 애드킨스 대 윌리엄스·잰커 논쟁' (Adkins 1960의 전통 경쟁적 가치 체계 붕괴 vs Williams 1993의 행위주체성 복원 vs Zanker 1994의 인간적 심장 윤리 대조 심화).
+    - 11절 학술 논쟁 및 관련 항목에 `concept-agathos`, `adkins-1960-merit-and-responsibility` 연계.
+  - `wiki/entities/entity-hector.md`:
+    - 9절에 Adkins(1960, ch. 3) 분석 반영: 6권 및 22권 헥토르의 아이도스가 내면적 양심이 아니라, 하층민(*kakoi*)과 동료 아가토이(*agathoi*)의 외적 비난에 대한 실존적 두려움이자 아가토스 규범의 엄격한 외적 사회적 제재(External social sanction)임을 상술.
+    - 12절 증거 매트릭스 및 하단 관련 항목에 `concept-agathos`, `adkins-1960-merit-and-responsibility` 연계.
+  - `words/word-agathos.md`:
+    - 프론트매터 `updated: 2026-09-05`, `sources`에 `Adkins 1960 Merit and Responsibility` 추가.
+    - 3절에 Adkins의 결과주의적 전사 규범(*results-culture*) 분석 보강.
+    - 4.1절에 고전기 폴리스 시민 사회 이행과 협력적 가치(Dikaiosyne, Sophrosyne) 포섭, **칼로카가티아**(Kalokagathia, 美善一體)로의 도덕화 과정 대조 심화.
+    - 8절 증거 매트릭스 및 하단 관련 항목에 `concept-kalokagathia` 및 Adkins 1960 추가.
+  - `wiki/concepts/concept-ate.md`: 관련 항목에 `concept-agathos` 교차 링크 보강.
+- **검증**: `node scripts/validate-wiki.mjs` 통과 (73 documents, 2680 links, 838 allowed red links), `node scripts/build-concept-source-matrix.mjs --check` 동기화 확인, `npm run check:greek` 통과.
