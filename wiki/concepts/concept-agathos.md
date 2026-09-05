@@ -3,8 +3,8 @@ title: 아가토스 (Agathos)
 aliases: [Agathos, ἀγαθός, agathós, 아가토스, 아가토이, Agathoi, 아리스토스, Aristos, 탁월한 자, "아가토스 (Agathos, ἀγαθός) — 영웅적 탁월성과 결과주의적 성공의 귀족 규범", 아가토스 (Agathos / ἀγαθός) — 영웅적 탁월성과 결과주의적 성공의 귀족 규범]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-17
-updated: 2026-08-26
-sources: [scott-1979-pity-and-pathos.md, scott-1981-some-greek-terms.md, adkins-1960-merit-and-responsibility.md, scott-1982-philos-philotes-xenia.md, long-1970-morals-and-values.md, macintyre-1981-after-virtue-ch10.md, williams-1993-shame-and-necessity.md, lee-junseok-2024-iliad-jeongam.md]
+updated: 2026-09-05
+sources: [scott-1979-pity-and-pathos.md, scott-1981-some-greek-terms.md, adkins-1960-merit-and-responsibility.md, scott-1982-philos-philotes-xenia.md, long-1970-morals-and-values.md, macintyre-1981-after-virtue-ch10.md, williams-1993-shame-and-necessity.md, lee-junseok-2024-iliad-jeongam.md, finkelberg-1998-time-and-arete.md]
 status: active
 korean_name: 아가토스
 conventional_latin: Agathos
@@ -26,8 +26,10 @@ cssclasses: [greek-reading-page]
 
 중앙집권적 사법 기관이나 치안 조직이 부재했던 시대에 공동체의 존망은 오직 전사들의 물리적 전투력에 달려 있었으므로, 아가토스 규범은 엄격한 **결과주의**(Results-culture)에 기반했습니다. 아무리 선한 의도를 품었더라도 전장에서 패배하거나 가문을 지키지 못하면 즉각 비난어인 **카코스**([[concept-kakos|Kakos]], κακός / 무능하고 비천한 자)로 전락했습니다.
 
+그러나 마르갈리트 핀켈버그([[finkelberg-1998-time-and-arete|Finkelberg 1998]])는 애드킨스의 단순 성공 결과주의를 근본적으로 비판했습니다. 그리스인들에게 경쟁(*agōn*)은 단순한 승패가 아니라 **동등자 간의 상호 탁월성 추구** (Mutual emulation of equals)를 통해 필멸자가 도달할 수 있는 '탁월성의 정점'(*ákron aretês*)에 이르는 장이었습니다. 따라서 오디세우스가 『일리아스』 11.408–410에서 독백하듯, 오직 비천한 자(*kakoi*)만이 싸움을 피하며, 진정한 아가토스는 승패의 위험을 무릅쓰고 전열에 서서 싸우는 **행위 자체** (Participation as such)를 통해 규정됩니다.
+
 > [!WARNING] 모순/이설 발견: 아가토스의 도덕성과 결과주의에 관한 학설 대립
-> A. W. H. Adkins(1960)는 아가토스가 순수하게 군사적·물질적 성공에 종속된 '경쟁적 가치'이며 도덕적 의무와 무관하다고 보았습니다. 반면 A. A. Long(1970)과 Alasdair MacIntyre(1981)는 아가토스가 단순히 힘만 센 무뢰한이 아니라, 공동체 내부의 역할에 상응하는 '적절성의 기준(Kata moiran)'과 '신성한 관습법(Themis)'을 준수할 도덕적 기대를 함께 짊어진 전인적 탁월성이었음을 입증했습니다.
+> A. W. H. Adkins(1960)는 아가토스가 순수하게 군사적·물질적 성공에 종속된 '경쟁적 가치'이며 도덕적 의무와 무관하다고 보았습니다. 반면 A. A. Long(1970)과 Alasdair MacIntyre(1981), 그리고 Margalit Finkelberg(1998)는 아가토스가 단순히 힘만 센 무뢰한이나 결과적 승리자가 아니라, 공동체 내부의 역할에 상응하는 '적절성의 기준(Kata moiran)'과 전열에 당당히 서는 실천적 행위(Enérgeia)를 결합한 전인적 탁월성이었음을 입증했습니다.
 
 ---
 
@@ -161,4 +163,5 @@ graph TD
 - [[macintyre-1981-after-virtue-ch10]] (알래스데어 매킨타이어: 덕의 상실 10장 — 영웅 사회에서의 역할과 덕)
 - [[williams-1993-shame-and-necessity]] (버나드 윌리엄스: 수치심과 필연성 — 호메로스 행위주체성 복원)
 - [[lee-junseok-2024-iliad-jeongam]] (이준석: 일리아스 집중강좌 — 영웅적 아가토스와 명예 체계 해제)
+- [[finkelberg-1998-time-and-arete|마르갈리트 핀켈버그 (1998)]] (호메로스에게서의 티메와 아레테 — 애드킨스 결과주의 비판 및 상호 탁월성 추구로서의 아곤 규명)
 - [[analysis-homeric-ethics-literature-review]] (호메로스 서사시 윤리학 연구사 종합 분석)

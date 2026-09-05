@@ -4,7 +4,7 @@ aliases: [타임라인, 히스토리, 변경 기록]
 tags: [type/meta, domain/culture, status/active]
 unlisted: true
 created: 2026-08-14
-updated: 2026-09-03
+updated: 2026-09-05
 sources: []
 status: active
 ---
@@ -2158,3 +2158,45 @@ aw/에 새로 추가된 엘리자베스 민친의 2019년 논문 「호메로스
 - **작업 개요**: words/index.md에서 표제어 목록 mermaid를 삭제하고 AGENTS.md와 homer-word 스킬에 재작성 금지를 넣음.
 - **변경 사항**: words/index.md 섹션 삭제. Odyssey review 주기 유지. AGENTS.md 규칙 추가. homer-word Phase 5 및 안티패턴 등재.
 - **검증**: 린트 실행.
+
+---
+
+## [2026-09-05] feat(sources) | 마르갈리트 핀켈버그 1995 소스 문서 작성 및 위키 연계
+- **작업 개요**: 마르갈리트 핀켈버그(Margalit Finkelberg)의 1995년 대표 논문 「오뒷세우스와 영웅이라는 유(Odysseus and the Genus 'Hero')」(『Greece & Rome』 42.1)를 정밀 분석하여 학술 소스 문서(`wiki/sources/finkelberg-1995-odysseus-and-genus-hero.md`)를 작성하고 위키 지식망에 연계함.
+- **주요 내용 및 학술적 반영**:
+  - 일리아스형 순수 영웅주의(생명보다 명예 우위, 젊은 날의 전장 전사)와 오뒷세이아형 노고 영웅주의(모진 시련과 굴욕의 감내, 귀환과 질서 회복)의 체계적 대조 매트릭스 및 논증 계보도 구축.
+  - 서사시 내 ἆθλος(*aethlos*) 및 동계어의 용례를 전수 분석하여 이 개념이 개별 영웅 생애에 체계적으로 적용되는 인물이 오직 오디세우스(6회)와 헤라클레스(5회)뿐임을 규명.
+  - 저승에서의 아킬레우스 발언(*Od.* 11.488–491)에 쓰인 θητευέμεν(*thēteuémen*)이 ἀθλεύειν(*athleuō*)과 동의어로 기능함을 밝혀, '영웅적 죽음 대 비영웅적 삶'이 아니라 '두 가지 영웅주의 양식 간의 선택'임을 입증한 핀켈버그의 핵심 논지 반영.
+  - 고대 그리스 역사적 영웅 숭배(Hero-cult)에서 전몰자 숭배가 예외적이며 고난을 완수한 영웅 제의가 지배적이었던 제의 실재와 민간 윤리(미므네르모스, 테오그니스, 프로디코스, 디오도로스 시쿨로스)와의 연계성 상술.
+- **검증**: `npm test` 전수 통과 (71 documents, 2510 links, 797 allowed red links, 10 concepts × 33 sources synchronized).
+
+---
+
+## [2026-09-05] feat(sources) | 마르갈리트 핀켈버그 1998 소스 문서 작성 및 위키 연계
+- **작업 개요**: 마르갈리트 핀켈버그(Margalit Finkelberg)의 1998년 논문 「호메로스에게서의 티메와 아레테(Timē and Aretē in Homer)」(CQ 48.1)를 정밀 분석하여 학술 소스 문서(`wiki/sources/finkelberg-1998-time-and-arete.md`)를 작성하고 위키 지식망에 연계함.
+- **주요 내용 및 학술적 반영**:
+  - 애드킨스(Adkins 1960)의 '경쟁적 가치' 독점 모델을 그리스 아곤(Agon)의 본질인 동등자 간 상호 탁월성 추구(Mutual emulation) 및 참여 자체(Participation as such)의 규범으로 비판.
+  - 호메로스 명예(Timē)가 경쟁으로 쟁취되는 가치가 아니라 탄생과 부에 의해 선험적으로 주어지는 분배적 가치(Distributive value)임을 유일한 공식구 '에모레 티메스'(*émmore timês*) 및 제23권 장례 경기 창던지기 무혈 우승 분석을 통해 입증.
+  - 아레테(Aretē)의 어원과 용례를 전수 조사하여 본질이 '기능적 적합성(Fitness for function)'이며, 사적으로 독점될 수 없고 공동체를 위한 공적 실천(에네르게이아)으로만 실재함을 규명.
+  - 제11·16·18권에서 아킬레우스의 실존적 위기가 '분배적 티메의 극대화'와 '실천적 아레테의 무화(대지의 쓸모없는 짐)' 사이의 구조적 충돌임을 해명.
+  - 호메로스 텍스트의 다층적 구술 전승 구조(전통적 줄거리 vs 혁신적 연설) 속에서 기원전 8세기 폴리스 형성기 시인이 부상하는 시민적·중장보병적 아레테의 시각으로 전통 귀족의 티메 추구를 비판적으로 재해석한 이데올로기적 모순(Seaford) 분석 반영.
+- **연계 및 인덱스 갱신**:
+  - `scripts/allowed-red-links.json`: `entity-patroclus` 추가.
+  - `wiki/index.md`: `## 소스 문서` 카탈로그에 핀켈버그 1995 및 1998 1행 표준 서식으로 등재.
+  - `scripts/build-concept-source-matrix.mjs`: `CENTRAL` 매핑에 `finkelberg-1998-time-and-arete`(`concept-time`) 추가.
+  - `wiki/analyses/analysis-concept-source-matrix.md`: 10개 개념 × 33개 문헌 매트릭스 표 및 프론트매터 동기화.
+- **검증**: `npm test` 전수 통과 (71 documents, 2510 links, 797 allowed red links, 10 concepts × 33 sources synchronized, check:greek 통과).
+
+---
+
+## [2026-09-05] docs(concepts, entities) | 핀켈버그(1995, 1998) 핵심 테제 지식베이스 전면 통합
+- **작업 개요**: 마르갈리트 핀켈버그(Margalit Finkelberg)의 신규 소스 2종 수집에 발맞추어 관련 핵심 개념(`concept-time`, `concept-agathos`) 및 엔티티(`entity-odysseus`, `entity-achilles`), 루트 카탈로그(`index.md`)를 전면 보완·통합함.
+- **주요 반영 내용**:
+  - `wiki/concepts/concept-time.md`: 5.1절에 Finkelberg(1998)의 분배적 가치(Distributive value) 테제와 제9권 모순(티메 극대화 대 아레테 상실) 상세 반영 및 sources/참고문헌 갱신.
+  - `wiki/concepts/concept-agathos.md`: Adkins의 단순 결과주의 비판 및 그리스 아곤(Agōn)의 동등자 간 상호 탁월성 추구(Mutual emulation)와 전열 참여 자체(Participation as such) 규범 반영.
+  - `wiki/entities/entity-odysseus.md`: 9.4절 신설하여 영웅 류(Genus 'Hero')의 재정의와 헤라클레스적 노고(*athlos*)의 영웅주의 및 *polutlas*의 지구력 반영, 증거 매트릭스 및 관련 항목 갱신.
+  - `wiki/entities/entity-achilles.md`: 9.4절 신설하여 제9권 티메 극대화와 아레테 상실의 실존적 파탄(대지의 쓸모없는 짐) 및 저승(*Od.* 11.488–491) 머슴살이 발언의 두 영웅주의 선택 독해 반영, 증거 매트릭스 및 관련 항목 갱신.
+  - `index.md`: 33종 소스 매트릭스 및 소스 문헌 목록 갱신, Finkelberg 1995/1998 1행 표준 서식 등재.
+- **검증**: `npm test` 전수 통과.
+
+

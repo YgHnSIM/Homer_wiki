@@ -3,8 +3,8 @@ title: 오디세우스 (Odysseus)
 aliases: [Odysseus, Ὀδυσσεύς, Odusseús, 오딧세우스, 라에르테스의 아들, 라에르티아데스, Laertiades, 폴뤼트로포스, Polytropos, 오디세우스 (Odysseus / Ὀδυσσεύς)]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-25
-updated: 2026-08-28
-sources: [detienne-1974-cunning-intelligence.md, nagy-1979-best-of-achaeans.md, bittlestone-2005-odysseus-unbound.md, greek-ministry-2025-odysseion-ithaca.md, lee-junseok-2016-odyssey-humanity.md, lee-junseok-2024-iliad-jeongam.md, scott-1982-philos-philotes-xenia.md]
+updated: 2026-09-05
+sources: [detienne-1974-cunning-intelligence.md, nagy-1979-best-of-achaeans.md, bittlestone-2005-odysseus-unbound.md, greek-ministry-2025-odysseion-ithaca.md, lee-junseok-2016-odyssey-humanity.md, lee-junseok-2024-iliad-jeongam.md, scott-1982-philos-philotes-xenia.md, finkelberg-1995-odysseus-and-genus-hero.md]
 status: active
 entity_type: person
 corpus: [iliad, odyssey]
@@ -292,6 +292,13 @@ flowchart LR
 
 구혼자들은 오이코스를 소모하고 손님을 모욕하며 텔레마코스의 죽음을 모의한다. 작품은 이들을 비난하고 신들의 개입으로 응징을 승인한다. 동시에 무장 해제된 사람들, 하녀들, 유족에게 이어지는 폭력은 정당한 처벌과 과잉 보복의 경계를 남긴다. 따라서 구혼자 전투를 질서의 완전한 회복으로만 읽거나, 반대로 작품이 제시하는 응징의 논리를 전혀 고려하지 않는 것도 모두 불충분하다. *Nemesis*를 ‘존재론적 죄악’의 이름으로 사용하는 것은 호메로스 어휘의 용법과 맞지 않는다.
 
+### 9.4 영웅 류(Genus 'Hero')의 재정의와 헤라클레스적 노고의 영웅주의
+
+마르갈리트 핀켈버그([[finkelberg-1995-odysseus-and-genus-hero|Finkelberg 1995]])는 『일리아스』가 전장에서의 영광스러운 요절(*kalos thanatos*)을 영웅의 순수한 정의로 삼은 반면, 『오뒷세이아』의 오디세우스는 삶의 온갖 비천함과 시련을 감내하며 끝까지 살아남아 과업을 완수하는 '**노고**'(ἆθλος, *aethlos*)의 영웅주의를 체현한다고 논증합니다.
+
+- **헤라클레스와의 구조적 상동성**: 호메로스 서사시 전편에서 *aethlos*(노고·고난)가 생애 전체의 본질적 속성으로 규정되는 인물은 오직 오디세우스와 헤라클레스 둘뿐입니다. 두 영웅은 활의 소지, 왕성한 식욕, 비천한 자 밑에서의 복종과 굴욕 감내, 그리고 산 자로서 저승에 내려갔다 귀환하는 **카타바시스**(Katabasis)의 완수라는 독보적 공통점을 공유합니다. 저승에서 헤라클레스가 오디세우스에게 건네는 "너 또한(καὶ σύ)"이라는 인사는 오디세우스를 자신과 동등한 '노고의 영웅'으로 승인하는 문학적 정점입니다(*Od.* 11.617–619).
+- **지구력과 인간적 미덕** (Polutlas): 오디세우스는 단순히 계략을 꾸미는 자를 넘어, '많이 견뎌낸 자'(πολύτλας, *polútlas*)로서 필멸자의 취약성을 온몸으로 통과하여 고통을 위대한 성취로 전환하는 그리스 영웅 숭배(Hero-cult) 제의의 원형에 가장 충실한 인물입니다.
+
 ## 10. 후대 전승과 수용 (Post-Homeric Tradition & Reception)
 
 보존된 에픽 사이클의 요약은 『소일리아스』에서 아킬레우스 무구의 심판, 트로이 정찰, 팔라디온 절취와 목마 계획을 다룬다. 필록테테스를 데려오는 인물은 디오메데스이고, 목마 제작자는 아테나의 지시를 받은 에페이오스이다. 이는 『일리아스』와 『오뒷세이아』의 직접 서사에 추가된 후대 전승으로 분리해야 한다([[concept-epic-cycle|에픽 사이클]]).
@@ -329,6 +336,7 @@ flowchart LR
 | 아기오스 아타나시오스와 로이조스 동굴은 서로 다른 층위의 자료를 제공한다 | 물질자료·후대 수용 | 그리스 문화부 2025; Mycenaean Atlas; 로이조스 동굴 봉헌 명문 | 강한 학술 추론 | [[greek-ministry-2025-odysseion-ithaca\|그리스 문화부·Mycenaean Atlas 2025]] |
 | 멧돼지 어금니 투구는 미케네 물질문화의 기억을 환기한다 | 호메로스 본문·물질자료 | _Il._ 10.261–271; 고고학 종합 자료 | 강한 학술 추론 | [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] |
 | 오디세우스의 후대 전승은 호메로스 원전과 분리해야 한다 | 후대 문헌 | 『소일리아스』·『텔레고니아』 요약·소포클레스 비극 | 후대 수용 | [[concept-epic-cycle\|에픽 사이클]] |
+| 헤라클레스적 노고(athlos)와 영웅 류(genus)의 공유 | 서사시 어휘 분석·제의사 | Od. 11.617–626; Finkelberg 1995; Burkert 1985 | 강한 학술 추론 | [[finkelberg-1995-odysseus-and-genus-hero\|핀켈버그 1995]] |
 
 ## 관련 항목
 
@@ -349,5 +357,6 @@ flowchart LR
 - [[bittlestone-2005-odysseus-unbound|Bittlestone et al. 2005]] — 이타케 비정 논쟁
 - [[greek-ministry-2025-odysseion-ithaca|그리스 문화부·Mycenaean Atlas 2025]] — 이타케 고고학과 오디세이온 자료
 - [[lee-junseok-2016-odyssey-humanity|이준석 2016]] — 『오뒷세이아』의 인간성과 귀환
+- [[finkelberg-1995-odysseus-and-genus-hero|마르갈리트 핀켈버그 (1995)]] — 오뒷세우스와 영웅이라는 유: 일리아스형 전사 영웅주의와 오뒷세이아형 노고·생존 영웅주의의 대비
 - [[analysis-concept-source-matrix|개념과 문헌]]
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]

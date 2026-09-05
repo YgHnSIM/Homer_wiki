@@ -65,6 +65,7 @@ const CENTRAL = {
   "shay-1994-achilles-in-vietnam": ["concept-menis"],
   "adkins-1960-merit-and-responsibility": ["concept-agathos"],
   "riedinger-1976-la-time-chez-homere": ["concept-time"],
+  "finkelberg-1998-time-and-arete": ["concept-time"],
 }
 
 function sourcesField(markdown) {

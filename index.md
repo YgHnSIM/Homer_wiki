@@ -62,7 +62,7 @@ status: active
 ### 분석
 
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 전 세계 연구사 및 핵심 윤리 개념 종합 분석
-- [[analysis-concept-source-matrix|개념과 문헌]] — 핵심 개념 10종과 학술 문헌 31종의 맞물림 매트릭스
+- [[analysis-concept-source-matrix|개념과 문헌]] — 핵심 개념 10종과 학술 문헌 33종의 맞물림 매트릭스
 - [[analysis-polytropos|폴리트로포스 추가 연구]] — *polytropos*의 원전 용례와 역사적 의미 수용사
 
 ### 문헌
@@ -74,7 +74,9 @@ status: active
 - [[lloyd-jones-1971-justice-of-zeus|휴 로이드-존스 (1971), 제우스의 정의]] — 호메로스 초기 서사시의 일관된 도덕 질서와 제우스의 정의(Dikē) 복원
 - [[nagy-1979-best-of-achaeans|그레고리 나기 (1979), 아카이아인들의 최고 영웅]] — 서사시 전통과 영웅 제의론 및 클레오스 탐구
 - [[lee-junseok-2024-iliad-jeongam|이준석 (2024), 일리아스 정암학당 해제]] — 분노(메니스)와 연민(엘레오스)의 서사적 이행과 한국어 강독 해제
-- 전체 31종 소스 문헌 목록 및 상세 해제는 [[wiki/index#소스 문서|위키 색인 (소스 문서)]]에서 확인할 수 있습니다.
+- [[finkelberg-1995-odysseus-and-genus-hero|마르갈리트 핀켈버그 (1995), 오뒷세우스와 영웅이라는 유]] — 일리아스형 전사 요절 모델과 오뒷세이아형 노고·생존 모델의 영웅 류 재정의
+- [[finkelberg-1998-time-and-arete|마르갈리트 핀켈버그 (1998), 호메로스에게서의 티메와 아레테]] — 분배적 지위 가치로서의 티메와 실천적 탁월성인 아레테의 구조적 충돌
+- 전체 33종 소스 문헌 목록 및 상세 해제는 [[wiki/index#소스 문서|위키 색인 (소스 문서)]]에서 확인할 수 있습니다.
 
 ---
 
