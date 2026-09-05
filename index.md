@@ -45,7 +45,10 @@ status: active
 - [[concept-eleos|엘레오스 (Eleos)]] — 연민과 오익토스
 - [[concept-agathos|아가토스 (Agathos)]] — 영웅적 탁월자와 결과주의적 성공
 - [[concept-ate|아테 (Ate)]] — 신들이 내린 일시적 판단 마비와 치명적 과오 및 파멸의 연쇄
-- [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]] — 트로이 전쟁 전말을 잇는 서사시 연작
+- [[concept-geras|게라스 (Geras)]] — 공동체가 군주와 영웅에게 헌정하는 물질적 특권 몫이자 최상급 등심 고기
+- [[concept-themis|테미스 (Themis)]] — 제우스가 홀과 함께 맡긴 신성한 선례이자 가문과 오이코스를 규율하는 씨족 내부법
+- [[concept-dike|디케 (Dike)]] — 상이한 씨족 간 분쟁 시 재판관이 올곧은 선을 그어 선고하는 정형구적 대외 사법
+- [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]] — 트로이아 전쟁 전말을 잇는 서사시 연작
 
 ### 어원
 

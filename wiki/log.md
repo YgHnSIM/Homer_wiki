@@ -2349,3 +2349,16 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - **Weaver**: 아킬레우스·오뒷세우스 및 allowed-red-links 개체 첫 언급 링크; 디케 한국어 표시; 크세니아 관련 항목; 게라스/디케 상호 유지.
   - **Editor**: 기원 수사 압축; themis/themistes/skēptron/xenia 절 경계; 이모지·콜아웃 위키링크 없음.
 - **검증**: validate-wiki passed (77 docs, 2792 links, 753 allowed red links); matrix/tooling/greek checks EXIT 0 (themis UNLABELLED warning cleared)
+
+---
+
+## [2026-09-06] docs(concepts) | 게라스(concept-geras) 서브에이전트 5인 적대적 검토(homer-review) 2차 심화 정제 완료
+
+- **작업 개요**: 5개 독립 서브에이전트(Philologist, Logician, Architect, Weaver, Editor)의 적대적 공방전을 거쳐 도출된 Homer-Review Phase 4 승인안을 `wiki/concepts/concept-geras.md` 및 루트 `index.md`에 전면 반영함.
+- **주요 정제 내용**:
+  - **Philology**: *Il.* 16.457 단일 행 시구(`τύμβῳ τε στήλῃ τε· τὸ γὰρ γέρας ἐστὶ θανόντων`)의 허위 분리 및 가짜 주석 완전 철회/단일 행 통합; `σάκος γέρον`(*Od.* 22.184) 이중 악센트 정자법 교정; `*ētímēsen*` 전사 규약(*homeric-oriented-v1*) 환원; 헤르메스 찬가 행 번호 분리(121–122행 등심, 128–129행 각 모이라에 게라스 안배); 균등 분배 원전(*Il.* 1.125–126, *Od.* 9.42) 보충; 등심 및 `γεραίρω` 서사 용례(*Il.* 7.321 아이아스, *Od.* 14.437–438 에우마이오스) 신설; 아가멤논 대사 규범어 `ἐπεὶ οὐδὲ ἔοικε` 복원.
+  - **Logic**: 벤베니스트 초월적 이분법의 자가당착을 블레맹크(1982)의 5단계 환유 연쇄 및 핀켈버그(1998)의 선천적 vs 후천적 티메 개념으로 정합화; 리댕제(1976) 학설 왜곡 정정(군주권 충돌론에서 확고한 티메 규범 질서에 대한 아가멤논의 일탈·폭거로 환원); 아게라스토스(위신 결손)와 아티모스(실존적 명예 실추)의 비대칭성 논증 보강; 오스트호프 비판의 무게중심을 음운론·형태론적 단절로 전면 재배치; 테메노스-게라스의 공동체 보상 성격 균형 정립.
+  - **Architect**: 형태론 표 1열 순수 그리스어 원어/2열 학술 전사 엄격 분리; 4어 이상 완결 시행(*Il.* 4.323, 9.422) 3행 표준 서식 적용; 용례 표 원어 열 한국어 혼입 제거; 머메이드 다이어그램 서브그래프 식별자 직접 연결 문법 결함 및 특수문자 `&` 교정, `Atimia` 명사형 표기; 루트 `index.md`에 `concept-geras`, `concept-themis`, `concept-dike` 1행 표준 서식 등재 동기화.
+  - **Weaver**: 서사적 인과 고리인 `[[concept-menis|메니스]]` 본문 및 관련 항목 연결; 영웅 윤리 미래 링크 `[[concept-kleos|클레오스]]`, `[[concept-kydos|쿠도스]]` 확충; 학술 소스 `[[finkelberg-1998-time-and-arete|핀켈버그 (1998)]]`, `[[adkins-1960-merit-and-responsibility|애드킨스 (1960)]]` 본문 및 관련 항목 연계; 상위 분석 문서(`[[analysis-concept-source-matrix|개념과 문헌]]`, `[[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]`) 연결; 인물 엔티티(`[[entity-briseis|브리세이스]]`, `[[entity-chryses|크뤼세스]]`, `[[entity-sarpedon|사르페돈]]`, `[[entity-nestor|네스토르]]`) 교차 링크 보강.
+  - **Editor**: 내부 집필 지침/메타 메모("연속 원문 문자열을 임의로 합성하지 않고..." 등) 완전 삭제; 용례 표 훈계조 주의 사족 제거 및 명사형 압축; 학설 대비 4중 방어적 변명 수사 제거; 특정 학자(벤베니스트) 호명 남발 억제 및 객관적 백과사전 톤 회복.
+- **검증**: `npm test` 전체 스위트 실행 및 통과 완료.

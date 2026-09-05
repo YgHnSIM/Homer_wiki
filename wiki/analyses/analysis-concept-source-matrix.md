@@ -65,7 +65,7 @@ status: active
 | 문헌 | [[concept-menis\|메니스]] | [[concept-hikesia\|히케시아]] | [[concept-aidos\|아이도스]] | [[concept-nemesis\|네메시스]] | [[concept-time\|티메]] | [[concept-xenia\|크세니아]] | [[concept-eleos\|엘레오스]] | [[concept-agathos\|아가토스]] | [[concept-epic-cycle\|에픽 사이클]] | [[concept-ate\|아테]] | [[concept-geras\|게라스]] | [[concept-themis\|테미스]] | [[concept-dike\|디케]] |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | [[williams-1993-shame-and-necessity\|윌리엄스 1993]] | — | — | **중심** | — | 언급 | 언급 | — | 언급 | — | 언급 | — | — | — |
-| [[adkins-1960-merit-and-responsibility\|애드킨스 1960]] | — | — | 언급 | 언급 | 언급 | 언급 | 언급 | **중심** | — | 언급 | — | 언급 | 언급 |
+| [[adkins-1960-merit-and-responsibility\|애드킨스 1960]] | — | — | 언급 | 언급 | 언급 | 언급 | 언급 | **중심** | — | 언급 | 언급 | 언급 | 언급 |
 | [[long-1970-morals-and-values\|롱 1970]] | 언급 | — | 언급 | 언급 | 언급 | 언급 | — | 언급 | — | — | — | 언급 | 언급 |
 | [[cairns-1993-aidos\|케언스 1993]] | — | 언급 | **중심** | 언급 | 언급 | 언급 | 언급 | — | — | 언급 | — | 언급 | — |
 | [[dodds-1951-greeks-and-irrational\|도즈 1951]] | 언급 | — | **중심** | — | — | — | — | — | — | 언급 | — | 언급 | — |
