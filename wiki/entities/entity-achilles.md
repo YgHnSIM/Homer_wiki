@@ -3,7 +3,7 @@ title: 아킬레우스 (Achilles)
 aliases: [Achilles, Ἀχιλλεύς, Akhilleús, 아킬레우스, 펠레우스의 아들, 펠레이데스, Pelides, 아이아키데스, Aiakides, 아킬레우스 (Achilles / Ἀχιλλεύς)]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [cairns-2012-ate-in-homeric-poems.md, lee-junseok-2018-wrath-and-pity.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, nagy-1979-best-of-achaeans.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, dodds-1951-greeks-and-irrational.md, finkelberg-1995-odysseus-and-genus-hero.md, finkelberg-1998-time-and-arete.md, vleminck-1982-institutional-aspect-of-time.md, benveniste-1969-vocabulaire-institutions-2.md]
 status: active
 entity_type: person
@@ -68,14 +68,28 @@ cssclasses: [greek-reading-page]
 
 ### 3.1 『일리아스』의 서사적 궤적
 
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    A["(1) 상처의 시작"] --> B["(2) 떠남의 논리"]
-    B --> C["(3) 타인의 몸을 통한 귀환"]
-    C --> D["(4) 애도와 복귀"]
-    D --> E["(5) 복수의 초과"]
-    E --> F["(6) 죽은 자를 위한 질서"]
-    F --> G["(7) 적의 아버지"]
+    subgraph P1["첫 국면: 명예 손상과 철수"]
+        direction LR
+        A["아킬레우스<br/>브리세이스 강탈로 티메 손상"]:::focus --> B["사절단 거부<br/>보상보다 생명과 자율성 선택"]
+    end
+
+    subgraph P2["둘째 국면: 대리 전투와 애도"]
+        direction LR
+        C["파트로클로스의 출전<br/>친구의 몸에 실린 전사의 이름"] --> D["파트로클로스의 죽음<br/>상실이 고립을 행동으로 전환"]
+        D --> E["테티스의 새 무구<br/>애도 속에서 전장 복귀"]
+    end
+
+    subgraph P3["셋째 국면: 복수의 초과와 장례"]
+        direction LR
+        F["헥토르의 시신 훼손<br/>탁월성이 파괴적 초과로 변함"]:::crisis --> G["파트로클로스 장례와 경기<br/>폭력을 의례의 질서로 옮김"]
+        G --> H["프리아모스의 탄원<br/>적의 아버지에게서 공통 필멸성 인식"]:::resolve
+    end
+
+    P1 ==> P2 ==> P3
 ```
 
 #### (1) 상처의 시작: 분노는 개인적 감정이면서 공적 질서의 문제다
@@ -153,13 +167,22 @@ flowchart TD
 
 ### 4.1 혈통과 후손
 
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 ```mermaid
-flowchart TB
-    Aia["아이아코스<br/>조부"] --> Pel["펠레우스<br/>부친"]
-    Pel --> Ach["아킬레우스"]
-    The["테티스<br/>모친"] --> Ach
-    Ach --> Neo["네오프톨레모스<br/>아들"]
-    Dei["데이다메이아"] -.->|"후대 전승: 모친"| Neo
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
+    subgraph Lineage["신적 혈통과 필멸의 계보"]
+        Aia["아이아코스<br/>영웅 가문의 조상"] --> Peleus["펠레우스<br/>필멸의 부친"]
+        Thetis["테티스<br/>신적 모친"] --> Ach["아킬레우스<br/>신적 혈통과 죽음의 운명"]:::focus
+        Peleus --> Ach
+    end
+
+    subgraph Heir["가문과 후계의 연속"]
+        Ach --> Neo["네오프톨레모스<br/>전쟁 뒤 이어지는 후계"]
+        Deid["데이다메이아<br/>후대 전승의 모친"] -.-> Neo
+    end
+
+    Aia --> Peleus
 ```
 
 > [!NOTE] 전승 층위

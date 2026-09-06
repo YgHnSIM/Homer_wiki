@@ -3090,3 +3090,15 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - `wiki/concepts/concept-nemesis.md`
   - `wiki/concepts/concept-menis.md`
   - `wiki/log.md`
+## [2026-09-07] refactor | entity Mermaid 신규격 일괄 적용 (배치 A)
+- entity-achilles 2개, entity-agamemnon 3개, entity-calypso 1개의 Mermaid 블록을 flowchart 신규 레시피로 마이그레이션
+- 네이티브 subgraph 제목, 단계형 서사 구조, focus/crisis/resolve 표식을 적용하고 전면 레이블에서 운문 인용을 제거
+
+## [2026-09-07] refactor | entity Mermaid 신규격 일괄 적용 (배치 B)
+
+- **작업 내용**: Homer Wiki 엔티티 문서의 모든 Mermaid 블록을 표준 초기화 설정과 `flowchart TD` 기반 신규격으로 일괄 재작성. 네이티브 서브그래프 제목, 실질적인 2행 한국어 라벨, 엔티티별 단일 `:::focus`, 의미에 따른 `:::crisis`·`:::resolve`를 적용하고 인라인 스타일·인용을 제거.
+- **생성·업데이트한 파일**:
+  - `wiki/entities/entity-hector.md`
+  - `wiki/entities/entity-odysseus.md`
+  - `wiki/entities/entity-paris.md`
+  - `wiki/log.md`

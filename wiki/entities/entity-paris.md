@@ -3,7 +3,7 @@ title: 파리스 (Paris)
 aliases: [Paris, Πάρις, Páris, Ἀλέξανδρος, Aléksandros, 파리스, 알렉산드로스, Alexandros, 프리아미데스, Priamides, 디스파리스, Dysparis, Dúsparis, Dúspari, 겉모습만 빼어난 자, eîdos áriste, εἶδος ἄριστε]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-30
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, cairns-1993-aidos.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, redfield-1975-nature-and-culture.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md]
 status: active
 entity_type: person
@@ -72,20 +72,21 @@ cssclasses: [greek-reading-page]
 ### 3.1 『일리아스』의 서사적 궤적
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    subgraph P1["제1국면: 도발과 결투 회피 (3권)"]
+    subgraph P1["제1국면: 도발과 결투 회피"]
         direction LR
-        A["(1) 전선 도발과 도주<br/>표범 가죽 무장 도발 후<br/>메넬라오스를 보고 대열 뒤 후퇴"] --> B["(2) 헥토르의 질책과 결투<br/>질책 수용 및 결투 제안<br/>1:1 결투 선언과 맹약 체결"] --> C["(3) 결투 패배와 신적 구출<br/>투구 끈 끊어짐<br/>아프로디테가 안개로 침실 구출"]
+        A["파리스의 전선 도발과 후퇴<br/>표범 가죽으로 나섰다가 상대를 보고 물러남"]:::focus --> B["헥토르의 질책과 결투 제안<br/>수치를 인정하고 일대일 맹약을 세움"] --> C["결투 패배와 신적 구출<br/>메넬라오스에게 패하고 안개 속으로 옮겨짐"]:::crisis
     end
 
-    subgraph P2["제2국면: 침실의 나태와 재출전 (6-7권)"]
+    subgraph P2["제2국면: 침실의 나태와 재출전"]
         direction LR
-        D["(4) 침실에서의 무구 손질<br/>헬레네와 침상에 머물다<br/>헥토르와 헬레네의 질책 수용"] --> E["(5) 트로이아 민회 평화안 거부<br/>안테노르의 반환 건의 일축<br/>재물 배상만 제안"] --> F["(6) 재출전<br/>준마 직유와 함께<br/>헥토르와 합류하여 출전"]
+        D["침실의 나태와 무구 손질<br/>헬레네 곁에 머물다 다시 출전을 준비"] --> E["민회의 반환 거부<br/>헬레네 대신 재물 배상만을 고집"]:::crisis --> F["공동체를 향한 재출전<br/>헥토르와 합류해 전선으로 돌아감"]:::resolve
     end
 
-    subgraph P3["제3국면: 치명적 궁술 전과 (11-24권)"]
+    subgraph P3["제3국면: 치명적 궁술과 심판의 메아리"]
         direction LR
-        G["(7) 11권 수뇌부 저격<br/>디오메데스 발등 관통<br/>마카온·에우리필로스 저격 퇴각"] --> H["(8) 13권 저격과 항변<br/>폴뤼이도스의 아들 에우케노르 사살<br/>헥토르의 질책에 정당한 항변"] --> I["(9) 24권 심판의 메아리<br/>아프로디테 선택으로 인한<br/>헤라·아테나의 원한 지속"]
+        G["치명적 궁술 전과<br/>아카이아 수뇌부를 저격해 전선을 흔듦"] --> H["저격과 항변<br/>예언자의 아들을 쓰러뜨리고 질책에 응대"] --> I["심판의 오래된 메아리<br/>신들의 원한과 트로이아 운명이 겹침"]
     end
 
     P1 ==> P2 ==> P3
@@ -131,45 +132,40 @@ flowchart TD
 ### 4.1 3자 복합 관계망 다이어그램
 
 ```mermaid
-flowchart LR
-    subgraph Divine["올림포스 신격 (Olympian Deities)"]
-        direction TB
-        Aph["아프로디테 (Aphrodite)<br/>안개 구출 · 관능적 비호"]
-        Apo["아폴론 (Apollo)<br/>궁술 조력 · 화살 유도"]
-        HerAth["헤라 & 아테나<br/>심판 패배로 인한 트로이아 증오"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
+    subgraph Divine["올림포스 신격과 파리스"]
+        Aph["아프로디테<br/>안개 구출과 관능적 비호"]
+        Apo["아폴론<br/>궁술 조력과 화살의 유도"]
+        HerAth["헤라와 아테나<br/>심판 패배 뒤 트로이아를 증오"]:::crisis
     end
 
-    subgraph Trojan["트로이아 왕실 (Trojan Royal House)"]
-        direction TB
-        PriHek["프리아모스 & 헤카베<br/>부왕과 모후 · 비호"]
-        Hec["헥토르 (Hector)<br/>형제 · 아이도스 질책과 독려"]
-        Par["파리스 / 알렉산드로스 (Paris)<br/>트로이아 왕자 · 원인 제공자 · 궁수"]
-        Hel["헬레네 (Helene)<br/>약탈한 아내 · 관능적 결합"]
-        Oen["오이노네 (Oenone)<br/>첫 아내 님프 · 독화살 치료 거부"]
+    subgraph Trojan["트로이아 왕실과 사적 결속"]
+        PriHek["프리아모스와 헤카베<br/>부왕과 모후의 왕실 비호"]
+        Hec["헥토르<br/>형제의 질책과 전장 독려"]
+        Par["파리스와 알렉산드로스<br/>왕자이자 전쟁의 원인 제공자"]:::focus
+        Hel["헬레네<br/>약탈한 아내이자 관능적 결합"]
+        Oen["오이노네<br/>첫 아내인 님프와 치료의 거부"]
 
         PriHek --> Par
         Hec <-->|"질책과 독려"| Par
-        Par <-->|"관능 결합"| Hel
+        Par <-->|"관능적 결합"| Hel
         Par -.->|"치료 거부"| Oen
     end
 
-    subgraph Achaean["아카이아 진영 (Achaean Rivals)"]
-        direction TB
-        Men["메넬라오스 (Menelaos)<br/>결투 숙적 · 크세니아 피해자"]
-        Dio["디오메데스 (Diomedes)<br/>11권 발등 관통 저격 피해자"]
-        Ach["아킬레우스 (Achilles)<br/>스카이아이 문 저격 표적"]
-        Phi["필록테테스 (Philoktetes)<br/>헤라클레스 활로 파리스 사살"]
+    subgraph Achaean["아카이아 진영과 피해의 관계"]
+        Men["메넬라오스<br/>결투 숙적이자 크세니아의 피해자"]
+        Dio["디오메데스<br/>궁술에 발등을 관통당한 장수"]
+        Ach["아킬레우스<br/>발목을 겨눈 후대 전승의 표적"]
+        Phi["필록테테스<br/>헤라클레스 활로 파리스를 처단"]:::resolve
     end
 
-    %% 신격 -> 파리스
     Aph -->|"안개 구출"| Par
     Apo -->|"궁술 조력"| Par
-    HerAth -.->|"심판 증오"| Par
-
-    %% 파리스 -> 아카이아
+    HerAth -.->|"심판의 원한"| Par
     Par <-->|"결투 대립"| Men
-    Par -->|"11권 저격"| Dio
-    Par -.->|"발목 사살"| Ach
+    Par -->|"전선 저격"| Dio
+    Par -.->|"후대의 발목 사살"| Ach
     Phi -.->|"독화살 사살"| Par
 ```
 

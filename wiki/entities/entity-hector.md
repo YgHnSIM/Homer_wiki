@@ -3,7 +3,7 @@ title: 헥토르 (Hector)
 aliases: [Hector, Ἕκτωρ, Héktōr, 헥토르, 프리아모스의 아들, 프리아미데스, Priamides, 코뤼타이올로스, Korythaiolos]
 tags: [type/entity, domain/iliad, domain/mythology, status/active]
 created: 2026-08-29
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [cairns-2012-ate-in-homeric-poems.md, redfield-1975-nature-and-culture.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, cairns-1993-aidos.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, scott-1980-aidos-and-nemesis.md, nagy-1979-best-of-achaeans.md, dodds-1951-greeks-and-irrational.md]
 status: active
 entity_type: person
@@ -70,26 +70,27 @@ cssclasses: [greek-reading-page]
 ### 3.1 『일리아스』의 서사적 궤적
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
     subgraph P1["제1국면: 출전과 도성 수호"]
         direction LR
-        A["(1) 출전과 총사령관의 책무<br/>트로이아 전군 지휘 및 결투 주선"] --> B["(2) 도성과 가족의 문턱<br/>안드로마케와의 이별과 투구 벗기"]
+        A["헥토르의 출전과 총사령관 책무<br/>트로이아 전군 지휘와 결투 주선"]:::focus --> B["도성과 가족의 문턱<br/>안드로마케와 작별하고 투구를 벗음"]
     end
 
-    subgraph P2["제2국면: 공세 정점과 오판"]
+    subgraph P2["제2국면: 공세의 정점과 오판"]
         direction LR
-        C["(3) 평원 돌파와 방벽 격파<br/>새점 경고 무시와 방벽 돌파"] --> D["(4) 함선 방화 및 파트로클로스 사살<br/>아킬레우스 무구 획득과 공세 정점"] --> E["(5) 폴리다마스의 경고와 오판<br/>성내 철수 거부와 평원 야영 고집"]
+        C["평원 돌파와 방벽 격파<br/>새점 경고를 물리치고 진영 돌입"] --> D["함선 방화와 적장 사살<br/>공세의 정점에서 아킬레우스 무구를 취함"] --> E["폴리다마스의 경고와 오판<br/>철수 자문을 거부하고 평원 야영을 고집"]:::crisis
     end
 
     subgraph P3["제3국면: 파멸과 문화적 화해"]
         direction LR
-        F["(6) 성문 앞 고립과 결투<br/>아이도스로 인한 잔류, 도주와 최후"] --> G["(7) 시신 훼손과 트로이아의 장례<br/>아폴론의 보호, 프리아모스의 탄원과 안치"]
+        F["성문 앞 고립과 결투<br/>아이도스에 붙들려 도주와 최후를 맞음"]:::crisis --> G["시신 훼손과 장례<br/>프리아모스의 탄원과 공동체의 애도"]:::resolve
     end
 
     P1 ==> P2 ==> P3
 ```
 
-#### (1) 출전과 총사령관의 책무: 전쟁의 수습과 전사 윤리
+#### (1) 헥토르의 출전과 총사령관 책무: 전쟁의 수습과 전사 윤리
 2권 연합군 사열 직후 트로이아군을 이끌고 출전하며(_Il._ 2.807–818), 3권에서 메넬라오스를 보고 달아나는 동생 [[entity-paris|파리스]]를 향해 격렬한 수치심을 표출하며 일대일 결투를 주선한다(_Il._ 3.38–120). 7권에서는 아카이아군 최강자에게 결투를 청하여 거인 [[entity-ajax|대 아이아스]]와 밤이 올 때까지 호각으로 격돌한 뒤 명예로운 예물(칼과 허리띠)을 교환한다(_Il._ 7.66–312).
 
 #### (2) 도성과 가족의 문턱: 스카이아이 성문 앞의 작별
@@ -148,24 +149,29 @@ flowchart TD
 헥토르는 제우스로부터 시작되는 다르다니아-트로이아 왕가의 정통 후계자이며, 스카이아이 성문 앞에서 3대 직계 가족(부모-부부-자식)의 생존을 지키는 가장이다(_Il._ 6.390–502, 20.215–240).
 
 ```mermaid
-flowchart TB
-    Zeu["제우스 (Zeus)"] --> Dar["다르다노스 (Dardanos)"]
-    Dar --> Eri["에릭토니오스 (Erichthonios)"]
-    Eri --> Tro["트로스 (Tros)"]
-    Tro --> Ilo["일로스 (Ilos)"]
-    Tro --> Ass["아사라코스 (Assarakos)"]
-    Ass --> Cap["카피스 (Capys)"]
-    Cap --> Anc["안키세스 (Anchises)"]
-    Anc --> Aen["아이네이아스 (Aeneas)<br/>다르다니아 영웅 / 6촌"]
-    Ilo --> Lao["라오메돈 (Laomedon)"]
-    Lao --> Pri["프리아모스 (Priam)<br/>트로이아 국왕"]
-    Pri --- Hek["헤카베 (Hecabe)<br/>왕비"]
-    Pri --> Par["파리스 (Paris)<br/>동생 / 개전 원인"]
-    Pri --> Hel["헬레노스 & 데이포보스<br/>(형제 전사들)"]
-    Pri --> Cas["카산드라 & 폴뤽세네<br/>(누이들)"]
-    Pri --> Hec["헥토르 (Hector)<br/>트로이아 왕세자 / 수호자"]
-    Hec --- And["안드로마케 (Andromache)<br/>아내 / 에에티온의 딸"]
-    Hec --> Ast["아스티아낙스 (Astyanax)<br/>스카만드리오스 / 아들"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
+    subgraph Ancestors["다르다니아 왕통의 기원"]
+        Zeu["제우스<br/>왕통의 신적 기원"] --> Dar["다르다노스<br/>다르다니아 건국자"] --> Eri["에릭토니오스<br/>초기 왕통의 계승자"] --> Tro["트로스<br/>트로이아 명칭의 왕"]
+        Tro --> Ilo["일로스<br/>트로이아 왕도의 창건자"]
+        Tro --> Ass["아사라코스<br/>왕가의 방계 계승자"] --> Cap["카피스<br/>다르다니아 가계의 연결자"] --> Anc["안키세스<br/>방계 왕족의 부친"] --> Aen["아이네이아스<br/>다르다니아 방계 영웅"]
+    end
+
+    subgraph Royal["트로이아 왕실"]
+        Ilo --> Lao["라오메돈<br/>트로이아 왕가의 선왕"] --> Pri["프리아모스<br/>국왕이자 헥토르의 부친"]
+        Pri --- Hek["헤카베<br/>왕비이자 헥토르의 모친"]
+        Pri --> Par["파리스<br/>동생이자 전쟁의 원인"]:::crisis
+        Pri --> Hel["헬레노스와 데이포보스<br/>형제이자 전사들"]
+        Pri --> Cas["카산드라와 폴뤽세네<br/>예언자와 왕실의 누이들"]
+    end
+
+    subgraph Household["헥토르의 가정과 수호"]
+        Hec["헥토르<br/>왕세자이자 도성의 수호자"]:::focus
+        Hec --- And["안드로마케<br/>아내이자 에에티온의 딸"]
+        Hec --> Ast["아스티아낙스<br/>아들이자 왕통의 생존자"]:::resolve
+    end
+
+    Pri --> Hec
 ```
 
 ---
@@ -175,22 +181,23 @@ flowchart TB
 트로이아 군사회는 헥토르의 창(*spear*) 중심 최고 군사 지휘권과, 객관적 전황과 신중한 방어론을 제시하는 폴리다마스의 정치적·전략적 긴장을 축으로 전개된다(_Il._ 8.489–541, 12.195–250, 18.243–314).
 
 ```mermaid
-flowchart LR
-    subgraph Adv["전략 자문"]
-        Pol["폴리다마스 (Polydamas)<br/>동갑내기 참모 · 신중한 방어론 (Noos)"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
+    subgraph Counsel["전략 자문과 경고"]
+        Pol["폴리다마스<br/>동갑내기 참모와 신중한 철수론"]:::crisis
     end
 
-    subgraph Core["최고 사령부"]
-        Hec["헥토르 (Hector)<br/>군사 지휘권 (Spear · Thumos)"]
+    subgraph Command["트로이아 최고 사령부"]
+        Hec["헥토르<br/>창을 든 최고 지휘관"]:::focus
     end
 
-    subgraph Army["본대 및 동맹군 편제"]
-        TroArr["트로이아군 본대<br/>(5개 분대 지휘)"]
-        Lyc["사르페돈 & 글라우코스<br/>(뤼키아 동맹군)"]
-        DarArr["아이네이아스<br/>(다르다니아군)"]
+    subgraph Forces["본대와 동맹군 편제"]
+        TroArr["트로이아군 본대<br/>다섯 부대를 거느린 전열"]
+        Lyc["사르페돈과 글라우코스<br/>뤼키아 동맹군의 정예 수장"]
+        DarArr["아이네이아스<br/>다르다니아군의 왕실 지휘관"]
     end
 
-    Pol -.->|"철수론 기각"| Hec
+    Pol -.->|"철수 자문"| Hec
     Hec --> TroArr
     Hec --- Lyc
     Hec --- DarArr
@@ -211,29 +218,30 @@ flowchart LR
 헥토르의 전장 대결은 올림포스 신들의 운명 판정 아래 전개되며, 아카이아 숙적 영웅들과의 대결을 통해 파멸과 장례로 귀결된다(_Il._ 7.66–312, 11.343–360, 16.818–861, 22.131–363, 24.477–676).
 
 ```mermaid
-flowchart TB
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     subgraph Divine["올림포스 신들의 개입"]
-        Zeu["제우스 (Zeus)<br/>황금 저울 운명 판정 (Kērostasía)"]
-        Apo["아폴론 (Apollo)<br/>무력 고취 · 부상 치유 · 시신 보존"]
-        Ath["아테나 (Athena)<br/>데이포보스로 변신 · 기만적 유인"]
+        Zeu["제우스<br/>황금 저울로 운명을 판정"]
+        Apo["아폴론<br/>무력 고취와 시신 보존"]:::resolve
+        Ath["아테나<br/>데이포보스로 변신해 기만"]:::crisis
     end
 
-    Hec["헥토르 (Hector)<br/>트로이아의 방패"]
+    Hec["헥토르<br/>트로이아 공동체의 방패"]:::focus
 
-    subgraph Rivals["아카이아 숙적 대결"]
-        Ach["아킬레우스 (Achilles)<br/>최강의 숙적 / 22권 결투 · 시신 모욕 / 24권 화해"]
-        Pat["파트로클로스 (Patroklos)<br/>아킬레우스의 전우 / 16권 사살 · 무구 박탈"]
-        Aia["대 아이아스 (Telamonian Ajax)<br/>방벽의 수호자 / 7권 호각 결투 · 예물 교환"]
-        Dio["디오메데스 (Diomedes)<br/>8·11권 전면전 격돌 · 투창 저지"]
+    subgraph Rivals["아카이아 숙적과 결투"]
+        Ach["아킬레우스<br/>필멸의 숙적이자 최후의 승자"]:::crisis
+        Pat["파트로클로스<br/>무구를 빼앗긴 전우와 희생자"]
+        Aia["대 아이아스<br/>호각으로 맞선 방벽의 수호자"]
+        Dio["디오메데스<br/>전면 돌파를 저지한 강적"]
     end
 
     Zeu -->|"운명 판정"| Hec
-    Apo -->|"비호 및 보존"| Hec
-    Ath -.->|"기만적 배신"| Hec
+    Apo -->|"비호와 보존"| Hec
+    Ath -.->|"기만적 유인"| Hec
     Hec <-->|"필멸의 결투"| Ach
-    Hec -->|"사살 및 무구 획득"| Pat
+    Hec -->|"사살과 무구 획득"| Pat
     Hec <-->|"호각의 격돌"| Aia
-    Hec <-->|"전면전 돌파 저지"| Dio
+    Hec <-->|"돌파 저지"| Dio
 ```
 
 | 숙적 및 대립자 | 진영 및 위상 | 헥토르와의 대결 성격 | 서사적 전개 및 결과 | 대표 출전 |

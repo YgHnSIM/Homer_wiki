@@ -3,7 +3,7 @@ title: 칼립소 (Calypso)
 aliases: [칼륍소, Calypso, Kalypso, Καλυψώ, Kalupsṓ, 오기기아의 여신]
 tags: [type/entity, domain/odyssey, domain/mythology, status/active]
 created: 2026-09-03
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [lee-junseok-2016-odyssey-humanity.md, kearns-2006-gods-in-homeric-epics.md]
 status: active
 korean_name: 칼립소
@@ -92,23 +92,35 @@ corpus: [odyssey]
 - **신과 인간의 긴장망**: 올림포스 최고신 제우스의 일방적 칙령에 굴복하면서도 그 도덕적 위선을 통렬히 고발하며, 전령 헤르메스를 의례적으로 환대하는 독자적 지위를 유지합니다.
 - **키르케 및 페넬로페와의 대조**: 동쪽 끝에서 약물로 인간을 변형시키는 능동적 조력자 키르케와 대칭을 이루며, 필멸의 인간 아내 페넬로페의 대척점에서 영구한 불멸의 유혹으로 맞섭니다.
 
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 ```mermaid
-graph TD
-    Calypso["칼립소 (Calypso)<br/>오기기아 섬의 은폐자"]
-    Atlas["아틀라스 (Atlas)<br/>티탄 신족 / 부친"]
-    Zeus["제우스 (Zeus)<br/>올림포스 최고신"]
-    Hermes["헤르메스 (Hermes)<br/>전령의 신"]
-    Odysseus["오뒷세우스 (Odysseus)<br/>이타카의 영웅 / 표류자"]
-    Circe["키르케 (Circe)<br/>아이아이에 섬의 여신"]
-    Penelope["페넬로페 (Penelope)<br/>이타카의 필멸자 아내"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
+    subgraph Island["오기기아: 은폐와 체류"]
+        direction LR
+        Atlas["아틀라스<br/>티탄 계통의 부친"] --> Cal["칼립소<br/>섬의 은폐자이자 님페"]:::focus
+        Cal --> Ody["오뒷세우스<br/>귀향을 잃은 필멸의 영웅"]
+        Cal --> Captivity["칠 년의 체류<br/>환대가 비자발적 억류로 변함"]:::crisis
+        Captivity --> Ody
+    end
 
-    Atlas ---|혈통적 계보| Calypso
-    Zeus ==>|석방 칙령 발포| Hermes
-    Hermes -->|제우스의 명령 전달| Calypso
-    Calypso -.->|구원 및 7년 체류 / 성적 결합| Odysseus
-    Calypso ==>|불사 제안 거절당함 / 뗏목 도구 지원| Odysseus
-    Odysseus -->|불멸 거부 및 유한한 삶 선택| Penelope
-    Calypso -.-|서사적 대조쌍: 능동적 조력 vs 은폐적 체류| Circe
+    subgraph Decree["신들의 칙령과 항변"]
+        direction LR
+        Zeus["제우스<br/>귀향 질서를 집행하는 최고신"] --> Hermes["헤르메스<br/>석방 명령을 전하는 전령"]
+        Hermes --> Cal
+        Cal --> Protest["항변과 승복<br/>성적 이중 잣대를 고발하고 명령 수용"]
+    end
+
+    subgraph Departure["귀향 지원과 대조적 결말"]
+        direction LR
+        Tools["뗏목과 순풍<br/>도구·식량·항로를 제공하는 작별"]:::resolve
+        Ody -->|필멸의 귀향 선택| Tools
+        Cal -->|은폐를 풀고 보내기| Tools
+        Tools --> Ithaca["이타카와 페넬로페<br/>오이코스와 유한한 삶의 회복"]
+        Circe["키르케<br/>변형의 조력자와 대비되는 여신"] -.->|동쪽과 서쪽의 대칭| Cal
+    end
+
+    Protest --> Tools
 ```
 
 ---

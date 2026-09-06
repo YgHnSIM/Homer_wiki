@@ -3,7 +3,7 @@ title: 아가멤논 (Agamemnon)
 aliases: [Agamemnon, Ἀγαμέμνων, Agamémnōn, 아가멤논, 아트레이데스, Atreides, 인간들의 왕, anax andron, ἄναξ ἀνδρῶν, 넓은 통치자, euru kreiōn, εὐρὺ κρείων]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-28
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [cairns-2012-ate-in-homeric-poems.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, lee-junseok-2016-odyssey-humanity.md, dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, nagy-1979-best-of-achaeans.md, vleminck-1982-institutional-aspect-of-time.md, benveniste-1969-vocabulaire-institutions-2.md]
 status: active
 entity_type: person
@@ -160,16 +160,24 @@ cssclasses: [greek-reading-page]
 
 아가멤논의 군주권은 개인의 무력보다 신들의 왕 제우스가 하사한 불멸의 왕봉, 곧 '**스켑트론**'(_skēptron_)의 정통성에 뿌리를 둔다(_Il._ 2.100–108).
 
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 ```mermaid
-flowchart TB
-    Zeus["제우스 (Zeus)"] ==>|스켑트론 하사| Her["헤르메스 (Hermes)"]
-    Her --> Pel["펠롭스 (Pelops)"]
-    Pel --> Atr["아트레우스 (Atreus)"]
-    Atr --> Thy["티에스테스 (Thyestes)"]
-    Thy --> Aga["아가멤논 (Agamemnon)<br/>미케네의 왕 / 최고 사령관"]
-    Atr --> Men["메넬라오스 (Menelaos)<br/>스파르타의 왕"]
-    Aga --- Cly["클뤼타임네스트라 (Clytemnestra)<br/>왕비"]
-    Aga --> Chi["자녀들 (호메로스 원전)<br/>이피아나사 · 라오디케 · 크뤼소테미스 · 오레스테스"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
+    subgraph Scepter["신성한 스켑트론의 상속"]
+        Zeus["제우스<br/>신적 통치권의 원천"] ==>|왕봉 하사| Hermes["헤르메스<br/>신의 명령을 전달하는 전령"]
+        Hermes --> Pelops["펠롭스<br/>왕권을 이어받은 선조"]
+        Pelops --> Atreus["아트레우스<br/>가문과 통치의 기반"]
+        Atreus --> Thyestes["티에스테스<br/>스켑트론을 보존한 계승자"]
+    end
+
+    subgraph House["아트레우스 가문과 왕권"]
+        Thyestes --> Aga["아가멤논<br/>미케네 왕이자 최고 사령관"]:::focus
+        Atreus --> Menelaos["메넬라오스<br/>스파르타 왕이자 형제 동맹"]
+        Aga --- Cly["클뤼타임네스트라<br/>왕비이자 귀향의 위협"]
+        Aga --> Children["자녀들<br/>왕가의 후계와 기억"]
+        Aga --> Overreach["권력의 초과<br/>타인의 티메를 침해하는 월권"]:::crisis
+    end
 ```
 
 > [!NOTE] 호메로스 원전의 계보와 후대 비극의 차이
@@ -181,35 +189,43 @@ flowchart TB
 
 아가멤논을 중심으로 연합군은 권력의 긴장을 유발하는 '대립·충돌 축'과 군주의 권위를 보완하고 체제를 지탱하는 '협력·중재 축'으로 양분된다.
 
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 ```mermaid
-flowchart LR
-    subgraph Tension["권력 긴장 및 대립 관계"]
-        Ach["아킬레우스 (Achilles)<br/>최강의 전사 / 명예 충돌"]
-        Cal["칼카스 (Calchas)<br/>예언자 / 신탁 갈등"]
-        The["테르시테스 (Thersites)<br/>평민 전사 / 권력 규탄"]
-        Chr["크뤼세스 (Chryses)<br/>아폴론 사제 / 역병 촉발"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
+    subgraph Command["최고 사령관과 지휘 중심"]
+        Aga["아가멤논<br/>군주적 최고 지휘권"]:::focus
+        Ody["오디세우스<br/>정치적 수습과 지략"]
+        Nes["네스토르<br/>원로 조언과 중재"]
+        Dio["디오메데스<br/>전선의 용맹과 직언"]
+        Men["메넬라오스<br/>원정 명분과 형제 결속"]
+        Aga <-->|명령과 수습| Ody
+        Aga <-->|왕권 조언과 중재| Nes
+        Aga <-->|전선 지탱과 비판| Dio
+        Aga <-->|혈맹과 원정 명분| Men
     end
 
-    subgraph Core["최고 사령관"]
-        Aga["아가멤논 (Agamemnon)<br/>제도적 최고 통치권"]
+    subgraph Tension["권력 긴장과 신성 질서"]
+        Ach["아킬레우스<br/>최강 전사의 독자적 티메"]
+        Cal["칼카스<br/>신탁을 전하는 예언자"]
+        Chry["크뤼세스<br/>탄원이 거절된 아폴론 사제"]
+        Thers["테르시테스<br/>평민 전사의 공론장 비판"]
+        Overreach["브리세이스 강탈<br/>군주권의 허브리스와 역병"]:::crisis
     end
 
-    subgraph Support["체제 지탱 및 정치적 보완"]
-        Ody["오디세우스 (Odysseus)<br/>정치적 수습 / 지략"]
-        Nes["네스토르 (Nestor)<br/>원로 자문 / 중재"]
-        Dio["디오메데스 (Diomedes)<br/>전선 사기 / 군주권 존중"]
-        Men["메넬라오스 (Menelaos)<br/>원정 명분 / 형제 결속"]
+    subgraph Support["연합군 질서의 보완"]
+        Army["아카이아 연합군<br/>공동체의 승인과 전쟁 수행"]
+        Agora["전사 민회<br/>티메를 조정하는 공론장"]
     end
 
-    Ach -.->|티메/전리품 강탈 갈등| Aga
-    Cal -.->|신성 징벌 신탁 전달| Aga
-    The -.->|전리품 탐욕 공개 비난| Aga
-    Chr -.->|탄원 모욕 거절| Aga
-
-    Aga <--->|질서 회복 및 작전 조율| Ody
-    Aga <--->|권력 정당성 조언 및 중재| Nes
-    Aga <--->|전선 지탱 및 무용 보완| Dio
-    Aga <--->|명분 수호 및 혈맹 결속| Men
+    Aga -->|전리품 강탈| Overreach
+    Overreach -->|명예 손상과 철수| Ach
+    Chry -->|사제의 탄원| Overreach
+    Cal -->|아폴론의 신탁| Overreach
+    Thers -->|탐욕 공개 비난| Aga
+    Aga --> Army
+    Agora -.->|집합적 승인| Aga
+    Army --> Agora
 ```
 
 | 대상 | 영웅적 위상 및 역할 | 아가멤논과의 상호작용 및 갈등 메커니즘 | 원전 근거 |
@@ -229,41 +245,34 @@ flowchart LR
 
 『오뒷세이아』에서 아가멤논의 귀향 실패는 오디세우스의 성공적 귀향을 비추는 핵심 대위법(Counterpoint)으로 기능한다.
 
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 ```mermaid
-flowchart TB
-    subgraph AgaNostos["아가멤논의 비극적 귀향 (파멸의 반례)"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
+    subgraph P1["첫 국면: 승전 귀환과 가택 진입"]
         direction LR
-        Aga2["아가멤논 (Agamemnon)<br/>트로이아 승전 귀환"]
-        Cas2["카산드라 (Cassandra)<br/>전리품 예언녀"]
-        Cly2["클뤼타임네스트라 (Clytemnestra)<br/>배신과 음모"]
-        Aeg2["아이기스토스 (Aegisthus)<br/>불륜 및 찬탈"]
-        
-        Aeg2 -.->|음모 결탁| Cly2
-        Aga2 -->|환영 연회장 진입| Cly2
-        Cly2 ==>|여물통의 황소처럼 도살| Aga2
-        Cly2 ==>|함께 살해| Cas2
+        Aga2["아가멤논<br/>트로이아 승전 뒤 귀환"]:::focus --> Feast["환영 연회장<br/>가족의 집이 함정으로 변함"]
+        Cas2["카산드라<br/>전리품이 된 예언자"] --> Feast
     end
 
-    subgraph Nekyia["저승에서의 조우와 교차 경고"]
+    subgraph P2["둘째 국면: 배신과 파멸"]
         direction LR
-        Ghost["아가멤논의 망령<br/>(_Od._ 11 / _Od._ 24)<br/>여인을 결코 온전히 믿지 말고<br/>은밀히 귀향하라<br/>페넬로페의 정절과<br/>불멸의 미덕 찬양"]
+        Plot["클뤼타임네스트라와 아이기스토스<br/>부재 중 결탁과 권력 찬탈"] --> Trap["여물통의 황소 같은 도살<br/>귀향이 가택 살해로 뒤집힘"]:::crisis
+        Feast --> Plot --> Trap
     end
 
-    subgraph OdyNostos["오디세우스의 성공적 귀향 (복원의 전형)"]
+    subgraph P3["셋째 국면: 저승의 증언"]
         direction LR
-        Ody2["오디세우스 (Odysseus)<br/>위장 침투 및 은밀한 귀환"]
-        Pen2["페넬로페 (Penelope)<br/>정절과 침상의 지혜"]
-        Tel2["텔레마코스 (Telemachos)<br/>부자 결속 및 공동 전선"]
-        Suit["구혼자 108인<br/>오이코스 침탈자"]
-
-        Ody2 <===>|정체 확인 및 오이코스 수호| Pen2
-        Ody2 <===>|함께 전선 구축| Tel2
-        Ody2 ==>|응징 및 척살| Suit
-        Suit ~~~ Tel2
+        Ghost["아가멤논의 망령<br/>배신의 기억과 은밀한 귀향 경고"] --> Warning["노스토스의 경고<br/>가택의 신뢰가 무너진 대위법"]
     end
 
-    AgaNostos -.->|비극적 최후 증언| Nekyia
-    Nekyia -.->|신중한 귀향 및 경계 촉구| OdyNostos
+    subgraph P4["넷째 국면: 대조적 귀향의 완결"]
+        direction LR
+        Ody2["오디세우스<br/>위장과 인내로 이타카 귀환"] --> Pen2["페넬로페<br/>정절과 침상의 확인"]
+        Pen2 --> Closure["오이코스의 복원<br/>노스토스가 공동체로 닫힘"]:::resolve
+    end
+
+    Trap --> Ghost --> Warning --> Ody2
 ```
 
 | 인물 및 대상 | 오이코스 내 역할 및 서사적 기능 | 원전 근거 |

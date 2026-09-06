@@ -3,7 +3,7 @@ title: 오디세우스 (Odysseus)
 aliases: [Odysseus, Ὀδυσσεύς, Odusseús, 오딧세우스, 라에르테스의 아들, 라에르티아데스, Laertiades, 폴뤼트로포스, Polytropos, 오디세우스 (Odysseus / Ὀδυσσεύς)]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-25
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [detienne-1974-cunning-intelligence.md, nagy-1979-best-of-achaeans.md, bittlestone-2005-odysseus-unbound.md, greek-ministry-2025-odysseion-ithaca.md, lee-junseok-2016-odyssey-humanity.md, lee-junseok-2024-iliad-jeongam.md, scott-1982-philos-philotes-xenia.md, finkelberg-1995-odysseus-and-genus-hero.md]
 status: active
 entity_type: person
@@ -82,13 +82,25 @@ cssclasses: [greek-reading-page]
 ### 3.2 『오뒷세이아』의 행적: 부재에서 재인으로
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    A["(1) 부재가 만든 공백"] --> B["(2) 불멸을 거부한 귀환"]
-    B --> C["(3) 이름을 둘러싼 방랑"]
-    C --> D["(4) 익명으로 돌아온 왕"]
-    D --> E["(5) 몸이 기억하는 정체"]
-    E --> F["(6) 활과 공적 폭력"]
-    F --> G["(7) 집의 확인과 미완성의 평화"]
+    subgraph P1["제1국면: 부재와 귀환의 선택"]
+        direction LR
+        A["부재가 만든 공백<br/>텔레마코스와 페넬로페가 집을 지탱"]:::crisis --> B["불멸을 거부한 귀환<br/>필멸의 집과 관계를 다시 선택"]
+    end
+
+    subgraph P2["제2국면: 이름과 익명성의 방랑"]
+        direction LR
+        C["이름을 둘러싼 방랑<br/>익명성과 자랑이 귀환을 지연"] --> D["오디세우스, 익명으로 돌아온 왕<br/>아테나와 정보의 배분으로 귀환을 설계"]:::focus
+        D --> E["몸이 기억하는 정체<br/>흉터와 침상이 낯선 왕을 증언"]
+    end
+
+    subgraph P3["제3국면: 폭력과 오이코스 회복"]
+        direction LR
+        F["활과 공적 폭력<br/>동맹과 신적 개입 속 구혼자를 응징"]:::crisis --> G["집의 확인과 미완성의 평화<br/>침상과 가계의 재인 뒤에도 상처가 남음"]:::resolve
+    end
+
+    P1 ==> P2 ==> P3
 ```
 
 #### (1) 부재가 만든 공백
@@ -103,7 +115,7 @@ flowchart TD
 
 6–12권에서 오디세우스는 파이아케스인에게 구조되고, 자기 이름을 밝힌 뒤 방랑을 회고한다. 키클롭스와 세이렌, 키르케, 저승의 이야기는 모험 목록이면서 동시에 자신의 정체를 이야기로 통제하는 과정이다. 데모도코스의 노래에서 그는 자신이 겪은 전쟁을 듣고 눈물을 흘리며(_Od._ 8.72–82, 8.492–520), 말할 수 있는 사람과 말해지게 되는 사람 사이의 차이를 드러낸다.
 
-#### (4) 익명으로 돌아온 왕
+#### (4) 오디세우스, 익명으로 돌아온 왕
 
 13–16권에서 오디세우스는 이타케에 도착한 뒤 아테나의 도움으로 거지의 모습이 된다. 그는 에우마이오스와 텔레마코스에게 계획을 나누지만, 모든 사람에게 같은 진실을 공개하지 않는다. 귀환은 이름의 선언보다 정보의 배분으로 먼저 진행된다.
 
@@ -156,29 +168,28 @@ flowchart TD
 오디세우스의 관계망은 그를 대신 정의하는 고정된 성격표가 아니다. 페넬로페와 텔레마코스는 귀환의 목적을 이루는 관계이고, 아테나는 그의 메티스를 신적 차원에서 비추는 후원자이다. 반대로 포세이돈과 폴뤼페모스는 이름과 자랑이 관계를 어떻게 적대로 바꾸는지를 보여준다.
 
 ```mermaid
-flowchart LR
-    subgraph Divine["신적 개입"]
-        direction TB
-        A["아테나<br/>계략과 귀환의 후원"]
-        S["포세이돈<br/>지연과 박해"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
+    subgraph Divine["신적 개입과 귀환의 방향"]
+        A["아테나<br/>변장과 계획을 돕는 후원자"]
+        S["포세이돈<br/>이름의 자랑을 벌하는 박해자"]:::crisis
     end
 
-    subgraph Core["귀환과 회복"]
-        O["오디세우스 (Odysseus)"]
+    subgraph Core["귀환과 왕권의 회복"]
+        O["오디세우스<br/>익명성에서 재인으로 나아가는 왕"]:::focus
     end
 
-    subgraph Oikos["오이코스 결속"]
-        direction TB
-        P["페넬로페<br/>침상과 부부의 확인"]
-        T["텔레마코스<br/>세대와 왕권의 계승"]
-        E["에우마이오스<br/>환대와 충직한 연대"]
+    subgraph Oikos["오이코스의 결속"]
+        P["페넬로페<br/>침상 지식으로 남편을 확인"]:::resolve
+        T["텔레마코스<br/>세대와 왕권을 잇는 아들"]
+        E["에우마이오스<br/>낯선 왕을 환대한 충직한 동맹"]
     end
 
-    A -.->|"후원"| O
-    S -.->|"적대"| O
+    A -.->|"변장과 계획"| O
+    S -.->|"귀환 지연"| O
     O -->|"오이코스 복원"| P
     O -->|"왕권 계승"| T
-    O <-->|"충성 및 조력"| E
+    O <-->|"환대와 조력"| E
 ```
 
 | 대상 | 관계가 수행하는 기능 | 원전 근거 |
