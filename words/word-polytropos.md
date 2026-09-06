@@ -35,7 +35,8 @@ status: review
 ## 1. 어원 전파 계통도 (Etymological Transmission Tree)
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     GRK["고대 그리스어 πολύτροπος<br/>polútropos<br/>πολυ- + τροπ-/τροπο-"] --> H1["호메로스 굴절형 πολύτροπον<br/>Od. 1.1"]
     GRK --> H2["호메로스 표면형 πολύτροπος<br/>Od. 10.330"]
     GRK -. "현대 학술 음역·제한적 차용" .-> ENG["현대 영어 polytropos / polutropos<br/>일반 표제어 지위 Pending"]
