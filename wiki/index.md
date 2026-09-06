@@ -83,15 +83,15 @@ status: active
 - [[concept-menis|메니스 (Menis)]] — 우주적 질서를 흔드는 신적 분노
 - [[concept-aidos|아이도스 (Aidos)]] — 수치심, 경외, 자기억제
 - [[concept-nemesis|네메시스 (Nemesis)]] — 몫과 질서를 수호하는 공적 의분
-- [[concept-hikesia|히케시아 (Hikesia)]] — 신체 접촉을 통한 신성한 탄원
-- [[concept-xenia|크세니아 (Xenia)]] — 손님 환대와 상호부조
-- [[concept-eleos|엘레오스 (Eleos)]] — 연민과 오익토스
-- [[concept-agathos|아가토스 (Agathos)]] — 영웅적 탁월자와 결과주의적 성공
-- [[concept-ate|아테 (Ate)]] — 신들이 내린 일시적 판단 마비와 치명적 과오 및 파멸의 연쇄
+- [[concept-hikesia|히케시아 (Hikesia)]] — 신체 접촉 의례를 통한 신성한 탄원과 약자 보호 규범
+- [[concept-xenia|크세니아 (Xenia)]] — 낯선 이방인과 맺는 세습적 환대 동맹이자 선물 교환·안전 보장 규범
+- [[concept-eleos|엘레오스와 오익토스 (Eleos & Oiktos)]] — 타인의 굴욕에 대한 감정적 억제(Oiktos)와 비경쟁적 지반에서 발동하는 적극적 구호(Eleos)
+- [[concept-agathos|아가토스 (Agathos)]] — 군사적 무용(Arete)과 신적 혈통을 바탕으로 공동체를 수호하는 영웅적 귀족 전사
+- [[concept-ate|아테 (Ate)]] — 초자연적 원인에 의한 인지적 판단 마비와 치명적 과오 및 파멸적 손해의 연쇄
 - [[concept-geras|게라스 (Geras)]] — 공동체가 군주와 영웅에게 헌정하는 물질적 특권 몫이자 최상급 등심 고기
 - [[concept-themis|테미스 (Themis)]] — 제우스가 군주에게 위탁한 신성한 선례이자 아고라의 공적 판례 및 공동체 질서의 총체
 - [[concept-dike|디케 (Dike)]] — 상이한 씨족 간 분쟁 시 재판관이 올곧은 선을 긋는 정형구적 대외 사법이자 제우스의 우주적 도덕 정의
-- [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]] — 트로이아 전쟁 전말을 잇는 서사시 연작
+- [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]] — 신화적 연대기 완결성과 서사적 공백을 충원하며 비극과 후대 문학의 원천이 된 아르카익 서사시 연작
 
 작성 예정 (링크 없음): 아레테, 클레오스, 노스토스, 모이라.
 

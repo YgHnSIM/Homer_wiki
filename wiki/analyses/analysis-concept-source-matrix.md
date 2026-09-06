@@ -62,44 +62,44 @@ status: active
 
 ## 표
 
-| 문헌 | [[concept-menis\|메니스]] | [[concept-hikesia\|히케시아]] | [[concept-aidos\|아이도스]] | [[concept-nemesis\|네메시스]] | [[concept-time\|티메]] | [[concept-xenia\|크세니아]] | [[concept-eleos\|엘레오스]] | [[concept-agathos\|아가토스]] | [[concept-epic-cycle\|에픽 사이클]] | [[concept-ate\|아테]] | [[concept-geras\|게라스]] | [[concept-themis\|테미스]] | [[concept-dike\|디케]] |
+| 문헌 | [[concept-menis\|메니스]] | [[concept-hikesia\|히케시아]] | [[concept-aidos\|아이도스]] | [[concept-nemesis\|네메시스]] | [[concept-time\|티메]] | [[concept-xenia\|크세니아]] | [[concept-eleos\|엘레오스와 오익토스]] | [[concept-agathos\|아가토스]] | [[concept-epic-cycle\|에픽 사이클]] | [[concept-ate\|아테]] | [[concept-geras\|게라스]] | [[concept-themis\|테미스]] | [[concept-dike\|디케]] |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [[williams-1993-shame-and-necessity\|윌리엄스 1993]] | — | — | **중심** | — | 언급 | 언급 | — | 언급 | — | 언급 | — | — | — |
+| [[williams-1993-shame-and-necessity\|윌리엄스 1993]] | — | — | **중심** | 언급 | 언급 | 언급 | 언급 | 언급 | — | 언급 | 언급 | 언급 | 언급 |
 | [[adkins-1960-merit-and-responsibility\|애드킨스 1960]] | — | — | 언급 | 언급 | 언급 | 언급 | 언급 | **중심** | — | 언급 | 언급 | 언급 | 언급 |
 | [[long-1970-morals-and-values\|롱 1970]] | 언급 | — | 언급 | 언급 | 언급 | 언급 | — | 언급 | — | — | — | 언급 | 언급 |
-| [[cairns-1993-aidos\|케언스 1993]] | — | 언급 | **중심** | 언급 | 언급 | 언급 | 언급 | — | — | 언급 | — | 언급 | — |
-| [[dodds-1951-greeks-and-irrational\|도즈 1951]] | 언급 | — | **중심** | — | — | — | — | — | — | 언급 | — | 언급 | — |
+| [[cairns-1993-aidos\|케언스 1993]] | — | 언급 | **중심** | 언급 | 언급 | 언급 | 언급 | — | — | 언급 | — | 언급 | 언급 |
+| [[dodds-1951-greeks-and-irrational\|도즈 1951]] | 언급 | — | **중심** | 언급 | — | — | — | — | — | 언급 | 언급 | 언급 | 언급 |
 | [[snell-1946-discovery-of-mind\|스넬 1946]] | — | — | — | — | — | — | — | — | — | 언급 | — | — | — |
-| [[lloyd-jones-1971-justice-of-zeus\|로이드-존스 1971]] | — | — | 언급 | 언급 | 언급 | 언급 | 언급 | — | — | 언급 | — | 언급 | 언급 |
-| [[macintyre-1981-after-virtue-ch10\|매킨타이어 1981]] | — | — | — | — | 언급 | — | — | 언급 | — | — | — | — | — |
-| [[vernant-1989-belle-mort\|베르낭 1989]] | — | — | — | — | 언급 | — | — | — | — | — | — | — | — |
+| [[lloyd-jones-1971-justice-of-zeus\|로이드-존스 1971]] | 언급 | — | 언급 | 언급 | 언급 | 언급 | 언급 | — | — | 언급 | — | 언급 | 언급 |
+| [[macintyre-1981-after-virtue-ch10\|매킨타이어 1981]] | — | — | — | — | 언급 | — | — | 언급 | — | — | 언급 | 언급 | 언급 |
+| [[vernant-1989-belle-mort\|베르낭 1989]] | — | — | — | — | 언급 | — | — | — | — | — | 언급 | — | — |
 | [[redfield-1975-nature-and-culture\|레드필드 1975]] | 언급 | — | 언급 | — | 언급 | — | — | — | — | — | — | 언급 | — |
-| [[shay-1994-achilles-in-vietnam\|셰이 1994]] | **중심** | — | 언급 | — | — | 언급 | — | — | — | 언급 | — | 언급 | — |
-| [[zanker-1994-heart-of-achilles\|잰커 1994]] | 언급 | 언급 | 언급 | — | 언급 | 언급 | 언급 | — | — | — | — | — | — |
-| [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] | **중심** | 언급 | 언급 | — | 언급 | 언급 | 언급 | 언급 | — | 언급 | — | 언급 | — |
-| [[scott-1979-pity-and-pathos\|스콧 1979]] | — | 언급 | 언급 | 언급 | 언급 | 언급 | **중심** | 언급 | — | — | — | — | — |
+| [[shay-1994-achilles-in-vietnam\|셰이 1994]] | **중심** | — | 언급 | — | — | 언급 | — | — | — | 언급 | 언급 | 언급 | 언급 |
+| [[zanker-1994-heart-of-achilles\|잰커 1994]] | 언급 | 언급 | 언급 | 언급 | 언급 | 언급 | 언급 | — | — | — | — | — | — |
+| [[lee-junseok-2024-iliad-jeongam\|이준석 2024]] | **중심** | 언급 | 언급 | 언급 | 언급 | 언급 | 언급 | 언급 | 언급 | 언급 | 언급 | 언급 | 언급 |
+| [[scott-1979-pity-and-pathos\|스콧 1979]] | 언급 | 언급 | 언급 | 언급 | 언급 | 언급 | **중심** | 언급 | — | — | — | — | — |
 | [[scott-1980-aidos-and-nemesis\|스콧 1980]] | — | 언급 | **중심** | **중심** | 언급 | 언급 | 언급 | — | — | — | — | — | — |
 | [[scott-1981-some-greek-terms\|스콧 1981]] | — | — | 언급 | 언급 | 언급 | 언급 | 언급 | **중심** | — | — | — | — | — |
-| [[scott-1982-philos-philotes-xenia\|스콧 1982]] | — | 언급 | 언급 | 언급 | 언급 | **중심** | 언급 | 언급 | — | — | — | 언급 | 언급 |
+| [[scott-1982-philos-philotes-xenia\|스콧 1982]] | 언급 | 언급 | 언급 | 언급 | 언급 | **중심** | 언급 | 언급 | — | — | — | 언급 | 언급 |
 | [[lee-junseok-2018-wrath-and-pity\|이준석 2018]] | **중심** | 언급 | 언급 | — | 언급 | — | **중심** | — | — | — | — | — | — |
 | [[lee-junseok-2016-odyssey-humanity\|이준석 2016]] | — | — | 언급 | 언급 | — | **중심** | — | — | — | — | — | 언급 | 언급 |
 | [[detienne-1974-cunning-intelligence\|드티엔·베르낭 1974]] | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | [[bittlestone-2005-odysseus-unbound\|비틀스톤 2005]] | — | — | — | — | — | — | — | — | — | — | — | — | — |
-| [[nagy-1979-best-of-achaeans\|나기 1979]] | — | — | — | — | 언급 | — | — | — | — | — | — | — | — |
+| [[nagy-1979-best-of-achaeans\|나기 1979]] | 언급 | — | — | — | 언급 | — | — | 언급 | 언급 | — | — | — | — |
 | [[greek-ministry-2025-odysseion-ithaca\|그리스 2025]] | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | [[raw-2026-polytropos-notes\|raw-2026-polytropos-notes]] | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | [[minchin-2019-homeric-religion\|민친 2019]] | — | 언급 | — | — | 언급 | 언급 | — | — | — | 언급 | — | — | — |
 | [[kearns-2006-gods-in-homeric-epics\|컨스 2006]] | 언급 | — | — | — | 언급 | 언급 | 언급 | — | — | 언급 | — | — | — |
 | [[lee-taesoo-2020-gods-in-audience\|이태수 2020]] | — | — | — | — | 언급 | — | 언급 | — | — | 언급 | — | — | — |
-| [[cho-daeho-2007-gods-in-iliad\|조대호 2007]] | 언급 | — | — | — | 언급 | — | 언급 | — | — | 언급 | — | — | — |
+| [[cho-daeho-2007-gods-in-iliad\|조대호 2007]] | 언급 | — | — | — | 언급 | — | 언급 | — | 언급 | 언급 | — | — | — |
 | [[kim-han-2013-ilias-homeric-gods\|김한 2013]] | 언급 | — | — | — | 언급 | 언급 | 언급 | — | — | 언급 | — | — | — |
 | [[kim-han-2019-gods-zeus-moira-and-god\|김한 2019]] | 언급 | — | — | — | 언급 | — | 언급 | — | — | 언급 | — | — | 언급 |
 | [[riedinger-1976-la-time-chez-homere\|리댕제 1976]] | 언급 | — | 언급 | 언급 | **중심** | 언급 | — | — | — | — | 언급 | — | — |
 | [[finkelberg-1995-odysseus-and-genus-hero\|핀켈버그 1995]] | — | — | — | — | 언급 | — | — | — | — | — | — | — | — |
 | [[finkelberg-1998-time-and-arete\|핀켈버그 1998]] | — | — | 언급 | — | **중심** | 언급 | — | 언급 | — | — | 언급 | — | — |
-| [[cairns-2012-ate-in-homeric-poems\|케언스 2012]] | — | — | 언급 | — | 언급 | — | — | — | — | **중심** | — | — | — |
-| [[vleminck-1982-institutional-aspect-of-time\|블레맹크 1982]] | 언급 | 언급 | — | — | **중심** | — | — | — | — | — | 언급 | — | — |
-| [[benveniste-1969-vocabulaire-institutions-2\|벤베니스트 1969]] | — | 언급 | — | — | 언급 | — | — | — | — | 언급 | 언급 | 언급 | 언급 |
+| [[cairns-2012-ate-in-homeric-poems\|케언스 2012]] | — | — | 언급 | — | 언급 | — | — | — | — | **중심** | — | 언급 | 언급 |
+| [[vleminck-1982-institutional-aspect-of-time\|블레맹크 1982]] | 언급 | 언급 | — | — | **중심** | 언급 | — | — | — | — | 언급 | — | — |
+| [[benveniste-1969-vocabulaire-institutions-2\|벤베니스트 1969]] | — | 언급 | — | 언급 | 언급 | 언급 | — | — | — | 언급 | 언급 | 언급 | 언급 |
 
 [[concept-epic-cycle|에픽 사이클]] 열은 비어 있습니다. 개념 항목의 `sources`가 아직 없고, 문헌 문서도 이 표제어로 잇지 않았습니다.
 
