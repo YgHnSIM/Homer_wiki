@@ -2593,3 +2593,19 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - **`entity-paris.md`**: 3.2절 신설 및 3대 결정적 장면 3행 표준 인용구 탑재(_Il._ 3.39–40 헥토르의 재앙의 파리스 질책, 3.64–66 신들의 선물 변호, 7.362–364 민회 헬레네 반환 단호 거부), 4열 형태론 표 및 3자 복합 관계망 검증.
   - **`entity-calypso.md`**: 3.2절에 _Od._ 5.118–122(남신들의 성적 이중 잣대 규탄 항변) 3행 표준 인용구 추가, 2.3절 원문 키릴 문자 오타 교정, 4열 정형구 표 헤더 표준화.
 - **검증**: `npm test` 전체 스위트 100% 통과 (78 documents, 3369 links, 977 allowed red links, matrix synchronized, check:greek pass, EXIT 0).
+
+---
+
+## [2026-09-06] feat(words) | 메니스(word-menis) 서브에이전트 2인 협업 homer-word v2.0 중복 최소화 및 심층 수용사 전면 재구축
+
+- **작업 개요**: `words/word-menis.md`에 대해 2인의 전문 서브에이전트(중복감사·문헌학자, 어원·수용사전문가)를 가동하여, `wiki/concepts/concept-menis.md`와의 불필요한 서사·신학적 중복을 전수 색출·위임(De-duplication)하고, 단어 사전 본연의 정체성인 ‘**PIE 4대 모음교체, 육보격 운율 통사론, 서사시 코퍼스 전수 계량통계, 400년 영미 번역사 딜레마, 3대 현대 영어 어휘 패밀리 심층 문화의미론**’으로 전면 재구축 완료.
+- **주요 변경 사항**:
+  - **개념 문서(`concept-menis`)와의 중복 제거 및 위임 체계 확립**: 3절 도입부의 신학적 테제 및 3.2절 분노 3대 어휘 비교표(Menis vs Cholos vs Kotos) 등 서사·윤리학적 분석을 `[[concept-menis|메니스]]`로 과감히 위임(Deep Link 연계)하고 콜아웃 내 위키링크 배제 규정을 엄격 준수.
+  - **다크틸로스 6보격 운율론 및 통사론 심화**: 제1음보 행두 절대 배치(Verse-initial), 운율 강세(Ictus)와 곡절 악센트 중첩, 2행 *ouloménēn*으로의 강한 행간걸침(Run-over Enjambment), 지속상(Aspect) 분사(*mēníōn*, *apomēnísas*) 및 공식 종결 정형구(*mē̂nin apoeipṓn*) 분석.
+  - **초기 서사시 코퍼스 전수 계량언어학 분석**: 작품별 출현 빈도(일리아스 22회, 오뒷세이아 6회, 호메로스 찬가 6회 총 34회) 및 문법적 격 분포(단수 대격 44%, 속격 20%, 주격 16%, 여격 8%) 통계 표 구축.
+  - **400년 영미 번역사 및 번역학적 딜레마 규명**: 조지 채프먼(1611, *wrath*), 알렉산더 폽(1720, *wrath*), 리치먼드 래티모어(1951, *anger*), 로버트 페이글스(1990, *rage*), 에밀리 윌슨(2023, *cataclysmic wrath*) 대조 및 왜 서양고전학(Nagy, Muellner)에서 기존 영단어로 번역 불가능하여 *menis*라는 음역 학식 차용어를 직수입했는지에 대한 번역학적 필연성 해설.
+  - **PIE `*men-` 4대 모음교체(Ablaut) 체계 완비**: 기본급(`*men-`: μένος, *mēns*), o-급 사역형(`*mon-éye-`: *moneō*, *mainijaną*), 장급(`*mēn-`/`*mā-`: μῆνις, *manyú-*), 영급(`*mn̥-`: μάντις, μανία, Μοῦσα, ἀμνηστία, `*gamundiz` > *mind*) 정밀 분화.
+  - **현대 영어 어휘 패밀리의 심층 문화의미론**: 1) 게르만 직계(*mind*, *mean*, *remind*, *mindful*), 2) 라틴-불어 경유(*mental*, *mention*, *comment*, *dementia*, *admonish*, *monitor*, *monument*, *monster* < 라틴어 *mōnstrum* '신적 징조'에서 괴물로의 전이), 3) 그리스계 직수입(*mania*, *mantis* < 신탁 예언자세에서 곤충 사마귀로의 전이, *-mancy*, *Muse*, *music*, *museum*, *mnemonic*, *amnesty* < 아테네 403 BC 내전 불망법) 분석.
+  - **Mermaid 어원 계통도 전면 확장**: 4대 모음 교체에서 출발하여 현대 영어 3대 어휘군으로 이어지는 대형 계통도 시각화.
+  - **어원 증거 매트릭스 최신화**: 15개 핵심 명제(운율론, 코퍼스 통계, 번역사 문헌 포함)에 대해 6대 확실성 등급 1:1 매핑 및 민간어원(*menace*, *month*, *man*) 경고 격리.
+- **검증**: `npm test` 전체 스위트 100% 통과 (79 documents, 3406 links, 983 allowed red links, matrix synchronized, check:greek pass, EXIT 0).
