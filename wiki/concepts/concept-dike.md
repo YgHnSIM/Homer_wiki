@@ -3,7 +3,7 @@ title: 디케 (Dike)
 aliases: [Dike, δίκη, díkē, 디케, 디카이, 사법적 판결, 정의, dikē, dikaspolos, 디카스폴로스, 대외 사법, 올곧은 판결, itheîa díkē]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/culture, domain/etymology, status/active]
 created: 2026-09-05
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [benveniste-1969-vocabulaire-institutions-2.md, lloyd-jones-1971-justice-of-zeus.md, dodds-1951-greeks-and-irrational.md, adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, cairns-2012-ate-in-homeric-poems.md, williams-1993-shame-and-necessity.md, lee-junseok-2024-iliad-jeongam.md, macintyre-1981-after-virtue-ch10.md, shay-1994-achilles-in-vietnam.md]
 status: active
 korean_name: 디케
@@ -49,7 +49,7 @@ embodying_entities: ["[[entity-zeus|제우스 (Zeus)]]", "[[entity-achilles|아�
 ### (2) 인도유럽어족 비교 대응형
 - **산스크리트어**: 디시(*diś-*, 가리키다, 언어로 가르치다), 디샤(*diśā-*, 방향, 경계, 방위).
 - **라틴어**: 디코(*dīcō*, 말하다), 유덱스(*iūdex*, 재판관), 유디키움(*iūdicium*, 판결), 콘디키오(*condiciō*, 조건).
-- **게르만어**: 고대 영어 *tēon*(보여주다), 현대 영어 *teach*(가르치다), *token*(징표), *digit*(손가락/숫자).
+- **게르만어**: 고대 영어 *tācen* > 현대 영어 *token*(징표), 고대 영어 *tǣċan* > 현대 영어 *teach*(가르치다), 고대 영어 *tēon*(고발하다, 기소하다; 고대 고지독일어 *zīhan*과 동근).
 
 ### (3) 4열 형태론 표
 
@@ -123,9 +123,9 @@ embodying_entities: ["[[entity-zeus|제우스 (Zeus)]]", "[[entity-achilles|아�
 ### (4) 에피소드 4: 에우마이오스의 신분 탄식과 사회적 처지로서의 디케 (*Od.* 14.56–60)
 
 - **텍스트 인용**:
-  - **번역**: "늘 두려움에 떠는 것, 이것이 바로 새로운 주인들 밑에서 일하는 노예들의 처지(디케)이지요."
-  - **원문**: ἡ γὰρ δμώων δίκη ἐστὶν αἰεὶ δειδιότων, / οἳ ἐπικρατέωσιν ἄνακτες / αἰεὶ τηλόθ' ἐόντες
-  - **학술 전사**: *hē gàr dmṓōn díkē estìn aieì deidiótōn, / hoì epikratéōsin ánaktes / aieì tēlóth' eóntes* (*Od.* 14.59–60)
+  - **번역**: "늘 두려움에 떠는 것, 이것이 바로 새로운 주인들의 지배를 받는 노예들의 처지(디케)이지요."
+  - **원문**: ἡ γὰρ δμώων δίκη ἐστὶν / αἰεὶ δειδιότων, οἵ τ' ἐπικρατέωσι νέοι·
+  - **학술 전사**: *hē gàr dmṓōn díkē estìn / aieì deidiótōn, hoí t' epikratéōsi néoi;* (*Od.* 14.59–60)
 
 - **정밀 분석**:
   돼지치기 에우마이오스는 거지 차림의 나그네 오디세우스에게 음식을 대접하며 자신의 비천한 처지를 한탄합니다. 여기서 *dmṓōn díkē*는 노예라는 특수한 사회적 신분 집단에 숙명적으로 부과된 '생활 양식, 관례적 태도, 처지'를 뜻합니다. 디케는 각 존재가 세계 안에서 차지하는 고유한 자리와 그 자리에 따른 마땅한 몫(share)과 행동 방식을 규정하는 어휘입니다.
@@ -343,3 +343,4 @@ graph TD
 - [[lee-junseok-2024-iliad-jeongam|이준석 (2024), 일리아스 정암학당 역주본]]
 - [[macintyre-1981-after-virtue-ch10|알래스デア 매킨타이어 (1981), 덕 이후: 영웅 사회의 덕의 본질]]
 - [[shay-1994-achilles-in-vietnam|조너선 셰이 (1994), 베트남의 아킬레우스]]
+- [[word-dike|Dike (디케)]]
