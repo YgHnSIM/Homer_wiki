@@ -30,6 +30,7 @@ status: active
 ## 1. 어원 전파 계통도 (Etymological Transmission Tree)
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
     %% 1. 기원 및 그리스어 층위
     SUB["선희랍 기층어 / 의성어 기원<br/>(Pre-Greek Substrate / Onomatopoeic)"] --> GRK["고대 그리스어: ἔλεος<br/>(éleos, 신체적 비애감·연민)"]:::focus
