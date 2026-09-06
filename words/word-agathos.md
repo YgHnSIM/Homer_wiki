@@ -30,7 +30,8 @@ status: active
 ## 1. 어원 전파 계통도 (Etymological Transmission Tree)
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     SUB["선희랍 기층어 (Pre-Greek Substrate)<br/>*agath- (유능함 / 힘 / 탁월함)"] --> GRK["고대 희랍어: ἀγαθός (agathos)<br/>전사 귀족의 탁월성 / 유능함"]
     
     GRK -->|최상급 분기| GRK_SUP["ἄριστος (aristos)<br/>최고의 자들 / 탁월한 자"]
@@ -115,7 +116,8 @@ graph TD
 ### 5.2 역사적 의미 전이 메커니즘 (Semantic Shifts)
 
 ```mermaid
-graph LR
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart LR
     M1["(1) 아르카익 호메로스<br/>전사적 무용과 부, 결과적 성공<br/>(Functional Excellence)"] -->|철학적 내면화| M2["(2) 고전기 플라톤·아리스토텔레스<br/>영혼의 덕과 최고선<br/>(Moral & Metaphysical Good)"]
     M2 -->|기독교 성인 전승| M3["(3) 중세 기독교<br/>순결과 신앙의 고결함<br/>(Saintly Virtue / Agatha)"]
     M2 -->|19세기 낭만주의 조어| M4["(4) 근현대 철학<br/>궁극적 선재론 및 전인적 이상<br/>(Agathism / Kalokagathia)"]
