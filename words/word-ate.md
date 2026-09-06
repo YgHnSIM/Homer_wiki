@@ -30,7 +30,8 @@ status: active
 ## 1. 어원 전파 계통도 (Etymological Transmission Tree)
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     %% 기원 및 고대 희랍어
     SUB["선희랍 기층어 / PIE 가설<br/>*h₂ueh₁- 또는 Pre-Greek substrate<br/>(지적 분별력 상실 / 타격)"] --> GRK_V["고대 희랍어 동사: ἀάω (aáō)<br/>눈멀게 하다 / 실족시키다 / 미혹하다"]
     GRK_V --> GRK_N["고대 희랍어 명사: ἄτη (átē) / 서사시 ἀάτη (aátē)<br/>정신적 눈멂 / 미망 / 재앙의 신격화"]
