@@ -57,7 +57,8 @@ embodying_entities: ["[[entity-관련인물|체현인물]]"]
 개념의 대립쌍(Polarity)과 상호작용 메커니즘을 규명합니다.
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     Trigger["발동 조건 및 계기"] --> Concept["개념명 (Core Concept)"]
     Concept --> Opposite["대립 개념 (Polar Opposite)"]
     Concept --> Institution["사회적 제도 및 관습"]
