@@ -3048,3 +3048,15 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
 - **생성·업데이트한 파일**:
   - `wiki/concepts/concept-geras.md`
   - `wiki/log.md`
+
+## [2026-09-07] chore | Mermaid 전역 글꼴 D2Coding 적용
+
+- **작업 내용**: 모든 Mermaid 다이어그램 글꼴을 Times New Roman 계열에서 Naver D2Coding으로 전역 변경 (개별 문서 블록이 아니라 CSS).
+- **핵심 변경**:
+  - `custom.scss`에 D2Coding `@font-face` 및 `.mermaid` font-family 스택 적용
+  - Obsidian `mermaid-scroll.css`에 동일 스택·폰트 로드 반영
+  - 폴리는 Noto Serif로 폴백
+- **생성·업데이트한 파일**:
+  - `custom.scss`
+  - `wiki/log.md`
+  - (로컬만) `.quartz/quartz/styles/custom.scss`, `.obsidian/snippets/mermaid-scroll.css`
