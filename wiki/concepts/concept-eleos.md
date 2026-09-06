@@ -124,18 +124,18 @@ flowchart TD
     classDef ground fill:#EDE7F6,stroke:#512DA8,stroke-width:1.5px,color:#311B92;
     classDef psyche fill:#E0F7FA,stroke:#00838F,stroke-width:1.5px,color:#006064;
     classDef action fill:#E8F5E9,stroke:#2E7D32,stroke-width:1.5px,color:#1B5E20;
-    classDef oppose fill:#FFEBEE,stroke:#C62828,stroke-width:1.5px,stroke-dasharray: 4 4,color:#B71C1C;
+    classDef oppose fill:#FFEBEE,stroke:#C62828,stroke-width:1.5px,color:#B71C1C;
 
     %% 1. 대립 충동과 비경쟁적 지반
     subgraph S1 [" "]
         direction TB
         T1["[제1단계] 전장 대립 충동과 비경쟁적 지반 형성"]:::banner
-        OPP["전장 적대 충동<br/>무자비(Nelees) · 복수열(Menis) · 휘브리스"]:::oppose
-        REQ["비경쟁적 지반 형성 요건<br/>히케시아(신성 탄원) · 크세니아(손님 환대) · 필멸성 자각"]:::ground
+        OPP["<b>[전장 적대 충동]</b><br/>무자비(Nelees) · 복수열(Menis) · 휘브리스"]:::oppose
+        REQ["<b>[비경쟁적 지반 형성 요건]</b><br/>히케시아(신성 탄원) · 크세니아(손님 환대) · 필멸성 자각"]:::ground
         GND["비경쟁적 지반 수립<br/>(적대성 일시 유보 및 필멸자 실존 연대)"]:::ground
 
         T1 --- OPP & REQ
-        OPP -.->|"자비 발동 차단"| GND
+        OPP -->|"자비 발동 차단"| GND
         REQ -->|"의례·환대·필멸성 매개"| GND
     end
 

@@ -131,16 +131,16 @@ flowchart TD
     %% 스타일 정의
     classDef core fill:#FFF3E0,stroke:#E65100,stroke-width:2.5px,color:#BF360C;
     classDef norm fill:#EDE7F6,stroke:#512DA8,stroke-width:2px,color:#311B92;
-    classDef oppose fill:#FFEBEE,stroke:#C62828,stroke-width:1.5px,stroke-dasharray: 4 4,color:#B71C1C;
+    classDef oppose fill:#FFEBEE,stroke:#C62828,stroke-width:1.5px,color:#B71C1C;
     classDef action fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20;
     classDef event fill:#F5F5F5,stroke:#757575,stroke-width:1.5px,color:#424242;
 
     %% 1. 파토스 자극
     subgraph S1 ["(1) 파토스 자극: 굴욕과 파멸의 광경"]
         direction LR
-        E1["**에우멜로스 사고**<br/>최고 기수의 꼴찌 전락"]:::event
-        E2["**프리아모스 탄원**<br/>살인자 손에 입맞춤"]:::event
-        E3["**시신 훼손 예견**<br/>노인의 치부 노출 위기"]:::event
+        E1["에우멜로스 사고<br/>최고 기수의 꼴찌 전락"]:::event
+        E2["프리아모스 탄원<br/>살인자 손에 입맞춤"]:::event
+        E3["시신 훼손 예견<br/>노인의 치부 노출 위기"]:::event
     end
 
     %% 2. 도덕적 제동과 심리적 갈등
@@ -148,14 +148,14 @@ flowchart TD
         direction TB
         subgraph S2_Top [" "]
             direction LR
-            OPP["**승자의 조롱**<br/>(*Katagelōs*)<br/>가해 충동과 휘브리스"]:::oppose
-            COG["**도덕적 정황 인지**<br/>노오스 & 프라피데스"]:::norm
-            AID["**아이도스**<br/>(*Aidōs*)<br/>신적 질서에 대한 경외"]:::norm
+            OPP["승자의 조롱<br/>(Katagelōs)<br/>가해 충동과 휘브리스"]:::oppose
+            COG["도덕적 정황 인지<br/>노오스 & 프라피데스"]:::norm
+            AID["아이도스<br/>(Aidōs)<br/>신적 질서에 대한 경외"]:::norm
         end
 
-        OIK["**오익토스** (*Oiktos*)<br/>도덕적 제동 (Brake)<br/>감정적 위축 및 가해 자제"]:::core
+        OIK["오익토스 (Oiktos)<br/>도덕적 제동 (Brake)<br/>감정적 위축 및 가해 자제"]:::core
 
-        OPP -.->|"가해 충동"| OIK
+        OPP -->|"가해 충동"| OIK
         COG -->|"도덕적 자각"| OIK
         AID -->|"제동 지원"| OIK
     end
@@ -163,9 +163,9 @@ flowchart TD
     %% 3. 실천과 승화
     subgraph S3 ["(3) 존엄 보전과 구호 실천 (엘레오스)"]
         direction TB
-        ACT["**(1) 체면 보전 행동**<br/>조롱 중단 · 신체 부축<br/>사적 보상 제공"]:::action
-        MED["**(2) 비경쟁적 지반**<br/>적대성 유보 · 필멸자 연대"]:::action
-        ELE["**(3) 엘레오스 승화**<br/>(*Eleos*)<br/>적극적 구호 및 시신 반환"]:::action
+        ACT["(1) 체면 보전 행동<br/>조롱 중단 · 신체 부축 · 사적 보상 제공"]:::action
+        MED["(2) 비경쟁적 지반<br/>적대성 유보 · 필멸자 연대"]:::action
+        ELE["(3) 엘레오스 승화 (Eleos)<br/>적극적 구호 및 시신 반환"]:::action
 
         ACT --> MED
         MED --> ELE
