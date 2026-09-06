@@ -15,6 +15,15 @@ status: active
 
 ---
 
+## [2026-09-07] style | Mermaid 서브그래프 제목 한 줄 고정
+
+- **작업 개요**: 서브그래프 제목이 클러스터 폭에 맞춰 자동 줄바꿈되지 않도록 CSS를 강화했다. 명시적 `<br/>`가 없으면 한 줄로 표시된다.
+- **변경 파일**:
+  - `custom.scss` (및 로컬 `.quartz/quartz/styles/custom.scss`): `.cluster-label` / `foreignObject`에 `nowrap`·`width: max-content`·`max-width: none`
+  - `.obsidian/snippets/mermaid-scroll.css`: Obsidian용 동일 규칙 동기화
+  - `AGENTS.md` §2.4: 제목 한 줄 기본 규칙 한 줄 추가
+- **확인**: Obsidian에서 다이어그램 리로드 후 긴 서브그래프 제목이 한 줄로 유지되는지 확인.
+
 ## [2026-08-14] init | 호메로스 위키 프로젝트 초기화 및 골격 구축
 
 - **작업 개요**: `C:\Vault\ObsidianWiki` 스키마 및 구조를 참고하여 `c:\Vault\Homer_wiki` 프로젝트 초기화 완료.

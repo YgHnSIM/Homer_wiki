@@ -153,6 +153,7 @@ status: draft | active | review | archived
 
 ##### 서브그래프
 - 서브그래프 제목은 **네이티브 라벨**을 쓴다. 예: `subgraph Divine ["초월적 층위 (제우스와 모이라)"]`.
+- 서브그래프 제목은 CSS(`white-space: nowrap`, `width: max-content`)로 **기본 한 줄**이다. 긴 제목이 클러스터 폭에 맞춰 자동 줄바꿈되지 않게 한다. 의도적 줄바꿈이 필요하면 제목에 `<br/>`를 넣을 수 있으나, 렌더러에 따라 무시될 수 있으니 제목은 짧게 유지하는 편이 안전하다.
 - 내부에 `direction TB` 또는 `direction LR`를 명시한다.
 - 특정 Obsidian/Quartz 조합에서 제목 관통이 재현되면, 더미 배너 노드를 표준화하지 말고 **해당 환경의 예외와 최소 우회**를 `wiki/log.md`와 이 절에 기록한다.
 
