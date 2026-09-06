@@ -130,7 +130,7 @@ flowchart TD
     subgraph S1 [" "]
         direction TB
         T1["[제1단계] 전장 대립 충동과 비경쟁적 지반 형성"]:::banner
-        OPP["전장 파괴 충동 (차단선)<br/>전장 경쟁(Nelees) · 메니스 복수열 · 휘브리스"]:::oppose
+        OPP["전장 적대 충동<br/>무자비(Nelees) · 복수열(Menis) · 휘브리스"]:::oppose
         REQ["비경쟁적 지반 형성 요건<br/>히케시아(신성 탄원) · 크세니아(손님 환대) · 필멸성 자각"]:::ground
         GND["비경쟁적 지반 수립<br/>(적대성 일시 유보 및 필멸자 실존 연대)"]:::ground
 
