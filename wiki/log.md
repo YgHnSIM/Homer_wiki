@@ -2790,7 +2790,7 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
 
 ## [2026-09-06] refactor(concepts) | eleos 및 oiktos 머메이드 세로형 파이프라인 정비
 
-- **작업 개요**: `wiki/concepts/concept-eleos.md` 및 `wiki/concepts/concept-oiktos.md` 상호작용망 다이어그램을 통일된 **세로형 파이프라인(`flowchart TD`)**으로 전면 정비하고, 텍스트 가림 및 타이틀 관통 결함을 원천 차단함.
+- **작업 개요**: `wiki/concepts/concept-eleos.md` 및 `wiki/concepts/concept-oiktos.md` 상호작용망 다이어그램을 통일된 **세로형 파이프라인**(`flowchart TD`)으로 전면 정비하고, 텍스트 가림 및 타이틀 관통 결함을 원천 차단함.
 - **주요 수정 사항**:
   - **`concept-eleos.md` 세로형 3단계 구조 구축**:
     - `[제1단계] 전장 대립 충동과 비경쟁적 지반 형성`: 전장 파괴 충동(적색 점선)과 지반 요건(보라색)의 좌우 대칭 배치 후 비경쟁 지반 수립 노드로 수렴.
