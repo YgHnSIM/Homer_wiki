@@ -2997,3 +2997,11 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
 - **생성·업데이트한 파일**:
   - `wiki/concepts/concept-menis.md`
   - `wiki/log.md`
+
+## [2026-09-07] refactor | concept-time 상호작용망 Mermaid 신규격 적용
+
+- **작업 내용**: `concept-time` 4절 다이어그램을 AGENTS.md Mermaid 하이브리드 규격으로 재작성.
+- **핵심 변경**: `graph TD` → `flowchart`, 티메 허브·순환 구조로 재배치, `Timē:::focus` / 침해·메니스·포이네 `:::crisis` / 엘레오스·히케시아 `:::resolve`, 알찬 2행 라벨, 네이티브 서브그래프 유지.
+- **생성·업데이트한 파일**:
+  - `wiki/concepts/concept-time.md`
+  - `wiki/log.md`

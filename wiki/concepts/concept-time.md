@@ -12,7 +12,7 @@ aliases:
   - 몫
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-27
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, long-1970-morals-and-values.md, minchin-2019-homeric-religion.md, nagy-1979-best-of-achaeans.md, kearns-2006-gods-in-homeric-epics.md, lee-taesoo-2020-gods-in-audience.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md, kim-han-2019-gods-zeus-moira-and-god.md, riedinger-1976-la-time-chez-homere.md, finkelberg-1998-time-and-arete.md, vleminck-1982-institutional-aspect-of-time.md, benveniste-1969-vocabulaire-institutions-2.md]
 status: active
 korean_name: 티메
@@ -162,20 +162,41 @@ embodying_entities: ["[[entity-agamemnon|아가멤논]]", "[[entity-achilles|아
 ## 4. 개념 상호작용과 가치망 (Conceptual Network & Polarity)
 
 ```mermaid
-graph TD
-    A["신적·제도적 배당 (émmore timē̂s)<br/>제우스의 섭리 및 우주 분할"] --> B["왕과 영웅의 제도적 지위 (Timē)<br/>영지, 권력, 사회적 위엄"]
-    B --> C["가시적 표시와 몫 (Geras)<br/>전리품, 연회 상석, 선물"]
-    C --> D["탁월성 실현 (Arete)<br/>전장 무공 및 노블레스 오블리주"]
-    D --> B
-    
-    C -. "게라스 강탈 및 아티미아" .-> E["신적 분노 (Menis) 발동<br/>인정 경제 붕괴 및 파국"]
-    E --> F["생명 체계의 파국<br/>파트로클로스 전사 및 버서크 살육"]
-    
-    B --> G["약자 및 손님의 보호<br/>제우스 크세니오스의 담보"]
-    G --> H["상호 존중 감정 (Aidos)<br/>자리 침범 시 공적 의분 (Nemesis)"]
-    H --> I["규범 위반 시 극단 응징 (Poine)<br/>구혼자 학살 및 사법적 단죄"]
-    
-    F --> J["필멸성의 연대 (Eleos & Hikesia)<br/>24권 프리아모스 탄원과 비극적 정화"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 26, 'rankSpacing': 34}}}%%
+flowchart TD
+    subgraph Divine ["신적·제도적 전제"]
+        direction LR
+        Div["신적·제도적 배당 (émmore timē̂s)<br/>제우스 섭리와 우주 분할"]
+    end
+
+    subgraph Core ["티메 순환"]
+        direction LR
+        TimeN["티메 (Timē)<br/>왕·영웅의 지위·권력·위엄"]:::focus
+        Geras["게라스 (Geras)<br/>전리품·연회 상석·선물의 몫"]
+        Arete["아레테 (Arete)<br/>전장 무공과 노블레스 오블리주"]
+        Div --> TimeN
+        TimeN --> Geras
+        Geras --> Arete
+        Arete --> TimeN
+    end
+
+    subgraph Crisis ["침해와 파국"]
+        direction LR
+        Seize["게라스 강탈 · 아티미아<br/>인정 경제의 균열"]:::crisis --> Menis["메니스 발동<br/>신적 분노와 질서 붕괴"]:::crisis --> Fall["생명 체계의 파국<br/>파트로클로스 전사 · 버서크 살육"]:::crisis
+    end
+
+    subgraph Norm ["보호·존중·응징"]
+        direction LR
+        Xenia["약자·손님 보호<br/>제우스 크세니오스의 담보"] --> Aidos["아이도스 · 네메시스<br/>상호 존중과 공적 분개"] --> Poine["포이네 (Poine)<br/>규범 위반의 극단 응징"]:::crisis
+    end
+
+    subgraph Resolve ["회복"]
+        Eleos["엘레오스 · 히케시아<br/>필멸성 연대와 비극적 정화"]:::resolve
+    end
+
+    Geras -.-> Seize
+    TimeN --> Xenia
+    Fall --> Eleos
 ```
 
 - **대립쌍(Polarity) 역학**:
