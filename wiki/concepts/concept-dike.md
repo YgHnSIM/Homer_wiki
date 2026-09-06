@@ -149,51 +149,46 @@ embodying_entities: ["[[entity-zeus|제우스 (Zeus)]]", "[[entity-achilles|아�
 ### (1) 상호작용망 Mermaid 다이어그램
 
 ```mermaid
-graph TD
-    subgraph Divine_Justice["신적 우주 질서 및 감시"]
-        Zeus["최고신 제우스 (Zeus)"]
-        DikeGoddess["여신 디케 (Dike)<br/>제우스의 딸 (Hes. Theog. 901)"]
-        CosmicPunish["가을 폭우 신벌 (Il. 16.388)<br/>디케 추방에 대한 우주적 응보"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
+    subgraph Divine ["신적 우주 질서"]
+        direction LR
+        Zeus["최고신 제우스<br/>우주적 정의의 수호"]
+        DikeG["디케 (Dike)<br/>제우스의 딸 · 정의의 여신"]:::focus
+        Cosmic["가을 폭우 신벌<br/>디케 추방에 대한 우주적 응보"]:::crisis
+        Zeus -->|"정의 수호"| DikeG
     end
 
-    subgraph Court_Mechanism["아고라 사법 제도 (Il. 18.497)"]
-        Agore["아고라 공론장"]
-        HierosKyklos["신성한 석조 원진"]
-        Dikaspolos["디카스폴로스 (Dikaspolos)<br/>판례 정형구의 파수꾼"]
-        GoldTalents["금 두 달란트 상금<br/>가장 올곧은 판결에 수여"]
+    subgraph Court ["아고라 사법"]
+        direction LR
+        Agore["아고라 공론장"] --> Circle["신성한 석조 원진"]
+        Circle --> Judge["디카스폴로스<br/>판례 정형구의 파수꾼"]
+        Judge -->|"홀을 쥐고 선포"| Itheia
+        Prize["금 두 달란트<br/>가장 올곧은 판결의 상"]
+        Itheia["올곧은 판결 (Itheia)<br/>분쟁 당사자의 바른 경계"]:::resolve
+        Itheia --> Prize
     end
 
-    subgraph Legal_Dialectic["사법의 긴장과 분쟁 해결"]
-        Poine["포이네 (Poine)<br/>살인 배상금을 통한 평화 회복"]
-        Feud["혈복수 (Feud)<br/>끝없는 피의 복수 연쇄"]
-        Itheia["올곧은 판결 (Itheia Dike)<br/>분쟁 당사자 간의 바른 경계"]
-        Skolia["굽은 판결 (Skolia Dike)<br/>폭력(Bie)에 의한 왜곡"]
+    subgraph Dialectic ["긴장과 해결"]
+        direction LR
+        Poine["포이네 (Poine)<br/>배상으로 평화 회복"]:::resolve
+        Feud["혈복수 (Feud)<br/>끝없는 피의 연쇄"]:::crisis
+        Skolia["굽은 판결 (Skolia)<br/>폭력(Bie)에 의한 왜곡"]:::crisis
+        Poine -->|"복수 종식"| Itheia
+        Feud -.->|"사법 거부"| Skolia
+        Skolia -->|"디케 추방"| Cosmic
+        Cosmic -->|"공동체 징벌"| Agore
     end
 
-    subgraph Moral_Virtues["이상적 도덕 품성"]
-        Themis["테미스 (Themis)<br/>신성한 영구불변 불문율 총체"]
+    subgraph Virtues ["이상적 품성"]
+        direction LR
+        Themis["테미스 (Themis)<br/>신성한 불문율의 총체"]
         Xenia["크세니아 (Xenia)<br/>나그네 환대의 신성한 의무"]
-        Dikaios["디카이오스 (Dikaios)<br/>신을 두려워하고 정의로운 자"]
-        Theoudes["테우데스 (Theoudes)<br/>신을 경외하는 도덕적 품성"]
+        Dikaios["디카이오스<br/>신을 두려워하는 정의로운 자"]:::resolve
+        Themis -->|"호라이 산출"| DikeG
+        Dikaios --> Xenia
+        Dikaios --> Itheia
     end
-
-    Zeus -->|"우주적 정의 수호"| DikeGoddess
-    Themis -->|"호라이 삼여신 산출"| DikeGoddess
-    
-    Agore --> HierosKyklos
-    HierosKyklos --> Dikaspolos
-    Dikaspolos -->|"홀을 쥐고 선포"| Itheia
-    Itheia --> GoldTalents
-    
-    Poine -->|"피의 복수 종식"| Itheia
-    Feud -.->|"사법 거부"| Skolia
-    
-    Skolia -->|"디케 추방"| CosmicPunish
-    CosmicPunish -->|"공동체 징벌"| Agore
-    
-    Dikaios --> Xenia
-    Dikaios --> Theoudes
-    Dikaios --> Itheia
 ```
 
 ### (2) 테미스(Themis) 대 디케(Dike)의 구조적 비교

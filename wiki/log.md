@@ -3060,3 +3060,11 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - `custom.scss`
   - `wiki/log.md`
   - (로컬만) `.quartz/quartz/styles/custom.scss`, `.obsidian/snippets/mermaid-scroll.css`
+
+## [2026-09-07] refactor | concept-dike 상호작용망 Mermaid 신규격 적용
+
+- **작업 내용**: `concept-dike` 5절 다이어그램을 검증된 Mermaid 레시피로 재작성.
+- **핵심 변경**: `graph TD` → `flowchart`, 디케 중심 층위 재배치, 알찬 2행 라벨, `Dike:::focus` / 신벌·혈복수·굽은 판결 `:::crisis` / 올곧은 판결·포이네·디카이오스 `:::resolve`, `subGraphTitleMargin`·`nodeSpacing` 40 · `rankSpacing` 56, 권행 인용은 본문에 존치.
+- **생성·업데이트한 파일**:
+  - `wiki/concepts/concept-dike.md`
+  - `wiki/log.md`
