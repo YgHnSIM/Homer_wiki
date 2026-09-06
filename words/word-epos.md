@@ -30,7 +30,8 @@ status: active
 ## 1. 어원 전파 계통도 (Etymological Transmission Tree)
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     %% 고대 조어 및 희랍어 층위
     PIE["PIE: *wekʷ- (말하다, 소리 내다)"] --> PGRK["조상 그리스어: *wékʷos / 고졸기 ϝέπος (wépos)"]
     PGRK --> GRK["고대 희랍어: ἔπος (épos, 말·시구)"]
