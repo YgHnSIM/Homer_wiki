@@ -3,7 +3,7 @@ title: 서사시 개요
 aliases: [홈페이지, 메인 대시보드, 호메로스 위키 홈, Overview]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-08-31
+updated: 2026-09-06
 sources: []
 status: active
 ---
@@ -231,7 +231,7 @@ status: active
 
 - 중심 인물: [[entity-achilles|아킬레우스]], [[entity-agamemnon|아가멤논]], [[entity-hector|헥토르]], [[entity-paris|파리스]]. 전체 인물 현황은 [[wiki/index#인물|위키 색인]]에서 확인합니다.
 - 서사를 관통하는 핵심 개념: [[concept-time|티메]], [[concept-ate|아테]], [[concept-menis|메니스]], [[concept-aidos|아이도스]], [[concept-nemesis|네메시스]], [[concept-hikesia|히케시아]], [[concept-eleos|엘레오스]]
-- 관련 어원·수용사: [[word-achilles|Achilles]], [[word-hector|Hector]], [[word-ate|Ate]], [[word-eleos|Eleos]], [[word-time|Time]]
+- 관련 어원·수용사: [[word-achilles|Achilles]], [[word-menis|Menis]], [[word-hector|Hector]], [[word-ate|Ate]], [[word-eleos|Eleos]], [[word-time|Time]]
 
 ## 오뒷세이아 (Odyssey)
 
@@ -255,7 +255,7 @@ status: active
 - [[concept-eleos|엘레오스]] (ἔλεος) — 연민과 오익토스
 - [[concept-agathos|아가토스]] (ἀγαθός) — 영웅적 탁월자와 결과주의적 성공
 - [[concept-ate|아테]] (ἄτη) — 신들이 내린 일시적 판단 마비와 치명적 과오
-- [[concept-epic-cycle|에픽 사이클]] (ἐπικὸς κύκλος) — 트로이아 전쟁 전말을 잇는 서사시 연작
+- [[concept-epic-cycle|에픽 사이클]] (ἐπικὸς κύকλος) — 트로이아 전쟁 전말을 잇는 서사시 연작
 
 ---
 
@@ -266,6 +266,7 @@ status: active
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]]
 - [[analysis-concept-source-matrix|개념과 문헌]]
 - [[analysis-polytropos|폴리트로포스 추가 연구]]
+- [[word-menis|Menis 어원·수용사]]
 - [[word-odyssey|Odyssey 어원·수용사]]
 - [[word-polytropos|Polytropos 어원·수용사]]
 - [[entity-odysseus|오디세우스]]

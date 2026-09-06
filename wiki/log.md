@@ -2609,3 +2609,16 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - **Mermaid 어원 계통도 전면 확장**: 4대 모음 교체에서 출발하여 현대 영어 3대 어휘군으로 이어지는 대형 계통도 시각화.
   - **어원 증거 매트릭스 최신화**: 15개 핵심 명제(운율론, 코퍼스 통계, 번역사 문헌 포함)에 대해 6대 확실성 등급 1:1 매핑 및 민간어원(*menace*, *month*, *man*) 경고 격리.
 - **검증**: `npm test` 전체 스위트 100% 통과 (79 documents, 3406 links, 983 allowed red links, matrix synchronized, check:greek pass, EXIT 0).
+
+---
+
+## [2026-09-06] fix(meta) | 메인 페이지·서사시 개요 내 Menis 링크 연결 및 다이어그램 정비
+
+- **작업 개요**: 메인 페이지(`index.md`) 및 서사시 개요 대시보드(`wiki/overview.md`), 핵심 개념/엔티티 문서 간 `Menis` (어원 표제어 `word-menis`) 링크 누락 결함을 전수 해소하고, `words/word-menis.md` 내 Mermaid 다이어그램의 HTML 엔티티를 정비함.
+- **주요 변경 사항**:
+  - **메인 페이지 (`index.md`)**: `## 지금 읽을 수 있는 문서` 하위 `### 어원` 목록에 알파벳 순서에 맞춰 `- [[word-menis|Menis (메니스)]] — *menis*, *mênis*, *Achillean wrath*` 추가.
+  - **서사시 개요 (`wiki/overview.md`)**: `## 일리아스`의 `- 관련 어원·수용사:` 목록에 `[[word-menis|Menis]]` 추가 및 `## 이어서 읽기` 목록에 `[[word-menis|Menis 어원·수용사]]` 추가, `updated` 메타데이터 최신화.
+  - **개념 문서 (`wiki/concepts/concept-menis.md`)**: `## 관련 항목` 섹션에 `### 관련 어원 문서` 하위 절을 신설하고 `[[word-menis|Menis (메니스)]]` 링크 및 어원 설명 추가.
+  - **인물 문서 (`wiki/entities/entity-achilles.md`)**: `## 관련 항목` 목록에 `[[word-menis|Menis]]` 링크 추가하여 상호 탐색망 강화.
+  - **다이어그램 정비 (`words/word-menis.md`)**: Mermaid 어원 계통도 내 `&gt;` 및 `&amp;` 엔티티를 유니코드 화살표(`→`) 및 한글 접속사(`및`)로 교체하여 다이어그램 렌더링 안정성 확보.
+- **검증**: `npm test` 전체 스위트 100% 통과 (79 documents, 3411 links, 983 allowed red links, matrix synchronized, check:greek pass, EXIT 0).

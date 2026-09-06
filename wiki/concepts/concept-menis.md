@@ -416,3 +416,6 @@ flowchart TD
 ### 상위 분석 문서
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 호메로스 도덕심리학, 가치 체계 및 메니스·엘레오스 연구사 총람
 - [[analysis-concept-source-matrix|개념과 문헌 행렬]] — 위키 내 핵심 개념과 36종 학술 소스 간의 2차원 교차 매트릭스
+
+### 관련 어원 문서
+- [[word-menis|Menis (메니스)]] — 고대 그리스어 μῆνις와 인도유럽조어 *men- 어근에서 유래하여 현대 영단어 mind, mental, monitor, monster, mania 등으로 수용된 어원 분석

@@ -58,6 +58,7 @@ status: active
 - [[word-calypso|Calypso (칼립소)]] — *Calypso*, *Calypso bulbosa*, *Calypso Deep*
 - [[word-eleos|Eleos (엘레오스)]] — *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
 - [[word-hector|Hector (헥토르)]] — *to hector*, *hectoring*, *hectorism*
+- [[word-menis|Menis (메니스)]] — *menis*, *mênis*, *Achillean wrath*
 - [[word-odyssey|Odyssey (오디세이)]] — *Odyssey*, *odyssey*, *Odyssean*
 - [[word-polytropos|Polytropos (폴리트로포스)]] — *polytropos*, *polutropos*, *many-turned*
 - [[word-time|Time (티메)]] — *timocracy*, *timocratic*, *Timothy*, *Timon*, *timology*

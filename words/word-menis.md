@@ -70,8 +70,8 @@ graph TD
     %% 장급 파생군
     LENG --> PGRK_MANIS["원시 헬라어: *mā́-ni-s (우주적·지속적 분노)"]
     PGRK_MANIS --> DOR_MANIS["도리스 방언: μᾶνις (ā 보존)"]
-    PGRK_MANIS --> ION_MENIS["이오니아-아티카: μῆνις (ā &gt; ē)"]
-    ION_MENIS -->|17~18세기 번역사| TRANS_WRATH["채프먼(1611) &amp; 폽(1720): wrath"]
+    PGRK_MANIS --> ION_MENIS["이오니아-아티카: μῆνις (ā → ē)"]
+    ION_MENIS -->|17~18세기 번역사| TRANS_WRATH["채프먼(1611) 및 폽(1720): wrath"]
     ION_MENIS -->|20세기 번역사| TRANS_ANGER["래티모어(1951): anger / 페이글스(1990): rage"]
     ION_MENIS -->|Muellner(1996) 번역불가능성 입증| MOD_MENIS["현대 영어 학술어 직수입: Menis (Achillean wrath)"]
     LENG --> SAN_MANYU["산스크리트어: manyú- (신성한 격정, 우주적 진노)"]
@@ -86,7 +86,7 @@ graph TD
     ZERO --> GRK_AMNESTY["그리스어: ἀ-μνηστία (불망법, 사면)"] --> MOD_AMNESTY["현대 영어: amnesty (사면, 대사령)"]
     ZERO --> GRK_MNEM["그리스어: μνημονικός (기억의)"] --> MOD_MNEM["현대 영어: mnemonic (기억술)"]
     ZERO --> LAT_MEMOR["라틴어: memor / meminī (기억하다)"] --> MOD_MEMORY["현대 영어: memory / memorial / remember"]
-    ZERO --> OE_MIND["게르만 조어 *gamundiz &gt; 고대 영어 gemynd"] --> MOD_MIND["현대 영어: mind / remind / mindful"]
+    ZERO --> OE_MIND["게르만 조어 *gamundiz → 고대 영어 gemynd"] --> MOD_MIND["현대 영어: mind / remind / mindful"]
 ```
 
 ---

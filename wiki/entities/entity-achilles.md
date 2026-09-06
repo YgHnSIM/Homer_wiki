@@ -351,6 +351,7 @@ flowchart TB
 - [[concept-hikesia|Hikesia]] — 프리아모스의 탄원 의례
 - [[concept-xenia|Xenia]] — 적대 중단과 식사의 사회적 규범
 - [[word-achilles|Achilles]] — 아킬레우스 이름의 어원 및 현대 영어 수용사
+- [[word-menis|Menis]] — 서사를 여는 첫 단어이자 아킬레우스의 분노(Achillean wrath) 어원 및 수용사
 - [[benveniste-1969-vocabulaire-institutions-2|에밀 벤베니스트 (1969)]] — 인도유럽 제도 어휘집: 9권 310행 크라이네인(krainein) 선언을 통한 독자적 주권 회수 및 게라스 박탈로 인한 아티모스 위기 분석
 - [[adkins-1960-merit-and-responsibility|A. W. H. 애드킨스 (1960)]] — 공적과 책임: 9권 사절단 거부와 전통적 경쟁적 가치 체계의 파탄 분석
 - [[cairns-2012-ate-in-homeric-poems|더글러스 케언스 (2012)]] — 호메로스 서사시에서의 아테: 리타이 거부와 2차 아테의 연쇄 및 18권 아킬레우스의 자책 분석
