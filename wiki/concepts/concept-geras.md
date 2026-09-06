@@ -3,7 +3,7 @@ title: 게라스 (Geras)
 aliases: [Geras, γέρας, géras, 게라스, 특권적 전리품, 명예의 몫, 특권 몫]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/culture, domain/etymology, status/active]
 created: 2026-09-05
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [benveniste-1969-vocabulaire-institutions-2.md, riedinger-1976-la-time-chez-homere.md, vleminck-1982-institutional-aspect-of-time.md, finkelberg-1998-time-and-arete.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, vernant-1989-belle-mort.md, shay-1994-achilles-in-vietnam.md, dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, macintyre-1981-after-virtue-ch10.md]
 status: active
 korean_name: 게라스
@@ -168,20 +168,20 @@ embodying_entities: ["[[entity-agamemnon|아가멤논 (Agamemnon)]]", "[[entity-
 ### (1) 상호작용망 Mermaid 다이어그램
 
 ```mermaid
-%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 28, 'rankSpacing': 36}}}%%
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
     subgraph Divine ["초월 층위"]
         direction LR
-        Zeus["제우스<br/>왕권·질서 보증"]
+        Zeus["제우스<br/>왕권·질서의 신적 보증"]
     end
 
     subgraph Order ["명예 질서"]
         direction LR
-        Time["티메 (Timē)<br/>영구적 위계 존엄"]
-        Geras["게라스 (Geras)<br/>가시적 특권 몫"]:::focus
-        Council["전사 민회<br/>공적 선분배"]
-        Time --- Geras
-        Council -->|"선분배"| Geras
+        TimeN["티메 (Timē)<br/>영구적 위계와 신분적 존엄"]
+        Geras["게라스 (Geras)<br/>가시적·물질적 특권 몫"]:::focus
+        Council["전사 민회 (Agora)<br/>공적 선분배와 합의"]
+        TimeN --- Geras
+        Council -->|"선분배 헌정"| Geras
     end
 
     subgraph Actors ["행위자"]
@@ -192,17 +192,17 @@ flowchart TD
 
     subgraph Fall ["파국"]
         direction LR
-        Agerastos["아게라스토스<br/>군주 체면 손상"]:::crisis
-        Atimia["아티미아<br/>영웅 명예 박탈"]:::crisis
-        Menis["메니스<br/>파멸적 분노"]:::crisis
+        Agerastos["아게라스토스<br/>군주 체면·위신 손상"]:::crisis
+        Atimia["아티미아 (Atimia)<br/>영웅의 명예 박탈"]:::crisis
+        Menis["메니스 (Menis)<br/>파멸을 부르는 신적 분노"]:::crisis
     end
 
     Zeus -->|"왕권 보증"| King
     Zeus -->|"전공 인정"| Hero
     Geras -->|"공인 지표"| Hero
-    King -.->|"위력 탈취"| Geras
-    King -.->|"몫 결손"| Agerastos
-    Hero -.->|"몫 찬탈"| Atimia
+    King -.->|"위력으로 탈취"| Geras
+    King -.->|"특권 몫 결손"| Agerastos
+    Hero -.->|"몫 찬탈당할 때"| Atimia
     Atimia ==>|"분노로 전이"| Menis
 ```
 

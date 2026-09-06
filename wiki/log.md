@@ -3040,3 +3040,11 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
 - **생성·업데이트한 파일**:
   - `wiki/concepts/concept-time.md`
   - `wiki/log.md`
+
+## [2026-09-07] refactor | concept-geras Mermaid 검증 레시피 적용
+
+- **작업 내용**: `concept-time`에서 검증한 Obsidian Mermaid 레시피를 `concept-geras`에 적용.
+- **핵심 변경**: `subGraphTitleMargin` top 18/bottom 10, `padding` 18, `nodeSpacing` 40 / `rankSpacing` 56, 알찬 2행 라벨, `Geras:::focus` 및 파국 노드 `:::crisis`, 네이티브 서브그래프 제목 유지.
+- **생성·업데이트한 파일**:
+  - `wiki/concepts/concept-geras.md`
+  - `wiki/log.md`
