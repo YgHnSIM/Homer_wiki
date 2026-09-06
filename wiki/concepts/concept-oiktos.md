@@ -131,12 +131,12 @@ flowchart TD
     %% 스타일 정의
     classDef core fill:#FFF3E0,stroke:#E65100,stroke-width:2.5px,color:#BF360C;
     classDef norm fill:#EDE7F6,stroke:#512DA8,stroke-width:2px,color:#311B92;
-    classDef oppose fill:#FFEBEE,stroke:#C62828,stroke-width:1.5px,color:#B71C1C;
+    classDef oppose fill:#FFEBEE,stroke:#C62828,stroke-width:2px,color:#B71C1C;
     classDef action fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20;
     classDef event fill:#F5F5F5,stroke:#757575,stroke-width:1.5px,color:#424242;
 
     %% 1. 파토스 자극
-    subgraph S1 ["(1) 파토스 자극: 굴욕과 파멸의 광경"]
+    subgraph S1 ["(1) 파토스 자극 (굴욕과 파멸)"]
         direction LR
         E1["에우멜로스 사고<br/>최고 기수의 꼴찌 전락"]:::event
         E2["프리아모스 탄원<br/>살인자 손에 입맞춤"]:::event
