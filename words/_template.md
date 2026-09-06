@@ -32,7 +32,8 @@ status: draft # draft | active | review | archived
 ## 1. 어원 전파 계통도 (Etymological Transmission Tree)
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     %% 기본 어원 전파 경로
     PIE["PIE: *root (의미) / 또는 선희랍 기층어"] --> GRK["고대 희랍어: 원어"]
     GRK --> LAT["고전/후기 라틴어: 차용어"]
