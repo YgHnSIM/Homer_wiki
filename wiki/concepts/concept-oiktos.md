@@ -14,7 +14,7 @@ aliases:
   - 가해 자제
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, domain/etymology, status/active]
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [scott-1979-pity-and-pathos.md, adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, zanker-1994-heart-of-achilles.md, williams-1993-shame-and-necessity.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, lee-taesoo-2020-gods-in-audience.md]
 status: active
 korean_name: 오익토스
@@ -127,53 +127,37 @@ embodying_entities: ["[[entity-achilles|아킬레우스]]", "[[entity-priam|프�
 오익토스는 타인의 극단적인 파멸과 수치를 목격했을 때 격발하여, 승리욕과 잔혹성을 제어하고 상대의 존엄을 지켜주는 도덕적 완충망으로 기능합니다. 특히 오익토스(브레이크)가 엘레오스(구호 추진력)로 나아가기 위해서는 비경쟁적 지반 형성이 필수적입니다.
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    %% 스타일 정의
-    classDef core fill:#FFF3E0,stroke:#E65100,stroke-width:2.5px,color:#BF360C;
-    classDef norm fill:#EDE7F6,stroke:#512DA8,stroke-width:2px,color:#311B92;
-    classDef oppose fill:#FFEBEE,stroke:#C62828,stroke-width:2px,color:#B71C1C;
-    classDef action fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20;
-    classDef event fill:#F5F5F5,stroke:#757575,stroke-width:1.5px,color:#424242;
-
-    %% 1. 파토스 자극
-    subgraph S1 ["(1) 파토스 자극 (굴욕과 파멸)"]
+    subgraph Trigger["파토스 자극과 굴욕의 장면"]
         direction LR
-        E1["에우멜로스 사고<br/>최고 기수의 꼴찌 전락"]:::event
-        E2["프리아모스 탄원<br/>살인자 손에 입맞춤"]:::event
-        E3["시신 훼손 예견<br/>노인의 치부 노출 위기"]:::event
+        E1["에우멜로스의 사고<br/>최고 기수가 꼴찌로 전락"]:::crisis
+        E2["프리아모스의 탄원<br/>노왕이 살인자의 손에 입맞춤"]:::crisis
+        E3["시신 훼손의 예견<br/>노인의 치부가 드러날 위기"]:::crisis
     end
 
-    %% 2. 도덕적 제동
-    subgraph S2 ["(2) 도덕적 제동 (오익토스)"]
+    subgraph Brake["도덕적 제동과 오익토스"]
         direction TB
-        subgraph S2_Top [" "]
-            direction LR
-            OPP["승자의 조롱<br/>(Katagelōs)<br/>가해 충동과 휘브리스"]:::oppose
-            COG["도덕적 정황 인지<br/>노오스 & 프라피데스"]:::norm
-            AID["아이도스<br/>(Aidōs)<br/>신적 질서에 대한 경외"]:::norm
-        end
-
-        OIK["오익토스 (Oiktos)<br/>도덕적 제동 (Brake)<br/>감정적 위축 및 가해 자제"]:::core
-
-        OPP -->|"가해 충동"| OIK
-        COG -->|"도덕적 자각"| OIK
-        AID -->|"제동 지원"| OIK
+        Opp["승자의 조롱 (Katagelōs)<br/>가해 충동과 휘브리스의 압력"]:::crisis
+        Cog["도덕적 정황 인지<br/>노오스와 프라피데스의 작동"]
+        Aid["아이도스 (Aidōs)<br/>신적 질서에 대한 경외와 억제"]
+        Oik["오익토스 (Oiktos)<br/>감정적 위축을 넘어 가해를 멈추는 제동"]:::focus
+        Opp -->|"가해 충동"| Oik
+        Cog -->|"도덕적 자각"| Oik
+        Aid -->|"제동 지원"| Oik
     end
 
-    %% 3. 실천과 승화
-    subgraph S3 ["(3) 구호 실천 (엘레오스)"]
+    subgraph Relief["구호 실천과 엘레오스로의 승화"]
         direction TB
-        ACT["(1) 체면 보전 행동<br/>조롱 중단 · 신체 부축 · 사적 보상 제공"]:::action
-        MED["(2) 비경쟁적 지반<br/>적대성 유보 · 필멸자 연대"]:::action
-        ELE["(3) 엘레오스 승화 (Eleos)<br/>적극적 구호 및 시신 반환"]:::action
-
-        ACT --> MED
-        MED --> ELE
+        Act["체면 보전 행동<br/>조롱 중단·신체 부축·사적 보상"]
+        Med["비경쟁적 지반 형성<br/>적대성 유보와 필멸자 연대"]
+        Ele["엘레오스 (Eleos)로 승화<br/>적극적 구호와 시신 반환"]:::resolve
+        Act --> Med
+        Med --> Ele
     end
 
-    %% 단계 간 연결
-    E1 & E2 & E3 --> COG
-    OIK --> ACT
+    E1 & E2 & E3 --> Cog
+    Oik --> Act
 ```
 
 ---

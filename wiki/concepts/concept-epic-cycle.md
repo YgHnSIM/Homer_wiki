@@ -3,7 +3,7 @@ title: 에픽 사이클 (Epic Cycle)
 aliases: [Epic Cycle, 에픽 사이클, 트로이 사이클, Trojan Cycle, 에피코스 퀴클로스, 서사시환, 트로이 서사시환, ἐπικὸς κύκλος, "epikòs kúklos", "에픽 사이클 (Epic Cycle / ἐπικὸς κύκλος)"]
 tags: [type/concept, domain/mythology, domain/iliad, domain/odyssey, domain/culture, status/active]
 created: 2026-08-17
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [cho-daeho-2007-gods-in-iliad.md, lee-junseok-2024-iliad-jeongam.md, nagy-1979-best-of-achaeans.md]
 status: active
 korean_name: 에픽 사이클
@@ -211,55 +211,58 @@ embodying_entities: ["[[entity-achilles|아킬레우스 (Achilles)]]", "[[entity
 ### 5.2 개념 상호작용망 다이어그램
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    subgraph S1["[제1계층] 사회제도 및 정경화 기제"]
-        PANA["파나테나이아 대제전<br/>(아테네 국가 공인 공론장)"]
-        PEIS["페이시스트라토스 법령<br/>(후포볼레 낭송 규칙)"]
-        HOMERID["호메리다이 길드 (키오스)<br/>(호메로스 정전 독점)"]
-        LOCAL["지역 귀족 가문 및 식민시<br/>(에피코릭 티메·클레오스 요구)"]
+    subgraph Institutions["사회 제도와 정전화 기제"]
+        direction TB
+        Pana["파나테나이아 대제전<br/>아테네가 공인한 범그리스 공론장"]
+        Peis["페이시스트라토스 법령<br/>후포볼레 낭송 순서를 규정한 제도"]
+        Homerid["호메리다이 길드<br/>키오스 계열의 호메로스 정전 전승"]
+        Local["지역 귀족 가문과 식민시<br/>에피코릭 티메와 클레오스의 요구"]
     end
 
-    subgraph S2["[제2계층] 텍스트 편찬 및 전승 분화"]
-        CANON["호메로스 정전<br/>(일리아스 & 오뒷세이아)<br/>[범그리스적 통일성]"]
-        CYPR["퀴프리아 (11권)<br/>[전쟁 발단·디오스 불레]"]
-        AETH["아이티오피스 (5권)<br/>[아킬레우스 전사·불멸화]"]
-        LILI["소일리아스 (4권)<br/>[무구 재판·목마 건조]"]
-        ILPERS["일리오스의 파괴 (2권)<br/>[트로이 함락·신전 능욕]"]
-        NOST["귀환 (5권)<br/>[조난과 비극적 귀향]"]
-        TELEG["텔레고네이아 (2권)<br/>[오디세우스 최후·종결]"]
-        THEBAN["테바이 사이클<br/>(테바이스·에피고노이 등)<br/>[아르고스 패권 이데올로기]"]
+    subgraph Texts["텍스트 편찬과 전승의 분화"]
+        direction TB
+        Canon["호메로스 정전<br/>일리아스와 오뒷세이아의 범그리스 통일성"]:::focus
+        Cypr["퀴프리아<br/>전쟁 발단과 제우스의 섭리를 다룬 서사"]
+        Aeth["아이티오피스<br/>아킬레우스의 전사와 불멸화를 잇는 서사"]
+        Lili["소일리아스<br/>무구 재판과 목마 건조를 다룬 후속 서사"]
+        Ilpers["일리오스의 파괴<br/>트로이 함락과 신전 능욕의 기록"]
+        Nost["귀환<br/>장수들의 조난과 비극적 귀향을 묶은 서사"]
+        Teleg["텔레고네이아<br/>오디세우스의 최후와 영웅시대 종결"]
+        Theban["테바이 사이클<br/>테바이스와 에피고노이의 아르고스 이데올로기"]
     end
 
-    subgraph S3["[제3계층] 핵심 가치 규범 및 응보 역학"]
-        MOIRA["모이라 / 디오스 불레<br/>(인구 과부하 경감·섭리)"]
-        TIME["티메 / 게라스<br/>(영웅적 명예와 물질적 지분)"]
-        ATIMIA["아티미아 (불명예·배제)<br/>(아이아스 자살 유발)"]
-        HYBRIS["휘브리스 / 아세베이아<br/>(카산드라 능욕·제단 학살)"]
-        NEMESIS["네메시스 / 신적 의분<br/>(아테나의 격노와 티시스 응징)"]
-        KLEOS["클레오스 / 영웅 제의<br/>(시가의 불멸성과 묘역 숭배)"]
+    subgraph Values["핵심 가치 규범과 응보 역학"]
+        direction TB
+        Moira["모이라와 디오스 불레<br/>인구 과부하 경감과 신적 섭리"]
+        TimeN["티메와 게라스<br/>영웅적 명예와 물질적 지분의 결합"]
+        Atimia["아티미아<br/>불명예와 배제가 아이아스의 자살을 촉발"]:::crisis
+        Hybris["휘브리스와 아세베이아<br/>카산드라 능욕과 제단 학살의 신성모독"]:::crisis
+        Nemesis["네메시스와 신적 의분<br/>아테나의 격노와 티시스 응징"]:::crisis
+        Kleos["클레오스와 영웅 제의<br/>시가의 불멸성과 묘역 숭배"]:::resolve
     end
 
-    %% 연결선
-    PEIS --> PANA
-    PANA -->|공식 정전 채택| CANON
-    HOMERID -->|낭독권 수호| CANON
-    PANA -.->|국지적 편향으로 배제| CYPR
-    PANA -.->|연대기적 잡편으로 분리| LILI
-    LOCAL -->|보완 창작 의뢰| CYPR
-    LOCAL -->|영웅 현창 요구| AETH
-    LOCAL -->|동맹 프로파간다| THEBAN
+    Peis --> Pana
+    Pana -->|"공식 정전 채택"| Canon
+    Homerid -->|"낭독권 수호"| Canon
+    Pana -.->|"국지적 편향으로 배제"| Cypr
+    Pana -.->|"연대기적 잡편으로 분리"| Lili
+    Local -->|"보완 창작 의뢰"| Cypr
+    Local -->|"영웅 현창 요구"| Aeth
+    Local -->|"동맹 프로파간다"| Theban
 
-    CYPR -->|신정론적 발동| MOIRA
-    AETH -->|전사자의 영예| KLEOS
-    LILI -->|무구 배분 분쟁| TIME
-    TIME -->|무구 박탈로 전락| ATIMIA
-    ILPERS -->|제단 및 신전 침탈| HYBRIS
-    HYBRIS -->|신성 질서 침범| NEMESIS
-    NEMESIS -->|귀환길 대재앙 집행| NOST
+    Cypr -->|"신정론적 발동"| Moira
+    Aeth -->|"전사자의 영예"| Kleos
+    Lili -->|"무구 배분 분쟁"| TimeN
+    TimeN -->|"무구 박탈로 전락"| Atimia
+    Ilpers -->|"제단과 신전 침탈"| Hybris
+    Hybris -->|"신성 질서 침범"| Nemesis
+    Nemesis -->|"귀환길 대재앙 집행"| Nost
 
-    CYPR ==>|1권 직전 결합| CANON
-    CANON ==>|24권 직후 결합| AETH
-    NOST ==>|10년 유랑 결합| CANON
+    Cypr ==>|"정전 첫머리와 결합"| Canon
+    Canon ==>|"정전 직후의 후속"| Aeth
+    Nost ==>|"십 년 유랑과 결합"| Canon
 ```
 
 ---
@@ -356,21 +359,24 @@ flowchart TD
 현대 대중문화의 지배적 서사 양식인 '시네마틱 유니버스'(MCU, 스타워즈 확장 세계관)의 아키텍처는 기원전 7~6세기 에픽 사이클의 시스템과 구조적으로 완벽히 일치합니다:
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
     subgraph Modern["현대 프랜차이즈 유니버스"]
-        M_P["프리퀄 (기원/배경)"]
-        M_C["메인 텐트폴 (정전/캐논)"]
-        M_I["인터퀄/시퀄 (사건 확장)"]
-        M_S["스핀오프 (외전)"]
-        M_E["엔드게임/최종 에필로그"]
+        direction TB
+        M_P["프리퀄<br/>기원과 배경을 확장하는 서사"]
+        M_C["메인 텐트폴<br/>정전과 핵심 사건을 고정하는 중심부"]
+        M_I["인터퀄과 시퀄<br/>사건의 전후를 확장하는 이야기"]
+        M_S["스핀오프<br/>주변 인물과 외전을 분기하는 이야기"]
+        M_E["엔드게임과 최종 에필로그<br/>세계의 종결과 유산을 정리하는 결말"]
     end
 
     subgraph Ancient["에픽 사이클 체계"]
-        A_P["[퀴프리아] (전쟁 기원, 제우스 인구감축, 파리스 심판)"]
-        A_C["[일리아스·오뒷세이아] (호메로스 정전/핵심 사건)"]
-        A_I["[아이티오피스·소일리아스·일리오스 파괴] (영웅 전사, 목마, 함락)"]
-        A_S["[귀환] (장수들 개별 귀환 옴니버스)"]
-        A_E["[텔레고네이아] (오디세우스 최후, 영웅시대 종언)"]
+        direction TB
+        A_P["퀴프리아<br/>전쟁 기원과 파리스 심판의 전사"]
+        A_C["일리아스와 오뒷세이아<br/>호메로스 정전과 핵심 사건의 허브"]:::focus
+        A_I["아이티오피스·소일리아스·일리오스의 파괴<br/>영웅 전사와 목마, 트로이 함락의 연쇄"]
+        A_S["귀환<br/>장수들의 개별 귀환을 묶은 옴니버스"]
+        A_E["텔레고네이아<br/>오디세우스 최후와 영웅시대의 종언"]:::resolve
     end
 
     M_P <--> A_P

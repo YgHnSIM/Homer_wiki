@@ -3,7 +3,7 @@ title: 아테 (Ate)
 aliases: [Ate, ἄτη, átē, 아테, 미망, 정신적 눈멂, 치명적 과오, aatē, ἀάτη, atērós, ἀτηρός]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-30
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [cairns-2012-ate-in-homeric-poems.md, dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, cairns-1993-aidos.md, adkins-1960-merit-and-responsibility.md, lloyd-jones-1971-justice-of-zeus.md, lee-junseok-2024-iliad-jeongam.md, minchin-2019-homeric-religion.md, kearns-2006-gods-in-homeric-epics.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md, kim-han-2019-gods-zeus-moira-and-god.md, lee-taesoo-2020-gods-in-audience.md]
 status: active
 korean_name: 아테
@@ -110,43 +110,45 @@ embodying_entities: ["[[entity-agamemnon|아가멤논 (Agamemnon)]]", "[[entity-
 아테는 고립된 개념이 아니며, 신적 주권, 인지 좌소의 마비, 사법적 배상, 그리고 탄원의 수용 여부에 따라 공동체의 회복과 멸망이 갈리는 거대한 가치망의 분기점입니다.
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    subgraph S1 ["(1) 신적 충동 단계 (Daimonic Trigger)"]
-        G1["초자연적 원인<br/>(제우스 · 모이라 · 에리뉘스)"]
-        P1["인간의 내적 정념<br/>(격정 Cholos · 군주적 오만 Hybris)"]
+    subgraph Causes ["신적 충동과 정념의 유입"]
+        direction LR
+        Daimon["제우스·모이라·에리뉘스<br/>인간의 마음에 개입하는 초자연적 원인"]
+        Passion["콜로스와 휘브리스<br/>판단을 압박하는 격정과 군주적 오만"]
     end
 
-    subgraph S2 ["(2) 인지적 마비 단계 (Cognitive Delusion)"]
-        AteNode["아테 (Ate) 발동<br/>프렌(Phren) 마비 · 비전형적 일탈"]
-        Loss["내적 통제 상실<br/>아이도스(Aidos) 차단 · 노오스(Noos) 단절"]
-        Viol["객관적 손해(Harm) 발생<br/>티메(Time) 침해 · 게라스(Geras) 강탈"]
+    subgraph Delusion ["인지적 마비와 객관적 손해"]
+        direction LR
+        Ate["아테 (Ate)<br/>프렌을 흐리는 정신적 눈멂과 치명적 과오"]:::focus
+        Phren["프렌 (Phren)의 통제 상실<br/>아이도스와 노오스가 일시적으로 차단"]
+        Harm["객관적 손해와 명예 침해<br/>티메·게라스·공동체 생명이 파괴됨"]:::crisis
+        Ate --> Phren
+        Phren --> Harm
     end
 
-    subgraph S3 ["(3) 사법적 갈등 분기 (Litai Fork)"]
-        Fork{"리타이(Litai) 탄원 분기<br/>화해 제안 및 배상 절차"}
+    subgraph Judgment ["탄원과 사법적 분기"]
+        direction LR
+        Litai{"리타이 (Litai)의 탄원<br/>참회와 배상 제안을 받아들일 것인가"}
+        Accept["탄원 수용과 과오 인정<br/>행위자 후회가 화해 절차로 전환"]:::resolve
+        Apoina["아포이나 (Apoina) 배상<br/>신적 원인과 인간 책임을 함께 감당"]:::resolve
+        Reject["탄원 거부와 오만 고수<br/>완고한 튀모스가 화해를 차단"]:::crisis
+        Litai -->|"수용과 참회"| Accept
+        Accept --> Apoina
+        Litai -->|"거부와 완고함"| Reject
     end
 
-    subgraph S4 ["(4) 파멸 및 질서 회복 (Sanction & Resolution)"]
-        Accept["[경로 A: 리타이 수용 및 참회]<br/>사후적 진단 및 과오 인정(Aasamen)"]
-        Apoina["물질적 배상(Apoina) 지불<br/>이중 동기화 책임 완수"]
-        Restored["사법적 질서 복원<br/>테미스(Themis) 및 디케(Dike) 회복"]
-
-        Reject["[경로 B: 리타이 거부 및 오만 고수]<br/>완고한 튀모스(Thumos)의 폭주"]
-        SecondAte["2차 아테(Second Ate) 강착<br/>제우스의 사법적 신벌(Tisis)"]
-        Ruin["비극적 파국 및 궤멸<br/>파트로클로스 전사 · 헥토르 죽음"]
+    subgraph Outcome ["질서 회복과 파멸의 귀결"]
+        direction LR
+        Restored["테미스와 디케의 회복<br/>배상과 화해로 공동체 질서를 복원"]:::resolve
+        SecondAte["2차 아테와 신적 제재<br/>탄원 거부자에게 파멸이 되돌아옴"]:::crisis
+        Ruin["비극적 파국<br/>전우의 죽음과 영웅 공동체의 궤멸"]:::crisis
     end
 
-    G1 --> AteNode
-    P1 --> AteNode
-    AteNode --> Loss
-    Loss --> Viol
-    Viol --> Fork
-
-    Fork -->|리타이 공경 및 수용| Accept
-    Accept --> Apoina
+    Daimon --> Ate
+    Passion --> Ate
+    Harm --> Litai
     Apoina --> Restored
-
-    Fork -->|탄원 거부 및 완고함| Reject
     Reject --> SecondAte
     SecondAte --> Ruin
 ```

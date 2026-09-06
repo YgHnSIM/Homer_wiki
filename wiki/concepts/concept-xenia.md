@@ -3,7 +3,7 @@ title: 크세니아 (Xenia)
 aliases: [Xenia, ξενία, xenía, ksenía, 크세니아, 손님 환대, 필록세니아, Philoxenia, "크세니아 (Xenia, ξενία) — 손님 환대와 상호부조의 신성한 규범", 크세노스, Xenos, "크세니아 (Xenia / ξενία) — 손님 환대와 상호부조의 신성한 규범"]
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [scott-1979-pity-and-pathos.md, scott-1982-philos-philotes-xenia.md, scott-1980-aidos-and-nemesis.md, adkins-1960-merit-and-responsibility.md, lloyd-jones-1971-justice-of-zeus.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2016-odyssey-humanity.md, cairns-1993-aidos.md, minchin-2019-homeric-religion.md, kearns-2006-gods-in-homeric-epics.md, benveniste-1969-vocabulaire-institutions-2.md, vleminck-1982-institutional-aspect-of-time.md]
 status: active
 korean_name: 크세니아
@@ -66,12 +66,25 @@ embodying_entities: ["[[entity-zeus|제우스]]", "[[entity-menelaos|메넬라�
 원시 그리스어 어형 `*ksén-wos`(ξένϝος)는 그리스 방언들이 비음 뒤의 반모음 와우(`*-nw-`)를 처리하는 방식에 따라 네 갈래의 전형적인 음운론적 분화를 거쳤습니다:
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    PIE["PIE *gʰs-en-wo-"] --> PG["원시 그리스어 *ksén-wos (ξένϝος)<br/>[미케네 선문자 B: ke-se-nu-wo]"]
-    PG -->|"와우 탈락 + 제1차 보상성 장음화 (*-enw- > -ēn-)"| Ionic["이오니아·호메로스 서사시 방언<br/>ξεῖνος (kseînos)"]
-    PG -->|"와우 단순 탈락 (*-nw- > -n-)"| Attic["아티카 방언<br/>ξένος (ksénos)"]
-    PG -->|"와우 단순 탈락 (보상성 장음화 없음)"| Doric["도리아 방언<br/>ξένος (ksénos)"]
-    PG -->|"비음 동화 및 중자음화 (*-nw- > -nn-)"| Aeolic["아이올리스 방언 (레스보스·테살리아)<br/>ξέννος (ksénnos)"]
+    subgraph Etymology["크세니아의 어원 계보"]
+        direction TB
+        PIE["인도유럽어 어근<br/>PIE *gʰs-en-wo-"]
+        PG["원시 그리스어 형식<br/>*ksén-wos (ξένϝος)"]
+        XENIA["크세니아 (Xenia)<br/>낯선 이를 맞는 환대 관계의 핵심어"]:::focus
+        Ionic["이오니아·호메로스 방언<br/>ξεῖνος (kseînos)"]
+        Attic["아티카 방언<br/>ξένος (ksénos)"]
+        Doric["도리아 방언<br/>ξένος (ksénos)"]
+        Aeolic["아이올리스 방언<br/>ξέννος (ksénnos)"]
+
+        PIE --> PG
+        PG --> XENIA
+        XENIA -->|"와우 탈락과 보상성 장음화"| Ionic
+        XENIA -->|"와우 단순 탈락"| Attic
+        XENIA -->|"와우 탈락과 단음 유지"| Doric
+        XENIA -->|"비음 동화와 중자음화"| Aeolic
+    end
 ```
 
 1. **이오니아·호메로스 서사시 방언 (ξεῖνος, *kseînos*)**:
@@ -173,46 +186,49 @@ flowchart TD
 이 가치망은 **문명적 의례 완수를 통한 신분 승화 축**과 **오만과 방자함에 의한 크세니아 유린 축**이라는 양대 극성을 핵심 동역학으로 삼습니다. 의례가 정당하게 완수되면 낯선 이방인은 '긴장을 풀 수 있는 대상'인 **필로스**(Philos)이자 가문 간 세습 크세노스로 승화되며, 이는 관습법인 **테미스**(Themis), 명예의 선물 교환인 **티메**(Timê), 신성한 맹세인 **호르코스**(Horkos), 문명적 법질서인 **에우노미아**(Eunomia)와 유기적으로 결합합니다. 반면 파리스나 구혼자들처럼 환대의 법도를 짓밟는 자들에게는 최고 수호신 **제우스 크세니오스**의 엄정한 사법 감시 아래 신적 의분인 **네메시스‘**(Nemesis)와 **’지연된 정의‘**(Opsè teleî)의 법칙이 작동하여, 궁극적으로 가문과 국가의 완전한 파멸인 **’티시스**(Tisis)로 귀결됩니다.
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    subgraph S1["환대의 진입과 의례적 완수 축 (정상·문명 궤도)"]
-        XEN["이방인 도착 (Xenos)<br/>(1) 무권리 상태 및 잠재적 취약성<br/>(2) 폭력·약탈 위험 구역 노출"]
-        RITUAL["4단계 환대 의례 완수<br/>[1단계] 정중한 영접 및 좌석 배정 (Thronos)<br/>[2단계] 손·발 씻기 정결 의례 (Cheirnips)<br/>[3단계] 무조건적 식사 제공 (Sitos / 신원 확인 전)<br/>[4단계] 신원 문답 및 잠자리·선물 (Xeneia dora)"]
-        PHILOS["필로스 (Philos) 및 세습 크세노스 결연<br/>(1) 상호 비적대적 신뢰 구역 편입<br/>(2) 가문 간 세습적 상호 안전 보장 확립"]
-        
-        XEN -->|오이코스 영역 진입| RITUAL
-        RITUAL -->|의례적 정화 및 승화| PHILOS
+    subgraph Welcome["환대의 진입과 의례적 완수"]
+        direction TB
+        Guest["이방인 도착<br/>무권리 상태와 잠재적 폭력 위험"]
+        Xenia["크세니아 (Xenia)<br/>이방인을 문명적 관계로 맞이하는 환대"]:::focus
+        Ritual["네 단계 환대 의례<br/>영접·정결·식사·신원 확인과 선물"]
+        Philos["필로스와 세습 크세노스 결연<br/>가문 사이의 상호 안전 보장"]
+        Guest --> Xenia
+        Xenia -->|"오이코스 영역 진입"| Ritual
+        Ritual -->|"의례적 정화와 승화"| Philos
     end
 
-    subgraph S2["연계된 문명 규범망 (가치 연계망)"]
-        THEMIS["테미스 (Themis)<br/>신성한 관습법 및 손님 수호 규범"]
-        TIME["티메 (Timê)<br/>선물 교환을 통한 명예 증여 및 물질적 위계 확인"]
-        HORKOS["호르코스 (Horkos)<br/>신성한 맹세 및 결속의 종교적 보증"]
-        EUNOMIA["에우노미아 (Eunomia)<br/>문명적 좋은 법질서 (야만과 준별)"]
-        
-        PHILOS <-->|법적 근거| THEMIS
-        PHILOS <-->|물적 증명| TIME
-        PHILOS <-->|불가침 서약| HORKOS
-        PHILOS <-->|사회적 귀결| EUNOMIA
+    subgraph Norms["연계된 문명 규범망"]
+        direction LR
+        Themis["테미스 (Themis)<br/>신성한 관습법과 손님 수호"]
+        TimeN["티메 (Timē)<br/>선물 교환으로 명예와 위계 확인"]
+        Horkos["호르코스 (Horkos)<br/>맹세와 결속을 보증하는 종교 규범"]
+        Eunomia["에우노미아 (Eunomia)<br/>문명적 좋은 법질서의 표지"]
+        Philos <-->|"법적 근거"| Themis
+        Philos <-->|"물적 증명"| TimeN
+        Philos <-->|"불가침 서약"| Horkos
+        Philos <-->|"사회적 귀결"| Eunomia
     end
 
-    subgraph S3["대립과 파괴 축 (야만·범죄 궤도)"]
-        HYBRIS["휘브리스 (Hybris) 및 아타스탈리아 (Atasthalia)<br/>(1) 파리스: 환대 주인의 아내·재물 유괴<br/>(2) 구혼자들: 빈집 무단 기생 및 거지 폭행<br/>(3) 폴리페모스: 손님 살해 및 식인 (신성모독)"]
-        ANOMIA["아노미아 (Anomia) 및 아세베이아 (Asebeia)<br/>문명 질서 파괴 및 제우스에 대한 종교적 불경"]
-        
-        XEN -.->|환대 거부 및 착취| HYBRIS
-        HYBRIS -->|환대 규범 유린| ANOMIA
+    subgraph Crisis["대립과 파괴의 궤도"]
+        direction TB
+        Hybris["휘브리스와 아타스탈리아<br/>환대 주인의 가족·재산 침탈과 손님 살해"]:::crisis
+        Anomia["아노미아와 아세베이아<br/>공동체 질서 파괴와 신성모독"]:::crisis
+        Xenia -.->|"환대 거부와 착취"| Hybris
+        Hybris -->|"환대 규범 유린"| Anomia
     end
 
-    subgraph S4["초월적 사법 집행과 신벌 (신정론 축)"]
-        ZEUS["제우스 크세니오스 (Zeus Xenios)<br/>손님 환대의 최고 수호신 및 신적 감시"]
-        NEMESIS["네메시스 (Nemesis)<br/>불의와 오만에 대한 신적·공적 의분"]
-        OPSE["지연된 정의 (Opsè teleî)<br/>시간적 유예 속 가중되는 신벌의 필연성"]
-        TISIS["티시스 (Tisis)<br/>(1) 트로이아의 함락 및 민족적 멸절<br/>(2) 구혼자 전원 살육 및 오이코스 정화"]
-        
-        ANOMIA -->|신적 감시망 촉발| ZEUS
-        ZEUS -->|도덕적 분노 발동| NEMESIS
-        NEMESIS -->|사법적 시간 집행| OPSE
-        OPSE -->|종국적 징벌 관철| TISIS
+    subgraph Justice["초월적 사법 집행과 신벌"]
+        direction TB
+        Zeus["제우스 크세니오스<br/>손님 환대의 최고 수호와 신적 감시"]
+        Nemesis["네메시스 (Nemesis)<br/>불의와 오만에 대한 신적 의분"]:::crisis
+        Opse["지연된 정의 (Opsè teleî)<br/>유예 속에서 가중되는 신벌의 필연성"]:::crisis
+        Tisis["티시스 (Tisis)<br/>트로이아와 구혼자들에게 관철된 종국적 징벌"]:::resolve
+        Anomia -->|"신적 감시망 촉발"| Zeus
+        Zeus -->|"도덕적 분노 발동"| Nemesis
+        Nemesis -->|"사법적 시간 집행"| Opse
+        Opse -->|"종국적 징벌 관철"| Tisis
     end
 ```
 

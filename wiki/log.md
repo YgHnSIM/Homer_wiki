@@ -3068,3 +3068,25 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
 - **생성·업데이트한 파일**:
   - `wiki/concepts/concept-dike.md`
   - `wiki/log.md`
+
+
+## [2026-09-07] refactor | concept Mermaid 신규격 일괄 적용 (배치 B)
+
+- **작업 내용**: 검증된 Homer Wiki Mermaid 레시피를 적용해 대상 개념 문서의 모든 Mermaid 블록을 `flowchart TD`와 표준 초기화 설정으로 일괄 재작성. 네이티브 서브그래프 제목, 2행 라벨, 개념별 `:::focus`, 적절한 `:::crisis`·`:::resolve` 구조를 반영하고 인라인 스타일·배너 패턴을 제거.
+- **생성·업데이트한 파일**:
+  - `wiki/concepts/concept-xenia.md`
+  - `wiki/concepts/concept-epic-cycle.md`
+  - `wiki/concepts/concept-eleos.md`
+  - `wiki/concepts/concept-oiktos.md`
+  - `wiki/log.md`
+
+## [2026-09-07] refactor | concept Mermaid 신규격 일괄 적용 (배치 A)
+
+- **작업 내용**: 검증된 Homer Wiki Mermaid 레시피를 적용해 대상 개념 문서의 모든 Mermaid 블록을 표준 초기화 설정과 `flowchart TD`로 재작성. 네이티브 서브그래프 제목, 실질적인 2행 라벨, 문서별 단일 `:::focus`, 의미에 따른 `:::crisis`·`:::resolve`를 반영하고 인라인 스타일·배너 패턴을 배제.
+- **생성·업데이트한 파일**:
+  - `wiki/concepts/concept-themis.md`
+  - `wiki/concepts/concept-ate.md`
+  - `wiki/concepts/concept-agathos.md`
+  - `wiki/concepts/concept-nemesis.md`
+  - `wiki/concepts/concept-menis.md`
+  - `wiki/log.md`

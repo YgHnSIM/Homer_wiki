@@ -3,7 +3,7 @@ title: 아가토스 (Agathos)
 aliases: [Agathos, ἀγαθός, agathós, 아가토스, 아가토이, Agathoi, 아리스토스, Aristos, 탁월한 자, 에스틀로스, Esthlos]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/culture, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [adkins-1960-merit-and-responsibility.md, long-1970-morals-and-values.md, finkelberg-1998-time-and-arete.md, macintyre-1981-after-virtue-ch10.md, scott-1979-pity-and-pathos.md, scott-1981-some-greek-terms.md, scott-1982-philos-philotes-xenia.md, williams-1993-shame-and-necessity.md, lee-junseok-2024-iliad-jeongam.md, nagy-1979-best-of-achaeans.md]
 status: active
 korean_name: 아가토스
@@ -99,59 +99,58 @@ embodying_entities: ["[[entity-achilles|아킬레우스 (Achilles)]]", "[[entity
 아가토스는 고립된 덕목이 아니며, 명예, 신적 혈통, 가문의 존속, 파멸의 위협, 그리고 긴장 완화망이 교차하는 복합적 가치망의 중심축입니다.
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    subgraph S1 ["S1: 아가토스의 본질과 구성 요건 (Nature & Prerequisites)"]
-        AG["아가토스 (Agathos / Aristos)<br/>탁월한 영웅적 귀족 전사"]
-        AR["(1) 아레테 (Arete)<br/>전열 앞장서기 및 군사적 무용"]
-        EU["(2) 에우게네이아 (Eugeneia)<br/>신적 혈통 및 가문 정통성"]
-        TG["(3) 티메와 게라스 (Time / Geras)<br/>물질적 자산, 전리품, 식솔 부양력"]
-        ER["(4) 에르곤 (Ergon)<br/>결과주의적 성공 및 오이코스 보전"]
-        
-        AG --> AR
-        AG --> EU
-        AG --> TG
-        AG --> ER
+    subgraph Prerequisites ["아가토스의 구성 요건"]
+        direction LR
+        Agathos["아가토스 (Agathos)<br/>가문과 공동체를 지키는 탁월한 전사"]:::focus
+        Arete["아레테 (Arete)<br/>전열 앞에서 입증하는 군사적 무용"]
+        Eugeneia["에우게네이아 (Eugeneia)<br/>신적 혈통과 가문의 정통성"]
+        Share["티메와 게라스<br/>명예·전리품·식솔 부양의 물질 기반"]
+        Ergon["에르곤 (Ergon)<br/>오이코스를 보전하는 실제적 성과"]
+        Agathos --> Arete
+        Agathos --> Eugeneia
+        Agathos --> Share
+        Agathos --> Ergon
     end
 
-    subgraph S2 ["S2: 실존적 동력과 영웅적 보상 (Existential Drive & Rewards)"]
-        AGON["아곤 (Agon)<br/>동등자 간 상호 탁월성 경쟁"]
-        KL["클레오스 아프티톤 (Kleos Aphthiton)<br/>시적 기억을 통한 불멸의 명성"]
-        TM["테메노스 (Temenos)<br/>공동체가 헌정한 영지와 특권"]
-        
-        AR & ER --> AGON
-        AGON --> KL
-        AGON --> TM
+    subgraph Competition ["경쟁과 영웅적 보상"]
+        direction LR
+        Agon["아곤 (Agon)<br/>동등한 전사 사이의 상호 탁월성 경쟁"]
+        Kleos["클레오스 아프티톤<br/>시적 기억으로 지속되는 불멸의 명성"]
+        Temenos["테메노스 (Temenos)<br/>공동체가 헌정하는 영지와 특권"]
+        Agon --> Kleos
+        Agon --> Temenos
     end
 
-    subgraph S3 ["S3: 실패와 전락의 위협 (Threat of Failure & Fall)"]
-        ATE["아테 (Ate)<br/>신적 미망과 오판"]
-        HAM["하마르티아 (Hamartia)<br/>치명적 판단 실책"]
-        KAK["카코스 (Kakos)<br/>무능하고 비천한 패배자"]
-        AIS["아이스크론 (Aischron)<br/>사회적 수치와 멸시"]
-        
-        ATE --> HAM
-        HAM --> KAK
-        ER -.->|"전투 패배 및 오이코스 몰락"| KAK
-        KAK --> AIS
+    subgraph Fall ["실패와 전락의 위협"]
+        direction LR
+        Ate["아테 (Ate)<br/>신적 미망과 공동체를 향한 오판"]:::crisis
+        Hamartia["하마르티아 (Hamartia)<br/>치명적 판단 실책과 전술적 실패"]:::crisis
+        Kakos["카코스 (Kakos)<br/>무능하고 비천한 패배자로의 전락"]:::crisis
+        Aischron["아이스크론 (Aischron)<br/>패배 뒤에 남는 사회적 수치와 멸시"]:::crisis
+        Ate --> Hamartia
+        Hamartia --> Kakos
+        Kakos --> Aischron
     end
 
-    subgraph S4 ["S4: 긴장의 이완과 협력적 연대망 (Relief of Tension & Cooperation)"]
-        PHI["필로스 (Philos)<br/>가족 및 전우 연대"]
-        XEN["크세니아 (Xenia)<br/>이방인 환대 및 세습 동맹"]
-        AID["아이도스 (Aidos)<br/>수치심과 도덕적 자제"]
-        ELE["엘레오스 (Eleos)<br/>필멸성에 대한 연민과 공감"]
-        
-        AG -.->|"상시적 긴장 완화 필요"| PHI
-        AG -.->|"외부 위협 대비 안전망"| XEN
-        AID --> AG
-        ELE --> AID
+    subgraph Safeguards ["절제와 협력의 안전망"]
+        direction LR
+        Aidos["아이도스 (Aidos)<br/>도주와 과도한 폭력을 억제하는 수치심"]
+        Philos["필로스 (Philos)<br/>전우와 가족 앞에서 긴장을 풀게 하는 연대"]:::resolve
+        Xenia["크세니아 (Xenia)<br/>이방인 환대로 외부 위험을 완화하는 동맹"]:::resolve
+        Eleos["엘레오스 (Eleos)<br/>필멸성의 공감으로 적대 긴장을 낮추는 연민"]:::resolve
+        Aidos --> Agathos
+        Eleos --> Philos
     end
 
-    %% 서브그래프 간 상호작용 및 파국 억제 경로
-    TG -.->|"티메 충돌 및 중재 부재"| ATE
-    KL & TM -->|"자부심 과잉 시 휘브리스 위험"| ATE
-    AIS -.->|"아이도스를 통한 회복 분투"| AR
-    ELE -.->|"적대 관계의 파국적 긴장 해소"| PHI
+    Arete --> Agon
+    Ergon --> Agon
+    Share -.->|"몫의 충돌과 중재 부재"| Ate
+    Kleos -.->|"자부심 과잉과 휘브리스 위험"| Ate
+    Agathos -.->|"상시적 긴장 완화"| Philos
+    Agathos -.->|"공동체 밖의 보호망"| Xenia
+    Aischron -.->|"아이도스와 동료 연대로 회복"| Arete
 ```
 
 ### 4.1 핵심 역학 해제

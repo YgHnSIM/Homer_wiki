@@ -3,7 +3,7 @@ title: 테미스 (Themis)
 aliases: [Themis, θέμις, thémis, 테미스, 테미스테스, 신성한 관습법, 판례 총체, 씨족 내부법]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/culture, domain/etymology, status/active]
 created: 2026-09-05
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [benveniste-1969-vocabulaire-institutions-2.md, lloyd-jones-1971-justice-of-zeus.md, shay-1994-achilles-in-vietnam.md, dodds-1951-greeks-and-irrational.md, adkins-1960-merit-and-responsibility.md, cairns-1993-aidos.md, cairns-2012-ate-in-homeric-poems.md, williams-1993-shame-and-necessity.md, lee-junseok-2024-iliad-jeongam.md, macintyre-1981-after-virtue-ch10.md]
 status: active
 korean_name: 테미스
@@ -167,47 +167,49 @@ embodying_entities: ["[[entity-zeus|제우스 (Zeus)]]", "[[entity-nestor|네스
 ### (1) 상호작용망 Mermaid 다이어그램
 
 ```mermaid
-graph TD
-    subgraph Divine_Foundations["신적 질서 및 우주적 기원"]
-        Zeus["최고신 제우스 (Zeus)"]
-        DivineThemis["원초적 테미스 (Themis)<br/>신들이 세운 영구불변의 당위"]
-        Wrath["가을 폭우 신벌 (Il. 16.387)<br/>우주적 응보와 질서 복원"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
+    subgraph Foundations ["신적 기원과 규범의 토대"]
+        direction LR
+        Zeus["제우스<br/>홀과 판례를 맡기는 최고신"]
+        Themis["테미스 (Themis)<br/>신성한 당위와 관습 판례의 토대"]:::focus
+        Zeus -->|"질서 위탁"| Themis
     end
 
-    subgraph Political_Authority["공적 사법 및 군주권 (Agore)"]
-        Skeptron["왕홀 (Skeptron)<br/>신적 권위의 물질화"]
-        King["군주 (Agamemnon / Basileus)"]
-        Dikaspóloi["재판관들 (Dikaspóloi)"]
-        Themistes["테미스테스 (Themistes)<br/>전승된 판례와 불문율 총체"]
+    subgraph Agora ["아고라의 공적 사법"]
+        direction LR
+        Skeptron["왕홀 (Skeptron)<br/>발언과 판결을 승인하는 권위"]
+        Basileus["바실레우스 (Basileus)<br/>위탁받은 판례를 적용하는 군주"]
+        Themistes["테미스테스 (Themistes)<br/>전승 판례와 불문 규범의 집합"]
+        Dike["디케 (Dike)<br/>분쟁에 올곧은 경계를 긋는 판결"]:::resolve
+        Skeptron --> Basileus
+        Basileus --> Themistes
+        Themistes --> Dike
     end
 
-    subgraph Legal_Dialectic["사법의 실천과 긴장 (Themis 대 Dike)"]
-        Dike["디케 (Dike)<br/>분쟁 시 그어주는 올곧은 판결 선"]
-        Skoliai["굽은 판결 (Skoliai)<br/>폭력(Bie)에 의한 판례 왜곡"]
-        Hybris["휘브리스 (Hybris)<br/>오만한 침탈과 규범 무시"]
+    subgraph Breach ["규범 침해와 우주적 응보"]
+        direction LR
+        Hybris["휘브리스 (Hybris)<br/>몫과 신성한 경계를 넘는 오만"]:::crisis
+        Skoliai["굽은 판결 (Skoliai)<br/>폭력으로 판례와 디케를 왜곡"]:::crisis
+        Wrath["제우스의 폭우 신벌<br/>공동체의 규범 붕괴를 응징"]:::crisis
+        Hybris --> Skoliai
+        Skoliai --> Wrath
     end
 
-    subgraph Moral_Institutions["사회적 윤리 및 의례 체계"]
-        Aidos["아이도스 (Aidos)<br/>규범 이탈에 대한 내적 제동기"]
-        Nemesis["네메시스 (Nemesis)<br/>불의에 대한 공적 의분"]
-        Xenia["크세니아 (Xenia)<br/>나그네 환대의 신성한 당위"]
+    subgraph Ethics ["사회 윤리와 질서 회복"]
+        direction LR
+        Xenia["크세니아 (Xenia)<br/>나그네를 보호하는 신성한 의무"]:::resolve
+        Aidos["아이도스 (Aidos)<br/>위반을 앞서 멈추게 하는 내적 제동"]
+        Nemesis["네메시스 (Nemesis)<br/>불의를 교정하는 공동체의 공적 의분"]
+        Xenia --> Aidos
+        Aidos --> Nemesis
     end
 
-    Zeus -->|"홀과 판례 위탁"| Skeptron
-    Skeptron --> King
-    Skeptron --> Dikaspóloi
-    
-    DivineThemis -->|"판례로 구체화"| Themistes
-    Themistes -->|"올바른 적용"| Dike
-    Themistes -->|"내적 규범화"| Aidos
-    Aidos -->|"사회적 수호"| Nemesis
-    
-    DivineThemis -->|"오이코스 환대 명령"| Xenia
-    
-    King -.->|"사리사욕으로 왜곡"| Skoliai
-    Hybris -->|"폭력 행사"| Skoliai
-    Skoliai -->|"디케 추방"| Wrath
-    Wrath -->|"우주적 파멸 초래"| King
+    Themis -->|"판례로 구체화"| Themistes
+    Themis -->|"환대의 근거"| Xenia
+    Themistes -->|"규범 이탈 감시"| Aidos
+    Basileus -.->|"사리사욕으로 왜곡"| Skoliai
+    Nemesis -->|"공적 제재"| Wrath
 ```
 
 ### (2) 테미스(Themis) 대 디케(Dike)의 구조적 비교

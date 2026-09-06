@@ -149,41 +149,44 @@ embodying_entities: ["[[entity-achilles|아킬레우스]]", "[[entity-apollo|아
 메니스(μῆνις, *mē̂nis*)는 호메로스 세계관에서 단순한 감정적 흥분이 아니라, 우주적·신성한 위계 질서가 침해되었을 때 발동하는 초월적 응징 메커니즘입니다.
 
 ```mermaid
-%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 26, 'rankSpacing': 34}}}%%
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
     subgraph Trigger ["발동 계기"]
         direction LR
-        Ate["아테 (Ate)<br/>아가멤논의 독단과 오만"] --> Wound["게라스 강탈 · 티메 유린<br/>존재론적 명예 침해"]:::crisis
+        Ate["아테 (Ate)<br/>아가멤논의 독단과 오만"] --> Wound["게라스 강탈과 티메 유린<br/>전사의 존재론적 명예 침해"]:::crisis
     end
 
-    subgraph Core ["핵심"]
+    subgraph Core ["신적 주권과 메니스"]
         direction LR
-        Zeus["디오스 불레 (Dios Boulē)<br/>제우스 섭리와의 결합"]
-        Menis["메니스 (Mênis)<br/>초월적·우주적 신적 분노"]:::focus
+        Zeus["디오스 불레 (Dios Boulē)<br/>제우스 섭리와 인간 파국의 결합"]
+        Menis["메니스 (Mênis)<br/>초월적 질서를 지키는 신적 분노"]:::focus
         Zeus -.-> Menis
     end
 
-    subgraph Polarity ["대립 규범"]
+    subgraph Polarity ["대립 규범과 긴장"]
         direction LR
-        Bond["엘레오스 · 필로테스 · 카리스<br/>필멸자 연민과 호혜"]:::resolve
-        Law["테미스 · 디케<br/>전사 사회의 질서와 신성한 몫"]
+        Bond["엘레오스·필로테스·카리스<br/>필멸자 연민과 호혜의 관계"]:::resolve
+        Law["테미스와 디케<br/>전사 사회의 질서와 신성한 몫"]
     end
 
-    subgraph Arc ["전개"]
+    subgraph Arc ["분노의 전개"]
         direction LR
-        S1["(1) 발동·철수<br/>아고라 이탈 · 배상 거부"] --> S2["(2) 전이·야수화<br/>헥토르 표적 · 시신 모독"]:::crisis --> S3["(3) 탄원 수용<br/>히케시아와 필멸성 인식"]
+        Withdraw["발동과 철수<br/>아고라 이탈과 배상 거부"] --> Beast["전이와 야수화<br/>헥토르 표적과 시신 모독"]:::crisis
+        Beast --> Petition["탄원 수용<br/>히케시아와 필멸성 인식"]:::resolve
     end
 
-    subgraph End ["완결"]
+    subgraph End ["연민과 질서의 완결"]
         direction LR
-        Eleos["엘레오스 발현<br/>피아 동일화 · 식사 복원"]:::resolve --> Peace["테미스·평화 복원<br/>휴전과 대등한 장례"]:::resolve
+        Eleos["엘레오스의 발현<br/>피아 동일화와 공동 식사의 복원"]:::resolve
+        Peace["테미스와 평화의 복원<br/>휴전과 대등한 장례의 성립"]:::resolve
+        Eleos --> Peace
     end
 
     Wound --> Menis
     Menis <-.->|"공동체 결속과 긴장"| Bond
     Menis <-.->|"사법 질서와 긴장"| Law
-    Menis --> S1
-    S3 --> Eleos
+    Menis --> Withdraw
+    Petition --> Eleos
 ```
 
 ### 4.1 메니스의 양대 대립쌍 역학

@@ -13,7 +13,7 @@ aliases:
   - "네메시스 (Nemesis / νέμεσις) — 응당한 분배와 공적 의분"
 tags: [type/concept, domain/iliad, domain/odyssey, domain/mythology, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md, long-1970-morals-and-values.md, cairns-1993-aidos.md, lloyd-jones-1971-justice-of-zeus.md, adkins-1960-merit-and-responsibility.md, zanker-1994-heart-of-achilles.md, lee-junseok-2024-iliad-jeongam.md, dodds-1951-greeks-and-irrational.md, williams-1993-shame-and-necessity.md, benveniste-1969-vocabulaire-institutions-2.md]
 status: active
 korean_name: 네메시스
@@ -402,35 +402,50 @@ embodying_entities: ["[[entity-poseidon|포세이돈]]", "[[entity-apollo|아폴
 ### 4.1 개념 상호작용망 다이어그램
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    subgraph Foundation ["(1) 분배와 질서의 토대 (Ontological & Institutional Basis)"]
-        NEM["네메인 (Nemein)<br/>응당한 분배 및 할당"] --> MOI["모이라 (Moira)<br/>각자의 몫과 한계"]
-        MOI --> KOS["코스모스 (Kosmos)<br/>정돈된 위계 질서"]
-        KOS --> THE["테미스 (Themis)<br/>신성한 관습 규범"]
+    subgraph Foundation ["분배와 질서의 토대"]
+        direction LR
+        Nemein["네메인 (Nemein)<br/>각자에게 응당한 몫을 배정하는 원리"]
+        Moira["모이라 (Moira)<br/>인간과 신에게 주어진 몫과 한계"]
+        Kosmos["코스모스 (Kosmos)<br/>몫들이 배열된 사회적·우주적 질서"]
+        Themis["테미스 (Themis)<br/>질서를 지키는 신성한 관습 규범"]
+        Nemein --> Moira
+        Moira --> Kosmos
+        Kosmos --> Themis
     end
 
-    subgraph Core_Sanctions ["(2) 상호 제재 고리 (Internal & External Sanctions)"]
-        THE --> NEMESIS["네메시스 (Nemesis)<br/>관찰자·공동체의 공적 의분"]
-        NEMESIS <-->|외적 비난 예견 및 내면화 / 자기억제| AIDOS["아이도스 (Aidos)<br/>행위자의 수치심 및 도덕적 억제"]
+    subgraph Sanction ["내면 억제와 공적 의분"]
+        direction LR
+        Nemesis["네메시스 (Nemesis)<br/>몫의 침해를 교정하는 공적 의분"]:::focus
+        Aidos["아이도스 (Aidos)<br/>타인의 비난을 예견하는 내면적 억제"]
+        Nemesis <-->|"외적 비난과 자기억제의 상호성"| Aidos
     end
 
-    subgraph Polarity ["(3) 대립쌍 및 일탈 (Violations & Polar Opposites)"]
-        AIDOS -.->|억제 실패 및 도덕 감각 상실| ANA["아나이데이아 (Anaideia)<br/>파렴치 및 후안무치"]
-        NEMESIS -.->|몫의 침범 및 과도함에 대한 격분| HYB["휘브리스 (Hybris)<br/>오만 및 월권적 폭력"]
-        ANA --> HYB
-        HYB -->|임계점 초과| ATE["아테 (Ate)<br/>파멸적 미망과 맹목"]
+    subgraph Violation ["일탈과 파멸의 연쇄"]
+        direction LR
+        Anaideia["아나이데이아 (Anaideia)<br/>시선과 규범을 무시하는 파렴치"]:::crisis
+        Hybris["휘브리스 (Hybris)<br/>분수와 타인의 권리를 넘는 오만"]:::crisis
+        Ate["아테 (Ate)<br/>질서 이탈을 파국으로 이끄는 미망"]:::crisis
+        Anaideia --> Hybris
+        Hybris --> Ate
     end
 
-    subgraph Retribution ["(4) 사법 집행 및 우주적 정의 (Cosmic Justice & Retribution)"]
-        NEMESIS -->|신들의 의분 및 제재 촉발| TIS["티시스 (Tisis)<br/>신적 응징 및 보복"]
-        ATE --> TIS
-        TIS --> DIK["디케 (Dike)<br/>균형 회복 및 우주적 정의"]
+    subgraph Restoration ["신벌과 적절성의 회복"]
+        direction LR
+        Tisis["티시스 (Tisis)<br/>네메시스가 호출하는 신적 응징"]:::crisis
+        Dike["디케 (Dike)<br/>대가 지불 뒤 균형을 회복하는 정의"]:::resolve
+        Ouk["우크 에스티 네메시스<br/>비례에 맞는 행위의 공적 면책"]:::resolve
+        Reconcile["화해와 엘레오스<br/>공동체 관계와 필멸성의 회복"]:::resolve
+        Tisis --> Dike
+        Ouk --> Reconcile
     end
 
-    subgraph Exemption ["(5) 면책과 중용의 축 (Standard of Appropriateness)"]
-        NEMESIS -.->|합당한 사유 및 비례 부합| OUK["우크 에스티 네메시스 (Ouk esti nemesis)<br/>비난의 정당한 면제 및 승인"]
-        OUK -->|공동체적 화해 및 실존적 수용| REC["화해(Apareskein) 및 연민(Eleos)"]
-    end
+    Themis --> Nemesis
+    Nemesis -->|"억제 실패와 몫의 침범"| Anaideia
+    Nemesis -->|"신적 제재 촉발"| Tisis
+    Ate --> Tisis
+    Nemesis -.->|"합당한 사유와 비례성"| Ouk
 ```
 
 ### 4.2 행위자의 아이도스와 관찰자의 네메시스 상호 제재 고리

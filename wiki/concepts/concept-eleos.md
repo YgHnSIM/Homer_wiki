@@ -14,7 +14,7 @@ aliases:
   - 자선
 tags: [type/concept, domain/culture, domain/iliad, domain/odyssey, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1981-some-greek-terms.md, scott-1982-philos-philotes-xenia.md, adkins-1960-merit-and-responsibility.md, lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, zanker-1994-heart-of-achilles.md, cairns-1993-aidos.md, kearns-2006-gods-in-homeric-epics.md, lee-taesoo-2020-gods-in-audience.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md, kim-han-2019-gods-zeus-moira-and-god.md, lloyd-jones-1971-justice-of-zeus.md, williams-1993-shame-and-necessity.md]
 status: active
 korean_name: 엘레오스
@@ -112,62 +112,41 @@ embodying_entities: ["[[entity-achilles|아킬레우스]]", "[[entity-priam|프�
 엘레오스는 전장의 파괴적 살육 충동과 충돌하며, 비경쟁적 지반 위에서 실질적인 구호와 문명적 연대를 산출하는 동역학적 네트워크를 형성합니다.
 
 ```mermaid
-%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 18, 'rankSpacing': 24}}}%%
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    %% 스타일 정의
-    classDef banner fill:#ECEFF1,stroke:#607D8B,stroke-width:1.5px,font-weight:bold,color:#263238;
-    classDef core fill:#FFF3E0,stroke:#E65100,stroke-width:2.5px,color:#BF360C;
-    classDef ground fill:#EDE7F6,stroke:#512DA8,stroke-width:1.5px,color:#311B92;
-    classDef psyche fill:#E0F7FA,stroke:#00838F,stroke-width:1.5px,color:#006064;
-    classDef action fill:#E8F5E9,stroke:#2E7D32,stroke-width:1.5px,color:#1B5E20;
-    classDef oppose fill:#FFEBEE,stroke:#C62828,stroke-width:1.5px,color:#B71C1C;
-
-    %% 1. 대립 충동과 비경쟁적 지반
-    subgraph S1 [" "]
+    subgraph Ground["전장 대립과 비경쟁적 지반"]
         direction TB
-        T1["[제1단계] 전장 대립 충동과 비경쟁적 지반 형성"]:::banner
-        OPP["<b>[전장 적대 충동]</b><br/>무자비(Nelees)<br/>복수열(Menis)<br/>휘브리스"]:::oppose
-        REQ["<b>[비경쟁적 지반 형성 요건]</b><br/>히케시아(신성 탄원)<br/>크세니아(손님 환대)<br/>필멸성 자각"]:::ground
-        GND["비경쟁적 지반 수립<br/>(적대성 일시 유보 및 필멸자 실존 연대)"]:::ground
-
-        T1 --- OPP & REQ
-        OPP -->|"자비 발동 차단"| GND
-        REQ -->|"의례·환대·필멸성 매개"| GND
+        Opp["전장 적대 충동<br/>무자비·복수열·휘브리스"]:::crisis
+        Req["비경쟁적 지반의 조건<br/>히케시아·크세니아·필멸성 자각"]
+        Gnd["비경쟁적 지반 수립<br/>적대성 유보와 필멸자 실존의 연대"]:::resolve
+        Opp -->|"자비 발동 차단"| Gnd
+        Req -->|"의례·환대·필멸성 매개"| Gnd
     end
 
-    %% 2. 신체 감정좌소의 해빙
-    subgraph S2 [" "]
+    subgraph Thaw["신체 감정 좌소의 해빙"]
         direction TB
-        T2["[제2단계] 신체 감정좌소의 해빙 과정 (Thawing Pipeline)"]:::banner
-        KER["케르 (Ker) — 비탄의 물리적 타격과 전율"]:::psyche
-        PH["프렌 (Phren) — 가치 숙고 및 살육 충동 일시정지"]:::psyche
-        OIK["오익토스 (Oiktos) — 도덕적 제동 (Brake) 및 가해 자제"]:::psyche
-        THU["튀모스 (Thumos) — 동결된 분노의 온기 해빙 (thumon iainein)"]:::psyche
-
-        T2 --- KER
-        KER --> PH
-        PH --> OIK
-        OIK -->|"온기 해빙"| THU
+        Ker["케르 (Ker)<br/>비탄의 물리적 타격과 전율"]
+        Phren["프렌 (Phren)<br/>가치 숙고와 살육 충동의 일시정지"]
+        Oik["오익토스 (Oiktos)<br/>도덕적 제동과 가해 자제"]
+        Thumos["튀모스 (Thumos)<br/>동결된 분노가 온기로 해빙되는 단계"]
+        Ker --> Phren
+        Phren --> Oik
+        Oik -->|"온기 해빙"| Thumos
     end
 
-    %% 3. 중심 추진력과 실천적 구호
-    subgraph S3 [" "]
+    subgraph Action["엘레오스 발동과 실천적 구호"]
         direction TB
-        T3["[제3단계] 엘레오스 발동과 실천적 구호 회복"]:::banner
-        ELE["엘레오스 (Eleos)<br/>적극적 구호 추진력 (Positive Forward Drive)"]:::core
-        ACT1["시신 정화 및 인도<br/>(직물 완충 Pharos/Chiton)"]:::action
-        ACT2["공동 식사 대접<br/>(다이스·필멸성 수용)"]:::action
-        ACT3["12일 장례 휴전 보장<br/>(게라스 thanonton)"]:::action
-        SAN["우주적 질서 회복<br/>신들의 네메시스 (Nemesis) 회피"]:::action
-
-        T3 --- ELE
-        ELE --> ACT1 & ACT2 & ACT3
-        ACT1 & ACT2 & ACT3 --> SAN
+        Ele["엘레오스 (Eleos)<br/>적극적 구호를 추진하는 중심 동력"]:::focus
+        Act1["시신 정화와 인도<br/>직물 완충을 통한 존엄 회복"]
+        Act2["공동 식사 대접<br/>다이스와 필멸성 수용의 실천"]
+        Act3["열이틀 장례 휴전 보장<br/>죽은 자의 게라스를 지키는 의례"]
+        San["우주적 질서 회복<br/>신들의 네메시스를 피하는 공동체 정화"]:::resolve
+        Ele --> Act1 & Act2 & Act3
+        Act1 & Act2 & Act3 --> San
     end
 
-    %% 단계 간 수직 파이프라인 연결
-    GND --> T2
-    THU --> T3
+    Gnd --> Ker
+    Thumos --> Ele
 ```
 
 ---
