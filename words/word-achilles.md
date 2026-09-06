@@ -44,7 +44,8 @@ status: active
 ## 1. 어원 전파 계통도 (Etymological Transmission Tree)
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     %% 고대 어원 및 그리스어 성립
     PIE["PIE: *h₂egʰ- (비탄, 고통) + *lāwos (군대)"] --> PGRK["Proto-Greek: *Achi-lāwos ('군대의 고통')"]
     PGRK --> MYC["미케네 그리스어: a-ki-re-u (/Akʰilleus/, BC 13세기)"]
@@ -124,6 +125,7 @@ graph TD
 ## 4. 역사적 전파 및 수용사 경로 (Historical Transmission & Reception)
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 timeline
     title Achilles 어원 수용사 연표
     BC 13세기 : 미케네 선형문자 B a-ki-re-u 실증
@@ -164,6 +166,7 @@ timeline
 ### 5.2 역사적 의미 전이 (Semantic Shifts)
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart LR
     A["고대 호메로스 시학<br>비탄을 낳고 체화하는 전사<br>(*Achi-lāwos)"] --> B["로마 헬레니즘 신화<br>단 하나의 급소를 지닌 무적 영웅<br>(Statius Achilleid)"]
     B --> C["17-18세기 과학·의학<br>해부학적 힘줄 / 약용 식물<br>(tendo Achillis / Achillea)"]
