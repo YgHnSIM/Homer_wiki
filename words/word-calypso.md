@@ -43,7 +43,8 @@ status: active
 ## 1. 어원 전파 계통도 (Etymological Transmission Tree)
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     %% 인도유럽조어 원어근
     PIE["PIE: *ḱel- ('덮다, 숨기다, 보호하다')"] --> GRK_V["고대 희랍어 동사: καλύπτω (kalúptō, '덮다/숨기다')"]
     PIE --> LAT_ROOT["라틴어 동계어군: celāre, cella, occulere, clam"]
