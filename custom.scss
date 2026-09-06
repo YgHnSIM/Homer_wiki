@@ -25,6 +25,12 @@
   --mermaid-variant-stroke: #8d6e3f;
   --mermaid-note-fill: #f4eeee;
   --mermaid-note-stroke: #9a4d4d;
+  --mermaid-focus-fill: #fff3e0;
+  --mermaid-focus-stroke: #e65100;
+  --mermaid-crisis-fill: #ffebee;
+  --mermaid-crisis-stroke: #c62828;
+  --mermaid-resolve-fill: #e8f5e9;
+  --mermaid-resolve-stroke: #2e7d32;
 }
 
 body,
@@ -386,6 +392,8 @@ a.tag,
   }
 
   // Keep semantic class names in Markdown while letting CSS own the theme.
+  // Etymology tiers: greek/latin/english/substrate/variant/note.
+  // Narrative hierarchy (AGENTS.md): focus/crisis/resolve.
   // The classDef declarations only retain stroke width because Mermaid turns
   // fill/color declarations into inline !important styles.
   .node.greek rect,
@@ -442,6 +450,35 @@ a.tag,
     stroke: var(--mermaid-note-stroke) !important;
   }
 
+  // Narrative hierarchy (AGENTS.md 2.4): coexist with etymology tiers above.
+  .node.focus rect,
+  .node.focus circle,
+  .node.focus ellipse,
+  .node.focus polygon,
+  .node.focus path {
+    fill: var(--mermaid-focus-fill) !important;
+    stroke: var(--mermaid-focus-stroke) !important;
+    stroke-width: 2.5px !important;
+  }
+
+  .node.crisis rect,
+  .node.crisis circle,
+  .node.crisis ellipse,
+  .node.crisis polygon,
+  .node.crisis path {
+    fill: var(--mermaid-crisis-fill) !important;
+    stroke: var(--mermaid-crisis-stroke) !important;
+  }
+
+  .node.resolve rect,
+  .node.resolve circle,
+  .node.resolve ellipse,
+  .node.resolve polygon,
+  .node.resolve path {
+    fill: var(--mermaid-resolve-fill) !important;
+    stroke: var(--mermaid-resolve-stroke) !important;
+  }
+
   text,
   foreignObject,
   foreignObject *,
@@ -487,6 +524,12 @@ html[saved-theme="dark"] {
   --mermaid-variant-stroke: var(--darkgray);
   --mermaid-note-fill: color-mix(in srgb, var(--secondary) 14%, var(--light));
   --mermaid-note-stroke: var(--secondary);
+  --mermaid-focus-fill: color-mix(in srgb, #e65100 22%, var(--light));
+  --mermaid-focus-stroke: #fb8c00;
+  --mermaid-crisis-fill: color-mix(in srgb, #c62828 20%, var(--light));
+  --mermaid-crisis-stroke: #ef5350;
+  --mermaid-resolve-fill: color-mix(in srgb, #2e7d32 20%, var(--light));
+  --mermaid-resolve-stroke: #66bb6a;
 }
 
 // Re-map generated shapes and labels to Quartz's dark tokens while keeping
@@ -549,6 +592,34 @@ html[saved-theme="dark"] .mermaid {
   .node.note path {
     fill: color-mix(in srgb, var(--secondary) 14%, var(--light)) !important;
     stroke: var(--secondary) !important;
+  }
+
+  .node.focus rect,
+  .node.focus circle,
+  .node.focus ellipse,
+  .node.focus polygon,
+  .node.focus path {
+    fill: color-mix(in srgb, #e65100 22%, var(--light)) !important;
+    stroke: #fb8c00 !important;
+    stroke-width: 2.5px !important;
+  }
+
+  .node.crisis rect,
+  .node.crisis circle,
+  .node.crisis ellipse,
+  .node.crisis polygon,
+  .node.crisis path {
+    fill: color-mix(in srgb, #c62828 20%, var(--light)) !important;
+    stroke: #ef5350 !important;
+  }
+
+  .node.resolve rect,
+  .node.resolve circle,
+  .node.resolve ellipse,
+  .node.resolve polygon,
+  .node.resolve path {
+    fill: color-mix(in srgb, #2e7d32 20%, var(--light)) !important;
+    stroke: #66bb6a !important;
   }
 
   .cluster rect {

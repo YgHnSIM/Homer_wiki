@@ -168,51 +168,55 @@ embodying_entities: ["[[entity-agamemnon|아가멤논 (Agamemnon)]]", "[[entity-
 ### (1) 상호작용망 Mermaid 다이어그램
 
 ```mermaid
-graph TD
-    subgraph Divine_Order["신적 질서 및 초월적 배분"]
-        Zeus["제우스 및 신들"]
-        Moira["모이라 (Moira)<br/>우주적 운명 지분 및 추첨 분배"]
-        DivineGeras["신들의 게라스<br/>타오르는 희생 연기와 뼈 (Il. 24.69)"]
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 20, 'rankSpacing': 28}}}%%
+flowchart TD
+    subgraph Divine_Order ["초월적 층위 (제우스와 모이라)"]
+        direction TB
+        Zeus["제우스와 신들"]
+        Moira["모이라 (Moira)<br/>운명 지분과 추첨 분배"]
+        DivineGeras["신들의 게라스<br/>불멸의 특권 몫"]
     end
 
-    subgraph Assembly["인간 전사 공동체 민회 (Agore)"]
-        Ksunēïa["취합된 공유 전리품 (Ksunēïa)"]
-        Council["전사 민회의 공적 결의"]
+    subgraph Assembly ["공동체 층위 (전사 민회)"]
+        direction TB
+        Ksunēïa["취합된 전리품<br/>공유 원리 (Ksunēïa)"]
+        Council["전사 민회<br/>공적 결의"]
     end
 
-    subgraph Heroic_Status["영웅의 명예와 보상 체계"]
-        Time["티메 (Timē)<br/>영구적 권위 및 신분적 존엄"]
-        Geras["게라스 (Geras)<br/>가시적 물질적 특권 몫 (여인 및 등심)"]
-        Temenos["테메노스 (Temenos)<br/>영구적 과수원 및 토지 봉토"]
-        Kydos["쿠도스 (Kydos)<br/>신이 내린 순간적 승리의 광휘"]
-        Kleos["클레오스 (Kleos)<br/>시인을 통해 전승되는 불멸의 명성"]
+    subgraph Heroic_Status ["영웅의 명예와 보상"]
+        direction TB
+        Time["티메 (Timē)<br/>영구적 위계와 존엄"]
+        Geras["게라스 (Geras)<br/>가시적 특권 몫"]:::focus
+        Temenos["테메노스 (Temenos)<br/>과수원·목초 봉토"]
+        Kydos["쿠도스 (Kydos)<br/>신이 내린 광휘"]
+        Kleos["클레오스 (Kleos)<br/>전승되는 명성"]
     end
 
-    subgraph Crisis_Rupture["제도 붕괴와 실존적 파탄"]
+    subgraph Crisis_Rupture ["제도 붕괴와 존재론적 파탄"]
+        direction TB
         Agamemnon["최고 군주 (Wanax)"]
         Achilles["최고 영웅 (Aristos)"]
-        Agerastos["아게라스토스 (Agérastos)<br/>군주의 체면 손상"]
-        Atimia["아티미아 (Atimia)<br/>영웅의 존재론적 자격 박탈"]
-        Menis["메니스 (Menis)<br/>우주적 파멸을 부르는 신적 분노"]
+        Agerastos["아게라스토스<br/>군주 체면 손상"]
+        Atimia["아티미아 (Atimia)<br/>명예 박탈"]:::crisis
+        Menis["메니스 (Menis)<br/>파멸을 부르는 분노"]:::crisis
     end
 
-    Zeus -->|"선천적 왕권 보증"| Agamemnon
-    Zeus -->|"승리의 광휘 부여"| Kydos
+    Zeus -->|"왕권 보증"| Agamemnon
+    Zeus -->|"광휘 부여"| Kydos
     Kydos -->|"전공 입증"| Achilles
-    
+
     Ksunēïa --> Council
-    Council -->|"선분배 헌정 (Part d'honneur)"| Geras
-    Council -->|"잔여 전리품 추첨 균등분배"| Moira
-    
-    Geras -->|"물질적 지표 (Token) 제공"| Time
-    Temenos -->|"영구적 경제 기반"| Time
-    Time -->|"사후 영속화"| Kleos
-    
-    Agamemnon -.->|"위력으로 강탈 (Il. 1권)"| Geras
-    Agamemnon -.->|"게라스 상실 시 공포"| Agerastos
-    Achilles -.->|"게라스 박탈 시 귀결"| Atimia
-    Atimia -->|"폭발적 반응"| Menis
-    Menis -->|"군대 전체 파멸"| Ksunēïa
+    Council -->|"선분배"| Geras
+    Geras -->|"공인 지표"| Achilles
+    Time --- Geras
+    Geras --- Temenos
+    Geras --- Kleos
+    Moira --- DivineGeras
+
+    Agamemnon -.->|"위력 탈취"| Geras
+    Agamemnon -.->|"몫 결손 시"| Agerastos
+    Achilles -.->|"몫 찬탈 시"| Atimia
+    Atimia ==> Menis
 ```
 
 ### (2) 게라스와 티메의 제도적 상호작용
