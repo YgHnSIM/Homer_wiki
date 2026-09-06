@@ -2896,15 +2896,14 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
 
 ## [2026-09-06] chore | Mermaid focus/crisis/resolve CSS 및 concept-geras 파일럿
 
-- **작업 내용**: AGENTS.md 하이브리드 규격에 맞춰 서사 위계 클래스 CSS를 전역 스타일에 추가하고 concept-geras 다이어그램을 파일럿 적용.
+- **작업 내용**: AGENTS.md 하이브리드 규격에 맞춰 서사 위계 클래스 CSS를 전역 스타일에 추가하고 `concept-geras` 다이어그램을 파일럿 적용.
 - **핵심 변경**:
-  - custom.scss(Quartz 공개 스타일)에 ocus/crisis/
-esolve 토큰·라이트/다크 규칙 추가 (기존 어원 티어 greek/latin/english/...와 공존). 로컬 .quartz/·Obsidian 스니펫은 gitignore라 동일 규칙을 로컬에도 반영·활성화함.
-  - Obsidian 스니펫 mermaid-semantic.css 신설 및 Appearance에서 활성화
-  - concept-geras.md Mermaid를 flowchart·1-2-3·네이티브 서브그래프·시맨틱 클래스로 슬림화
+  - `custom.scss`(Quartz 공개 스타일)에 `focus`/`crisis`/`resolve` 토큰·라이트/다크 규칙 추가 (기존 어원 티어 greek/latin/english/...와 공존). 로컬 `.quartz/`·Obsidian 스니펫은 gitignore라 동일 규칙을 로컬에도 반영·활성화함.
+  - Obsidian 스니펫 `mermaid-semantic.css` 신설 및 Appearance에서 활성화
+  - `concept-geras.md` Mermaid를 flowchart·1-2-3·네이티브 서브그래프·시맨틱 클래스로 슬림화
 - **생성·업데이트한 파일**:
-  - custom.scss
-  - wiki/concepts/concept-geras.md
-  - wiki/log.md
-  - (로컬만) .quartz/quartz/styles/custom.scss, .obsidian/snippets/mermaid-semantic.css, .obsidian/appearance.json
+  - `custom.scss`
+  - `wiki/concepts/concept-geras.md`
+  - `wiki/log.md`
+  - (로컬만) `.quartz/quartz/styles/custom.scss`, `.obsidian/snippets/mermaid-semantic.css`, `.obsidian/appearance.json`
 
