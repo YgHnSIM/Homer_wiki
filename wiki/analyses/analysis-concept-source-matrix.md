@@ -3,7 +3,7 @@ title: 개념과 문헌
 aliases: [개념 문헌 표, 개념×문헌]
 tags: [type/analysis, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-24
-updated: 2026-09-05
+updated: 2026-09-06
 sources:
   - benveniste-1969-vocabulaire-institutions-2.md
   - williams-1993-shame-and-necessity.md
@@ -90,7 +90,7 @@ status: active
 | [[raw-2026-polytropos-notes\|raw-2026-polytropos-notes]] | — | — | — | — | — | — | — | — | — | — | — | — | — | — |
 | [[minchin-2019-homeric-religion\|민친 2019]] | — | 언급 | — | — | 언급 | 언급 | — | — | — | — | 언급 | — | — | — |
 | [[kearns-2006-gods-in-homeric-epics\|컨스 2006]] | 언급 | — | — | — | 언급 | 언급 | 언급 | — | — | — | 언급 | — | — | — |
-| [[lee-taesoo-2020-gods-in-audience\|이태수 2020]] | — | — | — | — | 언급 | — | 언급 | — | — | — | 언급 | — | — | — |
+| [[lee-taesoo-2020-gods-in-audience\|이태수 2020]] | — | — | — | — | 언급 | — | 언급 | 언급 | — | — | 언급 | — | — | — |
 | [[cho-daeho-2007-gods-in-iliad\|조대호 2007]] | 언급 | — | — | — | 언급 | — | 언급 | — | — | 언급 | 언급 | — | — | — |
 | [[kim-han-2013-ilias-homeric-gods\|김한 2013]] | 언급 | — | — | — | 언급 | 언급 | 언급 | — | — | — | 언급 | — | — | — |
 | [[kim-han-2019-gods-zeus-moira-and-god\|김한 2019]] | 언급 | — | — | — | 언급 | — | 언급 | — | — | — | 언급 | — | — | 언급 |
