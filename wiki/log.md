@@ -2751,6 +2751,24 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
     - 4색 기능군 스타일링(`classDef`) 적용 및 세로 길이 약 50% 압축.
 - **검증**: `node scripts/validate-wiki.mjs` 및 `npm run check:greek` 통과.
 
+---
+
+## [2026-09-06] refactor(concepts) | concept-eleos 머메이드 다이어그램 가독성 개편 및 가로스크롤 지원
+
+- **작업 개요**: `wiki/concepts/concept-eleos.md` 4절 머메이드 다이어그램을 '대안 1(수평 직교 파이프라인)' 구조로 전면 개편하고, 모바일 및 데스크톱 환경에서 다이어그램이 축소 왜곡되지 않고 온전한 크기에서 스크롤될 수 있도록 옵시디언 및 쿼츠 전역 가로스크롤 지원 환경을 완비함.
+- **주요 수정 사항**:
+  - **머메이드 다이어그램 구조 개편 (수평 파이프라인 LR)**:
+    - 상단 적색 점선 압박(전장 경쟁 논리, 메니스·메노스, 휘브리스)과 하향 차단선으로 긴장 시각화.
+    - 메인 수평 파이프라인(`(1) 비경쟁적 지반 형성` -> `(2) 신체 감정좌소의 해빙` -> `엘레오스 코어` -> `(3) 실천적 구호 & 질서 회복`) 구축.
+    - 5색 기능군 스타일링(`classDef`: core, ground, psyche, action, oppose) 완비 및 단일 노드 서브그래프 제거.
+    - 원거리 교차선 관통(Cross-link tangling) 완전 제거.
+  - **가로스크롤(Horizontal Scroll) 전역 지원 구축**:
+    - 다이어그램 상단에 `%%{init: {'flowchart': {'useMaxWidth': false}}}%%` 디렉티브를 선언하여 SVG 강제 축소 방지.
+    - 쿼츠 스타일시트(`custom.scss`): `.mermaid` flexbox 중앙 정렬 스크롤 결함 해결(`display: block; text-align: center;`) 및 `svg` `max-width: none !important; margin: 0 auto;` 적용으로 광폭 다이어그램의 자연스러운 가로스크롤 구현.
+    - 옵시디언 스니펫(`.obsidian/snippets/mermaid-scroll.css`): `.mermaid`, `.block-language-mermaid`의 `overflow-x: auto` 및 `svg` `max-width: none !important` 스니펫 신설 및 `appearance.json` 활성화.
+- **검증**: `npm test` 전체 스위트(80 docs, 3439 links, 985 allowed red links, matrix synchronized, check:greek strict pass) 100% 통과 (EXIT 0).
+
+
 
 
 

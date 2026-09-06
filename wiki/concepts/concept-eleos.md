@@ -116,40 +116,53 @@ embodying_entities: ["[[entity-achilles|아킬레우스]]", "[[entity-priam|프�
 엘레오스는 전장의 파괴적 살육 충동과 충돌하며, 비경쟁적 지반 위에서 실질적인 구호와 문명적 연대를 산출하는 동역학적 네트워크를 형성합니다.
 
 ```mermaid
-flowchart TD
-    subgraph PolarConflict ["(1) 파괴적 대립 충동"]
-        WAR["전장 경쟁 논리<br/>(Nelees / 무자비)"]
-        MEN["메니스 (Menis) 및 메노스 (Menos)<br/>파괴적 복수열"]
-        HYB["휘브리스 (Hybris)<br/>오만한 승자의 시신 유린"]
+%%{init: {'flowchart': {'useMaxWidth': false}}}%%
+flowchart LR
+    %% 스타일 정의
+    classDef core fill:#FFF3E0,stroke:#E65100,stroke-width:2.5px,color:#BF360C;
+    classDef ground fill:#EDE7F6,stroke:#512DA8,stroke-width:2px,color:#311B92;
+    classDef psyche fill:#E0F7FA,stroke:#00838F,stroke-width:2px,color:#006064;
+    classDef action fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20;
+    classDef oppose fill:#FFEBEE,stroke:#C62828,stroke-width:1.5px,stroke-dasharray: 4 4,color:#B71C1C;
+
+    %% 1. 상단 대립/차단 축
+    subgraph S_OPP ["경쟁적 전장 충동 (차단 배리어)"]
+        WAR["**전장 경쟁 논리**<br/>(Nelees / 무자비)"]:::oppose
+        MEN["**메니스 & 메노스**<br/>(파괴적 복수열)"]:::oppose
+        HYB["**휘브리스**<br/>(오만한 시신 능욕)"]:::oppose
     end
 
-    subgraph GroundStage ["(2) 비경쟁적 지반 형성"]
-        HIK["히케시아 (Hikesia)<br/>신성 탄원 의례"]
-        XEN["크세니아 (Xenia)<br/>손님 환대와 필로테스"]
-        MORT["공통의 필멸성 자각<br/>(Condicio humana)"]
-        GND["비경쟁적 지반 수립<br/>(적대성 일시 유보)"]
+    %% 2. 비경쟁적 지반
+    subgraph S_GND ["(1) 비경쟁적 지반 형성"]
+        HIK["**히케시아 (Hikesia)**<br/>무릎 접촉 · 손키스 탄원"]:::ground
+        XEN["**크세니아 (Xenia)**<br/>손님 환대와 필로테스"]:::ground
+        MORT["**필멸성 자각**<br/>부친 펠레우스 환기"]:::ground
+        GND["**비경쟁적 지반 수립**<br/>(적대성 일시 유보)"]:::ground
     end
 
-    subgraph InternalProcess ["(3) 신체 감정좌소의 전환"]
-        KER["케르 (Ker)<br/>비탄의 물리적 타격"]
-        PH["프렌 (Phren)<br/>가치 숙고 및 일시정지"]
-        OIK["오익토스 (Oiktos)<br/>감정적 억제 및 가해 자제"]
-        THU["튀모스 (Thumos)<br/>동결된 격분의 온기 해빙"]
+    %% 3. 신체 감정좌소의 전환
+    subgraph S_PSY ["(2) 신체 감정좌소의 해빙"]
+        KER["**케르 (Ker)**<br/>비탄의 물리적 타격"]:::psyche
+        PH["**프렌 (Phren)**<br/>가치 숙고 및 정지"]:::psyche
+        OIK["**오익토스 (Oiktos)**<br/>감정적 억제 · 조롱 자제"]:::psyche
+        THU["**튀모스 (Thumos)**<br/>온기 해빙 (thumon iainein)"]:::psyche
     end
 
-    subgraph PositiveDrive ["(4) 엘레오스 구호 추진력"]
-        ELE["엘레오스 (Eleos)<br/>적극적 구호 추진력 (Forward Drive)"]
+    %% 4. 중심 추진력
+    ELE(["**엘레오스 (Eleos)**<br/>적극적 구호 추진력<br/>(Positive Forward Drive)"]):::core
+
+    %% 5. 실천적 귀결
+    subgraph S_ACT ["(3) 실천적 구호 & 질서 회복"]
+        ACT1["**시신 정화 및 인도**<br/>직물 완충 (Pharos/Chiton)"]:::action
+        ACT2["**공동 식사 대접**<br/>다이스 (Dais) · 필멸성 수용"]:::action
+        ACT3["**12일 장례 휴전 보장**<br/>죽은 자의 몫 (Geras)"]:::action
+        SAN["**네메시스 회피**<br/>우주적 균형 회복"]:::action
     end
 
-    subgraph RestorativeAction ["(5) 실천적 귀결"]
-        ACT1["시신 정화 및 인도<br/>(헥토르 시신 반환)"]
-        ACT2["공동 식사 대접<br/>(니오베 설화 인용)"]
-        ACT3["12일 장례 휴전 보장"]
-        SAN["신들의 네메시스 (Nemesis) 회피<br/>우주적 균형 회복"]
-    end
+    %% 억제 차단선
+    WAR & MEN & HYB -.->|"자비 발동 차단"| GND
 
-    WAR & MEN & HYB -.->|"엘레오스 발동 차단"| ELE
-
+    %% 메인 파이프라인
     HIK & XEN & MORT --> GND
     GND --> KER
     KER --> PH
@@ -157,6 +170,7 @@ flowchart TD
     OIK -->|"억제 거쳐 해빙으로"| THU
     THU --> ELE
 
+    %% 구호 실천 전개
     ELE --> ACT1
     ELE --> ACT2
     ELE --> ACT3

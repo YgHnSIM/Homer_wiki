@@ -340,8 +340,8 @@ a.tag,
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   margin: 1.5rem 0;
   padding: 0.5rem 0;
   font-family: "Times New Roman", "Noto Serif", serif;
@@ -355,9 +355,10 @@ a.tag,
   }
 
   svg {
-    max-width: 100% !important;
+    max-width: none !important;
     height: auto !important;
     min-width: 280px;
+    margin: 0 auto;
   }
 
   .cluster text,
