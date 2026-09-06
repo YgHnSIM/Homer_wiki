@@ -38,7 +38,8 @@ status: active
 ## 1. 어원 전파 총괄 계통도 (Etymological Transmission Overview)
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     PIE["PIE 조어 어근: *men-<br/>(마음에 품다 / 지속적으로 생각하다)"]
     PIE --> LENG["장급: *mēn- / *mā-<br/>(우주적·지속적 분노)"]
     PIE --> FULL["기본급: *men-<br/>(마음, 활력, 정신)"]
@@ -67,7 +68,8 @@ graph TD
 - **베다 산스크리트어**: 중성 명사 **mánas-**(마음, 사유, 정신). 제의와 찬가를 구성하는 신성한 지성을 지칭합니다.
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     FULL["기본급: *men- (e-grade)"] --> GRK_MENOS["그리스어: μένος (기력, 활력, 격정)"]
     FULL --> LAT_MENS["라틴어: mēns / mentis (마음, 정신)"]
     FULL --> SAN_MANAS["산스크리트어: mánas- (마음, 사유)"]
@@ -84,7 +86,8 @@ graph TD
 - **게르만 조어 `*mainijaną`**: 마음에 뜻을 품고 외부로 표명하다 (> 고대 영어 *mænan* > 현대 영어 **mean**, 의도하다/뜻하다).
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     OGRADE["o-급 사역형: *mon-éye- (경고하다, 일깨우다)"]
     OGRADE --> LAT_MONEO["라틴어: moneō (일깨우다, 경고하다)"]
     OGRADE --> GERM_MEAN["게르만 조어: *mainijaną (뜻을 품다)"]
@@ -106,7 +109,8 @@ graph TD
 - *[학술적 이설]*: 라틴어 **mānēs**(지하의 망령, 조상신)를 `*men-`의 장급으로 보는 견해가 과거에 제기되었으나, 최신 비교언어학에서는 "선한 자들"을 뜻하는 고대 라틴어 형용사 *mānus*의 완곡어법적 파생(`*mā-ni-`)으로 보는 견해가 우세하여 이설로 분류됩니다 (de Vaan 2008: 363).
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     LENG["장급: *mēn- / *mā- (신적·지속적 분노)"]
     LENG --> PGRK_MANIS["원시 헬라어: *mā́-ni-s"]
     LENG --> SAN_MANYU["산스크리트어: manyú- (신성한 격정, 우주적 진노)"]
@@ -124,7 +128,8 @@ graph TD
   - **라틴어 (`*me-mn-`)**: 중복 완료 어간 `*me-mn-` → **meminī**(기억하다), **memor**(기억하는 > 영어 *memory*, *remember*); 영급 접두파생 **comminīscor**(마음속으로 고안하다 > *commentum* > 영어 *comment*).
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     ZERO["영급: *mn̥- / *mn- (기억, 영감, 광기)"]
     ZERO --> GRK_ZERO["그리스어 파생군 (*n̥ → a)"]
     ZERO --> GERM_ZERO["게르만 파생군 (*mn̥- → mun)"]
