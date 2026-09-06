@@ -51,6 +51,7 @@ graph TD
 ## 2. 인구어(PIE) 및 희랍어 원어근 분석 (PIE & Proto-Greek Morphology)
 
 > [!NOTE] 선희랍 기층어(Pre-Greek Substrate) 또는 어원 불명인 경우
+>
 > - 고대 희랍어 어휘 중 인도유럽어(PIE) 어근이 확인되지 않는 비-인도유럽어계 지중해 토착 기층어 기원인 경우, 무리하게 PIE 어근을 날조하지 않고 'Pre-Greek substrate (Beekes 2010)'로 정직하게 기술합니다.
 
 - **PIE 조어 어근**: `*root-` (원초적 의미: ...) 또는 `Pre-Greek substrate (선희랍 기층어)`
@@ -69,7 +70,7 @@ graph TD
 ## 3. 호메로스 서사시 원전 용례 및 인명학 (Homeric Epic Context & Onomastics)
 
 - **호메로스 텍스트 출전**:
-  - _Il._ X.XXX / _Od._ Y.YYY (실제 검증된 권·행 번호 필수)
+  - *Il.* X.XXX / *Od.* Y.YYY (실제 검증된 권·행 번호 필수)
   - 긴 원문 인용 및 서사적 문맥 분석은 다음 순서를 사용합니다.
     - **번역**: 한국어 번역문
     - **원문**: *그리스어 실제 인용문*
@@ -98,9 +99,11 @@ graph TD
 ## 5. 음운 및 의미 변화사 (Phonological & Semantic Evolution)
 
 ### 5.1 음운 및 철자 변천
+
 - 언어 단계별 음운 탈락, 약화, 강세 이동 및 철자 변화.
 
 ### 5.2 역사적 의미 전이 (Semantic Shifts)
+
 - **원초적 물리 의미**: 고대 희랍어 단계에서의 구체적/물리적 의미.
 - **의미 전이 메커니즘**:
   - 일반화(Generalization) / 특수화(Specialization).
@@ -113,11 +116,11 @@ graph TD
 ## 6. 현대 영어 파생어군 및 어휘 패밀리 (Modern English Cognates & Derivatives)
 
 | 품사/형태 | 단어 (Word) | 의미 및 용법 | 최초 기록 (OED) | 확실성 |
-|:---|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- | :--- |
 | 명사 (Noun) | *derivation* | ... | c. 1500 | 정설/문헌 입증 |
 | 동사 (Verb) | *derivate* | ... | 16세기 | 정설/문헌 입증 |
 | 형용사 (Adj) | *derivative* | ... | 14세기 | 정설/문헌 입증 |
-| 부사 (Adv) | *derivatively*| ... | 17세기 | 정설/문헌 입증 |
+| 부사 (Adv) | *derivatively* | ... | 17세기 | 정설/문헌 입증 |
 
 - **주요 접두/접미 결합군**: (예: *anti-*, *syn-*, *-ic*, *-ism*, *-ology*)
 - **전문 학술 용어**(Terminology): 의학, 심리학, 문학비평, 자연과학 등에서의 용례.
@@ -140,18 +143,20 @@ graph TD
 ## 8. 어원 증거 매트릭스 및 학술 출처 (Evidence Matrix & References)
 
 | 어원 및 수용 명제 | 언어 층위 | 확실성 등급 | 출전 및 학술 문헌 근거 |
-|:---|:---|:---|:---|
+| :--- | :--- | :--- | :--- |
 | PIE 조어 어근 재구 | PIE | 학술적 재구 | Beekes (2010), Pokorny (1959) |
 | 선희랍 기층어 판정 | Pre-Greek | 선희랍 기층어 | Beekes (2010) EDG |
-| 호메로스 원전 용례 | 고대 희랍어 | 정설/문헌 입증 | _Il._ X.XXX; Liddell-Scott-Jones (LSJ) |
+| 호메로스 원전 용례 | 고대 희랍어 | 정설/문헌 입증 | *Il.* X.XXX; Liddell-Scott-Jones (LSJ) |
 | 라틴/노르만 전파 | 라틴/고대불어 | 정설/문헌 입증 | OED Online, Lewis & Short |
 | 현대 의미 전이 | 현대 영어 | 정설/문헌 입증 | Oxford English Dictionary (OED) |
 | 미해결/불확실 어원 | 고대/중세 | 근거 부족 (추가 조사 필요) | 학설 대립 중 (상세 사유 기술) |
 
 > [!WARNING] 민간 어원(Folk Etymology) 및 주의 사항
+>
 > - 겉모습만 유사한 가짜 동계어나 대중적 오해에 대한 학술적 반박 서술.
 
 > [!NOTE] 확실성 6대 등급 안내
+>
 > 1. **정설/문헌 입증**(Established): OED, LSJ, Beekes 등에 명확히 입증된 사실.
 > 2. **학술적 재구**(Reconstructed): 비교언어학적 음운 법칙에 의해 널리 지지받는 PIE 형태.
 > 3. **선희랍 기층어**(Pre-Greek): 비-인도유럽어계 지중해 토착 기층어 기원 (Beekes 2010 등).
@@ -162,10 +167,10 @@ graph TD
 ---
 
 ## 관련 항목
+
 - **호메로스 위키 연관 문서**:
   - [[entity-관련인물|관련 인물]]
   - [[concept-관련개념|관련 개념]]
 - **동일 어원/동계어 단어 문서**:
   - [[word-동계어단어|동계어 표제어]]
   - [[words/index|호메로스 어원·영단어 사전 인덱스]]
-
