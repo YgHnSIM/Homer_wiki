@@ -30,6 +30,7 @@ status: active
 ## 1. 어원 전파 및 차용 차단 계통도 (Etymological Transmission & Lexical Gap Tree)
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
     subgraph Origin ["(1) 표현론적 기원 및 고대 그리스어 층위"]
         direction TB
