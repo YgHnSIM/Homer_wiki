@@ -11,7 +11,7 @@ aliases:
   - mênin
 tags: [type/concept, domain/iliad, domain/mythology, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-09-06
+updated: 2026-09-07
 sources: [lee-junseok-2024-iliad-jeongam.md, zanker-1994-heart-of-achilles.md, shay-1994-achilles-in-vietnam.md, long-1970-morals-and-values.md, redfield-1975-nature-and-culture.md, cho-daeho-2007-gods-in-iliad.md, kim-han-2013-ilias-homeric-gods.md, kim-han-2019-gods-zeus-moira-and-god.md, lloyd-jones-1971-justice-of-zeus.md, nagy-1979-best-of-achaeans.md, lee-junseok-2018-wrath-and-pity.md, scott-1979-pity-and-pathos.md, scott-1982-philos-philotes-xenia.md]
 status: active
 korean_name: 메니스
@@ -149,31 +149,41 @@ embodying_entities: ["[[entity-achilles|아킬레우스]]", "[[entity-apollo|아
 메니스(μῆνις, *mē̂nis*)는 호메로스 세계관에서 단순한 감정적 흥분이 아니라, 우주적·신성한 위계 질서가 침해되었을 때 발동하는 초월적 응징 메커니즘입니다.
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 26, 'rankSpacing': 34}}}%%
 flowchart TD
-    subgraph Trigger["[발동 계기] 존재론적 명예 침해"]
-        T1["아가멤논의 아테(Ate)<br/>독단적 권력과 오만"] --> T2["게라스(Geras) 강탈 및<br/>티메(Timē) 유린"]
+    subgraph Trigger ["발동 계기"]
+        direction LR
+        Ate["아테 (Ate)<br/>아가멤논의 오만"] --> Wound["게라스·티메 침해"]:::crisis
     end
 
-    subgraph Origin["[핵심 개념] 메니스(Mênis)의 분출"]
-        T2 --> M["메니스(Mênis)<br/>초월적·우주적 파괴력의 신적 분노"]
-        DB["제우스의 뜻(Dios Boulē)<br/>세계 경영의 섭리와 결합"] -.-> M
+    subgraph Core ["핵심"]
+        direction LR
+        Zeus["디오스 불레<br/>제우스의 뜻"]
+        Menis["메니스 (Mênis)<br/>신적·우주적 분노"]:::focus
+        Zeus -.-> Menis
     end
 
-    subgraph Polarity["[대립쌍 역학] 양대 규범적 긴장"]
-        M <-.->|공동체적 결속 대립| P1["연민과 유대<br/>Eleos · Philotes · Charis<br/>필멸자 간의 공감과 호혜성"]
-        M <-.->|사법 질서 대립| P2["관습 규범과 정의<br/>Themis · Dike<br/>전사 사회의 질서와 신성한 몫"]
+    subgraph Polarity ["대립 규범"]
+        direction LR
+        Bond["연민·유대<br/>엘레오스·필로테스"]:::resolve
+        Law["관습·정의<br/>테미스·디케"]
     end
 
-    subgraph Progression["[3단계 전개 궤적] 분노의 심화와 변천"]
-        M --> S1["(1) 발동 및 제1단계 철수<br/>아고라 이탈 · 전투 거부<br/>배상 선물(Dora) 전면 거부"]
-        S1 --> S2["(2) 제2단계 전이 및 버서크 야수화<br/>파트로클로스 전사 · 헥토르 표적화<br/>식음 전폐 · 인신공희 · 시신 모독"]
-        S2 --> S3["(3) 제3단계 탄원 수용 및 완결<br/>프리아모스의 히케시아(Hikesia) 수용<br/>보편적 필멸성 인식과 통곡"]
+    subgraph Arc ["전개"]
+        direction LR
+        S1["(1) 철수·거부"] --> S2["(2) 야수화·모독"]:::crisis --> S3["(3) 탄원 수용"]
     end
 
-    subgraph Resolution["[서사적 완결] 연민의 승화와 질서 회복"]
-        S3 --> R1["엘레오스(Eleos) 발현<br/>피아 동일화와 식사 복원"]
-        R1 --> R2["테미스(Themis)와 평화의 복원<br/>12일 휴전 및 대등한 장례 독점"]
+    subgraph End ["완결"]
+        direction LR
+        Eleos["엘레오스 발현"]:::resolve --> Peace["테미스·평화 복원"]:::resolve
     end
+
+    Wound --> Menis
+    Menis <-.->|"결속 긴장"| Bond
+    Menis <-.->|"질서 긴장"| Law
+    Menis --> S1
+    S3 --> Eleos
 ```
 
 ### 4.1 메니스의 양대 대립쌍 역학

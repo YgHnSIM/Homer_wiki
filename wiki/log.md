@@ -4,7 +4,7 @@ aliases: [타임라인, 히스토리, 변경 기록]
 tags: [type/meta, domain/culture, status/active]
 unlisted: true
 created: 2026-08-14
-updated: 2026-09-06
+updated: 2026-09-07
 sources: []
 status: active
 ---
@@ -2963,3 +2963,30 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - `wiki/concepts/concept-geras.md` (제목 표기 소폭 조정)
   - `wiki/log.md`
   - (로컬만) `.quartz/quartz/styles/custom.scss`, `.obsidian/snippets/mermaid-scroll.css`
+
+---
+
+## [2026-09-07] feat(words) | Oiktos 영단어 어원 및 수용사 사전 신규 생성
+
+- **작업 개요**: 호메로스 서사시 핵심 개념어이자 감정 억제 정념인 `οἶκτος`(Oiktos)에 대해 7인 적대적 학술 평의회 서브에이전트(비교어원학, 고전문헌학, 수용사학, 역사의미론, 사전편찬학, 실용회의론, 규격감사관)를 전면 가동하여 어원 증거 원장과 수용사 궤적을 엄밀히 실증하고, 기존 대형 개념 문서(`concept-oiktos.md`)와의 중복을 0%로 통제한 신규 사전 문서 `words/word-oiktos.md` 구축 완료.
+- **주요 내용 및 검증 성과**:
+  - **어원 및 역사음운론**: PIE 공통 어근 부재 확정(Beekes 2010, Chantraine DELG, Frisk GEW), 비탄 감탄사 `οἴμοι` 기반 표현론적 의성 조어 형성사(`*oi-` + `*-k-` + `*-to-s`, Schwyzer 1939), 아티케 비문(Threatte 1996)에 따른 동사 정형 `οἰκτείρω`(-ει-) 확정 및 비잔틴 이오타시즘(`οἰκτίρω`) 비판.
+  - **민간어원 원천 분쇄**: `οἶκος`(*woyḱ-o-s*, 집/환경) 결부설의 허구성을 미케네 *wo-ko* 및 호메로스 서사시 운율 내 디감마(*w-*) 전무(0회) 실증 대조로 완전 기각.
+  - **호메로스 문헌학적 엄밀성**: 『일리아스』 전편 내 명사 `οἶκτος` 절대적 부재(0회) 및 동사(`οἰκτείρω` 3회)·최상급 형용사(`οἴκτιστον` 1회) 중심성 실증. 서사시 전체 명사 초출은 『오뒷세이아』 집단 파토스 정형구(Od. 2.81, 24.438) 단 2회뿐임을 확증.
+  - **4대 서사시 원전 4행 콤팩트 규격**: 서사 주해는 `concept-oiktos.md`로 전권 위임하고, 원전 인용은 [번역] → [원문] → [학술 전사] → [문헌 주석] 4행으로 압축 제시.
+  - **수용사 및 어휘적 공백(Lexical Gap)**: `ἔлеος`가 사물화/제도화되어 *alms* 등으로 발전한 것과 대조적으로, `οἶκτος`는 라틴어 고유 심리어망(*misericordia*, *commiseratio*)의 어휘적 선점으로 인해 서구 일상어 차용선이 차단된 '비-수용의 역사' 규명. 칠십인역/신약 `οἰκтирμός`의 불가타 흡수 및 20세기 고전문헌학(Mary Scott 1979 등)의 학술 전문 외래어(Scholarly Xenism) 직수입 궤적 복원.
+  - **어휘 패밀리 및 번역사**: 가짜 영단어 날조를 배제하고 실사용 6대 전문 어휘 패밀리 정립, 역대 영어 번역가(Chapman, Pope, Lattimore, Fagles)의 번역 비교 및 3대 결손(*pity* 시혜성, *ruth* 사어화, *compassion* 음성성 탈락) 분석.
+  - **`concept-oiktos.md` 문헌 교정**: Classicist 서브에이전트 검증에 따라 5.4절 Od. 11.409–412 행 번호 및 아가멤논 암살 원문 텍스트 정정.
+- **생성·업데이트한 파일**:
+  - `words/word-oiktos.md` (신규 생성)
+  - `words/index.md` (알파벳 색인 및 현황 표 반영)
+  - `wiki/concepts/concept-oiktos.md` (Od. 11.409-412 원문 인용 및 행 번호 교정)
+  - `wiki/log.md` (작업 이력 기록)
+
+## [2026-09-07] refactor | concept-menis 상호작용망 Mermaid 신규격 적용
+
+- **작업 내용**: `concept-menis` 4절 다이어그램을 AGENTS.md Mermaid 하이브리드 규격에 맞게 재작성.
+- **핵심 변경**: 과밀 설명 노드를 허브형으로 슬림화, `Menis:::focus` / 침해·야수화 `:::crisis` / 연민·복원 `:::resolve`, 네이티브 서브그래프 유지(제목 관통 우회 없음), 세부 서사는 본문에 존치.
+- **생성·업데이트한 파일**:
+  - `wiki/concepts/concept-menis.md`
+  - `wiki/log.md`
