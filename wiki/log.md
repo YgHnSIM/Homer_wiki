@@ -15,6 +15,12 @@ status: active
 
 ---
 
+## [2026-09-07] refactor | words·template Mermaid 신규격 일괄 적용
+
+- **작업 개요**: 단어 문서(`words/word-*.md`)와 `words`/`concepts`/`entities` `_template.md`의 Mermaid를 검증된 규격으로 맞췄다. `graph`→`flowchart`, 표준 `init`(nodeSpacing 40 / rankSpacing 56 / padding 18 / subGraphTitleMargin), 인라인 `classDef` 제거. 파일별 커밋 후 `main` 푸시.
+- **대상**: word-ate, achilles, agathos, calypso, dike, eleos, epos, hector, menis, odyssey, oiktos, polytropos, time + templates 3종.
+- **비고**: `entity-agamemnon.md` 4.2 관계도 로컬 WIP는 이 배치에 포함하지 않음.
+
 ## [2026-09-07] refactor | entity-agamemnon 4.2 지휘망 Mermaid 축 재배치
 
 - **작업 개요**: 아카이아 연합군 지휘망 다이어그램을 서문의 이분법(대립·충돌 / 협력·중재)에 맞춰 `Clash`–`Hub`–`Ally` 3축·`flowchart LR`로 재배치. `focus`/`crisis`/`resolve` 정렬, 펜스 밖 중복 `init` 제거, 양방향 엣지 의미를 명령↔수습·자문↔중재 등으로 분리.
