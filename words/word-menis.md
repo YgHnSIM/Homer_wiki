@@ -64,7 +64,7 @@ graph TD
     LAT_MONEO --> MOD_ADMONISH["고대 프랑스어 amonester: admonish (훈계하다)"]
     LAT_MONEO --> MOD_PREMON["라틴어 praemonitio: premonition (예감, 사전경고)"]
     LAT_MONEO --> LAT_MONSTRUM["라틴어: mōnstrum (신적 경고/징조)"]
-    LAT_MONSTRUM -->|의미 전이: 신적 징조에서 흉측한 존재로| MOD_MONSTER["현대 영어: monster (괴물)"]
+    LAT_MONSTRUM -->|신적 징조에서 흉측한 존재로 전이| MOD_MONSTER["현대 영어: monster (괴물)"]
     OGRADE --> GERM_MEAN["게르만 조어 *mainijaną: mean (뜻하다) / meaning"]
 
     %% 장급 파생군
@@ -73,20 +73,25 @@ graph TD
     PGRK_MANIS --> ION_MENIS["이오니아-아티카: μῆνις (ā → ē)"]
     ION_MENIS -->|17~18세기 번역사| TRANS_WRATH["채프먼(1611) 및 폽(1720): wrath"]
     ION_MENIS -->|20세기 번역사| TRANS_ANGER["래티모어(1951): anger / 페이글스(1990): rage"]
-    ION_MENIS -->|Muellner(1996) 번역불가능성 입증| MOD_MENIS["현대 영어 학술어 직수입: Menis (Achillean wrath)"]
+    ION_MENIS -->|Muellner 1996 번역불가능성 입증| MOD_MENIS["현대 영어 학술어 직수입: Menis (Achillean wrath)"]
     LENG --> SAN_MANYU["산스크리트어: manyú- (신성한 격정, 우주적 진노)"]
 
     %% 영급 파생군
-    ZERO --> GRK_MANIA["그리스어: μανία (신적 광기)"] --> MOD_MANIA["현대 영어: mania / manic / -mania"]
+    ZERO --> GRK_MANIA["그리스어: μανία (신적 광기)"]
+    GRK_MANIA --> MOD_MANIA["현대 영어: mania / manic / -mania"]
     ZERO --> GRK_MANTIS["그리스어: μάντις (신탁 예언자)"]
     GRK_MANTIS -->|17세기 곤충학 기도자세 차용| MOD_MANTIS["현대 영어: mantis (사마귀)"]
     GRK_MANTIS --> MOD_MANCY["현대 영어: -mancy (강령술 등 점술)"]
     ZERO --> GRK_MOUSA["그리스어: Μοῦσα (*Mont-ya, 무사 여신)"]
     GRK_MOUSA --> MOD_MUSE["현대 영어: Muse / music / museum"]
-    ZERO --> GRK_AMNESTY["그리스어: ἀ-μνηστία (불망법, 사면)"] --> MOD_AMNESTY["현대 영어: amnesty (사면, 대사령)"]
-    ZERO --> GRK_MNEM["그리스어: μνημονικός (기억의)"] --> MOD_MNEM["현대 영어: mnemonic (기억술)"]
-    ZERO --> LAT_MEMOR["라틴어: memor / meminī (기억하다)"] --> MOD_MEMORY["현대 영어: memory / memorial / remember"]
-    ZERO --> OE_MIND["게르만 조어 *gamundiz → 고대 영어 gemynd"] --> MOD_MIND["현대 영어: mind / remind / mindful"]
+    ZERO --> GRK_AMNESTY["그리스어: ἀ-μνηστία (불망법, 사면)"]
+    GRK_AMNESTY --> MOD_AMNESTY["현대 영어: amnesty (사면, 대사령)"]
+    ZERO --> GRK_MNEM["그리스어: μνημονικός (기억의)"]
+    GRK_MNEM --> MOD_MNEM["현대 영어: mnemonic (기억술)"]
+    ZERO --> LAT_MEMOR["라틴어: memor / meminī (기억하다)"]
+    LAT_MEMOR --> MOD_MEMORY["현대 영어: memory / memorial / remember"]
+    ZERO --> OE_MIND["게르만 조어 *gamundiz → 고대 영어 gemynd"]
+    OE_MIND --> MOD_MIND["현대 영어: mind / remind / mindful"]
 ```
 
 ---

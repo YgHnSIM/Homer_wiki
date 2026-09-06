@@ -2621,4 +2621,17 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - **개념 문서 (`wiki/concepts/concept-menis.md`)**: `## 관련 항목` 섹션에 `### 관련 어원 문서` 하위 절을 신설하고 `[[word-menis|Menis (메니스)]]` 링크 및 어원 설명 추가.
   - **인물 문서 (`wiki/entities/entity-achilles.md`)**: `## 관련 항목` 목록에 `[[word-menis|Menis]]` 링크 추가하여 상호 탐색망 강화.
   - **다이어그램 정비 (`words/word-menis.md`)**: Mermaid 어원 계통도 내 `&gt;` 및 `&amp;` 엔티티를 유니코드 화살표(`→`) 및 한글 접속사(`및`)로 교체하여 다이어그램 렌더링 안정성 확보.
+  - **검증**: `npm test` 전체 스위트 100% 통과 (79 documents, 3411 links, 983 allowed red links, matrix synchronized, check:greek pass, EXIT 0).
+
+---
+
+## [2026-09-06] fix(words) | Menis(word-menis) Mermaid v11 엣지 라벨 구문 오류 수정
+
+- **작업 개요**: `words/word-menis.md` 문서 내 Mermaid 다이어그램 렌더링 시 발생한 `Syntax error in text (mermaid version 11.4.0)` 구문 오류를 정밀 원인 분석 후 수정 완료.
+- **오류 원인 및 수정 내역**:
+  - Mermaid 렉서의 엣지 라벨(`|...|`) 내 괄호 토큰 파싱 결함: `-->|Muellner(1996) 번역불가능성 입증|`의 `(1996)` 괄호가 노드 모양 토큰(`PS`)으로 오인되어 Syntax Error 유발. 괄호를 제거한 `-->|Muellner 1996 번역불가능성 입증|`으로 수정.
+  - 체이닝 링크 안정화: `ZERO --> A[...] --> B[...]` 체이닝 구문을 개별 링크(`ZERO --> A`, `A --> B`)로 전수 분리하여 파서 모호성 제거.
+  - `LAT_MONSTRUM` 엣지 라벨 내 콜론 기호 정비(`|신적 징조에서 흉측한 존재로 전이|`).
+  - `@mermaid-js/mermaid-cli` v11.17.0으로 직접 SVG 컴파일 검증 완료 (EXIT 0).
 - **검증**: `npm test` 전체 스위트 100% 통과 (79 documents, 3411 links, 983 allowed red links, matrix synchronized, check:greek pass, EXIT 0).
+
