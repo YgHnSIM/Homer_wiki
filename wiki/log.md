@@ -3026,3 +3026,10 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - `wiki/concepts/concept-dike.md` (어원·인용문 교정 및 관련 항목 링크 추가)
   - `wiki/log.md` (작업 이력 기록)
 
+
+## [2026-09-07] fix | concept-time 서브그래프 제목 여백(subGraphTitleMargin)
+
+- **작업 내용**: 서브그래프 제목 관통에 대해, 빈 제목 우회 대신 `subGraphTitleMargin`/`padding`으로 박스 상단을 한 줄분 키워 제목 자리를 확보 (`concept-time` 시험 적용).
+- **생성·업데이트한 파일**:
+  - `wiki/concepts/concept-time.md`
+  - `wiki/log.md`
