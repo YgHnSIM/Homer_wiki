@@ -2990,3 +2990,10 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
 - **생성·업데이트한 파일**:
   - `wiki/concepts/concept-menis.md`
   - `wiki/log.md`
+
+## [2026-09-07] fix | concept-menis Mermaid 노드 문구 정보량 복원
+
+- **작업 내용**: `concept-menis` 다이어그램 노드 문구가 과도하게 축약된 점을 수정. 구조·시맨틱 클래스는 유지하고 2행 라벨로 핵심 의미를 복원.
+- **생성·업데이트한 파일**:
+  - `wiki/concepts/concept-menis.md`
+  - `wiki/log.md`

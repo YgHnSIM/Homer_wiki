@@ -153,35 +153,35 @@ embodying_entities: ["[[entity-achilles|아킬레우스]]", "[[entity-apollo|아
 flowchart TD
     subgraph Trigger ["발동 계기"]
         direction LR
-        Ate["아테 (Ate)<br/>아가멤논의 오만"] --> Wound["게라스·티메 침해"]:::crisis
+        Ate["아테 (Ate)<br/>아가멤논의 독단과 오만"] --> Wound["게라스 강탈 · 티메 유린<br/>존재론적 명예 침해"]:::crisis
     end
 
     subgraph Core ["핵심"]
         direction LR
-        Zeus["디오스 불레<br/>제우스의 뜻"]
-        Menis["메니스 (Mênis)<br/>신적·우주적 분노"]:::focus
+        Zeus["디오스 불레 (Dios Boulē)<br/>제우스 섭리와의 결합"]
+        Menis["메니스 (Mênis)<br/>초월적·우주적 신적 분노"]:::focus
         Zeus -.-> Menis
     end
 
     subgraph Polarity ["대립 규범"]
         direction LR
-        Bond["연민·유대<br/>엘레오스·필로테스"]:::resolve
-        Law["관습·정의<br/>테미스·디케"]
+        Bond["엘레오스 · 필로테스 · 카리스<br/>필멸자 연민과 호혜"]:::resolve
+        Law["테미스 · 디케<br/>전사 사회의 질서와 신성한 몫"]
     end
 
     subgraph Arc ["전개"]
         direction LR
-        S1["(1) 철수·거부"] --> S2["(2) 야수화·모독"]:::crisis --> S3["(3) 탄원 수용"]
+        S1["(1) 발동·철수<br/>아고라 이탈 · 배상 거부"] --> S2["(2) 전이·야수화<br/>헥토르 표적 · 시신 모독"]:::crisis --> S3["(3) 탄원 수용<br/>히케시아와 필멸성 인식"]
     end
 
     subgraph End ["완결"]
         direction LR
-        Eleos["엘레오스 발현"]:::resolve --> Peace["테미스·평화 복원"]:::resolve
+        Eleos["엘레오스 발현<br/>피아 동일화 · 식사 복원"]:::resolve --> Peace["테미스·평화 복원<br/>휴전과 대등한 장례"]:::resolve
     end
 
     Wound --> Menis
-    Menis <-.->|"결속 긴장"| Bond
-    Menis <-.->|"질서 긴장"| Law
+    Menis <-.->|"공동체 결속과 긴장"| Bond
+    Menis <-.->|"사법 질서와 긴장"| Law
     Menis --> S1
     S3 --> Eleos
 ```
