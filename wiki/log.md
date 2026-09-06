@@ -2928,3 +2928,17 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
     - `Eleos` 표제어의 대표 파생어 표기 소문자 규격화(*alms*, *almoner*, *eleemosynary*, *Kyrie eleison*).
 - **검증**: `npm test` 전체 스위트 100% 통과 및 AGENTS.md 규격(이모지 0개, 형태론 5열 표, 3행 인용구, 프론트매터 계약) 완전 준수.
 
+---
+
+## [2026-09-06] refactor(concepts, words) | concept-eleos 및 word-eleos 내용 중복 해소 및 SSOT 정립
+
+- **작업 개요**: `wiki/concepts/concept-eleos.md`와 `words/word-eleos.md` 간의 중복 서술(형태론 표, 서사 에피소드 주해, 후대 수용사)을 해소하고, 개념 문서(윤리학·서사·신정론)와 단어 문서(역사언어학·어원·현대 영단어 수용사)의 단일 진실 공급원(SSOT) 분할 원칙을 확립함.
+- **주요 변경 사항**:
+  - **`wiki/concepts/concept-eleos.md` 정비**:
+    - **Section 2.2**: 12행 규모의 그리스어 상세 형태론 표를 단어 문서 `[[word-eleos#2. 인구어(PIE) 및 희랍어 원어근 분석|Eleos 어원 사전 형태론 표]]`로 일원화하고, SSOT 연동 위키링크로 치환.
+    - **Section 10.2**: 후대 사상사 서술을 칠십인역(LXX) *ḥesed* 수용 및 신약성서 실천적 이웃 사랑 등 신학·도덕사적 층위에 집중시키고, *alms*, *almoner*, *eleemosynary* 등 영단어 어휘사 및 음운 전파는 단어 문서 `[[word-eleos#4. 역사적 전파 및 수용사 경로|Eleos 어원 사전 4~6절]]`로 위임 안내.
+  - **`words/word-eleos.md` 정비**:
+    - **Section 3**: 원전 인용문 주석(`[주석]`)에서 중복되던 서사 전개 및 윤리적 문맥 해설을 압축하여 통사론·형태론적 어휘 용법(대등 명령형, 미래부정 대구, 부정과거 분사 vs 시인 평가, 미완료 분사) 중심으로 정제하고, 심화 서사 주해는 `[[concept-eleos#5. 주요 서사 에피소드 정밀 주해|개념 문서 5절]]` 등으로 역참조 연결.
+- **검증**: `npm test` 전체 스위트(81개 문서, 3465개 링크, 986개 허용 레드링크, 매트릭스 동기화, strict 모드 그리스어 독음) 100% 통과.
+
+
