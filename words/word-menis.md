@@ -35,63 +35,20 @@ status: active
 
 ---
 
-## 1. 어원 전파 계통도 (Etymological Transmission Tree)
+## 1. 어원 전파 총괄 계통도 (Etymological Transmission Overview)
 
 ```mermaid
 graph TD
-    %% PIE 어근 노드
-    PIE["PIE 조어 어근: *men-<br/>(마음에 품다 / 지속적으로 생각하다 / 정신적 격정이 솟구치다)"]
+    PIE["PIE 조어 어근: *men-<br/>(마음에 품다 / 지속적으로 생각하다)"]
+    PIE --> LENG["장급: *mēn- / *mā-<br/>(우주적·지속적 분노)"]
+    PIE --> FULL["기본급: *men-<br/>(마음, 활력, 정신)"]
+    PIE --> OGRADE["o-급 사역형: *mon-éye-<br/>(일깨우다, 경고하다)"]
+    PIE --> ZERO["영급: *mn̥- / *mn-<br/>(기억, 영감, 광기)"]
 
-    %% 4대 모음 교체 분기
-    PIE --> FULL["기본급: *men- (e-grade)"]
-    PIE --> OGRADE["o-급 사역형: *mon-eye-"]
-    PIE --> LENG["장급: *mēn- / *mā-"]
-    PIE --> ZERO["영급: *mn̥- / *mn-"]
-
-    %% 기본급 파생군
-    FULL --> GRK_MENOS["그리스어: μένος (기력, 활력, 격정)"]
-    FULL --> LAT_MENS["라틴어: mēns / mentis (마음, 정신)"]
-    LAT_MENS --> FRA_MENT["고대 프랑스어: mental / mention"]
-    FRA_MENT --> MOD_MENT["현대 영어: mental / mentality / mention"]
-    LAT_MENS --> MOD_DEM["라틴어 접두파생: dementia (실성, 치매)"]
-    LAT_MENS --> MOD_COM["라틴어 접두파생: comment / commentary"]
-    FULL --> SAN_MANAS["산스크리트어: mánas- (마음, 사유)"]
-
-    %% o-급 사역형 파생군
-    OGRADE --> LAT_MONEO["라틴어: moneō (일깨우다, 경고하다)"]
-    LAT_MONEO --> MOD_MONITOR["현대 영어: monitor (감시자, 훈계자)"]
-    LAT_MONEO --> MOD_MONUMENT["라틴어 monumentum: monument (기념비)"]
-    LAT_MONEO --> MOD_ADMONISH["고대 프랑스어 amonester: admonish (훈계하다)"]
-    LAT_MONEO --> MOD_PREMON["라틴어 praemonitio: premonition (예감, 사전경고)"]
-    LAT_MONEO --> LAT_MONSTRUM["라틴어: mōnstrum (신적 경고/징조)"]
-    LAT_MONSTRUM -->|신적 징조에서 흉측한 존재로 전이| MOD_MONSTER["현대 영어: monster (괴물)"]
-    OGRADE --> GERM_MEAN["게르만 조어 *mainijaną: mean (뜻하다) / meaning"]
-
-    %% 장급 파생군
-    LENG --> PGRK_MANIS["원시 헬라어: *mā́-ni-s (우주적·지속적 분노)"]
-    PGRK_MANIS --> DOR_MANIS["도리스 방언: μᾶνις (ā 보존)"]
-    PGRK_MANIS --> ION_MENIS["이오니아-아티카: μῆνις (ā → ē)"]
-    ION_MENIS -->|17~18세기 번역사| TRANS_WRATH["채프먼(1611) 및 폽(1720): wrath"]
-    ION_MENIS -->|20세기 번역사| TRANS_ANGER["래티모어(1951): anger / 페이글스(1990): rage"]
-    ION_MENIS -->|Muellner 1996 번역불가능성 입증| MOD_MENIS["현대 영어 학술어 직수입: Menis (Achillean wrath)"]
-    LENG --> SAN_MANYU["산스크리트어: manyú- (신성한 격정, 우주적 진노)"]
-
-    %% 영급 파생군
-    ZERO --> GRK_MANIA["그리스어: μανία (신적 광기)"]
-    GRK_MANIA --> MOD_MANIA["현대 영어: mania / manic / -mania"]
-    ZERO --> GRK_MANTIS["그리스어: μάντις (신탁 예언자)"]
-    GRK_MANTIS -->|17세기 곤충학 기도자세 차용| MOD_MANTIS["현대 영어: mantis (사마귀)"]
-    GRK_MANTIS --> MOD_MANCY["현대 영어: -mancy (강령술 등 점술)"]
-    ZERO --> GRK_MOUSA["그리스어: Μοῦσα (*Mont-ya, 무사 여신)"]
-    GRK_MOUSA --> MOD_MUSE["현대 영어: Muse / music / museum"]
-    ZERO --> GRK_AMNESTY["그리스어: ἀ-μνηστία (불망법, 사면)"]
-    GRK_AMNESTY --> MOD_AMNESTY["현대 영어: amnesty (사면, 대사령)"]
-    ZERO --> GRK_MNEM["그리스어: μνημονικός (기억의)"]
-    GRK_MNEM --> MOD_MNEM["현대 영어: mnemonic (기억술)"]
-    ZERO --> LAT_MEMOR["라틴어: memor / meminī (기억하다)"]
-    LAT_MEMOR --> MOD_MEMORY["현대 영어: memory / memorial / remember"]
-    ZERO --> OE_MIND["게르만 조어 *gamundiz → 고대 영어 gemynd"]
-    OE_MIND --> MOD_MIND["현대 영어: mind / remind / mindful"]
+    LENG --> MOD_MENIS["현대 영어 학술어 직수입:<br/>Menis (Achillean wrath)"]
+    FULL --> MOD_FULL["현대 영어: mental, mentality, mention, dementia, comment"]
+    OGRADE --> MOD_OG["현대 영어: monitor, monument, monster, admonish, mean"]
+    ZERO --> MOD_ZERO["현대 영어: mind, memory, mania, mantis, Muse, amnesty"]
 ```
 
 ---
@@ -104,27 +61,82 @@ graph TD
 
 어근 `*men-`은 인도유럽어족의 음운론적 환경과 형태론적 기능에 따라 네 가지 모음 교체 층위로 분화되었습니다:
 
-1. **기본급 (Full-grade / e-grade, `*men-`)**:
-   - **그리스어**: 중성 s-어간 명사 **μένος**(*ménos*, 기력, 활력, 투지, 맹렬한 기세). 전사의 신체와 가슴에 깃드는 능동적 에너지를 뜻합니다.
-   - **라틴어**: 여성 명사 **mēns**(속격 *mentis*, 마음, 정신, 지성). 현대 영어 *mental*, *mention*의 어원입니다.
-   - **베다 산스크리트어**: 중성 명사 **mánas-**(마음, 사유, 정신). 제의와 찬가를 구성하는 신성한 지성을 지칭합니다.
-2. **o-급 사역·반복형 (o-grade / Causative-Iterative, `*mon-éye-`)**:
-   - **라틴어 동사 moneō** (*moneō, monēre, monuī, monitum*): "생각나게 하다, 일깨우다, 경고하다, 훈계하다" (< PIE `*mon-éye-ti`). 마음속에 경각심을 능동적으로 환기시키는 사역적 행위입니다.
-     - 현대 영어 **monitor**(감시자, 훈계자), **monument**(기억을 일깨우는 기념비), **admonish**(훈계하다), **premonition**(사전 경고)의 모태가 되었습니다.
-     - 특히 신이 인간에게 내린 경고의 징조인 **mōnstrum**을 거쳐 현대 영어 **monster**(괴물)로 발전했습니다 (de Vaan 2008: 387).
-   - **게르만 조어 `*mainijaną`**: 마음에 뜻을 품고 외부로 표명하다 (> 고대 영어 *mænan* > 현대 영어 **mean**, 의도하다/뜻하다).
-3. **장급 (Lengthened-grade, `*mēn-` / `*mā-`)**:
-   - 원시 헬라어 단계에서 장모음 어간에 추상·행위 명사 접미사 `*-i-`가 결합하여 `*mā́-ni-s`가 형성되었습니다 (Beekes 2010: 947, Chantraine 1968: 699).
-     - **도리스 방언**: 고형 장모음 `*ā`를 보존하여 **μᾶνις**(*mā̂nis*)로 잔존.
-     - **이오니아-아티카 방언**: 규칙적인 장모음 추이(`*ā > η`)를 거쳐 호메로스 서사시의 표준 어형인 **μῆνις**(*mē̂nis*) 성립.
-     - **의미론적 특성**: 단순한 일시적 흥분이 아니라, 마음에 깊이 새겨져 우주적 균형이 회복될 때까지 사그라지지 않고 응축되는 "지속적이고 영속적인 신적 분노"를 표상합니다.
-   - **인도-이란어파 동계어**: 베다 산스크리트어 **manyú-**(신성한 격정, 우주적 진노). 『리그베다』에서 인드라와 루드라 신이 코스모스를 침해한 적들을 파멸시킬 때 발동하는 초월적 분노로, 호메로스의 μῆνις와 완벽한 신화·어원적 일치를 이룹니다 (Watkins 1977, Muellner 1996).
-   - *[학술적 이설]*: 라틴어 **mānēs**(지하의 망령, 조상신)를 `*men-`의 장급으로 보는 견해가 과거에 제기되었으나, 최신 비교언어학에서는 "선한 자들"을 뜻하는 고대 라틴어 형용사 *mānus*의 완곡어법적 파생(`*mā-ni-`)으로 보는 견해가 우세하여 이설로 분류됩니다 (de Vaan 2008: 363).
-4. **영급 (Zero-grade, `*mn̥-` / `*mn-`)**:
-   - 모음이 탈락하고 비음 음절주음 `*n̥`가 각 언어의 음운 법칙에 따라 실현된 형태입니다:
-     - **그리스어 (`*n̥ > a`)**: 접미사 `*-ti-`가 결합한 `*mn̥-ti-s` → **μάντις**(*mántis*, 영감을 받아 진실을 투시하는 예언자); `*mn̥-y-h₂` → **μανία**(*manía*, 신적 광기, 격정); `*Mont-ya` → **Μοῦσα**(*Moûsa*, 무사 여신); `*n̥-mnā-ti-` → **ἀμνηστία**(*amnēstía*, 망각, 사면).
-     - **게르만 조어 (`*mn̥- > -mun-`)**: 접두사 `*ga-` + 영급 `*mn̥-ti-` → 게르만 조어 **`*gamundiz`** → 고대 영어 **gemynd** → 현대 영어 **mind** (Kroonen 2013: 167).
-     - **라틴어 (`*me-mn-`)**: 중복 완료 어간 `*me-mn-` → **meminī**(기억하다), **memor**(기억하는 > 영어 *memory*, *remember*); 영급 접두파생 **comminīscor**(마음속으로 고안하다 > *commentum* > 영어 *comment*).
+#### 1. 기본급 (Full-grade / e-grade, `*men-`)
+- **그리스어**: 중성 s-어간 명사 **μένος**(*ménos*, 기력, 활력, 투지, 맹렬한 기세). 전사의 신체와 가슴에 깃드는 능동적 에너지를 뜻합니다.
+- **라틴어**: 여성 명사 **mēns**(속격 *mentis*, 마음, 정신, 지성). 현대 영어 *mental*, *mention*의 어원입니다.
+- **베다 산스크리트어**: 중성 명사 **mánas-**(마음, 사유, 정신). 제의와 찬가를 구성하는 신성한 지성을 지칭합니다.
+
+```mermaid
+graph TD
+    FULL["기본급: *men- (e-grade)"] --> GRK_MENOS["그리스어: μένος (기력, 활력, 격정)"]
+    FULL --> LAT_MENS["라틴어: mēns / mentis (마음, 정신)"]
+    FULL --> SAN_MANAS["산스크리트어: mánas- (마음, 사유)"]
+    LAT_MENS --> FRA_MENT["고대 프랑스어: mental / mention"]
+    FRA_MENT --> MOD_MENT["현대 영어: mental / mentality / mention"]
+    LAT_MENS --> MOD_DEM["라틴어 접두파생: dementia (실성, 치매)"]
+    LAT_MENS --> MOD_COM["라틴어 접두파생: comment / commentary"]
+```
+
+#### 2. o-급 사역·반복형 (o-grade / Causative-Iterative, `*mon-éye-`)
+- **라틴어 동사 moneō** (*moneō, monēre, monuī, monitum*): "생각나게 하다, 일깨우다, 경고하다, 훈계하다" (< PIE `*mon-éye-ti`). 마음속에 경각심을 능동적으로 환기시키는 사역적 행위입니다.
+  - 현대 영어 **monitor**(감시자, 훈계자), **monument**(기억을 일깨우는 기념비), **admonish**(훈계하다), **premonition**(사전 경고)의 모태가 되었습니다.
+  - 특히 신이 인간에게 내린 경고의 징조인 **mōnstrum**을 거쳐 현대 영어 **monster**(괴물)로 발전했습니다 (de Vaan 2008: 387).
+- **게르만 조어 `*mainijaną`**: 마음에 뜻을 품고 외부로 표명하다 (> 고대 영어 *mænan* > 현대 영어 **mean**, 의도하다/뜻하다).
+
+```mermaid
+graph TD
+    OGRADE["o-급 사역형: *mon-éye- (경고하다, 일깨우다)"]
+    OGRADE --> LAT_MONEO["라틴어: moneō (일깨우다, 경고하다)"]
+    OGRADE --> GERM_MEAN["게르만 조어: *mainijaną (뜻을 품다)"]
+    LAT_MONEO --> MOD_MONITOR["현대 영어: monitor (감시자, 훈계자)"]
+    LAT_MONEO --> MOD_MONUMENT["라틴어 monumentum: monument (기념비)"]
+    LAT_MONEO --> MOD_ADMONISH["고대 프랑스어 amonester: admonish (훈계하다)"]
+    LAT_MONEO --> MOD_PREMON["라틴어 praemonitio: premonition (사전경고)"]
+    LAT_MONEO --> LAT_MONSTRUM["라틴어: mōnstrum (신적 경고/징조)"]
+    LAT_MONSTRUM -->|신적 징조에서 흉측한 존재로 전이| MOD_MONSTER["현대 영어: monster (괴물)"]
+    GERM_MEAN --> MOD_MEAN["현대 영어: mean (뜻하다) / meaning"]
+```
+
+#### 3. 장급 (Lengthened-grade, `*mēn-` / `*mā-`)
+- 원시 헬라어 단계에서 장모음 어간에 추상·행위 명사 접미사 `*-i-`가 결합하여 `*mā́-ni-s`가 형성되었습니다 (Beekes 2010: 947, Chantraine 1968: 699).
+  - **도리스 방언**: 고형 장모음 `*ā`를 보존하여 **μᾶνις**(*mā̂nis*)로 잔존.
+  - **이오니아-아티카 방언**: 규칙적인 장모음 추이(`*ā > η`)를 거쳐 호메로스 서사시의 표준 어형인 **μῆνις**(*mē̂nis*) 성립.
+  - **의미론적 특성**: 단순한 일시적 흥분이 아니라, 마음에 깊이 새겨져 우주적 균형이 회복될 때까지 사그라지지 않고 응축되는 "지속적이고 영속적인 신적 분노"를 표상합니다.
+- **인도-이란어파 동계어**: 베다 산스크리트어 **manyú-**(신성한 격정, 우주적 진노). 『리그베다』에서 인드라와 루드라 신이 코스모스를 침해한 적들을 파멸시킬 때 발동하는 초월적 분노로, 호메로스의 μῆνις와 완벽한 신화·어원적 일치를 이룹니다 (Watkins 1977, Muellner 1996).
+- *[학술적 이설]*: 라틴어 **mānēs**(지하의 망령, 조상신)를 `*men-`의 장급으로 보는 견해가 과거에 제기되었으나, 최신 비교언어학에서는 "선한 자들"을 뜻하는 고대 라틴어 형용사 *mānus*의 완곡어법적 파생(`*mā-ni-`)으로 보는 견해가 우세하여 이설로 분류됩니다 (de Vaan 2008: 363).
+
+```mermaid
+graph TD
+    LENG["장급: *mēn- / *mā- (신적·지속적 분노)"]
+    LENG --> PGRK_MANIS["원시 헬라어: *mā́-ni-s"]
+    LENG --> SAN_MANYU["산스크리트어: manyú- (신성한 격정, 우주적 진노)"]
+    PGRK_MANIS --> DOR_MANIS["도리스 방언: μᾶνις (고형 ā 보존)"]
+    PGRK_MANIS --> ION_MENIS["이오니아-아티카: μῆνις (장모음 추이 ā → ē)"]
+    ION_MENIS -->|17-18세기 번역사| TRANS_WRATH["채프먼 1611 및 폽 1720: wrath"]
+    ION_MENIS -->|20세기 번역사| TRANS_ANGER["래티모어 1951: anger / 페이글스 1990: rage"]
+    ION_MENIS -->|Muellner 1996 번역불가능성 입증| MOD_MENIS["현대 영어 학술어 직수입: Menis (Achillean wrath)"]
+```
+
+#### 4. 영급 (Zero-grade, `*mn̥-` / `*mn-`)
+- 모음이 탈락하고 비음 음절주음 `*n̥`가 각 언어의 음운 법칙에 따라 실현된 형태입니다:
+  - **그리스어 (`*n̥ > a`)**: 접미사 `*-ti-`가 결합한 `*mn̥-ti-s` → **μάντις**(*mántis*, 영감을 받아 진실을 투시하는 예언자); `*mn̥-y-h₂` → **μανία**(*manía*, 신적 광기, 격정); `*Mont-ya` → **Μοῦσα**(*Moûsa*, 무사 여신); `*n̥-mnā-ti-` → **ἀμνηστία**(*amnēstía*, 망각, 사면).
+  - **게르만 조어 (`*mn̥- > -mun-`)**: 접두사 `*ga-` + 영급 `*mn̥-ti-` → 게르만 조어 **`*gamundiz`** → 고대 영어 **gemynd** → 현대 영어 **mind** (Kroonen 2013: 167).
+  - **라틴어 (`*me-mn-`)**: 중복 완료 어간 `*me-mn-` → **meminī**(기억하다), **memor**(기억하는 > 영어 *memory*, *remember*); 영급 접두파생 **comminīscor**(마음속으로 고안하다 > *commentum* > 영어 *comment*).
+
+```mermaid
+graph TD
+    ZERO["영급: *mn̥- / *mn- (기억, 영감, 광기)"]
+    ZERO --> GRK_ZERO["그리스어 파생군 (*n̥ → a)"]
+    ZERO --> GERM_ZERO["게르만 파생군 (*mn̥- → mun)"]
+    ZERO --> LAT_ZERO["라틴어 파생군 (*me-mn-)"]
+    GRK_ZERO --> MOD_MANIA["신적 광기: mania / manic / -mania"]
+    GRK_ZERO --> MOD_MANTIS["신탁 예언자: mantis (사마귀) / -mancy"]
+    GRK_ZERO --> MOD_MUSE["무사 여신: Muse / music / museum"]
+    GRK_ZERO --> MOD_AMNESTY["불망법: amnesty (사면)"]
+    GRK_ZERO --> MOD_MNEM["기억의: mnemonic (기억술)"]
+    GERM_ZERO --> MOD_MIND["고대 영어 gemynd: mind / remind / mindful"]
+    LAT_ZERO --> MOD_MEMORY["라틴어 memor/meminī: memory / memorial / remember"]
+```
 
 ### 2.2 고대 그리스어 형태론 및 곡용 분석표
 

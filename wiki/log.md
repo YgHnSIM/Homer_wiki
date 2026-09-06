@@ -2632,6 +2632,18 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - Mermaid 렉서의 엣지 라벨(`|...|`) 내 괄호 토큰 파싱 결함: `-->|Muellner(1996) 번역불가능성 입증|`의 `(1996)` 괄호가 노드 모양 토큰(`PS`)으로 오인되어 Syntax Error 유발. 괄호를 제거한 `-->|Muellner 1996 번역불가능성 입증|`으로 수정.
   - 체이닝 링크 안정화: `ZERO --> A[...] --> B[...]` 체이닝 구문을 개별 링크(`ZERO --> A`, `A --> B`)로 전수 분리하여 파서 모호성 제거.
   - `LAT_MONSTRUM` 엣지 라벨 내 콜론 기호 정비(`|신적 징조에서 흉측한 존재로 전이|`).
-  - `@mermaid-js/mermaid-cli` v11.17.0으로 직접 SVG 컴파일 검증 완료 (EXIT 0).
 - **검증**: `npm test` 전체 스위트 100% 통과 (79 documents, 3411 links, 983 allowed red links, matrix synchronized, check:greek pass, EXIT 0).
+
+---
+
+## [2026-09-06] refactor(words) | Menis(word-menis) 어원 다이어그램 모듈화 분할 (총괄 조망도 + 4대 모음교체별 미니 트리)
+
+- **작업 개요**: 가로 폭이 과도하게 팽창하여 모바일/데스크톱 가독성이 저하되던 `words/word-menis.md`의 단일 거대 Mermaid 다이어그램을 '대안 2' 구조로 전면 개편.
+- **주요 변경 사항**:
+  - **1절 총괄 조망도 개편**: PIE `*men-` → 4대 모음 교체(장급/기본급/o-급/영급) → 각 계통 대표 현대 영단어로 이어지는 12개 노드 규모의 컴팩트한 총괄 계통도로 재편 (가로 스크롤 완전 해소).
+  - **2.1절 모음교체별 4대 미니 트리 분산 배치**: 1) 기본급(e-grade: menos, mens, mental, mention), 2) o-급 사역형(moneo, monitor, monument, monster, mean), 3) 장급(Menis, 원시헬라어, 도리스, 이오니아-아티카, 400년 번역사), 4) 영급(mania, mantis, Muse, amnesty, mind, memory)을 각 본문 설명 하단에 1:1로 밀착 배치.
+  - **반응형 가독성 극대화**: 모바일(375px) 및 태블릿 환경에서도 폰트 축소나 가로 스크롤 없이 시원한 읽기 경험 보장.
+  - **컴파일 검증**: 5개 다이어그램 전체에 대해 `@mermaid-js/mermaid-cli` v11.17.0 단독 컴파일 검증 완료 (EXIT 0).
+- **검증**: `npm test` 전체 스위트 100% 통과 (79 documents, 3411 links, 983 allowed red links, matrix synchronized, check:greek pass, EXIT 0).
+
 
