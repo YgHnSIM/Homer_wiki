@@ -2907,3 +2907,24 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - `wiki/log.md`
   - (로컬만) `.quartz/quartz/styles/custom.scss`, `.obsidian/snippets/mermaid-semantic.css`, `.obsidian/appearance.json`
 
+---
+
+## [2026-09-06] feat(words) | word-eleos 어원 및 수용사 전면 심화 및 concept-eleos 원전문헌 보강
+
+- **작업 개요**: `homer-word` v2.0 스킬 및 7인의 적대적 학술 평의회 서브에이전트(언어·문헌, 수용사·역사의미론, 어휘실증·회의·정합성감사) 심문을 거쳐, `words/word-eleos.md`를 전면 심화·개정하고 연관 개념 문서 `wiki/concepts/concept-eleos.md`에 결락되었던 원전문헌을 교차 보강함.
+- **주요 변경 사항**:
+  - **`words/word-eleos.md` 전면 심화**:
+    - **Section 1**: 4대 전파 분기 경로(게르만 구어 alms, 앵글로-노르만 관직어 almoner, 17세기 학술 직수입 eleemosynary, 전례구 Kyrie eleison) 및 음운 규칙(이화, syncope, 모음화, L-탈락)을 정밀 반영한 `flowchart TD` 계통도 적용(`:::focus` 시맨틱 클래스 적용).
+    - **Section 2**: Pokorny(IEW 306) 가설 기각 사유, Beekes(선희랍 기층어) vs Chantraine/Frisk(ἐлелеῦ 의성어) 학설 분리 기술, 표준 5열 형태론 표(12개 항목) 신설, 추상명사 ἐлеημοσύνη의 호메로스 미출현 및 칠십인역 코이네 초출 사실 명시.
+    - **Section 3**: 원전 인용문 전체를 `번역 → 원문 → 학술 전사` 3행 표준 서식으로 정비, 탄원 아키타입 공식구인 _Il._ 21.74–75(뤼카온) 및 전장 자비 거절을 직시하는 _Il._ 22.123–124(헥토르의 독백) 신규 보강.
+    - **Section 4**: 칠십인역 *ḥesed*(ἔлеος)와 *ṣədāqāh*(ἐлеημοσύνη) 번역 분기 및 마태복음 6:1 사본학(NA28 vs TR), 불가타에 앞선 고대 라틴어(Vetus Latina) 층위 복원, 민중 라틴어 모음 이화(*alemosyna*), 고대 영어 초출 연대 교정(c. 950 $\to$ c. 890 알프레드 사목교본), 16세기 almoner의 etymological l 복원주의, Kyrie eleison의 _Il._ 24.503(ἐλέησον) 직결성 조명.
+    - **Section 5**: 6음절 $\to$ 1음절 축약 및 L-탈락/보상적 장음화 규칙, 4단계 역사의미론(고졸기 신체적 전율 $\to$ 고전기 아리스토텔레스 anaxion dystychounta $\to$ 헬레니즘/기독교 인지적 환유 및 사물화 $\to$ 근현대 alms의 Pejoration vs eleemosynary의 Specialization 양극화).
+    - **Section 6**: 11대 어휘 패밀리로 확충(*alms-dish*, *almsman* 신규 등재, OED 연대 정밀 교정, 코퍼스 콜로케이션 강화).
+    - **Section 7**: 미국 보통법 최고 판례 *Trustees of Dartmouth College v. Woodward* (1819) 조셉 스토리 대법관의 사립 자선 법인(eleemosynary corporation) 법리 수록, 4대 가짜 동계어(pity/piety, mercy, charity, misericordia) 역사음운론적 분쇄 경고문.
+    - **Section 8**: 신규 문헌·사전·판례·원전 근거 15개 항목 어원 증거 매트릭스 1:1 완전 매핑.
+  - **`wiki/concepts/concept-eleos.md` 교차 보강**:
+    - 3.2절에 _Il._ 22.123–124 헥토르의 독백(전장 자비 원천 차단) 보강.
+  - **`words/index.md` 알파벳 색인 정비**:
+    - `Eleos` 표제어의 대표 파생어 표기 소문자 규격화(*alms*, *almoner*, *eleemosynary*, *Kyrie eleison*).
+- **검증**: `npm test` 전체 스위트 100% 통과 및 AGENTS.md 규격(이모지 0개, 형태론 5열 표, 3행 인용구, 프론트매터 계약) 완전 준수.
+

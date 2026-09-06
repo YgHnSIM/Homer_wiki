@@ -34,7 +34,7 @@ Odyssey는 본문을 작성했지만 역사적 어원과 중세 전승 단계에
 - [[word-agathos|Agathos (아가토스)]] — *Agatha*, *Agathism*, *Kalokagathia*
 - [[word-ate|Ate (아테)]] — *Ate*, *Atic*, *Atetic*, *Ate-ridden*, *111 Ate*
 - [[word-calypso|Calypso (칼립소)]] — *Calypso*, *Calypso bulbosa*, *Calypso Deep*
-- [[word-eleos|Eleos (엘레오스)]] — *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
+- [[word-eleos|Eleos (엘레오스)]] — *alms*, *almoner*, *eleemosynary*, *Kyrie eleison*
 - [[word-epos|Epos (에포스)]] — *epic*, *epos*, *epopee*, *winged words*
 - [[word-hector|Hector (헥토르)]] — *to hector*, *hectoring*, *hectorism*
 - [[word-menis|Menis (메니스)]] — *menis*, *mênis*, *Achillean wrath*
