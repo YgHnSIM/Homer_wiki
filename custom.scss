@@ -355,10 +355,11 @@ a.tag,
   }
 
   svg {
-    max-width: none !important;
+    max-width: 100%;
     height: auto !important;
-    min-width: 280px;
+    min-width: 540px;
     margin: 0 auto;
+    display: block;
   }
 
   .cluster text,

@@ -2768,6 +2768,25 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
     - 옵시디언 스니펫(`.obsidian/snippets/mermaid-scroll.css`): `.mermaid`, `.block-language-mermaid`의 `overflow-x: auto` 및 `svg` `max-width: none !important` 스니펫 신설 및 `appearance.json` 활성화.
 - **검증**: `npm test` 전체 스위트(80 docs, 3439 links, 985 allowed red links, matrix synchronized, check:greek strict pass) 100% 통과 (EXIT 0).
 
+---
+
+## [2026-09-06] fix(concepts) | concept-eleos 머메이드 비율 압축 및 텍스트 가림 해소
+
+- **작업 개요**: `wiki/concepts/concept-eleos.md` 머메이드 다이어그램이 세로로 과대 팽창하여 화면을 벗어나고 텍스트 가림 현상이 발생하던 결함을 해결하기 위해, 다이어그램 구조를 초슬림(세로 높이 약 75% 압축)으로 재설계하고 반응형 축소 및 가로스크롤 호환성을 전면 정비함.
+- **주요 수정 사항**:
+  - **텍스트 가림 현상 원천 해소**:
+    - 동일 타깃으로 수렴하던 3중 중복 엣지 라벨(`자비 발동 차단`)을 단일 연결선(`MEN -.->|"자비 차단 압박"| GND`)으로 정비하여 텍스트 겹침 완전 제거.
+    - 양 끝이 둥글어 내부 텍스트 끝을 잘라먹던 스타디움 형태(`(["..."])`)를 직사각형 노드로 교체하여 모든 어휘 온전 노출.
+    - 노드 라벨 내부의 마크다운 볼드 마커(`**...**`) 표기 누출 제거 및 정돈.
+  - **비율 축소 및 세로 높이 압축 (약 950px -> 약 240px)**:
+    - 전장 파괴 충동 배리어(`S_OPP`)를 수평 1행(`direction LR`) 점선 배치로 전환.
+    - 실천적 구호 및 질서 회복(`S_ACT`)을 3개 구호 행동이 단일 네메시스 회피 노드로 수렴하는 콤팩트 구조로 압축.
+    - `useMaxWidth: true` 및 노드·랭크 간격 최적화(`nodeSpacing: 18, rankSpacing: 24`) 적용.
+  - **CSS 뷰어 반응형 및 스크롤 고도화 (`custom.scss`, `.obsidian/snippets/mermaid-scroll.css`)**:
+    - `max-width: none !important` 강제 속성을 해제하고 `max-width: 100%; min-width: 540px;`로 개선하여, 데스크톱에서는 화면 너비에 맞추어 단번에 컴팩트하게 조망되고 모바일·협소 화면에서는 폰트 축소 왜곡 없이 부드럽게 가로스크롤되도록 개선.
+- **검증**: `npm test` 전체 스위트(80개 문서, 3439개 링크, 985개 허용 레드링크, 매트릭스 동기화, check:greek strict) 100% 통과.
+
+
 
 
 
