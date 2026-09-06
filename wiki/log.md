@@ -2738,6 +2738,20 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - `npm run check:greek`: `concept-oiktos.md` 관련 경고 0건, 전체 통과.
   - `node scripts/build-concept-source-matrix.mjs --check`: 14 concepts × 36 sources 동기화 100% 검증.
 
+---
+
+## [2026-09-06] refactor | concept-oiktos 번역투 정제 및 상호작용망 다이어그램 가독성 개편
+
+- **작업 개요**: [`concept-oiktos.md`](file:///c:/Vault/Homer_wiki/wiki/concepts/concept-oiktos.md)의 서술 표현을 다듬고 4절 머메이드 다이어그램의 시각적 가독성을 전면 개편함.
+- **주요 수정 사항**:
+  - **번역투 표현 정제**: 3.2절 1번 항목에서 '최선의 자'라는 어색한 직역투를 호메로스 원전의 그리스어 `ὥριστος`(*hṓristos* < *ho áristos*) 본뜻에 맞추어 '가장 탁월한 자(*aristos*)'로 수정.
+  - **머메이드 다이어그램 가독성 개편 (직교 대립형)**:
+    - 좌우(LR) 주류 파이프라인(`자극 사건` -> `노오스/프라피데스 인지` -> `오익토스 브레이크` -> `존엄 복원 실천` -> `비경쟁적 지반` -> `엘레오스`) 구축.
+    - 상단 적색 점선 압박(승자의 조롱·결과주의)과 하단 보라색 지지(아이도스의 신적 경외)의 수직 직교 대립 구도로 3각 긴장 시각화.
+    - 4색 기능군 스타일링(`classDef`) 적용 및 세로 길이 약 50% 압축.
+- **검증**: `node scripts/validate-wiki.mjs` 및 `npm run check:greek` 통과.
+
+
 
 
 
