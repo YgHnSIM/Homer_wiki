@@ -22,9 +22,9 @@ Odyssey는 본문을 작성했지만 역사적 어원과 중세 전승 단계에
 
 | 분류 | 문서 수 | 작성된 항목 |
 |:---|:---:|:---|
-| 개념·추상어 | 5 | [[word-agathos\|Agathos]], [[word-eleos\|Eleos]], [[word-menis\|Menis]], [[word-polytropos\|Polytropos]], [[word-time\|Time]] |
+| 개념·추상어 | 6 | [[word-agathos\|Agathos]], [[word-eleos\|Eleos]], [[word-epos\|Epos]], [[word-menis\|Menis]], [[word-polytropos\|Polytropos]], [[word-time\|Time]] |
 | 인명·서명 유래어 | 5 | [[word-achilles\|Achilles]], [[word-ate\|Ate]], [[word-calypso\|Calypso]], [[word-hector\|Hector]], [[word-odyssey\|Odyssey]] |
-| 총계 | 10 | — |
+| 총계 | 11 | — |
 
 ---
 
@@ -35,6 +35,7 @@ Odyssey는 본문을 작성했지만 역사적 어원과 중세 전승 단계에
 - [[word-ate|Ate (아테)]] — *Ate*, *Atic*, *Atetic*, *Ate-ridden*, *111 Ate*
 - [[word-calypso|Calypso (칼립소)]] — *Calypso*, *Calypso bulbosa*, *Calypso Deep*
 - [[word-eleos|Eleos (엘레오스)]] — *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
+- [[word-epos|Epos (에포스)]] — *epic*, *epos*, *epopee*, *winged words*
 - [[word-hector|Hector (헥토르)]] — *to hector*, *hectoring*, *hectorism*
 - [[word-menis|Menis (메니스)]] — *menis*, *mênis*, *Achillean wrath*
 - [[word-odyssey|Odyssey (오디세이)]] — *Odyssey*, *odyssey*, *Odyssean*
@@ -51,6 +52,7 @@ Odyssey는 본문을 작성했지만 역사적 어원과 중세 전승 단계에
 - [[concept-time|티메]]
 - [[concept-agathos|아가토스]]
 - [[concept-eleos|엘레오스]]
+- [[concept-oiktos|오익토스]]
 - [[concept-menis|메니스]]
 - [[entity-achilles|아킬레우스]]
 - [[entity-hector|헥토르]]
