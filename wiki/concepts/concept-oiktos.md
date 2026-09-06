@@ -143,8 +143,8 @@ flowchart TD
         E3["시신 훼손 예견<br/>노인의 치부 노출 위기"]:::event
     end
 
-    %% 2. 도덕적 제동과 심리적 갈등
-    subgraph S2 ["(2) 도덕적 제동과 심리적 갈등 (오익토스)"]
+    %% 2. 도덕적 제동
+    subgraph S2 ["(2) 도덕적 제동 (오익토스)"]
         direction TB
         subgraph S2_Top [" "]
             direction LR
@@ -161,7 +161,7 @@ flowchart TD
     end
 
     %% 3. 실천과 승화
-    subgraph S3 ["(3) 존엄 보전과 구호 실천 (엘레오스)"]
+    subgraph S3 ["(3) 구호 실천 (엘레오스)"]
         direction TB
         ACT["(1) 체면 보전 행동<br/>조롱 중단 · 신체 부축 · 사적 보상 제공"]:::action
         MED["(2) 비경쟁적 지반<br/>적대성 유보 · 필멸자 연대"]:::action
