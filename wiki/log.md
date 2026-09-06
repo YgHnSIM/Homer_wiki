@@ -2950,3 +2950,16 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
 - **생성·업데이트한 파일**:
   - `wiki/concepts/concept-geras.md`
   - `wiki/log.md`
+
+## [2026-09-06] fix | Mermaid 서브그래프 제목 테두리 관통 CSS 보정
+
+- **작업 내용**: 서브그래프 제목이 테두리 선에 가려지는 Mermaid 렌더 결함을 CSS로 보정 (더미 배너 노드 대신 라벨 불투명 칩 + overflow 완화).
+- **핵심 변경**:
+  - `custom.scss` 클러스터 라벨에 배경 칩·패딩 추가, `.mermaid` overflow-y를 visible로 완화
+  - Obsidian `mermaid-scroll.css`에 동일 보정 반영
+  - 로컬 `.quartz/.../custom.scss` 동기화
+- **생성·업데이트한 파일**:
+  - `custom.scss`
+  - `wiki/concepts/concept-geras.md` (제목 표기 소폭 조정)
+  - `wiki/log.md`
+  - (로컬만) `.quartz/quartz/styles/custom.scss`, `.obsidian/snippets/mermaid-scroll.css`

@@ -170,7 +170,7 @@ embodying_entities: ["[[entity-agamemnon|아가멤논 (Agamemnon)]]", "[[entity-
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 28, 'rankSpacing': 36}}}%%
 flowchart TD
-    subgraph Divine ["초월적 층위"]
+    subgraph Divine ["초월 층위"]
         direction LR
         Zeus["제우스<br/>왕권·질서 보증"]
     end

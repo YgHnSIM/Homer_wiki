@@ -306,7 +306,7 @@ a.tag,
   display: block;
   max-width: 100%;
   overflow-x: auto;
-  overflow-y: hidden;
+  overflow-y: visible;
   -webkit-overflow-scrolling: touch;
   margin: 1.25rem 0;
 }
@@ -378,6 +378,26 @@ a.tag,
     white-space: nowrap !important;
     overflow: visible !important;
     font-weight: 600 !important;
+  }
+
+  // Subgraph titles sit on the cluster top stroke in Mermaid. Paint an opaque
+  // chip behind the label so the border does not pierce the glyphs (Obsidian/
+  // Quartz). Prefer this over dummy banner nodes (AGENTS.md 2.4).
+  .cluster-label,
+  .cluster-label foreignObject {
+    overflow: visible !important;
+  }
+
+  .cluster-label span,
+  .cluster-label p,
+  .cluster-label div,
+  g[id^="subGraph"] .cluster-label span,
+  g[class*="cluster"] .cluster-label span {
+    display: inline-block !important;
+    padding: 0.05rem 0.45rem !important;
+    line-height: 1.3 !important;
+    background-color: var(--light, #faf8f5) !important;
+    border-radius: 0.2rem;
   }
 
   .edgeLabel,
@@ -625,6 +645,14 @@ html[saved-theme="dark"] .mermaid {
   .cluster rect {
     fill: var(--light) !important;
     stroke: var(--lightgray) !important;
+  }
+
+  .cluster-label span,
+  .cluster-label p,
+  .cluster-label div,
+  g[id^="subGraph"] .cluster-label span,
+  g[class*="cluster"] .cluster-label span {
+    background-color: var(--light) !important;
   }
 
   .edgeLabel rect,
