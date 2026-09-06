@@ -3,7 +3,7 @@ title: 어원 사전
 aliases: [단어 인덱스, 호메로스 어원·영단어 사전, Word Index]
 tags: [type/meta, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-09-06
+updated: 2026-09-07
 sources: []
 status: active
 ---
@@ -22,9 +22,9 @@ Odyssey는 본문을 작성했지만 역사적 어원과 중세 전승 단계에
 
 | 분류 | 문서 수 | 작성된 항목 |
 |:---|:---:|:---|
-| 개념·추상어 | 6 | [[word-agathos\|Agathos]], [[word-eleos\|Eleos]], [[word-epos\|Epos]], [[word-menis\|Menis]], [[word-polytropos\|Polytropos]], [[word-time\|Time]] |
+| 개념·추상어 | 7 | [[word-agathos\|Agathos]], [[word-eleos\|Eleos]], [[word-epos\|Epos]], [[word-menis\|Menis]], [[word-oiktos\|Oiktos]], [[word-polytropos\|Polytropos]], [[word-time\|Time]] |
 | 인명·서명 유래어 | 5 | [[word-achilles\|Achilles]], [[word-ate\|Ate]], [[word-calypso\|Calypso]], [[word-hector\|Hector]], [[word-odyssey\|Odyssey]] |
-| 총계 | 11 | — |
+| 총계 | 12 | — |
 
 ---
 
@@ -39,6 +39,7 @@ Odyssey는 본문을 작성했지만 역사적 어원과 중세 전승 단계에
 - [[word-hector|Hector (헥토르)]] — *to hector*, *hectoring*, *hectorism*
 - [[word-menis|Menis (메니스)]] — *menis*, *mênis*, *Achillean wrath*
 - [[word-odyssey|Odyssey (오디세이)]] — *Odyssey*, *odyssey*, *Odyssean*
+- [[word-oiktos|Oiktos (오익토스)]] — *oiktos*, *oikteiro*, *oiktrós*, *oiktirmos*
 - [[word-polytropos|Polytropos (폴리트로포스)]] — *polytropos*, *polutropos*, *many-turned*
 - [[word-time|Time (티메)]] — *timocracy*, *timocratic*, *Timothy*, *Timon*, *timology*
 
