@@ -15,6 +15,12 @@ status: active
 
 ---
 
+## [2026-09-07] refactor | entity-agamemnon 4.2 지휘망 Mermaid 축 재배치
+
+- **작업 개요**: 아카이아 연합군 지휘망 다이어그램을 서문의 이분법(대립·충돌 / 협력·중재)에 맞춰 `Clash`–`Hub`–`Ally` 3축·`flowchart LR`로 재배치. `focus`/`crisis`/`resolve` 정렬, 펜스 밖 중복 `init` 제거, 양방향 엣지 의미를 명령↔수습·자문↔중재 등으로 분리.
+- **변경 파일**: `wiki/entities/entity-agamemnon.md`, `wiki/log.md`
+- **확인**: Obsidian에서 4.2 섹션 리로드 후 좌(위기 체인)–중(아가멤논)–우(협력·제도) 배치와 선 겹침을 확인.
+
 ## [2026-09-07] style | Mermaid 서브그래프 제목 한 줄 고정
 
 - **작업 개요**: 서브그래프 제목이 클러스터 폭에 맞춰 자동 줄바꿈되지 않도록 CSS를 강화했다. 명시적 `<br/>`가 없으면 한 줄로 표시된다.
