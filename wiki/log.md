@@ -2879,3 +2879,15 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
     - 알파벳 색인에 `word-epos` 추가 및 관련 항목에 `concept-oiktos` 상호 연동.
 - **검증**: `npm test` 전체 스위트(81개 문서, 3455개 링크, 986개 허용 레드링크, 매트릭스 동기화, check:greek strict 81개 문서) 100% 통과.
 
+
+## [2026-09-06] chore | AGENTS.md 머메이드 다이어그램 표준 규격 신설
+
+- **작업 내용**: Homer Wiki Mermaid 하이브리드 규격을 `AGENTS.md` 2.4절에 등재.
+- **핵심 변경**:
+  - 구조·레이아웃·1-2-3 텍스트·유형 A~D 표준화
+  - 시맨틱 클래스 `focus` / `crisis` / `resolve` (인라인 hex·`classDef`·더미 배너 노드 금지)
+  - Obsidian 스니펫 + Quartz `custom.scss` 스타일 분리 원칙 명시
+  - 기존 노드 라벨·어원 목록 mermaid 금지 조항을 본 절로 통합, 3.3 검수 워크플로에 Mermaid 항목 추가
+- **생성·업데이트한 파일**:
+  - `AGENTS.md`
+  - `wiki/log.md`
