@@ -3,7 +3,7 @@ title: 파리스 (Paris)
 aliases: [Paris, Πάρις, Páris, Ἀλέξανδρος, Aléksandros, 파리스, 알렉산드로스, Alexandros, 프리아미데스, Priamides, 디스파리스, Dysparis, Dúsparis, Dúspari, 겉모습만 빼어난 자, eîdos áriste, εἶδος ἄριστε]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-06
 sources: [lee-junseok-2024-iliad-jeongam.md, lee-junseok-2018-wrath-and-pity.md, cairns-1993-aidos.md, vernant-1989-belle-mort.md, williams-1993-shame-and-necessity.md, adkins-1960-merit-and-responsibility.md, redfield-1975-nature-and-culture.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md]
 status: active
 entity_type: person
@@ -108,6 +108,23 @@ flowchart TD
 
 #### (6) 13권 예언자의 아들 에우케노르 사살
 13권에서 파리스는 코린토스의 예언자 폴뤼이도스의 아들 [[entity-euchenor|에우케노르]](Euchenor)를 턱과 귀 아래로 화살을 쏘아 사살한다(_Il._ 13.660–672). 이어 헥토르의 전선 지휘 질책에 차분히 응대하며 전투를 지속한다(_Il._ 13.765–788).
+
+### 3.2 서사적 전환점과 결정적 장면 (핵심 원문 대조)
+
+#### 1) _Il._ 3.39–40 (헥토르의 호격 질책: 재앙의 파리스여)
+- **번역**: "재앙의 파리스여, 겉모습만 빼어난 자여, 여인에 미쳐 유혹이나 일삼는 사기꾼이여! / 차라리 태어나지 않았거나 혼인하지 못하고 죽었더라면 좋았을 것을."
+- **원문**: Δύσπαρι, εἶδος ἄριστε, γυναιμανές, ἠπεροπευτά, / αἴθ’ ὄφελές τ’ ἄγονός τ’ ἔμεναι ἄγαμός τ’ ἀπολέσθαι.
+- **학술 전사**: *Dúspari, eîdos áriste, gunaimanés, ēperopeutá, / aíth’ óphelés t’ ágonós t’ émenai ágamós t’ apolésthai.*
+
+#### 2) _Il._ 3.64–66 (신들의 선물에 대한 변호)
+- **번역**: "황금의 아프로디테께서 주신 사랑스러운 선물들을 내게 탓하지 마시오. / 신들의 영광스러운 선물들은 결코 버릴 수 있는 것이 아니니, / 신들께서 손수 주시는 것은 인간이 원한다고 해서 얻을 수 있는 것도 아니라오."
+- **원문**: μή μοι δῶρ’ ἐρατὰ πρόφερε χρυσέης Ἀφροδίτης· / οὔ τοι ἀπόβλητ’ ἐστὶ θεῶν ἐρικυδέα δῶρα, / ὅσσά κεν αὐτοὶ δῶσιν, ἑκὼν δ’ οὐκ ἄν τις ἕλοιτο.
+- **학술 전사**: *mḗ moi dō̂r’ eratà próphere khruséēs Aphrodítēs; / oú toi apóblēt’ estì theō̂n erikudéa dō̂ra, / hóssá ken autoì dō̂sin, hekṑn d’ ouk án tis héloito.*
+
+#### 3) _Il._ 7.362–364 (민회에서 헬레네 반환 단호 거부)
+- **번역**: "나는 단호히 거절하노라! 그 여인은 결코 돌려보내지 않겠소. / 그러나 내가 아르고스로부터 우리 집으로 가져왔던 보물들은 / 모두 돌려줄 용의가 있으며, 내 사재를 털어 거기에 더 보탤 것이오."
+- **원문**: ἀντικρὺ δ’ ἀπόφημι, γυναῖκα μὲν οὐκ ἀποδώσω· / κτήματα δ’ ὅσσ’ ἀγόμην ἐξ Ἄργεος ἡμέτερον δῶ, / πάντ’ ἐθέλω δόμεναι, καὶ ἔτ’ οἴκοθεν ἄλλ’ ἐπιθεῖναι.
+- **학술 전사**: *antikrù d’ apóphēmi, gunaîka mèn ouk apodṓsō; / ktḗmata d’ hóss’ agómēn eks Árgeos hēméteron dô, / pánt’ ethélō dómenai, kaì ét’ oíkothen áll’ epitheînai.*
 
 ## 4. 관계와 소속 (Genealogy, Alliances & Networks)
 

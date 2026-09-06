@@ -3,7 +3,7 @@ title: 오디세우스 (Odysseus)
 aliases: [Odysseus, Ὀδυσσεύς, Odusseús, 오딧세우스, 라에르테스의 아들, 라에르티아데스, Laertiades, 폴뤼트로포스, Polytropos, 오디세우스 (Odysseus / Ὀδυσσεύς)]
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-25
-updated: 2026-09-05
+updated: 2026-09-06
 sources: [detienne-1974-cunning-intelligence.md, nagy-1979-best-of-achaeans.md, bittlestone-2005-odysseus-unbound.md, greek-ministry-2025-odysseion-ithaca.md, lee-junseok-2016-odyssey-humanity.md, lee-junseok-2024-iliad-jeongam.md, scott-1982-philos-philotes-xenia.md, finkelberg-1995-odysseus-and-genus-hero.md]
 status: active
 entity_type: person
@@ -47,12 +47,12 @@ cssclasses: [greek-reading-page]
 
 ### 2.2 주요 정형구와 별칭
 
-| 희랍어 정형구 | 학술 전사 | 통상적 의미 | 서사적 기능 및 대표 출전 |
+| 희랍어 정형구 실제형 | 학술 전사 | 한국어 풀이 | 운율적 기능 및 대표 출전 |
 |:---|:---|:---|:---|
 | πολύτροπος | *polútropos* | 여러 방향으로 도는, 다방면의 | 『오뒷세이아』 첫 행에서 이동과 변형의 가능성을 연다. _Od._ 1.1 |
 | πολύμητις | *polúmētis* | 많은 계책을 지닌 | 계략의 보유자라는 반복 표지이다. _Od._ 9.1 |
 | πολυμήχανος | *polumḗkhanos* | 여러 방책을 지닌 | 전사·사절·설계자의 복합적 역할을 환기한다. _Il._ 2.173 |
-| πολύτλας δῖος Ὀδυσσεύς | *polútlas dī̂os Odusseús* | 많이 견딘 고귀한 오디세우스 | 고난을 견디는 귀환자의 정형구이다. 『오뒷세이아』 반복형 |
+| πολύτλας δῖος Ὀδυσσεύς | *polútlas dîos Odusseús* | 많이 견딘 고귀한 오디세우스 | 고난을 견디는 귀환자의 정형구이다. 『오뒷세이아』 반복형 |
 | πτολίπορθος | *ptolíporthos* | 도시를 함락하는 자 | 계략가뿐 아니라 전쟁 영웅이라는 이력을 남긴다. _Od._ 8.3 |
 
 이 표현들은 성격표의 고정 항목만이 아니라 육보격의 서로 다른 위치를 채우는 정형구 체계의 일부이다. 따라서 *polytropos*나 *polymētis* 하나를 모든 장면의 유일한 해석 열쇠로 삼지 않는다.
@@ -128,6 +128,28 @@ flowchart TD
 - 낯선 사람으로 남아야 집으로 돌아갈 수 있다면, 귀환의 주체는 이름을 가진 사람인가 아니면 관계 속에서 다시 확인되는 사람인가?
 - 폴뤼페모스 사건에서 이름을 숨기는 계략과 이름을 밝히는 자랑은 왜 한 인물에게 함께 존재하는가(_Od._ 9)?
 - 구혼자들을 처벌한 뒤에도 유족과의 적대가 남는다면, 왕권의 회복은 질서의 회복과 같은 것인가(_Od._ 24)?
+
+### 3.5 서사적 전환점과 결정적 장면 (핵심 원문 대조)
+
+#### 1) _Od._ 1.1–5 (『오뒷세이아』 서시: 폴뤼트로포스 영웅의 귀환과 노고)
+- **번역**: "들려주소서, 무사 여신이여! 트로이아의 거룩한 도성을 함락한 뒤 / 수없이 많은 곳을 떠돌아다닌 파란만장한 영웅의 이야기를. / 그는 수많은 사람들의 도시들을 보았고 그들의 생각을 배웠으며, / 바다 위에서 자신의 목숨을 구하고 전우들을 귀향시키려 애쓰며 / 마음속으로 수많은 고통을 겪었나이다."
+- **원문**: ἄνδρα μοι ἔννεπε, μοῦσα, πολύτροπον, ὃς μάλα πολλὰ / πλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν· / πολλῶν δ’ ἀνθρώπων ἴδεν ἄστεα καὶ νόον ἔγνω, / πολλὰ δ’ ὅ γ’ ἐν πόντῳ πάθεν ἄλγεα ὃν κατὰ θυμόν, / ἀρνύμενος ἥν τε ψυχὴν καὶ νόστον ἑταίρων.
+- **학술 전사**: *ándra moi énnepe, moûsa, polútropon, hòs mála pollà / plángkhthē, epeì Troíēs hieròn ptolíethron épersen; / pollō̂n d’ anthrṓpōn íden ástea kaì nóon égnō, / pollà d’ hó g’ en póntōi páthen álgea hòn katà thumón, / arnúmenos hḗn te psukhḕn kaì nóston hetaírōn.*
+
+#### 2) _Od._ 5.215–220 (칼립소의 불사 제안 거절과 필멸의 귀향 결단)
+- **번역**: "존귀하신 여신이여, 내게 노여워하지 마소서. 현숙한 페넬로페가 / 용모와 키에서 그대보다 못하다는 것을 나도 잘 알고 있소. / 그녀는 필멸의 인간이고 그대는 불로불사의 존재이시니. / 하지만 그럼에도 나는 날마다 집으로 돌아가 / 귀향의 날을 보기를 간절히 바라고 원하나이다."
+- **원문**: πότνα θεά, μή μοι τόδε χώεο· οἶδα καὶ αὐτὸς / πάντα μάλ’, οὕνεκα σεῖο περίφρων Πηνελόπεια / εἶδος ἀκιδνοτέρη μέγεθός τ’ εἰσάντα ἰδέσθαι· / ἡ μὲν γὰρ βροτός ἐστι, σὺ δ’ ἀθάνατος καὶ ἀγήρως. / ἀλλὰ καὶ ὣς ἐθέλω καὶ ἐέλδομαι ἤματα πάντα / οἴκαδέ τ’ ἐλθέμεναι καὶ νόστιμον ἦμαρ ἰδέσθαι.
+- **학술 전사**: *pótna theá, mḗ moi tóde khṓeo; oîda kaì autòs / pánta mál’, hoúneka seîo períphrōn Pēnelópeia / eîdos akidnotérē mégethós t’ eisánta idésthai; / hḕ mèn gàr brotós esti, sù d’ athánatos kaì agḗrōs. / allà kaì hṑs ethélō kaì eéldomai ḗmata pánta / oíkadé t’ elthémenai kaì nóstimon ē̂mar idésthai.*
+
+#### 3) _Od._ 9.364–367 (키클롭스 앞 "아무도[Outis]" 가명과 메티스의 언어유희)
+- **번역**: "키클롭스여, 그대는 내 고귀한 이름을 묻는구려. 그러니 내 그대에게 밝히겠소. / '아무도'가 내 이름이오. 나의 어머니와 아버지, / 그리고 다른 모든 동료들도 나를 '아무도'라고 부른다오."
+- **원문**: Κύκλωψ, εἰρωτᾷς μ’ ὄνομα κλυτόν; αὐτάρ τοι ἐγὼ ἐξερέω· / Οὖτις ἐμοί γ’ ὄνομα· Οὖτιν δέ με κικλήσκουσι / μήτηρ ἠδὲ πατὴρ ἠδ’ ἄλλοι πάντες ἑταῖροι.
+- **학술 전사**: *Kúklōps, eirōtâis m’ ónoma klutón? autár toi egṑ ekseréō; / Oûtis emoí g’ ónoma; Oûtin dé me kiklḗskousi / mḗtēr ēdè patḕr ēd’ álloi pántes hetaîroi.*
+
+#### 4) _Od._ 20.17–20 (불충한 하녀들을 보며 심장을 타이르는 자기 통제)
+- **번역**: "참아라, 나의 심장(kradiē)아! 너는 일전에 저 억센 키클롭스가 / 힘센 동료들을 잡아먹었을 때 이보다 훨씬 더 끔찍한 일도 견뎌내지 않았더냐. / 계략(mētis)이 너를 동굴에서 빠져나오게 할 때까지 너는 견뎌냈느니라."
+- **원문**: τέτλαθι δή, κραδίη· καὶ κύντερον ἄλλο ποτ’ ἔτλης, / ἤματι τῷ ὅτε μοι μένος ἄσχετος ἤσθιε Κύκλωψ / ἰφθίμους ἑτάρους· σὺ δ’ ἐτόλμας, ὄφρα σε μῆτις / ἐξάγαγ’ ἐξ ἄντροιο
+- **학술 전사**: *tétlathi dḗ, kradíē; kaì kúnteron állo pot’ étlēs, / ḗmati tô̂i hóte moi ménos áskhetos ḗsthie Kúklōps / iphthímous hetárous; sù d’ etólmas, óphra se mē̂tis / ekságag’ eks ántroio*
 
 ## 4. 관계와 소속 (Genealogy, Alliances & Networks)
 
