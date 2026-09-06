@@ -278,5 +278,5 @@ graph TD
 - [[concept-time|티메 (Time)]]
 - [[concept-ate|아테 (Ate)]]
 - [[concept-dike|디케 (Dike)]]
-- [[concept-eleos|엘레오스와 오익토스 (Eleos & Oiktos)]]
+- [[concept-eleos|엘레오스 (Eleos)]]
 - [[concept-kleos|클레오스 (Kleos)]]

@@ -209,6 +209,6 @@ graph TD
 - [[concept-moira|모이라 (Moira)]]
 - [[concept-time|티메 (Time)]]
 - [[concept-ate|아테 (Ate)]]
-- [[concept-eleos|엘레오스와 오익토스 (Eleos & Oiktos)]]
+- [[concept-eleos|엘레오스 (Eleos)]]
 - [[concept-menis|메니스 (Menis)]]
 - [[concept-xenia|크세니아 (Xenia)]]

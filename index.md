@@ -42,7 +42,8 @@ status: active
 - [[concept-nemesis|네메시스 (Nemesis)]] — 몫과 질서를 수호하는 공적 의분
 - [[concept-hikesia|히케시아 (Hikesia)]] — 신체 접촉 의례를 통한 신성한 탄원과 약자 보호 규범
 - [[concept-xenia|크세니아 (Xenia)]] — 낯선 이방인과 맺는 세습적 환대 동맹이자 선물 교환·안전 보장 규범
-- [[concept-eleos|엘레오스와 오익토스 (Eleos & Oiktos)]] — 타인의 굴욕에 대한 감정적 억제(Oiktos)와 비경쟁적 지반에서 발동하는 적극적 구호(Eleos)
+- [[concept-eleos|엘레오스 (Eleos)]] — 비경쟁적 지반에서 발동하는 적극적 구호 추진력과 필멸자 연대
+- [[concept-oiktos|오익토스 (Oiktos)]] — 타인의 극단적 굴욕 목격 시 일어나는 감정적 억제와 가해 중단 및 존엄 복원
 - [[concept-agathos|아가토스 (Agathos)]] — 군사적 무용(Arete)과 신적 혈통을 바탕으로 공동체를 수호하는 영웅적 귀족 전사
 - [[concept-ate|아테 (Ate)]] — 초자연적 원인에 의한 인지적 판단 마비와 치명적 과오 및 파멸적 손해의 연쇄
 - [[concept-geras|게라스 (Geras)]] — 공동체가 군주와 영웅에게 헌정하는 물질적 특권 몫이자 최상급 등심 고기

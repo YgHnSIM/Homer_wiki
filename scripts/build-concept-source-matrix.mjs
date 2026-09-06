@@ -27,6 +27,7 @@ const preferredConceptOrder = [
   "concept-time",
   "concept-xenia",
   "concept-eleos",
+  "concept-oiktos",
   "concept-agathos",
   "concept-epic-cycle",
 ]
@@ -55,7 +56,7 @@ const CENTRAL = {
   "cairns-1993-aidos": ["concept-aidos"],
   "cairns-2012-ate-in-homeric-poems": ["concept-ate"],
   "scott-1980-aidos-and-nemesis": ["concept-aidos", "concept-nemesis"],
-  "scott-1979-pity-and-pathos": ["concept-eleos"],
+  "scott-1979-pity-and-pathos": ["concept-eleos", "concept-oiktos"],
   "scott-1982-philos-philotes-xenia": ["concept-xenia"],
   "scott-1981-some-greek-terms": ["concept-agathos"],
   "williams-1993-shame-and-necessity": ["concept-aidos"],

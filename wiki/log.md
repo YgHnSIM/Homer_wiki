@@ -2646,4 +2646,18 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - **컴파일 검증**: 5개 다이어그램 전체에 대해 `@mermaid-js/mermaid-cli` v11.17.0 단독 컴파일 검증 완료 (EXIT 0).
 - **검증**: `npm test` 전체 스위트 100% 통과 (79 documents, 3411 links, 983 allowed red links, matrix synchronized, check:greek pass, EXIT 0).
 
+---
+
+## [2026-09-06] feat(concepts) | 엘레오스(concept-eleos)와 오익토스(concept-oiktos) 독립 개념 문서 분할 및 전면 재구축 완료
+
+- **작업 개요**: 기존에 `concept-eleos.md`에 통합되어 있던 엘레오스와 오익토스를 호메로스 위키의 원자성(Atomicity) 원칙과 `homer-concept` v2.0 규격에 따라 두 개의 독립된 개념 문서(`concept-eleos.md`, `concept-oiktos.md`)로 전면 분할·재구축함.
+- **주요 변경 사항**:
+  - **`concept-eleos.md` (전면 개편)**: '적극적 구호 추진력(Positive forward drive)'과 신들의 연민, 메노스(Menos) 및 전장 무자비(Nelees)와의 갈등, 뤼카온·페미오스 탄원 에피소드, 칠십인역/신약성서(Alms) 및 아리스토텔레스 시학 수용사를 중심으로 13개 풀스펙 섹션 정비.
+  - **`concept-oiktos.md` (신규 구축)**: 타인의 극단적 수치 목격 시 발동하는 '감정적 억제 및 가해 자제(Inhibition)', 승자의 조롱 자제와 상대의 존엄 복원, 에우멜로스 전차경주(2등상 배려), 노인 시신 유린(*oíktiston*), 소포클레스 『필록테테스』(네오프톨레모스) 및 『아이아스』(오디세우스) 수용사를 중심으로 13개 풀스펙 섹션 신규 생성.
+  - **그리스어 읽기 UX 무결성 확보**: 두 문서 모두 단일 어휘 프론트매터 및 H1(`한국어명 (관용 라틴명)`), 읽는 법 행, 4열 형태론 분리 표 완비.
+  - **개념×문헌 매트릭스 동기화**: `scripts/build-concept-source-matrix.mjs`에 `concept-oiktos` 등록 및 `wiki/analyses/analysis-concept-source-matrix.md` 14개 개념 매트릭스로 갱신.
+  - **인덱스 및 볼트 전역 링크 정비**: `wiki/index.md`, 루트 `index.md`에 오익토스 1행 표준 서식 추가 및 `words/word-eleos.md`, `concept-agathos.md`, `concept-epic-cycle.md`, `words/word-menis.md`, 소스 문서 3종의 상호참조 분기 완료.
+  - **허용 미래 링크 갱신**: `scripts/allowed-red-links.json`에 `word-oiktos`, `entity-eumelos` 등록.
+- **검증**: `npm test` 전체 스위트(validate-wiki 80 docs/3435 links/986 allowed red links, matrix check 14×36, tooling tests, greek-reading-validation strict 80 docs/0 legacy) 100% 통과 (EXIT 0).
+
 

@@ -65,6 +65,7 @@
     "entity-eris",
     "entity-euchenor",
     "entity-eumaeus",
+    "entity-eumelos",
     "entity-eurycleia",
     "entity-eurypylos",
     "entity-glaukos",
@@ -113,7 +114,8 @@
     "seaford-1994-reciprocity-and-ritual",
     "van-wees-1992-status-warriors",
     "entity-alkinoos",
-    "entity-arete"
+    "entity-arete",
+    "word-oiktos"
   ],
   "templatePlaceholders": [
     "concept-관련개념",

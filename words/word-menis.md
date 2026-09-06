@@ -424,7 +424,8 @@ graph TD
 - [[concept-menis|메니스 (Menis)]] — 우주적 질서 파괴에 대응하는 신적 분노와 아킬레우스의 실존적 저항 (서사 및 신학 총람)
 - [[concept-time|티메 (Time)]] — 아킬레우스의 분노를 촉발시킨 영웅적 가치와 인정 체계
 - [[concept-themis|테미스 (Themis)]] — 메니스가 복원하고자 하는 신성한 선례이자 우주적 질서
-- [[concept-eleos|엘레오스와 오익토스 (Eleos & Oiktos)]] — 메니스의 파괴적 순환을 종결짓는 비극적 연민
+- [[concept-eleos|엘레오스 (Eleos)]] — 메니스의 파괴적 순환을 종결짓는 비극적 연민과 적극적 구호
+- [[concept-oiktos|오익토스 (Oiktos)]] — 타인의 처참한 굴욕 앞에서의 감정적 억제와 가해 자제
 - [[concept-ate|아테 (Ate)]] — 아가멤논을 미망에 빠뜨려 메니스를 촉발한 신적 눈멂
 - [[concept-geras|게라스 (Geras)]] — 아가멤논이 강탈하여 메니스의 도화선이 된 물질적 명예 선물
 - [[concept-cholos|콜로스 (Cholos)]] — 신체적이고 즉각적인 감정 분출로서 메니스와 대조되는 울분

@@ -453,7 +453,8 @@ flowchart TD
 - [[concept-aidos|아이도스 (Aidos)]] — 사회적 비난에 대한 두려움과 내면적 억제 및 타인에 대한 경외심
 - [[concept-nemesis|네메시스 (Nemesis)]] — 몫과 질서를 침범한 오만(휘브리스)에 발동하는 공적 의분과 신적 응징
 - [[concept-hikesia|히케시아 (Hikesia)]] — 신체 접촉 의례를 통한 신성한 탄원과 제우스 히케시오스의 약자 보호 규범
-- [[concept-eleos|엘레오스와 오익토스 (Eleos & Oiktos)]] — 타인의 불행에 대한 감정적 억제와 비경쟁적 지반에서 발동하는 적극적 연민
+- [[concept-eleos|엘레오스 (Eleos)]] — 비경쟁적 지반에서 발동하는 적극적 구호 추진력과 필멸자 연대
+- [[concept-oiktos|오익토스 (Oiktos)]] — 타인의 굴욕 목격 시 일어나는 감정적 억제와 가해 중단 및 존엄 복원
 - [[concept-geras|게라스 (Geras)]] — 공동체가 군주와 영웅에게 헌정하는 물질적 특권 몫이자 명예의 가시적 표지
 - [[concept-themis|테미스 (Themis)]] — 제우스가 군주에게 위탁한 신성한 선례이자 아고라의 공적 판례 및 공동체 질서
 - [[concept-dike|디케 (Dike)]] — 상이한 씨족 간 분쟁 시 재판관이 올곧은 선을 긋는 정형구적 사법이자 제우스의 도덕 정의

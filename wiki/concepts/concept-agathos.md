@@ -492,7 +492,8 @@ flowchart TD
 - [[concept-aidos|아이도스 (Aidos)]] — 전열 이탈과 과도한 폭력을 억제하는 수치심과 경외심의 제동기
 - [[concept-nemesis|네메시스 (Nemesis)]] — 마땅한 몫(Moira)을 침범하는 자에게 쏟아지는 신적·공적 의분
 - [[concept-xenia|크세니아 (Xenia)]] — 상시적 긴장을 완화하고 안전을 보장하는 이방인 환대 동맹
-- [[concept-eleos|엘레오스와 오익토스 (Eleos & Oiktos)]] — 필멸자의 유한성을 자각하고 긴장을 해제하는 연민과 억제
+- [[concept-eleos|엘레오스 (Eleos)]] — 필멸자의 유한성을 자각하고 긴장을 해제하는 적극적 연민
+- [[concept-oiktos|오익토스 (Oiktos)]] — 아가토스의 불운한 꼴찌 전락 시 승자의 조롱을 멈추고 체면을 지키는 감정적 억제
 - [[concept-themis|테미스 (Themis)]] — 신들이 군주에게 위탁한 신성한 관습법과 판례 질서
 - [[concept-dike|디케 (Dike)]] — 올곧은 경계선을 긋는 정형구적 사법이자 제우스의 정의
 

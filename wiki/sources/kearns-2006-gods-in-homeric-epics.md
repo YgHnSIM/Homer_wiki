@@ -187,5 +187,5 @@ graph TD
 - [[minchin-2019-homeric-religion|호메로스의 종교 (Minchin 2019)]]
 - [[concept-time|티메 (Time)]]
 - [[concept-ate|아테 (Ate)]]
-- [[concept-eleos|엘레오스와 오익토스 (Eleos & Oiktos)]]
+- [[concept-eleos|엘레오스 (Eleos)]]
 - [[concept-xenia|크세니아 (Xenia)]]
