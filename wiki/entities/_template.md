@@ -75,7 +75,8 @@ corpus: [iliad, odyssey] # [iliad] | [odyssey] | [iliad, odyssey]
 - **신과 인간의 후원 관계**: 특정 신의 비호/적대 및 신적 개입 양상.
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     %% 관계망 다이어그램 (혈연, 동맹, 적대 등)
     A["엔티티명"] --- B["부모/혈연"]
     A --- C["동맹/전우"]
