@@ -3033,3 +3033,10 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
 - **생성·업데이트한 파일**:
   - `wiki/concepts/concept-time.md`
   - `wiki/log.md`
+
+## [2026-09-07] fix | concept-time 서브그래프 간격 확대
+
+- **작업 내용**: `concept-time` Mermaid에서 제목 여백은 유지한 채 `nodeSpacing` 26→40, `rankSpacing` 34→56으로 서브그래프 간 간격을 넓힘.
+- **생성·업데이트한 파일**:
+  - `wiki/concepts/concept-time.md`
+  - `wiki/log.md`

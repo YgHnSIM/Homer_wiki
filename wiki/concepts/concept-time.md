@@ -162,7 +162,7 @@ embodying_entities: ["[[entity-agamemnon|아가멤논]]", "[[entity-achilles|아
 ## 4. 개념 상호작용과 가치망 (Conceptual Network & Polarity)
 
 ```mermaid
-%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 26, 'rankSpacing': 34, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
     subgraph Divine ["신적·제도적 전제"]
         direction LR
