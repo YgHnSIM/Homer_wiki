@@ -44,7 +44,8 @@ status: active
 ## 1. 어원 전파 계통도 (Etymological Transmission Tree)
 
 ```mermaid
-graph TD
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
+flowchart TD
     PIE["PIE 조어 어근: *kwey- / *kʷey-<br/>(주의 깊게 보다 / 헤아리다 / 값을 매기다)"] --> GRK_VERB["고대 희랍어 동사: τίω (tíō)<br/>(값을 매기다 / 존중하다)"]
     GRK_VERB --> GRK_NOUN["고대 희랍어 명사: τιμή (timḗ)<br/>(사회적 가치 / 전리품 / 신적 배당)"]
 
