@@ -45,6 +45,7 @@ status: active
 인도유럽조어(PIE) 조근 `*seɡʰ-`는 고대 그리스어에서 기본 동사 ἔχω(*ékhō*, 가지다/지탱하다) 및 영웅의 이름 Ἕκτωρ(*Héktōr*)를 낳았을 뿐만 아니라, 철학·학문·의학·제도 전반에 걸친 방대한 현대 영단어군과 게르만어군 동족어를 파생시켰습니다.
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
     PIE["인도유럽조어(PIE) 조근<br/>*seɡʰ- ('붙잡다, 극복하다, 지탱하다')"]
 
@@ -166,6 +167,7 @@ flowchart TD
 1660년대 왕정복고기(Restoration)에 이르러 런던의 방탕한 청년 폭력배들이 자신들을 고대 영웅에 빗대어 '**The Hectors‘**라 자칭하며 코번트 가든과 스트랜드 밤거리에서 행인을 습격하고 야경꾼을 폭행하는 난동을 일삼았습니다. 이들의 실제 행태는 만취 상태에서 약자를 위협하고 가짜 결투를 남발하는 비열한 횡포였기에, 시민들과 문인들은 'Hector'를 "영웅을 참칭하며 큰소리로 남을 위협하는 골목 불량배"로 조롱조로 부르기 시작했습니다. 이에 따라 단어의 의미는 **’최고의 영웅‘**(Valiant hero)에서 **’비열한 가해자‘**(Street bully)로 180도 전락(**’Pejoration**)하였습니다.
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
     A["고대 호메로스 서사시<br/>도성과 가족을 지키는 고결한 시민적 수호자 (BC 8C)"] --> B["고전 라틴어 & 중세 기사도<br/>9대 영웅(Nine Worthies) 중 이교도 수두 / 이상적 기사 표상"]
     B --> C["16세기 르네상스 영어<br/>'용맹한 호걸, 대담한 전사(Valiant hero)'로서의 찬사"]
