@@ -42,6 +42,7 @@ status: active
 ## 1. 어원 전파 및 어휘적 분기 계통도 (Etymological Transmission Tree)
 
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
     subgraph PIE_Stage ["인도유럽조어 층위 (PIE)"]
         direction TB
