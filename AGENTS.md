@@ -156,6 +156,8 @@ status: draft | active | review | archived
 - 내부에 `direction TB` 또는 `direction LR`를 명시한다.
 - 특정 Obsidian/Quartz 조합에서 제목 관통이 재현되면, 더미 배너 노드를 표준화하지 말고 **해당 환경의 예외와 최소 우회**를 `wiki/log.md`와 이 절에 기록한다.
 
+- **서브그래프 제목 관통(Obsidian)**: 네이티브 서브그래프 라벨이 테두리 선에 가리면, 더미 `:::banner`+인라인 `classDef` 대신 `subgraph S [" "]`와 구역 첫 노드에 `[구역명]` 형태의 **평문 헤더 노드**를 둔다(헤더와 본문은 `---`로만 연결). Mermaid `subGraphTitleMargin`도 init에 함께 둔다. 이 우회는 관통이 재현되는 렌더러에 한정한다.
+
 ##### 최소 예시 (구조만 — 색은 CSS)
 ```mermaid
 flowchart TD

@@ -168,33 +168,44 @@ embodying_entities: ["[[entity-agamemnon|아가멤논 (Agamemnon)]]", "[[entity-
 ### (1) 상호작용망 Mermaid 다이어그램
 
 ```mermaid
-%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 28, 'rankSpacing': 36}}}%%
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 28, 'rankSpacing': 40, 'subGraphTitleMargin': {'top': 12, 'bottom': 8}, 'padding': 16}}}%%
 flowchart TD
-    subgraph Divine ["초월 층위"]
+    subgraph Divine [" "]
         direction LR
+        Dh["[초월 층위]"]
         Zeus["제우스<br/>왕권·질서 보증"]
+        Dh --- Zeus
     end
 
-    subgraph Order ["명예 질서"]
+    subgraph Order [" "]
         direction LR
+        Oh["[명예 질서]"]
         Time["티메 (Timē)<br/>영구적 위계 존엄"]
         Geras["게라스 (Geras)<br/>가시적 특권 몫"]:::focus
         Council["전사 민회<br/>공적 선분배"]
+        Oh --- Time
         Time --- Geras
         Council -->|"선분배"| Geras
     end
 
-    subgraph Actors ["행위자"]
+    subgraph Actors [" "]
         direction LR
+        Ah["[행위자]"]
         King["아가멤논<br/>최고 군주 (Wanax)"]
         Hero["아킬레우스<br/>탁월한 영웅 (Aristos)"]
+        Ah --- King
+        Ah --- Hero
     end
 
-    subgraph Fall ["파국"]
+    subgraph Fall [" "]
         direction LR
+        Fh["[파국]"]
         Agerastos["아게라스토스<br/>군주 체면 손상"]:::crisis
         Atimia["아티미아<br/>영웅 명예 박탈"]:::crisis
         Menis["메니스<br/>파멸적 분노"]:::crisis
+        Fh --- Agerastos
+        Fh --- Atimia
+        Atimia ==>|"분노로 전이"| Menis
     end
 
     Zeus -->|"왕권 보증"| King
@@ -203,7 +214,6 @@ flowchart TD
     King -.->|"위력 탈취"| Geras
     King -.->|"몫 결손"| Agerastos
     Hero -.->|"몫 찬탈"| Atimia
-    Atimia ==>|"분노로 전이"| Menis
 ```
 
 ### (2) 게라스와 티메의 제도적 상호작용

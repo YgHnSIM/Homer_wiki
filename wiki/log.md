@@ -2963,3 +2963,11 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - `wiki/concepts/concept-geras.md` (제목 표기 소폭 조정)
   - `wiki/log.md`
   - (로컬만) `.quartz/quartz/styles/custom.scss`, `.obsidian/snippets/mermaid-scroll.css`
+
+## [2026-09-06] fix | concept-geras 서브그래프 제목 관통 우회
+
+- **작업 내용**: Obsidian에서 네이티브 서브그래프 제목 관통이 CSS 칩으로 해소되지 않아, 빈 서브그래프 라벨 + `[구역명]` 평문 헤더 노드 우회와 `subGraphTitleMargin` init을 `concept-geras`에 적용. AGENTS.md 서브그래프 절에 동일 예외를 명기.
+- **생성·업데이트한 파일**:
+  - `wiki/concepts/concept-geras.md`
+  - `AGENTS.md`
+  - `wiki/log.md`
