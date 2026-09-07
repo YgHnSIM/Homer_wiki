@@ -32,28 +32,46 @@ status: active
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    %% 고대 조어 및 희랍어 층위
-    PIE["PIE: *wekʷ- (말하다, 소리 내다)"] --> PGRK["조상 그리스어: *wékʷos / 고졸기 ϝέπος (wépos)"]
-    PGRK --> GRK["고대 희랍어: ἔπος (épos, 말·시구)"]
-    GRK --> FORM["호메로스 정형구: ἔπεα πτερόεντα (épea pteróenta)"]
-    GRK --> ADJ["형용사 파생: ἐπικός (epikós, 서사시의)"]
-    GRK --> COMP["합성어 파생: ἐποποιΐα (epopoiḯa, 서사시 제작)"]
-
-    %% 라틴어 및 로망스어 층위
-    ADJ --> LAT["고전/후기 라틴어: epicus"]
-    COMP --> LLAT["후기 라틴어: epopoeia"]
-    LAT --> OFR["고대/중세 프랑스어: épique"]
-    LLAT --> OFR2["중세 프랑스어: épopée"]
-
-    %% 영어 수용 층위
-    OFR --> MOD1["현대 영어: epic (서사시, 웅장한 / 1589)"]
-    OFR2 --> MOD2["현대 영어: epopee (대서사시 / 1697)"]
-    GRK -.->|"19세기 고전문헌학 직접 차용"| MOD3["현대 학술어: epos (구비 서사시 전통 / 1873)"]
-    FORM -.->|"서사시 번역 전통 직역"| MOD4["관용 표현: winged words (날개 돋친 말)"]
-
-    %% 라틴어 직계 동계어 분기 대조
-    PIE --> LAT_VOX["라틴어 동계어: vōx (목소리) / vocāre (부르다)"]
-    LAT_VOX --> MOD_VOX["영어 동계어군: voice, vocal, vocation, advocate"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        PIE["PIE *wekʷ-<br/>speak · voice"]:::substrate
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        PGRK["Proto-Greek *wékʷos<br/>ancestral form"]:::variant
+        GRK["ἔπος · épos<br/>word · song · epic"]:::focus
+        FORM["ἔπεα πτερόεντα<br/>winged words"]:::greek
+        ADJ["ἐπικός · epikós<br/>epic · of speech"]:::greek
+        COMP["ἐποποιία · epopoiía<br/>epic composition"]:::greek
+        PGRK --> GRK
+        GRK --> FORM
+        GRK --> ADJ
+        GRK --> COMP
+    end
+    subgraph Latin_Stage ["라틴·로망스 수용 층위"]
+        direction TB
+        LAT["epicus<br/>Classical Latin"]:::latin
+        LLAT["epopoeia<br/>Late Latin"]:::latin
+        OFR["épique · épopée<br/>Old/French reception"]:::latin
+        LAT --> OFR
+        LLAT --> OFR
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        MOD1["epic · 1589<br/>English genre term"]:::english
+        MOD2["epopée · 1697<br/>epic poem"]:::english
+        MOD3["epos · 1873<br/>oral epic tradition"]:::english
+        MOD4["winged words<br/>translation tradition"]:::note
+        VOX["Latin vox · vocare<br/>voice · vocal · vocation"]:::latin
+        MODVOX["voice · vocal · vocation<br/>advocate"]:::english
+        OFR --> MOD1
+        OFR --> MOD2
+        GRK -.-> MOD3
+        FORM -.-> MOD4
+        VOX --> MODVOX
+    end
+    PIE --> PGRK
+    PIE -.-> VOX
 ```
 
 ---
