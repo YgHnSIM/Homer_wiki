@@ -32,21 +32,38 @@ status: active
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    SUB["선희랍 기층어 (Pre-Greek Substrate)<br/>*agath- (유능함 / 힘 / 탁월함)"] --> GRK["고대 희랍어: ἀγαθός (agathos)<br/>전사 귀족의 탁월성 / 유능함"]
-    
-    GRK -->|최상급 분기| GRK_SUP["ἄριστος (aristos)<br/>최고의 자들 / 탁월한 자"]
-    GRK_SUP --> ENG_ARISTO["현대 영어: Aristocracy / Aristeia<br/>귀족정 / 영웅적 무용담"]
-    
-    GRK -->|고전기 합성| GRK_KALO["καλὸς κἀγαθός (kalos kagathos)<br/>아름답고 고결한 자"]
-    GRK_KALO -->|19세기 학술 차용| ENG_KALO["현대 영어: Kalokagathia (1860)<br/>심신과 도덕의 전인적 조화"]
-
-    GRK -->|여성 고유명사화| LAT_AGA["후기 라틴어: Agatha (3세기 성녀 전승)<br/>선하고 고귀한 여인"]
-    LAT_AGA --> OFR["고대/앵글로-노르만 불어: Agathe (12세기)"]
-    OFR --> ME_AGA["중세 영어: Agace / Agatha (13세기)"]
-    ME_AGA --> ENG_AGA["현대 영어: Agatha (인명 / 고유명사)"]
-
-    GRK -->|19세기 철학 조어| ENG_AGATHISM["현대 영어: Agathism (1817, Southey)<br/>우주의 궁극적 선 귀결론"]
-    ENG_AGATHISM --> DERIV["파생 학술 어휘군<br/>· Agathist / Agathic (신봉자/선적)<br/>· Agathology (최고선학)<br/>· Agathokakological (선악혼합)"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        SUB["Pre-Greek substrate<br/>*agath- · capable · excellent"]:::substrate
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        GRK["ἀγαθός · agathos<br/>good · excellent"]:::focus
+        ARISTOS["ἄριστος · aristos<br/>best · noblest"]:::greek
+        KALO["καλὸς κἀγαθός<br/>beautiful and good"]:::greek
+        GRK --> ARISTOS
+        GRK --> KALO
+    end
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
+        direction TB
+        LAT_AGA["Agatha<br/>Late Latin saint-name"]:::latin
+        OFR["Agathe<br/>Old French"]:::latin
+        ME["Agace · Agatha<br/>Middle English"]:::latin
+        LAT_AGA --> OFR --> ME
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        ARISTO["Aristocracy · Aristeia<br/>modern derivatives"]:::english
+        KALOK["Kalokagathia · 1860<br/>ethical harmony"]:::english
+        AGATHA["Agatha<br/>modern proper name"]:::english
+        AGATHISM["Agathism · 1817<br/>ultimate-good doctrine"]:::english
+        DERIV["Agathic · Agathology<br/>agathokakological"]:::note
+        ARISTOS --> ARISTO
+        KALO --> KALOK
+        ME --> AGATHA
+        GRK --> AGATHISM --> DERIV
+    end
+    SUB --> GRK
 ```
 
 ---
@@ -118,9 +135,14 @@ flowchart TD
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart LR
-    M1["(1) 아르카익 호메로스<br/>전사적 무용과 부, 결과적 성공<br/>(Functional Excellence)"] -->|철학적 내면화| M2["(2) 고전기 플라톤·아리스토텔레스<br/>영혼의 덕과 최고선<br/>(Moral & Metaphysical Good)"]
-    M2 -->|기독교 성인 전승| M3["(3) 중세 기독교<br/>순결과 신앙의 고결함<br/>(Saintly Virtue / Agatha)"]
-    M2 -->|19세기 낭만주의 조어| M4["(4) 근현대 철학<br/>궁극적 선재론 및 전인적 이상<br/>(Agathism / Kalokagathia)"]
+    M1["Archaic Homer<br/>excellence in action"]:::greek
+    M2["Classical Plato · Aristotle<br/>moral and metaphysical good"]:::greek
+    M3["Medieval Christianity<br/>saintly virtue · Agatha"]:::english
+    M4["Modern philosophy<br/>Agathism · Kalokagathia"]:::english
+    M1 -->|"philosophical elevation"| M2
+    M2 -->|"Christian reception"| M3
+    M2 -->|"19th-century coinage"| M4
+    M3 -.->|"virtue as holiness"| NOTE["Goodness becomes<br/>ethical and theological"]:::note
 ```
 
 ---
