@@ -44,66 +44,49 @@ status: active
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    subgraph PIE_Stage ["인도유럽조어 층위 (PIE)"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
         direction TB
-        PIE_ROOT["PIE: *deyk- / *deik-<br/>손가락으로 가리키다 / 말로써 보여주다"]
+        PIE_ROOT["PIE *deyk- / *deik-<br/>point out · show"]:::substrate
     end
-
-    subgraph Greek_Stage ["고대 그리스어 사법 및 철학 층위"]
+    subgraph Greek_Stage ["고대 희랍어 층위"]
         direction TB
-        GRK_DIKE["고대 희랍어 명사: δίκη (díkē)<br/>올곧은 경계선 및 사법적 판결"]:::focus
-        GRK_VERB["기저 동사: δείκνυμι (deíknūmi)<br/>가리켜 보이다 / 논증하다"]
-        ITHEIA["올곧은 판결: ἰθεῖα δίκη<br/>분쟁을 종식하는 직선의 사법"]:::resolve
-        SKOLIA["굽은 판결: σκολιαὶ δίκαι<br/>사리사욕에 의한 왜곡과 재앙"]:::crisis
-        GRK_SYNDIC["합성어: σύνδικος (súndikos)<br/>공동 사법 대리인 / 변호관"]
-        GRK_EURYDICE["인명: Εὐρυδίκη (Eurudíkē)<br/>넓은 정의를 지닌 여인"]
+        DIKE["δίκη · díkē<br/>justice · custom · judgment"]:::focus
+        DEIKNUMI["δείκνυμι · deíknūmi<br/>show · demonstrate"]:::greek
+        ITHEIA["ἰθεῖα δίκη<br/>straight justice"]:::resolve
+        SKOLIA["σκολιαὶ δίκαι<br/>crooked judgments"]:::crisis
+        SYNDIKOS["σύνδικος · sýndikos<br/>joint advocate"]:::greek
+        EURYDICE["Εὐρυδίκη · Eurydikē<br/>wide justice"]:::greek
+        DIKE --> ITHEIA
+        DIKE --> SKOLIA
+        DIKE --> SYNDIKOS
+        DIKE --> EURYDICE
     end
-
-    subgraph Preemption_Stage ["라틴어 동계어의 일상 사법어 선점"]
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
         direction TB
-        LAT_COGNATE["라틴어 동계어군: dīcere / iūdex<br/>엄숙히 선언하다 / 법을 선포하는 자"]
-        LAT_LEGAL["서구 일상 사법 어휘 독점 선점<br/>judge, jury, judicial, verdict"]
-        LAT_COGNATE --> LAT_LEGAL
+        COGNATE["dīcere · iūdex<br/>speak · judge"]:::latin
+        LEGAL["judge · jury · judicial<br/>verdict"]:::latin
+        SYNDIC["syndicus<br/>public representative"]:::latin
+        OFR["syndic<br/>Old French civic officer"]:::latin
+        COGNATE --> LEGAL
+        SYNDIC --> OFR
     end
-
-    subgraph Trans_Stage ["라틴·불어 경유 특수 학술 망명 층위"]
+    subgraph Modern_Stage ["근현대 수용 층위"]
         direction TB
-        LAT_SYNDIC["후기 라틴어: syndicus<br/>도시·공동체의 공적 대리인"]
-        OFR_SYNDIC["고대/중세 프랑스어: syndic<br/>조합 및 시 참사관 대리"]
-        FRA_THEO["근대 프랑스어: théodicée (1710)<br/>라이프니츠의 신적 정의 변증 신조어"]
+        ENG_SYNDIC["syndic · 1601<br/>official representative"]:::english
+        SYNDICATE["syndicate<br/>association · enterprise"]:::english
+        THEODICY["theodicy · 1797<br/>defense of divine justice"]:::resolve
+        APODICTIC["apodictic · 1653<br/>demonstrative certainty"]:::english
+        DEIXIS["deixis · 1934<br/>indexical pointing"]:::english
+        EURY["Eurydice<br/>modern literary name"]:::english
+        OFR --> ENG_SYNDIC --> SYNDICATE
+        SYNDIKOS -.-> THEODICY
+        DEIKNUMI --> APODICTIC
+        DEIKNUMI --> DEIXIS
+        EURYDICE --> EURY
     end
-
-    subgraph Modern_Stage ["현대 영어 전문 수용 및 학술 분과"]
-        direction TB
-        ENG_SYNDIC["초기 근대 영어: Syndic (1601)<br/>시 대표자 / 대학 사법관"]
-        ENG_SYNDICATE["근현대 영어: Syndicate (1624/1865)<br/>사무관 직무 / 기업·언론 연합체"]
-        ENG_THEODICY["현대 영어 학술어: Theodicy (1797)<br/>악의 문제와 신정론"]:::resolve
-        ENG_APODICTIC["철학 전문어: Apodictic (1653)<br/>칸트 인식론적 필연 판단"]
-        ENG_DEIXIS["언어학 전문어: Deixis (1934)<br/>카를 뷜러의 직시어 체계"]
-        ENG_EURYDICE["서양 예술사: Eurydice (1600)<br/>오페라 탄생의 서사적 모티프"]
-    end
-
-    %% 어원 전파 엣지 연결
-    PIE_ROOT --> GRK_DIKE
-    PIE_ROOT --> GRK_VERB
-    PIE_ROOT -.->|방계 분기| LAT_COGNATE
-
-    GRK_DIKE --> ITHEIA
-    GRK_DIKE --> SKOLIA
-    GRK_DIKE --> GRK_SYNDIC
-    GRK_DIKE --> GRK_EURYDICE
-
-    GRK_SYNDIC --> LAT_SYNDIC
-    LAT_SYNDIC --> OFR_SYNDIC
-    OFR_SYNDIC --> ENG_SYNDIC
-    ENG_SYNDIC --> ENG_SYNDICATE
-
-    GRK_DIKE -.->|θεός + δίκη 조어| FRA_THEO
-    FRA_THEO --> ENG_THEODICY
-
-    GRK_VERB -->|ἀποδεικτικός| ENG_APODICTIC
-    GRK_VERB -->|δεικτικός| ENG_DEIXIS
-    GRK_EURYDICE --> ENG_EURYDICE
+    PIE_ROOT --> DIKE
+    PIE_ROOT --> DEIKNUMI
+    PIE_ROOT -.-> COGNATE
 ```
 
 ---
