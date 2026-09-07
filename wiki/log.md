@@ -15,6 +15,10 @@ status: active
 
 ---
 
+## [2026-09-07] fix | Quartz — custom.scss에서 Gentium @import 제거
+
+- **원인**: Quartz가 `custom.scss`를 다른 CSS 뒤에 이어 붙여 `@import`가 최종 번들 중간에 위치 → 빌드 실패.
+- **조치**: `custom.scss`의 Gentium `@import` 제거. Mermaid `font-family`는 Gentium Plus 스택 유지(시스템/폴백 Noto Serif Greek). Obsidian은 `mermaid-scroll.css` 상단 `@import`로 로드.
 ## [2026-09-07] fix | Quartz 배포 실패 — Gentium @import 위치 수정
 
 - **원인**: custom.scss 중간(Mermaid 섹션)에 @import를 넣어 Quartz ComponentResources가 `@import rules must precede all rules` 로 실패.
