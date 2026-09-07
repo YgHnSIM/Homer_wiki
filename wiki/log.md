@@ -3176,3 +3176,6 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - `[[concept-eleos|오익토스]]` 링크 오류를 `[[concept-oiktos|오익토스]]`로 정정하고, 프론트매터 및 관련 항목에 오익토스·단어사전·1981년 논문 연결
   - 본문 인라인 볼드 괄호 분리(`**표제어** (원어)`) 전수 적용 및 비학술적 세미나 질문 섹션 삭제
 - **개념×문헌 매트릭스 동기화**: `wiki/analyses/analysis-concept-source-matrix.md` 최신 상태 동기화 완료
+
+## 2026-09-07
+- style(sources): `scott-1979-pity-and-pathos` 한국어 윤문 (im-ai-copyeditor) — 목록·콜아웃 58줄, 뜻·위키링크·인용 보존.
