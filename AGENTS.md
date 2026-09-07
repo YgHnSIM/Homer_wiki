@@ -143,7 +143,7 @@ status: draft | active | review | archived
 | **D. 제도·인물 관계망** | 위계·지휘·계보 | 수직 계층 트리 또는 분기 매트릭스. 과밀하면 서브그래프로 구역만 나누고 노드를 줄인다 | 왕실 계보, 아고라 사법, 지휘망 |
 
 - 가능하면 `graph`보다 `flowchart`를 쓴다.
-- 필요 시 블록 상단에 `%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 20, 'rankSpacing': 28}}}%%`로 간격만 조정한다. (색상 init/themeVariables로 시맨틱 색을 우회 주입하지 않는다.)
+- 블록 상단 init은 **검증된 Obsidian/Quartz 레시피**를 기본으로 쓴다: `%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%`. 간격만 미세 조정할 때는 이 값을 기준으로 하고, 색상 `themeVariables`로 시맨틱 색을 우회 주입하지 않는다. 서브그래프 제목 가림 완화에 `subGraphTitleMargin`·`padding`이 필요하다.
 
 ##### 노드·엣지 텍스트 (1-2-3 규칙)
 - **1행 (표제어)**: `한국어명 (원어/관용 전사)` 중심, 과한 수식 금지.
@@ -159,6 +159,7 @@ status: draft | active | review | archived
 
 ##### 최소 예시 (구조만 — 색은 CSS)
 ```mermaid
+%%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
     subgraph Divine ["초월적 층위"]
         direction TB

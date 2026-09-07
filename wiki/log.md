@@ -15,6 +15,11 @@ status: active
 
 ---
 
+## [2026-09-07] docs | AGENTS.md Mermaid init을 검증 레시피로 동기화
+
+- **작업 개요**: §2.4 init 예시의 `nodeSpacing` 20 / `rankSpacing` 28을 폐기하고, Obsidian에서 검증·전역 마이그레이션에 쓰인 레시피(`nodeSpacing` 40, `rankSpacing` 56, `padding` 18, `subGraphTitleMargin` top 18 / bottom 10)로 문서·최소 예시를 맞췄다.
+- **변경 파일**: `AGENTS.md`, `wiki/log.md`
+
 ## [2026-09-07] refactor | words·template Mermaid 신규격 일괄 적용
 
 - **작업 개요**: 단어 문서(`words/word-*.md`)와 `words`/`concepts`/`entities` `_template.md`의 Mermaid를 검증된 규격으로 맞췄다. `graph`→`flowchart`, 표준 `init`(nodeSpacing 40 / rankSpacing 56 / padding 18 / subGraphTitleMargin), 인라인 `classDef` 제거. 파일별 커밋 후 `main` 푸시.
