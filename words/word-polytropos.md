@@ -37,9 +37,28 @@ status: review
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    GRK["고대 그리스어 πολύτροπος<br/>polútropos<br/>πολυ- + τροπ-/τροπο-"] --> H1["호메로스 굴절형 πολύτροπον<br/>Od. 1.1"]
-    GRK --> H2["호메로스 표면형 πολύτροπος<br/>Od. 10.330"]
-    GRK -. "현대 학술 음역·제한적 차용" .-> ENG["현대 영어 polytropos / polutropos<br/>일반 표제어 지위 Pending"]
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        GRK["πολύτροπος<br/>polytropos · many-turned"]:::focus
+        H1["Odyssey 1.1<br/>polytropos epithet"]:::greek
+        H2["Odyssey 10.330<br/>polytropos in narrative"]:::greek
+        VAR["polutropos<br/>spelling variant"]:::variant
+        GRK --> H1
+        GRK --> H2
+        GRK -.-> VAR
+    end
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
+        direction TB
+        LAT["Latin / medieval record<br/>no secure bridge"]:::note
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        ENG["polytropos / polutropos<br/>English scholarly usage"]:::english
+        PENDING["Direct English etymology<br/>uncertain · pending"]:::note
+    end
+    GRK -.-> LAT
+    LAT -.-> ENG
+    ENG -.-> PENDING
 ```
 
 이 도식에서 실선은 고대 그리스어 표제형과 검증된 호메로스 굴절형의 관계를 나타낸다. 현대 영어 가지는 학술적 음역·사용 층위로 제한하며, `πολύτροπος`가 라틴어·프랑스어·중세 영어를 순차적으로 거친 상속어라는 뜻으로 읽어서는 안 된다. 독립 증거가 확보되지 않은 중간 언어 경로도 도식에는 넣지 않는다.
