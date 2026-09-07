@@ -4,7 +4,7 @@ aliases: [Odysseus, Ὀδυσσεύς, Odusseús, 오딧세우스, 라에르테�
 tags: [type/entity, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-25
 updated: 2026-09-07
-sources: [detienne-1974-cunning-intelligence.md, nagy-1979-best-of-achaeans.md, bittlestone-2005-odysseus-unbound.md, greek-ministry-2025-odysseion-ithaca.md, lee-junseok-2016-odyssey-humanity.md, lee-junseok-2024-iliad-jeongam.md, scott-1982-philos-philotes-xenia.md, finkelberg-1995-odysseus-and-genus-hero.md]
+sources: [detienne-1974-cunning-intelligence.md, nagy-1979-best-of-achaeans.md, bittlestone-2005-odysseus-unbound.md, greek-ministry-2025-odysseion-ithaca.md, lee-junseok-2016-odyssey-humanity.md, lee-junseok-2024-iliad-jeongam.md, scott-1982-philos-philotes-xenia.md, finkelberg-1995-odysseus-and-genus-hero.md, schein-1970-odysseus-and-polyphemus.md]
 status: active
 entity_type: person
 corpus: [iliad, odyssey]

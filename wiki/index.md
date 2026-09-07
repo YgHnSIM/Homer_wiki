@@ -61,6 +61,7 @@ status: active
 - [[cairns-2012-ate-in-homeric-poems|더글러스 케언스 (2012), 호메로스 서사시에서의 아테]] — 손해의 객관적 선행성과 인지언어학적 원형 이론을 통한 도즈의 투사론 비판 및 아테와 아타스탈리아의 부분 중첩 규명
 - [[vleminck-1982-institutional-aspect-of-time|세르주 블레맹크 (1982), 호메로스 티메의 제도적 측면]] — 어원학(*kwey-)과 5단계 환유를 통해 사물 평가에서 우주적 직분/제도로의 티메 진화를 규명한 연구
 - [[benveniste-1969-vocabulaire-institutions-2|에밀 벤베니스트 (1969), 인도유럽 제도 어휘집 2]] — 인도유럽 비교제도어휘학을 통해 왕권(wanax/krainein), 명예(geras/time), 사법(themis/dike), 종교(hieros/hosios)의 발생학적 구조를 규명한 기념비적 고전
+- [[schein-1970-odysseus-and-polyphemus|세스 쉐인 (1970), 오뒷세우스와 폴리페모스]] — 퀴클로페이아의 민담 이탈 5지점 분석을 통해 올리브 모티프·*metis*/*me tis* 말장난·크세니아 응보·재탄생 구조가 서사시 전체 주제와 정밀하게 통합됨을 입증
 
 ---
 

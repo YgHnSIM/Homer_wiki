@@ -15,6 +15,14 @@ status: active
 
 ---
 
+## [2026-09-07] feat | 소스 처리 — Schein (1970) 퀴클로페이아 논문
+
+- **대상**: `raw/Seth L. Schein, "Odysseus and Polyphemus in the Odyssey" (1970).pdf`
+- **생성**: `wiki/sources/schein-1970-odysseus-and-polyphemus.md`
+- **갱신**: `wiki/index.md` (소스 목록 추가), `wiki/entities/entity-odysseus.md` (sources 추가)
+- **핵심 내용**: Denys Page의 9권 민담 이식설 반박. 올리브나무 5중 모티프, *technē* vs 원시성 대비, 마론 포도주, *metis*/*me tis* 언어유희, 이중 외침과 재탄생 구조가 서사시 전체 주제와 정밀하게 통합됨을 입증.
+- **연계 문서**: entity-odysseus, concept-xenia, concept-ate, word-polytropos, analysis-polytropos
+
 ## [2026-09-07] fix | Quartz — custom.scss에서 Gentium @import 제거
 
 - **원인**: Quartz가 `custom.scss`를 다른 CSS 뒤에 이어 붙여 `@import`가 최종 번들 중간에 위치 → 빌드 실패.
