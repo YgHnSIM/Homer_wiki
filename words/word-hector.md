@@ -47,15 +47,40 @@ status: active
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    PIE["인도유럽조어(PIE) 조근<br/>*seɡʰ- ('붙잡다, 극복하다, 지탱하다')"]
-
-    PIE --> SKT["산스크리트어<br/>sáhas- ('힘, 승리') / sáhate ('극복하다')"]
-    PIE --> GER["원시 게르만어 *segaz<br/>-> 독일어 Sieg ('승리') / Siegfried"]
-    PIE --> GRK["고대 그리스어<br/>ἔχω (ékhō, '가지다, 지탱하다')"]
-
-    GRK --> B1["(1) 능동적 장악·수호<br/>Ἕκτωρ (Héktōr, '지탱하는 자') -> to hector ('위협하다')<br/>εὐνοῦχος (eunuch, '침상을 지키는 자')"]
-    GRK --> B2["(2) 재귀적 억제·정지<br/>σχολή (school, '노동 중단/여가') · ἐποχή (epoch, '정지') · ἐκεχειρία (휴전)"]
-    GRK --> B3["(3) 정태적 체질·형태<br/>σχῆμα (schema, '도식, 외형') · ἕξις/ἑκτικός (hectic, '소모성의')"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        PIE["PIE *seǵʰ-<br/>hold · overcome · prevail"]:::substrate
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        GRK["ἔχω · ekhō<br/>hold · possess"]:::greek
+        HECTOR["Ἕκτωρ · Héktōr<br/>the holder"]:::focus
+        SCHOOL["σχολή · scholē<br/>pause · study"]:::greek
+        EPOCH["ἐποχή · epochē<br/>holding back · epoch"]:::greek
+        EKECHEIRIA["ἐκεχειρία · ekecheiria<br/>truce · hands at rest"]:::greek
+        SCHEMA["σχῆμα · schema<br/>form · bearing"]:::greek
+        HECTIC["ἕξις · hexis<br/>state · disposition"]:::greek
+        GRK --> HECTOR
+        GRK --> SCHOOL
+        GRK --> EPOCH
+        GRK --> EKECHEIRIA
+        GRK --> SCHEMA
+        GRK --> HECTIC
+    end
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
+        direction TB
+        LAT["Latin / Germanic branches<br/>Sieg · Siegfried"]:::latin
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        VERB["to hector<br/>intimidate · bully"]:::english
+        DERIV["hectoring<br/>domineering speech"]:::english
+        SANS["Sanskrit sahas- · sáhate<br/>strength · overcome"]:::note
+        PIE --> SANS
+        HECTOR --> VERB --> DERIV
+    end
+    PIE --> GRK
+    PIE -.-> LAT
 ```
 
 ---
@@ -169,11 +194,24 @@ flowchart TD
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    A["고대 호메로스 서사시<br/>도성과 가족을 지키는 고결한 시민적 수호자 (BC 8C)"] --> B["고전 라틴어 & 중세 기사도<br/>9대 영웅(Nine Worthies) 중 이교도 수두 / 이상적 기사 표상"]
-    B --> C["16세기 르네상스 영어<br/>'용맹한 호걸, 대담한 전사(Valiant hero)'로서의 찬사"]
-    C --> D["17세기 초반 연극 은어<br/>과장된 무용을 뽐내는 '허풍쟁이 무부(swaggering blade)'"]
-    D --> E["17세기 왕정복고기 런던 (1660~1680년대)<br/>귀족 불량배 갱단 'The Hectors'의 밤거리 폭력 및 약자 위협"]
-    E --> F["18세기 이후~현대 영어<br/>동사 to hector ('약자를 윽박지르고 위협하다')<br/>형용사 hectoring ('위압적인, 거만하게 훈계하는')"]
+    subgraph Greek_Stage ["고대 희랍어·호메로스 층위"]
+        direction TB
+        A["Hector in Homer<br/>guardian · noble champion"]:::focus
+    end
+    subgraph Latin_Stage ["라틴·중세 기사도 수용"]
+        direction TB
+        B["Latin and medieval romance<br/>Nine Worthies · chivalric ideal"]:::latin
+        C["Renaissance<br/>valiant hero"]:::latin
+        B --> C
+    end
+    subgraph Modern_Stage ["근현대 영어 수용"]
+        direction TB
+        D["Early modern drama<br/>swaggering blade"]:::english
+        E["Restoration London<br/>The Hectors · street gang"]:::english
+        F["Modern English<br/>to hector · hectoring"]:::english
+        D --> E --> F
+    end
+    A --> B
 ```
 
 ---
