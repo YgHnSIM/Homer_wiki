@@ -1,3 +1,5 @@
+/* Gentium Plus for Mermaid polytonic Greek — must be first (@import before other rules). */
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400&display=swap");
 // Homer Wiki public garden overrides
 // Tokens: DESIGN.md. Palette stays in quartz.config.yaml.
 // Do not @import fonts here: Quartz concatenates this file after other CSS,
@@ -341,9 +343,7 @@ a.tag,
   padding: 0.5rem 0;
 }
 
-
-/* Mermaid-only: Gentium Plus for polytonic Greek (Hangul → Noto Serif KR). */
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400&display=swap");
+/* Mermaid font stack: Gentium Plus (polytonic Greek); Hangul → Noto Serif KR */
 .mermaid {
   max-width: 100%;
   overflow-x: auto;
@@ -568,7 +568,8 @@ html[saved-theme="dark"] {
 
 // Re-map generated shapes and labels to Quartz's dark tokens while keeping
 // semantic Greek/Latin/English accents subdued.
-html[saved-theme="dark"] .mermaid {
+html[saved-theme="dark"] /* Mermaid font stack: Gentium Plus (polytonic Greek); Hangul → Noto Serif KR */
+.mermaid {
   .node rect,
   .node circle,
   .node ellipse,
@@ -904,7 +905,8 @@ body[data-slug="wiki/analyses/analysis-concept-source-matrix"] {
   }
 
   body[data-slug="wiki/entities/entity-agamemnon"]
-    pre:has(> code.mermaid[data-clipboard*="AgaNostos"]) > code.mermaid {
+    pre:has(> code.mermaid[data-clipboard*="AgaNostos"]) > code/* Mermaid font stack: Gentium Plus (polytonic Greek); Hangul → Noto Serif KR */
+.mermaid {
     width: 760px !important;
     max-width: none !important;
     justify-content: flex-start !important;

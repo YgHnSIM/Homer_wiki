@@ -15,6 +15,10 @@ status: active
 
 ---
 
+## [2026-09-07] fix | Quartz 배포 실패 — Gentium @import 위치 수정
+
+- **원인**: custom.scss 중간(Mermaid 섹션)에 @import를 넣어 Quartz ComponentResources가 `@import rules must precede all rules` 로 실패.
+- **조치**: Gentium Plus @import를 custom.scss 파일 최상단으로 이동. Obsidian mermaid-scroll.css도 스니펫 상단으로 정리.
 ## [2026-09-07] style | Mermaid 글꼴을 Gentium Plus로 변경
 
 - **작업 개요**: Mermaid 전용 글꼴을 D2Coding에서 다성 그리스어·고전 문자에 적합한 **Gentium Plus**로 교체. 폴백: New Athena Unicode → Noto Serif → Noto Serif Greek → Noto Serif KR.
