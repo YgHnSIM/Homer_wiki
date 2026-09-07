@@ -60,23 +60,46 @@ status: review
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    NAME["Ὀδυσσεύς<br/>Odusseús"]:::greek --> TITLE["Ὀδύσσεια<br/>Odússeia"]:::greek
-    P["ὀδυσσάμενος<br/>odussámenos"]:::note
-    VAR["Ὀλυσσεύς · Ὀλισεύς · Οὐλιξεύς<br/>Olusseús · Oliseús · Oulikseús"]:::variant
-    NAME -. "본문 이름 풀이" .-> P
-    NAME -. "변이형" .-> VAR
-    TITLE --> LAT["Latin Odyssea<br/>라틴어 제목 수용"]:::latin
-    LAT --> MOD["English Odyssey<br/>작품 제목"]:::english
-    MOD --> COMMON["lowercase odyssey<br/>긴 사건 많은 여정·탐구"]:::english
-    LAT -. "평행한 로망스어 수용" .-> FR["French Odyssée<br/>별도 수용층"]:::latin
-    NAME -. "별도의 라틴 인명 경로" .-> ULI["Ulixēs / Ulyssēs<br/>English Ulysses"]:::latin
-    ULI --> UADJ["Ulyssean<br/>Ulysses 관련 형용사"]:::english
-    NAME --> ADJ["Odyssean<br/>오디세우스·그의 여정 관련"]:::english
-    MOD --> PL["odysseys"]:::english
-    MOD --> SPACE["space odyssey<br/>일반 명사구"]:::english
-    MOD --> FILM["2001: A Space Odyssey<br/>고유한 영화 제목"]:::english
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        NAME["Ὀδυσσεύς<br/>Odusseús"]:::greek
+        TITLE["Ὀδύσσεια<br/>Odússeia"]:::greek
+        P["ὀδυσσάμενος<br/>이름 풀이 분사"]:::note
+        VAR["Ὀλυσσεύς · Οὐλιξεύς<br/>방언·표기 변이"]:::variant
+        NAME --> TITLE
+        NAME -.->|본문 이름 풀이| P
+        NAME -.->|변이형| VAR
+    end
 
+    subgraph Latin_Stage ["라틴어 수용 층위"]
+        direction TB
+        LAT["Odyssea<br/>라틴어 제목"]:::latin
+        ULI["Ulixēs / Ulyssēs<br/>라틴 인명 경로"]:::latin
+        FR["Odyssée<br/>불어 수용"]:::latin
+        TITLE --> LAT
+        NAME -.->|인명 경로| ULI
+        LAT -.->|로망스 수용| FR
+    end
+
+    subgraph Modern_Stage ["근현대 영어·문화 수용"]
+        direction TB
+        MOD["Odyssey<br/>작품 제목"]:::english
+        COMMON["odyssey<br/>긴 여정·탐구"]:::english
+        ADJ["Odyssean<br/>오디세우스 관련"]:::english
+        UADJ["Ulyssean<br/>Ulysses 관련"]:::english
+        PL["odysseys"]:::english
+        SPACE["space odyssey<br/>일반 명사구"]:::english
+        FILM["2001: A Space Odyssey<br/>영화 고유 제목"]:::english
+        LAT --> MOD
+        MOD --> COMMON
+        MOD --> PL
+        MOD --> SPACE
+        MOD --> FILM
+        NAME --> ADJ
+        ULI --> UADJ
+    end
 ```
+
 
 이 도식에서 실선은 이름에서 제목을 거쳐 영어 표제어로 이어지는 확인 가능한 어휘 관계를, 점선은 평행 수용 또는 별도의 인명 경로를 나타낸다. 영어 *odyssey*와 *Ulysses*는 서로 다른 가지다. 전자는 서사시 제목의 보통명사화이고, 후자는 오디세우스 이름의 라틴계 변형이다. 프랑스어 *Odyssée*가 영어의 필수 중간 단계였다고 이 도식은 주장하지 않는다.
 
