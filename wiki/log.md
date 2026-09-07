@@ -15,6 +15,11 @@ status: active
 
 ---
 
+## [2026-09-07] style | Mermaid 글꼴을 Gentium Plus로 변경
+
+- **작업 개요**: Mermaid 전용 글꼴을 D2Coding에서 다성 그리스어·고전 문자에 적합한 **Gentium Plus**로 교체. 폴백: New Athena Unicode → Noto Serif → Noto Serif Greek → Noto Serif KR.
+- **변경 파일**: `custom.scss`, `.obsidian/snippets/mermaid-scroll.css`, `DESIGN.md`, `wiki/log.md`
+- **확인**: Obsidian에서 `mermaid-scroll` 스니펫 활성 후 그리스 악센트·한글 병기 확인.
 ## [2026-09-07] refactor | words Mermaid 유형 C(어원 3티어) 일괄 적용
 
 - **작업 개요**: `words/word-*.md`와 `words/_template.md` Mermaid를 AGENTS §2.4 유형 C에 맞게 재구성. PIE/기층·희랍·라틴·근현대 서브그래프, `:::substrate`/`:::greek`/`:::latin`/`:::english`/`:::variant`/`:::note`, 2행 라벨, 검증 init 유지. 파일별 커밋·`main` 푸시.

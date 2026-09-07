@@ -186,5 +186,5 @@ Strategy: **borders-only**, warm.
 | Explorer folder slugs (`entities`, `concepts`) | Left rail | Renaming folders breaks vault paths | Optional folder `index.md` titles later |
 | English "min read" | content-meta | Plugin i18n still emits English next to Korean dates | Hide via CSS if a stable selector exists after build |
 | Search ranking | Search modal | Quartz BM25; entity pages cannot be boosted without a custom mapFn | Content titles + unpublishing log reduce noise |
-| Mermaid node type | `.mermaid` | Noto Serif KR has no Greek metrics, so diagrams use the loaded Noto Serif fallback | Keep Noto Serif (non-KR) in quartz-fonts without a Sass `@import` |
+| Mermaid node type | `.mermaid` | polytonic Greek uses Gentium Plus; Hangul falls through to Noto Serif KR | Keep Noto Serif (non-KR) in quartz-fonts without a Sass `@import` |
 | `note-properties` stays enabled | quartz.config.yaml | Disabling it dumps YAML into the article. Hide the panel with `hidePropertiesView` | Do not set `enabled: false` |

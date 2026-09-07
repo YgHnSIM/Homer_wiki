@@ -342,23 +342,8 @@ a.tag,
 }
 
 
-/* Mermaid-only: Naver D2Coding (not via @import — Quartz concatenates custom.scss). */
-@font-face {
-  font-family: "D2Coding";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff") format("woff");
-}
-
-@font-face {
-  font-family: "D2Coding";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2CodingBold.woff") format("woff");
-}
-
+/* Mermaid-only: Gentium Plus for polytonic Greek (Hangul → Noto Serif KR). */
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400&display=swap");
 .mermaid {
   max-width: 100%;
   overflow-x: auto;
@@ -368,13 +353,13 @@ a.tag,
   text-align: center;
   margin: 1.5rem 0;
   padding: 0.5rem 0;
-  font-family: "D2Coding", "D2Coding ligature", "IBM Plex Mono", "Noto Serif", "Noto Serif KR", ui-monospace, monospace;
+  font-family: "Gentium Plus", "New Athena Unicode", "Noto Serif", "Noto Serif Greek", "Noto Serif KR", serif;
 
   text,
   .nodeLabel,
   foreignObject,
   span {
-    font-family: "D2Coding", "D2Coding ligature", "IBM Plex Mono", "Noto Serif", "Noto Serif KR", ui-monospace, monospace !important;
+    font-family: "Gentium Plus", "New Athena Unicode", "Noto Serif", "Noto Serif Greek", "Noto Serif KR", serif !important;
     letter-spacing: 0 !important;
   }
 
