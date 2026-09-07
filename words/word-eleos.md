@@ -32,33 +32,41 @@ status: active
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    %% 1. 기원 및 그리스어 층위
-    SUB["선희랍 기층어 / 의성어 기원<br/>(Pre-Greek Substrate / Onomatopoeic)"] --> GRK["고대 그리스어: ἔλεος<br/>(éleos, 신체적 비애감·연민)"]:::focus
-    GRK --> VERB["동사 파생: ἐлеέω / ἐлеαίρω<br/>(eleéō / eleaírō, 불쌍히 여기다)"]
-    GRK --> ADJ["형용사: ἐлеήμων<br/>(eleēmōn, 자비로운)"]
-    ADJ --> LXX["칠십인역 / 신약 코이네: ἐлеημοσύνη<br/>(eleēmosýnē, 히브리어 ṣədāqāh 수용·자선 제도화)"]
-
-    %% 2. 라틴어 수용 및 분기 층위
-    LXX --> VLATA["초기 기독교 / 고대 라틴어 (2~3세기): eleēmosyna<br/>(Vetus Latina 정착 -> 4세기말 불가타 공인)"]
-    VLATA --> VLATB["민중 라틴어 축약형: *alemosyna / *alimosina<br/>(모음 이화 e->a 및 중간음절 탈락 syncope)"]
-    VLATA --> MLAT["후기·중세 라틴어 관직형: eleēmosynārius<br/>(자선 배분 담당관)"]
-
-    %% 3. 4대 전파 분기 경로
-    %% 경로 1: 게르만 고층 구어 차용 (Alms)
-    VLATB -->|"6세기말 기독교화 구어 차용"| OE["고대 영어: ælmesse (c. 890 알프레드 사목교본)"]
-    OE -->|"12~14세기 어미 모음 약화"| ME1["중세 영어: almes / almesse (2음절)"]
-    ME1 -->|"16~17세기 [l] 묵음화 및 장음화"| MOD1["현대 영어: alms (구제금 / [ɑːmz])<br/>(가치 하락: 종교적 구원 -> 의존·수치심)"]
-
-    %% 경로 2: 앵글로-노르만 불어 경유 관직어 (Almoner)
-    MLAT -->|"자음 앞 [l]의 모음화"| OFR["고대 프랑스어: almosnier -> aumônier"]
-    OFR -->|"1066 노르만 정복 후 유입"| ME2["중세 영어: aumener / aumoner (c. 1300)"]
-    ME2 -->|"16세기 라틴어 의식 l 철자 복원"| MOD2["현대 영어: almoner / almonry (c. 1300/1325)<br/>(영국 왕실·수도원 자선 배분관)"]
-
-    %% 경로 3: 르네상스 17세기 직접 학술 차용 (Eleemosynary)
-    MLAT -.->|"1612년 인문주의 학술 직수입"| MOD3["현대 영어: eleemosynary (자선의, 구제의)<br/>(법학 전문화: 1819 Dartmouth College 판례)"]
-
-    %% 경로 4: 전례 그리스어 직수입 (Kyrie eleison)
-    VERB -.->|"전례 호격 명령구 고정 수입 (c. 1380)"| MOD4["전례 외래어: Kyrie eleison (키리에 엘레이손)<br/>(일리아스 24.503 프리아모스 탄원 어형 직결)"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        SUB["Pre-Greek substrate<br/>onomatopoeic origin · uncertain"]:::substrate
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        GRK["ἔλεος · éleos<br/>pity · compassion"]:::focus
+        VERB["ἐλεέω · ἐλεαίρω<br/>to pity"]:::greek
+        ADJ["ἐλεήμων · eleēmōn<br/>merciful"]:::greek
+        LXX["ἐλεημοσύνη<br/>almsgiving · mercy"]:::greek
+        GRK --> VERB --> ADJ --> LXX
+    end
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
+        direction TB
+        VLATA["eleēmosyna<br/>Early Christian Latin"]:::latin
+        VLATB["*alemosyna · *alimosina<br/>popular Latin contraction"]:::latin
+        MLAT["eleēmosynārius<br/>official alms distributor"]:::latin
+        OFR["almosnier → aumônier<br/>Old French"]:::latin
+        VLATA --> VLATB
+        VLATA --> MLAT --> OFR
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        OE["Old English ælmesse<br/>c. 890"]:::english
+        ALMS["alms<br/>charity · 16th–17th c."]:::english
+        ALMONER["almoner · almonry<br/>charity official"]:::english
+        ELEEM["eleemosynary<br/>learned borrowing · 1612"]:::english
+        KYRIE["Kyrie eleison<br/>liturgical survival"]:::note
+        VLATB --> OE --> ALMS
+        OFR --> ALMONER
+        ADJ -.-> ELEEM
+        VERB -.-> KYRIE
+    end
+    SUB --> GRK
+    LXX --> VLATA
 ```
 
 ---
