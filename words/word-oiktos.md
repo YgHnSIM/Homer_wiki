@@ -32,34 +32,37 @@ status: active
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    subgraph Origin ["(1) 표현론적 기원 및 고대 그리스어 층위"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
         direction TB
-        S1["비탄 탄식 구호<br/>*oímoi (아아, 슬프도다!)"] --> S2["원시 표현 어간<br/>*oik- (연구개 확장음 *-k-)"]
-        S2 --> GRK["고대 그리스어: οἶκτος / οἰκτείρω<br/>감정적 위축 및 가해 자제"]:::focus
-        GRK --> SUP["최상급 형용사: οἴκτιστον<br/>극단의 신체적 수치 상태"]
-        GRK --> KOI["헬레니즘 코이네: οἰκτιρμός<br/>LXX 히브리어 raḥamîm 번역"]
+        OIMOI["lament formula<br/>*oímoi · alas"]:::substrate
+        OIK["Pre-Greek *oik-<br/>emotion · enlargement"]:::substrate
+        OIMOI --> OIK
     end
-
-    subgraph Blockade ["(2) 라틴어 어휘적 선점 및 음차 차단"]
+    subgraph Greek_Stage ["고대 희랍어 층위"]
         direction TB
-        LAT_PRE["라틴어 고유 심리어망<br/>misericordia / commiseratio"]
-        VULG["불가타 성경 번역 흡수<br/>viscera misericordiae"]
-        LAT_PRE --> VULG
+        OIKTOS["οἶκτος · oiktos<br/>pity · compassion"]:::focus
+        OIKTEIRŌ["οἰκτείρω · oikteirō<br/>to pity"]:::greek
+        OIKTISTOS["οἴκτιστος<br/>most pitiable"]:::greek
+        ELEOS["οἰκτιρμός · oiktirmos<br/>Hellenistic mercy"]:::greek
+        OIKTOS --> OIKTEIRŌ
+        OIKTOS --> OIKTISTOS
+        OIKTOS --> ELEOS
     end
-
-    subgraph Rupture ["(3) 서구 일상어 어휘적 공백"]
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
         direction TB
-        GAP["서구 대중 일상어 음차 단절<br/>Lexical Gap (pity/mercy의 한계)"]:::crisis
+        LATPRE["misericordia · commiseratio<br/>established Latin vocabulary"]:::latin
+        VULG["viscera misericordiae<br/>Vulgate translation"]:::latin
+        LATPRE --> VULG
     end
-
-    subgraph Modern ["(4) 20세기 고전문헌학 학술 전문어 직수입"]
+    subgraph Modern_Stage ["근현대 수용 층위"]
         direction TB
-        SCHOLAR["학술 전문 외래어 직수입<br/>oiktos / oikteiro (Mary Scott 1979)"]:::resolve
+        GAP["Lexical gap<br/>pity · mercy vocabulary"]:::crisis
+        SCHOLAR["oiktos · oikteirō<br/>Mary Scott · 1979"]:::resolve
+        VULG ==>|"dominant translation"| GAP
+        OIKTOS -.->|"conceptual recovery"| SCHOLAR
     end
-
-    KOI -.->|"음차 차용 거부"| LAT_PRE
-    VULG ==>|"일상어 유입 봉쇄"| GAP
-    GRK -.->|"20세기 개념 복원"| SCHOLAR
+    OIK --> OIKTOS
+    ELEOS -.-> LATPRE
 ```
 
 ---
