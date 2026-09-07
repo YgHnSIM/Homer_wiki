@@ -32,25 +32,37 @@ status: active
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    %% 기원 및 고대 희랍어
-    SUB["선희랍 기층어 / PIE 가설<br/>*h₂ueh₁- 또는 Pre-Greek substrate<br/>(지적 분별력 상실 / 타격)"] --> GRK_V["고대 희랍어 동사: ἀάω (aáō)<br/>눈멀게 하다 / 실족시키다 / 미혹하다"]
-    GRK_V --> GRK_N["고대 희랍어 명사: ἄτη (átē) / 서사시 ἀάτη (aátē)<br/>정신적 눈멂 / 미망 / 재앙의 신격화"]
-
-    %% 고전기 및 헬레니즘 비극 분기
-    GRK_N --> GRK_TRAG["아티카 비극: Ἄτη (비극적 인과율)<br/>Hubris(오만) -> Ate(미망) -> Nemesis(응징)"]
-    GRK_TRAG --> LAT["고전문헌 라틴어 및 세네카 비극: Ate<br/>재앙과 파멸의 여신 (복수의 여신들과 도상학적 융합)"]
-
-    %% 근대 영어 수용
-    LAT --> EME["초기 근대 영어: Ate (16세기 말 르네상스 고전 부흥)"]
-    
-    %% 문학 및 근현대 분기
-    EME --> SHAK["셰익스피어 문학 (1590년대)<br/>『줄리어스 시저』: 명계에서 올라온 복수와 내전의 여신"]
-    EME --> LIT_SPEN["에드먼드 스펜서 『요정여왕』 (1596)<br/>불화와 분열을 조장하는 마녀 Ate"]
-    
-    %% 현대 학술 및 천문학 차용
-    LAT -.->|1870년 천문학 명명| AST["천문학: Asteroid 111 Ate (소행성 111 아테)"]
-    GRK_TRAG -.->|20세기 고전학/심리학| PSYCH["심리학·고전학 (E. R. Dodds 1951)<br/>외재화된 비이성적 미망 개념 분석"]
-    EME --> DERIV["현대 파생 어휘: Atic / Atetic / Ate-ridden"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        SUB["Pre-Greek substrate<br/>uncertain root · *h₂weh₂"]:::substrate
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        GRK_V["ἀάω · aáō<br/>mislead · ruin"]:::greek
+        GRK_N["ἄτη · até<br/>delusion · ruin"]:::focus
+        GRK_TRAG["Tragedy pattern<br/>hubris → Até → Nemesis"]:::crisis
+        GRK_V --> GRK_N --> GRK_TRAG
+    end
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
+        direction TB
+        LAT["Latin Ate<br/>personified ruin"]:::latin
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        EME["Early Modern English<br/>Ate · Renaissance"]:::english
+        SHAK["Shakespeare<br/>Ate as revenge-spirit"]:::english
+        SPEN["Spenser · 1596<br/>Ate as discord"]:::english
+        AST["Asteroid 111 Ate<br/>astronomical naming"]:::note
+        PSYCH["Dodds · 1951<br/>irrational delusion"]:::note
+        DERIV["Atic · Atetic<br/>Ate-ridden"]:::english
+        EME --> SHAK
+        EME --> SPEN
+        EME --> DERIV
+    end
+    SUB --> GRK_V
+    GRK_TRAG --> LAT --> EME
+    LAT -.-> AST
+    GRK_TRAG -.-> PSYCH
 ```
 
 ---
