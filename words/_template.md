@@ -34,17 +34,33 @@ status: draft # draft | active | review | archived
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    %% 기본 어원 전파 경로
-    PIE["PIE: *root (의미) / 또는 선희랍 기층어"] --> GRK["고대 희랍어: 원어"]
-    GRK --> LAT["고전/후기 라틴어: 차용어"]
-    LAT --> OFR["고대/중세 프랑스어: 변형어"]
-    OFR --> ME["중세 영어: 차용어 (시대)"]
-    ME --> MOD["현대 영어: 표제어"]
-
-    %% 현대 파생어 및 학술 차용 분기
-    MOD --> DERIV1["파생어 1"]
-    MOD --> DERIV2["파생어 2 / 숙어"]
-    GRK -.->|직접 학술 차용| MOD2["현대 학술 파생어"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        PIE["PIE *root<br/>reconstructed substrate"]:::substrate
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        GRK["Greek form<br/>lemma · core sense"]:::focus
+        GRKDER["Greek derivative<br/>semantic branch"]:::greek
+        GRK --> GRKDER
+    end
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
+        direction TB
+        LAT["Latin borrowing<br/>learned transmission"]:::latin
+        OFR["Romance form<br/>medieval adaptation"]:::latin
+        LAT --> OFR
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        MOD["Modern English<br/>attested form"]:::english
+        DERIV1["Modern derivative 1<br/>short role label"]:::english
+        DERIV2["Modern derivative 2<br/>short role label"]:::english
+        MOD --> DERIV1
+        MOD --> DERIV2
+    end
+    PIE --> GRK
+    GRK -.-> LAT
+    OFR --> MOD
 ```
 
 ---
