@@ -46,32 +46,54 @@ status: active
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    PIE["PIE 조어 어근: *kwey- / *kʷey-<br/>(주의 깊게 보다 / 헤아리다 / 값을 매기다)"] --> GRK_VERB["고대 희랍어 동사: τίω (tíō)<br/>(값을 매기다 / 존중하다)"]
-    GRK_VERB --> GRK_NOUN["고대 희랍어 명사: τιμή (timḗ)<br/>(사회적 가치 / 전리품 / 신적 배당)"]
+    subgraph PIE_Stage ["인도유럽조어 층위 (PIE)"]
+        direction TB
+        PIE["*kwey- / *kʷey-<br/>헤아리다·값을 매기다"]:::substrate
+    end
 
-    %% 정치철학 및 학술어 분기
-    GRK_NOUN --> GRK_POL["고전기 합성어: τιμοκρατία (timokratía)<br/>(플라톤: 명예정치 / 아리스토텔레스: 재산평가정치)"]
-    GRK_POL --> LAT_POL["후기 라틴어: timocratia"]
-    LAT_POL --> FRA_POL["중세/근대 프랑스어: timocratie (14세기 Oresme)"]
-    FRA_POL --> ENG_POL["초기 근대 영어: Timocracy (1586, Le Roy 번역)"]
-    ENG_POL --> DERIV_POL1["Timocratic / Timocratical (adj. 금권정치의)"]
-    ENG_POL --> DERIV_POL2["Timocrat (n. 금권정치 지지자)"]
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        GRK_VERB["τίω (tíō)<br/>값을 매기다·존중하다"]:::greek
+        GRK_NOUN["τιμή (timḗ)<br/>사회적 가치·전리품"]:::greek
+        GRK_POL["τιμοκρατία (timokratía)<br/>명예·재산 평가 정치"]:::greek
+        GRK_TIMO["Τιμόθεος (Timótheos)<br/>신을 공경하는 자"]:::greek
+        GRK_TIMON["Τίμων (Tímōn)<br/>존중받는 자"]:::greek
+        PIE --> GRK_VERB --> GRK_NOUN
+        GRK_NOUN --> GRK_POL
+        GRK_NOUN --> GRK_TIMO
+        GRK_NOUN --> GRK_TIMON
+    end
 
-    %% 가치론 학술 조어 분기
-    GRK_NOUN -->|19세기 근대 철학 조어| ENG_TIMO["현대 영어 학술어: Timology (가치론 / 가치평가학)"]
-    ENG_TIMO --> DERIV_TIMO["Timological (adj. 가치평가의)"]
+    subgraph Latin_Stage ["라틴·불어 수용 층위"]
+        direction TB
+        LAT_POL["timocratia<br/>후기 라틴"]:::latin
+        FRA_POL["timocratie<br/>중세·근대 불어"]:::latin
+        LAT_TIMO["Timotheus<br/>교회 라틴"]:::latin
+        OFR_TIMO["Timothée<br/>앵글로-노르만"]:::latin
+        LAT_TIMON["Timon<br/>라틴 인명"]:::latin
+        GRK_POL --> LAT_POL --> FRA_POL
+        GRK_TIMO --> LAT_TIMO --> OFR_TIMO
+        GRK_TIMON --> LAT_TIMON
+    end
 
-    %% 인명 및 문화 수용 분기 (Timothy)
-    GRK_NOUN --> GRK_TIMO["신명 합성 인명: Τιμόθεος (Timótheos)<br/>(τιμή + θεός: 신을 공경하는 자)"]
-    GRK_TIMO --> LAT_TIMO["교회 라틴어: Timotheus (신약성서)"]
-    LAT_TIMO --> OFR_TIMO["고대/앵글로-노르만 불어: Timothée"]
-    OFR_TIMO --> ENG_TIMO_NAME["현대 영어 인명: Timothy (디모데 / Tim)"]
-
-    %% 문학적 보통명사화 분기 (Timon)
-    GRK_NOUN --> GRK_TIMON["고유 인명: Τίμων (Tímōn, 존중받는 자)"]
-    GRK_TIMON --> LAT_TIMON["라틴어: Timon"]
-    LAT_TIMON --> ENG_TIMON["셰익스피어 문학 수용: Timon (1607)<br/>(배은망덕에 환멸을 느껴 인류를 저주하는 자)"]
+    subgraph Modern_Stage ["근현대 영어 수용"]
+        direction TB
+        ENG_POL["Timocracy<br/>1586 번역 유입"]:::english
+        DERIV_POL1["timocratic<br/>금권·명예정치의"]:::english
+        DERIV_POL2["timocrat<br/>그 체제 지지자"]:::english
+        ENG_TIMO["timology<br/>가치론·가치평가학"]:::english
+        DERIV_TIMO["timological<br/>가치평가의"]:::english
+        ENG_TIMO_NAME["Timothy<br/>디모데 / Tim"]:::english
+        ENG_TIMON["Timon<br/>셰익스피어 수용"]:::english
+        FRA_POL --> ENG_POL
+        ENG_POL --> DERIV_POL1
+        ENG_POL --> DERIV_POL2
+        GRK_NOUN -->|학술 조어| ENG_TIMO --> DERIV_TIMO
+        OFR_TIMO --> ENG_TIMO_NAME
+        LAT_TIMON --> ENG_TIMON
+    end
 ```
+
 
 ---
 
