@@ -3147,3 +3147,6 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - `wiki/entities/entity-odysseus.md`
   - `wiki/entities/entity-paris.md`
   - `wiki/log.md`
+
+## 2026-09-07
+- fix(css): custom.scss dark-theme Mermaid block missing `}` (Pages sass `expected "}"` on a393a31); brace balance restored.
