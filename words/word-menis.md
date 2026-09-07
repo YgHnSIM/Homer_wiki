@@ -40,16 +40,35 @@ status: active
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    PIE["PIE 조어 어근: *men-<br/>(마음에 품다 / 지속적으로 생각하다)"]
-    PIE --> LENG["장급: *mēn- / *mā-<br/>(우주적·지속적 분노)"]
-    PIE --> FULL["기본급: *men-<br/>(마음, 활력, 정신)"]
-    PIE --> OGRADE["o-급 사역형: *mon-éye-<br/>(일깨우다, 경고하다)"]
-    PIE --> ZERO["영급: *mn̥- / *mn-<br/>(기억, 영감, 광기)"]
-
-    LENG --> MOD_MENIS["현대 영어 학술어 직수입:<br/>Menis (Achillean wrath)"]
-    FULL --> MOD_FULL["현대 영어: mental, mentality, mention, dementia, comment"]
-    OGRADE --> MOD_OG["현대 영어: monitor, monument, monster, admonish, mean"]
-    ZERO --> MOD_ZERO["현대 영어: mind, memory, mania, mantis, Muse, amnesty"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        PIE["PIE *men-<br/>mind · think · perceive"]:::substrate
+        LENG["*mēn- / *mā-<br/>mental force · wrath"]:::substrate
+        OGRADE["*mon-éye-<br/>make aware · warn"]:::substrate
+        ZERO["*mn̥- / *mn-<br/>memory · frenzy"]:::substrate
+        PIE --> LENG
+        PIE --> OGRADE
+        PIE --> ZERO
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        MENIS["μῆνις · mēnis<br/>Achillean wrath"]:::focus
+    end
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
+        direction TB
+        LAT["Latin mens · monēre<br/>mind · warn"]:::latin
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        MENTAL["mental · mentality<br/>mention · dementia · comment"]:::english
+        MON["monitor · monument<br/>admonish · mean · meaning"]:::english
+        MIND["mind · memory · mania<br/>mantis · Muse · amnesty"]:::english
+        LENGEN["Menis<br/>learned English borrowing"]:::english
+    end
+    LENG --> MENIS --> LENGEN
+    PIE --> LAT --> MENTAL
+    OGRADE --> MON
+    ZERO --> MIND
 ```
 
 ---
@@ -70,13 +89,30 @@ flowchart TD
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    FULL["기본급: *men- (e-grade)"] --> GRK_MENOS["그리스어: μένος (기력, 활력, 격정)"]
-    FULL --> LAT_MENS["라틴어: mēns / mentis (마음, 정신)"]
-    FULL --> SAN_MANAS["산스크리트어: mánas- (마음, 사유)"]
-    LAT_MENS --> FRA_MENT["고대 프랑스어: mental / mention"]
-    FRA_MENT --> MOD_MENT["현대 영어: mental / mentality / mention"]
-    LAT_MENS --> MOD_DEM["라틴어 접두파생: dementia (실성, 치매)"]
-    LAT_MENS --> MOD_COM["라틴어 접두파생: comment / commentary"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        FULL["PIE *men- · e-grade<br/>mind · spirit · force"]:::substrate
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        GRK["μένος · ménos<br/>strength · passion"]:::greek
+    end
+    subgraph Latin_Stage ["라틴·인도이란 수용 층위"]
+        direction TB
+        MENS["mēns · mentis<br/>mind · intellect"]:::latin
+        MANAS["Sanskrit mánas-<br/>mind · thought"]:::latin
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        MENT["mental · mentality<br/>mention"]:::english
+        DEM["dementia<br/>loss of mind"]:::english
+        COM["comment · commentary<br/>reflection"]:::english
+    end
+    FULL --> GRK
+    FULL --> MENS --> MENT
+    MENS --> DEM
+    MENS --> COM
+    FULL --> MANAS
 ```
 
 #### 2. o-급 사역·반복형 (o-grade / Causative-Iterative, `*mon-éye-`)
@@ -88,16 +124,38 @@ flowchart TD
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    OGRADE["o-급 사역형: *mon-éye- (경고하다, 일깨우다)"]
-    OGRADE --> LAT_MONEO["라틴어: moneō (일깨우다, 경고하다)"]
-    OGRADE --> GERM_MEAN["게르만 조어: *mainijaną (뜻을 품다)"]
-    LAT_MONEO --> MOD_MONITOR["현대 영어: monitor (감시자, 훈계자)"]
-    LAT_MONEO --> MOD_MONUMENT["라틴어 monumentum: monument (기념비)"]
-    LAT_MONEO --> MOD_ADMONISH["고대 프랑스어 amonester: admonish (훈계하다)"]
-    LAT_MONEO --> MOD_PREMON["라틴어 praemonitio: premonition (사전경고)"]
-    LAT_MONEO --> LAT_MONSTRUM["라틴어: mōnstrum (신적 경고/징조)"]
-    LAT_MONSTRUM -->|신적 징조에서 흉측한 존재로 전이| MOD_MONSTER["현대 영어: monster (괴물)"]
-    GERM_MEAN --> MOD_MEAN["현대 영어: mean (뜻하다) / meaning"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        OGRADE["*mon-éye-<br/>warn · make aware"]:::substrate
+        GERM["Proto-Germanic *mainijaną<br/>mean · intend"]:::substrate
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        MONEO["Latin moneō branch<br/>remember · warn"]:::greek
+    end
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
+        direction TB
+        MONUMENTUM["monumentum<br/>memorial sign"]:::latin
+        MONSTRUM["mōnstrum<br/>portent · warning"]:::latin
+        AMONESTER["Old French amonester<br/>admonish"]:::latin
+        PREMON["praemonitio<br/>premonition"]:::latin
+        MONEO --> MONUMENTUM
+        MONEO --> MONSTRUM
+        MONEO --> AMONESTER
+        MONEO --> PREMON
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        MONITOR["monitor<br/>watcher · guide"]:::english
+        MONSTER["monster<br/>portent → creature"]:::english
+        ADMONISH["admonish<br/>warn · counsel"]:::english
+        MEAN["mean · meaning<br/>intend · signify"]:::english
+        MONUMENTUM --> MONITOR
+        MONSTRUM --> MONSTER
+        AMONESTER --> ADMONISH
+        GERM --> MEAN
+    end
+    OGRADE --> MONEO
 ```
 
 #### 3. 장급 (Lengthened-grade, `*mēn-` / `*mā-`)
@@ -111,14 +169,34 @@ flowchart TD
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    LENG["장급: *mēn- / *mā- (신적·지속적 분노)"]
-    LENG --> PGRK_MANIS["원시 헬라어: *mā́-ni-s"]
-    LENG --> SAN_MANYU["산스크리트어: manyú- (신성한 격정, 우주적 진노)"]
-    PGRK_MANIS --> DOR_MANIS["도리스 방언: μᾶνις (고형 ā 보존)"]
-    PGRK_MANIS --> ION_MENIS["이오니아-아티카: μῆνις (장모음 추이 ā → ē)"]
-    ION_MENIS -->|17-18세기 번역사| TRANS_WRATH["채프먼 1611 및 폽 1720: wrath"]
-    ION_MENIS -->|20세기 번역사| TRANS_ANGER["래티모어 1951: anger / 페이글스 1990: rage"]
-    ION_MENIS -->|Muellner 1996 번역불가능성 입증| MOD_MENIS["현대 영어 학술어 직수입: Menis (Achillean wrath)"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        LENG["*mēn- / *mā-<br/>mental · spirited wrath"]:::substrate
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        PGRK["Proto-Greek *mānis<br/>ancestral wrath form"]:::variant
+        DOR["Doric μᾶνις<br/>long ā preserved"]:::greek
+        ION["Ionic-Attic μῆνις<br/>ā → ē"]:::focus
+        PGRK --> DOR
+        PGRK --> ION
+    end
+    subgraph Latin_Stage ["라틴·중세 번역 층위"]
+        direction TB
+        LAT["Latin reception<br/>wrath terminology"]:::latin
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        WRATH["Chapman 1611 · Pope 1720<br/>wrath"]:::english
+        ANGER["Lattimore 1951<br/>anger"]:::english
+        RAGE["Fagles 1990<br/>rage"]:::english
+        MENIS["Muellner 1996<br/>Menis · learned borrowing"]:::english
+        ION --> WRATH
+        ION --> ANGER
+        ION --> RAGE
+        ION --> MENIS
+    end
+    LENG --> PGRK
 ```
 
 #### 4. 영급 (Zero-grade, `*mn̥-` / `*mn-`)
@@ -130,17 +208,37 @@ flowchart TD
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    ZERO["영급: *mn̥- / *mn- (기억, 영감, 광기)"]
-    ZERO --> GRK_ZERO["그리스어 파생군 (*n̥ → a)"]
-    ZERO --> GERM_ZERO["게르만 파생군 (*mn̥- → mun)"]
-    ZERO --> LAT_ZERO["라틴어 파생군 (*me-mn-)"]
-    GRK_ZERO --> MOD_MANIA["신적 광기: mania / manic / -mania"]
-    GRK_ZERO --> MOD_MANTIS["신탁 예언자: mantis (사마귀) / -mancy"]
-    GRK_ZERO --> MOD_MUSE["무사 여신: Muse / music / museum"]
-    GRK_ZERO --> MOD_AMNESTY["불망법: amnesty (사면)"]
-    GRK_ZERO --> MOD_MNEM["기억의: mnemonic (기억술)"]
-    GERM_ZERO --> MOD_MIND["고대 영어 gemynd: mind / remind / mindful"]
-    LAT_ZERO --> MOD_MEMORY["라틴어 memor/meminī: memory / memorial / remember"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        ZERO["*mn̥- / *mn-<br/>memory · perception · frenzy"]:::substrate
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        GRK["Greek zero-grade family<br/>mn̥- → mnē-"]:::greek
+        MANIA["mania · manic · -mania<br/>frenzy"]:::focus
+        MANTIS["mantis · -mancy<br/>divination"]:::greek
+        MUSE["Muse · music · museum<br/>inspired memory"]:::greek
+        AMNESTY["amnesty<br/>forgetting · pardon"]:::greek
+        MNEM["mnemonic<br/>memory aid"]:::greek
+        GRK --> MANIA
+        GRK --> MANTIS
+        GRK --> MUSE
+        GRK --> AMNESTY
+        GRK --> MNEM
+    end
+    subgraph Latin_Stage ["라틴·게르만 수용 층위"]
+        direction TB
+        GERM["Old English gemynd<br/>mind"]:::latin
+        LAT["Latin memor · meminī<br/>remember"]:::latin
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        MIND["mind · remind · mindful<br/>Germanic branch"]:::english
+        MEMORY["memory · memorial · remember<br/>Latin branch"]:::english
+    end
+    ZERO --> GRK
+    ZERO --> GERM --> MIND
+    ZERO --> LAT --> MEMORY
 ```
 
 ### 2.2 고대 그리스어 형태론 및 곡용 분석표
