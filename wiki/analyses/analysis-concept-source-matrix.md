@@ -3,7 +3,7 @@ title: 개념과 문헌
 aliases: [개념 문헌 표, 개념×문헌]
 tags: [type/analysis, domain/culture, domain/iliad, domain/odyssey, status/active]
 created: 2026-08-24
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - benveniste-1969-vocabulaire-institutions-2.md
   - williams-1993-shame-and-necessity.md
@@ -100,6 +100,7 @@ status: active
 | [[cairns-2012-ate-in-homeric-poems\|케언스 2012]] | — | — | 언급 | — | 언급 | — | — | — | — | — | **중심** | — | 언급 | 언급 |
 | [[vleminck-1982-institutional-aspect-of-time\|블레맹크 1982]] | 언급 | 언급 | — | — | **중심** | 언급 | — | — | — | — | — | 언급 | — | — |
 | [[benveniste-1969-vocabulaire-institutions-2\|벤베니스트 1969]] | — | 언급 | — | 언급 | 언급 | 언급 | — | — | — | — | 언급 | 언급 | 언급 | 언급 |
+| [[schein-1970-odysseus-and-polyphemus\|쉐인 1970]] | — | — | — | — | — | 언급 | — | — | — | — | 언급 | — | — | — |
 
 [[concept-epic-cycle|에픽 사이클]] 열은 비어 있습니다. 개념 항목의 `sources`가 아직 없고, 문헌 문서도 이 표제어로 잇지 않았습니다.
 

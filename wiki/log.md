@@ -3156,5 +3156,23 @@ alidate-wiki.mjs\, \uild-concept-source-matrix.mjs --check\, \	est-wiki-tooling
   - `wiki/entities/entity-paris.md`
   - `wiki/log.md`
 
-## 2026-09-07
-- fix(css): custom.scss dark-theme Mermaid block missing `}` (Pages sass `expected "}"` on a393a31); brace balance restored.
+## [2026-09-07] fix | custom.scss 다크 테마 괄호 균형 복구
+- custom.scss dark-theme Mermaid block missing `}` (Pages sass `expected "}"` on a393a31); brace balance restored.
+
+## [2026-09-07] docs | scott-1979-pity-and-pathos 검토 및 정제 완료 (homer-review)
+
+- **작업 내용**: 5인 적대적 검토(Philologist, Logician, Architect, Weaver, Editor) 및 3라운드 공방전을 거쳐 스콧(1979) 소스 문서 전면 정제.
+- **문헌학 및 원전**:
+  - ἐλεαίρειν 표기 오기(`엘레아이에인` → `엘레아이레인`) 수정 및 피치 악센트/장모음 복원
+  - 『오뒷세이아』 10.388–399(키르케 연민; 논문 10.339 인쇄 오기 정정), 『일리아스』 23.534–548(534행 *ṓikteire*), 24.432–438(에우페이테스) 원전 출전 정밀 교정
+  - 4대 핵심 인용구(Il. 22.71, Od. 17.367, Il. 24.503, Il. 21.106)를 표준 3단계(`번역 → 폴리토닉 원문 → 실제형 학술 전사`) 규약으로 재편
+- **논리 및 학설**:
+  - 스콧-애드킨스 결과주의 한계 규정(협력적 가치가 결과주의를 대체하지 못하며 비경쟁적 지반 안에서만 예외적 작동)
+  - 24권 아킬레우스의 감정 전개 2단계 분리(516행 굴욕 목격 직후의 오익토스 가해 자제 vs 503행 부친 상기 후 비경쟁적 엘레오스 구호)
+  - 아리스토텔레스적 연민(anaxios)과의 학설사적 단절을 경고하는 `> [!WARNING]` 콜아웃 신설
+- **위키 규격 및 그래프 연결**:
+  - Mermaid 신규격(`flowchart TD`, 표준 init, 서브그래프 공간 분할, `:::focus`·`:::crisis`·`:::resolve`, 1-2-3 규칙) 전면 적용
+  - 개념 비교 매트릭스 28개 빈 셀 제거 및 3열(`분석 층위 | 오익토스 | 엘레오스`) 슬림화
+  - `[[concept-eleos|오익토스]]` 링크 오류를 `[[concept-oiktos|오익토스]]`로 정정하고, 프론트매터 및 관련 항목에 오익토스·단어사전·1981년 논문 연결
+  - 본문 인라인 볼드 괄호 분리(`**표제어** (원어)`) 전수 적용 및 비학술적 세미나 질문 섹션 삭제
+- **개념×문헌 매트릭스 동기화**: `wiki/analyses/analysis-concept-source-matrix.md` 최신 상태 동기화 완료
