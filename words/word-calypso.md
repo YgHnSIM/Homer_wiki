@@ -45,32 +45,44 @@ status: active
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    %% 인도유럽조어 원어근
-    PIE["PIE: *ḱel- ('덮다, 숨기다, 보호하다')"] --> GRK_V["고대 희랍어 동사: καλύπτω (kalúptō, '덮다/숨기다')"]
-    PIE --> LAT_ROOT["라틴어 동계어군: celāre, cella, occulere, clam"]
-    PIE --> PGMC["게르만조어 동계어군: *haljō, *hulaz, *helmaz, *hallō"]
-
-    %% 게르만/라틴 현대 영어 파생
-    LAT_ROOT --> LAT_DERIV["라틴계 파생어: conceal, cell, cellar, occult, clandestine"]
-    PGMC --> PGMC_DERIV["게르만계 파생어: hell, hole, hollow, helmet, hall, hull"]
-
-    %% 희랍어 내부 파생
-    GRK_V --> GRK_EPONYM["희랍어 고유명: Καλυψώ (Kalupsṓ, '은폐하는 여인')"]
-    GRK_V --> GRK_CALYX["희랍어 명사: κάλυξ (kályks, '꽃받침/껍질')"]
-    GRK_V --> GRK_CALYPTRA["희랍어 명사: καλύπτρα (kalúptra, '베일/머리덮개')"]
-    GRK_V --> GRK_EU["희랍어 합성어: εὐκάλυπτος (eu- + kalyptos)"]
-
-    %% 라틴어 경유 현대 영어 정착
-    GRK_EPONYM --> LAT_CALYPSO["고전 라틴어: Calypso (속격 Calypsūs / Ovid, Virgil)"]
-    LAT_CALYPSO --> MOD_CALYPSO["현대 영어: Calypso (1614 Chapman 번역)"]
-    MOD_CALYPSO --> SCI_EPONYMS["현대 학술 명명: Calypso bulbosa, Calypso Deep, Saturn XIV"]
-
-    GRK_CALYX --> LAT_CALYX["라틴어: calyx"] --> MOD_CALYX["현대 영어: calyx (식물학/해부학 꽃받침·신배)"]
-    GRK_CALYPTRA --> MOD_CALYPTRA["현대 영어: calyptra (식물학), calyptrate (곤충학)"]
-    GRK_EU --> MOD_EUCALYPTUS["현대 영어 학명: Eucalyptus (1788년 명명)"]
-
-    %% 민간 어원 경고
-    CARIB["서아프리카/크리올: kaiso (환호·격려사)"] -.->|19C 식민지 음운 견인| CAL_MUSIC["음악 장르: calypso (칼립소 음악)"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        PIE["PIE *ḱel-<br/>cover · hide · protect"]:::substrate
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        GRK_V["καλύπτω · kalýptō<br/>cover · conceal"]:::greek
+        CALYPSO["Καλυψώ · Kalupsō<br/>the concealer"]:::focus
+        CALYX["κάλυξ · kályx<br/>covering · calyx"]:::greek
+        CALYPTRA["καλύπτρα · kalýptra<br/>veil · head-covering"]:::greek
+        EU["εὐκάλυπτος<br/>well-covered"]:::variant
+        GRK_V --> CALYPSO
+        GRK_V --> CALYX
+        GRK_V --> CALYPTRA
+        GRK_V --> EU
+    end
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
+        direction TB
+        LAT["Latin calypsō<br/>classical reception"]:::latin
+        LAT_ROOT["celāre · cella · occultus<br/>Latin cognate family"]:::latin
+        LAT_CALYX["calyx<br/>Latin botanical term"]:::latin
+        LAT --> LAT_CALYX
+        PIE -.-> LAT_ROOT
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        MOD["Calypso · 1614<br/>English literary name"]:::english
+        SCI["Calypso bulbosa · Calypso Deep<br/>scientific names"]:::english
+        MCALYX["calyx · calyptra<br/>botany · zoology"]:::english
+        EUC["Eucalyptus<br/>modern scientific coinage"]:::english
+        GER["Germanic collateral<br/>hell · hollow · helmet · hall"]:::note
+        MUSIC["calypso<br/>Caribbean music"]:::english
+        LAT --> MOD --> SCI
+        LAT_CALYX --> MCALYX
+        EU --> EUC
+        GER -.-> MUSIC
+    end
+    PIE --> GRK_V
 ```
 
 ---
