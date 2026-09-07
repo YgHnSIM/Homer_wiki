@@ -15,6 +15,12 @@ status: active
 
 ---
 
+## [2026-09-07] refactor | words Mermaid 유형 C(어원 3티어) 일괄 적용
+
+- **작업 개요**: `words/word-*.md`와 `words/_template.md` Mermaid를 AGENTS §2.4 유형 C에 맞게 재구성. PIE/기층·희랍·라틴·근현대 서브그래프, `:::substrate`/`:::greek`/`:::latin`/`:::english`/`:::variant`/`:::note`, 2행 라벨, 검증 init 유지. 파일별 커밋·`main` 푸시.
+- **범위**: odyssey, time, polytropos, ate, epos, calypso, eleos, agathos, hector, achilles, menis, dike, oiktos, `_template` (커밋 `0a92782`…`c02be62`).
+- **검증**: 전 파일 init·subgraph·어원 클래스 확인, `classDef`/`graph` 없음.
+
 ## [2026-09-07] docs | AGENTS.md Mermaid init을 검증 레시피로 동기화
 
 - **작업 개요**: §2.4 init 예시의 `nodeSpacing` 20 / `rankSpacing` 28을 폐기하고, Obsidian에서 검증·전역 마이그레이션에 쓰인 레시피(`nodeSpacing` 40, `rankSpacing` 56, `padding` 18, `subGraphTitleMargin` top 18 / bottom 10)로 문서·최소 예시를 맞췄다.
