@@ -46,25 +46,40 @@ status: active
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
 flowchart TD
-    %% 고대 어원 및 그리스어 성립
-    PIE["PIE: *h₂egʰ- (비탄, 고통) + *lāwos (군대)"] --> PGRK["Proto-Greek: *Achi-lāwos ('군대의 고통')"]
-    PGRK --> MYC["미케네 그리스어: a-ki-re-u (/Akʰilleus/, BC 13세기)"]
-    MYC --> GRK["고대 희랍어: Ἀχιλλεύς (Achilleus / 호메로스)"]
-
-    %% 서구어 및 영어 전파 경로
-    GRK --> LAT["고전 라틴어: Achillēs (속격 Achillis)"]
-    LAT --> OFR["고대 프랑스어: Achille / Achilles (12세기)"]
-    OFR --> ME["중세 영어: Achilles (14세기 초서)"]
-    ME --> MOD["현대 영어: Achilles (16세기~)"]
-
-    %% 현대 파생어 및 문화적 관용표현
-    MOD --> IDIOM["관용구: Achilles' heel (치명적 약점, 1810/1821)"]
-    MOD --> ADJ["형용사: Achillean (무적의/격렬한, 1598)"]
-    MOD --> PSYCH["심리학: Achilles syndrome (유능자의 내적 실패 공포)"]
-
-    %% 전문 학술 명명 (라틴어 직수용)
-    LAT -.->|1693년 해부학 명명| ANAT["해부학: tendo Achillis -> Achilles tendon (1705)"]
-    LAT -.->|1753년 린네 식물학 명명| BOT["식물학: Achillea (서양톱풀속)"]
+    subgraph PIE_Stage ["인도유럽조어·기층 층위"]
+        direction TB
+        PIE["PIE *h₂egʰ- + *lāwos<br/>pain + people"]:::substrate
+        PGRK["Proto-Greek *Achi-lāwos<br/>army in pain"]:::variant
+        PIE --> PGRK
+    end
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        MYC["Linear B a-ki-re-u<br/>/Akʰilleus/ · 13th c. BCE"]:::greek
+        GRK["Ἀχιλλεύς · Achilleus<br/>Homeric hero"]:::focus
+        MYC --> GRK
+    end
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
+        direction TB
+        LAT["Achillēs · Achillis<br/>Classical Latin"]:::latin
+        OFR["Achille · Achilles<br/>Old French"]:::latin
+        ME["Achilles<br/>Middle English"]:::latin
+        LAT --> OFR --> ME
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        MOD["Achilles<br/>modern English"]:::english
+        HEEL["Achilles' heel<br/>fatal vulnerability"]:::english
+        ADJ["Achillean<br/>invulnerable · fierce"]:::english
+        PSYCH["Achilles syndrome<br/>fear of failure"]:::english
+        TENDON["tendo Achillis<br/>Achilles tendon"]:::note
+        BOT["Achillea<br/>Linnaean plant name"]:::note
+        ME --> MOD
+        MOD --> HEEL
+        MOD --> ADJ
+        MOD --> PSYCH
+        LAT -.-> TENDON
+        LAT -.-> BOT
+    end
 ```
 
 ---
@@ -126,18 +141,28 @@ flowchart TD
 
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
-timeline
-    title Achilles 어원 수용사 연표
-    BC 13세기 : 미케네 선형문자 B a-ki-re-u 실증
-    BC 8세기 : 호메로스 일리아스 완성 (Ἀχιλλεύς / 시학적 작명)
-    BC 1세기 : 로마 공화정/제정기 고전 라틴어 Achillēs 차용
-    AD 1세기 : 스타티우스 아킬레이다 (스틱스 침수 및 발뒤꿈치 전승 기록)
-    12세기 : 고대 프랑스어 트로이 로망스 (Achille / Achilles 유입)
-    14세기 : 초서 중세 영어 문헌 초출 (Book of the Duchess)
-    1598년 : 초기 근대 영어 형용사 Achillean 초출 (OED)
-    1693년 : 필립 페르헤이언 tendo Achillis (아킬레스건) 해부학 명명
-    1753년 : 칼 린네 식물학 속명 Achillea (서양톱풀) 제정
-    1810-1821년 : 콜리지 및 바이런 영시에서 Achilles' heel (치명적 약점) 관용화
+flowchart TD
+    subgraph Greek_Stage ["고대 희랍어 층위"]
+        direction TB
+        A["13th c. BCE<br/>Linear B a-ki-re-u"]:::greek
+        B["8th c. BCE<br/>Homeric Achilleus"]:::focus
+        A --> B
+    end
+    subgraph Latin_Stage ["라틴·중세 수용 층위"]
+        direction TB
+        C["1st c. BCE<br/>Latin Achillēs"]:::latin
+        D["1st c. CE<br/>Achilles heel tradition"]:::latin
+        E["12th–14th c.<br/>French · Middle English"]:::latin
+        B --> C --> D --> E
+    end
+    subgraph Modern_Stage ["근현대 수용 층위"]
+        direction TB
+        F["1598<br/>Achillean"]:::english
+        G["1693–1705<br/>Achilles tendon"]:::english
+        H["1753<br/>Achillea"]:::english
+        I["1810–1821<br/>Achilles' heel"]:::english
+        E --> F --> G --> H --> I
+    end
 ```
 
 1. **고대 그리스에서 로마 라틴어로의 차용**:
@@ -167,10 +192,24 @@ timeline
 
 ```mermaid
 %%{init: {'flowchart': {'useMaxWidth': true, 'nodeSpacing': 40, 'rankSpacing': 56, 'padding': 18, 'subGraphTitleMargin': {'top': 18, 'bottom': 10}}}}%%
-flowchart LR
-    A["고대 호메로스 시학<br>비탄을 낳고 체화하는 전사<br>(*Achi-lāwos)"] --> B["로마 헬레니즘 신화<br>단 하나의 급소를 지닌 무적 영웅<br>(Statius Achilleid)"]
-    B --> C["17-18세기 과학·의학<br>해부학적 힘줄 / 약용 식물<br>(tendo Achillis / Achillea)"]
-    B --> D["19-21세기 근현대 영어<br>치명적 약점 / 내적 취약성<br>(Achilles' heel / Achilles syndrome)"]
+flowchart TD
+    subgraph Greek_Stage ["고대 희랍어·호메로스 층위"]
+        direction TB
+        A["Achilleus<br/>hero bearing collective pain"]:::focus
+    end
+    subgraph Latin_Stage ["라틴·헬레니즘 수용 층위"]
+        direction TB
+        B["Statius · Achilleid<br/>heel as vulnerable point"]:::latin
+        C["tendo Achillis · Achillea<br/>anatomy · botany"]:::latin
+        B --> C
+    end
+    subgraph Modern_Stage ["근현대 영어 의미 층위"]
+        direction TB
+        D["Achilles' heel<br/>fatal weakness"]:::english
+        E["Achilles syndrome<br/>modern psychological metaphor"]:::english
+        C --> D --> E
+    end
+    A --> B
 ```
 
 1. **원초적 시학적 의미** (Archaic Epic Context):
