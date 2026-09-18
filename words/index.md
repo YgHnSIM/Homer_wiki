@@ -3,7 +3,7 @@ title: 어원 사전
 aliases: [단어 인덱스, 호메로스 어원·영단어 사전, Word Index]
 tags: [type/meta, domain/etymology, status/active]
 created: 2026-08-17
-updated: 2026-09-07
+updated: 2026-09-18
 sources: []
 status: active
 ---
@@ -22,7 +22,7 @@ Odyssey는 본문을 작성했지만 역사적 어원과 중세 전승 단계에
 
 | 분류 | 문서 수 | 작성된 항목 |
 |:---|:---:|:---|
-| 개념·추상어 | 8 | [[word-agathos\|Agathos]], [[word-dike\|Dike]], [[word-eleos\|Eleos]], [[word-epos\|Epos]], [[word-menis\|Menis]], [[word-oiktos\|Oiktos]], [[word-polytropos\|Polytropos]], [[word-time\|Time]] |
+| 개념·추상어 | 18 | [[word-agathos\|Agathos]], [[word-aidos\|Aidos]], [[word-arete\|Arete]], [[word-dike\|Dike]], [[word-eleos\|Eleos]], [[word-epos\|Epos]], [[word-geras\|Geras]], [[word-hikesia\|Hikesia]], [[word-kleos\|Kleos]], [[word-menis\|Menis]], [[word-moira\|Moira]], [[word-nemesis\|Nemesis]], [[word-nostos\|Nostos]], [[word-oiktos\|Oiktos]], [[word-polytropos\|Polytropos]], [[word-themis\|Themis]], [[word-time\|Time]], [[word-xenia\|Xenia]] |
 | 인명·서명 유래어 | 5 | [[word-achilles\|Achilles]], [[word-ate\|Ate]], [[word-calypso\|Calypso]], [[word-hector\|Hector]], [[word-odyssey\|Odyssey]] |
 | 총계 | 13 | — |
 
@@ -45,6 +45,17 @@ Odyssey는 본문을 작성했지만 역사적 어원과 중세 전승 단계에
 - [[word-time|Time (티메)]] — *timocracy*, *timocratic*, *Timothy*, *Timon*, *timology*
 
 ---
+
+- [[word-aidos|Aidos (아이도스)]] — *aidos*, *aidoion*
+- [[word-arete|Arete (아레테)]] — *arete*, *aristocracy*
+- [[word-geras|Geras (게라스)]] — *geras*, *gerarós*
+- [[word-hikesia|Hikesia (히케시아)]] — *hikesia*, *hikétēs*
+- [[word-kleos|Kleos (클레오스)]] — *kleos*, *Clio*
+- [[word-moira|Moira (모이라)]] — *moira*, *Moiroi*
+- [[word-nemesis|Nemesis (네메시스)]] — *nemesis*, *Nemesis*
+- [[word-nostos|Nostos (노스토스)]] — *nostos*, *nostalgia*
+- [[word-themis|Themis (테미스)]] — *themis*, *thémistes*
+- [[word-xenia|Xenia (크세니아)]] — *xenia*, *xenía*, *philoxenia*
 
 ## 관련 항목
 

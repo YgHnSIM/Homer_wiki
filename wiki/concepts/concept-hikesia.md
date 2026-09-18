@@ -3,7 +3,7 @@ title: 히케시아 (Hikesia)
 aliases: [Hikesia, ἱκεσία, hikésia, 탄원, 탄원 의례, 히케테스, "히케시아 (Hikesia, ἱκεσία) — 탄원의 의례와 경외", 히케시아 (Hikesia / ἱκεσία) — 탄원의 의례와 경외]
 tags: [type/concept, domain/iliad, domain/odyssey, domain/culture, status/active]
 created: 2026-08-16
-updated: 2026-09-03
+updated: 2026-09-18
 sources: [scott-1979-pity-and-pathos.md, scott-1980-aidos-and-nemesis.md, scott-1982-philos-philotes-xenia.md, lee-junseok-2024-iliad-jeongam.md, cairns-1993-aidos.md, zanker-1994-heart-of-achilles.md, minchin-2019-homeric-religion.md]
 status: active
 korean_name: 히케시아
@@ -12,11 +12,22 @@ greek: "ἱκεσία"
 transliteration: "hikésia"
 transliteration_system: homeric-oriented-v1
 cssclasses: [greek-reading-page]
+concept_domain: institutional_ethical
+polar_opposites: ["[[concept-hybris|휘브리스]]", "[[concept-asebeia|아세베이아]]", "전장 탄원 거부"]
+embodying_entities: ["[[entity-zeus|제우스]]", "[[entity-priam|프리아모스]]", "[[entity-achilles|아킬레우스]]", "[[entity-odysseus|오디세우스]]", "[[entity-thetis|테티스]]"]
 ---
 
 # 히케시아 (Hikesia)
 
 **[[greek-reading-guide|읽는 법]]**: 히케시아 · **원어**: ἱκεσία · **학술 전사**: *hikésia*
+
+## 0. 어원 (요약)
+
+상세 어원·수용사는 [[word-hikesia|Hikesia]]를 단일 원천으로 둔다. 여기서는 ἱκέτης(*hikétēs*, 탄원자) / ἱκεσία(*hikésia*, 탄원 의례) 계열과, 무릎·턱 접촉 의례 어휘군만 3–5행으로 적는다.
+
+## 0.1 개념 상호작용 (크세니아와 대칭)
+
+히케시아는 [[concept-xenia|크세니아]]와 함께 대외 보호 규범을 이루되, 크세니아가 **손님–주인 상호성**이라면 히케시아는 **약자–강자 비대칭**에서 발동한다. 대립축은 휘브리스·아세베이아와 탄원 거부이며, 회복축은 [[concept-aidos|아이도스]]·[[concept-eleos|엘레오스]]이다.
 
 ## 1. 개념 정의 및 종교적 규범
 

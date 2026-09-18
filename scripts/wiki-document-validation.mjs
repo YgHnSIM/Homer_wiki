@@ -20,7 +20,7 @@ function extractFrontmatter(markdown) {
 
 function expectedTypeTag(relativePath) {
   if (relativePath === "index.md") return "type/meta"
-  if (/^wiki\/(?:index|overview|log)\.md$/.test(relativePath)) return "type/meta"
+  if (/^wiki\/(?:index|overview|log)\.md$/.test(relativePath) || /^wiki\/log\//.test(relativePath)) return "type/meta"
   if (relativePath === "wiki/greek-reading-guide.md") return "type/meta"
   if (relativePath.startsWith("wiki/meta/")) return "type/meta"
   if (relativePath.startsWith("wiki/analyses/")) return "type/analysis"
@@ -299,7 +299,7 @@ export function validateBoldMarkdownSyntax({ relativePath, markdown, addError })
 }
 
 export function validateDeprecatedTerminology({ relativePath, markdown, addError }) {
-  if (relativePath === "wiki/log.md") return
+  if (relativePath === "wiki/log.md" || relativePath.startsWith("wiki/log/")) return
   const lines = markdown.split(/\r?\n/)
   let inFence = false
   let inFrontmatter = false

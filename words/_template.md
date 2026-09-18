@@ -16,7 +16,7 @@ tags: [type/word, domain/etymology, status/draft]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 sources: [] # 관련 사전 및 문헌 출처 (예: Beekes 2010, LSJ, OED)
-status: draft # draft | active | review | archived
+status: draft
 ---
 
 # English headword (한국어 표제어)

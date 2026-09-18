@@ -372,9 +372,10 @@ flowchart TD
 | 헤라클레스적 노고(athlos)와 영웅 류(genus)의 공유 | 서사시 어휘 분석·제의사 | Od. 11.617–626; Finkelberg 1995; Burkert 1985 | 강한 학술 추론 | [[finkelberg-1995-odysseus-and-genus-hero\|핀켈버그 1995]] |
 
 ## 관련 항목
+- [[entity-troy|트로이아 (Troy)]]
 
 - [[entity-penelope|페넬로페]] — 정체 확인과 오이코스 회복의 공동 주체
-- [[entity-calypso|칼립소]] — 불로불사의 영생 제안을 거절하고 필멸의 귀향을 선택하게 한 오기기아의 여신
+- [[entity-calypso|칼립소]] — [[entity-ogygia|오기기아]]의 여신 — 불로불사의 영생 제안을 거절하고 필멸의 귀향을 선택하게 한 오기기아의 여신
 - [[entity-telemachos|텔레마코스]] — 귀환 뒤 전투 동맹이자 가계 계승자
 - [[entity-laertes|라에르테스]] — 귀환의 마지막 확인자
 - [[entity-athena|아테나]] — 메티스와 귀환을 후원하는 신

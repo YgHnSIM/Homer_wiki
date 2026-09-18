@@ -3,7 +3,7 @@ title: 호메로스 위키 (Homer Wiki)
 aliases: [Homer Wiki, 호메로스 디지털 가든]
 tags: [type/meta, domain/iliad, domain/odyssey, domain/mythology, status/active]
 created: 2026-08-17
-updated: 2026-09-06
+updated: 2026-09-18
 sources: []
 status: active
 ---
@@ -33,6 +33,10 @@ status: active
 - [[entity-calypso|칼립소 (Calypso)]] — 오기기아 섬에서 불사와 망각을 제안하며 영웅의 귀향과 클레오스를 7년간 은폐한 여신이자 님페
 - [[entity-hector|헥토르 (Hector)]] — 가족과 공동체를 수호하는 시민적 책임과 영웅 규범의 파괴적 모순을 체현하는 트로이아 총사령관
 - [[entity-paris|파리스 (Paris)]] — 트로이아 전쟁의 원인을 제공한 왕자이자 아프로디테의 은사와 궁술을 체현하는 영웅
+- [[entity-zeus|제우스 (Zeus)]] — 올림포스 최고신이자 테미스·디케·크세니아·히케시아의 보증자
+- [[entity-ithaca|이타케 (Ithaca)]] — 오디세우스의 왕국이자 노스토스의 목적지
+- [[entity-troy|트로이아 (Troy)]] — 『일리아스』의 주 전장 도성
+- [[entity-ogygia|오기기아 (Ogygia)]] — 칼립소의 섬이자 귀향 유예의 공간
 
 ### 개념
 
@@ -50,24 +54,41 @@ status: active
 - [[concept-themis|테미스 (Themis)]] — 제우스가 군주에게 위탁한 신성한 선례이자 아고라의 공적 판례 및 공동체 질서의 총체
 - [[concept-dike|디케 (Dike)]] — 상이한 씨족 간 분쟁 시 재판관이 올곧은 선을 긋는 정형구적 대외 사법이자 제우스의 우주적 도덕 정의
 - [[concept-epic-cycle|에픽 사이클 (Epic Cycle)]] — 신화적 연대기 완결성과 서사적 공백을 충원하며 비극과 후대 문학의 원천이 된 아르카익 서사시 연작
+- [[concept-kleos|클레오스 (Kleos)]] — 노래로 전해지는 불멸의 명성
+- [[concept-arete|아레테 (Arete)]] — 역할에 맞는 기능적 탁월성과 실천적 유능
+- [[concept-nostos|노스토스 (Nostos)]] — 귀향과 오이코스·왕권 질서의 회복
+- [[concept-moira|모이라 (Moira)]] — 배당된 몫이자 필멸의 한계
 
 ### 어원
 
 - [[word-achilles|Achilles (아킬레우스)]] — *Achilles' heel*, *Achilles tendon*, *Achillean*
+- [[word-aidos|Aidos (아이도스)]] — *aidos*, *aidoion*
+- [[word-arete|Arete (아레테)]] — *arete*, *aristocracy*
 - [[word-agathos|Agathos (아가토스)]] — *Agatha*, *Agathism*, *Kalokagathia*
 - [[word-ate|Ate (아테)]] — *Ate*, *Atic*, *Atetic*, *Ate-ridden*, *111 Ate*
 - [[word-calypso|Calypso (칼립소)]] — *Calypso*, *Calypso bulbosa*, *Calypso Deep*
+- [[word-dike|Dike (디케)]] — *theodicy*, *syndicate*, *syndic*, *apodictic*, *Eurydice*
 - [[word-eleos|Eleos (엘레오스)]] — *alms*, *eleemosynary*, *Almoner*, *Kyrie eleison*
+- [[word-epos|Epos (에포스)]] — *epic*, *epos*, *epopee*, *winged words*
+- [[word-geras|Geras (게라스)]] — *geras*, *gerarós*
 - [[word-hector|Hector (헥토르)]] — *to hector*, *hectoring*, *hectorism*
+- [[word-hikesia|Hikesia (히케시아)]] — *hikesia*, *hikétēs*
+- [[word-kleos|Kleos (클레오스)]] — *kleos*, *Clio*
 - [[word-menis|Menis (메니스)]] — *menis*, *mênis*, *Achillean wrath*
+- [[word-moira|Moira (모이라)]] — *moira*, *Moiroi*
+- [[word-nemesis|Nemesis (네메시스)]] — *nemesis*, *Nemesis*
+- [[word-nostos|Nostos (노스토스)]] — *nostos*, *nostalgia*
 - [[word-odyssey|Odyssey (오디세이)]] — *Odyssey*, *odyssey*, *Odyssean*
+- [[word-oiktos|Oiktos (오익토스)]] — *oiktos*, *oikteiro*, *oiktrós*, *oiktirmos*
 - [[word-polytropos|Polytropos (폴리트로포스)]] — *polytropos*, *polutropos*, *many-turned*
+- [[word-themis|Themis (테미스)]] — *themis*, *thémistes*
 - [[word-time|Time (티메)]] — *timocracy*, *timocratic*, *Timothy*, *Timon*, *timology*
+- [[word-xenia|Xenia (크세니아)]] — *xenia*, *xenía*, *philoxenia*
 
 ### 분석
 
 - [[analysis-homeric-ethics-literature-review|호메로스 윤리학 문헌 고찰]] — 전 세계 연구사 및 핵심 윤리 개념 종합 분석
-- [[analysis-concept-source-matrix|개념과 문헌]] — 핵심 개념 10종과 학술 문헌 35종의 맞물림 매트릭스
+- [[analysis-concept-source-matrix|개념과 문헌]] — 핵심 개념 약 18종과 학술 문헌 약 37종의 맞물림 매트릭스
 - [[analysis-polytropos|폴리트로포스 추가 연구]] — *polytropos*의 원전 용례와 역사적 의미 수용사
 
 ### 문헌
