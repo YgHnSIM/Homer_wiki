@@ -308,3 +308,11 @@ flowchart TD
 - 로컬에서 PDF 실파일을 강제 검증하려면 `npm run check:raw` (`HOMER_REQUIRE_RAW=1`).
 - 운영 기록: `docs/ops/2026-09-18-deploy-failure-missing-raw-pdf.md`
 
+
+### 본문 골격·stub 승격 (P0 experimental)
+
+- L1→L2 첫 보강 시 H2는 템플릿 이중언어 제목으로 **승격**한다. stub 제목 아래 문단만 늘리지 않는다.
+- 계약: `docs/editorial/outline-contract.md`
+- 체크리스트: `docs/editorial/l2-stub-promotion-checklist.md`
+- 어원 SoT는 `words/` — concept §2는 요약 + `[[word-*]]`만.
+
