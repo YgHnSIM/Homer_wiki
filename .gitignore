@@ -15,3 +15,6 @@ screenshot-*.png
 # OS specific
 .DS_Store
 Thumbs.db
+
+# Raw source PDFs (keep local bytes; do not track)
+raw/**/*.pdf

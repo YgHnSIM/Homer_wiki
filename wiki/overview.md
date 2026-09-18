@@ -3,7 +3,7 @@ title: 서사시 개요
 aliases: [홈페이지, 메인 대시보드, 호메로스 위키 홈, Overview]
 tags: [type/meta, domain/culture, status/active]
 created: 2026-08-14
-updated: 2026-09-06
+updated: 2026-09-18
 sources: []
 status: active
 ---
@@ -230,7 +230,7 @@ status: active
 트로이아 전쟁 10년 차, 아킬레우스의 분노(Mênis, μῆνις)와 약 51일간의 비극적 사건.
 
 - 중심 인물: [[entity-achilles|아킬레우스]], [[entity-agamemnon|아가멤논]], [[entity-hector|헥토르]], [[entity-paris|파리스]]. 전체 인물 현황은 [[wiki/index#인물|위키 색인]]에서 확인합니다.
-- 서사를 관통하는 핵심 개념: [[concept-time|티메]], [[concept-ate|아테]], [[concept-menis|메니스]], [[concept-aidos|아이도스]], [[concept-nemesis|네메시스]], [[concept-hikesia|히케시아]], [[concept-eleos|엘레오스]]
+- 서사를 관통하는 핵심 개념: [[concept-time|티메]]·[[concept-geras|게라스]], [[concept-themis|테미스]]·[[concept-dike|디케]], [[concept-ate|아테]], [[concept-menis|메니스]], [[concept-aidos|아이도스]], [[concept-nemesis|네메시스]], [[concept-hikesia|히케시아]], [[concept-eleos|엘레오스]]·[[concept-oiktos|오익토스]]
 - 관련 어원·수용사: [[word-achilles|Achilles]], [[word-menis|Menis]], [[word-hector|Hector]], [[word-ate|Ate]], [[word-eleos|Eleos]], [[word-time|Time]]
 
 ## 오뒷세이아 (Odyssey)
@@ -238,24 +238,32 @@ status: active
 트로이아 함락 뒤 오디세우스의 귀향(Nostos, νόστος)과 이타카 궁정의 질서 회복.
 
 - 중심 인물: [[entity-odysseus|오디세우스]]. 전체 인물 현황은 [[wiki/index#인물|위키 색인]]에서 확인합니다.
-- 서사를 관통하는 핵심 개념: [[concept-xenia|크세니아]], [[concept-hikesia|히케시아]], [[concept-agathos|아가토스]], [[concept-aidos|아이도스]]
+- 서사를 관통하는 핵심 개념: [[concept-xenia|크세니아]], [[concept-hikesia|히케시아]], [[concept-agathos|아가토스]], [[concept-aidos|아이도스]], [[concept-nostos|노스토스]], [[concept-dike|디케]]
 - 관련 어원·수용사: [[word-odyssey|Odyssey]], [[word-polytropos|Polytropos]], [[word-agathos|Agathos]]
 - 추가 연구: [[analysis-polytropos|폴리트로포스 추가 연구]]
 
 ---
 
-## 작성된 핵심 개념 (10종)
+## 작성된 핵심 개념 (18종)
 
 - [[concept-time|티메]] (τιμή) — 신적 배당과 인정 경제의 가치 체계
+- [[concept-geras|게라스]] (γέρας) — 티메의 가시적 특권 몫 (게라스–티메 쌍)
+- [[concept-themis|테미스]] (θέμις) — 신성한 선례·아고라 판례의 총체
+- [[concept-dike|디케]] (δίκη) — 올곧은 판결선이자 제우스의 정의 (테미스–디케 쌍)
 - [[concept-menis|메니스]] (μῆνις) — 우주적 질서를 흔드는 신적 분노
 - [[concept-aidos|아이도스]] (αἰδώς) — 수치심, 경외, 자기억제
 - [[concept-nemesis|네메시스]] (νέμεσις) — 몫과 질서를 수호하는 공적 의분
 - [[concept-hikesia|히케시아]] (ἱκεσία) — 신체 접촉을 통한 신성한 탄원
 - [[concept-xenia|크세니아]] (ξενία) — 손님 환대와 상호부조
-- [[concept-eleos|엘레오스]] (ἔλεος) — 연민과 오익토스
+- [[concept-eleos|엘레오스]] (ἔλεος) — 적극적 구호 추진력으로서의 연민
+- [[concept-oiktos|오익토스]] (οἶκτος) — 굴욕 목격에서 오는 억제와 존엄 복원 (오익토스–엘레오스 쌍)
 - [[concept-agathos|아가토스]] (ἀγαθός) — 영웅적 탁월자와 결과주의적 성공
+- [[concept-arete|아레테]] (ἀρετή) — 기능적 탁월성과 실천적 유능
+- [[concept-kleos|클레오스]] (κλέος) — 노래로 전해지는 불멸의 명성
+- [[concept-nostos|노스토스]] (νόστος) — 귀향과 오이코스 질서의 회복
+- [[concept-moira|모이라]] (μοῖρα) — 배당된 몫이자 필멸의 한계
 - [[concept-ate|아테]] (ἄτη) — 신들이 내린 일시적 판단 마비와 치명적 과오
-- [[concept-epic-cycle|에픽 사이클]] (ἐπικὸς κύকλος) — 트로이아 전쟁 전말을 잇는 서사시 연작
+- [[concept-epic-cycle|에픽 사이클]] (ἐπικὸς κύκλος) — 트로이아 전쟁 전말을 잇는 서사시 연작
 
 ---
 

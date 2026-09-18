@@ -6,25 +6,31 @@
 
 ## 1.디렉토리 구조
 
+공개 지식베이스(KB)와 도구·문서(tooling/docs)를 구분한다. **폴더 경로가 1차 분류**이고, YAML `type/`·`domain/`·`status/` 태그는 검색·필터용 보조 신호이다(폴더와 태그를 중복 진실 공급원으로 만들지 않는다).
+
 ```
 c:/Vault/Homer_wiki/
-├── AGENTS.md              # 이 파일 (운영 지침 및 지식베이스 스키마)
-├── raw/                   # 원본 소스 (불변, 원문, 번역본, 논문 등)
-│   ├── assets/            # 지도, 계보도, 이미지 등 첨부파일
-│   └── README.md          # 소스 문서 추가 안내
-├── wiki/                  # LLM이 생성·관리하는 마크다운 위키 페이지
-│   ├── index.md           # 전체 페이지 카탈로그 및 인덱스
-│   ├── log.md             # 작업 시간순 기록 타임라인
-│   ├── overview.md        # 위키 대시보드 / 호메로스 서사시 개요
-│   ├── sources/           # 텍스트 및 서적 요약 문서 (<author>-<year>-<title>.md)
-│   ├── entities/          # 영웅, 신, 국가, 장소 등 개체 문서 (entity-<name>.md)
-│   ├── concepts/          # Kleos, Xenia, Nostos 등 핵심 개념 문서 (concept-<name>.md)
-│   ├── analyses/          # 서사 구조, 에피소드 비교, 비평 문서 (analysis-<title>.md)
-│   └── meta/              # 용어집, 구조 안내 등 메타 문서
-└── words/                 # 호메로스 어원·영단어 수용사 사전 (독립 지식베이스)
-    ├── _template.md       # 표준 단어 어원 분석 문서 템플릿
-    ├── index.md           # 단어 사전 카탈로그 및 색인
-    └── word-<name>.md     # 개별 단어 어원·수용사 분석 문서 (word-<name>.md)
+├── AGENTS.md              # 운영 지침 (스키마 SoT)
+├── CONTEXT.md / DESIGN.md # 편집·디자인 맥락 (tooling/docs)
+├── package.json / scripts/# 검증·매트릭스 도구 (tooling)
+├── quartz.config.yaml     # 정적 사이트 설정 (tooling)
+├── raw/                   # 원본 소스 (불변; PDF는 gitignore)
+│   ├── assets/
+│   └── README.md
+├── wiki/                  # 공개 KB 본문
+│   ├── index.md
+│   ├── overview.md
+│   ├── log/               # 월별 작업 이력 (YYYY-MM.md) + 얇은 index
+│   ├── sources/
+│   ├── entities/
+│   ├── concepts/
+│   ├── analyses/
+│   └── meta/
+├── words/                 # 어원 사전 (공개 KB; 어원 SoT)
+│   ├── _template.md
+│   ├── index.md
+│   └── word-<name>.md
+└── docs/                  # ADR·편집 가이드 (tooling/docs)
 ```
 
 ---
@@ -54,6 +60,11 @@ status: draft | active | review | archived
   - `words/`: 사전·문헌의 서지 표제. 아직 출처가 없으면 `[]`를 사용합니다.
 
 #### 그리스어 읽기 UX 운영 규칙
+
+#### 어원 단일 원천 (Etymology SoT)
+
+- **어원·수용사의 단일 원천은 `words/`** 이다. 개념·엔티티 본문에 긴 어원 계통을 복제하지 않는다.
+- 개념 페이지의 어원 절은 **3–5행 요약 + `[[word-*]]` 링크**로 끝낸다. 상세 PIE·라틴·근대 수용은 단어 문서에만 둔다.
 
 - 정식 개념·엔티티·단어 페이지는 `korean_name`, `conventional_latin`, `greek`, `transliteration`, `transliteration_system`, `cssclasses`를 단일 원천으로 둔다. `transliteration_system`은 `homeric-oriented-v1`, `cssclasses`에는 `greek-reading-page`를 포함한다.
 - 개념·엔티티 제목과 H1은 `한국어명 (관용 라틴명)`, 단어 제목과 H1은 `영어 표제어 (한국어명)`으로 일치시킨다. 그리스어와 학술 전사는 제목에 넣지 않는다.
@@ -98,7 +109,7 @@ status: draft | active | review | archived
   - **어원**: `- [[word-<name>|영어 표제어 (한국어명)]] — [*대표 파생어 1*, *대표 파생어 2*, ...]` (현대 주요 파생어를 기울임꼴로 간결하게 나열)
   - **분석**: `- [[analysis-<name>|분석 문서 제목]] — [분석 주제 및 학술적 기여]`
   - **문헌**: `- [[<author>-<year>-<title>|저자 (연도), 도서/논문명]] — [핵심 연구 테제]`
-- 모든 페이지 하단에는 `## 관련 항목` 섹션을 포함하여 관련 페이지 링크를 묶어 배치합니다. 단, 시계열을 계속 덧붙이는 `wiki/log.md`는 이 규칙에서 제외합니다.
+- 모든 페이지 하단에는 `## 관련 항목` 섹션을 포함하여 관련 페이지 링크를 묶어 배치합니다. 단, 시계열을 계속 덧붙이는 `wiki/log/`는 이 규칙에서 제외합니다.
 
 #### 머메이드 다이어그램 표준 규격
 
@@ -155,7 +166,7 @@ status: draft | active | review | archived
 - 서브그래프 제목은 **네이티브 라벨**을 쓴다. 예: `subgraph Divine ["초월적 층위 (제우스와 모이라)"]`.
 - 서브그래프 제목은 CSS(`white-space: nowrap`, `width: max-content`)로 **기본 한 줄**이다. 긴 제목이 클러스터 폭에 맞춰 자동 줄바꿈되지 않게 한다. 의도적 줄바꿈이 필요하면 제목에 `<br/>`를 넣을 수 있으나, 렌더러에 따라 무시될 수 있으니 제목은 짧게 유지하는 편이 안전하다.
 - 내부에 `direction TB` 또는 `direction LR`를 명시한다.
-- 특정 Obsidian/Quartz 조합에서 제목 관통이 재현되면, 더미 배너 노드를 표준화하지 말고 **해당 환경의 예외와 최소 우회**를 `wiki/log.md`와 이 절에 기록한다.
+- 특정 Obsidian/Quartz 조합에서 제목 관통이 재현되면, 더미 배너 노드를 표준화하지 말고 **해당 환경의 예외와 최소 우회**를 `wiki/log/`와 이 절에 기록한다.
 
 ##### 최소 예시 (구조만 — 색은 CSS)
 ```mermaid
@@ -216,7 +227,7 @@ flowchart TD
 2. **핵심 요약 공유**: 사용자에게 핵심 인사이트 3-5개를 공유하고 논의합니다.
 3. **소스 문서 생성**: `wiki/sources/` 하위에 서지 정보, 핵심 요약, 인용 구절, 관련 위키 링크를 포함한 소스 문서를 작성합니다.
 4. **연관 위키 갱신**: 해당 소스와 관련된 `entities/`, `concepts/`, `analyses/`, `words/` 페이지를 업데이트하고 교차 참조를 형성합니다.
-5. **인덱스 및 로그 업데이트**: `wiki/index.md` 카탈로그, `words/index.md` 및 `wiki/log.md` 타임라인을 최신화합니다.
+5. **인덱스 및 로그 업데이트**: `wiki/index.md` 카탈로그, `words/index.md` 및 `wiki/log/` 타임라인을 최신화합니다.
 
 ### 3.2 질의 및 합성 (Query Workflow)
 
@@ -231,7 +242,7 @@ flowchart TD
 - Mermaid 다이어그램은 `AGENTS.md` 2.4절 「머메이드 다이어그램 표준 규격」을 따른다. 인라인 색상·`classDef` 스타일·목록 문법 충돌·과밀 노드 검사는 `validate-wiki.mjs`에 규칙이 추가되면 그것으로 강제하고, 그 전에는 해당 절의 체크리스트로 수동 검수한다.
 - 개념×문헌 매트릭스는 `node scripts/build-concept-source-matrix.mjs --check`로 동기화 상태를 검사합니다.
 - 의도한 미래 페이지 링크와 템플릿 자리표시는 `scripts/allowed-red-links.json`에 등록합니다. 등록되지 않았거나 더 이상 사용하지 않는 빨간 링크는 검증 실패로 처리합니다.
-- 검수 결과와 수정 내역을 `wiki/log.md`에 기록합니다.
+- 검수 결과와 수정 내역을 `wiki/log/`에 기록합니다.
 
 ---
 
@@ -240,7 +251,7 @@ flowchart TD
 - `wiki/overview.md`: 위키 대시보드. 서사시 전체 구조 및 메인 주제 지도.
 - `wiki/index.md`: 카테고리별 전체 위키 문서 목록 및 요약.
 - `words/index.md`: 어원·영단어 사전 전체 카탈로그 및 색인.
-- `wiki/log.md`: 시계열 작업 이력 (`## [YYYY-MM-DD] 작업유형 | 제목`).
+- `wiki/log/`: 시계열 작업 이력 (`## [YYYY-MM-DD] 작업유형 | 제목`).
 
 ---
 
@@ -248,7 +259,7 @@ flowchart TD
 
 1. `raw/` 폴더 내 원본 파일은 **절대로 직접 수정하지 않는다**.
 2. `wiki/` 및 `words/` 폴더 내 위키/단어 파일은 지식 축적을 위해 자유롭게 생성·수정·보완한다.
-3. 작업 수행 내역은 항상 `wiki/log.md`에 기록하고 `wiki/index.md` 및 `words/index.md` 상태를 최신으로 유지한다.
+3. 작업 수행 내역은 항상 `wiki/log/`에 기록하고 `wiki/index.md` 및 `words/index.md` 상태를 최신으로 유지한다.
 
 ---
 
@@ -279,7 +290,7 @@ flowchart TD
 - `concepts` : `wiki/concepts/` Arete, Aidos, Dike 등 핵심 개념 문서
 - `analyses` : `wiki/analyses/` 서사 비교, 윤리학 종합 분석 문서
 - `words` : `words/` 단어 어원 및 영단어 수용사 분석 문서
-- `meta` : `wiki/index.md`, `words/index.md`, `wiki/overview.md`, `wiki/log.md`, `AGENTS.md`
+- `meta` : `wiki/index.md`, `words/index.md`, `wiki/overview.md`, `wiki/log/`, `AGENTS.md`
 - `all` : 전체 문서 대상 일괄 작업 시
 
 ### 6.4 4대 작성 원칙
@@ -287,4 +298,4 @@ flowchart TD
 1. **이모지(Emoji) 절대 금지**: 커밋 메시지 제목 및 본문에 이모지를 일체 포함하지 않는다.
 2. **50자 이내 간결한 제목**: 핵심 변경 대상을 명확히 서술한다.
 3. **명사형/개조식 종결**: `~추가`, `~수정`, `~개편`, `~정정` 등으로 명료하게 종결한다.
-4. **`wiki/log.md` 연동**: 커밋 전 반드시 `wiki/log.md`에 동일한 작업 내역을 시계열로 기록한다.
+4. **`wiki/log/` 연동**: 커밋 전 반드시 `wiki/log/`에 동일한 작업 내역을 시계열로 기록한다.

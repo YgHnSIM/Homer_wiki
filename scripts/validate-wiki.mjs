@@ -28,7 +28,10 @@ const ALLOWED_RED_LINKS = new Set(allowedRedLinkEntries)
 if (ALLOWED_RED_LINKS.size !== allowedRedLinkEntries.length) {
   throw new Error(`${RED_LINK_POLICY_PATH}에 중복된 대상이 있습니다.`)
 }
-const RELATED_EXCEPTIONS = new Set(["wiki/log.md"])
+const RELATED_EXCEPTIONS = new Set(["wiki/log.md"]) // legacy
+function isLogPath(relativePath) {
+  return relativePath === "wiki/log.md" || relativePath.startsWith("wiki/log/")
+}
 const PATH_LINK_EXCEPTIONS = new Set([
   "wiki/index",
   "words/index",
@@ -131,7 +134,7 @@ for (const { relativePath, markdown } of records) {
 
   const outside = linesOutsideFences(markdown)
   const h2Headings = outside.filter(({ line }) => /^## /.test(line)).map(({ line }) => line.trim())
-  if (!RELATED_EXCEPTIONS.has(relativePath) && h2Headings.at(-1) !== "## 관련 항목") {
+  if (!isLogPath(relativePath) && !RELATED_EXCEPTIONS.has(relativePath) && h2Headings.at(-1) !== "## 관련 항목") {
     addError(relativePath, "마지막 H2가 정확한 '## 관련 항목'이 아닙니다.")
   }
 

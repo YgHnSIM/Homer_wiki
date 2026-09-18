@@ -14,7 +14,7 @@ configuration:
     - .obsidian
     - "**/_template.md"
     - "_template.md"
-    - wiki/log.md
+    - wiki/log/
     - wiki/meta/**
     - "**/entity-framework.md"
   theme:
