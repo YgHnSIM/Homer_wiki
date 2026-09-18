@@ -36,7 +36,8 @@ jobs:
         run: npm ci
 
       - name: Validate Wiki Structure
-        run: npm run check
+        # raw/**/*.pdf are author-local/gitignored; validators must not require them in CI.
+        run: npm run check:ci
 
       - name: Setup Quartz Engine
         run: |

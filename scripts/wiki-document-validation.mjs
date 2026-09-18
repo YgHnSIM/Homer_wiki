@@ -66,6 +66,18 @@ function isHttpUrl(source) {
   )
 }
 
+function requireRawPdfPresence() {
+  return process.env.HOMER_REQUIRE_RAW === "1"
+}
+
+function isLocalPdfBibliography(source) {
+  return /\.pdf$/i.test(String(source).trim())
+}
+
+function rawSourceCandidatePath(rawRoot, source) {
+  return path.resolve(rawRoot, source)
+}
+
 function validateSourcePageSources({ root, relativePath, sources, sourceNodes, addError }) {
   const hasUnquotedRestrictedSource = sources.some((source, index) => {
     const requiresQuotes =
@@ -77,13 +89,29 @@ function validateSourcePageSources({ root, relativePath, sources, sourceNodes, a
     addError(relativePath, "소스 페이지의 쉼표 포함 값·PDF명·URL은 항목별로 인용해야 합니다.")
   }
 
+  // Policy: raw/**/*.pdf are author-local (gitignored). CI clones have no PDFs.
+  // Missing .pdf bibliography filenames are allowed unless HOMER_REQUIRE_RAW=1.
+  // Existing paths that escape raw/ still fail.
   const rawRoot = path.join(root, "raw")
   for (const source of sources) {
-    if (!isHttpUrl(source) && !isFileWithin(rawRoot, source)) {
-      addError(relativePath, `raw 원본을 찾을 수 없습니다: ${source}`)
+    if (isHttpUrl(source)) continue
+
+    const candidate = rawSourceCandidatePath(rawRoot, source)
+    const exists = fs.existsSync(candidate)
+    if (exists) {
+      if (!isFileWithin(rawRoot, source)) {
+        addError(relativePath, `raw 원본을 찾을 수 없습니다: ${source}`)
+      }
+      continue
     }
+
+    if (isLocalPdfBibliography(source) && !requireRawPdfPresence()) {
+      continue
+    }
+    addError(relativePath, `raw 원본을 찾을 수 없습니다: ${source}`)
   }
 }
+
 
 function validatesWikiSourceReferences(relativePath) {
   return (

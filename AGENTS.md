@@ -299,3 +299,12 @@ flowchart TD
 2. **50자 이내 간결한 제목**: 핵심 변경 대상을 명확히 서술한다.
 3. **명사형/개조식 종결**: `~추가`, `~수정`, `~개편`, `~정정` 등으로 명료하게 종결한다.
 4. **`wiki/log/` 연동**: 커밋 전 반드시 `wiki/log/`에 동일한 작업 내역을 시계열로 기록한다.
+
+
+### raw PDF 존재 검증 정책 (CI)
+
+- `raw/**/*.pdf`는 **작성자 로컬 자산**이며 공개 저장소/CI 클론에 없어도 된다.
+- 기본 `npm run check` / `npm run check:ci`는 누락된 `*.pdf` 서지 파일명을 오류로 취급하지 않는다.
+- 로컬에서 PDF 실파일을 강제 검증하려면 `npm run check:raw` (`HOMER_REQUIRE_RAW=1`).
+- 운영 기록: `docs/ops/2026-09-18-deploy-failure-missing-raw-pdf.md`
+

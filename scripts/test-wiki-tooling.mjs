@@ -76,6 +76,28 @@ try {
   assertFailure(invalidSourceResult, "raw 원본을 찾을 수 없습니다: not-a-real-source")
   fs.writeFileSync(sourcePath, originalSource)
 
+  // Missing bibliographic PDFs are author-local by default (CI has no raw/*.pdf).
+  fs.writeFileSync(
+    sourcePath,
+    originalSource.replace(
+      /^sources:.*$/m,
+      'sources: ["Missing Local Paper (1999).pdf"]',
+    ),
+  )
+  assertSuccess(
+    run(VALIDATOR),
+    "A missing .pdf bibliography under raw/ should pass without HOMER_REQUIRE_RAW.",
+  )
+  const previousRequireRaw = process.env.HOMER_REQUIRE_RAW
+  process.env.HOMER_REQUIRE_RAW = "1"
+  assertFailure(
+    run(VALIDATOR),
+    "raw 원본을 찾을 수 없습니다: Missing Local Paper (1999).pdf",
+  )
+  if (previousRequireRaw === undefined) delete process.env.HOMER_REQUIRE_RAW
+  else process.env.HOMER_REQUIRE_RAW = previousRequireRaw
+  fs.writeFileSync(sourcePath, originalSource)
+
   fs.writeFileSync(
     sourcePath,
     originalSource.replace(/^sources:.*$/m, "sources: [HTTPS://example.com/source]"),
